@@ -2,10 +2,14 @@
  * Claude AI Client Wrapper
  *
  * Handles:
- * - API initialization
+ * - API initialization with key validation
  * - Rate limiting
  * - Budget tracking
  * - Error handling
+ *
+ * Key Management:
+ * - DEV: .env file (ANTHROPIC_API_KEY)
+ * - PROD: Fly.io secrets (fly secrets set ANTHROPIC_API_KEY=xxx)
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
@@ -14,6 +18,14 @@ const Anthropic = require('@anthropic-ai/sdk');
 const DEFAULT_MODEL = 'claude-sonnet-4-20250514';
 const HAIKU_MODEL = 'claude-haiku-3-5-20241022';
 const MAX_OUTPUT_TOKENS = 1000;
+
+// Environment detection
+const ENV = {
+  isDev: process.env.NODE_ENV !== 'production',
+  isProd: process.env.NODE_ENV === 'production',
+  isFly: !!process.env.FLY_APP_NAME,
+  name: process.env.NODE_ENV || 'development'
+};
 
 // Budget tracking (in-memory, resets on restart)
 let dailySpend = 0;
@@ -26,15 +38,72 @@ const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
 const MAX_REQUESTS_PER_MINUTE = 30;
 
 /**
+ * Validate API key format
+ * @param {string} key - API key to validate
+ * @returns {Object} { valid: boolean, error?: string }
+ */
+function validateApiKey(key) {
+  if (!key) {
+    return {
+      valid: false,
+      error: 'ANTHROPIC_API_KEY not set.\n' +
+        (ENV.isDev
+          ? '  → Copy .env.example to .env and add your key'
+          : '  → Set via: fly secrets set ANTHROPIC_API_KEY=sk-ant-...')
+    };
+  }
+
+  if (typeof key !== 'string') {
+    return { valid: false, error: 'API key must be a string' };
+  }
+
+  // Check format: should start with sk-ant-
+  if (!key.startsWith('sk-ant-')) {
+    return {
+      valid: false,
+      error: 'Invalid API key format. Anthropic keys start with "sk-ant-"\n' +
+        '  → Get your key from: https://console.anthropic.com/settings/keys'
+    };
+  }
+
+  // Check minimum length (real keys are ~100+ chars)
+  if (key.length < 40) {
+    return {
+      valid: false,
+      error: 'API key appears truncated. Check for copy/paste errors.'
+    };
+  }
+
+  // Check for placeholder values
+  if (key.includes('your-key') || key.includes('xxx') || key.includes('...')) {
+    return {
+      valid: false,
+      error: 'API key contains placeholder text. Replace with your real key.'
+    };
+  }
+
+  return { valid: true };
+}
+
+/**
  * Create Anthropic client
  * @param {string} apiKey - Optional API key (uses env if not provided)
  * @returns {Object} Anthropic client instance
+ * @throws {Error} If key missing or invalid
  */
 function createClient(apiKey = null) {
   const key = apiKey || process.env.ANTHROPIC_API_KEY;
 
-  if (!key) {
-    throw new Error('ANTHROPIC_API_KEY not set. Copy .env.example to .env and add your key.');
+  // Validate key format
+  const validation = validateApiKey(key);
+  if (!validation.valid) {
+    throw new Error(validation.error);
+  }
+
+  // Log environment (not the key!)
+  if (ENV.isDev) {
+    console.log(`[AI Client] Environment: ${ENV.name}${ENV.isFly ? ' (Fly.io)' : ''}`);
+    console.log(`[AI Client] Key: sk-ant-****${key.slice(-4)}`);
   }
 
   return new Anthropic({ apiKey: key });
@@ -192,13 +261,22 @@ function getUsageStats() {
 }
 
 module.exports = {
+  // Configuration
   DEFAULT_MODEL,
   HAIKU_MODEL,
   MAX_OUTPUT_TOKENS,
+  ENV,
+
+  // Client creation
+  validateApiKey,
   createClient,
+
+  // Rate limiting & budget
   checkRateLimit,
   checkBudget,
   trackUsage,
+
+  // API calls
   chat,
   quickChat,
   getUsageStats
