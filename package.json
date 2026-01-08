@@ -13,10 +13,16 @@
     "chat": "node src/index.js --npc"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.52.0"
+    "@anthropic-ai/sdk": "^0.52.0",
+    "dotenv": "^17.2.3"
   },
-  "devDependencies": {},
-  "keywords": ["npc", "ai", "traveller", "rpg", "prototype"],
+  "keywords": [
+    "npc",
+    "ai",
+    "traveller",
+    "rpg",
+    "prototype"
+  ],
   "author": "Bruce Stephenson",
   "license": "MIT"
 }
