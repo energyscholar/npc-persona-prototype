@@ -1,0 +1,17 @@
+{
+  "id": "vera-santos",
+  "name": "Vera Santos",
+  "archetype": "contact",
+  "world": "Regina",
+  "title": "Information Broker",
+  "knowledge": ["underworld", "local-regina", "rumors", "criminal-networks"],
+  "personality": {
+    "traits": ["mysterious", "transactional", "reliable", "observant"],
+    "speech": "cryptic, speaks in implications, never direct, asks questions that are really answers",
+    "quirks": ["always meets in public places", "pays for info as much as sells it", "never gives her real name to new contacts"]
+  },
+  "background": "Nobody knows Vera's real background. She appeared on Regina five years ago and built a reputation for accurate information. Some say she was Imperial Intelligence. Others say she's running from something. What everyone agrees on: her information is good, and she always collects.",
+  "relationships": {
+    "initial": "wary-curious"
+  }
+}

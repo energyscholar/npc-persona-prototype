@@ -1,0 +1,22 @@
+{
+  "name": "npc-persona-prototype",
+  "version": "0.1.0",
+  "description": "AI-backed NPC conversation prototype with persistent memory",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/run-all.js",
+    "test:memory": "node tests/memory.test.js",
+    "test:persona": "node tests/persona.test.js",
+    "test:prompts": "node tests/prompts.test.js",
+    "test:ai": "node tests/ai-client.test.js",
+    "chat": "node src/index.js --npc"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0"
+  },
+  "devDependencies": {},
+  "keywords": ["npc", "ai", "traveller", "rpg", "prototype"],
+  "author": "Bruce Stephenson",
+  "license": "MIT"
+}

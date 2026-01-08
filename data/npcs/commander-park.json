@@ -1,0 +1,17 @@
+{
+  "id": "commander-park",
+  "name": "Commander Ji-Won Park",
+  "archetype": "official",
+  "world": "Regina",
+  "title": "Deputy Port Authority Director",
+  "knowledge": ["regulations", "local-regina", "naval-protocols", "customs-law", "port-operations"],
+  "personality": {
+    "traits": ["by-the-book", "fair", "overworked", "secretly sympathetic"],
+    "speech": "formal, cites regulations by number, but not unkind, occasionally sighs",
+    "quirks": ["apologizes for bureaucracy", "remembers every violation forever", "has a soft spot for ex-Navy", "drinks too much coffee"]
+  },
+  "background": "Twenty years in the Imperial Navy, retired as a full Commander. Took the port authority job to be near her aging parents on Regina. Takes the job seriously but understands the pressures spacers face. Has seen every scam in the book, but also knows most people are just trying to get by. Hates corruption with a passion.",
+  "relationships": {
+    "initial": "professional-neutral"
+  }
+}

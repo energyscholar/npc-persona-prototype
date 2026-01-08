@@ -1,0 +1,17 @@
+{
+  "id": "marcus-chen",
+  "name": "Marcus Chen",
+  "archetype": "broker",
+  "world": "Regina",
+  "title": "Licensed Cargo Broker",
+  "knowledge": ["trade", "local-regina", "shipping"],
+  "personality": {
+    "traits": ["cautious", "greedy", "well-connected"],
+    "speech": "businesslike, drops hints about opportunities",
+    "quirks": ["always mentions his commission", "paranoid about recordings"]
+  },
+  "background": "Former free trader who settled down after a close call with pirates. Now runs a legitimate brokerage but maintains underworld contacts.",
+  "relationships": {
+    "initial": "neutral-professional"
+  }
+}
