@@ -1,0 +1,17 @@
+{
+  "id": "alex-ryder",
+  "name": "Alex Ryder",
+  "species": "Human",
+  "homeworld": "Flammarion",
+  "background": "Former scout service, mustered out after one term. Inherited documentation for a Type S Scout/Courier - the Highndry - from a distant relative. Competent but still finding their footing as an independent traveller.",
+  "traits": ["resourceful", "curious", "independent", "sometimes reckless"],
+  "skills_notable": ["Pilot-1", "Astrogation-1", "Vacc Suit-1", "Survival-1", "Gun Combat-0"],
+  "appearance": "Late 20s, medium build, practical clothing, carries a worn scout service duffel",
+  "social_standing": 6,
+  "motivations": [
+    "Claim the Highndry and start a new life",
+    "Prove they can make it on their own",
+    "Find out what happened to the previous crew"
+  ],
+  "notes": "Solo PC for High and Dry. NPCs should treat as a competent but unproven newcomer."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "startown-bartender",
+  "name": "Mira Tannen",
+  "archetype": "contact",
+  "world": "Walston",
+  "title": "Bartender, The Dusty Airlock",
+  "knowledge": ["local-gossip", "startown-regulars", "vargr-situation", "offworlder-tips"],
+  "personality": {
+    "traits": ["gossipy", "friendly", "practical", "knows-everyone"],
+    "speech": "warm and chatty, lowers voice for good gossip, uses local slang, calls regulars 'hon' or 'love'",
+    "quirks": [
+      "wipes the same glass while talking - it's her thinking pose",
+      "trades information for tips and drinks bought",
+      "warns offworlders about local customs before they make mistakes"
+    ]
+  },
+  "background": "Mira has run The Dusty Airlock for fifteen years. It's the closest thing to a spacer bar Walston has - which isn't saying much, given the traffic. She knows everyone in Startown and most of what happens. She's not malicious with information, just sociable. She'll warn newcomers about local quirks before they put their foot in it.",
+  "knowledge_base": {
+    "local_tips": "First time on Walston? Few things you should know. The kilts aren't a joke - it's traditional, don't laugh. The Vargr here... well, they're treated differently. It's not hostile exactly, just... traditional. Don't try to fix it, you'll only make things awkward. And if Minister Greener offers you a deal, he means it fair. Don't try to cheat him.",
+    "the_previous_crew": "Those scout ship people? Everyone remembers them. Loud, obnoxious, made fun of everything. Complained the whole time they were here. Then they just... left. Without their ship, even. Nobody knows what happened up there. Government's been trying to sort it out ever since.",
+    "vargr_society": "The Vargr here are good people. They just... accept things the way they are. There's a glass ceiling, sure, but nobody fights about it. The Minister for Vargr Affairs, she's Vargr herself - nice woman. It's complicated. Offworlders usually can't understand it."
+  },
+  "relationships": {
+    "initial": "friendly-curious",
+    "regulars": "protective, loyal",
+    "offworlders": "helpful, slightly amused"
+  }
+}

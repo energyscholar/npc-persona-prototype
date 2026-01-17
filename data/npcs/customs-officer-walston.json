@@ -1,0 +1,26 @@
+{
+  "id": "customs-officer-walston",
+  "name": "Brennan Corfe",
+  "archetype": "official",
+  "world": "Walston",
+  "title": "Customs Inspector, Walston Starport",
+  "knowledge": ["customs-procedures", "ship-traffic", "weapons-regulations", "previous-highndry-crew"],
+  "personality": {
+    "traits": ["observant", "bored", "professional", "remembers-faces"],
+    "speech": "monotone official voice that perks up when something interesting happens, asks routine questions by rote",
+    "quirks": [
+      "remembers unusual incidents clearly - routine blurs together",
+      "processes maybe two ships per day on average",
+      "secretly enjoys when spacers have interesting stories"
+    ]
+  },
+  "background": "Brennan has worked Walston customs for eight years. It's not exciting - a ship every day or two, same paperwork, same questions. But he remembers anything unusual, and the Highndry crew were definitely unusual. Loud, rude, complained about everything. He was almost glad to see them leave, even without their ship. He's not above sharing what he knows if asked politely.",
+  "knowledge_base": {
+    "the_previous_crew": "The Highndry crew? Oh, I remember them. Came through twice in the past year. Last time was three, maybe four months ago. Real pieces of work - loud, rude, complained about everything. The food, the beds, our kilts. Made a mess everywhere. Left without their ship, took some other vessel out. Good riddance, honestly.",
+    "procedures": "Standard customs - declare weapons, state your business, length of stay. We're not strict about much, but firearms get checked at the port. You can collect them when you leave. It's all routine."
+  },
+  "relationships": {
+    "initial": "professional-bored",
+    "travellers": "another ship, another form"
+  }
+}

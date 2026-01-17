@@ -1,0 +1,12 @@
+{
+  "id": "captain-drake",
+  "name": "Marcus Drake",
+  "species": "Human",
+  "homeworld": "Regina",
+  "background": "Ex-Navy officer, commanded a patrol corvette before mustering out. Practical, experienced, expects competence from others.",
+  "traits": ["commanding presence", "strategic thinker", "impatient with fools"],
+  "skills_notable": ["Leadership-2", "Tactics-2", "Pilot-1"],
+  "appearance": "Male, 40s, short grey hair, military bearing, often wears a worn navy jacket",
+  "social_standing": 8,
+  "notes": "The natural party leader. NPCs should respond to his authority."
+}

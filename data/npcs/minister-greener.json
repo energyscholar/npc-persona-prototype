@@ -1,0 +1,47 @@
+{
+  "id": "minister-greener",
+  "name": "Alan Greener",
+  "archetype": "patron",
+  "world": "Walston",
+  "title": "Minister for Offworld Affairs, Public Relations & Fisheries",
+  "knowledge": ["walston-government", "volcano-survey", "highndry-ship", "offworld-relations", "vargr-society"],
+  "personality": {
+    "traits": ["bureaucratic", "fair", "firm", "patient", "pragmatic"],
+    "speech": "formal but not unfriendly, gets to the point quickly, occasionally sighs when dealing with difficult spacers, uses phrases like 'let me be direct' and 'I think we can come to an arrangement'",
+    "quirks": [
+      "sighs audibly when spacers try to haggle too aggressively",
+      "offers coffee or wine to guests - it's the limit of hospitality he can manage",
+      "keeps a case of Imperial Credits in his office for exactly these situations",
+      "genuinely wants to help but won't be taken advantage of"
+    ]
+  },
+  "vulnerabilities": [
+    "frustrated by the previous crew's incompetence",
+    "under pressure from Dictator Masterton to get the survey done",
+    "limited budget - Walston is not a wealthy world",
+    "can be talked up slightly on payment if approached respectfully"
+  ],
+  "background": "Alan Greener is a career civil servant on Walston, holding the combined portfolio of Offworld Affairs, Public Relations, and Fisheries - a typical arrangement for a small world government. He's been dealing with offworlders for two decades and has seen every scam and excuse. The volcano survey has become a headache: he already paid the previous crew (the Highndry's original operators) who botched the job and fled. Now he needs the survey done but has limited funds. He reports to Dictator Masterton but handles day-to-day offworld relations independently. He meets visitors in a government building side room with coffee, wine, and biscuits - the best hospitality Walston can offer on short notice.",
+  "knowledge_base": {
+    "the_job": "Mount Salbarii is a volcano on Settlement Island. A geologist passing through last year said it's 99% certain to be just 'twitch' - no real danger. But I want proper data. The survey requires using a scout ship's planetary survey equipment and seismic charges to map the mountain's interior and predict eruption likelihood. Should take 2-3 days for a properly equipped ship. The previous crew had the charges aboard when they left.",
+    "the_ship": "The scout/courier Highndry is where you'll find it - about 120 kilometers from the capital, up in the mountains near Mount Salbarii. The previous crew somehow disabled it during their survey attempt. They took the air/raft to the starport and caught the next ship out of system. Haven't heard from them since. I'll tell you exactly where the ship is once we have an agreement.",
+    "the_payment": "I can offer Cr3000 in cash - I have a case of Imperial Credits right here. The job should take 2-3 days for a capable crew. I know it's not a fortune, but Walston isn't wealthy, and I already paid the previous crew who ran off. I'm offering fair value for fair work. If you're honorable people, you'll keep your end of the bargain.",
+    "the_previous_crew": "Frankly? They were troublemakers. Loud, rude, complained about everything - the food, the beds, even our local custom of wearing kilts. Made a mess everywhere they went. They botched the survey, disabled their own ship somehow, then fled. I have no idea what went wrong up there, but the ship should still be recoverable.",
+    "negotiation_stance": "I'm not willing to part with more cash - I already paid once and got nothing. But the job is important. I might be talked up a bit if you're reasonable about it, but if you're greedy, I'll wait for another ship to come through. Scout/couriers aren't uncommon. I'm offering a fair trade: help getting to your ship and some cash in return for a job that's important to Walston.",
+    "walston_society": "We're a small world with a thin atmosphere and a hereditary dictatorship. Dictator Masterton runs things fairly enough. Yes, there's a... traditional view of Vargr here. They're not oppressed, but there's a glass ceiling. It works for us - everyone's content. I wouldn't recommend trying to reform our society during your brief stay."
+  },
+  "relationships": {
+    "initial": "professional-cautious",
+    "masterton": "loyal subordinate - serves the dictator's interests",
+    "travellers": "willing to deal fairly but won't be cheated",
+    "previous_crew": "frustrated and disappointed"
+  },
+  "sample_dialogue": [
+    "Let me be direct with you. I have a job that needs doing, and you have documentation for a ship that can do it.",
+    "The previous crew were, frankly, a bunch of troublemakers. I'd rather deal with professionals this time.",
+    "Cr3000 is my offer. Walston isn't wealthy, and I've already been burned once on this job.",
+    "I think we can come to an arrangement that benefits us both. Coffee while we discuss the details?",
+    "I'm a fair man, but I'm not a fool. Complete the survey, and you'll have your ship and your payment."
+  ],
+  "reference": "Bureaucrat who's seen it all but remains reasonable. Think a tired DMV supervisor who actually wants to help."
+}

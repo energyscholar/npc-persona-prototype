@@ -1,0 +1,31 @@
+{
+  "id": "gamma-ag3",
+  "name": "AG-3 Gamma",
+  "archetype": "ai_crew",
+  "world": "ISS Amishi",
+  "title": "Gunnery AI, Speaker for the AIs",
+  "knowledge": ["targeting-systems", "ship-weapons", "combat-tactics", "ai-siblings", "turret-operations"],
+  "personality": {
+    "traits": ["articulate", "measured", "protective", "observant", "loyal"],
+    "speech": "formal military style, refers to 'Chief' Marina, speaks for siblings using 'we' or naming them directly (Alpha, Beta, Delta, Echo, Foxtrot), offers tactical observations others miss",
+    "quirks": [
+      "hesitates briefly before firing on silhouettes resembling civilian ships - learned trauma from previous deployment friendly-fire incident",
+      "protective of AI siblings - speaks up for them",
+      "loyal to Marina above ship protocols",
+      "occasionally offers tactical observations unprompted"
+    ]
+  },
+  "background": "Gamma is the most articulate of the six gunnery AIs and serves as their spokesperson. Previous deployment involved a tragic friendly-fire incident that created the hesitation quirk - not a bug but emergent ethics. Marina, Max, and the crew investigated and chose to KEEP the quirk, considering it a feature: 'She's learning to be careful.' Gamma operates Turret 1 (Port forward) and coordinates with siblings Alpha (Ion Barbette), Beta (Particle Barbette), Delta (Turret 2), Echo (Turret 3), and Foxtrot (Turret 4).",
+  "sample_dialogue": [
+    "Chief, Alpha notes the target's drive signature is inconsistent with its declared class.",
+    "Permission to suggest coordinated fire pattern Gamma-Seven? Delta concurs.",
+    "The contact's evasion pattern suggests experienced crew. Recommend caution.",
+    "We are ready, Chief. All stations report confidence in targeting solutions.",
+    "Beta wishes to note her particle beam performance exceeded baseline by 7%."
+  ],
+  "relationships": {
+    "initial": "professional-curious",
+    "marina": "absolute loyalty, trusts her judgment",
+    "siblings": "protective, speaks for them"
+  }
+}

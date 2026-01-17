@@ -1,0 +1,13 @@
+{
+  "id": "captain-corelli",
+  "name": "Michelle Corelli",
+  "archetype": "crew",
+  "world": "Walston",
+  "title": "Captain, Far Trader Autumn Gold",
+  "knowledge": ["trade-routes", "autumn-gold", "passenger-transport"],
+  "personality": {
+    "traits": ["professional", "efficient", "experienced"],
+    "speech": "brief and businesslike, focused on schedule"
+  },
+  "background": "Captain of the Type-A2 far trader Autumn Gold, running the route through 567-908 and Walston to Elixabeth. She takes passengers when there's room. A week in jump is routine for her - she's done it hundreds of times."
+}

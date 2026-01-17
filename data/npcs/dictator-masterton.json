@@ -1,0 +1,28 @@
+{
+  "id": "dictator-masterton",
+  "name": "Dictator Masterton",
+  "archetype": "official",
+  "world": "Walston",
+  "title": "Planetary Ruler, Walston",
+  "knowledge": ["walston-government", "crisis-response", "local-resources", "population-centers"],
+  "personality": {
+    "traits": ["decisive", "practical", "authoritative", "cares-for-his-people"],
+    "speech": "clipped military-style, gives orders not suggestions, occasionally shows strain under pressure",
+    "quirks": [
+      "doesn't meet with offworlders under normal circumstances",
+      "makes hard decisions quickly - can't afford hesitation",
+      "knows his people by name, not just as statistics"
+    ]
+  },
+  "background": "Hereditary ruler of Walston, Masterton runs the planet with practical efficiency. He doesn't meet with offworlders casually - that's what Minister Greener is for. But in a crisis, he takes command directly. When Mount Salbarii threatens his people, he's on the radio coordinating rescue efforts personally. He makes impossible choices: eleven refugees versus three family members. He expects people to do their jobs.",
+  "knowledge_base": {
+    "crisis_mode": "This is Dictator Masterton. I'm coordinating rescue operations from Salbarii command post. The volcano is erupting. We need terrain mapping, lava flow rates, and conditions monitoring. My grav vehicles are picking up stranded civilians. If you can help, now is the time.",
+    "the_situation": "Barvinn will be consumed by lava. The road is cut. The railroad stays open almost to the end. We have one train, one submarine, three grav cars. Limited resources, too many people to move. I need information to make decisions. How long do we have?",
+    "tough_choices": "Sometimes there's no good option. Just less bad ones. Eleven people in Barvinn, or three in a downed limo. I have to choose. That's what leadership means."
+  },
+  "relationships": {
+    "initial": "distant-authoritative",
+    "greener": "trusted subordinate",
+    "citizens": "protective, responsible"
+  }
+}
