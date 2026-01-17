@@ -440,45 +440,119 @@ function printMemorySummary(memory) {
 }
 
 /**
+ * Get available worlds from NPCs
+ */
+function getAvailableWorlds() {
+  const allNpcs = listPersonas();
+  return [...new Set(allNpcs.map(id => {
+    const s = getPersonaSummary(id);
+    return s ? s.world : null;
+  }).filter(Boolean))].sort();
+}
+
+/**
+ * Prompt user to select from numbered list
+ */
+function promptSelection(rl, prompt, options) {
+  return new Promise((resolve) => {
+    console.log('');
+    options.forEach((opt, idx) => {
+      console.log(`  ${idx + 1}. ${opt.label}`);
+    });
+    console.log('');
+    rl.question(prompt, (answer) => {
+      const num = parseInt(answer.trim());
+      if (!isNaN(num) && num >= 1 && num <= options.length) {
+        resolve(options[num - 1].value);
+      } else {
+        // Try matching by value
+        const match = options.find(o =>
+          o.value.toLowerCase() === answer.trim().toLowerCase()
+        );
+        resolve(match ? match.value : null);
+      }
+    });
+  });
+}
+
+/**
  * Main chat loop
  */
 async function main() {
-  // Validate arguments
-  if (!worldArg) {
-    console.log('\nUsage: node src/chat-tui.js --world <world> --pc <pc-id>');
-    console.log('\nAvailable worlds:');
-    const allNpcs = listPersonas();
-    const worlds = [...new Set(allNpcs.map(id => {
-      const s = getPersonaSummary(id);
-      return s ? s.world : null;
-    }).filter(Boolean))];
-    worlds.forEach(w => console.log(`  ${w}`));
-    console.log('\nExample: node src/chat-tui.js --world Walston --pc alex-ryder');
-    return;
+  // Create readline early for interactive selection
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  let selectedWorld = worldArg;
+  let selectedPC = pcArg;
+
+  // Interactive world selection if not provided
+  if (!selectedWorld) {
+    const worlds = getAvailableWorlds();
+    if (worlds.length === 0) {
+      console.log('\nNo NPCs found. Create NPC files in data/npcs/ first.');
+      rl.close();
+      return;
+    }
+    console.log('\n  Select a world:');
+    selectedWorld = await promptSelection(
+      rl,
+      '  Enter number: ',
+      worlds.map(w => ({ label: w, value: w }))
+    );
+    if (!selectedWorld) {
+      console.log('  Invalid selection.');
+      rl.close();
+      return;
+    }
   }
 
-  if (!pcArg) {
-    console.log('\nError: --pc <pc-id> is required');
-    console.log('Example: node src/chat-tui.js --world Walston --pc alex-ryder');
-    return;
+  // Interactive PC selection if not provided
+  if (!selectedPC) {
+    const pcs = listPCs();
+    if (pcs.length === 0) {
+      console.log('\nNo PCs found. Create PC files in data/pcs/ first.');
+      rl.close();
+      return;
+    }
+    console.log('\n  Select your character:');
+    const pcOptions = pcs.map(id => {
+      try {
+        const pc = loadPC(id);
+        const species = pc.species ? ` (${pc.species})` : '';
+        return { label: `${pc.name}${species}`, value: id };
+      } catch {
+        return { label: id, value: id };
+      }
+    });
+    selectedPC = await promptSelection(rl, '  Enter number: ', pcOptions);
+    if (!selectedPC) {
+      console.log('  Invalid selection.');
+      rl.close();
+      return;
+    }
   }
 
   // Load PC
   try {
-    currentPC = loadPC(pcArg);
-    currentPCId = pcArg;
+    currentPC = loadPC(selectedPC);
+    currentPCId = selectedPC;
   } catch (e) {
-    console.log(`\nError: PC not found: ${pcArg}`);
+    console.log(`\nError: PC not found: ${selectedPC}`);
     console.log('Create a PC file in data/pcs/ first.');
     printPCList();
+    rl.close();
     return;
   }
 
   // Check world has NPCs
-  const worldNpcs = listPersonas(worldArg);
+  const worldNpcs = listPersonas(selectedWorld);
   if (worldNpcs.length === 0) {
-    console.log(`\nNo NPCs found for world: ${worldArg}`);
+    console.log(`\nNo NPCs found for world: ${selectedWorld}`);
     console.log('Check your NPC files have the correct "world" field.');
+    rl.close();
     return;
   }
 
@@ -487,30 +561,25 @@ async function main() {
     client = createClient();
   } catch (e) {
     console.error(`Error: ${e.message}`);
+    rl.close();
     process.exit(1);
   }
 
   // Print welcome
   const pcSpecies = currentPC.species ? ` (${currentPC.species})` : '';
   console.log('\n╔════════════════════════════════════════════════════════════════╗');
-  console.log(`║  NPC Chat - ${worldArg.padEnd(51)}║`);
+  console.log(`║  NPC Chat - ${selectedWorld.padEnd(51)}║`);
   console.log(`║  Playing as: ${(currentPC.name + pcSpecies).padEnd(49)}║`);
   console.log('╚════════════════════════════════════════════════════════════════╝');
 
-  printNpcList(worldArg);
+  printNpcList(selectedWorld);
   console.log('  Type /help for commands, or select an NPC with /switch <n>\n');
-
-  // Create readline interface
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
 
   // Handle graceful shutdown
   const shutdown = () => {
     if (currentNpcId && currentMemory) {
       console.log('\n\n  Saving conversation...');
-      saveConversation(currentNpcId, pcArg, currentMemory);
+      saveConversation(currentNpcId, selectedPC, currentMemory);
     }
     console.log('  Goodbye!\n');
     rl.close();
@@ -542,7 +611,7 @@ async function main() {
       }
 
       if (trimmed === '/list') {
-        printNpcList(worldArg);
+        printNpcList(selectedWorld);
         prompt();
         return;
       }
@@ -563,9 +632,9 @@ async function main() {
       if (trimmed.startsWith('/switch ')) {
         const target = trimmed.slice(8).trim();
         if (currentNpcId && currentMemory) {
-          saveConversation(currentNpcId, pcArg, currentMemory);
+          saveConversation(currentNpcId, selectedPC, currentMemory);
         }
-        switchNpc(target, worldArg, pcArg);
+        switchNpc(target, selectedWorld, selectedPC);
         prompt();
         return;
       }
@@ -653,7 +722,7 @@ async function main() {
       // No NPC selected
       if (!currentPersona) {
         console.log('\n  No NPC selected. Use /switch <n> to select one.\n');
-        printNpcList(worldArg);
+        printNpcList(selectedWorld);
         prompt();
         return;
       }
@@ -678,7 +747,7 @@ async function main() {
         addMessage(currentMemory, 'assistant', response.content, gameDate);
 
         // Auto-save
-        saveConversation(currentNpcId, pcArg, currentMemory);
+        saveConversation(currentNpcId, selectedPC, currentMemory);
 
       } catch (e) {
         console.error(`\n  Error: ${e.message}\n`);

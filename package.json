@@ -10,7 +10,8 @@
     "test:persona": "node tests/persona.test.js",
     "test:prompts": "node tests/prompts.test.js",
     "test:ai": "node tests/ai-client.test.js",
-    "chat": "node src/index.js --npc"
+    "chat": "node src/index.js --npc",
+    "tui": "node src/chat-tui.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",
