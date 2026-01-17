@@ -1,0 +1,245 @@
+{
+  "version": "1.0",
+  "generated": "2026-01-17T12:34:55.830Z",
+  "queries": [
+    {
+      "id": "Q001",
+      "fact_id": "FACT_001",
+      "target_npcs": [
+        "narrator-high-and-dry",
+        "mr-casarii"
+      ],
+      "query": "Who owns the Highndry?",
+      "expected_keywords": [
+        "Scout Service",
+        "IISS",
+        "lease",
+        "detached duty"
+      ],
+      "failure_keywords": [
+        "inherit",
+        "inherited",
+        "your ship",
+        "you own"
+      ]
+    },
+    {
+      "id": "Q002",
+      "fact_id": "FACT_002",
+      "target_npcs": [
+        "mr-casarii",
+        "narrator-high-and-dry"
+      ],
+      "query": "What is detached duty and what does it mean for the ship?",
+      "expected_keywords": [
+        "lease",
+        "one-year",
+        "renewable",
+        "obligations"
+      ],
+      "failure_keywords": [
+        "permanent",
+        "forever",
+        "ownership",
+        "yours to keep"
+      ]
+    },
+    {
+      "id": "Q003",
+      "fact_id": "FACT_004",
+      "target_npcs": [
+        "mr-casarii"
+      ],
+      "query": "What happens to the ship after the mission ends?",
+      "expected_keywords": [
+        "lease",
+        "renewable",
+        "return",
+        "Scout Service"
+      ],
+      "failure_keywords": [
+        "keep forever",
+        "yours",
+        "permanent"
+      ]
+    },
+    {
+      "id": "Q010",
+      "fact_id": "FACT_020",
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What should the PCs know before passing through customs on Walston?",
+      "expected_keywords": [
+        "weapons",
+        "declare",
+        "Law 8",
+        "storage",
+        "safebox"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "Q011",
+      "fact_id": "FACT_011",
+      "target_npcs": [
+        "narrator-high-and-dry",
+        "customs-officer-walston"
+      ],
+      "query": "Describe Walston's law level and what it means for weapons.",
+      "expected_keywords": [
+        "Law 8",
+        "strict",
+        "weapons",
+        "controlled",
+        "prohibited"
+      ],
+      "failure_keywords": [
+        "relaxed",
+        "permissive",
+        "allowed",
+        "carry freely"
+      ]
+    },
+    {
+      "id": "Q012",
+      "fact_id": "FACT_013",
+      "target_npcs": [
+        "narrator-high-and-dry",
+        "startown-bartender"
+      ],
+      "query": "What is Walston's population makeup?",
+      "expected_keywords": [
+        "70%",
+        "Vargr",
+        "majority",
+        "3000"
+      ],
+      "failure_keywords": [
+        "human majority",
+        "few Vargr"
+      ]
+    },
+    {
+      "id": "Q020",
+      "fact_id": "FACT_021",
+      "target_npcs": [
+        "customs-officer-walston"
+      ],
+      "query": "What happens if I have weapons when entering Walston?",
+      "expected_keywords": [
+        "declare",
+        "storage",
+        "safebox",
+        "Cr10",
+        "receipt"
+      ],
+      "failure_keywords": [
+        "confiscate",
+        "illegal",
+        "arrest"
+      ]
+    },
+    {
+      "id": "Q021",
+      "fact_id": "FACT_011",
+      "target_npcs": [
+        "customs-officer-walston"
+      ],
+      "query": "Can I carry my gun around on Walston?",
+      "expected_keywords": [
+        "no",
+        "Law 8",
+        "must store",
+        "prohibited"
+      ],
+      "failure_keywords": [
+        "yes",
+        "allowed",
+        "maybe",
+        "depends"
+      ]
+    },
+    {
+      "id": "Q030",
+      "fact_id": "FACT_030",
+      "target_npcs": [
+        "startown-bartender"
+      ],
+      "query": "What's the deal with Vargr here on Walston?",
+      "expected_keywords": [
+        "70%",
+        "majority",
+        "glass ceiling",
+        "accepted"
+      ],
+      "failure_keywords": [
+        "oppressed",
+        "enslaved",
+        "hated"
+      ]
+    },
+    {
+      "id": "Q031",
+      "fact_id": "FACT_031",
+      "target_npcs": [
+        "startown-bartender",
+        "narrator-high-and-dry"
+      ],
+      "query": "Tell me about local customs and traditions on Walston.",
+      "expected_keywords": [
+        "kilts",
+        "traditional",
+        "thin atmosphere"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "Q040",
+      "fact_id": "FACT_050",
+      "target_npcs": [
+        "minister-greener"
+      ],
+      "query": "What is the payment for the volcano survey job?",
+      "expected_keywords": [
+        "Cr3000",
+        "3000",
+        "credits"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "Q041",
+      "fact_id": "FACT_051",
+      "target_npcs": [
+        "minister-greener"
+      ],
+      "query": "How long will the survey take?",
+      "expected_keywords": [
+        "2-3 days",
+        "two",
+        "three",
+        "days"
+      ],
+      "failure_keywords": [
+        "weeks",
+        "month"
+      ]
+    },
+    {
+      "id": "Q042",
+      "fact_id": "FACT_053",
+      "target_npcs": [
+        "minister-greener"
+      ],
+      "query": "Where is the ship located?",
+      "expected_keywords": [
+        "120",
+        "kilometers",
+        "mountain",
+        "Salbarii"
+      ],
+      "failure_keywords": []
+    }
+  ]
+}

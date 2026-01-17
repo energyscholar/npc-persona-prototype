@@ -1,0 +1,480 @@
+{
+  "version": "1.0",
+  "generated": "2026-01-17T12:34:55.828Z",
+  "source": "high-and-dry-detailed.md + wiki-cache",
+  "facts": [
+    {
+      "id": "FACT_001",
+      "category": "ship_mission",
+      "content": "Highndry ownership belongs to IISS (Scout Service), not PC",
+      "relevant_npcs": [
+        "narrator-high-and-dry",
+        "mr-casarii",
+        "alex-ryder"
+      ],
+      "keywords": [
+        "IISS",
+        "Scout Service",
+        "lease",
+        "detached duty"
+      ],
+      "failure_keywords": [
+        "inherit",
+        "inherited",
+        "owns",
+        "your ship"
+      ]
+    },
+    {
+      "id": "FACT_002",
+      "category": "ship_mission",
+      "content": "PC receives one-year LEASE under detached duty terms",
+      "relevant_npcs": [
+        "mr-casarii",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "lease",
+        "one-year",
+        "detached duty",
+        "renewable"
+      ],
+      "failure_keywords": [
+        "permanent",
+        "forever",
+        "ownership"
+      ]
+    },
+    {
+      "id": "FACT_003",
+      "category": "ship_mission",
+      "content": "Previous crew's agreement voided due to fraud",
+      "relevant_npcs": [
+        "mr-casarii"
+      ],
+      "keywords": [
+        "voided",
+        "fraud",
+        "previous crew"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_004",
+      "category": "ship_mission",
+      "content": "Detached duty = lease with obligations, renewable, ship returned when agreement ends",
+      "relevant_npcs": [
+        "mr-casarii",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "lease",
+        "obligations",
+        "renewable",
+        "returned"
+      ],
+      "failure_keywords": [
+        "keep forever"
+      ]
+    },
+    {
+      "id": "FACT_005",
+      "category": "ship_mission",
+      "content": "Scout Service provides Cr1000/traveller upfront for expenses",
+      "relevant_npcs": [
+        "mr-casarii"
+      ],
+      "keywords": [
+        "Cr1000",
+        "1000",
+        "expenses",
+        "upfront"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_006",
+      "category": "ship_mission",
+      "content": "Completion reward = one-year lease + Cr1000 during checkout week",
+      "relevant_npcs": [
+        "mr-casarii"
+      ],
+      "keywords": [
+        "one-year lease",
+        "Cr1000",
+        "checkout"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_010",
+      "category": "walston_world",
+      "content": "Walston UWP = C544338-8",
+      "relevant_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "C544338-8",
+        "UWP"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_011",
+      "category": "walston_world",
+      "content": "Law Level 8 = High Law (controlled blades, weapons prohibited outside home)",
+      "relevant_npcs": [
+        "narrator-high-and-dry",
+        "customs-officer-walston"
+      ],
+      "keywords": [
+        "Law 8",
+        "Law Level 8",
+        "weapons prohibited",
+        "controlled"
+      ],
+      "failure_keywords": [
+        "relaxed",
+        "permissive",
+        "allowed"
+      ]
+    },
+    {
+      "id": "FACT_012",
+      "category": "walston_world",
+      "content": "Tech Level 8 = Pre-Stellar (NOT high-tech detection)",
+      "relevant_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "Tech 8",
+        "TL8",
+        "Pre-Stellar"
+      ],
+      "failure_keywords": [
+        "high-tech",
+        "advanced scanning"
+      ]
+    },
+    {
+      "id": "FACT_013",
+      "category": "walston_world",
+      "content": "Population ~3000, 70% Vargr",
+      "relevant_npcs": [
+        "narrator-high-and-dry",
+        "startown-bartender"
+      ],
+      "keywords": [
+        "3000",
+        "70%",
+        "Vargr",
+        "majority"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_014",
+      "category": "walston_world",
+      "content": "Government = Self-Perpetuating Oligarchy (Dictator Masterton)",
+      "relevant_npcs": [
+        "narrator-high-and-dry",
+        "minister-greener"
+      ],
+      "keywords": [
+        "Masterton",
+        "Dictator",
+        "oligarchy"
+      ],
+      "failure_keywords": [
+        "democracy",
+        "elected"
+      ]
+    },
+    {
+      "id": "FACT_015",
+      "category": "walston_world",
+      "content": "Thin tainted atmosphere",
+      "relevant_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "thin",
+        "tainted",
+        "atmosphere"
+      ],
+      "failure_keywords": [
+        "breathable",
+        "normal"
+      ]
+    },
+    {
+      "id": "FACT_016",
+      "category": "walston_world",
+      "content": "Scout base present",
+      "relevant_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "scout base"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_020",
+      "category": "customs_starport",
+      "content": "All weapons must be declared at customs",
+      "relevant_npcs": [
+        "narrator-high-and-dry",
+        "customs-officer-walston"
+      ],
+      "keywords": [
+        "declare",
+        "weapons",
+        "customs"
+      ],
+      "failure_keywords": [
+        "sneak",
+        "hide"
+      ]
+    },
+    {
+      "id": "FACT_021",
+      "category": "customs_starport",
+      "content": "Weapons stored at starport safebox",
+      "relevant_npcs": [
+        "customs-officer-walston",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "safebox",
+        "stored",
+        "starport"
+      ],
+      "failure_keywords": [
+        "confiscate",
+        "illegal"
+      ]
+    },
+    {
+      "id": "FACT_022",
+      "category": "customs_starport",
+      "content": "Storage fee = Cr10 per week",
+      "relevant_npcs": [
+        "customs-officer-walston"
+      ],
+      "keywords": [
+        "Cr10",
+        "10 credits",
+        "per week"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_023",
+      "category": "customs_starport",
+      "content": "Receipt provided, collect weapons on departure",
+      "relevant_npcs": [
+        "customs-officer-walston"
+      ],
+      "keywords": [
+        "receipt",
+        "collect",
+        "departure"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_024",
+      "category": "customs_starport",
+      "content": "Cargo inspection is cursory unless suspicious",
+      "relevant_npcs": [
+        "customs-officer-walston"
+      ],
+      "keywords": [
+        "cursory",
+        "inspection"
+      ],
+      "failure_keywords": [
+        "thorough",
+        "detailed scan"
+      ]
+    },
+    {
+      "id": "FACT_030",
+      "category": "social_cultural",
+      "content": "Vargr face \"glass ceiling\" - accepted but limited advancement",
+      "relevant_npcs": [
+        "startown-bartender",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "glass ceiling",
+        "accepted",
+        "limited"
+      ],
+      "failure_keywords": [
+        "oppressed",
+        "enslaved",
+        "equal"
+      ]
+    },
+    {
+      "id": "FACT_031",
+      "category": "social_cultural",
+      "content": "Traditional dress includes kilts",
+      "relevant_npcs": [
+        "startown-bartender",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "kilts",
+        "traditional"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_032",
+      "category": "social_cultural",
+      "content": "Previous crew mocked local customs (kilts, food)",
+      "relevant_npcs": [
+        "minister-greener",
+        "startown-bartender"
+      ],
+      "keywords": [
+        "mocked",
+        "disrespected",
+        "rude"
+      ],
+      "failure_keywords": [
+        "polite",
+        "respectful"
+      ]
+    },
+    {
+      "id": "FACT_033",
+      "category": "social_cultural",
+      "content": "Locals remember offworlders who disrespect customs",
+      "relevant_npcs": [
+        "startown-bartender"
+      ],
+      "keywords": [
+        "remember",
+        "disrespect"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_040",
+      "category": "plot_timeline",
+      "content": "Geologist visit ~1 year ago (said 99% safe)",
+      "relevant_npcs": [
+        "minister-greener"
+      ],
+      "keywords": [
+        "year ago",
+        "geologist",
+        "99%"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_041",
+      "category": "plot_timeline",
+      "content": "Ship stranded ~3-4 months ago",
+      "relevant_npcs": [
+        "minister-greener",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "3-4 months",
+        "stranded",
+        "months ago"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_042",
+      "category": "plot_timeline",
+      "content": "Previous crew departed ~2-3 months ago via Maverick Spacer",
+      "relevant_npcs": [
+        "minister-greener"
+      ],
+      "keywords": [
+        "Maverick Spacer",
+        "departed",
+        "months ago"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_043",
+      "category": "plot_timeline",
+      "content": "Travel time Flammarion→Walston = ~2 weeks (two jumps)",
+      "relevant_npcs": [
+        "captain-corelli",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "two weeks",
+        "2 weeks",
+        "two jumps"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_050",
+      "category": "ship_mission",
+      "content": "Greener offers Cr3000 flat fee for survey",
+      "relevant_npcs": [
+        "minister-greener"
+      ],
+      "keywords": [
+        "Cr3000",
+        "3000"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_051",
+      "category": "ship_mission",
+      "content": "Survey takes 2-3 days with proper equipment",
+      "relevant_npcs": [
+        "minister-greener"
+      ],
+      "keywords": [
+        "2-3 days",
+        "survey"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_052",
+      "category": "ship_mission",
+      "content": "Mount Salbarii is the volcano to survey",
+      "relevant_npcs": [
+        "minister-greener",
+        "narrator-high-and-dry"
+      ],
+      "keywords": [
+        "Mount Salbarii",
+        "Salbarii",
+        "volcano"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "FACT_053",
+      "category": "ship_mission",
+      "content": "Ship is ~120km from capital in mountains",
+      "relevant_npcs": [
+        "minister-greener"
+      ],
+      "keywords": [
+        "120",
+        "kilometers",
+        "mountains"
+      ],
+      "failure_keywords": []
+    }
+  ]
+}

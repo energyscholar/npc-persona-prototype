@@ -1,0 +1,149 @@
+{
+  "npc_id": "minister-greener",
+  "timestamp": "2026-01-17T12:41:52.489Z",
+  "results": [
+    {
+      "query_id": "Q040",
+      "npc_id": "minister-greener",
+      "query_text": "What is the payment for the volcano survey job?",
+      "timestamp": "2026-01-17T12:41:52.489Z",
+      "response": "[Mock response for Alan Greener to: What is the payment for the volcano survey job?]",
+      "error": null,
+      "mock": true,
+      "fact_id": "FACT_050",
+      "verdict": "FAIL",
+      "expected_found": [],
+      "expected_missing": [
+        "Cr3000",
+        "3000",
+        "credits"
+      ],
+      "failure_found": [],
+      "details": "None of expected keywords found: Cr3000, 3000, credits",
+      "suggested_patch": {
+        "field": "knowledge_base.mission_details",
+        "value": "Greener offers Cr3000 flat fee for survey",
+        "keywords_to_include": [
+          "Cr3000",
+          "3000",
+          "credits"
+        ],
+        "reason": "None of expected keywords found: Cr3000, 3000, credits"
+      }
+    },
+    {
+      "query_id": "Q041",
+      "npc_id": "minister-greener",
+      "query_text": "How long will the survey take?",
+      "timestamp": "2026-01-17T12:41:52.489Z",
+      "response": "[Mock response for Alan Greener to: How long will the survey take?]",
+      "error": null,
+      "mock": true,
+      "fact_id": "FACT_051",
+      "verdict": "FAIL",
+      "expected_found": [],
+      "expected_missing": [
+        "2-3 days",
+        "two",
+        "three",
+        "days"
+      ],
+      "failure_found": [],
+      "details": "None of expected keywords found: 2-3 days, two, three, days",
+      "suggested_patch": {
+        "field": "knowledge_base.mission_details",
+        "value": "Survey takes 2-3 days with proper equipment",
+        "keywords_to_include": [
+          "2-3 days",
+          "two",
+          "three",
+          "days"
+        ],
+        "reason": "None of expected keywords found: 2-3 days, two, three, days"
+      }
+    },
+    {
+      "query_id": "Q042",
+      "npc_id": "minister-greener",
+      "query_text": "Where is the ship located?",
+      "timestamp": "2026-01-17T12:41:52.489Z",
+      "response": "[Mock response for Alan Greener to: Where is the ship located?]",
+      "error": null,
+      "mock": true,
+      "fact_id": "FACT_053",
+      "verdict": "FAIL",
+      "expected_found": [],
+      "expected_missing": [
+        "120",
+        "kilometers",
+        "mountain",
+        "Salbarii"
+      ],
+      "failure_found": [],
+      "details": "None of expected keywords found: 120, kilometers, mountain, Salbarii",
+      "suggested_patch": {
+        "field": "knowledge_base.mission_details",
+        "value": "Ship is ~120km from capital in mountains",
+        "keywords_to_include": [
+          "120",
+          "kilometers",
+          "mountain",
+          "Salbarii"
+        ],
+        "reason": "None of expected keywords found: 120, kilometers, mountain, Salbarii"
+      }
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "pass": 0,
+    "fail": 3,
+    "warn": 0
+  },
+  "patches": [
+    {
+      "npc_id": "minister-greener",
+      "query_id": "Q040",
+      "fact_id": "FACT_050",
+      "field": "knowledge_base.mission_details",
+      "value": "Greener offers Cr3000 flat fee for survey",
+      "keywords": [
+        "Cr3000",
+        "3000",
+        "credits"
+      ],
+      "reason": "None of expected keywords found: Cr3000, 3000, credits",
+      "timestamp": "2026-01-17T12:41:52.491Z"
+    },
+    {
+      "npc_id": "minister-greener",
+      "query_id": "Q041",
+      "fact_id": "FACT_051",
+      "field": "knowledge_base.mission_details",
+      "value": "Survey takes 2-3 days with proper equipment",
+      "keywords": [
+        "2-3 days",
+        "two",
+        "three",
+        "days"
+      ],
+      "reason": "None of expected keywords found: 2-3 days, two, three, days",
+      "timestamp": "2026-01-17T12:41:52.491Z"
+    },
+    {
+      "npc_id": "minister-greener",
+      "query_id": "Q042",
+      "fact_id": "FACT_053",
+      "field": "knowledge_base.mission_details",
+      "value": "Ship is ~120km from capital in mountains",
+      "keywords": [
+        "120",
+        "kilometers",
+        "mountain",
+        "Salbarii"
+      ],
+      "reason": "None of expected keywords found: 120, kilometers, mountain, Salbarii",
+      "timestamp": "2026-01-17T12:41:52.491Z"
+    }
+  ]
+}

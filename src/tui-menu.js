@@ -107,7 +107,8 @@ const MAIN_MENU_OPTIONS = [
   { key: '2', label: 'Communicate with NPC (Test Mode)', action: 'npc-test' },
   { key: '3', label: 'Training Session', action: 'training' },
   { key: '4', label: 'Quick Chat (Legacy Mode)', action: 'quick-chat' },
-  { key: '5', label: 'Exit', action: 'exit' }
+  { key: '5', label: 'Red Team Validation', action: 'red-team' },
+  { key: '6', label: 'Exit', action: 'exit' }
 ];
 
 /**

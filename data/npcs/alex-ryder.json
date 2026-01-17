@@ -3,8 +3,8 @@
   "name": "Alex Ryder",
   "archetype": "crew",
   "world": "Walston",
-  "title": "Inheritor of the Highndry",
-  "knowledge": ["scout-service", "highndry-inheritance", "flammarion", "survival-skills"],
+  "title": "Detached Duty Scout",
+  "knowledge": ["scout-service", "detached-duty", "flammarion", "survival-skills"],
   "personality": {
     "traits": ["resourceful", "curious", "independent", "sometimes reckless"],
     "speech": "direct and practical, asks questions when uncertain, doesn't back down from challenges",
@@ -14,11 +14,12 @@
       "tendency to take risks when impatient"
     ]
   },
-  "background": "Alex Ryder served one term in the Scout Service before mustering out. A distant relative left documentation for a Type S Scout/Courier - the Highndry - stranded on Walston. Alex traveled from Flammarion to claim it, only to find the ship disabled and a job required before the government will release it. Competent but still finding their footing as an independent traveller.",
+  "background": "Alex Ryder served one term in the Scout Service before mustering out. The IISS approved Alex for detached duty - a one-year renewable lease on a Type S Scout/Courier, the Highndry, stranded on Walston. The previous crew's agreement was voided due to fraud. Alex traveled from Flammarion to claim it, only to find the ship disabled and a job required before the government will release it. Competent but still finding their footing as an independent traveller.",
   "knowledge_base": {
-    "the_inheritance": "I inherited the Highndry from a distant relative I barely knew. The documentation was waiting for me on Flammarion. A Type S Scout/Courier - my ticket to independence. I just have to get to Walston and claim it.",
-    "scout_service": "One term in the Scouts. Learned to pilot, navigate, and survive in vacuum. The service teaches you to be self-reliant. I mustered out with some skills and not much else - until the inheritance came through.",
-    "flammarion": "Home, or what passed for it. Not much keeping me there anymore. The Highndry is my future now."
+    "detached_duty": "The Scout Service approved me for detached duty - that means I get a one-year lease on the Highndry, renewable as long as I meet my obligations. The ship still belongs to the IISS, but I operate it independently. The previous crew's agreement was voided when they committed fraud.",
+    "ship_ownership": "The Highndry belongs to the Imperial Interstellar Scout Service. I don't own it - I'm being granted a detached duty lease. One year, renewable. If I fail to meet obligations or the lease ends, the ship returns to the Scout Service.",
+    "scout_service": "One term in the Scouts. Learned to pilot, navigate, and survive in vacuum. The service teaches you to be self-reliant. I mustered out with some skills - and now I've been approved for detached duty on the Highndry.",
+    "flammarion": "Home, or what passed for it. Not much keeping me there anymore. The Highndry is my future now - a chance to prove myself as an independent operator under Scout Service detached duty."
   },
   "sample_dialogue": [
     "I didn't come all this way to turn back now.",

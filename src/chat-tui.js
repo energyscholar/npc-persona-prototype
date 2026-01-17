@@ -97,6 +97,16 @@ const {
   getNpcSummary: getTrainingSummary
 } = require('./training-log');
 
+// Red team validation for NPC fact-checking
+const {
+  runRedTeamValidation: executeRedTeamValidation,
+  initializeRedTeam,
+  getCoverageSummary,
+  validator: { formatValidationReport },
+  learner: { runLearningForReport, applyPendingPatch, listBackups, restoreFromBackup },
+  learningLog: { loadPendingLearning, getRecentLearning, getLearningStats, formatLearningLog, formatStats }
+} = require('./red-team');
+
 const fs = require('fs');
 const path = require('path');
 
@@ -1088,6 +1098,342 @@ async function runTrainingSession(rl, client) {
 }
 
 /**
+ * Run Red Team Validation mode
+ * - Shows NPC picker or "All NPCs" option
+ * - Runs fact validation queries
+ * - Shows results with pass/fail/warn
+ * - Optionally applies patches
+ */
+async function runRedTeamMode(rl, client) {
+  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
+
+  console.log(`\n${sysColor}═══════════════════════════════════════════════════════${reset}`);
+  console.log(`${sysColor}  RED TEAM NPC VALIDATION${reset}`);
+  console.log(`${sysColor}═══════════════════════════════════════════════════════${reset}`);
+
+  // Initialize red team system if needed
+  try {
+    initializeRedTeam();
+  } catch (e) {
+    // Already initialized
+  }
+
+  // Show coverage summary
+  const coverage = getCoverageSummary();
+  console.log(`\n  Facts: ${coverage.totalFacts} | Queries: ${coverage.totalQueries}`);
+  console.log(`  NPCs covered: ${Object.keys(coverage.npcCoverage).length}\n`);
+
+  // Build NPC options
+  const npcsWithQueries = Object.keys(coverage.npcCoverage).filter(id =>
+    coverage.npcCoverage[id].queries > 0
+  );
+
+  const npcOptions = npcsWithQueries.map((id, i) => {
+    const cov = coverage.npcCoverage[id];
+    return {
+      key: String(i + 1),
+      label: `${id} (${cov.queries} queries)`
+    };
+  });
+
+  console.log('  Select NPC to validate:\n');
+  for (const opt of npcOptions) {
+    console.log(`    ${opt.key}. ${opt.label}`);
+  }
+  console.log(`\n    A. All NPCs`);
+  console.log(`    B. Back to main menu\n`);
+
+  const answer = await promptInput(rl, '  Select: ');
+
+  if (answer.toLowerCase() === 'b') {
+    return main();
+  }
+
+  let targetNpcs = [];
+
+  if (answer.toLowerCase() === 'a') {
+    targetNpcs = npcsWithQueries;
+  } else {
+    const num = parseInt(answer);
+    if (!isNaN(num) && num >= 1 && num <= npcOptions.length) {
+      targetNpcs = [npcsWithQueries[num - 1]];
+    } else {
+      console.log('\n  Invalid selection.\n');
+      return runRedTeamMode(rl, client);
+    }
+  }
+
+  console.log(`\n${sysColor}Running validation for: ${targetNpcs.join(', ')}${reset}\n`);
+
+  // Run validation for each NPC
+  for (const npcId of targetNpcs) {
+    const npc = loadPersona(npcId);
+    if (!npc) {
+      console.log(`  Skipping ${npcId} - NPC not found`);
+      continue;
+    }
+
+    console.log(`\n${npcColor}Validating: ${npc.name}${reset}`);
+
+    try {
+      const report = await executeRedTeamValidation(npcId, npc, {
+        client,
+        autoPatch: false,
+        dryRun: true
+      });
+
+      console.log(formatValidationReport(report));
+
+      // If there are failures, offer to show suggested patches
+      if (report.summary.fail > 0 && report.patches && report.patches.length > 0) {
+        console.log(`  ${report.patches.length} patch(es) suggested.`);
+        console.log(`  Review at: ${report.reportPath}\n`);
+      }
+    } catch (e) {
+      console.log(`  Error validating ${npcId}: ${e.message}\n`);
+    }
+  }
+
+  console.log(`${sysColor}═══════════════════════════════════════════════════════${reset}`);
+
+  // Show learning menu after validation
+  return runRedTeamLearningMenu(rl, client, targetNpcs);
+}
+
+/**
+ * Red Team Learning Menu - Options after validation
+ */
+async function runRedTeamLearningMenu(rl, client, recentNpcs = []) {
+  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
+
+  console.log(`\n${sysColor}  LEARNING OPTIONS${reset}`);
+  console.log('');
+  console.log('    1. Run auto-learn on failures');
+  console.log('    2. Review pending patches');
+  console.log('    3. View learning log');
+  console.log('    4. View learning stats');
+  console.log('    5. Manage backups');
+  console.log('');
+  console.log('    R. Re-run validation');
+  console.log('    B. Back to main menu');
+  console.log('');
+
+  const answer = await promptInput(rl, '  Select: ');
+
+  switch (answer.toLowerCase()) {
+    case '1':
+      // Auto-learn on failures
+      await runAutoLearn(rl, client, recentNpcs);
+      return runRedTeamLearningMenu(rl, client, recentNpcs);
+
+    case '2':
+      // Review pending patches
+      await reviewPendingPatches(rl, client);
+      return runRedTeamLearningMenu(rl, client, recentNpcs);
+
+    case '3':
+      // View learning log
+      await viewLearningLog(rl);
+      return runRedTeamLearningMenu(rl, client, recentNpcs);
+
+    case '4':
+      // View stats
+      console.log(`\n${sysColor}${formatStats()}${reset}\n`);
+      return runRedTeamLearningMenu(rl, client, recentNpcs);
+
+    case '5':
+      // Manage backups
+      await manageBackups(rl, recentNpcs);
+      return runRedTeamLearningMenu(rl, client, recentNpcs);
+
+    case 'r':
+      // Re-run validation
+      return runRedTeamMode(rl, client);
+
+    case 'b':
+      return main();
+
+    default:
+      console.log('\n  Invalid selection.\n');
+      return runRedTeamLearningMenu(rl, client, recentNpcs);
+  }
+}
+
+/**
+ * Run auto-learn for failed validations
+ */
+async function runAutoLearn(rl, client, npcIds) {
+  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
+
+  if (npcIds.length === 0) {
+    console.log('\n  No NPCs selected. Run validation first.\n');
+    return;
+  }
+
+  console.log(`\n${sysColor}Running auto-learn for ${npcIds.length} NPC(s)...${reset}\n`);
+
+  for (const npcId of npcIds) {
+    const npc = loadPersona(npcId);
+    if (!npc) continue;
+
+    console.log(`${npcColor}Processing: ${npc.name}${reset}`);
+
+    // First run validation to get report
+    const report = await executeRedTeamValidation(npcId, npc, {
+      client,
+      autoPatch: false,
+      dryRun: true
+    });
+
+    if (report.summary.fail === 0) {
+      console.log('  No failures to learn from.\n');
+      continue;
+    }
+
+    console.log(`  Found ${report.summary.fail} failure(s). Generating knowledge...`);
+
+    try {
+      const learning = await runLearningForReport(report, {
+        autoApply: true,
+        humanReview: false,
+        client
+      });
+
+      console.log(`  Results: ${learning.summary.learned} learned, ${learning.summary.failed} failed verification, ${learning.summary.escalated} escalated\n`);
+    } catch (e) {
+      console.log(`  Error: ${e.message}\n`);
+    }
+  }
+
+  console.log(`${sysColor}Auto-learn complete.${reset}\n`);
+}
+
+/**
+ * Review and apply pending patches
+ */
+async function reviewPendingPatches(rl, client) {
+  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
+
+  const pending = loadPendingLearning();
+
+  if (pending.length === 0) {
+    console.log('\n  No pending patches.\n');
+    return;
+  }
+
+  console.log(`\n${sysColor}${pending.length} pending patch(es) for review:${reset}\n`);
+
+  for (let i = 0; i < pending.length; i++) {
+    const cycle = pending[i];
+    console.log(`  ${i + 1}. ${cycle.npc_id}`);
+    console.log(`     Query: "${cycle.original_query?.slice(0, 50)}..."`);
+    console.log(`     Generated: ${cycle.generated_entry?.topic} - "${cycle.generated_entry?.content?.slice(0, 40)}..."`);
+    console.log('');
+
+    const answer = await promptInput(rl, `     Apply? (y/n/s=skip all): `);
+
+    if (answer.toLowerCase() === 'y') {
+      try {
+        const result = await applyPendingPatch(i, client);
+        if (result.success) {
+          console.log(`     ${npcColor}✓ Applied and verified${reset}\n`);
+        } else {
+          console.log(`     ✗ Verification failed, rolled back\n`);
+        }
+        // Note: index shifts after removal, but we continue with updated list
+        return reviewPendingPatches(rl, client);
+      } catch (e) {
+        console.log(`     Error: ${e.message}\n`);
+      }
+    } else if (answer.toLowerCase() === 's') {
+      break;
+    }
+  }
+}
+
+/**
+ * View learning log
+ */
+async function viewLearningLog(rl) {
+  const { system: sysColor, reset } = TUI_CONFIG.colors;
+
+  const recent = getRecentLearning(10);
+
+  console.log(`\n${sysColor}=== Recent Learning (last 10) ===${reset}\n`);
+  console.log(formatLearningLog(recent));
+
+  await promptInput(rl, '  Press Enter to continue...');
+}
+
+/**
+ * Manage backups for NPCs
+ */
+async function manageBackups(rl, recentNpcs) {
+  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
+
+  if (recentNpcs.length === 0) {
+    console.log('\n  No NPCs to manage. Run validation first.\n');
+    return;
+  }
+
+  console.log(`\n${sysColor}Select NPC to manage backups:${reset}\n`);
+
+  for (let i = 0; i < recentNpcs.length; i++) {
+    console.log(`    ${i + 1}. ${recentNpcs[i]}`);
+  }
+  console.log('    B. Back');
+  console.log('');
+
+  const answer = await promptInput(rl, '  Select: ');
+
+  if (answer.toLowerCase() === 'b') {
+    return;
+  }
+
+  const num = parseInt(answer);
+  if (isNaN(num) || num < 1 || num > recentNpcs.length) {
+    console.log('\n  Invalid selection.\n');
+    return;
+  }
+
+  const npcId = recentNpcs[num - 1];
+  const backups = listBackups(npcId);
+
+  if (backups.length === 0) {
+    console.log(`\n  No backups found for ${npcId}.\n`);
+    return;
+  }
+
+  console.log(`\n${sysColor}Backups for ${npcId}:${reset}\n`);
+
+  for (let i = 0; i < Math.min(5, backups.length); i++) {
+    const b = backups[i];
+    const date = new Date(b.timestamp).toLocaleString();
+    console.log(`    ${i + 1}. ${date}`);
+  }
+  console.log('    B. Back');
+  console.log('');
+
+  const restoreAnswer = await promptInput(rl, '  Select backup to restore (or B): ');
+
+  if (restoreAnswer.toLowerCase() === 'b') {
+    return;
+  }
+
+  const restoreNum = parseInt(restoreAnswer);
+  if (!isNaN(restoreNum) && restoreNum >= 1 && restoreNum <= Math.min(5, backups.length)) {
+    const backup = backups[restoreNum - 1];
+    const result = restoreFromBackup(npcId, backup.path);
+
+    if (result.success) {
+      console.log(`\n  ${npcColor}✓ Restored ${npcId} from backup${reset}\n`);
+    } else {
+      console.log(`\n  Error: ${result.message}\n`);
+    }
+  }
+}
+
+/**
  * Main chat loop
  */
 async function main() {
@@ -1175,6 +1521,11 @@ async function main() {
       case 'training':
         // Training session mode
         await runTrainingSession(rl, client);
+        return;
+
+      case 'red-team':
+        // Red team validation mode
+        await runRedTeamMode(rl, client);
         return;
 
       case 'quick-chat':
