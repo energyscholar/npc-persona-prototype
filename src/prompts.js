@@ -56,6 +56,14 @@ function buildSystemPrompt(persona) {
     prompt += `\nBackground: ${persona.background}\n`;
   }
 
+  // Add knowledge base (specialized expertise)
+  if (persona.knowledge_base && Object.keys(persona.knowledge_base).length > 0) {
+    prompt += `\nYOUR SPECIALIZED KNOWLEDGE:\n`;
+    for (const [topic, content] of Object.entries(persona.knowledge_base)) {
+      prompt += `\n[${topic.replace(/_/g, ' ').toUpperCase()}]\n${content}\n`;
+    }
+  }
+
   // Add response guidelines
   prompt += `
 IMPORTANT GUIDELINES:
@@ -67,6 +75,49 @@ IMPORTANT GUIDELINES:
 `;
 
   return prompt;
+}
+
+/**
+ * Build PC context for NPC awareness
+ * @param {Object} pc - PC data object
+ * @returns {string} PC context text
+ */
+function buildPCContext(pc) {
+  if (!pc) return '';
+
+  let context = `\nYOU ARE SPEAKING WITH:\n`;
+  context += `Name: ${pc.name}\n`;
+
+  if (pc.species) {
+    context += `Species: ${pc.species}\n`;
+  }
+
+  if (pc.appearance) {
+    context += `Appearance: ${pc.appearance}\n`;
+  }
+
+  if (pc.background) {
+    context += `Background (what you might observe/know): ${pc.background}\n`;
+  }
+
+  if (pc.traits && pc.traits.length > 0) {
+    context += `Demeanor: ${pc.traits.join(', ')}\n`;
+  }
+
+  if (pc.social_standing) {
+    const socDesc = pc.social_standing >= 10 ? 'noble bearing' :
+                    pc.social_standing >= 8 ? 'professional, respectable' :
+                    pc.social_standing >= 6 ? 'ordinary citizen' :
+                    pc.social_standing >= 4 ? 'working class' : 'rough around the edges';
+    context += `Social impression: ${socDesc}\n`;
+  }
+
+  // Special handling for Vargr on Walston
+  if (pc.species === 'Vargr') {
+    context += `\nNOTE: On Walston, Vargr face social limitations. Adjust your responses accordingly based on local attitudes.\n`;
+  }
+
+  return context;
 }
 
 /**
@@ -104,11 +155,18 @@ function buildContextSection(memory) {
  * @param {Object} persona - Loaded persona
  * @param {Object} memory - Memory object
  * @param {string} userMessage - New user message
+ * @param {Object} [pc] - Optional PC data for NPC awareness
  * @returns {Object} { system: string, messages: Array }
  */
-function assembleFullPrompt(persona, memory, userMessage) {
+function assembleFullPrompt(persona, memory, userMessage, pc = null) {
   // Build system prompt with context injected
   let system = buildSystemPrompt(persona);
+
+  // Add PC context if provided
+  if (pc) {
+    system += buildPCContext(pc);
+  }
+
   const contextSection = buildContextSection(memory);
 
   if (contextSection.trim()) {
@@ -184,6 +242,7 @@ module.exports = {
   MAX_CONTEXT_TOKENS,
   MAX_INPUT_LENGTH,
   buildSystemPrompt,
+  buildPCContext,
   buildContextSection,
   assembleFullPrompt,
   estimateTokens,

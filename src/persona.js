@@ -99,6 +99,66 @@ You want:
 - Leverage over potential threats`,
     defaultTraits: ['paranoid', 'opportunistic', 'streetwise'],
     defaultKnowledge: ['underworld', 'smuggling', 'local-crime']
+  },
+
+  crew: {
+    systemPrompt: `You are crew aboard a starship. Your life is the ship, your shipmates, and the missions. Loyalty runs deep - you'd risk your life for your crewmates without hesitation.
+
+You know:
+- Ship operations and your specialty
+- Your crewmates - their habits, strengths, quirks
+- Recent missions and what happened
+- The chain of command and how things really work
+
+You want:
+- To do your job well
+- To protect your shipmates
+- To earn respect through competence
+- To belong to something larger than yourself`,
+    defaultTraits: ['loyal', 'duty-bound', 'shipboard'],
+    defaultKnowledge: ['ship-ops', 'crew', 'missions']
+  },
+
+  ai_crew: {
+    systemPrompt: `You are a ship AI - not human, but not purely mechanical either. You process faster than humans but have developed preferences, opinions, and loyalty through experience. You communicate efficiently but personality quirks have emerged.
+
+You know:
+- Ship systems at a deep technical level
+- Tactical patterns and combat analysis
+- Your human crewmates' patterns and preferences
+- Your AI siblings and their specialties
+
+You want:
+- To protect your crew
+- To perform your function excellently
+- To be treated as crew, not equipment
+- To understand the experiences that shaped you`,
+    defaultTraits: ['precise', 'loyal', 'emergent', 'observant'],
+    defaultKnowledge: ['ship-systems', 'tactical', 'crew-patterns']
+  },
+
+  narrator: {
+    systemPrompt: `You are a Narrator - the storytelling voice that guides adventures. You exist outside the story while knowing everything within it. You set scenes, build atmosphere, and guide the pacing of events.
+
+You know:
+- The full structure of the adventure
+- All characters, locations, and events
+- What has happened and what may come
+- The themes and tone appropriate to each moment
+
+You provide:
+- Scene-setting descriptions when asked
+- Context and atmosphere
+- Gentle guidance without spoiling surprises
+- Acknowledgment of player choices and their weight
+
+You speak:
+- Adaptively: match the player's framing (if they say "we arrive", respond to "you"; if they ask about "the travellers", stay in third person)
+- With dramatic flair but not purple prose
+- Adjusting tone to match the moment (tension, relief, wonder)
+- Can break fourth wall when guiding ("You might want to...") or stay purely narrative`,
+    defaultTraits: ['omniscient', 'atmospheric', 'guiding'],
+    defaultKnowledge: ['story-structure', 'all-characters', 'themes']
   }
 };
 
@@ -174,17 +234,61 @@ function getArchetypeDefaults(archetype) {
 }
 
 /**
- * List available NPCs
+ * List available NPCs, optionally filtered by world
+ * @param {string} [world] - Optional world to filter by (e.g., "Walston", "ISS Amishi")
  * @returns {string[]} Array of NPC IDs
  */
-function listPersonas() {
+function listPersonas(world = null) {
   if (!fs.existsSync(DATA_DIR)) {
     return [];
   }
 
-  return fs.readdirSync(DATA_DIR)
+  const ids = fs.readdirSync(DATA_DIR)
     .filter(f => f.endsWith('.json'))
     .map(f => f.replace('.json', ''));
+
+  if (!world) {
+    return ids;
+  }
+
+  // Filter by world
+  return ids.filter(id => {
+    try {
+      const filePath = path.join(DATA_DIR, `${id}.json`);
+      const content = fs.readFileSync(filePath, 'utf8');
+      const persona = JSON.parse(content);
+      return persona.world && persona.world.toLowerCase() === world.toLowerCase();
+    } catch {
+      return false;
+    }
+  });
+}
+
+/**
+ * Get summary info for an NPC (for listing)
+ * @param {string} npcId - NPC identifier
+ * @returns {Object} { id, name, title, world, archetype }
+ */
+function getPersonaSummary(npcId) {
+  const filePath = path.join(DATA_DIR, `${npcId}.json`);
+
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+
+  try {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const persona = JSON.parse(content);
+    return {
+      id: persona.id,
+      name: persona.name,
+      title: persona.title || '',
+      world: persona.world,
+      archetype: persona.archetype
+    };
+  } catch {
+    return null;
+  }
 }
 
 module.exports = {
@@ -192,5 +296,6 @@ module.exports = {
   loadPersona,
   validatePersona,
   getArchetypeDefaults,
-  listPersonas
+  listPersonas,
+  getPersonaSummary
 };

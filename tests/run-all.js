@@ -9,7 +9,8 @@ const path = require('path');
 const tests = [
   'memory.test.js',
   'persona.test.js',
-  'prompts.test.js'
+  'prompts.test.js',
+  'chat-tui.test.js'
 ];
 
 let allPassed = true;
