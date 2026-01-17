@@ -1,0 +1,48 @@
+{
+  "id": "act-3-mountain",
+  "adventure": "high-and-dry",
+  "number": 3,
+  "title": "The Mountain",
+  "subtitle": "Journey to the Highndry",
+
+  "description": "The Travellers journey across Walston's wilderness to Mount Salbarii, facing natural hazards and wildlife before finally reaching their prize - the stranded scout ship.",
+
+  "dramatic_purpose": "Climax begins - challenges intensify, goal within reach",
+
+  "scenes": [
+    "overland-journey",
+    "tensher-territory",
+    "crater-approach",
+    "finding-the-ship"
+  ],
+
+  "themes": [
+    "Frontier survival",
+    "Nature as obstacle",
+    "The prize within reach"
+  ],
+
+  "key_beats": [
+    "journey_to_ship",
+    "tensher_encounter",
+    "crater_arrival",
+    "highndry_discovered"
+  ],
+
+  "npcs_introduced": [],
+
+  "hazards": [
+    "Thin atmosphere - filter masks required outside settlements",
+    "Tensher wolves - territorial predators",
+    "Rough terrain - vehicle navigation challenges",
+    "Weather - unpredictable mountain conditions"
+  ],
+
+  "atmosphere": {
+    "tone": "Adventurous, increasingly tense",
+    "pacing": "Building toward discovery",
+    "music_suggestion": "Wilderness exploration, subtle danger"
+  },
+
+  "narrator_notes": "The journey should feel earned. The Highndry has been waiting in that crater for months. When the Travellers finally see it, there should be a moment of triumph - before they realize the work ahead."
+}

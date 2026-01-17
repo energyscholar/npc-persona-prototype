@@ -1,0 +1,58 @@
+{
+  "id": "chauffeur-rescue",
+  "act": "act-4-crisis",
+  "title": "The Chauffeur's Distress",
+  "setting": "Near Mount Salbarii, Walston",
+
+  "atmosphere": "Desperate urgency. A voice on the radio, clearly in distress. The moral weight of a difficult choice.",
+
+  "description": "A distress call comes from the Dictator's Vargr chauffeur. She's been injured trying to reach her elderly parents. This is the adventure's moral crucible.",
+
+  "objectives": [
+    "Receive and assess the distress call",
+    "Weigh the rescue against other priorities",
+    "Make a decision that will define the Travellers"
+  ],
+
+  "encounters": [
+    "distress-call",
+    "rescue-attempt",
+    "aftermath-choice"
+  ],
+
+  "npcs_involved": [
+    "vargr-chauffeur"
+  ],
+
+  "triggers": {
+    "entry": "Crisis ongoing, radio contact with chauffeur",
+    "exit": "Rescue attempted (or not), consequences follow"
+  },
+
+  "the_situation": {
+    "chauffeur_status": "Injured - blinded by windshield glass when vehicle crashed",
+    "parents_status": "Elderly Vargr couple, stranded near eruption zone",
+    "location": "Accessible but dangerous route from Travellers' position",
+    "competing_priority": "Masterton has directed resources to Barvinn (11 refugees)"
+  },
+
+  "moral_weight": {
+    "numbers": "3 Vargr vs 11 humans at Barvinn",
+    "authority": "Masterton has commanded resources elsewhere",
+    "species": "Will saving Vargr matter less to some?",
+    "heroism": "This is what heroes do - the hard thing"
+  },
+
+  "outcomes": {
+    "rescue_attempted": {
+      "success": "Chauffeur and parents saved. Deep gratitude. Local reputation enhanced.",
+      "failure": "Brave attempt recognized even if unsuccessful."
+    },
+    "rescue_declined": {
+      "justification": "Resources needed elsewhere. Defensible but cold.",
+      "consequences": "Lives lost. Questions about priorities."
+    }
+  },
+
+  "narrator_prompt": "Her voice comes through the static - the Dictator's chauffeur, the Vargr everyone says is 'one of the good ones.' She's blind now, glass in her eyes, and she's crying not for herself but for her parents, trapped and waiting for help that isn't coming. Masterton has sent the resources to Barvinn - eleven people there. Here, it's just three Vargr. What will you do? What kind of people are you?"
+}

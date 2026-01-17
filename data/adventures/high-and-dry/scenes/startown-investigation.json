@@ -1,0 +1,57 @@
+{
+  "id": "startown-investigation",
+  "act": "act-2-walston",
+  "title": "Startown",
+  "setting": "Commercial district near Walston Starport",
+
+  "atmosphere": "Small-town frontier. A few hotels, shops, and the Dusty Airlock bar. Locals are friendly but reserved with offworlders. Vargr are present but keep to themselves.",
+
+  "description": "An optional scene where Travellers can gather information, buy supplies, and learn about local conditions before heading to the mountain.",
+
+  "objectives": [
+    "Gather intelligence about the previous crew",
+    "Learn about local conditions and hazards",
+    "Purchase any needed equipment",
+    "Get a feel for Walston society"
+  ],
+
+  "encounters": [
+    "bartender-rumors",
+    "customs-intel",
+    "equipment-shopping",
+    "vargr-observation"
+  ],
+
+  "npcs_present": [
+    "startown-bartender",
+    "customs-officer-walston"
+  ],
+
+  "triggers": {
+    "entry": "Travellers choose to explore before departing",
+    "exit": "Travellers decide to proceed to the mountain"
+  },
+
+  "locations": {
+    "dusty_airlock": "The main bar. Bartender knows everyone's business.",
+    "walston_general": "Equipment and supplies. Basic selection.",
+    "frontier_inn": "The better hotel. Clean, functional.",
+    "starport_customs": "Where records are kept."
+  },
+
+  "information_available": {
+    "bartender_carouse": [
+      "Previous crew were jerks - got drunk, made trouble",
+      "Something's going on at the volcano - officials are worried",
+      "The Dictator's Vargr chauffeur is one of the good ones"
+    ],
+    "customs_persuade": [
+      "Ship tracking records show the previous crew's movements",
+      "They filed departure paperwork before leaving on a commercial transport"
+    ]
+  },
+
+  "vargr_notes": "Travellers with Vargr PCs or who pay attention will notice the social dynamics. Vargr work many jobs but there's only one in government. They're accepted but not equal.",
+
+  "narrator_prompt": "Startown isn't much - a frontier settlement serving the starport. But every town has its stories, and the bartender at the Dusty Airlock has heard them all. A few drinks and the right questions might reveal useful intelligence."
+}

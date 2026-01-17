@@ -1,0 +1,40 @@
+{
+  "id": "act-1-journey",
+  "adventure": "high-and-dry",
+  "number": 1,
+  "title": "The Journey",
+  "subtitle": "Flammarion to Walston",
+
+  "description": "The Travellers learn of their inheritance and travel from Flammarion to Walston, passing through the frontier waypoint of 567-908.",
+
+  "dramatic_purpose": "Exposition - establish characters, motivation, and setting",
+
+  "scenes": [
+    "scout-office",
+    "aboard-autumn-gold",
+    "layover-567-908"
+  ],
+
+  "themes": [
+    "New beginnings",
+    "Frontier travel",
+    "Hope and anticipation"
+  ],
+
+  "key_beats": [
+    "departure_flammarion",
+    "arrival_567-908"
+  ],
+
+  "npcs_introduced": [
+    "captain-corelli"
+  ],
+
+  "atmosphere": {
+    "tone": "Optimistic but uncertain",
+    "pacing": "Measured, building anticipation",
+    "music_suggestion": "Ambient space travel, hopeful undertones"
+  },
+
+  "narrator_notes": "This act sets the stage. The Travellers are starting a journey that will test them. Emphasize the vastness of space and the modest nature of frontier travel. The Autumn Gold is a working ship, not luxury transport."
+}

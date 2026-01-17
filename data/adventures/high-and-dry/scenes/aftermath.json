@@ -1,0 +1,53 @@
+{
+  "id": "aftermath",
+  "act": "act-5-aftermath",
+  "title": "As the Dust Settles",
+  "setting": "Walston, post-eruption",
+
+  "atmosphere": "Exhaustion mixed with relief. The crisis has passed, and now comes the reckoning. Depending on PC actions, this is triumphant or somber.",
+
+  "description": "The eruption subsides. The Travellers face the consequences of their choices - recognition, gratitude, or difficult questions.",
+
+  "objectives": [
+    "Process the aftermath of the crisis",
+    "Receive recognition (or criticism) for actions",
+    "Complete ship preparations",
+    "Depart Walston"
+  ],
+
+  "encounters": [
+    "aftermath-assessment",
+    "recognition-or-reckoning",
+    "ship-departure"
+  ],
+
+  "npcs_present": [
+    "minister-greener",
+    "dictator-masterton"
+  ],
+
+  "triggers": {
+    "entry": "Crisis resolved, volcano quieting",
+    "exit": "Travellers depart in the Highndry"
+  },
+
+  "outcome_variations": {
+    "heroic": {
+      "condition": "Rescued chauffeur family, helped refugees",
+      "reception": "Heroes' welcome. Greener offers bonus. Masterton personally thanks them.",
+      "reputation": "Known as heroes of the Salbarii eruption"
+    },
+    "competent": {
+      "condition": "Completed survey, helped where convenient",
+      "reception": "Respectful farewell. Contract fulfilled. Ship is theirs.",
+      "reputation": "Reliable offworlders"
+    },
+    "problematic": {
+      "condition": "Prioritized ship over rescue",
+      "reception": "Cold efficiency. Contract technically fulfilled.",
+      "reputation": "Offworlders who looked out for themselves"
+    }
+  },
+
+  "narrator_prompt": "The ash cloud thins. The rumbling fades to occasional grumbles. Mount Salbarii has spent its fury, for now. In the aftermath, there is counting - of survivors, of losses, of choices made under pressure. The Highndry stands ready, finally operational after all this time. But before departure, there is one more scene to play: the reckoning. What you did during the crisis will not be forgotten."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "act-2-walston",
+  "adventure": "high-and-dry",
+  "number": 2,
+  "title": "Walston",
+  "subtitle": "Arrival and Negotiation",
+
+  "description": "The Travellers arrive on Walston and discover their ship isn't simply waiting for them. They must negotiate with Minister Greener and navigate local society.",
+
+  "dramatic_purpose": "Rising action - obstacles emerge, characters are tested",
+
+  "scenes": [
+    "starport-arrival",
+    "meeting-greener",
+    "startown-investigation"
+  ],
+
+  "themes": [
+    "Bureaucratic obstacles",
+    "Local politics",
+    "Vargr discrimination",
+    "Information as currency"
+  ],
+
+  "key_beats": [
+    "arrival_walston",
+    "customs_check",
+    "meeting_greener",
+    "survey_accepted",
+    "startown_investigation"
+  ],
+
+  "npcs_introduced": [
+    "minister-greener",
+    "customs-officer-walston",
+    "startown-bartender"
+  ],
+
+  "atmosphere": {
+    "tone": "Businesslike with undercurrents of local tension",
+    "pacing": "Deliberate, social maneuvering",
+    "music_suggestion": "Frontier town, sparse, with hints of tension"
+  },
+
+  "narrator_notes": "This is where the Travellers learn that nothing comes easy. Greener is fair but firm - the previous crew already received payment. The Vargr situation should be introduced subtly. Startown offers intel for those who seek it."
+}

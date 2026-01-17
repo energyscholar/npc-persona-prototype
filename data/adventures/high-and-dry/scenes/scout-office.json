@@ -1,0 +1,44 @@
+{
+  "id": "scout-office",
+  "act": "act-1-journey",
+  "title": "The Scout Office",
+  "setting": "Scout Service Way Station, Flammarion Highport",
+
+  "atmosphere": "Bureaucratic but efficient. The Way Station is busy but well-organized. Mr. Casarii is professional, even sympathetic.",
+
+  "description": "The Travellers report to the Scout Service office to claim their inherited ship. They learn it's not at Flammarion - it's stranded on Walston.",
+
+  "objectives": [
+    "Learn about the ship inheritance",
+    "Receive documentation for the Highndry",
+    "Get travel information for Walston"
+  ],
+
+  "encounters": [
+    "casarii-briefing"
+  ],
+
+  "npcs_present": [
+    "mr-casarii"
+  ],
+
+  "triggers": {
+    "entry": "PC with scout ship benefit reports to claim it",
+    "exit": "Travellers have documentation and travel plans"
+  },
+
+  "information_available": {
+    "automatic": [
+      "Ship is a Type S Scout/Courier named Highndry",
+      "Ship is on Walston, not Flammarion",
+      "Previous crew had 'issues' - left the ship stranded"
+    ],
+    "on_request": [
+      "Walston is a backwater - Class C port",
+      "Journey takes about 2 weeks via commercial transport",
+      "The Autumn Gold departs tomorrow for Walston"
+    ]
+  },
+
+  "narrator_prompt": "The Scout Service Way Station is a hive of activity - couriers coming and going, reports being filed, ships being assigned. But for one Traveller today, it holds something special: documentation for an inheritance."
+}

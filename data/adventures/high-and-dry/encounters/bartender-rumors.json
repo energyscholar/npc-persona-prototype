@@ -1,0 +1,66 @@
+{
+  "id": "bartender-rumors",
+  "scene": "startown-investigation",
+  "type": "social",
+  "subtype": "information_gathering",
+  "title": "The Dusty Airlock",
+
+  "description": "The bartender at the Dusty Airlock knows everyone's business. With the right approach, valuable information flows as freely as the drinks.",
+
+  "participants": {
+    "npcs": ["startown-bartender"],
+    "required_pcs": 1,
+    "optional_pcs": "all"
+  },
+
+  "mechanics": {
+    "primary_skill": "Carouse",
+    "alternate_skills": ["Persuade", "Streetwise"],
+    "difficulty": "Easy (6+)",
+    "modifiers": [
+      { "condition": "buying_rounds", "mod": 2, "reason": "Generosity appreciated" },
+      { "condition": "PC is Vargr", "mod": 0, "reason": "Bartender is fair" },
+      { "condition": "rude_or_pushy", "mod": -2, "reason": "Locals protect their own" }
+    ]
+  },
+
+  "information_tiers": {
+    "free": [
+      "Previous crew came through a few months back",
+      "Volcano's been acting up lately",
+      "The Dictator has a Vargr chauffeur - one of the good ones"
+    ],
+    "easy_6": [
+      "Previous crew were jerks - got drunk, caused trouble",
+      "They left in a hurry, didn't pay their bar tab",
+      "Government's been worried about Salbarii"
+    ],
+    "moderate_8": [
+      "Someone at the port office knows exactly what those crew members did",
+      "The volcano survey isn't routine - there are real concerns",
+      "Vargr here have it okay, but there's a ceiling"
+    ],
+    "hard_10": [
+      "Rumor is they sabotaged their own ship to avoid the survey",
+      "Masterton's been talking about evacuation plans",
+      "The chauffeur's the only Vargr who's really trusted"
+    ]
+  },
+
+  "atmosphere_notes": [
+    "Small bar, regulars know each other",
+    "Offworlders are curiosities, not threats",
+    "Locals are proud but practical"
+  ],
+
+  "outcomes": {
+    "intel_gathered": {
+      "flags": { "prior_intel_gathered": true, "heard_volcano_concerns": true }
+    }
+  },
+
+  "roleplay_guidance": {
+    "bartender_personality": "Friendly, talkative, protective of locals",
+    "bar_atmosphere": "Comfortable, worn, unpretentious"
+  }
+}

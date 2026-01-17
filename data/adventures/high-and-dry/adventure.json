@@ -1,0 +1,115 @@
+{
+  "id": "high-and-dry",
+  "title": "High and Dry",
+  "subtitle": "Marches Adventure 1",
+  "source": "MgT 2E - Marches Adventure 1",
+  "world": "Walston",
+  "type": "linear-narrative",
+
+  "theme": "Earning trust, moral choices, heroism in crisis",
+  "hook": "Inherit a scout ship stranded on a backwater world - but nothing is ever simple on the frontier",
+
+  "campaign": {
+    "part_of": "metal-worlds",
+    "leads_to": "project-steel",
+    "standalone": true
+  },
+
+  "acts": [
+    "act-1-journey",
+    "act-2-walston",
+    "act-3-mountain",
+    "act-4-crisis",
+    "act-5-aftermath"
+  ],
+
+  "npcs": [
+    "minister-greener",
+    "captain-corelli",
+    "customs-officer-walston",
+    "startown-bartender",
+    "dictator-masterton",
+    "vargr-chauffeur",
+    "narrator-high-and-dry",
+    "assistant-gm"
+  ],
+
+  "resources": {
+    "locations": [
+      "flammarion-highport",
+      "567-908-starport",
+      "walston-starport",
+      "walston-startown",
+      "government-building",
+      "dusty-airlock-bar",
+      "central-lake",
+      "mount-salbarii",
+      "highndry-crater",
+      "salbarii-town"
+    ],
+    "equipment": [
+      "vacc-suit",
+      "air-raft",
+      "atv",
+      "rescue-gear",
+      "filter-mask",
+      "communicator"
+    ],
+    "lore": [
+      "vargr-glass-ceiling",
+      "tensher-wolves",
+      "mount-salbarii-volcano",
+      "highndry-history",
+      "walston-culture"
+    ],
+    "ships": [
+      "highndry-scout",
+      "autumn-gold-trader"
+    ]
+  },
+
+  "story_beats": [
+    "departure_flammarion",
+    "arrival_567-908",
+    "arrival_walston",
+    "customs_check",
+    "meeting_greener",
+    "survey_accepted",
+    "startown_investigation",
+    "journey_to_ship",
+    "tensher_encounter",
+    "crater_arrival",
+    "highndry_discovered",
+    "survey_begun",
+    "eruption_warning",
+    "eruption_begins",
+    "crisis_response",
+    "refugee_rescue",
+    "chauffeur_distress",
+    "chauffeur_rescue",
+    "aftermath",
+    "departure_walston"
+  ],
+
+  "key_choices": {
+    "negotiate_payment": "How hard did PCs push for more money?",
+    "gather_intel": "Did PCs investigate in Startown before departing?",
+    "tensher_reaction": "How did PCs handle the Tensher wolf encounter?",
+    "survey_thoroughness": "How complete was the volcano survey?",
+    "crisis_priorities": "Who did PCs prioritize during the eruption?",
+    "chauffeur_rescue": "Did PCs rescue the Vargr chauffeur's parents?"
+  },
+
+  "requirements": {
+    "min_players": 1,
+    "max_players": 6,
+    "required_skills": ["Pilot", "Engineer", "Astrogation"],
+    "useful_skills": ["Diplomat", "Persuade", "Survival", "Medic", "Vacc Suit"]
+  },
+
+  "timing": {
+    "start_date": "001-1105",
+    "estimated_game_days": 14,
+    "jump_time_weeks": 2
+  }
+}

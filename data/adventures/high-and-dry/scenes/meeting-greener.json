@@ -1,0 +1,53 @@
+{
+  "id": "meeting-greener",
+  "act": "act-2-walston",
+  "title": "The Minister's Office",
+  "setting": "Government building, Settlement Island, Walston",
+
+  "atmosphere": "Formal but not unfriendly. Greener is direct and businesslike. His office is functional, decorated with fishing trophies and offworld certificates.",
+
+  "description": "The Travellers meet Minister Alan Greener, who controls access to offworld ships. He explains the situation with the Highndry and offers terms for its release.",
+
+  "objectives": [
+    "Learn about the Highndry situation",
+    "Understand what happened to the previous crew",
+    "Negotiate terms for ship access",
+    "Accept (or refuse) the survey mission"
+  ],
+
+  "encounters": [
+    "greener-introduction",
+    "negotiation",
+    "departure-briefing"
+  ],
+
+  "npcs_present": [
+    "minister-greener"
+  ],
+
+  "triggers": {
+    "entry": "Travellers request ship access at starport, directed here",
+    "exit": "Survey deal struck OR Travellers refuse terms"
+  },
+
+  "key_dialogue": {
+    "greener_opening": "So you're here about the Highndry. I was wondering when someone would show up. The previous crew... didn't leave on the best terms.",
+    "the_deal": "I'll make you a fair offer. Cr3000 for a survey of Mount Salbarii's volcanic activity. Complete the survey, and the ship is yours to take.",
+    "if_pushed": "The government already paid the previous crew. They didn't deliver. I'm offering you a way to earn the ship - that's more than fair."
+  },
+
+  "information_available": {
+    "automatic": [
+      "Previous crew took payment, did poor work, fled",
+      "Ship is disabled in crater of Mount Salbarii",
+      "Government needs volcano survey data"
+    ],
+    "persuade_check": [
+      "Volcanic activity has been increasing lately",
+      "The Minister is under pressure from Masterton",
+      "There's been talk of evacuating Salbarii town"
+    ]
+  },
+
+  "narrator_prompt": "The Minister for Offworld Affairs, Public Relations, and Fisheries has a lot of titles for a small world. Alan Greener earned them by being competent and direct. He's not hostile - but he's not giving anything away either."
+}

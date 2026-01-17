@@ -1,0 +1,82 @@
+{
+  "id": "tensher-encounter",
+  "scene": "tensher-territory",
+  "type": "survival",
+  "subtype": "wildlife",
+  "title": "Tensher Wolves",
+
+  "description": "The Travellers encounter Tensher wolves, the apex predators of Walston's wilderness. How they handle this defines their approach to the frontier.",
+
+  "participants": {
+    "npcs": [],
+    "required_pcs": "all"
+  },
+
+  "creature_stats": {
+    "name": "Tensher Wolf",
+    "count": "1d6+2",
+    "behavior": "Territorial pack hunters, investigate intruders",
+    "danger_level": "Moderate - will attack if provoked or cornered"
+  },
+
+  "approach_options": {
+    "avoidance": {
+      "skill": "Recon or Survival",
+      "difficulty": "Average (8+)",
+      "result": "Detect wolves early, route around territory"
+    },
+    "intimidation": {
+      "skill": "Animals or Survival",
+      "difficulty": "Difficult (10+)",
+      "result": "Show dominance, wolves back off"
+    },
+    "stealth": {
+      "skill": "Stealth",
+      "difficulty": "Difficult (10+)",
+      "result": "Pass through without detection"
+    },
+    "combat": {
+      "note": "Possible but messy, may attract more",
+      "consequence": "Dead wolves, injured PCs, delayed progress"
+    },
+    "distraction": {
+      "skill": "Survival",
+      "difficulty": "Average (8+)",
+      "result": "Lure wolves away with food/noise"
+    }
+  },
+
+  "escalation": {
+    "peaceful": "Wolves observe from distance, do not attack",
+    "tense": "Wolves approach, test boundaries, may be driven off",
+    "combat": "Full pack attack, serious threat"
+  },
+
+  "environmental_factors": [
+    "Thin atmosphere limits running endurance",
+    "Rocky terrain provides cover but limits vehicle movement",
+    "Time of day affects wolf activity"
+  ],
+
+  "outcomes": {
+    "avoided": {
+      "beat": "tensher_avoided",
+      "flags": { "tensher_method": "stealth" }
+    },
+    "faced_down": {
+      "beat": "tensher_intimidated",
+      "flags": { "tensher_method": "dominance" }
+    },
+    "fought": {
+      "beat": "tensher_fought",
+      "flags": { "tensher_method": "combat" },
+      "consequence": "Possible injuries, resources expended"
+    }
+  },
+
+  "roleplay_guidance": {
+    "wolf_behavior": "Not mindless attackers - territorial predators",
+    "frontier_tone": "This is wild country. Nature doesn't care about your schedule.",
+    "reward_creativity": "Multiple solutions work - players shouldn't feel forced into combat"
+  }
+}

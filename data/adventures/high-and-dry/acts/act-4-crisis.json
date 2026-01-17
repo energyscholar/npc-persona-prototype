@@ -1,0 +1,56 @@
+{
+  "id": "act-4-crisis",
+  "adventure": "high-and-dry",
+  "number": 4,
+  "title": "Crisis",
+  "subtitle": "Eruption!",
+
+  "description": "Mount Salbarii erupts while the Travellers are conducting their survey. What was a straightforward job becomes a desperate rescue operation as the volcano threatens the region.",
+
+  "dramatic_purpose": "Crisis and complications - everything goes wrong, heroes are made",
+
+  "scenes": [
+    "survey-work",
+    "eruption-warning",
+    "eruption-begins",
+    "fighting-volcano-1",
+    "fighting-volcano-2",
+    "chauffeur-rescue"
+  ],
+
+  "themes": [
+    "Heroism in crisis",
+    "Moral choices under pressure",
+    "Community vs. self-interest",
+    "Vargr equality tested"
+  ],
+
+  "key_beats": [
+    "survey_begun",
+    "eruption_warning",
+    "eruption_begins",
+    "crisis_response",
+    "refugee_rescue",
+    "chauffeur_distress",
+    "chauffeur_rescue"
+  ],
+
+  "npcs_introduced": [
+    "dictator-masterton",
+    "vargr-chauffeur"
+  ],
+
+  "moral_choices": {
+    "refugee_priority": "11 refugees at Barvinn vs 3 Vargr (chauffeur's parents)",
+    "risk_assessment": "How much danger are PCs willing to accept?",
+    "following_orders": "Masterton commands resources - do PCs comply?"
+  },
+
+  "atmosphere": {
+    "tone": "Urgent, high stakes, heroic",
+    "pacing": "Rapid, escalating tension",
+    "music_suggestion": "Disaster movie tension, punctuated by moments of hope"
+  },
+
+  "narrator_notes": "This is where the adventure shifts from 'get the ship' to 'be heroes.' The eruption doesn't just threaten - it transforms the story. The chauffeur rescue is the moral heart of the adventure. Will the PCs risk their newly-acquired ship for three Vargr?"
+}

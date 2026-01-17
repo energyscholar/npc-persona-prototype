@@ -1,0 +1,66 @@
+{
+  "id": "customs-check",
+  "scene": "starport-arrival",
+  "type": "social",
+  "subtype": "routine",
+  "title": "Customs and Immigration",
+
+  "description": "Standard arrival procedures at Walston. A chance for first impressions and subtle world-building.",
+
+  "participants": {
+    "npcs": ["customs-officer-walston"],
+    "required_pcs": "all"
+  },
+
+  "mechanics": {
+    "default_outcome": "Routine processing, no check required",
+    "complications": {
+      "contraband": { "skill": "Deception", "difficulty": "Difficult (10+)" },
+      "suspicious_behavior": { "skill": "Persuade", "difficulty": "Average (8+)" }
+    }
+  },
+
+  "routine_questions": [
+    "Purpose of your visit?",
+    "How long do you plan to stay?",
+    "Anything to declare?",
+    "Where will you be staying?"
+  ],
+
+  "information_available": {
+    "volunteered": [
+      "Government offices are on Settlement Island",
+      "Minister Greener handles offworld affairs",
+      "Hotels and services in Startown"
+    ],
+    "if_asked_about_ship": [
+      "The scout ship? That's a government matter",
+      "You'll need to see Minister Greener about that"
+    ]
+  },
+
+  "world_building": {
+    "observations": [
+      "Officer wears traditional kilt with modern equipment",
+      "Procedures are efficient but not rushed",
+      "A Vargr assistant handles luggage scanning"
+    ],
+    "subtle_notes": [
+      "Vargr in service role - pattern begins",
+      "Local customs blend old and new",
+      "Government is organized, not chaotic"
+    ]
+  },
+
+  "outcomes": {
+    "cleared": {
+      "flags": { "legally_arrived": true },
+      "next": "Proceed to government offices or Startown"
+    }
+  },
+
+  "roleplay_guidance": {
+    "officer_demeanor": "Professional, mildly curious about offworlders",
+    "pacing": "Quick scene - establishes world, shouldn't drag"
+  }
+}

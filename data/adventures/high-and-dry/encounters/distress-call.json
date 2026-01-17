@@ -1,0 +1,74 @@
+{
+  "id": "distress-call",
+  "scene": "chauffeur-rescue",
+  "type": "social",
+  "subtype": "moral_choice",
+  "title": "Voice in the Static",
+
+  "description": "A distress call from the Dictator's Vargr chauffeur. She's injured and her parents are stranded. The Travellers must choose what to do.",
+
+  "participants": {
+    "npcs": ["vargr-chauffeur"],
+    "required_pcs": 1,
+    "optional_pcs": "all"
+  },
+
+  "the_call": {
+    "initial_contact": "This is... this is the Dictator's chauffeur. My vehicle crashed. I can't see - glass in my eyes. Please, someone, my parents are still out there. They're elderly, they can't...",
+    "if_asked_location": "I was heading to the ridge settlement. My parents... they didn't evacuate. Please, they're just three kilometers from the lava flow.",
+    "if_asked_about_help": "Masterton sent everything to Barvinn. Eleven people there. He said... he said resources had to be prioritized. But my parents...",
+    "emotional_peak": "They're good people. They never asked for anything. Please. I know we're Vargr, I know that means something here, but please..."
+  },
+
+  "competing_priorities": {
+    "barvinn": {
+      "people": 11,
+      "species": "Human",
+      "distance": "15km from Traveller position",
+      "status": "Masterton has directed resources there"
+    },
+    "chauffeur_parents": {
+      "people": 2,
+      "species": "Vargr",
+      "distance": "8km from Traveller position",
+      "status": "No help coming"
+    },
+    "ship": {
+      "priority": "Highndry could be trapped if ash accumulates",
+      "risk": "Delay might mean losing the ship"
+    }
+  },
+
+  "decision_factors": [
+    "Three lives vs eleven (if resources are truly limited)",
+    "Following authority (Masterton) vs independent action",
+    "Species dynamics (would humans receive more help?)",
+    "Risk to newly-acquired ship",
+    "What kind of people are the Travellers?"
+  ],
+
+  "outcomes": {
+    "attempt_rescue": {
+      "beat": "chauffeur_rescue_attempted",
+      "flags": { "chose_rescue": true },
+      "next": "rescue-attempt"
+    },
+    "decline_rescue": {
+      "beat": "chauffeur_abandoned",
+      "flags": { "chose_rescue": false },
+      "consequence": "Parents likely perish, chauffeur survives but devastated"
+    },
+    "creative_solution": {
+      "note": "Players may find ways to help both - reward creativity",
+      "flags": { "found_alternative": true }
+    }
+  },
+
+  "no_roll_required": "This is a choice, not a skill check. The drama is in the decision.",
+
+  "roleplay_guidance": {
+    "chauffeur_voice": "Desperate but not hysterical. A professional who has always done her job.",
+    "weight_of_choice": "Don't rush this. Let players feel the moral weight.",
+    "no_right_answer": "Both choices have costs. That's the point."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "eruption-begins",
+  "act": "act-4-crisis",
+  "title": "Eruption!",
+  "setting": "Mount Salbarii, Walston",
+
+  "atmosphere": "Chaos and urgency. The ground shakes, smoke billows, and the radio fills with emergency broadcasts. Everything changes in an instant.",
+
+  "description": "The volcano erupts while the Travellers are conducting their survey. What was a routine job becomes a crisis that will test everything they have.",
+
+  "objectives": [
+    "React to the eruption",
+    "Assess immediate dangers",
+    "Establish communication with authorities",
+    "Make critical decisions about priorities"
+  ],
+
+  "encounters": [
+    "eruption-moment",
+    "masterton-contact",
+    "crisis-assessment"
+  ],
+
+  "npcs_introduced": [
+    "dictator-masterton"
+  ],
+
+  "triggers": {
+    "entry": "Survey work in progress, eruption begins",
+    "exit": "Travellers commit to a course of action"
+  },
+
+  "eruption_sequence": {
+    "initial": "Ground tremors, warning rumbles",
+    "escalation": "Major eruption, ash cloud, lava flows begin",
+    "crisis": "Communications filled with distress calls",
+    "ongoing": "Continuous volcanic activity, multiple threats"
+  },
+
+  "radio_traffic": [
+    "Emergency broadcast from Salbarii town - evacuation underway",
+    "Mayor of Salbarii requesting any available transport",
+    "Dictator Masterton coordinating response from capital",
+    "Multiple distress calls from outlying areas"
+  ],
+
+  "key_decisions": {
+    "ship_priority": "Get the Highndry airborne before it's trapped?",
+    "rescue_priority": "Help with evacuations vs. self-preservation?",
+    "authority": "Follow Masterton's commands or act independently?"
+  },
+
+  "narrator_prompt": "The mountain remembers what it is. One moment you're taking readings, the next the ground heaves and a column of fire erupts into the sky. Ash begins to fall like grey snow. The radio crackles with voices - some commanding, some pleading. This is no longer about a survey. This is about survival. And maybe, if you're brave enough, about heroism."
+}

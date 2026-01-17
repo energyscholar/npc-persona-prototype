@@ -1,0 +1,93 @@
+{
+  "id": "negotiation",
+  "scene": "meeting-greener",
+  "type": "social",
+  "subtype": "negotiation",
+  "title": "Negotiating the Survey Deal",
+
+  "description": "Minister Greener offers Cr3000 for a volcano survey. The Travellers may attempt to negotiate better terms.",
+
+  "participants": {
+    "npcs": ["minister-greener"],
+    "required_pcs": 1,
+    "optional_pcs": "all"
+  },
+
+  "mechanics": {
+    "primary_skill": "Diplomat",
+    "alternate_skills": ["Persuade", "Broker"],
+    "difficulty": "Average (8+)",
+    "modifiers": [
+      { "condition": "PC is Vargr", "mod": -2, "reason": "Local social bias" },
+      { "condition": "prior_intel_gathered", "mod": 1, "reason": "Know about volcano concerns" },
+      { "condition": "professional_demeanor", "mod": 1, "reason": "Good first impression" },
+      { "condition": "pushy_attitude", "mod": -1, "reason": "Greener doesn't like pressure" }
+    ]
+  },
+
+  "dialogue": {
+    "hooks": [
+      "What happened to the previous crew?",
+      "Why is the survey so important right now?",
+      "Can we discuss the payment terms?",
+      "What equipment will you provide?"
+    ],
+    "npc_goals": [
+      "Get survey completed at minimal cost",
+      "Assess if these Travellers are reliable",
+      "Protect government interests"
+    ],
+    "pc_leverage": [
+      "They're the only ones here to do the job",
+      "Greener needs this survey done",
+      "Alternative would be hiring offworld contractors"
+    ]
+  },
+
+  "base_offer": {
+    "payment": 3000,
+    "equipment": "Basic survey gear provided",
+    "deadline": "No fixed deadline but sooner is better"
+  },
+
+  "stakes": {
+    "exceptional_success": {
+      "threshold": "12+",
+      "result": { "payment": 4500, "intel": true, "relationship": 2 }
+    },
+    "success": {
+      "threshold": "8+",
+      "result": { "payment": 4000, "intel": true, "relationship": 1 }
+    },
+    "partial": {
+      "threshold": "6-7",
+      "result": { "payment": 3500, "intel": false, "relationship": 0 }
+    },
+    "failure": {
+      "threshold": "5-",
+      "result": { "payment": 3000, "intel": false, "relationship": -1 }
+    }
+  },
+
+  "outcomes": {
+    "deal_struck": {
+      "beat": "survey_accepted",
+      "unlocks": ["departure-briefing", "startown-investigation"],
+      "flags": { "survey_accepted": true, "negotiated_payment": "amount" }
+    },
+    "deal_refused": {
+      "beat": "greener_refused",
+      "blocks": ["mountain-journey"],
+      "consequence": "Must find another way or leave without ship"
+    }
+  },
+
+  "roleplay_guidance": {
+    "greener_attitude": "Fair but firm. Not hostile, not a pushover.",
+    "key_points": [
+      "Previous crew already got paid - Greener won't pay twice",
+      "Survey is legitimate need, not make-work",
+      "He respects competence and directness"
+    ]
+  }
+}

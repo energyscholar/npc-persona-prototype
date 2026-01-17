@@ -1,0 +1,62 @@
+{
+  "id": "act-5-aftermath",
+  "adventure": "high-and-dry",
+  "number": 5,
+  "title": "Aftermath",
+  "subtitle": "As the Dust Settles",
+
+  "description": "The eruption subsides. The Travellers deal with the consequences of their actions - recognition, gratitude, or blame depending on their choices. The Highndry is finally theirs.",
+
+  "dramatic_purpose": "Resolution - consequences, rewards, hooks for future",
+
+  "scenes": [
+    "aftermath-walston",
+    "recognition-ceremony",
+    "departure"
+  ],
+
+  "themes": [
+    "Consequences of choices",
+    "Reputation earned",
+    "New beginnings"
+  ],
+
+  "key_beats": [
+    "aftermath",
+    "departure_walston"
+  ],
+
+  "npcs_involved": [
+    "minister-greener",
+    "dictator-masterton"
+  ],
+
+  "outcomes": {
+    "heroic": {
+      "condition": "Rescued chauffeur's parents and helped refugees",
+      "result": "Local heroes, Greener offers additional reward, Masterton personally thanks them"
+    },
+    "competent": {
+      "condition": "Completed survey, helped where convenient",
+      "result": "Respected, paid as agreed, ship is theirs"
+    },
+    "problematic": {
+      "condition": "Prioritized ship over rescue",
+      "result": "Cold reception, contract fulfilled technically, reputation damaged"
+    }
+  },
+
+  "campaign_hooks": {
+    "metal_worlds": "Greener mentions survey data may interest certain parties...",
+    "vargr_relations": "The chauffeur's family becomes potential allies or contacts",
+    "local_reputation": "Future visits to Walston will reflect their actions"
+  },
+
+  "atmosphere": {
+    "tone": "Reflective, hopeful, forward-looking",
+    "pacing": "Denouement, allowing processing of events",
+    "music_suggestion": "Resolution, sunrise after storm"
+  },
+
+  "narrator_notes": "Let the consequences breathe. If the PCs were heroes, let them feel it. If they made hard choices, let those resonate. The Highndry is theirs now - a ship with a history, and a future shaped by what they've done."
+}

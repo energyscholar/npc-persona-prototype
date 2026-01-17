@@ -1,0 +1,39 @@
+{
+  "id": "starport-arrival",
+  "act": "act-2-walston",
+  "title": "Arrival at Walston",
+  "setting": "Walston Starport, Class C",
+
+  "atmosphere": "Modest frontier port. Functional rather than impressive. Locals in traditional kilts going about their business.",
+
+  "description": "The Travellers arrive at Walston after weeks of travel. First impressions of this backwater world and its people.",
+
+  "objectives": [
+    "Complete arrival procedures",
+    "Get directions to government offices",
+    "First observations of local culture"
+  ],
+
+  "encounters": [
+    "customs-check",
+    "first-impressions"
+  ],
+
+  "npcs_present": [
+    "customs-officer-walston"
+  ],
+
+  "triggers": {
+    "entry": "Autumn Gold lands at Walston",
+    "exit": "Travellers proceed to government building or Startown"
+  },
+
+  "first_observations": [
+    "Small port - barely more than a landing field with prefab buildings",
+    "Locals wear traditional kilts, seem content",
+    "Thin atmosphere - not dangerous but noticeable",
+    "Mix of humans and Vargr, though Vargr seem to hold service positions"
+  ],
+
+  "narrator_prompt": "The far trader Autumn Gold settles onto the landing pad with a familiar shudder. Through the viewports, Walston stretches out - brown and grey beneath a thin atmosphere. The starport is modest, almost rustic. A few prefab buildings, a fuel depot, not much else. Locals in traditional kilts go about their business, paying the arriving ship little mind. This is a quiet world. What could possibly go wrong?"
+}

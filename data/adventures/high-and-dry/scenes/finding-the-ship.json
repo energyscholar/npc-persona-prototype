@@ -1,0 +1,52 @@
+{
+  "id": "finding-the-ship",
+  "act": "act-3-mountain",
+  "title": "Finding the Highndry",
+  "setting": "Crater of Mount Salbarii, Walston",
+
+  "atmosphere": "Desolate volcanic landscape. The ship sits alone in the crater, weathered but intact. There's a sense of isolation and accomplishment.",
+
+  "description": "The Travellers finally reach their prize. The Highndry waits in the crater, disabled but salvageable. Now the real work begins.",
+
+  "objectives": [
+    "Locate the Highndry in the crater",
+    "Assess the ship's condition",
+    "Identify required repairs",
+    "Begin survey work"
+  ],
+
+  "encounters": [
+    "first-sight",
+    "ship-assessment",
+    "repair-planning"
+  ],
+
+  "npcs_present": [],
+
+  "triggers": {
+    "entry": "Travellers navigate to crater successfully",
+    "exit": "Ship assessed, repair plan made, survey begins"
+  },
+
+  "ship_condition": {
+    "exterior": "Weathered but structurally sound. Some scoring from volcanic debris.",
+    "power_plant": "Offline. Fuel cells depleted. Primary issue.",
+    "maneuver": "Functional once power restored.",
+    "jump_drive": "Needs calibration but operational.",
+    "life_support": "Offline but intact."
+  },
+
+  "repair_requirements": {
+    "immediate": "Fuel - can be refined from water/atmosphere",
+    "short_term": "Power plant restart procedure",
+    "calibration": "Jump drive needs recalibration before use"
+  },
+
+  "environmental_hazards": [
+    "Thin atmosphere - filter masks required",
+    "Volcanic gases - periodic venting",
+    "Unstable footing in some areas"
+  ],
+
+  "narrator_prompt": "There she is. The Highndry. A Type S Scout/Courier, registry S00164-2, sitting in the crater like a forgotten promise. Months of exposure have dulled her hull, but she's still a starship. Your starship. Now you just have to make her fly again."
+}
