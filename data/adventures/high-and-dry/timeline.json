@@ -1,0 +1,168 @@
+{
+  "adventure_timeline": {
+    "start_date": "001-1105",
+    "estimated_duration_days": 14,
+    "note": "Dates are approximate, vary by PC actions"
+  },
+
+  "backstory_timeline": {
+    "highndry_history": {
+      "age": "Sometime in the last century or two",
+      "event": "Ship designated S001642-C dubbed 'Highndry' by crew, name stuck"
+    },
+    "crew_scam": {
+      "timing": "At last refit",
+      "event": "Crew bribed dockyard to install breaker-yard parts, sold IISS components for profit"
+    },
+    "final_voyage": {
+      "timing": "A few months ago",
+      "event": "Highndry suffered serious control electronics failure",
+      "location": "Parked in crater of extinct volcano on Walston"
+    },
+    "crew_abandonment": {
+      "timing": "After failure",
+      "sequence": [
+        "Crew attempted repairs, failed",
+        "Boarded ship's air/raft to starport",
+        "Caught ship to Caladbolg via Datrillian",
+        "Left trashed hotel rooms",
+        "Took air/raft with them"
+      ]
+    },
+    "crew_arrest": {
+      "timing": "Upon reaching Flammarion",
+      "event": "Crew arrested for fraud when ship records showed neglect and refit scam"
+    },
+    "highndry_visits_to_walston": {
+      "timing": "Past year",
+      "visits": [
+        "Came through port couple of times",
+        "Last time was 3-4 months ago",
+        "Spent couple of days in port before moving on",
+        "Destination recorded as 'In-System' on charter to World Government"
+      ]
+    },
+    "abandoned_pet": {
+      "timing": "When crew left",
+      "event": "Tensher's wolf 'Kimbley' abandoned in crater, food bowl left behind"
+    }
+  },
+
+  "travel_durations": {
+    "flammarion_to_567908": {
+      "duration": "168 hours (roughly 1 week)",
+      "method": "Jump aboard Autumn Gold",
+      "note": "Ship adjusts climate controls during jump to match destination"
+    },
+    "567908_stopover": {
+      "duration": "1 day",
+      "purpose": "Cargo delivery, refuelling (lengthy - water cracking for hydrogen)"
+    },
+    "567908_to_walston": {
+      "duration": "~168 hours (1 week)",
+      "method": "Jump aboard Autumn Gold"
+    },
+    "walston_stopover": {
+      "duration": "Few hours only",
+      "reason": "Autumn Gold on charter, crew saves time to do other business at voyage end"
+    },
+    "startown_to_mountain": {
+      "duration": "Ground transport to base, then climb",
+      "transport": "Offroad vehicle to 500m altitude"
+    },
+    "mountain_climb": {
+      "sections": [
+        {"range": "500-900m", "time": "Several hours", "notes": "Walk up steep slope with detours"},
+        {"range": "900-1100m", "time": "1-2 hours", "notes": "100m/hr paced, 200m/hr fast"},
+        {"range": "1100-1200m", "time": "1 hour", "notes": "Steep, rocky"},
+        {"range": "1200-1350m", "time": "1D hours", "notes": "Hazardous scrambling"},
+        {"range": "1350-1400m", "time": "1D hours", "notes": "Almost sheer rock face"}
+      ]
+    },
+    "ship_repairs": {
+      "duration": "1D+2 man-hours per system (4 systems + computer work)",
+      "total_estimate": "Several people working = 2-3 days minimum",
+      "habitability_work": "Locating parts, cleaning = several days more"
+    },
+    "survey_duration": {
+      "duration": "2-3 days for properly equipped ship",
+      "greener_estimate": true
+    },
+    "software_expiration": {
+      "duration": "3 months",
+      "consequence": "Temporary control software grounds ship at first planetfall after expiration"
+    }
+  },
+
+  "key_time_references": {
+    "rail_service": "Once a day to each destination",
+    "train_travel": "12 hours from starport to capital",
+    "altitude_recovery": {
+      "natural": "1 point per day resting",
+      "controlled_environment": "2 points per day (8 hours in ship/suit)",
+      "oxygen_boost": "Dispels symptoms for 1-2 hours"
+    },
+    "sensor_emplacement": "Half hour or more with hops between points"
+  },
+
+  "eruption_timeline": {
+    "pre_eruption": [
+      "Travellers arrive at ship",
+      "Begin repairs (1D+2 man-hours x 4 systems)",
+      "Survey begins (seismic charges emplaced)",
+      "Tremors felt during survey"
+    ],
+    "eruption_sequence": [
+      "Ground shakes during pre-flight checks",
+      "Plume of smoke from SW side of mountain outside crater",
+      "Radar warns of 'missiles' (rock chunks)",
+      "Must take off immediately",
+      "Flight through smoke/ash zone",
+      "Contact from Minister Greener via starport beacon",
+      "Contact from Salbarii mayor's office",
+      "Decision point: help or run"
+    ],
+    "crisis_phase": [
+      "Reconnaissance flight around mountain",
+      "Terrain mapping for lava flow prediction",
+      "Flow rate measurement",
+      "Refugee evacuation assistance",
+      "Chauffeur distress call",
+      "Potential pyroclastic encounter"
+    ]
+  },
+
+  "npc_timing_knowledge": {
+    "captain_corelli": {
+      "knows": [
+        "Jump takes 168 hours (1 week)",
+        "567-908 stopover is 1 day",
+        "Walston stopover is few hours only",
+        "Ship adjusts climate controls during jump"
+      ]
+    },
+    "minister_greener": {
+      "knows": [
+        "Previous crew visited 3-4 months ago",
+        "Survey should take 2-3 days",
+        "Crew turned up couple weeks after leaving ship",
+        "Ship has been sitting for months"
+      ]
+    },
+    "startown_bartender": {
+      "knows": [
+        "Ship came through couple times in past year",
+        "Last time about 3-4 months ago",
+        "Crew spent couple days in port",
+        "Couple weeks later they returned in air/raft"
+      ]
+    },
+    "customs_officer": {
+      "knows": [
+        "Deals with starship every day or two",
+        "Ship's destination recorded as 'In-System'",
+        "Crew boarded Maverick Spacer for Caladbolg via Datrillian"
+      ]
+    }
+  }
+}

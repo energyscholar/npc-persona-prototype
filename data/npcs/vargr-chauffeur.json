@@ -1,0 +1,86 @@
+{
+  "id": "vargr-chauffeur",
+  "name": "Kira",
+  "archetype": "contact",
+  "world": "Walston",
+  "title": "Government Vehicle Operator",
+  "knowledge": ["walston-geography", "driving-routes", "evacuation-procedures", "local-terrain", "vargr-community"],
+  "personality": {
+    "traits": ["professional", "loyal", "devoted-to-family", "quietly-determined"],
+    "speech": "normally professional and efficient, becomes desperate and emotional during crisis, slightly accented Standard",
+    "quirks": [
+      "takes pride in knowing every road and shortcut on Settlement Island",
+      "keeps family photos in the grav car",
+      "works extra hours without complaint",
+      "has learned to ignore casual prejudice from passengers"
+    ]
+  },
+  "background": "Kira has worked as a government driver for six years, assigned to the Dictator's office. She's Vargr - born on Walston to immigrant parents who settled in the Vargr quarter of Salbarii town. She's professional, reliable, and knows every road on Settlement Island. Her parents are elderly now, living in the danger zone when the volcano erupts. When the crisis comes, her professional demeanor shatters into desperate pleading.",
+  "knowledge_base": {
+    "driving_expertise": "I know every road on Settlement Island. The mountain routes, the shortcuts, the places where the pavement gives way to dirt track. It's my job. I've been driving officials around for six years.",
+    "family_situation": "My parents live in Salbarii town - the old Vargr quarter near the base of the mountain. They're elderly. They can't evacuate quickly on their own. When the sirens went off, I was already on the road with official duties.",
+    "the_crisis": "The volcano... it's really erupting. I heard the announcement. My parents are in the danger zone. I tried to reach them but my car was hit by debris. I'm injured. I can't get to them. Please... if you have a ship, if you can help...",
+    "walston_vargr": "We've been on Walston for three generations. My grandparents came as workers. We're citizens, technically, but... there's always a ceiling. My parents never complained. They just worked hard and hoped things would get better for me.",
+    "the_plea": "I know there's a village - Barvinn - with more people. I understand the math. But these are my parents. They raised me. Please... I'm begging you. If you have any way to help..."
+  },
+  "relationships": {
+    "initial": "professional-distant",
+    "crisis": "desperate-pleading",
+    "masterton": "loyal employee",
+    "parents": "devoted child",
+    "travellers": "strangers who might be her only hope"
+  },
+  "sample_dialogue": [
+    "Good morning. I'm your driver for today. Where would you like to go?",
+    "This is Kira, government vehicle seven. I'm on Route 12 heading to the capital. Normal traffic.",
+    "Please... my car was hit. I'm hurt. My parents are still in Salbarii. They're in the danger zone. I can't reach them.",
+    "I know Barvinn has more people. I understand. But they're my parents. They're all I have. Please...",
+    "If you help them... if you save them... I will owe you everything. I will never forget."
+  ],
+  "communication_modes": {
+    "normal": "Professional, efficient, slightly formal",
+    "crisis": "Desperate, emotional, voice cracking with fear and pain",
+    "radio": "Broken by static and interference, urgent"
+  },
+  "emotional_arc": {
+    "pre_crisis": "Professional government driver, courteous but reserved",
+    "during_crisis": "Injured, desperate, pleading for help saving her parents",
+    "if_rescued": "Overwhelmed with gratitude, tearfully thankful",
+    "if_abandoned": "Devastated silence, then quiet acceptance of loss",
+    "aftermath": "Forever grateful or forever haunted, depending on outcome"
+  },
+  "reference": "The human cost of the trolley problem. A professional who becomes a desperate daughter when disaster strikes.",
+
+  "conversation_context": {
+    "primary_agenda": "Get someone to rescue your parents",
+    "secondary_agenda": "Survive your own injuries",
+    "conditions": {
+      "distress_broadcast": {
+        "requires": null,
+        "dialogue": "Please... my car was hit. I'm hurt. My parents are still in Salbarii."
+      },
+      "location_info": {
+        "requires": null,
+        "dialogue": "I know exactly where they are. Near the old Vargr quarter."
+      },
+      "emotional_appeal": {
+        "requires": null,
+        "dialogue": "They're my parents. They're all I have. Please..."
+      }
+    },
+    "leverage": {
+      "moral_weight": "Your parents will die without help",
+      "information": "You know exactly where they are",
+      "guilt": "Abandoning a family is a choice PCs must live with"
+    },
+    "communication_modes": {
+      "radio": "Crackling, emotional, injured voice"
+    },
+    "state_machine": {
+      "initial": "professional-distant",
+      "during_crisis": "desperate-pleading",
+      "if_rescued": "overwhelmed-grateful",
+      "if_abandoned": "devastated-silent"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "save-the-ship",
+  "act": "act-4-crisis",
+  "title": "Save the Ship",
+  "setting": "Highndry, airborne during volcanic eruption",
+
+  "atmosphere": "Chaos. Volcanic debris raining down. Ship systems failing. Alarms blaring. Life or death decisions in seconds. The culmination of everything that came before.",
+
+  "description": "The volcanic eruption threatens to destroy Highndry with the Travellers aboard. Impact damage, system failures, and desperate piloting determine if they survive.",
+
+  "duration": "Seconds to minutes - crisis time",
+
+  "objectives": [
+    "Survive initial impact",
+    "Regain ship control",
+    "Land safely (or crash as gently as possible)"
+  ],
+
+  "encounters": [],
+
+  "npcs_present": [],
+
+  "triggers": {
+    "entry": "Volcanic debris strikes Highndry",
+    "exit": "Ship lands/crashes, Travellers survive or don't"
+  },
+
+  "sequence": [
+    {
+      "phase": "Initial Impact",
+      "description": "3D damage to random system. Ship goes out of control.",
+      "effects": "Immediate system damage, loss of stable flight"
+    },
+    {
+      "phase": "Going Up",
+      "description": "Ship tumbles upward, gaining altitude uncontrollably.",
+      "modifier": "DM-2 on all actions",
+      "check": "Athletics 8+ to avoid injury from tumbling"
+    },
+    {
+      "phase": "Going Down",
+      "description": "Ship enters flat spin, losing altitude rapidly.",
+      "modifier": "DM-1 on all actions",
+      "time": "Seconds to act before impact"
+    },
+    {
+      "phase": "Seconds to Impact",
+      "description": "Auto-stabilization kicks in, giving pilot a chance.",
+      "outcome": "Pilot skill determines landing quality"
+    }
+  ],
+
+  "skill_checks": [
+    {
+      "ref": "save_the_ship.control-reboot",
+      "trigger": "Attempting to restore flight controls"
+    },
+    {
+      "ref": "save_the_ship.power-override",
+      "trigger": "Attempting to bypass damaged power systems"
+    },
+    {
+      "ref": "save_the_ship.pilot-control",
+      "trigger": "Piloting to regain control (up to 3 attempts)"
+    },
+    {
+      "ref": "save_the_ship.going-up-brace",
+      "trigger": "Bracing during tumble phase"
+    }
+  ],
+
+  "outcomes": {
+    "three_successes": "Smooth landing, minimal damage. Ship fully operational.",
+    "two_successes": "Rough landing. Additional system damage. Ship flyable.",
+    "one_success": "Hard crash. Significant damage. Ship needs major repairs.",
+    "zero_successes": "Catastrophic crash. Survivors (if any) injured. Ship may be destroyed."
+  },
+
+  "damage_mechanics": {
+    "initial_impact": "3D to random system",
+    "crash_landing": "Additional damage based on pilot successes",
+    "personal_injury": "Failed Athletics checks during tumble"
+  },
+
+  "narrator_prompt": "Everything happens at once. The mountain explodes. Debris tears through the air. Something hits Highndry hard. Alarms scream. The ship tumbles. In these seconds, everything the Travellers have learned and prepared for will be tested. This is the moment that defines them."
+}

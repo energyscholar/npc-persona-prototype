@@ -28,6 +28,16 @@
     "exit": "Travellers proceed to government building or Startown"
   },
 
+  "plot_triggers": {
+    "on_enter": [
+      { "set_flag": "arrived_walston", "value": true }
+    ],
+    "on_exit": [
+      { "set_flag": "cleared_customs", "value": true },
+      { "set_flag": "legally_arrived", "value": true }
+    ]
+  },
+
   "first_observations": [
     "Small port - barely more than a landing field with prefab buildings",
     "Locals wear traditional kilts, seem content",

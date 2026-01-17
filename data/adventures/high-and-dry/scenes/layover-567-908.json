@@ -1,0 +1,60 @@
+{
+  "id": "layover-567-908",
+  "act": "act-1-journey",
+  "title": "567-908 Waypoint",
+  "setting": "Scout base on 567-908, browny-grey rockball world",
+
+  "atmosphere": "Remote, isolated, functional. A small scout waystation on a barren world. The landscape is browny-grey with no vegetation. Refueling takes time - water cracking for hydrogen.",
+
+  "description": "One day layover at the scout waystation. Autumn Gold delivers cargo and refuels while Travellers can explore the base or rest.",
+
+  "duration": "1 day",
+
+  "objectives": [
+    "Wait during refueling operations",
+    "Optional: Visit the observatory",
+    "Learn about the system"
+  ],
+
+  "encounters": [],
+
+  "npcs_present": [],
+
+  "triggers": {
+    "entry": "Autumn Gold arrives at 567-908",
+    "exit": "Refueling complete, jump to Walston"
+  },
+
+  "key_dialogue": {
+    "captain_announcement": "We'll be here about a day. Water cracking takes time. Feel free to stretch your legs at the base, but we depart on schedule."
+  },
+
+  "activities": [
+    "Watch refueling operations",
+    "Visit observatory (Persuade 4+ for access)",
+    "Walk the barren landscape",
+    "Review mission documents"
+  ],
+
+  "information_available": {
+    "automatic": [
+      "System designation and basic data",
+      "Scout base function",
+      "Refueling process"
+    ],
+    "observatory_visit": [
+      "Astronomical data",
+      "Regional star mapping",
+      "Scout Service operations"
+    ]
+  },
+
+  "skill_checks": [
+    {
+      "ref": "social_checks.persuade-observatory",
+      "trigger": "Traveller requests observatory access"
+    }
+  ],
+
+  "narrator_prompt": "567-908 is a browny-grey rockball - no atmosphere to speak of, no life, just rock and the small scout waystation. The day passes slowly as hydrogen is cracked from water. It's a reminder of how far from civilization this route runs."
+}

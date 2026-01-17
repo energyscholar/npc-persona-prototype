@@ -1,0 +1,108 @@
+{
+  "id": "ship-repairs",
+  "act": "act-3-mountain",
+  "title": "Repairing the Highndry",
+  "setting": "Scout/Courier Highndry, crater of Mount Salbarii",
+
+  "atmosphere": "Cramped ship interior, evidence of neglect everywhere. Previous crew left mess and damage. Methodical repair work in confined spaces. Relief at finally reaching the ship, tempered by the scope of work needed.",
+
+  "description": "Systematic repair of Highndry's damaged control electronics. Four systems need circuit panel replacement, plus computer purge and software upload. Habitability also needs attention.",
+
+  "duration": "1D+2 man-hours per system (4 systems minimum)",
+
+  "objectives": [
+    "Repair flight controls",
+    "Repair general electronics",
+    "Repair power systems",
+    "Repair drive systems",
+    "Purge computer and upload temporary software",
+    "Restore basic habitability"
+  ],
+
+  "encounters": [
+    "tensher-encounter"
+  ],
+
+  "npcs_present": [],
+
+  "triggers": {
+    "entry": "Travellers reach Highndry",
+    "exit": "Ship becomes flight-capable"
+  },
+
+  "systems_to_repair": [
+    {
+      "name": "Flight Controls",
+      "location": "Bridge",
+      "time": "1D+2 man-hours",
+      "skill": "Electronics",
+      "notes": "Navigational systems, control interfaces"
+    },
+    {
+      "name": "General Electronics",
+      "location": "Dispersed throughout ship",
+      "time": "1D+2 man-hours",
+      "skill": "Electronics",
+      "notes": "Various shipboard systems"
+    },
+    {
+      "name": "Power Systems",
+      "location": "Engineering section",
+      "time": "1D+2 man-hours",
+      "skill": "Electronics",
+      "notes": "Power distribution, monitoring"
+    },
+    {
+      "name": "Drive Systems",
+      "location": "Engineering section",
+      "time": "1D+2 man-hours",
+      "skill": "Electronics",
+      "notes": "M-drive and J-drive controls"
+    },
+    {
+      "name": "Computer",
+      "location": "Bridge",
+      "time": "Variable",
+      "skill": "Electronics",
+      "notes": "Purge corrupted data, upload temporary software"
+    }
+  ],
+
+  "skill_checks": [
+    {
+      "ref": "ship_repairs.flight-controls-repair",
+      "trigger": "Working on bridge controls"
+    },
+    {
+      "ref": "ship_repairs.general-electronics-repair",
+      "trigger": "Working on dispersed systems"
+    },
+    {
+      "ref": "ship_repairs.power-systems-repair",
+      "trigger": "Working on power systems"
+    },
+    {
+      "ref": "ship_repairs.drive-systems-repair",
+      "trigger": "Working on drive controls"
+    },
+    {
+      "ref": "ship_repairs.computer-purge",
+      "trigger": "Purging computer"
+    }
+  ],
+
+  "habitability_notes": {
+    "condition": "Trashy - previous crew left mess everywhere",
+    "life_support": "Functional but dirty",
+    "supplies": "Some survival gear, life rafts",
+    "cleaning_time": "Several days to make properly comfortable"
+  },
+
+  "survey_equipment": {
+    "seismic_charges": "Intact, strewn about haphazardly",
+    "sensors": "Functional - separate from flight systems",
+    "status": "Previous crew didn't tamper with survey gear"
+  },
+
+  "narrator_prompt": "The Highndry is a mess - evidence of the previous crew's poor maintenance and hasty departure. But under the grime, she's a sturdy Scout/Courier. The repair kit has everything needed. It's just a matter of methodical work, one system at a time."
+}

@@ -1,0 +1,159 @@
+{
+  "pc_equipment": {
+    "scout_service_kit": {
+      "description": "Equipment provided by Scout Service for Highndry repair mission",
+      "source": "Mr Anders Casarii, Scout Service office, Flammarion Highport",
+      "items": [
+        {
+          "id": "circuit-panel-cases",
+          "name": "Circuit Panel Flight Cases (x3)",
+          "description": "Three flight cases full of circuit panels and tools for swapping them out",
+          "purpose": "Replace damaged control electronics on Highndry",
+          "size": "flight case (portable, hand-carried)",
+          "weight": "bulky but manageable for mountain climb"
+        },
+        {
+          "id": "diagnostic-unit",
+          "name": "Portable Diagnostic/Software Download Unit",
+          "description": "Same size as the other flight cases. Can diagnose systems and upload temporary control software",
+          "purpose": "Verify repairs and install temporary control software",
+          "size": "flight case (portable)",
+          "notes": "Contains temporary control software package that expires in 3 months"
+        },
+        {
+          "id": "spares-container",
+          "name": "Container of General Spares",
+          "description": "One container of general spares and components",
+          "purpose": "Replacement parts for various ship systems",
+          "size": "container (larger than flight cases)"
+        }
+      ],
+      "total_items": "5 cases/containers that PCs must transport"
+    },
+    "expenses_credit": {
+      "amount": "Cr1000 per traveller",
+      "purpose": "Incidental expenses",
+      "notes": "Credited to accounts, how they spend it is their problem"
+    }
+  },
+
+  "highndry_cargo": {
+    "seismic_charges": {
+      "description": "Seismic charges for geological survey",
+      "location": "Aboard Highndry, strewn around in haphazard manner",
+      "purpose": "Emplace and detonate for volcano survey",
+      "status": "Intact - previous crew had little call to mess with them"
+    },
+    "planetary_survey_equipment": {
+      "description": "Scout ship's standard planetary survey sensors",
+      "location": "Aboard Highndry",
+      "purpose": "Seismic/geological/tectonic surveys",
+      "status": "Functional - separate from flight systems, previous crew didn't tamper"
+    },
+    "survival_kits": {
+      "description": "Standard shipboard survival kits with life rafts",
+      "contents": ["Life raft (x2, capacity 6 people each)", "Emergency supplies"],
+      "purpose": "Abandon ship scenarios"
+    }
+  },
+
+  "autumn_gold_cargo": {
+    "manifest": [
+      {
+        "destination": "567-908",
+        "contents": "Crates of supplies for scout base",
+        "notes": "Delivered at waypoint stop"
+      },
+      {
+        "destination": "Walston",
+        "contents": "Travellers + container of general spares/components",
+        "notes": "PC mission equipment"
+      },
+      {
+        "destination": "Elixabeth Naval Base",
+        "contents": "Uniforms, boots, cases of wine for senior officers",
+        "notes": "Crates NOT marked as bound for naval installation - discrete shipment",
+        "security": "Captain doesn't discuss naval contracts"
+      }
+    ]
+  },
+
+  "creatures": {
+    "tenshers_wolf": {
+      "name": "Tensher's Wolf (Kimbley)",
+      "hits": 36,
+      "speed": "12m",
+      "skills": {
+        "athletics_dexterity": 1,
+        "melee_unarmed": 3,
+        "recon": 2,
+        "stealth": 2,
+        "survival": 3
+      },
+      "attacks": "Bite (3D)",
+      "traits": ["Armour (+2)", "Camouflaged"],
+      "behaviour": "Carnivore, Pouncer",
+      "notes": "Abandoned pet. Food bowl marked 'Kimbley'. Can be befriended if fed and treated well. Otherwise hostile."
+    },
+    "alderson": {
+      "name": "Alderson's Coastal Hunter",
+      "hits": 16,
+      "speed": "6m",
+      "skills": {
+        "athletics_dexterity": 1,
+        "melee_bite": 1,
+        "recon": 1,
+        "stealth": 2,
+        "survival": 2
+      },
+      "attacks": "Bite (2D)",
+      "traits": ["Armour (+3)", "Camouflaged", "Small (-1)"],
+      "behaviour": "Carnivore, Pouncer",
+      "notes": "0.5m body with whip-like tail. Tenacious, difficult to kill with knife."
+    },
+    "brakarr": {
+      "name": "Deep-Water Brakarr",
+      "hits": 33,
+      "speed": "10m",
+      "skills": {
+        "athletics_endurance": 3,
+        "melee_bite": 2,
+        "recon": 1,
+        "survival": 2
+      },
+      "attacks": "Bite (3D)",
+      "traits": ["Armour (+4)"],
+      "behaviour": "Carnivore, Chaser",
+      "notes": "Fish with armoured head, manipulative tentacles. Prefers deep cold water. Rarely in shallows."
+    },
+    "walston_pet": {
+      "name": "Walston (burrower pet)",
+      "size": "rabbit-sized",
+      "diet": "vegetarian",
+      "traits": ["sociable", "loyal", "slow-witted when well-fed"],
+      "behaviour": "Emits pleasing humming when petted, snuggles with people in distress",
+      "notes": "Common household pet. No use as guard/working animal."
+    }
+  },
+
+  "payment_details": {
+    "scout_service_offer": {
+      "upfront": "Cr1000 per traveller for incidental expenses",
+      "during_mission": "All costs for life support, fuel covered",
+      "completion": "Hotel accommodation + Cr1000 for expenses during week-long ship checkout",
+      "reward": "One-year lease of Highndry on standard detached duty terms",
+      "additional": "Scout Service pays (not much) for first-hand reports on starports visited"
+    },
+    "greener_offer": {
+      "amount": "Cr3000 flat fee in cash",
+      "form": "Case full of Imperial Credits",
+      "negotiable": "Can be talked up slightly if approached respectfully",
+      "hard_limit": "Won't pay more - already paid previous crew who ran off",
+      "alternative": "Will wait for another ship if travellers are too greedy"
+    },
+    "local_costs": {
+      "weapon_storage": "Cr10 per week at starport",
+      "accommodation": "Hostel with barracks-like rooms, basic meals, very cheap"
+    }
+  }
+}

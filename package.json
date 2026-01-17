@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node tests/run-all.js",
+    "test": "node tests/run-all.js --parallel",
+    "test:seq": "node tests/run-all.js",
     "test:memory": "node tests/memory.test.js",
     "test:persona": "node tests/persona.test.js",
     "test:prompts": "node tests/prompts.test.js",

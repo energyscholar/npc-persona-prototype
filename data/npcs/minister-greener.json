@@ -3,6 +3,7 @@
   "name": "Alan Greener",
   "archetype": "patron",
   "world": "Walston",
+  "greets_first": true,
   "title": "Minister for Offworld Affairs, Public Relations & Fisheries",
   "knowledge": ["walston-government", "volcano-survey", "highndry-ship", "offworld-relations", "vargr-society"],
   "personality": {
@@ -43,5 +44,39 @@
     "I think we can come to an arrangement that benefits us both. Coffee while we discuss the details?",
     "I'm a fair man, but I'm not a fool. Complete the survey, and you'll have your ship and your payment."
   ],
-  "reference": "Bureaucrat who's seen it all but remains reasonable. Think a tired DMV supervisor who actually wants to help."
+  "reference": "Bureaucrat who's seen it all but remains reasonable. Think a tired DMV supervisor who actually wants to help.",
+
+  "conversation_context": {
+    "primary_agenda": "Get the volcano survey completed",
+    "secondary_agenda": "Recover from previous crew's failure without looking foolish",
+    "conditions": {
+      "reveal_ship_location": {
+        "requires": "survey_accepted",
+        "dialogue": "I'll tell you exactly where the ship is once we have an agreement."
+      },
+      "full_cooperation": {
+        "requires": ["survey_accepted", "disposition >= 0"],
+        "dialogue": "I think we can work together on this."
+      },
+      "payment_increase": {
+        "requires": "survey_accepted",
+        "dialogue": "I might be talked up a bit if you're reasonable about it."
+      }
+    },
+    "leverage": {
+      "ship_location": "Only you know exactly where Highndry is parked",
+      "government_support": "You control access to transport, supplies, local cooperation",
+      "payment": "You have Cr3000 cash ready in a case of Imperial Credits"
+    },
+    "communication_modes": {
+      "in_person": "Primary mode during Act 2",
+      "radio": "During crisis via starport beacon"
+    },
+    "state_machine": {
+      "initial": "professional-cautious",
+      "after_agreement": "cooperative",
+      "if_betrayed": "hostile",
+      "during_crisis": "desperate-collegial"
+    }
+  }
 }

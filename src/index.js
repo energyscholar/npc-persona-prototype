@@ -220,7 +220,7 @@ async function main() {
       const trimmed = input.trim();
 
       // Handle commands
-      if (trimmed === '/quit' || trimmed === '/exit') {
+      if (trimmed === '/quit' || trimmed === '/exit' || trimmed === '/q') {
         shutdown();
         return;
       }

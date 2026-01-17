@@ -1,0 +1,92 @@
+{
+  "actions": [
+    {
+      "id": "repair-system",
+      "name": "Repair Ship Systems",
+      "description": "Perform repairs on damaged ship systems",
+      "requiredCapabilities": ["can_repair"],
+      "duration": { "hours": 4 },
+      "visibility": "witnessed",
+      "effects": [
+        { "type": "modify-flag", "flag": "damage_level", "operation": "decrement", "amount": 1 }
+      ]
+    },
+    {
+      "id": "check-systems",
+      "name": "Check Ship Systems",
+      "description": "Run diagnostics on ship systems",
+      "requiredCapabilities": ["can_repair"],
+      "duration": { "hours": 1 },
+      "visibility": "witnessed"
+    },
+    {
+      "id": "execute-jump",
+      "name": "Execute Jump",
+      "description": "Initiate jump drive to travel to another system",
+      "requiredCapabilities": ["can_navigate", "can_plot_jump"],
+      "duration": { "days": 7 },
+      "visibility": "witnessed",
+      "effects": [
+        { "type": "modify-flag", "flag": "in_jump", "operation": "set", "value": true }
+      ]
+    },
+    {
+      "id": "fire-weapons",
+      "name": "Fire Weapons",
+      "description": "Engage targets with ship weapons",
+      "requiredCapabilities": ["can_fire", "can_target"],
+      "visibility": "witnessed"
+    },
+    {
+      "id": "alert-crew",
+      "name": "Alert Crew",
+      "description": "Sound alert to notify crew of situation",
+      "requiredCapabilities": [],
+      "visibility": "witnessed"
+    },
+    {
+      "id": "monitor-sensors",
+      "name": "Monitor Sensors",
+      "description": "Actively monitor ship sensors for contacts",
+      "requiredCapabilities": [],
+      "visibility": "witnessed"
+    },
+    {
+      "id": "calibrate-targeting",
+      "name": "Calibrate Targeting",
+      "description": "Fine-tune weapons targeting systems",
+      "requiredCapabilities": ["can_target"],
+      "duration": { "hours": 2 },
+      "visibility": "witnessed"
+    },
+    {
+      "id": "repair-weapons",
+      "name": "Repair Weapons",
+      "description": "Repair damaged weapons systems",
+      "requiredCapabilities": ["can_repair"],
+      "duration": { "hours": 6 },
+      "visibility": "witnessed",
+      "effects": [
+        { "type": "modify-flag", "flag": "weapons_damaged", "operation": "set", "value": false }
+      ]
+    },
+    {
+      "id": "recommend-evasion",
+      "name": "Recommend Evasion",
+      "description": "Suggest evasive maneuvers to pilot",
+      "requiredCapabilities": [],
+      "visibility": "witnessed"
+    },
+    {
+      "id": "refuel-ship",
+      "name": "Refuel Ship",
+      "description": "Refuel the ship from available sources",
+      "requiredCapabilities": ["can_refuel"],
+      "duration": { "hours": 8 },
+      "visibility": "witnessed",
+      "effects": [
+        { "type": "modify-flag", "flag": "fuel_level", "operation": "set", "value": 100 }
+      ]
+    }
+  ]
+}

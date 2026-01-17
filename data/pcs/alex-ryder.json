@@ -13,5 +13,21 @@
     "Prove they can make it on their own",
     "Find out what happened to the previous crew"
   ],
+  "equipment": {
+    "scout_service_kit": {
+      "description": "Equipment from Mr Anders Casarii at Scout Service office, Flammarion Highport",
+      "items": [
+        "3 flight cases of circuit panels + tools for swapping them out",
+        "1 portable diagnostic/software download unit (same size as other cases)",
+        "1 container of general spares and components"
+      ],
+      "notes": "Must transport these up Mount Salbarii to the Highndry"
+    },
+    "expenses_credit": {
+      "amount": "Cr1000",
+      "source": "Scout Service upfront payment",
+      "notes": "Credited to account, spending is PC's choice/problem"
+    }
+  },
   "notes": "Solo PC for High and Dry. NPCs should treat as a competent but unproven newcomer."
 }

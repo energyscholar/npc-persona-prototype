@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "id": "send-message",
+      "name": "Send Message",
+      "description": "Send a message to a player character",
+      "requiredCapabilities": ["can_message"],
+      "visibility": "direct",
+      "progressReports": false
+    },
+    {
+      "id": "offer-contract",
+      "name": "Offer Contract",
+      "description": "Present a job opportunity to players",
+      "requiredCapabilities": ["can_hire"],
+      "visibility": "direct"
+    },
+    {
+      "id": "provide-intel",
+      "name": "Provide Intel",
+      "description": "Share information about a topic",
+      "requiredCapabilities": ["can_message"],
+      "visibility": "direct"
+    },
+    {
+      "id": "arrange-meeting",
+      "name": "Arrange Meeting",
+      "description": "Set up a meeting with the players",
+      "requiredCapabilities": ["can_message"],
+      "visibility": "direct"
+    },
+    {
+      "id": "send-reminder",
+      "name": "Send Reminder",
+      "description": "Remind players of deadlines or obligations",
+      "requiredCapabilities": ["can_message"],
+      "visibility": "direct"
+    },
+    {
+      "id": "make-payment",
+      "name": "Make Payment",
+      "description": "Transfer credits to players for completed work",
+      "requiredCapabilities": ["can_hire"],
+      "visibility": "direct",
+      "effects": [
+        { "type": "modify-flag", "flag": "credits_pending", "operation": "set", "value": 0 }
+      ]
+    }
+  ]
+}

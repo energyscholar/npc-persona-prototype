@@ -38,9 +38,86 @@ const {
   getSceneNarratorPrompt,
   getEncounterDetails
 } = require('./story-engine');
+const { getDisposition } = require('./disposition');
+const { getActiveTimedActions, getActionProgress } = require('./timed-actions');
+const { getReportsForPc, formatReportMessage, clearReports } = require('./action-reports');
+const {
+  startAdventure,
+  getOpeningNarration,
+  processPlayerInput,
+  resumeAgmNarration,
+  PLAY_MODES,
+  formatScenePicker,
+  displayTheatricalFrame,
+  jumpToSceneByNumber
+} = require('./adventure-player');
+const {
+  displayMainMenu,
+  displayPickerMenu,
+  displayFlagMenu,
+  displayContactHistory,
+  displayTestModeStatus,
+  displayChecklist,
+  displayScenarioMenu,
+  promptInput,
+  MAIN_MENU_OPTIONS
+} = require('./tui-menu');
+const {
+  CHANNELS,
+  CONTEXT_PRESETS,
+  AVAILABLE_FLAGS,
+  createTestState,
+  buildTestModePrompt,
+  parseTestCommand,
+  getNpcOptions,
+  getChannelOptions,
+  getContextOptions,
+  formatTestModeResponse,
+  getDispositionLabel
+} = require('./npc-test-mode');
+const {
+  loadContactHistory,
+  addSession,
+  clearHistory,
+  getSessionSummaries,
+  createSessionFromState
+} = require('./contact-history');
+
+// Training session infrastructure for NPC persona validation
+const {
+  SCENARIOS,
+  listScenarios,
+  getScenario,
+  parseTrainingCommand,
+  applyScenarioToState
+} = require('./training-scenarios');
+const {
+  saveResult: saveTrainingResult,
+  getHistory: getTrainingHistory,
+  getNpcSummary: getTrainingSummary
+} = require('./training-log');
 
 const fs = require('fs');
 const path = require('path');
+
+// TUI Configuration
+const TUI_CONFIG = {
+  boxWidth: 66,
+  indent: '  ',
+  colors: {
+    prompt: '\x1b[36m',    // cyan
+    npc: '\x1b[33m',       // yellow
+    system: '\x1b[90m',    // gray
+    action: '\x1b[35m',    // magenta
+    error: '\x1b[31m',     // red
+    reset: '\x1b[0m'
+  },
+  progressBar: {
+    filled: '█',
+    empty: '░',
+    width: 10
+  }
+};
 
 // Paths
 const CONVERSATIONS_DIR = path.join(__dirname, '../data/conversations');
@@ -59,6 +136,7 @@ let currentPC = null;
 let currentPCId = null;
 let client = null;
 let storyState = null;
+let adventureSession = null; // Adventure play mode session
 
 /**
  * Get conversation file path (for backward compat with single-NPC mode)
@@ -115,10 +193,12 @@ function printNpcList(world) {
  * Print header for current NPC
  */
 function printNpcHeader(persona) {
-  console.log('\n┌────────────────────────────────────────────────────────────────┐');
-  console.log(`│  ${persona.name.padEnd(62)}│`);
-  console.log(`│  ${(persona.title + ' - ' + persona.world).slice(0, 62).padEnd(62)}│`);
-  console.log('└────────────────────────────────────────────────────────────────┘\n');
+  const innerWidth = TUI_CONFIG.boxWidth - 4; // account for borders and padding
+  const border = '─'.repeat(TUI_CONFIG.boxWidth - 2);
+  console.log(`\n┌${border}┐`);
+  console.log(`│  ${persona.name.padEnd(innerWidth)}│`);
+  console.log(`│  ${(persona.title + ' - ' + persona.world).slice(0, innerWidth).padEnd(innerWidth)}│`);
+  console.log(`└${border}┘\n`);
 }
 
 /**
@@ -182,11 +262,14 @@ function printHelp() {
   console.log('    /switch <n>    - Switch to NPC by number or ID');
   console.log('    /pc            - Show available PCs');
   console.log('    /pc <n>        - Switch to PC by number or ID');
+  console.log('    /status        - Show current session status');
+  console.log('    /actions       - Show active timed actions');
   console.log('    /stats         - Show API usage statistics');
   console.log('    /memory        - Show memory summary');
   console.log('');
   console.log('  Story Commands:');
   console.log('    /adventure     - Show/load adventure');
+  console.log('    /play <adv>    - Start adventure play mode');
   console.log('    /scene [id]    - Show current or specific scene');
   console.log('    /encounter <id>- Show encounter details');
   console.log('    /progress      - Show story progress');
@@ -268,9 +351,11 @@ function printSceneInfo(sceneId = null) {
 
   try {
     const scene = loadScene(storyState.adventure, targetScene);
-    console.log('\n  ┌────────────────────────────────────────────────────────┐');
-    console.log(`  │  ${scene.title.padEnd(54)}│`);
-    console.log('  └────────────────────────────────────────────────────────┘');
+    const innerWidth = TUI_CONFIG.boxWidth - 8;
+    const border = '─'.repeat(TUI_CONFIG.boxWidth - 6);
+    console.log(`\n${TUI_CONFIG.indent}┌${border}┐`);
+    console.log(`${TUI_CONFIG.indent}│  ${scene.title.padEnd(innerWidth)}│`);
+    console.log(`${TUI_CONFIG.indent}└${border}┘`);
     console.log(`  Setting: ${scene.setting}`);
     console.log(`  Atmosphere: ${scene.atmosphere}`);
     console.log('');
@@ -317,9 +402,11 @@ function printEncounterInfo(encounterId) {
 
   try {
     const details = getEncounterDetails(storyState.adventure, encounterId);
-    console.log('\n  ┌────────────────────────────────────────────────────────┐');
-    console.log(`  │  ${details.title.padEnd(54)}│`);
-    console.log('  └────────────────────────────────────────────────────────┘');
+    const innerWidth = TUI_CONFIG.boxWidth - 8;
+    const border = '─'.repeat(TUI_CONFIG.boxWidth - 6);
+    console.log(`\n${TUI_CONFIG.indent}┌${border}┐`);
+    console.log(`${TUI_CONFIG.indent}│  ${details.title.padEnd(innerWidth)}│`);
+    console.log(`${TUI_CONFIG.indent}└${border}┘`);
     console.log(`  Type: ${details.type}`);
     console.log(`  ${details.description}`);
     console.log('');
@@ -440,6 +527,140 @@ function printMemorySummary(memory) {
 }
 
 /**
+ * Convert disposition level (-3 to +3) to star rating
+ */
+function dispositionStars(level) {
+  // Map -3..+3 to 0..6 stars (★ for filled, ☆ for empty)
+  const stars = Math.max(0, level + 3); // -3→0, 0→3, +3→6
+  const filled = '★'.repeat(stars);
+  const empty = '☆'.repeat(6 - stars);
+  return filled + empty;
+}
+
+/**
+ * Print status summary (/status command)
+ */
+function printStatus(world, pcId, pc, npcId, persona, memory, storyState) {
+  const { system: sysColor, reset } = TUI_CONFIG.colors;
+  const border = '─'.repeat(TUI_CONFIG.boxWidth - 2);
+
+  console.log(`\n┌${border}┐`);
+  console.log(`│  ${sysColor}STATUS${reset}${' '.repeat(TUI_CONFIG.boxWidth - 10)}│`);
+  console.log(`├${border}┤`);
+
+  // World
+  console.log(`│  World:     ${(world || 'none').padEnd(TUI_CONFIG.boxWidth - 16)}│`);
+
+  // PC
+  const pcName = pc ? pc.name : 'none';
+  console.log(`│  PC:        ${pcName.padEnd(TUI_CONFIG.boxWidth - 16)}│`);
+
+  // NPC
+  const npcName = persona ? persona.name : 'none selected';
+  console.log(`│  NPC:       ${npcName.padEnd(TUI_CONFIG.boxWidth - 16)}│`);
+
+  // Date
+  const gameDate = storyState?.gameDate || getTravellerDate();
+  console.log(`│  Date:      ${gameDate.padEnd(TUI_CONFIG.boxWidth - 16)}│`);
+
+  // Scene
+  const scene = storyState?.currentScene || 'none';
+  console.log(`│  Scene:     ${scene.padEnd(TUI_CONFIG.boxWidth - 16)}│`);
+
+  // Messages
+  const msgCount = memory ? memory.totalInteractions : 0;
+  console.log(`│  Messages:  ${String(msgCount).padEnd(TUI_CONFIG.boxWidth - 16)}│`);
+
+  // Disposition (if NPC selected)
+  if (npcId && pcId) {
+    const disp = getDisposition(npcId, pcId);
+    const stars = dispositionStars(disp.level);
+    const dispLine = `${stars} (${disp.label})`;
+    console.log(`│  Disposition: ${dispLine.padEnd(TUI_CONFIG.boxWidth - 18)}│`);
+  }
+
+  console.log(`└${border}┘\n`);
+}
+
+/**
+ * Build a progress bar string
+ */
+function buildProgressBar(percent) {
+  const { filled, empty, width } = TUI_CONFIG.progressBar;
+  const filledCount = Math.round((percent / 100) * width);
+  const emptyCount = width - filledCount;
+  return filled.repeat(filledCount) + empty.repeat(emptyCount);
+}
+
+/**
+ * Print active timed actions (/actions command)
+ */
+function printActiveActions() {
+  const actions = getActiveTimedActions();
+  const { action: actColor, system: sysColor, reset } = TUI_CONFIG.colors;
+  const border = '─'.repeat(TUI_CONFIG.boxWidth - 2);
+
+  console.log(`\n┌${border}┐`);
+  console.log(`│  ${actColor}ACTIVE ACTIONS${reset}${' '.repeat(TUI_CONFIG.boxWidth - 18)}│`);
+  console.log(`├${border}┤`);
+
+  if (actions.length === 0) {
+    console.log(`│  ${sysColor}No active actions${reset}${' '.repeat(TUI_CONFIG.boxWidth - 21)}│`);
+  } else {
+    for (const action of actions) {
+      const progress = getActionProgress(action.id);
+      const bar = buildProgressBar(progress?.percentComplete || 0);
+      const pct = `${progress?.percentComplete || 0}%`.padStart(4);
+      const hrs = `${progress?.hoursRemaining || 0}h left`.padStart(8);
+
+      // Format: action-id [████░░░░░░] 45% 12h left
+      const actionLine = `${action.id.slice(0, 20).padEnd(20)} ${bar} ${pct} ${hrs}`;
+      console.log(`│  ${actionLine.padEnd(TUI_CONFIG.boxWidth - 4)}│`);
+    }
+  }
+
+  console.log(`└${border}┘\n`);
+}
+
+/**
+ * Display action notifications (T2 - polling after each turn)
+ * Returns true if any notifications were displayed
+ */
+function displayActionNotifications(pcId) {
+  if (!pcId) return false;
+
+  const reports = getReportsForPc(pcId);
+  if (reports.length === 0) return false;
+
+  const { action: actColor, npc: npcColor, system: sysColor, reset } = TUI_CONFIG.colors;
+
+  for (const report of reports) {
+    let prefix = '';
+    let color = sysColor;
+
+    // Determine prefix based on visibility/type
+    if (report.visibility === 'direct') {
+      prefix = '[NPC MESSAGE]';
+      color = npcColor;
+    } else if (report.actionId?.includes('timed')) {
+      prefix = '[TIMED]';
+      color = actColor;
+    } else {
+      prefix = '[CREW ACTION]';
+      color = actColor;
+    }
+
+    const message = formatReportMessage(report);
+    console.log(`${TUI_CONFIG.indent}${color}${prefix}${reset} ${message}`);
+  }
+
+  // Clear reports after displaying
+  clearReports();
+  console.log('');
+  return true;
+}
+
+/**
  * Get available worlds from NPCs
  */
 function getAvailableWorlds() {
@@ -476,6 +697,397 @@ function promptSelection(rl, prompt, options) {
 }
 
 /**
+ * Run NPC Test Mode
+ * @param {readline.Interface} rl - Readline interface
+ * @param {Object} client - API client
+ */
+async function runNpcTestMode(rl, client) {
+  const selectedWorld = 'Walston'; // Default to High and Dry world
+
+  // Step 1: Select NPC
+  const npcOptions = getNpcOptions(selectedWorld);
+  console.log('\n' + displayPickerMenu('SELECT NPC TO TEST', npcOptions, 'Back to Main Menu'));
+  const npcAnswer = await promptInput(rl, '\nSelect NPC: ');
+
+  if (npcAnswer.toLowerCase() === 'b') return 'back';
+
+  const npcNum = parseInt(npcAnswer);
+  if (isNaN(npcNum) || npcNum < 1 || npcNum > npcOptions.length) {
+    console.log('  Invalid selection.');
+    return 'back';
+  }
+  const selectedNpc = npcOptions[npcNum - 1];
+  const npc = loadPersona(selectedNpc.id);
+
+  // Step 2: Select Channel
+  const channelOptions = getChannelOptions();
+  console.log('\n' + displayPickerMenu(`COMMUNICATION CHANNEL\n  NPC: ${npc.name}`, channelOptions, 'Back to NPC Selection'));
+  const channelAnswer = await promptInput(rl, '\nSelect channel: ');
+
+  if (channelAnswer.toLowerCase() === 'b') return runNpcTestMode(rl, client);
+
+  const channelNum = parseInt(channelAnswer);
+  if (isNaN(channelNum) || channelNum < 1 || channelNum > channelOptions.length) {
+    console.log('  Invalid selection.');
+    return runNpcTestMode(rl, client);
+  }
+  const selectedChannel = channelOptions[channelNum - 1].id;
+
+  // Step 3: Select Context
+  const contextOptions = getContextOptions();
+  console.log('\n' + displayPickerMenu(`SCENE CONTEXT\n  NPC: ${npc.name}\n  Channel: ${CHANNELS[selectedChannel].label}`, contextOptions, 'Back to Channel Selection'));
+  const contextAnswer = await promptInput(rl, '\nSelect context: ');
+
+  if (contextAnswer.toLowerCase() === 'b') return runNpcTestMode(rl, client);
+
+  const contextNum = parseInt(contextAnswer);
+  if (isNaN(contextNum) || contextNum < 1 || contextNum > contextOptions.length) {
+    console.log('  Invalid selection.');
+    return runNpcTestMode(rl, client);
+  }
+  const selectedContext = contextOptions[contextNum - 1].id;
+  const contextPreset = CONTEXT_PRESETS[selectedContext];
+
+  // Step 4: Show flag menu for custom context
+  let flags = { ...contextPreset.flags };
+  let disposition = contextPreset.disposition;
+
+  if (selectedContext === 'custom') {
+    console.log('\n' + displayFlagMenu(flags, AVAILABLE_FLAGS));
+    console.log('  Toggle flags with numbers, Enter to continue:');
+    // For simplicity, skip interactive flag toggle - use /flags command in test mode
+  }
+
+  // Step 5: Show contact history
+  const sessions = getSessionSummaries(selectedNpc.id);
+  if (sessions.length > 0) {
+    console.log('\n' + displayContactHistory(npc.name, sessions));
+    const histAnswer = await promptInput(rl, '\n[Enter] Continue, [C] Clear history, [B] Back: ');
+
+    if (histAnswer.toLowerCase() === 'b') return runNpcTestMode(rl, client);
+    if (histAnswer.toLowerCase() === 'c') {
+      clearHistory(selectedNpc.id);
+      console.log('  History cleared.');
+    }
+  }
+
+  // Create test state
+  const pc = loadPC('alex-ryder');
+  const testState = createTestState(npc, pc);
+  testState.channel = selectedChannel;
+  testState.context = selectedContext;
+  testState.flags = flags;
+  testState.disposition = disposition;
+
+  // Start test conversation
+  const statusLine = displayTestModeStatus({
+    npcName: npc.name,
+    channel: CHANNELS[selectedChannel].label,
+    sceneName: contextPreset.label,
+    flags
+  });
+
+  console.log('\n' + statusLine + '\n');
+
+  // Test conversation loop
+  const testPrompt = () => {
+    const { prompt: promptColor, reset } = TUI_CONFIG.colors;
+    rl.question(`${promptColor}>${reset} `, async (input) => {
+      const trimmed = input.trim();
+
+      // Parse commands
+      const cmdResult = parseTestCommand(trimmed, testState);
+      if (cmdResult.handled) {
+        if (cmdResult.action === 'back' || cmdResult.action === 'reset') {
+          // Save session before leaving
+          addSession(selectedNpc.id, createSessionFromState(testState, `${testState.turnCount} turns`));
+          return runNpcTestMode(rl, client);
+        }
+
+        console.log(cmdResult.response);
+
+        if (cmdResult.newState) {
+          Object.assign(testState, cmdResult.newState);
+        }
+
+        testPrompt();
+        return;
+      }
+
+      // Regular conversation
+      testState.turnCount++;
+      addMessage(testState.memory, 'user', trimmed);
+
+      // Build prompt with test context
+      const contextSection = buildTestModePrompt(testState);
+      const assembled = assembleFullPrompt(npc, testState.memory, trimmed, pc, null);
+      assembled.system = assembled.system + '\n' + contextSection;
+
+      try {
+        const { npc: npcColor, system: sysColor, reset } = TUI_CONFIG.colors;
+        console.log(`\n${npcColor}${npc.name}:${reset} ${sysColor}(thinking...)${reset}`);
+
+        const response = await chat(client, assembled.system, assembled.messages);
+
+        process.stdout.write('\x1b[1A\x1b[2K');
+        console.log(formatTestModeResponse(testState, response.content) + '\n');
+
+        addMessage(testState.memory, 'assistant', response.content);
+      } catch (e) {
+        console.log(`\n  Error: ${e.message}\n`);
+      }
+
+      testPrompt();
+    });
+  };
+
+  // Initial NPC greeting (skip if greets_first is false)
+  if (npc.greets_first !== false) {
+    const greetingContext = buildTestModePrompt(testState);
+    const greetingAssembled = assembleFullPrompt(npc, testState.memory, 'Greet the player appropriately for this context.', pc, null);
+    greetingAssembled.system = greetingAssembled.system + '\n' + greetingContext;
+
+    try {
+      const greetingResponse = await chat(client, greetingAssembled.system, [{ role: 'user', content: 'Greet me.' }]);
+      console.log(formatTestModeResponse(testState, greetingResponse.content) + '\n');
+      addMessage(testState.memory, 'assistant', greetingResponse.content);
+    } catch (e) {
+      console.log(`  Error getting greeting: ${e.message}\n`);
+    }
+  } else {
+    console.log(`  [NPC waits for you to speak first]\n`);
+  }
+
+  testPrompt();
+}
+
+/**
+ * Run Training Session mode
+ * - Shows scenario picker (S1-S6)
+ * - Shows NPC picker
+ * - Auto-configures state from selected scenario
+ * - Shows checklist after 5 exchanges
+ * - Handles /retry /edit /next /pass /fail commands
+ */
+async function runTrainingSession(rl, client) {
+  const { npc: npcColor, system: sysColor, prompt: promptColor, reset } = TUI_CONFIG.colors;
+
+  // Step 1: Show scenario picker
+  const scenarios = listScenarios();
+  const scenarioOptions = scenarios.map((s, i) => ({
+    key: String(i + 1),
+    label: `${s.name} - ${s.description}`,
+    action: s.id
+  }));
+
+  console.log('\n' + displayScenarioMenu(scenarios, {}));
+  const scenarioAnswer = await promptInput(rl, '\nSelect scenario (or B to go back): ');
+
+  if (scenarioAnswer.toLowerCase() === 'b') {
+    return main();
+  }
+
+  const scenarioNum = parseInt(scenarioAnswer);
+  if (isNaN(scenarioNum) || scenarioNum < 1 || scenarioNum > scenarios.length) {
+    console.log('\n  Invalid selection.\n');
+    return runTrainingSession(rl, client);
+  }
+
+  const selectedScenario = scenarios[scenarioNum - 1];
+  const scenario = getScenario(selectedScenario.id);
+
+  // Step 2: Show NPC picker
+  const npcs = listPersonas('Walston').filter(id => {
+    const npc = loadPersona(id);
+    return npc && npc.archetype !== 'narrator' && !id.startsWith('alex-');
+  });
+
+  const npcOptions = npcs.map((id, i) => {
+    const npc = loadPersona(id);
+    return {
+      key: String(i + 1),
+      label: npc ? `${npc.name} (${npc.title || npc.archetype})` : id
+    };
+  });
+
+  console.log('\n' + displayPickerMenu('SELECT NPC TO TRAIN', npcOptions, 'Back'));
+  const npcAnswer = await promptInput(rl, '\nSelect NPC: ');
+
+  if (npcAnswer.toLowerCase() === 'b') {
+    return runTrainingSession(rl, client);
+  }
+
+  const npcNum = parseInt(npcAnswer);
+  if (isNaN(npcNum) || npcNum < 1 || npcNum > npcs.length) {
+    console.log('\n  Invalid selection.\n');
+    return runTrainingSession(rl, client);
+  }
+
+  const selectedNpcId = npcs[npcNum - 1];
+  const npc = loadPersona(selectedNpcId);
+  const pc = loadPC('alex-ryder');
+
+  // Step 3: Auto-configure state from scenario
+  let testState = createTestState(npc, pc);
+  testState = applyScenarioToState(testState, scenario.id);
+  testState.turnCount = 0;
+  testState.checklistShown = false;
+
+  // Show scenario info
+  console.log(`\n${sysColor}═══════════════════════════════════════════════════════${reset}`);
+  console.log(`${sysColor}TRAINING: ${scenario.name}${reset}`);
+  console.log(`${sysColor}NPC: ${npc.name}${reset}`);
+  console.log(`${sysColor}Context: ${scenario.context} | Disposition: ${scenario.disposition}${reset}`);
+  console.log(`${sysColor}Checklist: ${scenario.checklist.join(', ')}${reset}`);
+  console.log(`${sysColor}═══════════════════════════════════════════════════════${reset}`);
+  console.log(`\n${sysColor}Suggested prompts:${reset}`);
+  for (const prompt of scenario.prompts || []) {
+    console.log(`  • ${prompt}`);
+  }
+  console.log(`\n${sysColor}Commands: /retry, /next, /pass, /fail, /checklist, /back${reset}\n`);
+
+  // Training conversation loop
+  const trainingPrompt = () => {
+    // Show checklist after 5 exchanges
+    if (testState.turnCount >= 5 && !testState.checklistShown) {
+      testState.checklistShown = true;
+      console.log('\n' + displayChecklist(scenario.checklist, testState.checklist || {}));
+    }
+
+    rl.question(`${promptColor}>${reset} `, async (input) => {
+      const trimmed = input.trim();
+
+      // Parse training commands
+      const cmdResult = parseTrainingCommand(trimmed);
+      if (cmdResult.handled) {
+        switch (cmdResult.command) {
+          case 'retry':
+            // Restart same scenario with same NPC
+            console.log('\n  Restarting scenario...\n');
+            testState = createTestState(npc, pc);
+            testState = applyScenarioToState(testState, scenario.id);
+            testState.turnCount = 0;
+            testState.checklistShown = false;
+            trainingPrompt();
+            return;
+
+          case 'next':
+            // Save result and go to next scenario
+            saveTrainingResult({
+              npcId: selectedNpcId,
+              scenarioId: scenario.id,
+              checklist: testState.checklist || {},
+              passed: Object.values(testState.checklist || {}).every(v => v === 'pass' || v === null),
+              notes: `Completed ${testState.turnCount} exchanges`
+            });
+            console.log('\n  Session saved. Returning to scenario picker...\n');
+            return runTrainingSession(rl, client);
+
+          case 'pass':
+            // Mark all checklist items as pass
+            testState.checklist = testState.checklist || {};
+            for (const item of scenario.checklist) {
+              testState.checklist[item] = 'pass';
+            }
+            console.log('\n  All items marked PASS.');
+            console.log('\n' + displayChecklist(scenario.checklist, testState.checklist));
+            trainingPrompt();
+            return;
+
+          case 'fail':
+            // Mark all checklist items as fail
+            testState.checklist = testState.checklist || {};
+            for (const item of scenario.checklist) {
+              testState.checklist[item] = 'fail';
+            }
+            console.log('\n  All items marked FAIL.');
+            console.log('\n' + displayChecklist(scenario.checklist, testState.checklist));
+            trainingPrompt();
+            return;
+
+          case 'checklist':
+            console.log('\n' + displayChecklist(scenario.checklist, testState.checklist || {}));
+            trainingPrompt();
+            return;
+
+          case 'back':
+            // Save and return to main menu
+            if (testState.turnCount > 0) {
+              saveTrainingResult({
+                npcId: selectedNpcId,
+                scenarioId: scenario.id,
+                checklist: testState.checklist || {},
+                passed: false,
+                notes: `Exited after ${testState.turnCount} exchanges`
+              });
+            }
+            return main();
+
+          case 'help':
+            console.log('\n  Training Commands:');
+            console.log('    /retry     - Restart this scenario');
+            console.log('    /next      - Save and go to next scenario');
+            console.log('    /pass      - Mark all checklist items passed');
+            console.log('    /fail      - Mark all checklist items failed');
+            console.log('    /checklist - Show evaluation checklist');
+            console.log('    /back      - Return to main menu\n');
+            trainingPrompt();
+            return;
+
+          default:
+            trainingPrompt();
+            return;
+        }
+      }
+
+      // Regular conversation
+      testState.turnCount++;
+      addMessage(testState.memory, 'user', trimmed);
+
+      // Build prompt with test context
+      const contextSection = buildTestModePrompt(testState);
+      const assembled = assembleFullPrompt(npc, testState.memory, trimmed, pc, null);
+      assembled.system = assembled.system + '\n' + contextSection;
+
+      try {
+        console.log(`\n${npcColor}${npc.name}:${reset} ${sysColor}(thinking...)${reset}`);
+        const response = await chat(client, assembled.system, assembled.messages);
+
+        process.stdout.write('\x1b[1A\x1b[2K');
+        console.log(`${npcColor}${npc.name}:${reset} ${response.content}\n`);
+
+        addMessage(testState.memory, 'assistant', response.content);
+      } catch (e) {
+        console.log(`\n  Error: ${e.message}\n`);
+      }
+
+      trainingPrompt();
+    });
+  };
+
+  // Initial NPC greeting (skip if greets_first is false)
+  if (npc.greets_first !== false) {
+    const greetingContext = buildTestModePrompt(testState);
+    const greetingAssembled = assembleFullPrompt(npc, testState.memory, 'Greet the player appropriately for this context.', pc, null);
+    greetingAssembled.system = greetingAssembled.system + '\n' + greetingContext;
+
+    try {
+      console.log(`${npcColor}${npc.name}:${reset} ${sysColor}(thinking...)${reset}`);
+      const greetingResponse = await chat(client, greetingAssembled.system, [{ role: 'user', content: 'Greet me.' }]);
+      process.stdout.write('\x1b[1A\x1b[2K');
+      console.log(`${npcColor}${npc.name}:${reset} ${greetingResponse.content}\n`);
+      addMessage(testState.memory, 'assistant', greetingResponse.content);
+    } catch (e) {
+      console.log(`  Error getting greeting: ${e.message}\n`);
+    }
+  } else {
+    console.log(`  [NPC waits for you to speak first]\n`);
+  }
+
+  trainingPrompt();
+}
+
+/**
  * Main chat loop
  */
 async function main() {
@@ -485,11 +1097,106 @@ async function main() {
     output: process.stdout
   });
 
-  let selectedWorld = worldArg;
+  // Initialize API client early
+  try {
+    client = createClient();
+  } catch (e) {
+    console.error(`Error: ${e.message}`);
+    rl.close();
+    process.exit(1);
+  }
+
+  // Check for --quick-chat flag to skip main menu
+  const quickChatMode = args.includes('--quick-chat') || (worldArg && pcArg);
+
+  if (!quickChatMode) {
+    // Show main menu
+    console.log('\n' + displayMainMenu());
+    const menuAnswer = await promptInput(rl, '\nSelect mode: ');
+
+    const selectedOption = MAIN_MENU_OPTIONS.find(o => o.key === menuAnswer);
+    if (!selectedOption) {
+      console.log('  Invalid selection.');
+      rl.close();
+      return;
+    }
+
+    switch (selectedOption.action) {
+      case 'adventure':
+        // Adventure mode - load PC and start adventure
+        currentPC = loadPC('alex-ryder');
+        currentPCId = 'alex-ryder';
+        try {
+          adventureSession = await startAdventure('high-and-dry', currentPCId, client);
+          storyState = adventureSession.storyState;
+
+          // Show scene picker
+          console.log('\n' + formatScenePicker(adventureSession.adventure, storyState));
+          const sceneAnswer = await promptInput(rl, '\nSelect scene (or B to go back): ');
+
+          if (sceneAnswer.toLowerCase() === 'b') {
+            return main();
+          }
+
+          const sceneNum = parseInt(sceneAnswer);
+          if (!isNaN(sceneNum)) {
+            const result = jumpToSceneByNumber(adventureSession, sceneNum);
+            if (result.error) {
+              console.log(`  ${result.error}`);
+              return main();
+            }
+          }
+
+          // Show theatrical frame
+          console.log('\n' + displayTheatricalFrame(adventureSession));
+          const frameAnswer = await promptInput(rl, '');
+
+          if (frameAnswer.toLowerCase() === 'b') {
+            return main();
+          }
+
+          // Get opening narration
+          const { system: sysColor, reset } = TUI_CONFIG.colors;
+          const opening = await getOpeningNarration(adventureSession);
+          console.log(`\n${sysColor}AGM:${reset} ${opening}\n`);
+
+          // Continue to adventure chat loop (handled below)
+        } catch (e) {
+          console.log(`\n  Error starting adventure: ${e.message}\n`);
+          return main();
+        }
+        break;
+
+      case 'npc-test':
+        // NPC test mode
+        await runNpcTestMode(rl, client);
+        return;
+
+      case 'training':
+        // Training session mode
+        await runTrainingSession(rl, client);
+        return;
+
+      case 'quick-chat':
+        // Fall through to legacy mode
+        break;
+
+      case 'exit':
+        console.log('\n  Goodbye!\n');
+        rl.close();
+        return;
+
+      default:
+        return main();
+    }
+  }
+
+  // Legacy quick-chat mode (also used after adventure mode selection)
+  let selectedWorld = worldArg || 'Walston';
   let selectedPC = pcArg;
 
-  // Interactive world selection if not provided
-  if (!selectedWorld) {
+  // Interactive world selection if not provided (for quick-chat)
+  if (!selectedWorld && !adventureSession) {
     const worlds = getAvailableWorlds();
     if (worlds.length === 0) {
       console.log('\nNo NPCs found. Create NPC files in data/npcs/ first.');
@@ -510,7 +1217,7 @@ async function main() {
   }
 
   // Interactive PC selection if not provided
-  if (!selectedPC) {
+  if (!selectedPC && !adventureSession) {
     const pcs = listPCs();
     if (pcs.length === 0) {
       console.log('\nNo PCs found. Create PC files in data/pcs/ first.');
@@ -535,45 +1242,42 @@ async function main() {
     }
   }
 
-  // Load PC
-  try {
-    currentPC = loadPC(selectedPC);
-    currentPCId = selectedPC;
-  } catch (e) {
-    console.log(`\nError: PC not found: ${selectedPC}`);
-    console.log('Create a PC file in data/pcs/ first.');
-    printPCList();
-    rl.close();
-    return;
+  // Load PC (if not already loaded for adventure mode)
+  if (!currentPC) {
+    try {
+      currentPC = loadPC(selectedPC);
+      currentPCId = selectedPC;
+    } catch (e) {
+      console.log(`\nError: PC not found: ${selectedPC}`);
+      console.log('Create a PC file in data/pcs/ first.');
+      printPCList();
+      rl.close();
+      return;
+    }
   }
 
-  // Check world has NPCs
-  const worldNpcs = listPersonas(selectedWorld);
-  if (worldNpcs.length === 0) {
-    console.log(`\nNo NPCs found for world: ${selectedWorld}`);
-    console.log('Check your NPC files have the correct "world" field.');
-    rl.close();
-    return;
+  // Check world has NPCs (for quick-chat mode)
+  if (!adventureSession) {
+    const worldNpcs = listPersonas(selectedWorld);
+    if (worldNpcs.length === 0) {
+      console.log(`\nNo NPCs found for world: ${selectedWorld}`);
+      console.log('Check your NPC files have the correct "world" field.');
+      rl.close();
+      return;
+    }
   }
 
-  // Initialize API client
-  try {
-    client = createClient();
-  } catch (e) {
-    console.error(`Error: ${e.message}`);
-    rl.close();
-    process.exit(1);
+  // Print welcome (for quick-chat mode)
+  if (!adventureSession) {
+    const pcSpecies = currentPC.species ? ` (${currentPC.species})` : '';
+    console.log('\n╔════════════════════════════════════════════════════════════════╗');
+    console.log(`║  NPC Chat - ${selectedWorld.padEnd(51)}║`);
+    console.log(`║  Playing as: ${(currentPC.name + pcSpecies).padEnd(49)}║`);
+    console.log('╚════════════════════════════════════════════════════════════════╝');
+
+    printNpcList(selectedWorld);
+    console.log('  Type /help for commands, or select an NPC with /switch <n>\n');
   }
-
-  // Print welcome
-  const pcSpecies = currentPC.species ? ` (${currentPC.species})` : '';
-  console.log('\n╔════════════════════════════════════════════════════════════════╗');
-  console.log(`║  NPC Chat - ${selectedWorld.padEnd(51)}║`);
-  console.log(`║  Playing as: ${(currentPC.name + pcSpecies).padEnd(49)}║`);
-  console.log('╚════════════════════════════════════════════════════════════════╝');
-
-  printNpcList(selectedWorld);
-  console.log('  Type /help for commands, or select an NPC with /switch <n>\n');
 
   // Handle graceful shutdown
   const shutdown = () => {
@@ -591,15 +1295,16 @@ async function main() {
 
   // Chat loop
   const prompt = () => {
+    const { prompt: promptColor, reset } = TUI_CONFIG.colors;
     const promptText = currentPersona
-      ? `\x1b[36m${currentPC.name}:\x1b[0m `
-      : '\x1b[36m>\x1b[0m ';
+      ? `${promptColor}${currentPC.name}:${reset} `
+      : `${promptColor}>${reset} `;
 
     rl.question(promptText, async (input) => {
       const trimmed = input.trim();
 
       // Handle commands
-      if (trimmed === '/quit' || trimmed === '/exit') {
+      if (trimmed === '/quit' || trimmed === '/exit' || trimmed === '/q') {
         shutdown();
         return;
       }
@@ -660,6 +1365,18 @@ async function main() {
         return;
       }
 
+      if (trimmed === '/status') {
+        printStatus(selectedWorld, selectedPC, currentPC, currentNpcId, currentPersona, currentMemory, storyState);
+        prompt();
+        return;
+      }
+
+      if (trimmed === '/actions') {
+        printActiveActions();
+        prompt();
+        return;
+      }
+
       // Story commands
       if (trimmed === '/adventure') {
         printAdventureInfo();
@@ -713,15 +1430,144 @@ async function main() {
         return;
       }
 
+      // /play command - start adventure play mode
+      if (trimmed.startsWith('/play')) {
+        const parts = trimmed.split(/\s+/);
+        const advId = parts[1];
+
+        if (!advId) {
+          printAdventureInfo();
+          console.log('  Use /play <adventure-id> to start adventure mode.\n');
+          prompt();
+          return;
+        }
+
+        if (!currentPCId) {
+          console.log('\n  No PC selected. Use /pc first.\n');
+          prompt();
+          return;
+        }
+
+        try {
+          adventureSession = await startAdventure(advId, currentPCId, client);
+          storyState = adventureSession.storyState;
+
+          const { npc: npcColor, system: sysColor, reset } = TUI_CONFIG.colors;
+          const border = '─'.repeat(TUI_CONFIG.boxWidth - 2);
+
+          console.log(`\n┌${border}┐`);
+          console.log(`│  ${npcColor}ADVENTURE MODE${reset}${' '.repeat(TUI_CONFIG.boxWidth - 18)}│`);
+          console.log(`│  ${adventureSession.adventure.title.padEnd(TUI_CONFIG.boxWidth - 4)}│`);
+          console.log(`└${border}┘`);
+
+          // Get and display opening narration
+          const opening = await getOpeningNarration(adventureSession);
+          console.log(`\n${sysColor}${adventureSession.agm.name}:${reset} ${opening}\n`);
+
+        } catch (e) {
+          console.log(`\n  Error starting adventure: ${e.message}\n`);
+        }
+        prompt();
+        return;
+      }
+
+      // /resume command - exit NPC dialogue back to narration
+      if (trimmed === '/resume' && adventureSession) {
+        if (adventureSession.mode !== PLAY_MODES.NPC_DIALOGUE) {
+          console.log('\n  Already in narration mode.\n');
+        } else {
+          try {
+            const result = await resumeAgmNarration(adventureSession);
+            const { system: sysColor, reset } = TUI_CONFIG.colors;
+            console.log(`\n${sysColor}${adventureSession.agm.name}:${reset} ${result.text}\n`);
+          } catch (e) {
+            console.log(`\n  Error resuming narration: ${e.message}\n`);
+          }
+        }
+        prompt();
+        return;
+      }
+
       // Empty input
       if (!trimmed) {
         prompt();
         return;
       }
 
-      // No NPC selected
+      // Adventure mode routing - if in adventure session, route to adventure player
+      if (adventureSession) {
+        // Quick escape commands - handle immediately without "thinking" indicator
+        if (trimmed === '/b' || trimmed === '/back') {
+          console.log('\n  Returning to main menu...\n');
+          adventureSession = null;
+          return main();
+        }
+        if (trimmed === '/q' || trimmed === '/quit') {
+          shutdown();
+          return;
+        }
+
+        try {
+          const { npc: npcColor, system: sysColor, reset } = TUI_CONFIG.colors;
+
+          // Show thinking indicator
+          const speaker = adventureSession.mode === PLAY_MODES.NPC_DIALOGUE
+            ? adventureSession.activeNpc?.name || 'NPC'
+            : adventureSession.agm.name;
+          console.log(`\n${npcColor}${speaker}:${reset} ${sysColor}(thinking...)${reset}`);
+
+          const result = await processPlayerInput(adventureSession, trimmed);
+
+          // Clear thinking and show result
+          process.stdout.write('\x1b[1A\x1b[2K');
+
+          // Handle /back action - return to main menu (fallback)
+          if (result.action === 'back') {
+            console.log('\n  Returning to main menu...\n');
+            adventureSession = null;
+            return main();
+          }
+
+          // Handle different result types
+          if (result.isStatus) {
+            console.log(result.text);
+          } else if (result.speaker) {
+            // NPC dialogue response
+            console.log(`${npcColor}${result.speaker}:${reset} ${result.text}`);
+          } else {
+            // AGM narration
+            console.log(`${sysColor}${adventureSession.agm.name}:${reset} ${result.text}`);
+          }
+
+          // Show mode change notification
+          if (result.modeChange === 'npc-dialogue' && result.npcGreeting) {
+            console.log(`\n${npcColor}${adventureSession.activeNpc?.name}:${reset} ${result.npcGreeting}`);
+          }
+
+          // Show skill check result
+          if (result.skillCheck) {
+            console.log(`\n${sysColor}[${result.skillCheck.narrative}]${reset}`);
+          }
+
+          // Show state changes
+          if (result.stateChanges?.length > 0) {
+            result.stateChanges.forEach(change => {
+              console.log(`${sysColor}  → ${change}${reset}`);
+            });
+          }
+
+          console.log('');
+
+        } catch (e) {
+          console.log(`\n  Error: ${e.message}\n`);
+        }
+        prompt();
+        return;
+      }
+
+      // No NPC selected (and not in adventure mode)
       if (!currentPersona) {
-        console.log('\n  No NPC selected. Use /switch <n> to select one.\n');
+        console.log('\n  No NPC selected. Use /switch <n> to select one, or /play <adventure> for adventure mode.\n');
         printNpcList(selectedWorld);
         prompt();
         return;
@@ -730,17 +1576,21 @@ async function main() {
       // Chat with current NPC
       const gameDate = getTravellerDate();
 
-      // Build prompt (include PC data so NPC knows who they're talking to)
-      const assembled = assembleFullPrompt(currentPersona, currentMemory, trimmed, currentPC);
+      // Poll and display any action notifications (T2)
+      displayActionNotifications(selectedPC);
+
+      // Build prompt (include PC data and story state so NPC knows context)
+      const assembled = assembleFullPrompt(currentPersona, currentMemory, trimmed, currentPC, storyState);
 
       try {
-        console.log(`\n\x1b[33m${currentPersona.name}:\x1b[0m `, '(thinking...)');
+        const { npc: npcColor, system: sysColor, reset: rst } = TUI_CONFIG.colors;
+        console.log(`\n${npcColor}${currentPersona.name}:${rst} `, `${sysColor}(thinking...)${rst}`);
 
         const response = await chat(client, assembled.system, assembled.messages);
 
         // Clear "thinking" and print response
         process.stdout.write('\x1b[1A\x1b[2K');
-        console.log(`\x1b[33m${currentPersona.name}:\x1b[0m ${response.content}\n`);
+        console.log(`${npcColor}${currentPersona.name}:${rst} ${response.content}\n`);
 
         // Update memory
         addMessage(currentMemory, 'user', trimmed, gameDate);
@@ -760,7 +1610,23 @@ async function main() {
   prompt();
 }
 
-main().catch(e => {
-  console.error('Fatal error:', e.message);
-  process.exit(1);
-});
+// Only run main when executed directly
+if (require.main === module) {
+  main().catch(e => {
+    console.error('Fatal error:', e.message);
+    process.exit(1);
+  });
+}
+
+// Export for testing
+module.exports = {
+  TUI_CONFIG,
+  dispositionStars,
+  buildProgressBar,
+  // Export functions that capture output for testing
+  _testExports: {
+    printStatus,
+    printActiveActions,
+    displayActionNotifications
+  }
+};

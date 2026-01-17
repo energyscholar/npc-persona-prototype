@@ -12,11 +12,20 @@
     "required_pcs": "all"
   },
 
+  "creature_ref": "items.creatures.tenshers_wolf",
+
   "creature_stats": {
     "name": "Tensher Wolf",
     "count": "1d6+2",
     "behavior": "Territorial pack hunters, investigate intruders",
     "danger_level": "Moderate - will attack if provoked or cornered"
+  },
+
+  "special_behavior": {
+    "befriendable": true,
+    "pet_name": "Kimbley",
+    "trigger": "Feed and treat well",
+    "notes": "One wolf is the abandoned pet 'Kimbley' - food bowl found near Highndry. If fed and treated kindly, may become loyal companion."
   },
 
   "approach_options": {

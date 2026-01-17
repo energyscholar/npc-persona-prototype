@@ -9,6 +9,7 @@
  */
 
 const { getContextWindow } = require('./memory');
+const { buildExtendedContext } = require('./prompt-extensions');
 
 // Configuration
 const MAX_CONTEXT_TOKENS = 4000;
@@ -156,9 +157,10 @@ function buildContextSection(memory) {
  * @param {Object} memory - Memory object
  * @param {string} userMessage - New user message
  * @param {Object} [pc] - Optional PC data for NPC awareness
+ * @param {Object} [storyState] - Optional story state for extended context
  * @returns {Object} { system: string, messages: Array }
  */
-function assembleFullPrompt(persona, memory, userMessage, pc = null) {
+function assembleFullPrompt(persona, memory, userMessage, pc = null, storyState = null) {
   // Build system prompt with context injected
   let system = buildSystemPrompt(persona);
 
@@ -166,6 +168,10 @@ function assembleFullPrompt(persona, memory, userMessage, pc = null) {
   if (pc) {
     system += buildPCContext(pc);
   }
+
+  // Add extended context (disposition, plot, world state)
+  const extendedContext = buildExtendedContext(persona, pc, storyState);
+  system += extendedContext;
 
   const contextSection = buildContextSection(memory);
 

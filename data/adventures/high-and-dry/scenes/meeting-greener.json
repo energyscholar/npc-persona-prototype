@@ -30,6 +30,34 @@
     "exit": "Survey deal struck OR Travellers refuse terms"
   },
 
+  "plot_triggers": {
+    "outcomes": {
+      "negotiation_success": {
+        "set_flags": [
+          { "flag": "survey_accepted", "value": true },
+          { "flag": "payment_amount", "value": 3000 },
+          { "flag": "negotiation_outcome", "value": "accepted" }
+        ],
+        "disposition_change": 1
+      },
+      "negotiation_pushed": {
+        "set_flags": [
+          { "flag": "survey_accepted", "value": true },
+          { "flag": "payment_amount", "value": 4000 },
+          { "flag": "negotiation_outcome", "value": "pushed" }
+        ],
+        "disposition_change": 0
+      },
+      "negotiation_greedy": {
+        "set_flags": [
+          { "flag": "survey_accepted", "value": false },
+          { "flag": "negotiation_outcome", "value": "rejected" }
+        ],
+        "disposition_change": -1
+      }
+    }
+  },
+
   "key_dialogue": {
     "greener_opening": "So you're here about the Highndry. I was wondering when someone would show up. The previous crew... didn't leave on the best terms.",
     "the_deal": "I'll make you a fair offer. Cr3000 for a survey of Mount Salbarii's volcanic activity. Complete the survey, and the ship is yours to take.",

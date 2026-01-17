@@ -30,6 +30,13 @@
     "exit": "Travellers commit to a course of action"
   },
 
+  "plot_triggers": {
+    "on_enter": [
+      { "set_flag": "eruption_started", "value": true },
+      { "set_flag": "crisis_phase_active", "value": true }
+    ]
+  },
+
   "eruption_sequence": {
     "initial": "Ground tremors, warning rumbles",
     "escalation": "Major eruption, ash cloud, lava flows begin",

@@ -29,6 +29,29 @@
     "exit": "Rescue attempted (or not), consequences follow"
   },
 
+  "plot_triggers": {
+    "outcomes": {
+      "chose_vargr": {
+        "set_flags": [
+          { "flag": "chose_vargr", "value": true },
+          { "flag": "rescue_outcome", "value": "vargr_saved" }
+        ]
+      },
+      "chose_barvinn": {
+        "set_flags": [
+          { "flag": "chose_barvinn", "value": true },
+          { "flag": "rescue_outcome", "value": "barvinn_priority" }
+        ]
+      },
+      "chose_both": {
+        "set_flags": [
+          { "flag": "chose_both", "value": true },
+          { "flag": "rescue_outcome", "value": "attempted_both" }
+        ]
+      }
+    }
+  },
+
   "the_situation": {
     "chauffeur_status": "Injured - blinded by windshield glass when vehicle crashed",
     "parents_status": "Elderly Vargr couple, stranded near eruption zone",

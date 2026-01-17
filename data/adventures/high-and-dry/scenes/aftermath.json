@@ -31,6 +31,29 @@
     "exit": "Travellers depart in the Highndry"
   },
 
+  "plot_triggers": {
+    "outcomes": {
+      "heroic": {
+        "set_flags": [
+          { "flag": "hero_of_walston", "value": true },
+          { "flag": "walston_reputation", "value": "heroic" }
+        ]
+      },
+      "competent": {
+        "set_flags": [
+          { "flag": "competent_traveller", "value": true },
+          { "flag": "walston_reputation", "value": "competent" }
+        ]
+      },
+      "problematic": {
+        "set_flags": [
+          { "flag": "problematic_outcome", "value": true },
+          { "flag": "walston_reputation", "value": "problematic" }
+        ]
+      }
+    }
+  },
+
   "outcome_variations": {
     "heroic": {
       "condition": "Rescued chauffeur family, helped refugees",

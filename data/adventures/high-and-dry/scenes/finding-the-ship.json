@@ -28,6 +28,16 @@
     "exit": "Ship assessed, repair plan made, survey begins"
   },
 
+  "plot_triggers": {
+    "on_enter": [
+      { "set_flag": "ship_found", "value": true }
+    ],
+    "outcomes": {
+      "tensher_befriended": { "set_flag": "tensher_befriended", "value": true },
+      "tensher_killed": { "set_flag": "tensher_killed", "value": true }
+    }
+  },
+
   "ship_condition": {
     "exterior": "Weathered but structurally sound. Some scoring from volcanic debris.",
     "power_plant": "Offline. Fuel cells depleted. Primary issue.",

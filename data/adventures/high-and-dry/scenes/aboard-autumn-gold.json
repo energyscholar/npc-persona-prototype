@@ -1,0 +1,62 @@
+{
+  "id": "aboard-autumn-gold",
+  "act": "act-1-journey",
+  "title": "Aboard the Autumn Gold",
+  "setting": "Far trader Autumn Gold, in jump space",
+
+  "atmosphere": "Professional merchant vessel. Clean, efficient, crew knows their jobs. Climate controls gradually adjust during jump to match destination.",
+
+  "description": "The Travellers spend a week in jump aboard Captain Corelli's far trader. Time for rest, preparation, and getting to know the ship and crew.",
+
+  "duration": "168 hours (1 week)",
+
+  "objectives": [
+    "Meet Captain Corelli",
+    "Learn about the route to Walston",
+    "Prepare for mountain expedition",
+    "Optional: discover discrete naval cargo"
+  ],
+
+  "encounters": [
+    "corelli-introduction",
+    "shipboard-routine"
+  ],
+
+  "npcs_present": [
+    "captain-corelli"
+  ],
+
+  "triggers": {
+    "entry": "Travellers board at Flammarion Highport",
+    "exit": "Jump emergence at 567-908"
+  },
+
+  "key_dialogue": {
+    "corelli_welcome": "Welcome aboard the Autumn Gold. I'm Captain Corelli. Your passage is paid through to Walston. We'll be making a brief stop at 567-908 for cargo and refueling.",
+    "route_info": "It's a week in jump to the waystation, a day layover, then another week to Walston. Climate controls will adjust during transit - Walston runs cooler than Flammarion.",
+    "cargo_question": "I don't discuss cargo specifics. That's basic security. Suffice to say we're making scheduled deliveries."
+  },
+
+  "activities": [
+    "Rest and recuperation",
+    "Equipment inventory and preparation",
+    "Conversation with crew",
+    "Research on Walston",
+    "Light exercise in limited space"
+  ],
+
+  "information_available": {
+    "automatic": [
+      "Route timing and stops",
+      "Basic Walston climate information",
+      "Professional but private ship operation"
+    ],
+    "persuade_8+": [
+      "Discrete naval cargo bound for Elixabeth",
+      "Corelli's military background",
+      "Cargo includes officer uniforms and wine"
+    ]
+  },
+
+  "narrator_prompt": "A week in jump is time to prepare - mentally and physically. The Autumn Gold is a working ship, not a cruise liner. Captain Corelli runs a professional operation. The climate slowly shifts from warm Flammarion to cooler Walston conditions."
+}

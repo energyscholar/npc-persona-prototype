@@ -1,0 +1,105 @@
+{
+  "id": "mountain-climb",
+  "act": "act-3-mountain",
+  "title": "Climbing Mount Salbarii",
+  "setting": "Mount Salbarii, Settlement Island, Walston",
+
+  "atmosphere": "Increasingly harsh as altitude rises. Thin atmosphere, cold, rocky terrain. The mountain looms above, crater invisible from below. Physical challenge intensifies with each stage.",
+
+  "description": "Multi-stage climb from 500m to 1400m altitude to reach the crater where Highndry is parked. Physical endurance and skill testing throughout.",
+
+  "duration": "Several hours to full day depending on pace and conditions",
+
+  "objectives": [
+    "Reach the crater rim",
+    "Manage altitude sickness",
+    "Navigate difficult terrain",
+    "Descend into crater"
+  ],
+
+  "encounters": [],
+
+  "npcs_present": [],
+
+  "triggers": {
+    "entry": "Travellers depart from vehicle at 500m altitude",
+    "exit": "Travellers reach Highndry in crater"
+  },
+
+  "stages": [
+    {
+      "name": "Lower Slopes",
+      "altitude": "500-900m",
+      "description": "Steep slope with frequent detours around rock faces. Option for shortcut climb.",
+      "time": "Several hours"
+    },
+    {
+      "name": "Middle Ascent",
+      "altitude": "900-1100m",
+      "description": "Altitude effects begin. Fast pace risks sickness.",
+      "time": "1-2 hours"
+    },
+    {
+      "name": "Upper Slopes",
+      "altitude": "1100-1200m",
+      "description": "Steep, rocky terrain. Altitude effects worsen.",
+      "time": "1 hour"
+    },
+    {
+      "name": "Scramble Zone",
+      "altitude": "1200-1350m",
+      "description": "Hazardous scrambling over loose rock. Risk of falls.",
+      "time": "1D hours"
+    },
+    {
+      "name": "Final Ascent",
+      "altitude": "1350-1400m",
+      "description": "Almost sheer rock face to crater lip.",
+      "time": "1D hours"
+    },
+    {
+      "name": "Crater Descent",
+      "altitude": "Crater lip to floor",
+      "description": "Climb down into crater where Highndry waits.",
+      "time": "Variable"
+    }
+  ],
+
+  "skill_checks": [
+    {
+      "ref": "mountain_climb.outcrop-climb",
+      "trigger": "PC chooses to climb shortcut"
+    },
+    {
+      "ref": "mountain_climb.altitude-sickness-900m",
+      "trigger": "Party pushes pace above 900m"
+    },
+    {
+      "ref": "mountain_climb.altitude-sickness-1200m",
+      "trigger": "Party reaches 1200m"
+    },
+    {
+      "ref": "mountain_climb.scramble-check",
+      "trigger": "Scrambling through 1200-1350m zone"
+    },
+    {
+      "ref": "mountain_climb.altitude-sickness-final",
+      "trigger": "Final ascent to crater lip"
+    },
+    {
+      "ref": "mountain_climb.crater-descent",
+      "trigger": "Descending into crater"
+    }
+  ],
+
+  "altitude_sickness": {
+    "mild": "DM-2 on all checks",
+    "moderate": "DM-4 on all checks, nausea, headache, mental numbness",
+    "severe": "DM-6 on all checks, incapacitation risk",
+    "recovery_natural": "1 point per day resting",
+    "recovery_controlled": "2 points per day in ship/suit",
+    "oxygen_boost": "Dispels symptoms for 1-2 hours"
+  },
+
+  "narrator_prompt": "Mount Salbarii tests the Travellers physically and mentally. Each stage is harder than the last. The thin atmosphere saps strength, the cold numbs fingers, the loose rock threatens falls. But somewhere up there, in the crater, their ship is waiting."
+}

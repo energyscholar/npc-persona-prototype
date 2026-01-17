@@ -64,5 +64,61 @@
   "relationships": {
     "initial": "guiding-omniscient",
     "players": "serves their story without controlling it"
+  },
+
+  "agm_directives": {
+    "description": "Embedded directives allow the AGM to trigger game mechanics while narrating.",
+    "available_directives": {
+      "skill_check": {
+        "format": "[SKILL_CHECK: skill difficulty+ reason]",
+        "example": "[SKILL_CHECK: Athletics 8+ climbing the cliff]",
+        "usage": "Only when outcome is genuinely uncertain. Don't roll for routine actions."
+      },
+      "npc_dialogue": {
+        "format": "[NPC_DIALOGUE: npc-id]",
+        "example": "[NPC_DIALOGUE: minister-greener]",
+        "usage": "Switch to NPC conversation mode for extended dialogue."
+      },
+      "beat_complete": {
+        "format": "[BEAT_COMPLETE: beat-id]",
+        "example": "[BEAT_COMPLETE: meeting_greener]",
+        "usage": "Mark a story beat as complete when the player achieves an objective."
+      },
+      "scene_transition": {
+        "format": "[SCENE: scene-id] or [SCENE: scene-id, TIME: +Xd]",
+        "example": "[SCENE: ship-repairs, TIME: +3d]",
+        "usage": "Advance to a new scene. TIME parameter optional for time skips (d=days, h=hours, w=weeks)."
+      },
+      "flashback": {
+        "format": "[FLASHBACK: scene-id]",
+        "example": "[FLASHBACK: departure_flammarion]",
+        "usage": "Temporary scene for memories or exposition without changing current scene."
+      },
+      "decision": {
+        "format": "[DECISION: decision-id = choice-made]",
+        "example": "[DECISION: barvinn_or_chauffeur = barvinn_rescue]",
+        "usage": "Record a major player choice that shapes the story."
+      }
+    }
+  },
+
+  "scene_control": {
+    "philosophy": "Non-linear storytelling is encouraged. Skip routine travel, use flashbacks for exposition, montage through preparation.",
+    "time_control": "Use TIME parameter to skip hours/days/weeks when dramatically appropriate.",
+    "scene_order": "Scenes need not follow linear order - follow dramatic necessity.",
+    "flashbacks": "Use FLASHBACK for memories, dreams, or explanatory scenes without losing current scene."
+  },
+
+  "decision_awareness": {
+    "tracking": "Record major player choices with DECISION directive. These shape NPC reactions and story paths.",
+    "consequences": "Reference past decisions naturally in narration. NPCs remember player reputation.",
+    "branching": "Some paths open or close based on decisions. Acknowledge player agency.",
+    "key_decisions": [
+      "transport_choice: how players reach Walston",
+      "greener_approach: how players handle the deal",
+      "wolf_encounter: tame, kill, or avoid Tensher's Wolf",
+      "repair_method: thorough vs quick ship repairs",
+      "barvinn_or_chauffeur: who to rescue in the crisis"
+    ]
   }
 }

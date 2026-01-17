@@ -1,0 +1,240 @@
+{
+  "difficulty_scale": {
+    "Simple": "2+",
+    "Easy": "4+",
+    "Routine": "6+",
+    "Average": "8+",
+    "Difficult": "10+",
+    "Very Difficult": "12+",
+    "Formidable": "14+"
+  },
+
+  "skill_checks_by_scene": {
+    "mountain_climb": {
+      "location": "Mount Salbarii",
+      "checks": [
+        {
+          "id": "outcrop-climb",
+          "altitude": "500-900m",
+          "skill": "Athletics",
+          "difficulty": "Routine (6+)",
+          "description": "Climbing 10m rock face to avoid long detour",
+          "notes": "Once rope established, less skilled can scramble up",
+          "failure": "Must take 1D hours following ridge around"
+        },
+        {
+          "id": "altitude-sickness-900m",
+          "altitude": "900-1100m",
+          "skill": "END check",
+          "difficulty": "Easy (4+)",
+          "condition": "Only if party pushes too fast (200m/hour vs 100m/hour)",
+          "failure": "Mild altitude sickness: DM-2 on all checks",
+          "notes": "Skipped if party deliberately paces themselves"
+        },
+        {
+          "id": "altitude-sickness-1200m",
+          "altitude": "1200-1350m",
+          "skill": "END check",
+          "difficulty": "Routine (6+) or Average (8+) if already suffering",
+          "failure": "Mild sickness (DM-2) or moderate sickness (DM-4) if second failure",
+          "notes": "Moderate sickness: nausea, headache, mental numbness"
+        },
+        {
+          "id": "scramble-check",
+          "altitude": "1200-1350m",
+          "skill": "Athletics",
+          "difficulty": "Average (8+)",
+          "modifier": "DM-2 if mild sickness, DM-4 if moderate sickness",
+          "failure": "Fall, skid down rocky slope, 3D damage. Must retry.",
+          "notes": "Being roped may mitigate at referee discretion"
+        },
+        {
+          "id": "altitude-sickness-final",
+          "altitude": "1350-1400m",
+          "skill": "END check",
+          "difficulty": "Average (8+) for healthy, Difficult (10+) if suffering",
+          "failure": "One failed check = mild (DM-2), two = moderate (DM-4), three = severe (DM-6)",
+          "notes": "Final test before crater rim"
+        },
+        {
+          "id": "crater-descent",
+          "altitude": "Crater lip to island",
+          "skill": "Athletics",
+          "difficulty": "Average (8+)",
+          "description": "Final climb down into crater",
+          "failure": "Fall, potential injury",
+          "notes": "Ropes and assistance can help"
+        }
+      ]
+    },
+
+    "ship_repairs": {
+      "location": "Highndry (in crater)",
+      "checks": [
+        {
+          "id": "flight-controls-repair",
+          "system": "Flight controls and navigational systems (bridge)",
+          "skill": "Electronics",
+          "difficulty": "Unspecified (referee determines)",
+          "time": "1D+2 man-hours",
+          "notes": "Most work can be done by unskilled person with guidance"
+        },
+        {
+          "id": "general-electronics-repair",
+          "system": "General shipboard electronics (dispersed)",
+          "skill": "Electronics",
+          "difficulty": "Unspecified",
+          "time": "1D+2 man-hours"
+        },
+        {
+          "id": "power-systems-repair",
+          "system": "Power systems electronics (engineering)",
+          "skill": "Electronics",
+          "difficulty": "Unspecified",
+          "time": "1D+2 man-hours"
+        },
+        {
+          "id": "drive-systems-repair",
+          "system": "Drive systems electronics (engineering)",
+          "skill": "Electronics",
+          "difficulty": "Unspecified",
+          "time": "1D+2 man-hours"
+        },
+        {
+          "id": "computer-purge-upload",
+          "system": "Ship computers - purge and upload control software",
+          "skill": "Electronics (computer)",
+          "difficulty": "Unspecified",
+          "failure": "Really terrible check = redo task, another 1D+2 man-hours",
+          "notes": "Temporary software expires in 3 months"
+        }
+      ],
+      "modifier": "DM-2 to all Pilot/Engineer checks if pre-flight tests not done"
+    },
+
+    "volcano_eruption_flight": {
+      "location": "Mount Salbarii airspace during eruption",
+      "conditions": "Smoke, ash, rocks (sensors report as 'missiles')",
+      "checks": [
+        {
+          "id": "eruption-flight",
+          "skill": "Pilot",
+          "difficulty": "Difficult (10+)",
+          "notes": "All Pilot checks during flight near erupting volcano"
+        },
+        {
+          "id": "terrain-mapping",
+          "skill": "Electronics (sensors)",
+          "difficulty": "Average (8+)",
+          "purpose": "Map terrain for lava flow prediction"
+        },
+        {
+          "id": "flow-rate-sensors",
+          "skill": "Electronics (sensors) or Recon",
+          "difficulty": "Average (8+)",
+          "purpose": "Establish lava flow rate"
+        }
+      ]
+    },
+
+    "save_the_ship": {
+      "location": "Highndry tumbling through sky after pyroclastic cloud impact",
+      "segments": ["Going Up", "Going Down", "Seconds to Impact"],
+      "initial_damage": {
+        "base": "3D damage to everyone",
+        "reduction": "-1D if headed directly into cloud, -1D if strapped in",
+        "dex_check": "Very Difficult (12+) DEX check to cling and get -1D"
+      },
+      "checks": [
+        {
+          "id": "control-reboot",
+          "skill": "Electronics (computer) or Pilot",
+          "difficulty": "Average (8+) Electronics or Difficult (10+) Pilot",
+          "location": "Engineering or any bridge console",
+          "purpose": "Reboot control systems"
+        },
+        {
+          "id": "power-override",
+          "skill": "Engineer (power)",
+          "difficulty": "Average (8+)",
+          "location": "Engineering - must leave seat, cling to power plant",
+          "purpose": "Override safety cutouts, restore power"
+        },
+        {
+          "id": "pilot-control",
+          "skill": "Pilot",
+          "difficulty": "Average (8+)",
+          "prerequisite": "Both control and power restored",
+          "attempts": "Up to 3 across the three segments",
+          "results": {
+            "3_successes": "Ship recovers, climbs to safe altitude",
+            "2_successes": "Ship hits water in shallow dive, skips, recovers. 2D/1D/0 damage",
+            "1_success": "Ship dives into bay, embeds in seabed 12m down. 3D/2D/1D damage",
+            "0_successes": "Belly-flop. 6D/4D/2D damage. Ship sinks, must abandon to life rafts"
+          }
+        },
+        {
+          "id": "going-up-brace",
+          "skill": "Athletics (dexterity)",
+          "difficulty": "Average (8+)",
+          "modifier": "DM-2 for tumbling unless secured",
+          "failure": "2D damage, flung about",
+          "notes": "Can grab others with Athletics (strength) check"
+        },
+        {
+          "id": "going-down-brace",
+          "skill": "Varies",
+          "modifier": "DM-1 all checks unless secured",
+          "damage_unsecured": "1D damage from being bounced around"
+        }
+      ]
+    },
+
+    "social_checks": {
+      "location": "Various",
+      "checks": [
+        {
+          "id": "persuade-observatory",
+          "skill": "Persuade or Carouse",
+          "difficulty": "Easy (4+)",
+          "location": "567-908 Observatory",
+          "purpose": "Get observatory crew to talk about non-technical topics"
+        },
+        {
+          "id": "negotiate-greener",
+          "skill": "Persuade or Diplomat",
+          "difficulty": "Average (8+)",
+          "purpose": "Talk Greener up from Cr3000",
+          "notes": "Greedy demands = he waits for another ship"
+        },
+        {
+          "id": "gather-intel-startown",
+          "skill": "Carouse, Streetwise, or Persuade",
+          "difficulty": "Easy (4+) to Average (8+)",
+          "location": "Walston Startown",
+          "purpose": "Learn about previous crew, ship status"
+        }
+      ]
+    },
+
+    "medical_checks": {
+      "checks": [
+        {
+          "id": "recognize-altitude-risk",
+          "skill": "Medic",
+          "difficulty": "Easy (4+)",
+          "purpose": "Realize they need to pace the ascent to avoid altitude sickness"
+        }
+      ]
+    },
+
+    "recovery": {
+      "altitude_sickness": {
+        "natural_recovery": "-1 penalty per day resting at same/lower altitude",
+        "with_oxygen": "Dispels penalty 1-2 hours, returns after",
+        "controlled_environment": "8 hours in ship/vacc suit = -2 penalty per day",
+        "full_acclimatization": "Several weeks at altitude"
+      }
+    }
+  }
+}

@@ -85,10 +85,12 @@ test('listPersonas returns all NPCs when no world specified', () => {
 
 test('listPersonas filters by world "Walston"', () => {
   const walston = listPersonas('Walston');
-  assert(walston.length === 8, `Expected 8 Walston NPCs, got ${walston.length}`);
+  assert(walston.length === 10, `Expected 10 Walston NPCs, got ${walston.length}`);
   assert(walston.includes('minister-greener'), 'Should include minister-greener');
   assert(walston.includes('narrator-high-and-dry'), 'Should include narrator');
-  assert(walston.includes('alex-ryder-npc'), 'Should include alex-ryder-npc');
+  assert(walston.includes('alex-ryder'), 'Should include alex-ryder');
+  assert(walston.includes('mr-casarii'), 'Should include mr-casarii');
+  assert(walston.includes('vargr-chauffeur'), 'Should include vargr-chauffeur');
 });
 
 test('listPersonas filters by world "ISS Amishi"', () => {
@@ -259,6 +261,109 @@ for (const npcId of walstonNpcs) {
     assert(p.name, 'Should have name');
     assert(p.archetype, 'Should have archetype');
     assert(p.world === 'Walston', 'Should be in Walston world');
+  });
+}
+
+// ============================================================
+
+console.log('\n▸ TUI Helper Functions');
+
+// Import TUI helpers
+let TUI_CONFIG, dispositionStars, buildProgressBar, _testExports;
+try {
+  const chatTui = require('../src/chat-tui');
+  TUI_CONFIG = chatTui.TUI_CONFIG;
+  dispositionStars = chatTui.dispositionStars;
+  buildProgressBar = chatTui.buildProgressBar;
+  _testExports = chatTui._testExports;
+} catch (e) {
+  console.log(`  (TUI helpers not available: ${e.message})`);
+}
+
+if (TUI_CONFIG) {
+  test('TUI_CONFIG has boxWidth', () => {
+    assert(typeof TUI_CONFIG.boxWidth === 'number', 'boxWidth should be a number');
+    assert(TUI_CONFIG.boxWidth > 0, 'boxWidth should be positive');
+  });
+
+  test('TUI_CONFIG has colors object with required keys', () => {
+    assert(TUI_CONFIG.colors, 'colors should exist');
+    assert(TUI_CONFIG.colors.prompt, 'colors.prompt should exist');
+    assert(TUI_CONFIG.colors.npc, 'colors.npc should exist');
+    assert(TUI_CONFIG.colors.system, 'colors.system should exist');
+    assert(TUI_CONFIG.colors.action, 'colors.action should exist');
+    assert(TUI_CONFIG.colors.error, 'colors.error should exist');
+    assert(TUI_CONFIG.colors.reset, 'colors.reset should exist');
+  });
+
+  test('TUI_CONFIG has progressBar config', () => {
+    assert(TUI_CONFIG.progressBar, 'progressBar should exist');
+    assert(TUI_CONFIG.progressBar.filled, 'progressBar.filled should exist');
+    assert(TUI_CONFIG.progressBar.empty, 'progressBar.empty should exist');
+    assert(typeof TUI_CONFIG.progressBar.width === 'number', 'progressBar.width should be a number');
+  });
+}
+
+if (dispositionStars) {
+  test('dispositionStars(-3) returns 0 filled stars', () => {
+    const result = dispositionStars(-3);
+    assert(!result.includes('★'), 'Should have no filled stars');
+    assert.strictEqual(result.length, 6, 'Should have 6 characters');
+  });
+
+  test('dispositionStars(0) returns 3 filled stars', () => {
+    const result = dispositionStars(0);
+    const filled = (result.match(/★/g) || []).length;
+    const empty = (result.match(/☆/g) || []).length;
+    assert.strictEqual(filled, 3, 'Should have 3 filled stars');
+    assert.strictEqual(empty, 3, 'Should have 3 empty stars');
+  });
+
+  test('dispositionStars(3) returns 6 filled stars', () => {
+    const result = dispositionStars(3);
+    const filled = (result.match(/★/g) || []).length;
+    assert.strictEqual(filled, 6, 'Should have 6 filled stars');
+    assert(!result.includes('☆'), 'Should have no empty stars');
+  });
+
+  test('dispositionStars(-1) returns 2 filled stars', () => {
+    const result = dispositionStars(-1);
+    const filled = (result.match(/★/g) || []).length;
+    assert.strictEqual(filled, 2, 'Should have 2 filled stars');
+  });
+}
+
+if (buildProgressBar && TUI_CONFIG) {
+  test('buildProgressBar(0) returns all empty', () => {
+    const result = buildProgressBar(0);
+    assert(!result.includes(TUI_CONFIG.progressBar.filled), 'Should have no filled segments');
+    assert.strictEqual(result.length, TUI_CONFIG.progressBar.width, 'Should have correct width');
+  });
+
+  test('buildProgressBar(100) returns all filled', () => {
+    const result = buildProgressBar(100);
+    assert(!result.includes(TUI_CONFIG.progressBar.empty), 'Should have no empty segments');
+    assert.strictEqual(result.length, TUI_CONFIG.progressBar.width, 'Should have correct width');
+  });
+
+  test('buildProgressBar(50) returns half filled', () => {
+    const result = buildProgressBar(50);
+    const filledCount = (result.match(new RegExp(TUI_CONFIG.progressBar.filled, 'g')) || []).length;
+    assert.strictEqual(filledCount, Math.round(TUI_CONFIG.progressBar.width / 2), 'Should be half filled');
+  });
+}
+
+if (_testExports) {
+  test('_testExports has printStatus function', () => {
+    assert(typeof _testExports.printStatus === 'function', 'printStatus should be a function');
+  });
+
+  test('_testExports has printActiveActions function', () => {
+    assert(typeof _testExports.printActiveActions === 'function', 'printActiveActions should be a function');
+  });
+
+  test('_testExports has displayActionNotifications function', () => {
+    assert(typeof _testExports.displayActionNotifications === 'function', 'displayActionNotifications should be a function');
   });
 }
 

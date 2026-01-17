@@ -1,0 +1,9 @@
+{
+  "actions": [
+    {
+      "id": "persisted",
+      "npcId": "npc-1",
+      "hoursRemaining": 5
+    }
+  ]
+}
