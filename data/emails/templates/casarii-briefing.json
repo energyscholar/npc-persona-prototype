@@ -1,0 +1,10 @@
+{
+  "id": "casarii-briefing",
+  "trigger": "after_scout_office_briefing",
+  "from": "mr-casarii",
+  "subject": "Highndry Recovery Mission - Official Briefing",
+  "priority": "high",
+  "tags": ["mission", "briefing", "official"],
+  "attachments": ["iiss-detached-duty-documents"],
+  "body": "Dear Traveller,\n\nAs discussed in our meeting, here is the official briefing for your detached duty assignment.\n\n=== THE SHIP ===\nHighndry is a Type S Scout/Courier, standard configuration. She is currently stranded somewhere on Walston. The previous crew disabled her control electronics before abandoning ship. We don't have precise coordinates - you'll need to investigate when you arrive.\n\n=== YOUR STATUS ===\nThis is a one-year renewable lease under detached duty terms. The Scout Service retains ownership; you operate under our terms. Renewal is based on performance and compliance.\n\n=== EQUIPMENT ===\nYour repair kit includes:\n- Three flight cases of circuit panels and tools\n- Portable diagnostic unit with temporary control software\n- Container of general spares\n\nThe diagnostic unit can upload a software patch good for three months.\n\n=== TRAVEL ===\nPassage booked on the Autumn Gold, departing tomorrow.\n- Jump to 567-908 (Scout waystation) - ~1 week\n- Layover for cargo/refueling - 1 day\n- Jump to Walston - ~1 week\n\n=== EXPENSES ===\nCr1000 per traveller credited for incidentals. Life support and fuel costs during mission are covered. Additional Cr1000 available after Highndry passes post-recovery checkout.\n\nGood luck with your recovery.\n\nAnders Casarii\nScout Service Administrator\nFlammarion Highport"
+}

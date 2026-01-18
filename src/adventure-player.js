@@ -62,6 +62,7 @@ async function startAdventure(adventureId, pcId, client) {
 
   const session = {
     adventure,
+    adventureId,
     pc,
     agm,
     storyState,

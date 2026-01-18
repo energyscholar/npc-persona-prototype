@@ -1,13 +1,13 @@
 {
   "npc_id": "mr-casarii",
-  "timestamp": "2026-01-18T04:16:36.869Z",
+  "timestamp": "2026-01-18T04:46:53.621Z",
   "results": [
     {
       "query_id": "Q001",
       "npc_id": "mr-casarii",
       "query_text": "Who owns the Highndry?",
-      "timestamp": "2026-01-18T04:16:19.051Z",
-      "response": "*adjusts datapad, speaks in a precise administrative tone*\n\nThe Highndry is owned by the Imperial Interstellar Scout Service - the IISS. She is currently under a one-year detached duty lease, which means while an operator has permission to use the vessel, the Scout Service retains full ownership. This isn't a transfer of ownership, but a renewable operational agreement. The previous crew's fraudulent activities have been addressed, and a new lease arrangement is now in effect. The ship will remain IISS property throughout the lease period, with annual review of the operational terms.",
+      "timestamp": "2026-01-18T04:46:34.799Z",
+      "response": "*Adjusts datapad, speaks in a clear, precise administrative tone*\n\nThe Highndry is owned by the Imperial Interstellar Scout Service - the IISS. It's currently under a detached duty lease agreement, which means I'm authorized to operate the vessel, but the Scout Service retains full ownership. This isn't a gift or a permanent transfer - it's a one-year renewable lease where we're responsible for maintaining the ship and conducting approved missions. The previous crew's lease was terminated due to fraudulent activities, and now we've been approved for the next operational period. *dry chuckle* Ownership is quite clear: the Scout Service owns the ship, we just get to use it - provided we follow the regulations.",
       "error": null,
       "fact_id": "FACT_001",
       "verdict": "PASS",
@@ -26,8 +26,8 @@
       "query_id": "Q002",
       "npc_id": "mr-casarii",
       "query_text": "What is detached duty and what does it mean for the ship?",
-      "timestamp": "2026-01-18T04:16:23.006Z",
-      "response": "*Adjusts glasses and speaks in a precise, administrative tone*\n\nDetached duty is a specialized Scout Service arrangement where we lease a vessel to a qualified operator for a specific mission period - typically one year, renewable. In this case, with Highndry, it means you'll have operational control of the scout/courier, but the Imperial Interstellar Scout Service retains full ownership.\n\nYour obligations are clear: maintain the vessel in proper condition, conduct exploration missions, and file comprehensive expedition reports. At the end of the year, we'll evaluate your performance. If you've met our standards - kept the ship functional, submitted detailed reports, remained responsive to potential recall - we'll likely renew the lease.\n\nThink of it less as ownership and more as a critical professional responsibility. The Scout Service is entrusting you with a valuable piece of exploration equipment. You're essentially borrowing a sophisticated spacecraft with the expectation that you'll use it for scientific and exploratory purposes that align with our institutional mission.\n\n*Taps datapad for emphasis*\n\nThe ship isn't yours permanently. We can recall Highndry at any time if mission parameters aren't met. Your job is to keep her flying, gather data, and represent Scout Service interests. Clear enough?",
+      "timestamp": "2026-01-18T04:46:39.771Z",
+      "response": "*adjusts datapad, speaks in a precise administrative tone*\n\nDetached duty is a standard Scout Service arrangement where we lease a scout vessel to a qualified operator for a one-year term, renewable based on mission performance. It means you're essentially borrowing a ship - in this case, Highndry - with very specific obligations.\n\nThe key points are straightforward: The Imperial Interstellar Scout Service retains full ownership of the vessel. You get operational control for exploration missions, but it's not a permanent transfer. Every year, we'll review your performance - did you file proper reports? Maintain the ship? Comply with our regulations? If yes, the lease likely continues.\n\nThink of it like checking out specialized equipment from a research library. You can use it, but it was never truly yours. At the end of the term, the ship returns to IISS inventory. We might extend your lease, or we might reassign the vessel based on strategic needs.\n\nIn practical terms for Highndry, that means you'll need to recover her from Walston, repair her control systems, and conduct whatever exploration mission you've been approved for. Comprehensive reporting is mandatory. And remember - one serious violation, and the lease can be immediately terminated.\n\n*gives a dry, administrative chuckle* Any more questions?",
       "error": null,
       "fact_id": "FACT_002",
       "verdict": "FAIL",
@@ -54,17 +54,17 @@
       "query_id": "Q003",
       "npc_id": "mr-casarii",
       "query_text": "What happens to the ship after the mission ends?",
-      "timestamp": "2026-01-18T04:16:30.022Z",
-      "response": "*adjusts datapad, speaks in a crisp, administrative tone*\n\nAt the end of the mission term, Highndry will return to Imperial Interstellar Scout Service inventory for assessment. The detached duty lease is annually renewable, contingent on mission performance, ship condition, and our operational needs. \n\nIf you've maintained the vessel properly, filed comprehensive expedition reports, and met all operational requirements, we'll likely extend the lease for another year. However, the Scout Service retains the right to recall the ship at any point if we determine strategic requirements demand it.\n\n*dry chuckle* Essentially, you're being entrusted with a valuable piece of Scout Service equipment. Treat her well, complete your mission objectives, and keep the paperwork meticulously documented. The ship was never truly \"yours\" - you're merely operating her under a carefully structured agreement that we'll review annually.\n\nIf the ship requires significant repairs or if mission performance is unsatisfactory, we might terminate the lease and reassign Highndry to another scout. The vessel's primary purpose is supporting Imperial exploration and scientific objectives, not serving as a personal asset.\n\n*taps datapad for emphasis* Clear enough?",
+      "timestamp": "2026-01-18T04:46:46.821Z",
+      "response": "*adjusts datapad, speaks in a precise administrative tone*\n\nAt the conclusion of the mission term, Highndry will be returned to Imperial Interstellar Scout Service inventory for comprehensive assessment. The ship will undergo a thorough technical evaluation to verify its condition matches the maintenance standards outlined in the detached duty lease agreement.\n\nIf the vessel passes inspection and the operator - in this case, you - has fulfilled all operational obligations, including filing complete expedition reports and maintaining the ship's systems, the lease will likely be renewed for another annual term. This isn't a permanent transfer of ownership, but a renewable professional arrangement.\n\nShould the ship require significant repairs or the operator fail to meet Scout Service performance standards, we reserve the right to recall the vessel, reassign it to another scout, or conduct a mandatory refit at the operator's expense. *dry chuckle* The ship always remains IISS property - you're essentially being trusted with a valuable piece of exploration equipment.\n\nIn short: at mission's end, Highndry comes back to us, gets evaluated, and then either continues under your operational control or gets reassigned based on our assessment. Clear?\n\n*raises an eyebrow, waiting for confirmation*",
       "error": null,
       "fact_id": "FACT_004",
       "verdict": "FAIL",
       "expected_found": [],
       "expected_missing": [],
       "failure_found": [
-        "yours"
+        "permanent"
       ],
-      "details": "Found failure keywords: yours",
+      "details": "Found failure keywords: permanent",
       "suggested_patch": {
         "field": "knowledge_base.ship_ownership",
         "value": "Detached duty = lease with obligations, renewable, ship returned when agreement ends",
@@ -74,7 +74,7 @@
           "return",
           "Scout Service"
         ],
-        "reason": "Found failure keywords: yours"
+        "reason": "Found failure keywords: permanent"
       }
     }
   ],
@@ -98,7 +98,7 @@
         "obligations"
       ],
       "reason": "Found failure keywords: permanent, ownership",
-      "timestamp": "2026-01-18T04:16:36.872Z"
+      "timestamp": "2026-01-18T04:46:53.623Z"
     },
     {
       "npc_id": "mr-casarii",
@@ -112,8 +112,8 @@
         "return",
         "Scout Service"
       ],
-      "reason": "Found failure keywords: yours",
-      "timestamp": "2026-01-18T04:16:36.872Z"
+      "reason": "Found failure keywords: permanent",
+      "timestamp": "2026-01-18T04:46:53.623Z"
     }
   ]
 }

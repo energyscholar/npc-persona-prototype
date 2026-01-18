@@ -1,0 +1,9 @@
+{
+  "id": "greener-job-offer",
+  "trigger": "after_greener_meeting",
+  "from": "minister-greener",
+  "subject": "Proposal: Volcano Survey Mission",
+  "priority": "normal",
+  "tags": ["job", "offer", "walston"],
+  "body": "To the crew of the scout vessel,\n\nFurther to our discussion, I am writing to formalize the offer of employment.\n\n=== THE JOB ===\nConduct a geological survey of Mount Salbarii using your ship's planetary survey equipment and seismic charges. A geologist visited approximately one year ago and assessed the volcano as 99% safe, but we need proper data to be certain.\n\nThe survey should take 2-3 days with proper equipment.\n\n=== PAYMENT ===\nCr3000 in cash, payable upon delivery of the survey data.\n\n=== YOUR SHIP ===\nI understand you're looking for a scout ship stranded somewhere in our mountains. I can provide the exact location once we have an agreement - the ship is approximately 120 kilometers from the capital, near Mount Salbarii.\n\nPerhaps we can be of mutual assistance.\n\nYours faithfully,\n\nAlan Greener\nMinister for Offworld Affairs, Public Relations & Fisheries\nGovernment of Walston"
+}

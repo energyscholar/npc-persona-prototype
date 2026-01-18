@@ -52,6 +52,13 @@ const {
   jumpToSceneByNumber
 } = require('./adventure-player');
 const {
+  getInbox,
+  getUnreadCount,
+  markAsRead,
+  formatEmailList,
+  formatEmailFull
+} = require('./email-system');
+const {
   displayMainMenu,
   displayPickerMenu,
   displayFlagMenu,
@@ -285,6 +292,7 @@ function printHelp() {
   console.log('    /encounter <id>- Show encounter details');
   console.log('    /progress      - Show story progress');
   console.log('    /beat <id>     - Mark story beat complete');
+  console.log('    /email         - Check your inbox');
   console.log('');
   console.log('    /quit          - Exit and save');
   console.log('');
@@ -477,6 +485,49 @@ function markBeat(beatId) {
 
   recordBeat(storyState, beatId, getTravellerDate());
   console.log(`\n  Beat recorded: ${beatId}\n`);
+}
+
+/**
+ * Show email inbox
+ */
+async function showEmailInbox(rl) {
+  if (!adventureSession) {
+    console.log('\n  No adventure active. Start an adventure first.\n');
+    return;
+  }
+
+  const { system: sysColor, reset } = TUI_CONFIG.colors;
+  const emails = getInbox(adventureSession);
+  const unread = getUnreadCount(adventureSession);
+
+  console.log(`\n${sysColor}═══════════════════════════════════════════════════════${reset}`);
+  console.log(`${sysColor}  INBOX ${unread > 0 ? `(${unread} unread)` : ''}${reset}`);
+  console.log(`${sysColor}═══════════════════════════════════════════════════════${reset}\n`);
+
+  if (emails.length === 0) {
+    console.log('  No emails.\n');
+    return;
+  }
+
+  console.log(formatEmailList(emails));
+  console.log('\n  Enter number to read, or press Enter to go back\n');
+
+  const answer = await promptInput(rl, '  Select: ');
+
+  if (!answer || answer.trim() === '') {
+    return;
+  }
+
+  const num = parseInt(answer);
+  if (!isNaN(num) && num >= 1 && num <= emails.length) {
+    const email = emails[num - 1];
+    markAsRead(adventureSession, email.id);
+    console.log(formatEmailFull(email));
+    await promptInput(rl, '\n  Press Enter to continue...');
+    return showEmailInbox(rl);
+  }
+
+  console.log('  Invalid selection.\n');
 }
 
 /**
@@ -1872,6 +1923,13 @@ async function main() {
       if (trimmed.startsWith('/beat ')) {
         const target = trimmed.slice(6).trim();
         markBeat(target);
+        prompt();
+        return;
+      }
+
+      // /email command - check inbox
+      if (trimmed === '/email') {
+        await showEmailInbox(rl);
         prompt();
         return;
       }
