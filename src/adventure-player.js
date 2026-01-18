@@ -5,7 +5,7 @@
  * Manages session state, routes inputs, and handles mode switching
  */
 
-const { loadAdventure, createStoryState, loadScene, listScenes } = require('./story-engine');
+const { loadAdventure, createStoryState, loadScene, listScenes, loadActs } = require('./story-engine');
 const { loadPersona, getPersonaSummary } = require('./persona');
 const { loadPC, listPCs } = require('./pc-roster');
 const { drawBoxWithHeader, centerText, displaySceneFrame } = require('./tui-menu');
@@ -456,31 +456,96 @@ The AI Game Master will narrate results.
  * @returns {Object} Scenes by act
  */
 function getScenesByAct(adventure, storyState) {
-  const scenes = listScenes(adventure.id);
   const byAct = {};
   const completedScenes = storyState.completedScenes || [];
+  const expandedScenes = storyState.expandedScenes || [];
+  const completedStages = storyState.completedStages || {};
 
-  for (const sceneId of scenes) {
-    try {
-      const scene = loadScene(adventure.id, sceneId);
-      const act = scene.act || 'act-1';
+  // Load acts to get canonical scene ordering
+  const acts = loadActs(adventure.id);
 
-      if (!byAct[act]) {
-        byAct[act] = [];
+  for (const act of acts) {
+    const actId = act.id;
+    byAct[actId] = [];
+
+    // Use act.scenes array for ordering (canonical source of truth)
+    const sceneIds = act.scenes || [];
+
+    for (const sceneId of sceneIds) {
+      try {
+        const scene = loadScene(adventure.id, sceneId);
+
+        const sceneEntry = {
+          id: sceneId,
+          title: scene.title || sceneId,
+          completed: completedScenes.includes(sceneId),
+          current: storyState.currentScene === sceneId,
+          hasStages: scene.stages && scene.stages.length > 0,
+          expanded: expandedScenes.includes(sceneId),
+          stages: null
+        };
+
+        // Include stage data if scene has stages
+        if (scene.stages && scene.stages.length > 0) {
+          const { slugifyStage } = require('./decision-tracker');
+          sceneEntry.stages = scene.stages.map(s => ({
+            id: slugifyStage(s.name),
+            name: s.name,
+            altitude: s.altitude,
+            completed: (completedStages[sceneId] || []).includes(slugifyStage(s.name)),
+            current: storyState.currentStage === slugifyStage(s.name)
+          }));
+        }
+
+        byAct[actId].push(sceneEntry);
+      } catch (e) {
+        // Skip scenes that don't exist
       }
-
-      byAct[act].push({
-        id: sceneId,
-        title: scene.title || sceneId,
-        completed: completedScenes.includes(sceneId),
-        current: storyState.currentScene === sceneId
-      });
-    } catch (e) {
-      // Skip invalid scenes
     }
   }
 
   return byAct;
+}
+
+/**
+ * Format a single scene menu item
+ * @param {Object} scene - Scene entry from getScenesByAct
+ * @returns {string} Formatted line
+ */
+function formatSceneMenuItem(scene) {
+  let indicator;
+  if (scene.completed) {
+    indicator = '[✓]';
+  } else if (scene.hasStages) {
+    indicator = scene.expanded ? '[v]' : '[>]';
+  } else {
+    indicator = '[ ]';
+  }
+
+  const current = scene.current ? ' *' : '';
+  return `${indicator} ${scene.title}${current}`;
+}
+
+/**
+ * Format expanded scene with stages
+ * @param {Object} scene - Scene entry with stages
+ * @returns {string[]} Array of formatted lines
+ */
+function formatExpandedScene(scene) {
+  if (!scene.stages || !scene.expanded) return [];
+
+  const lines = [];
+  const letters = 'abcdefghijklmnopqrstuvwxyz';
+
+  scene.stages.forEach((stage, i) => {
+    const letter = letters[i] || String(i + 1);
+    const completed = stage.completed ? '✓' : ' ';
+    const current = stage.current ? '*' : ' ';
+    const altitude = stage.altitude ? ` (${stage.altitude})` : '';
+    lines.push(`      ${letter}. [${completed}] ${stage.name}${altitude}${current}`);
+  });
+
+  return lines;
 }
 
 /**
@@ -504,11 +569,12 @@ function formatScenePicker(adventure, storyState) {
     'act-3-mountain': 'ACT 3: THE MOUNTAIN',
     'act-4': 'ACT 4: THE CRISIS',
     'act-4-crisis': 'ACT 4: THE CRISIS',
-    'act-5': 'ACT 5: RESOLUTION',
+    'act-5': 'ACT 5: AFTERMATH',
+    'act-5-aftermath': 'ACT 5: AFTERMATH',
     'act-5-resolution': 'ACT 5: RESOLUTION'
   };
 
-  const actOrder = ['act-1', 'act-1-journey', 'act-2', 'act-2-walston', 'act-3', 'act-3-mountain', 'act-4', 'act-4-crisis', 'act-5', 'act-5-resolution'];
+  const actOrder = ['act-1', 'act-1-journey', 'act-2', 'act-2-walston', 'act-3', 'act-3-mountain', 'act-4', 'act-4-crisis', 'act-5', 'act-5-aftermath', 'act-5-resolution'];
 
   for (const actId of actOrder) {
     if (!scenesByAct[actId]) continue;
@@ -517,9 +583,15 @@ function formatScenePicker(adventure, storyState) {
     lines.push(`  ${actNames[actId] || actId.toUpperCase()}`);
 
     for (const scene of scenesByAct[actId]) {
-      const completed = scene.completed ? ' ✓' : '';
-      const current = scene.current ? ' *' : '';
-      lines.push(`    ${sceneNum}. ${scene.title}${completed}${current}`);
+      const menuItem = formatSceneMenuItem(scene);
+      lines.push(`    ${sceneNum}. ${menuItem}`);
+
+      // Show stages if expanded
+      if (scene.expanded && scene.stages) {
+        const stageLines = formatExpandedScene(scene);
+        lines.push(...stageLines);
+      }
+
       sceneNum++;
     }
   }
@@ -610,7 +682,7 @@ function displayTheatricalFrame(session) {
  */
 function getSceneList(adventure) {
   const scenesByAct = getScenesByAct(adventure, { completedScenes: [] });
-  const actOrder = ['act-1', 'act-1-journey', 'act-2', 'act-2-walston', 'act-3', 'act-3-mountain', 'act-4', 'act-4-crisis', 'act-5', 'act-5-resolution'];
+  const actOrder = ['act-1', 'act-1-journey', 'act-2', 'act-2-walston', 'act-3', 'act-3-mountain', 'act-4', 'act-4-crisis', 'act-5', 'act-5-aftermath', 'act-5-resolution'];
   const sceneList = [];
 
   for (const actId of actOrder) {
@@ -656,6 +728,8 @@ module.exports = {
   // Scene picker functions
   getScenesByAct,
   formatScenePicker,
+  formatSceneMenuItem,
+  formatExpandedScene,
   getDramatisPersonae,
   formatDramatisPersonae,
   displayTheatricalFrame,

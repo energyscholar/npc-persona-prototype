@@ -1,6 +1,7 @@
 {
   "id": "mountain-climb",
   "act": "act-3-mountain",
+  "order": 8,
   "title": "Climbing Mount Salbarii",
   "setting": "Mount Salbarii, Settlement Island, Walston",
 
@@ -31,37 +32,193 @@
       "name": "Lower Slopes",
       "altitude": "500-900m",
       "description": "Steep slope with frequent detours around rock faces. Option for shortcut climb.",
-      "time": "Several hours"
+      "time": "Several hours",
+      "objective": "Navigate from 500m to 900m, choosing between safe detours or risky shortcut",
+      "obstacle": {
+        "type": "terrain",
+        "description": "Steep rock faces block direct ascent, requiring detours or climbing",
+        "resolution": "Take slow detours around obstacles, or attempt shortcut climb"
+      },
+      "discoveries": [
+        {
+          "id": "shortcut-visible",
+          "type": "tactical",
+          "trigger": "automatic",
+          "content": "A climbable outcrop offers a shortcut but requires Athletics check"
+        },
+        {
+          "id": "rock-assessment",
+          "type": "tactical",
+          "trigger": "investigate",
+          "content": "Studying the rock reveals hand-holds; improves climb chances"
+        }
+      ],
+      "skill_checks": [
+        {
+          "ref": "mountain_climb.outcrop-climb",
+          "trigger": "PC chooses to climb shortcut",
+          "on_success": "Saves several hours, gains confidence",
+          "on_failure": "Falls, takes damage, must use detour anyway"
+        }
+      ]
     },
     {
       "name": "Middle Ascent",
       "altitude": "900-1100m",
       "description": "Altitude effects begin. Fast pace risks sickness.",
-      "time": "1-2 hours"
+      "time": "1-2 hours",
+      "objective": "Maintain pace while managing altitude effects",
+      "obstacle": {
+        "type": "environmental",
+        "description": "Altitude effects begin at this elevation, DM-2 on all checks",
+        "resolution": "Slow pace to avoid sickness, or push through with risk"
+      },
+      "discoveries": [
+        {
+          "id": "altitude-signs",
+          "type": "tactical",
+          "trigger": "automatic",
+          "content": "Watching the party's pace reveals who handles altitude well"
+        },
+        {
+          "id": "oxygen-management",
+          "type": "tactical",
+          "trigger": "investigate",
+          "content": "Conserving oxygen supplies now will help at higher elevations"
+        }
+      ],
+      "skill_checks": [
+        {
+          "ref": "mountain_climb.altitude-sickness-900m",
+          "trigger": "Party pushes pace above 900m",
+          "on_success": "No altitude effects yet",
+          "on_failure": "Mild altitude sickness, DM-2 on all checks"
+        }
+      ]
     },
     {
       "name": "Upper Slopes",
       "altitude": "1100-1200m",
       "description": "Steep, rocky terrain. Altitude effects worsen.",
-      "time": "1 hour"
+      "time": "1 hour",
+      "objective": "Push through worsening conditions to reach scramble zone",
+      "obstacle": {
+        "type": "environmental",
+        "description": "Altitude effects worsen, terrain becomes more treacherous",
+        "resolution": "Steady pace and careful footing, use oxygen if needed"
+      },
+      "discoveries": [
+        {
+          "id": "scramble-preview",
+          "type": "tactical",
+          "trigger": "automatic",
+          "content": "The scramble zone above looks challenging; loose rock visible"
+        }
+      ],
+      "skill_checks": [
+        {
+          "ref": "mountain_climb.altitude-sickness-1200m",
+          "trigger": "Party reaches 1200m",
+          "on_success": "Maintain current condition",
+          "on_failure": "Moderate altitude sickness, DM-4 on all checks"
+        }
+      ]
     },
     {
       "name": "Scramble Zone",
       "altitude": "1200-1350m",
       "description": "Hazardous scrambling over loose rock. Risk of falls.",
-      "time": "1D hours"
+      "time": "1D hours",
+      "objective": "Navigate hazardous loose rock without injury",
+      "obstacle": {
+        "type": "terrain",
+        "description": "Loose rock and unstable footing threaten falls and injury",
+        "resolution": "Careful movement, test handholds, help struggling party members"
+      },
+      "discoveries": [
+        {
+          "id": "safe-route",
+          "type": "tactical",
+          "trigger": "skill_check",
+          "content": "Recon skill reveals safest path through the scramble"
+        },
+        {
+          "id": "crater-glimpse",
+          "type": "lore",
+          "trigger": "automatic",
+          "content": "First glimpse of the crater rim above, goal is in sight"
+        }
+      ],
+      "skill_checks": [
+        {
+          "ref": "mountain_climb.scramble-check",
+          "trigger": "Scrambling through 1200-1350m zone",
+          "on_success": "Navigate safely through hazardous terrain",
+          "on_failure": "Slip and fall, take 1D damage, lose time"
+        }
+      ]
     },
     {
       "name": "Final Ascent",
       "altitude": "1350-1400m",
       "description": "Almost sheer rock face to crater lip.",
-      "time": "1D hours"
+      "time": "1D hours",
+      "objective": "Complete the final climb to the crater rim",
+      "obstacle": {
+        "type": "terrain",
+        "description": "Near-vertical rock face requires technical climbing",
+        "resolution": "Use climbing gear, rope work, help exhausted climbers"
+      },
+      "discoveries": [
+        {
+          "id": "ship-sighting",
+          "type": "lore",
+          "trigger": "automatic",
+          "content": "From the crater lip, Highndry is visible below in the crater"
+        }
+      ],
+      "skill_checks": [
+        {
+          "ref": "mountain_climb.altitude-sickness-final",
+          "trigger": "Final ascent to crater lip",
+          "on_success": "Reach crater rim intact",
+          "on_failure": "Severe altitude sickness, DM-6 on all checks"
+        }
+      ]
     },
     {
       "name": "Crater Descent",
       "altitude": "Crater lip to floor",
       "description": "Climb down into crater where Highndry waits.",
-      "time": "Variable"
+      "time": "Variable",
+      "objective": "Descend safely to reach the ship",
+      "obstacle": {
+        "type": "terrain",
+        "description": "Downclimb into crater, fatigue and altitude effects compound risk",
+        "resolution": "Careful descent, rope work, take frequent rests"
+      },
+      "discoveries": [
+        {
+          "id": "ship-condition",
+          "type": "lore",
+          "trigger": "automatic",
+          "content": "Highndry appears intact from above, no obvious external damage"
+        },
+        {
+          "id": "crater-floor",
+          "type": "tactical",
+          "trigger": "investigate",
+          "content": "The crater floor is relatively flat, good landing zone for future reference"
+        }
+      ],
+      "skill_checks": [
+        {
+          "ref": "mountain_climb.crater-descent",
+          "trigger": "Descending into crater",
+          "on_success": "Safe descent to ship",
+          "on_failure": "Rough landing, minor injuries, but reach the ship"
+        }
+      ]
     }
   ],
 

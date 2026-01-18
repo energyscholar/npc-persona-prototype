@@ -1,6 +1,7 @@
 {
   "id": "ship-repairs",
   "act": "act-3-mountain",
+  "order": 10,
   "title": "Repairing the Highndry",
   "setting": "Scout/Courier Highndry, crater of Mount Salbarii",
 

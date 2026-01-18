@@ -1,6 +1,7 @@
 {
   "id": "save-the-ship",
   "act": "act-4-crisis",
+  "order": 12,
   "title": "Save the Ship",
   "setting": "Highndry, airborne during volcanic eruption",
 

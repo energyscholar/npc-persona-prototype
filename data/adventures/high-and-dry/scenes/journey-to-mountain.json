@@ -1,0 +1,93 @@
+{
+  "id": "journey-to-mountain",
+  "act": "act-3-mountain",
+  "order": 7,
+  "title": "Journey to the Mountain",
+  "setting": "Walston wilderness, approaching Mount Salbarii",
+
+  "atmosphere": "Open frontier. The terrain transitions from cultivated farmland to rugged wilderness. Mount Salbarii looms larger with each passing hour, a constant reminder of the challenge ahead.",
+
+  "description": "The Travellers travel overland from the starport to Mount Salbarii. They can hire local transport, use an ATV, or attempt the journey on foot. Along the way they encounter the challenges of Walston's thin atmosphere and varied terrain.",
+
+  "duration": "1-2 days depending on transport method",
+
+  "objectives": [
+    "Reach the base of Mount Salbarii",
+    "Manage equipment and supplies",
+    "Navigate terrain hazards"
+  ],
+
+  "encounters": [],
+
+  "npcs_present": [],
+
+  "triggers": {
+    "entry": "Travellers depart from Walston settlement with transport arranged",
+    "exit": "Travellers reach the base of Mount Salbarii at 500m altitude"
+  },
+
+  "transport_options": {
+    "atv_rental": {
+      "cost": "Cr200/day",
+      "speed": "Fastest option",
+      "capacity": "4 passengers plus gear",
+      "notes": "Requires Drive skill for difficult terrain"
+    },
+    "hired_guide": {
+      "cost": "Cr150/day plus expenses",
+      "speed": "Moderate",
+      "benefit": "Local knowledge of terrain and hazards",
+      "notes": "Guide knows best routes, Tensher territories"
+    },
+    "on_foot": {
+      "cost": "Free",
+      "speed": "Slowest, 2+ days",
+      "risk": "Higher fatigue, more exposure to hazards",
+      "notes": "Filter masks essential for thin atmosphere"
+    }
+  },
+
+  "hazards": [
+    {
+      "type": "environmental",
+      "name": "Thin Atmosphere",
+      "description": "Walston's thin atmosphere requires filter masks outside settlements",
+      "consequence": "Without protection, fatigue accumulates rapidly"
+    },
+    {
+      "type": "terrain",
+      "name": "Rough Country",
+      "description": "Rocky outcrops, dry riverbeds, and unstable slopes",
+      "consequence": "Vehicle damage possible, slower progress on foot"
+    },
+    {
+      "type": "wildlife",
+      "name": "Tensher Wolves",
+      "description": "Territorial pack hunters native to Walston",
+      "consequence": "May need to detour or defend against attack"
+    }
+  ],
+
+  "skill_checks": [
+    {
+      "ref": "journey.navigation",
+      "trigger": "Finding optimal route through wilderness",
+      "skill": "Navigation",
+      "difficulty": "Average (8+)"
+    },
+    {
+      "ref": "journey.driving",
+      "trigger": "Navigating rough terrain in vehicle",
+      "skill": "Drive",
+      "difficulty": "Routine (6+) to Average (8+)"
+    },
+    {
+      "ref": "journey.survival",
+      "trigger": "Managing supplies and camp setup",
+      "skill": "Survival",
+      "difficulty": "Routine (6+)"
+    }
+  ],
+
+  "narrator_prompt": "This journey builds anticipation. The mountain grows larger, the terrain rougher, the atmosphere thinner. The Travellers are leaving civilization behind. Make them feel the distance, but don't bog down in tedium - highlight key moments and challenges."
+}

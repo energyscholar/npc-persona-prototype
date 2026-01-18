@@ -1,6 +1,7 @@
 {
   "id": "scout-office",
   "act": "act-1-journey",
+  "order": 1,
   "title": "The Scout Office",
   "setting": "Scout Service Way Station, Flammarion Highport",
 

@@ -44,7 +44,59 @@ wikiCache.getRawHtml('1232');     // Full HTML
 
 ---
 
-### 2. TravellerMap Cache (Planned)
+### 2. Spinward Marches Subsector Data (Active)
+
+**Location:** `data/subsectors/` (symlink)
+
+**External Source Repository:** `traveller-starship-operations-vtt`
+**External Path:** `/home/bruce/software/traveller-starship-operations-vtt/data/subsectors/`
+
+**Setup for New Environments:**
+```bash
+# Create symlink to subsector data from VTT repo
+ln -s /path/to/traveller-starship-operations-vtt/data/subsectors data/subsectors
+```
+
+**Contents:**
+- All 432 systems in Spinward Marches sector
+- Pre-parsed UWP, bases, trade codes, allegiance
+- Multiple subsector files (District 268, Glisten, Five Sisters, etc.)
+
+**Data Structure (per system):**
+```json
+{
+  "hex": "1031",
+  "name": "567-908",
+  "uwp": "E532000-0",
+  "starport": "E",
+  "techLevel": 0,
+  "bases": [],
+  "zone": "",
+  "remarks": "Ba Po (Shriekers) Lt",
+  "allegiance": ""
+}
+```
+
+**Access Module:** `src/subsector-data.js`
+
+**API:**
+```javascript
+const { initialize, getWorld, getWorldByHex, buildWorldContext } = require('./subsector-data');
+
+initialize();                        // Load all subsector data
+getWorld('567-908');                // Lookup by name (case-insensitive)
+getWorldByHex('1031');              // Lookup by hex code
+buildWorldContext('Walston');       // Build narrator context injection
+```
+
+**Integration:**
+- Automatically injected into AGM prompts via `buildWorldContextInjection(scene)`
+- Detects known worlds (567-908, Walston, Flammarion) in scene settings
+- Prevents narrator hallucination of incorrect UWP data
+
+---
+
+### 3. TravellerMap Cache (Planned)
 
 **Planned Location:** `/home/bruce/software/traveller-VTT-private/data/travellermap-cache/`
 

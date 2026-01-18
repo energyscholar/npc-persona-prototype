@@ -112,6 +112,30 @@ function listActs(adventureId) {
 }
 
 /**
+ * Load all acts for an adventure, sorted by number
+ * @param {string} adventureId - Adventure ID
+ * @returns {Object[]} Array of act objects sorted by number
+ */
+function loadActs(adventureId) {
+  const actIds = listActs(adventureId);
+  const acts = [];
+
+  for (const actId of actIds) {
+    try {
+      const act = loadAct(adventureId, actId);
+      acts.push(act);
+    } catch (e) {
+      // Skip invalid act files
+    }
+  }
+
+  // Sort by act number
+  acts.sort((a, b) => (a.number || 0) - (b.number || 0));
+
+  return acts;
+}
+
+/**
  * List scenes for an adventure
  * @param {string} adventureId - Adventure ID
  * @returns {string[]} Array of scene IDs
@@ -157,7 +181,11 @@ function createStoryState(adventureId) {
     adventure: adventureId,
     currentAct: adventure.acts[0] || null,
     currentScene: null,
+    currentStage: null,           // NEW - current stage within scene
+    completedStages: {},          // NEW - per-scene stage completion { 'scene-id': ['stage-1', 'stage-2'] }
+    expandedScenes: [],           // NEW - scenes expanded in menu
     completedBeats: [],
+    completedScenes: [],          // Ensure this exists
     flags: {},
     choices: {},
     startDate: new Date().toISOString(),
@@ -329,6 +357,7 @@ function getEncounterDetails(adventureId, encounterId) {
 module.exports = {
   loadAdventure,
   loadAct,
+  loadActs,
   loadScene,
   loadEncounter,
   listAdventures,

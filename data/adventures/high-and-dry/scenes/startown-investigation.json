@@ -1,6 +1,7 @@
 {
   "id": "startown-investigation",
   "act": "act-2-walston",
+  "order": 6,
   "title": "Startown",
   "setting": "Commercial district near Walston Starport",
 

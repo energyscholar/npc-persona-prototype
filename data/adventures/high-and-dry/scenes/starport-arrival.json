@@ -1,6 +1,7 @@
 {
   "id": "starport-arrival",
   "act": "act-2-walston",
+  "order": 4,
   "title": "Arrival at Walston",
   "setting": "Walston Starport, Class C",
 

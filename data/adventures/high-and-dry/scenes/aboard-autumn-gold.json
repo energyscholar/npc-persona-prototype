@@ -1,6 +1,7 @@
 {
   "id": "aboard-autumn-gold",
   "act": "act-1-journey",
+  "order": 2,
   "title": "Aboard the Autumn Gold",
   "setting": "Far trader Autumn Gold, in jump space",
 

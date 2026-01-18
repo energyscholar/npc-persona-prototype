@@ -8,6 +8,7 @@
 const { getCurrentScene, buildSceneControlContext } = require('./scene-manager');
 const { buildDecisionContext, getDecisionSummary } = require('./decision-tracker');
 const { buildExtendedContext } = require('./prompt-extensions');
+const { getWorld, buildWorldContext } = require('./subsector-data');
 
 /**
  * Directive patterns in AGM responses
@@ -21,6 +22,54 @@ const DIRECTIVE_PATTERNS = {
   FLASHBACK: /\[FLASHBACK:\s*([a-z0-9-]+)\]/i,
   DECISION: /\[DECISION:\s*([a-z0-9-_]+)\s*=\s*(.+?)\]/i
 };
+
+/**
+ * Known world names in the adventure to detect in scene settings
+ * These are the key worlds for the High and Dry adventure
+ */
+const KNOWN_WORLDS = ['567-908', 'Walston', 'Flammarion'];
+
+/**
+ * Extract world names from scene setting or title
+ * @param {Object} scene - Scene data
+ * @returns {string[]} Array of detected world names
+ */
+function extractWorldsFromScene(scene) {
+  if (!scene) return [];
+
+  const worlds = [];
+  const textToSearch = [
+    scene.setting || '',
+    scene.title || '',
+    scene.description || ''
+  ].join(' ');
+
+  for (const world of KNOWN_WORLDS) {
+    if (textToSearch.includes(world)) {
+      worlds.push(world);
+    }
+  }
+
+  return worlds;
+}
+
+/**
+ * Build world context injection for narrator
+ * @param {Object} scene - Current scene
+ * @returns {string} World context or empty string
+ */
+function buildWorldContextInjection(scene) {
+  const worlds = extractWorldsFromScene(scene);
+  if (worlds.length === 0) return '';
+
+  const contexts = [];
+  for (const worldName of worlds) {
+    const ctx = buildWorldContext(worldName);
+    if (ctx) contexts.push(ctx);
+  }
+
+  return contexts.join('\n\n');
+}
 
 /**
  * Build PC context for AGM prompt
@@ -77,6 +126,8 @@ ${scenePrompt}
 
 Objectives: ${objectives}
 NPCs Present: ${npcsPresent}
+
+${buildWorldContextInjection(scene)}
 
 === PLAYER CHARACTER ===
 ${buildPCContext(session.pc)}

@@ -199,6 +199,119 @@ function loadStoryState(adventureId, pcId) {
   return null;
 }
 
+// === STAGE TRACKING (Hierarchical Scenes) ===
+
+/**
+ * Convert stage name to slug ID
+ * @param {string} stageName - Stage name (e.g., "Lower Slopes")
+ * @returns {string} Slug ID (e.g., "lower-slopes")
+ */
+function slugifyStage(stageName) {
+  if (!stageName) return '';
+  return stageName
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+/**
+ * Select a stage within current scene
+ * @param {Object} storyState - Story state
+ * @param {string} stageId - Stage ID (slugified)
+ */
+function selectStage(storyState, stageId) {
+  storyState.currentStage = stageId;
+}
+
+/**
+ * Mark a stage as completed
+ * @param {Object} storyState - Story state
+ * @param {string} stageId - Stage ID (slugified)
+ */
+function completeStage(storyState, stageId) {
+  const sceneId = storyState.currentScene;
+  if (!sceneId) return;
+
+  if (!storyState.completedStages) {
+    storyState.completedStages = {};
+  }
+
+  if (!storyState.completedStages[sceneId]) {
+    storyState.completedStages[sceneId] = [];
+  }
+
+  if (!storyState.completedStages[sceneId].includes(stageId)) {
+    storyState.completedStages[sceneId].push(stageId);
+  }
+}
+
+/**
+ * Check if a stage is completed
+ * @param {Object} storyState - Story state
+ * @param {string} sceneId - Scene ID
+ * @param {string} stageId - Stage ID
+ * @returns {boolean}
+ */
+function isStageCompleted(storyState, sceneId, stageId) {
+  if (!storyState.completedStages) return false;
+  const stages = storyState.completedStages[sceneId];
+  return stages && stages.includes(stageId);
+}
+
+/**
+ * Get completed stages for a scene
+ * @param {Object} storyState - Story state
+ * @param {string} sceneId - Scene ID
+ * @returns {string[]} Completed stage IDs
+ */
+function getCompletedStages(storyState, sceneId) {
+  if (!storyState.completedStages) return [];
+  return storyState.completedStages[sceneId] || [];
+}
+
+/**
+ * Toggle scene expansion in menu
+ * @param {Object} storyState - Story state
+ * @param {string} sceneId - Scene ID
+ * @returns {boolean} New expansion state
+ */
+function toggleSceneExpansion(storyState, sceneId) {
+  if (!storyState.expandedScenes) {
+    storyState.expandedScenes = [];
+  }
+
+  const idx = storyState.expandedScenes.indexOf(sceneId);
+  if (idx >= 0) {
+    storyState.expandedScenes.splice(idx, 1);
+    return false;
+  } else {
+    storyState.expandedScenes.push(sceneId);
+    return true;
+  }
+}
+
+/**
+ * Check if scene is expanded in menu
+ * @param {Object} storyState - Story state
+ * @param {string} sceneId - Scene ID
+ * @returns {boolean}
+ */
+function isSceneExpanded(storyState, sceneId) {
+  return storyState.expandedScenes && storyState.expandedScenes.includes(sceneId);
+}
+
+/**
+ * Get stage from scene by slug
+ * @param {Object} scene - Scene data with stages array
+ * @param {string} stageSlug - Stage slug ID
+ * @returns {Object|null} Stage object or null
+ */
+function getStageBySlug(scene, stageSlug) {
+  if (!scene || !scene.stages) return null;
+
+  return scene.stages.find(s => slugifyStage(s.name) === stageSlug) || null;
+}
+
 module.exports = {
   recordDecision,
   setFlag,
@@ -210,5 +323,14 @@ module.exports = {
   buildDecisionContext,
   saveStoryState,
   loadStoryState,
-  ensureStateDir
+  ensureStateDir,
+  // Stage tracking (hierarchical scenes)
+  slugifyStage,
+  selectStage,
+  completeStage,
+  isStageCompleted,
+  getCompletedStages,
+  toggleSceneExpansion,
+  isSceneExpanded,
+  getStageBySlug
 };

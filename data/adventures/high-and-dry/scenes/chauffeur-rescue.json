@@ -1,6 +1,7 @@
 {
   "id": "chauffeur-rescue",
   "act": "act-4-crisis",
+  "order": 13,
   "title": "The Chauffeur's Distress",
   "setting": "Near Mount Salbarii, Walston",
 
