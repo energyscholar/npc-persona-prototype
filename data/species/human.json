@@ -1,0 +1,41 @@
+{
+  "id": "human",
+  "name": "Human",
+  "classification": "Major Race",
+  "origin": "Terra",
+
+  "physical": {
+    "appearance": "Standard Solomani stock on Walston",
+    "lifespan": "~80 years with medical care"
+  },
+
+  "psychology": {
+    "core_traits": [
+      "Institutional loyalty",
+      "Position-based hierarchy",
+      "Complex social signaling",
+      "Variable emotional expression by culture"
+    ]
+  },
+
+  "social": {
+    "hierarchy": "Based on position, title, and institutional standing",
+    "loyalty": "To organizations and institutions",
+    "status_signaling": "Complex and culture-dependent"
+  },
+
+  "roleplay_notes": [
+    "More emotionally reserved than Vargr",
+    "Respect titles and positions",
+    "Institutional loyalty is expected",
+    "May find Vargr emotional openness unsettling"
+  ],
+
+  "walston_specific": {
+    "population_percentage": 30,
+    "social_status": "Dominant minority",
+    "occupations": "Government, management, ownership",
+    "cultural_markers": ["Traditional kilts", "Conservative values", "Quiet prejudice"],
+    "attitude_toward_vargr": "Paternalistic acceptance, 'they know their place'"
+  }
+}

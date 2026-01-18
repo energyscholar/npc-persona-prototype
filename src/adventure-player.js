@@ -20,6 +20,8 @@ const { buildAgmPrompt, parseAgmResponse, buildNpcTransitionPrompt, buildResumeP
 const { resolveCheck, formatDetailedResult } = require('./skill-resolver');
 const { advanceToScene, markBeatComplete, executeFlashback, getCurrentScene } = require('./scene-manager');
 const { recordDecision, saveStoryState, loadStoryState, setFlag } = require('./decision-tracker');
+const { createAgmState, updateSceneContext } = require('./agm-state');
+const { buildAgmContext, getNpcPriorities } = require('./agm-npc-bridge');
 
 /**
  * Adventure play modes
@@ -65,6 +67,9 @@ async function startAdventure(adventureId, pcId, client) {
     npcMemory: null,
     conversationHistory: []
   };
+
+  // Initialize AGM orchestration state
+  session.agmState = createAgmState(session);
 
   return session;
 }
@@ -227,8 +232,23 @@ async function handleNpcDialogue(session, playerInput) {
   // Add player message to memory
   addMessage(session.npcMemory, 'user', playerInput);
 
-  // Build conversation context
-  const assembled = assembleFullPrompt(session.activeNpc, session.npcMemory || createMemory(), playerInput, session.pc, session.storyState);
+  // Build AGM orchestration context
+  const agmContext = session.agmState
+    ? buildAgmContext(session.agmState, session.activeNpc.id, session.storyState)
+    : null;
+  const priorities = session.agmState
+    ? getNpcPriorities(session.agmState, session.activeNpc, session.storyState)
+    : [];
+
+  // Build conversation context with AGM injection
+  const assembled = assembleFullPrompt(
+    session.activeNpc,
+    session.npcMemory || createMemory(),
+    playerInput,
+    session.pc,
+    session.storyState,
+    { agmContext, goalPriorities: priorities }
+  );
 
   // Build messages from memory
   const messages = session.npcMemory.recentMessages.slice(-10).map(m => ({

@@ -1,6 +1,13 @@
 {
   "id": "vargr-chauffeur",
   "name": "Kira",
+  "species": "vargr",
+  "species_traits": {
+    "communication_style": "direct, emotionally expressive",
+    "loyalty_type": "personal",
+    "body_language": ["ears flatten when distressed", "tail low when submissive"],
+    "cultural_notes": "Third-generation Walston Vargr, assimilated but aware of glass ceiling"
+  },
   "archetype": "contact",
   "world": "Walston",
   "title": "Government Vehicle Operator",
@@ -23,6 +30,22 @@
     "walston_vargr": "We've been on Walston for three generations. My grandparents came as workers. We're citizens, technically, but... there's always a ceiling. My parents never complained. They just worked hard and hoped things would get better for me.",
     "the_plea": "I know there's a village - Barvinn - with more people. I understand the math. But these are my parents. They raised me. Please... I'm begging you. If you have any way to help..."
   },
+  "voice": {
+    "style": "professional-to-desperate",
+    "tone": "shifts from calm to pleading",
+    "speech_patterns": [
+      "Formal when professional",
+      "Emotionally transparent when stressed",
+      "Vargr directness"
+    ],
+    "verbal_tics": [],
+    "body_language_cues": ["ears flatten", "tail drops", "voice cracks"],
+    "sample_lines": [
+      "I know these roads well. I can get you there.",
+      "Please. My parents are in the old quarter. They can't evacuate alone."
+    ]
+  },
+
   "relationships": {
     "initial": "professional-distant",
     "crisis": "desperate-pleading",

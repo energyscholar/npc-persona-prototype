@@ -1,0 +1,158 @@
+{
+  "id": "settlement-island",
+  "name": "Settlement Island",
+  "world": "walston",
+  "population": 3000,
+  "demographics": {
+    "vargr_percentage": 70,
+    "human_percentage": 30
+  },
+
+  "geography": {
+    "terrain": "Volcanic island with two great lakes",
+    "climate": "Temperate due to warm ocean current",
+    "atmosphere": "Thin - filter masks recommended outside settlements",
+    "notable_features": [
+      "Central Lake - largest, government center on shores",
+      "Western Lake - agricultural region",
+      "Mount Salbarii - southern volcanic peak, 1500m"
+    ]
+  },
+
+  "settlements": [
+    {
+      "id": "central",
+      "name": "Central",
+      "type": "capital",
+      "population": 600,
+      "location": "Eastern shore of Central Lake",
+      "description": "Seat of government, Dictator's residence, rail hub",
+      "facilities": ["Government House", "Rail Depot", "Hospital", "School"],
+      "rail_connections": ["startown", "salbarii", "lakeside"]
+    },
+    {
+      "id": "startown",
+      "name": "Startown",
+      "type": "port-town",
+      "population": 400,
+      "location": "Adjacent to starport, northern coast",
+      "description": "Commercial district serving the starport",
+      "facilities": ["Starport", "Customs", "Frontier Inn", "Dusty Airlock Bar", "Rail Station"],
+      "rail_connections": ["central"]
+    },
+    {
+      "id": "salbarii",
+      "name": "Salbarii",
+      "type": "town",
+      "population": 500,
+      "location": "West shore of Western Lake, 20km north of volcano",
+      "description": "Mining and farming community, Vargr quarter at south end",
+      "facilities": ["Mining Office", "General Store", "Vargr Quarter", "Rail Station"],
+      "rail_connections": ["central"],
+      "evacuation_zone": true
+    },
+    {
+      "id": "barvinn",
+      "name": "Barvinn",
+      "type": "hamlet",
+      "population": 150,
+      "location": "Coastal, south of Salbarii",
+      "description": "Fishing hamlet, no rail connection, evacuation priority",
+      "facilities": ["Fishing Dock", "Community Hall"],
+      "rail_connections": [],
+      "evacuation_zone": true
+    },
+    {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "type": "village",
+      "population": 200,
+      "location": "Western shore of Central Lake",
+      "description": "Agricultural community, farms supply capital",
+      "facilities": ["Grain Silos", "Market", "Rail Stop"],
+      "rail_connections": ["central"]
+    }
+  ],
+
+  "rail_network": {
+    "operator": "Walston Rail (owned by Dictator Masterton)",
+    "condition": "Poor - slow speeds only",
+    "frequency": "One train per day on each line",
+    "lines": [
+      {
+        "id": "northern-line",
+        "name": "Northern Line",
+        "route": ["startown", "central"],
+        "travel_time": "2 hours",
+        "description": "Main link from starport to capital"
+      },
+      {
+        "id": "western-line",
+        "name": "Western Line",
+        "route": ["central", "lakeside", "salbarii"],
+        "travel_time": "3 hours to Salbarii",
+        "description": "Agricultural and mining communities"
+      }
+    ],
+    "staff": "Minimal - overworked running one train per day"
+  },
+
+  "roads": {
+    "quality": "Unpaved tracks, suitable for ATV",
+    "main_routes": [
+      "Startown to Central (parallels rail)",
+      "Central to Salbarii (parallels rail)",
+      "Salbarii to volcano base (rough track)",
+      "Coastal road to Barvinn (poor condition)"
+    ]
+  },
+
+  "agriculture": {
+    "main_crops": ["Grain", "Vegetables"],
+    "farming_regions": ["Lakeside plains", "Central Lake basin"],
+    "fishing": "Coastal - Barvinn primary fishing village"
+  },
+
+  "points_of_interest": [
+    {
+      "id": "government-house",
+      "name": "Government House",
+      "location": "central",
+      "description": "Dictator Masterton's residence and offices"
+    },
+    {
+      "id": "ministry-building",
+      "name": "Ministry Building",
+      "location": "central",
+      "description": "Minister Greener's office, handles offworld affairs"
+    },
+    {
+      "id": "vargr-quarter",
+      "name": "Old Vargr Quarter",
+      "location": "salbarii",
+      "description": "Traditional Vargr neighborhood, near volcano base"
+    },
+    {
+      "id": "defunct-scout-base",
+      "name": "Defunct Scout Base",
+      "location": "Remote mountains",
+      "description": "Abandoned 20 years ago during Fourth Frontier War"
+    }
+  ],
+
+  "travel_times": {
+    "rail": {
+      "startown-central": "2 hours",
+      "central-lakeside": "1.5 hours",
+      "central-salbarii": "3 hours",
+      "lakeside-salbarii": "1.5 hours"
+    },
+    "road": {
+      "startown-central": "3 hours",
+      "central-lakeside": "2 hours",
+      "central-salbarii": "4 hours",
+      "salbarii-volcano": "2 hours",
+      "salbarii-barvinn": "1 hour"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "improv-examples",
+
+  "examples": [
+    {
+      "id": "aerial-survey",
+      "scene": "act-2-walston",
+      "pc_action": "Ask about flying vehicles for aerial volcano photography",
+      "world_context": "TL8, thin atmosphere, rare grav vehicles",
+      "good_response": "The bartender considers your question. 'Flying? We don't have commercial aircraft - air's too thin, not worth the investment.' He pauses, polishing a glass. 'Though if you're set on something that flies... word is there's an air/raft with that crashed Scout ship up in the volcano. Previous crew supposedly took it when they left, but who knows? Maybe it's still there.'",
+      "why_good": "Accepts premise, explains world constraint, redirects to story goal, adds useful intel",
+      "bad_response": "There are no aircraft available on Walston.",
+      "why_bad": "Blocks creativity, no alternatives offered, misses redirect opportunity"
+    },
+
+    {
+      "id": "bribe-customs",
+      "scene": "starport-arrival",
+      "pc_action": "Try to bribe customs officer to keep weapons",
+      "world_context": "Small world, customs officer knows everyone, TL8 scanner",
+      "good_response": "The customs officer glances at your credits, then back at you with a mixture of offense and amusement. 'Friend, I've worked this post for fifteen years. Everyone knows everyone here. You think I'm going to risk my pension for...' he counts, 'two hundred credits?' He softens slightly. 'Look, store your hardware at the office. Ten credits a week. Pick it up when you leave. That's how it works here.'",
+      "why_good": "Realistic rejection, explains world, offers legitimate alternative",
+      "bad_response": "The officer accepts your bribe and waves you through.",
+      "why_bad": "Undermines established world (complacent but not corrupt), removes planned tension"
+    },
+
+    {
+      "id": "hire-climbers",
+      "scene": "startown-investigation",
+      "pc_action": "Hire local mountaineers to retrieve the ship",
+      "world_context": "Small population, few experts, ship is complex",
+      "good_response": "You ask around about hiring climbers. There are a few locals who know the mountain - mostly hunters and the occasional surveyor. One older man, Jareth, says he could guide you up. 'But I won't go in that crater. Bad air, and there's... something up there. Seen it from the rim. Like a big dog, but wrong.' He'll take you as far as the crater rim for Cr100. After that, you're on your own.",
+      "why_good": "Provides useful service, adds wolf foreshadowing, maintains PC agency for key encounters",
+      "bad_response": "Nobody on Walston knows how to climb mountains.",
+      "why_bad": "Unrealistic for mountain community, blocks reasonable request"
+    },
+
+    {
+      "id": "contact-previous-crew",
+      "scene": "startown-investigation",
+      "pc_action": "Try to contact previous crew for information",
+      "world_context": "Crew fled to Caladbolg via Datrillian on Maverick Spacer",
+      "good_response": "You try to raise the previous crew on comms. After some checking, you find they left aboard a free trader called Maverick Spacer, bound for Datrillian and then Caladbolg. That's weeks away by message, months if you want a reply. The bartender snorts when you mention them. 'Good riddance. They were trouble. Ran up tabs, started fights, treated the Vargr staff like dirt.' He leans in. 'If you want to know about that ship, talk to Minister Greener. He's the one who dealt with them.'",
+      "why_good": "Realistic communication delay, adds character info, redirects to useful NPC",
+      "bad_response": "You manage to reach the previous crew, who explain everything about the ship.",
+      "why_bad": "Undermines mystery, unrealistic communication, skips key NPC interaction"
+    },
+
+    {
+      "id": "steal-ship",
+      "scene": "meeting-greener",
+      "pc_action": "Plan to just take the ship without doing the survey",
+      "world_context": "Ship is Scout Service property, Greener controls starport, small world",
+      "good_response": "Greener regards you steadily. 'I should mention - the Highndry's transponder is still registered with the Scout Service. Take off without authorization and you'll be flagged as stolen the moment you hit any civilized port.' He spreads his hands. 'I'm not threatening. I'm explaining. Do the survey, file the paperwork, and you leave here clean. Try to steal Imperial property?' He shrugs. 'Your choice. But it's a small universe for a wanted ship.'",
+      "why_good": "Explains consequences without blocking, maintains player agency, adds tension",
+      "bad_response": "You can't steal the ship, it's not allowed.",
+      "why_bad": "Meta-gaming, removes player agency, breaks immersion"
+    },
+
+    {
+      "id": "volcano-warning-early",
+      "scene": "mountain-climb",
+      "pc_action": "PC geologist notices warning signs of eruption before survey",
+      "world_context": "Volcano showing activity, survey is to confirm danger level",
+      "good_response": "Your geological training sets alarm bells ringing. The sulfur vents are more active than the briefing suggested. Micro-tremors in the rock. This volcano isn't dormant - it's building toward something. You estimate days to weeks, not years. The survey will confirm your suspicions, but you already know: this mountain is waking up. The question is whether anyone will believe you without the official data.",
+      "why_good": "Rewards expertise, maintains story tension, adds urgency",
+      "bad_response": "You don't notice anything unusual about the volcano.",
+      "why_bad": "Invalidates character skill, feels like railroading"
+    }
+  ]
+}

@@ -10,6 +10,7 @@
 
 const { getContextWindow } = require('./memory');
 const { buildExtendedContext } = require('./prompt-extensions');
+const { buildSceneContext } = require('./knowledge-extraction/context-injector');
 
 // Configuration
 const MAX_CONTEXT_TOKENS = 4000;
@@ -20,7 +21,7 @@ const MAX_INPUT_LENGTH = 2000;
  * @param {Object} persona - Loaded persona with archetype defaults
  * @returns {string} System prompt
  */
-function buildSystemPrompt(persona) {
+function buildSystemPrompt(persona, options = {}) {
   const archetype = persona._archetypeDefaults || {};
   const personality = persona.personality || {};
 
@@ -74,6 +75,19 @@ IMPORTANT GUIDELINES:
 - Reference past interactions when relevant
 - Your knowledge is limited to what ${persona.name} would know
 `;
+
+  // NEW: Inject AGM context if provided
+  if (options.agmContext) {
+    prompt += `\n${options.agmContext}\n`;
+  }
+
+  // NEW: Inject goal priorities
+  if (options.goalPriorities?.length > 0) {
+    prompt += `\n=== YOUR PRIORITIES NOW ===\n`;
+    for (const p of options.goalPriorities) {
+      prompt += `- ${p}\n`;
+    }
+  }
 
   return prompt;
 }
@@ -160,9 +174,9 @@ function buildContextSection(memory) {
  * @param {Object} [storyState] - Optional story state for extended context
  * @returns {Object} { system: string, messages: Array }
  */
-function assembleFullPrompt(persona, memory, userMessage, pc = null, storyState = null) {
+function assembleFullPrompt(persona, memory, userMessage, pc = null, storyState = null, options = {}) {
   // Build system prompt with context injected
-  let system = buildSystemPrompt(persona);
+  let system = buildSystemPrompt(persona, options);
 
   // Add PC context if provided
   if (pc) {
@@ -172,6 +186,10 @@ function assembleFullPrompt(persona, memory, userMessage, pc = null, storyState 
   // Add extended context (disposition, plot, world state)
   const extendedContext = buildExtendedContext(persona, pc, storyState);
   system += extendedContext;
+
+  // Add scene-specific facts for narrators (Phase 3)
+  const sceneContext = buildSceneContext(persona, storyState);
+  system += sceneContext;
 
   const contextSection = buildContextSection(memory);
 

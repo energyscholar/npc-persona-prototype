@@ -1,0 +1,188 @@
+{
+  "id": "walston-resources",
+  "world": "walston",
+  "tech_level": 8,
+
+  "transportation": {
+    "air_vehicles": {
+      "availability": "rare",
+      "description": "Thin atmosphere limits aviation. Grav vehicles possible but expensive.",
+      "sources": [
+        {
+          "id": "government-grav",
+          "type": "grav vehicle",
+          "owner": "Walston Government",
+          "availability": "Emergency only, requires Masterton's approval",
+          "cost": "Not for hire",
+          "location": "central"
+        },
+        {
+          "id": "highndry-airraft",
+          "type": "air/raft",
+          "owner": "Stranded with Highndry",
+          "availability": "Must retrieve from crash site",
+          "cost": "Free if you can get it",
+          "note": "Previous crew took it when they fled - it's at the starport or gone",
+          "location": "volcano"
+        }
+      ],
+      "narrator_redirect": "If PCs ask for aircraft, mention the Highndry's air/raft as a possibility"
+    },
+
+    "ground_vehicles": {
+      "availability": "common",
+      "sources": [
+        {
+          "id": "atv-rental",
+          "type": "ATV",
+          "owner": "Various",
+          "availability": "Startown, Salbarii",
+          "cost": "Cr50/day",
+          "capacity": "4 passengers + cargo",
+          "location": "startown"
+        },
+        {
+          "id": "government-transport",
+          "type": "Ground car",
+          "owner": "Government motor pool",
+          "availability": "Official business",
+          "cost": "Requires arrangement with Minister",
+          "location": "central"
+        }
+      ]
+    },
+
+    "rail": {
+      "availability": "limited",
+      "operator": "Walston Rail (Masterton)",
+      "frequency": "Once daily",
+      "routes": ["Startown-Central", "Central-Salbarii"],
+      "cost": "Cr10 per segment",
+      "note": "Cannot reach volcano, ends at Salbarii",
+      "sources": [
+        {
+          "id": "rail-service",
+          "type": "rail",
+          "location": "startown"
+        }
+      ]
+    },
+
+    "water": {
+      "availability": "limited",
+      "description": "Small boats on lakes, fishing vessels at Barvinn",
+      "sources": [
+        {
+          "id": "lake-boat",
+          "type": "Small boat",
+          "availability": "Lakeside, Central",
+          "cost": "Cr20/day",
+          "location": "lakeside"
+        }
+      ]
+    }
+  },
+
+  "equipment": {
+    "weapons": {
+      "availability": "restricted",
+      "note": "Customs confiscates most weapons. Daggers and shorter legal.",
+      "sources": [
+        {
+          "id": "walston-general",
+          "location": "startown",
+          "inventory": ["Knives", "Basic tools"],
+          "restricted": ["Firearms", "Energy weapons"]
+        }
+      ]
+    },
+
+    "survival_gear": {
+      "availability": "common",
+      "sources": [
+        {
+          "id": "walston-general-survival",
+          "location": "startown",
+          "inventory": ["Filter masks", "Climbing gear", "Rations", "Tents"]
+        }
+      ]
+    },
+
+    "communications": {
+      "availability": "common",
+      "note": "TL8 - radio comms, no real-time satellite",
+      "sources": [
+        {
+          "id": "portable-radio",
+          "cost": "Cr100",
+          "range": "50km",
+          "location": "startown"
+        }
+      ]
+    },
+
+    "medical": {
+      "availability": "limited",
+      "sources": [
+        {
+          "id": "startown-medic",
+          "location": "startown",
+          "services": ["First aid", "Basic treatment"],
+          "cost": "Cr50 consultation"
+        },
+        {
+          "id": "capital-hospital",
+          "location": "central",
+          "services": ["Full medical", "Surgery"],
+          "cost": "Cr200+ depending on treatment"
+        }
+      ]
+    }
+  },
+
+  "services": {
+    "guides": {
+      "availability": "available",
+      "sources": [
+        {
+          "id": "local-guide",
+          "skill": "Survival 1, Navigation 1",
+          "cost": "Cr30/day",
+          "note": "Knows mountain trails, won't enter crater",
+          "location": "salbarii"
+        }
+      ]
+    },
+
+    "transport_hire": {
+      "availability": "available",
+      "sources": [
+        {
+          "id": "atv-driver",
+          "service": "ATV with driver",
+          "cost": "Cr100/day",
+          "range": "Anywhere on Settlement Island",
+          "location": "startown"
+        }
+      ]
+    },
+
+    "information": {
+      "availability": "varies",
+      "sources": [
+        {
+          "id": "bartender-intel",
+          "location": "startown",
+          "cost": "Buy drinks, make friends",
+          "quality": "Rumors, local gossip"
+        },
+        {
+          "id": "customs-records",
+          "location": "startown",
+          "cost": "Persuade or official request",
+          "quality": "Ship movements, crew records"
+        }
+      ]
+    }
+  }
+}

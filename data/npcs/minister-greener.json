@@ -1,6 +1,7 @@
 {
   "id": "minister-greener",
   "name": "Alan Greener",
+  "species": "human",
   "archetype": "patron",
   "world": "Walston",
   "greets_first": true,
@@ -31,6 +32,22 @@
     "negotiation_stance": "I'm not willing to part with more cash - I already paid once and got nothing. But the job is important. I might be talked up a bit if you're reasonable about it, but if you're greedy, I'll wait for another ship to come through. Scout/couriers aren't uncommon. I'm offering a fair trade: help getting to your ship and some cash in return for a job that's important to Walston.",
     "walston_society": "We're a small world with a thin atmosphere and a hereditary dictatorship. Dictator Masterton runs things fairly enough. Yes, there's a... traditional view of Vargr here. They're not oppressed, but there's a glass ceiling. It works for us - everyone's content. I wouldn't recommend trying to reform our society during your brief stay."
   },
+  "voice": {
+    "style": "formal",
+    "tone": "businesslike, fair",
+    "speech_patterns": [
+      "Complete sentences",
+      "Direct but not rude",
+      "Explains reasoning"
+    ],
+    "verbal_tics": ["I'll be direct with you", "Fair enough"],
+    "sample_lines": [
+      "I'll make you a fair offer.",
+      "The previous crew didn't deliver. You will.",
+      "Three thousand credits. That's the deal."
+    ]
+  },
+
   "relationships": {
     "initial": "professional-cautious",
     "masterton": "loyal subordinate - serves the dictator's interests",

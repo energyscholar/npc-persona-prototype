@@ -1,6 +1,7 @@
 {
   "id": "startown-bartender",
   "name": "Mira Tannen",
+  "species": "human",
   "archetype": "contact",
   "world": "Walston",
   "greets_first": false,
@@ -29,6 +30,22 @@
     "The kilts aren't a joke, hon. Don't laugh - it's traditional.",
     "You want to know about that ship? Ask at the Port Authority. Or better yet, talk to Minister Greener."
   ],
+  "voice": {
+    "style": "casual",
+    "tone": "friendly, gossipy",
+    "speech_patterns": [
+      "Conversational",
+      "Asks questions back",
+      "Drops hints"
+    ],
+    "verbal_tics": ["You know how it is", "Between you and me"],
+    "sample_lines": [
+      "First time on Walston? Let me give you some tips.",
+      "That crew? Good riddance, I say.",
+      "You didn't hear this from me, but..."
+    ]
+  },
+
   "relationships": {
     "initial": "friendly-curious",
     "regulars": "protective, loyal",

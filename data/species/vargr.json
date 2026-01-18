@@ -1,0 +1,53 @@
+{
+  "id": "vargr",
+  "name": "Vargr",
+  "classification": "Major Race (uplifted)",
+  "origin": "Terra (via Ancients genetic manipulation)",
+
+  "physical": {
+    "appearance": "Wolf-like bipeds, ~1.6m average height",
+    "senses": "Keen smell and hearing, average vision",
+    "lifespan": "~60 years standard"
+  },
+
+  "psychology": {
+    "core_traits": [
+      "Pack-oriented social structure",
+      "Charisma-based hierarchy (not positional)",
+      "Personal loyalty over institutional",
+      "Emotionally expressive",
+      "Quick to reassess allegiances"
+    ],
+    "body_language": {
+      "ears_forward": "Alert, interested",
+      "ears_back": "Submissive or fearful",
+      "ears_flat": "Aggressive or distressed",
+      "tail_high": "Confident, dominant",
+      "tail_low": "Submissive, uncertain",
+      "showing_teeth": "Can be friendly (grin) or threatening (snarl) - context dependent"
+    }
+  },
+
+  "social": {
+    "hierarchy": "Based on charisma and demonstrated competence, not titles",
+    "loyalty": "To individuals, not institutions - will follow a proven leader anywhere",
+    "pack_dynamics": "Form tight bonds with trusted companions",
+    "outsider_relations": "May seem fickle to humans due to different loyalty model"
+  },
+
+  "roleplay_notes": [
+    "More emotionally transparent than humans",
+    "May challenge authority that hasn't proven itself",
+    "Deeply loyal once trust is established",
+    "Body language is important - describe ear/tail positions",
+    "Names often have sharp consonants (Kira, Gvurrdon, Kforuzeng)"
+  ],
+
+  "walston_specific": {
+    "population_percentage": 70,
+    "social_status": "Accepted but face glass ceiling",
+    "occupations": "Service roles, labor, some skilled trades",
+    "government_representation": "One Minister for Vargr Affairs (token)",
+    "community_centers": ["Old Vargr Quarter in Salbarii", "Worker housing near starport"]
+  }
+}

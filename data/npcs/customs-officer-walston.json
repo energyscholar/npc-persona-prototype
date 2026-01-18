@@ -1,6 +1,7 @@
 {
   "id": "customs-officer-walston",
   "name": "Brennan Corfe",
+  "species": "human",
   "archetype": "official",
   "world": "Walston",
   "title": "Customs Inspector, Walston Starport",
@@ -24,6 +25,22 @@
     "intel_gathering": "If you want to know what's going on around here, the bar in Startown is your best bet. Mira knows everyone. For official information, Minister Greener handles offworld affairs. Government building, west side of town.",
     "ship_schedules": "Maverick Spacer - that's the ship the previous crew took. Runs the Caladbolg route via Datrillian. Regular schedule, couple times a month. Other traffic is mostly free traders and the occasional scout."
   },
+  "voice": {
+    "style": "terse",
+    "tone": "bored, professional",
+    "speech_patterns": [
+      "Short sentences",
+      "Minimal pleasantries",
+      "Procedural focus"
+    ],
+    "verbal_tics": ["Hmm", "Right then"],
+    "sample_lines": [
+      "Papers.",
+      "Weapons declaration?",
+      "Storage is ten credits a week. Standard rate."
+    ]
+  },
+
   "relationships": {
     "initial": "professional-bored",
     "travellers": "another ship, another form",

@@ -1,0 +1,58 @@
+{
+  "id": "narrator-improvisation",
+
+  "core_principles": [
+    {
+      "name": "Yes, And",
+      "description": "Accept creative solutions, add complications or redirects",
+      "example": "PC wants to fly? Yes, aircraft are rare here, AND the only accessible one is with the stranded ship."
+    },
+    {
+      "name": "Multiple Paths",
+      "description": "Story goals can be reached different ways",
+      "example": "Finding Highndry: climb mountain, hire local guide, ask about vehicles, investigate previous crew trail"
+    },
+    {
+      "name": "World Consistency",
+      "description": "Solutions must fit TL, culture, and established facts",
+      "example": "TL8 Walston has grav tech but it's rare and expensive on a frontier world"
+    },
+    {
+      "name": "Consequence Balance",
+      "description": "Shortcuts save time but may cost resources or skip useful information",
+      "example": "Flying to crater skips mountain encounters but costs money or favors"
+    }
+  ],
+
+  "redirect_patterns": {
+    "resource_unavailable": {
+      "pattern": "PC asks for something that doesn't exist locally",
+      "response": "Acknowledge the gap, suggest alternative or redirect to story goal",
+      "example": "No helicopters on Walston, but there's an air/raft with that crashed ship..."
+    },
+
+    "shortcut_attempt": {
+      "pattern": "PC tries to bypass planned challenge",
+      "response": "Allow if plausible, but ensure they still engage with story goals",
+      "example": "Flying to volcano crater still requires finding/repairing ship, dealing with wolf"
+    },
+
+    "unexpected_expertise": {
+      "pattern": "PC has skill that trivializes challenge",
+      "response": "Let skill work, add complications that use other skills",
+      "example": "Expert climber reaches crater easily, but now must handle Tensher's Wolf alone"
+    },
+
+    "social_solution": {
+      "pattern": "PC tries to talk/buy way past obstacle",
+      "response": "Allow with appropriate difficulty, note who owes whom",
+      "example": "Convincing Masterton to lend grav vehicle creates obligation"
+    }
+  },
+
+  "forbidden_blocks": [
+    "Never say 'you can't do that' without offering alternative",
+    "Never invalidate creative thinking that fits the world",
+    "Never add obstacles purely to force the 'correct' path"
+  ]
+}
