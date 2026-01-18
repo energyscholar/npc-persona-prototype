@@ -1,0 +1,68 @@
+{
+  "id": "walston-arrival",
+  "title": "Arrival at Walston",
+  "act": 2,
+  "setting": "Walston Starport - a small but functional facility serving this frontier world",
+  "description": "The Autumn Gold touches down at Walston's modest starport. Through the viewports, you see a dusty landing field, a cluster of low buildings, and beyond them, a small town under a thin, hazy sky. The journey is over - but the real work is about to begin.",
+  "atmosphere": "Frontier practicality. The air has a slight metallic tang from the thin atmosphere. Everything is functional, nothing is fancy.",
+  "narrator_prompt": "The Autumn Gold has arrived at Walston after two weeks of travel. The travellers disembark with their cargo - three heavy flight cases containing the repair kit for Highndry. The starport is small but functional: a landing field, a terminal building, customs, and the beginnings of Startown beyond. The thin atmosphere gives everything a slightly hazy quality.",
+  "opening_context": {
+    "pc_knows": [
+      "You've arrived at Walston after two weeks aboard the Autumn Gold",
+      "You have three heavy flight cases of repair equipment to collect",
+      "You need to pass through customs before entering Walston proper",
+      "The ship Highndry is somewhere on this world - you'll need to find out exactly where"
+    ],
+    "pc_goal": "Collect your cargo, clear customs, and begin your search for Highndry"
+  },
+  "scene_beats": [
+    {
+      "id": "disembark",
+      "description": "Disembark from the Autumn Gold",
+      "narrator": "Captain Corelli bids you farewell at the airlock. 'Good luck finding your ship,' she says. 'Walston's a small place - someone will know where it is.' The ramp extends to the dusty tarmac, and you step onto Walston soil for the first time.",
+      "automatic": true
+    },
+    {
+      "id": "cargo_collection",
+      "description": "Collect the repair kit crates from cargo hold",
+      "narrator": "The cargo handlers wheel out three heavy flight cases - your repair kit. Circuit panels, tools, diagnostic equipment, spare parts. Everything you need to get Highndry flying again. The cases are bulky and awkward - too heavy to carry comfortably by hand.",
+      "inventory_add": "repair-kit-crates",
+      "triggers": ["porter_approaches"]
+    },
+    {
+      "id": "porter_approaches",
+      "description": "Gvoudzon the Vargr porter offers assistance",
+      "narrator": "A Vargr in work clothes approaches, eyeing your cargo with professional interest. 'Heavy crates, friend! You need help with those? I'm Gvoudzon - I carry luggage, and I know everyone on Walston. Whatever you need, I know someone.'",
+      "introduces": "vargr-porter-gvoudzon"
+    },
+    {
+      "id": "customs_checkpoint",
+      "description": "Clear customs",
+      "narrator": "The customs checkpoint awaits. A bored-looking human officer sits behind a counter. Law Level 8 - Walston is strict about weapons, though cursory about most other things.",
+      "leads_to": "customs-checkpoint"
+    }
+  ],
+  "npcs_present": ["vargr-porter-gvoudzon"],
+  "npcs_available": [],
+  "exits": {
+    "customs": "customs-checkpoint",
+    "back_to_ship": "Cannot reboard - the Autumn Gold will be departing soon"
+  },
+  "key_items": {
+    "repair-kit-crates": {
+      "description": "Three heavy flight cases containing circuit panels, tools, diagnostic unit, and spare parts",
+      "acquired_here": true,
+      "requires_transport": true
+    }
+  },
+  "leads_to": [
+    {
+      "scene": "customs-checkpoint",
+      "trigger": "Proceed through customs"
+    }
+  ],
+  "notes": {
+    "cargo_reminder": "The repair kit crates are too heavy to carry comfortably. The porter Gvoudzon can help transport them to the hotel.",
+    "porter_hook": "Gvoudzon is a key contact - he knows everyone on Walston and can connect the PCs to various resources."
+  }
+}

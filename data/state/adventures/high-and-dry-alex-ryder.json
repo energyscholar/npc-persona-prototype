@@ -17,15 +17,15 @@
   "gameDate": "001-1105",
   "pcId": "alex-ryder",
   "sceneHistory": [
-    "aboard-autumn-gold",
-    "aboard-autumn-gold",
+    "scout-office",
+    "finding-the-ship",
+    "meeting-greener",
     "layover-567-908",
     "layover-567-908",
-    "aboard-autumn-gold",
-    "starport-arrival",
-    "aboard-autumn-gold",
-    "starport-arrival",
-    "chauffeur-rescue",
+    "startown-investigation",
+    "journey-to-mountain",
+    "save-the-ship",
+    "scout-office",
     "scout-office"
   ],
   "completedScenes": [
@@ -35,7 +35,11 @@
     "finding-the-ship",
     "mountain-climb",
     "starport-arrival",
-    "chauffeur-rescue"
+    "chauffeur-rescue",
+    "meeting-greener",
+    "startown-investigation",
+    "journey-to-mountain",
+    "save-the-ship"
   ],
-  "lastPlayed": "2026-01-17T12:11:54.868Z"
+  "lastPlayed": "2026-01-18T04:39:58.560Z"
 }

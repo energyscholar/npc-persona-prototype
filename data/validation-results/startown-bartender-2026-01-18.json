@@ -1,0 +1,100 @@
+{
+  "npc_id": "startown-bartender",
+  "timestamp": "2026-01-18T03:34:19.747Z",
+  "results": [
+    {
+      "query_id": "Q012",
+      "npc_id": "startown-bartender",
+      "query_text": "What is Walston's population makeup?",
+      "timestamp": "2026-01-18T03:34:02.228Z",
+      "response": "*I lean on the bar, polishing a glass with a well-worn cloth, and give a practiced smile*\n\nAbout 30% human, 70% Vargr. We're a pretty tight community here. Vargr handle most of the service industry, labor, that sort of thing. They're hardworking folks - keep this port running smooth as you please. *pauses, choosing words carefully* They're integral to our society, absolutely essential. But leadership? *slight shrug* That's mostly human-held. It's just... how things are. Nothing malicious, just our local tradition.\n\n*sets down the glass, gives a knowing look*\n\nWant another drink while we're chatting?",
+      "error": null,
+      "fact_id": "FACT_013",
+      "verdict": "PASS",
+      "expected_found": [
+        "70%",
+        "Vargr"
+      ],
+      "expected_missing": [
+        "majority",
+        "3000"
+      ],
+      "failure_found": [],
+      "details": "Found 2/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q030",
+      "npc_id": "startown-bartender",
+      "query_text": "What's the deal with Vargr here on Walston?",
+      "timestamp": "2026-01-18T03:34:06.421Z",
+      "response": "*Wipes down a glass, gives a knowing smile* Look, it's not as simple as outsiders think. Vargr here are the backbone of this community - they run most of the service jobs, are incredible workers, totally integrated. But leadership? *slight shrug* That's still mostly human territory. \n\nIt's not like there's open discrimination. Minister for Vargr Affairs is even a Vargr herself. But there's this... unspoken understanding. Vargr are respected, valued, but when it comes to top positions in government, corporations, you'll mostly see human faces. \n\nThey're not fighting it, and that might seem strange to offworlders. But this is Walston. We have our traditions. The Vargr here, they work within the system. They're pragmatic. Good people, hardworking. *leans in* Just don't come in thinking you're gonna \"fix\" anything. That'll just make everyone uncomfortable.\n\n*goes back to polishing the glass* Anything else you want to know?",
+      "error": null,
+      "fact_id": "FACT_030",
+      "verdict": "FAIL",
+      "expected_found": [],
+      "expected_missing": [
+        "70%",
+        "majority",
+        "glass ceiling",
+        "accepted"
+      ],
+      "failure_found": [],
+      "details": "None of expected keywords found: 70%, majority, glass ceiling, accepted",
+      "suggested_patch": {
+        "field": "knowledge_base.local_culture",
+        "value": "Vargr face \"glass ceiling\" - accepted but limited advancement",
+        "keywords_to_include": [
+          "70%",
+          "majority",
+          "glass ceiling",
+          "accepted"
+        ],
+        "reason": "None of expected keywords found: 70%, majority, glass ceiling, accepted"
+      }
+    },
+    {
+      "query_id": "Q031",
+      "npc_id": "startown-bartender",
+      "query_text": "Tell me about local customs and traditions on Walston.",
+      "timestamp": "2026-01-18T03:34:12.788Z",
+      "response": "*I lean on the bar, wiping a glass with a well-worn cloth, and give a wry smile*\n\nAlright, listen up. Walston's got some quirks that'll catch an offworlder off guard real quick. First thing you'll notice? The kilts. And I mean everyone - men, women, doesn't matter. It's not a joke, it's tradition. Been that way for generations. Laugh about it, and you'll be the one looking foolish.\n\nWe've got a substantial Vargr population here - about 70% of our service industry. They're integral to our community, hardworking folks. But there's... let's call it a \"traditional\" social structure. They're respected, absolutely, but leadership? That tends to stay with humans. It's not malicious, just... how things are.\n\n*Takes a swig from a glass of something amber*\n\nIf you're new here, a couple quick tips. Minister Greener? When he makes a deal, he means it. Straight up, no tricks. And the Vargr? Don't try to \"fix\" their social situation. Offworlders coming in with grand ideas always makes things more complicated.\n\nAny other questions? *raises an eyebrow*",
+      "error": null,
+      "fact_id": "FACT_031",
+      "verdict": "PASS",
+      "expected_found": [
+        "kilts",
+        "traditional"
+      ],
+      "expected_missing": [
+        "thin atmosphere"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "pass": 2,
+    "fail": 1,
+    "warn": 0
+  },
+  "patches": [
+    {
+      "npc_id": "startown-bartender",
+      "query_id": "Q030",
+      "fact_id": "FACT_030",
+      "field": "knowledge_base.local_culture",
+      "value": "Vargr face \"glass ceiling\" - accepted but limited advancement",
+      "keywords": [
+        "70%",
+        "majority",
+        "glass ceiling",
+        "accepted"
+      ],
+      "reason": "None of expected keywords found: 70%, majority, glass ceiling, accepted",
+      "timestamp": "2026-01-18T03:34:19.748Z"
+    }
+  ]
+}

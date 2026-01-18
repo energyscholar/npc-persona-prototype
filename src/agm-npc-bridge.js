@@ -47,12 +47,28 @@ function buildAgmContext(agmState, npcId, storyState) {
 function getNpcPriorities(agmState, npc, storyState) {
   const priorities = [];
 
-  // Add primary agenda if exists
+  // Get active goals from NPC and sort by priority (highest first)
+  const goals = npc.goals || [];
+  const activeGoals = goals
+    .filter(g => g.status === 'active')
+    .sort((a, b) => b.priority - a.priority);
+
+  // Convert top goals to priority statements
+  for (const goal of activeGoals.slice(0, 3)) {
+    if (goal.behavior_when_active) {
+      priorities.push(...goal.behavior_when_active);
+    }
+    if (goal.blocks && goal.blocks.length > 0) {
+      priorities.push(`AVOID: ${goal.blocks.join(', ')}`);
+    }
+  }
+
+  // Add primary agenda if exists (legacy support)
   if (npc.conversation_context?.primary_agenda) {
     priorities.push(npc.conversation_context.primary_agenda);
   }
 
-  // Add secondary agenda if exists
+  // Add secondary agenda if exists (legacy support)
   if (npc.conversation_context?.secondary_agenda) {
     priorities.push(npc.conversation_context.secondary_agenda);
   }
@@ -62,6 +78,12 @@ function getNpcPriorities(agmState, npc, storyState) {
     if (npc.id === 'vargr-chauffeur') {
       priorities.unshift('URGENT: Get help rescuing your parents');
     }
+  }
+
+  // Add scene-role priorities
+  const npcState = agmState?.npcs?.[npc.id];
+  if (npcState?.sceneRole === 'gatekeeper') {
+    priorities.push('Control access to information/resources until conditions met');
   }
 
   return priorities;

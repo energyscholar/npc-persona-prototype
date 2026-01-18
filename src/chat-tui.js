@@ -102,7 +102,8 @@ const {
   runRedTeamValidation: executeRedTeamValidation,
   initializeRedTeam,
   getCoverageSummary,
-  validator: { formatValidationReport },
+  queryEngine: { TIER, executeCriticalQueriesForNpc, getCriticalQueriesForNpc },
+  validator: { formatValidationReport, quickValidate, getValidationSummary, clearValidationCache },
   learner: { runLearningForReport, applyPendingPatch, listBackups, restoreFromBackup },
   learningLog: { loadPendingLearning, getRecentLearning, getLearningStats, formatLearningLog, formatStats }
 } = require('./red-team');
@@ -512,6 +513,14 @@ function switchNpc(npcIdOrNum, world, pcId) {
 
     if (currentMemory.totalInteractions > 0) {
       console.log(`  [Resuming - ${currentMemory.totalInteractions} previous exchanges]\n`);
+    }
+
+    // Show cached validation status (non-blocking)
+    const valSummary = getValidationSummary(targetId);
+    if (valSummary) {
+      const statusIcon = valSummary.status === 'OK' ? '✓' : '⚠';
+      const statusColor = valSummary.status === 'OK' ? '\x1b[32m' : '\x1b[33m';
+      console.log(`  ${statusColor}[${statusIcon} Validation: ${valSummary.passed}/${valSummary.passed + valSummary.failed} passed]\x1b[0m\n`);
     }
 
     return true;
@@ -1214,7 +1223,8 @@ async function runRedTeamLearningMenu(rl, client, recentNpcs = []) {
   console.log('    4. View learning stats');
   console.log('    5. Manage backups');
   console.log('');
-  console.log('    R. Re-run validation');
+  console.log('    Q. Quick validate (Tier 1 only)');
+  console.log('    R. Re-run full validation');
   console.log('    B. Back to main menu');
   console.log('');
 
@@ -1246,8 +1256,13 @@ async function runRedTeamLearningMenu(rl, client, recentNpcs = []) {
       await manageBackups(rl, recentNpcs);
       return runRedTeamLearningMenu(rl, client, recentNpcs);
 
+    case 'q':
+      // Quick validate - Tier 1 only
+      await runQuickValidation(rl, client, recentNpcs);
+      return runRedTeamLearningMenu(rl, client, recentNpcs);
+
     case 'r':
-      // Re-run validation
+      // Re-run full validation
       return runRedTeamMode(rl, client);
 
     case 'b':
@@ -1306,6 +1321,86 @@ async function runAutoLearn(rl, client, npcIds) {
   }
 
   console.log(`${sysColor}Auto-learn complete.${reset}\n`);
+}
+
+/**
+ * Quick validation - runs only Tier 1 (CRITICAL) queries
+ * Uses caching to skip recently-passed NPCs
+ */
+async function runQuickValidation(rl, client, npcIds = []) {
+  const { system: sysColor, npc: npcColor, error: errColor, reset } = TUI_CONFIG.colors;
+
+  // Get NPCs to validate
+  let targetNpcs = npcIds;
+  if (targetNpcs.length === 0) {
+    const coverage = getCoverageSummary();
+    targetNpcs = Object.keys(coverage.npcCoverage).filter(id =>
+      coverage.npcCoverage[id].queries > 0
+    );
+  }
+
+  if (targetNpcs.length === 0) {
+    console.log('\n  No NPCs with queries found.\n');
+    return;
+  }
+
+  console.log(`\n${sysColor}Quick Validation (Tier 1 - CRITICAL only)${reset}`);
+  console.log(`  Checking ${targetNpcs.length} NPC(s)...\n`);
+
+  let passCount = 0;
+  let failCount = 0;
+  let skipCount = 0;
+
+  for (const npcId of targetNpcs) {
+    const npc = loadPersona(npcId);
+    if (!npc) {
+      console.log(`  ${errColor}✗${reset} ${npcId} - NPC not found`);
+      continue;
+    }
+
+    // Get critical queries for this NPC
+    const criticalQueries = getCriticalQueriesForNpc(npcId);
+    if (criticalQueries.length === 0) {
+      console.log(`  ${sysColor}○${reset} ${npc.name} - No Tier 1 queries`);
+      continue;
+    }
+
+    // Execute critical queries
+    const queryResults = await executeCriticalQueriesForNpc(npcId, npc, client);
+
+    // Run quick validation with caching
+    const result = quickValidate(npcId, queryResults, {
+      forceRevalidate: false,
+      autoLearn: false
+    });
+
+    if (result.skipped) {
+      console.log(`  ${sysColor}○${reset} ${npc.name} - Cached (${result.reason})`);
+      skipCount++;
+    } else if (result.report.summary.fail === 0) {
+      console.log(`  \x1b[32m✓${reset} ${npc.name} - ${result.report.summary.pass}/${criticalQueries.length} passed`);
+      passCount++;
+    } else {
+      console.log(`  ${errColor}✗${reset} ${npc.name} - ${result.report.summary.fail} failed:`);
+      for (const failed of result.failedQueries) {
+        console.log(`      - ${failed.query_text}`);
+      }
+      failCount++;
+    }
+  }
+
+  console.log(`\n${sysColor}Summary: ${passCount} passed, ${failCount} failed, ${skipCount} cached${reset}\n`);
+
+  if (failCount > 0) {
+    const answer = await promptInput(rl, '  Run auto-learn on failures? (y/n): ');
+    if (answer.toLowerCase() === 'y') {
+      const failedNpcs = targetNpcs.filter(id => {
+        const summary = getValidationSummary(id);
+        return summary && summary.failed > 0;
+      });
+      await runAutoLearn(rl, client, failedNpcs);
+    }
+  }
 }
 
 /**
@@ -1504,7 +1599,7 @@ async function main() {
           // Get opening narration
           const { system: sysColor, reset } = TUI_CONFIG.colors;
           const opening = await getOpeningNarration(adventureSession);
-          console.log(`\n${sysColor}AGM:${reset} ${opening}\n`);
+          console.log(`\n${sysColor}Narrator:${reset} ${opening}\n`);
 
           // Continue to adventure chat loop (handled below)
         } catch (e) {

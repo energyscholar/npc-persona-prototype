@@ -1,0 +1,397 @@
+[
+  {
+    "id": "EXT_MC_STA_000",
+    "source": "mountain-climb.json:stages",
+    "priority": 2,
+    "content": "Crater climb has 6 stages from 500 to 1400m",
+    "keywords": [
+      "1400m",
+      "crater",
+      "climb"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_STA_001",
+    "source": "mountain-climb.json:stages[0]",
+    "priority": 2,
+    "content": "Lower Slopes: 500-900m - Steep slope with frequent detours around rock faces. Option for shortcut climb.",
+    "keywords": [
+      "900m",
+      "climb"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_STA_002",
+    "source": "mountain-climb.json:stages[1]",
+    "priority": 2,
+    "content": "Middle Ascent: 900-1100m - Altitude effects begin. Fast pace risks sickness.",
+    "keywords": [
+      "1100m",
+      "altitude",
+      "sickness"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_STA_003",
+    "source": "mountain-climb.json:stages[2]",
+    "priority": 2,
+    "content": "Upper Slopes: 1100-1200m - Steep, rocky terrain. Altitude effects worsen.",
+    "keywords": [
+      "1200m",
+      "altitude"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_STA_004",
+    "source": "mountain-climb.json:stages[3]",
+    "priority": 2,
+    "content": "Scramble Zone: 1200-1350m - Hazardous scrambling over loose rock. Risk of falls.",
+    "keywords": [
+      "1350m",
+      "scramble",
+      "hazard"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_STA_005",
+    "source": "mountain-climb.json:stages[4]",
+    "priority": 2,
+    "content": "Final Ascent: 1350-1400m - Almost sheer rock face to crater lip.",
+    "keywords": [
+      "1400m",
+      "crater"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_STA_006",
+    "source": "mountain-climb.json:stages[5]",
+    "priority": 2,
+    "content": "Crater Descent: Crater lip to floor - Climb down into crater where Highndry waits.",
+    "keywords": [
+      "crater",
+      "climb",
+      "descent"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_ALT_000",
+    "source": "mountain-climb.json:altitude_sickness.mild",
+    "priority": 1,
+    "content": "Altitude sickness (mild): DM-2 on all checks",
+    "keywords": [
+      "dm-2",
+      "altitude",
+      "sickness"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_ALT_001",
+    "source": "mountain-climb.json:altitude_sickness.moderate",
+    "priority": 1,
+    "content": "Altitude sickness (moderate): DM-4 on all checks, nausea, headache, mental numbness",
+    "keywords": [
+      "dm-4",
+      "altitude",
+      "sickness"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_ALT_002",
+    "source": "mountain-climb.json:altitude_sickness.severe",
+    "priority": 1,
+    "content": "Altitude sickness (severe): DM-6 on all checks, incapacitation risk",
+    "keywords": [
+      "dm-6",
+      "altitude",
+      "sickness"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_ALT_000",
+    "source": "mountain-climb.json:altitude_sickness.recovery_natural",
+    "priority": 1,
+    "content": "Altitude sickness recovery natural: 1 point per day resting",
+    "keywords": [
+      "altitude"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_ALT_001",
+    "source": "mountain-climb.json:altitude_sickness.recovery_controlled",
+    "priority": 1,
+    "content": "Altitude sickness recovery controlled: 2 points per day in ship/suit",
+    "keywords": [
+      "altitude"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_ALT_002",
+    "source": "mountain-climb.json:altitude_sickness.oxygen_boost",
+    "priority": 1,
+    "content": "Altitude sickness oxygen boost: Dispels symptoms for 1-2 hours",
+    "keywords": [
+      "2 hours",
+      "altitude"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_SKI_000",
+    "source": "mountain-climb.json:skill_checks[0]",
+    "priority": 1,
+    "content": "Skill check \"mountain_climb.outcrop-climb\": triggers when PC chooses to climb shortcut",
+    "keywords": [
+      "climb"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_SKI_001",
+    "source": "mountain-climb.json:skill_checks[1]",
+    "priority": 1,
+    "content": "Skill check \"mountain_climb.altitude-sickness-900m\": triggers when Party pushes pace above 900m",
+    "keywords": [
+      "900m",
+      "altitude",
+      "sickness",
+      "climb"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_SKI_002",
+    "source": "mountain-climb.json:skill_checks[2]",
+    "priority": 1,
+    "content": "Skill check \"mountain_climb.altitude-sickness-1200m\": triggers when Party reaches 1200m",
+    "keywords": [
+      "1200m",
+      "altitude",
+      "sickness",
+      "climb"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_SKI_003",
+    "source": "mountain-climb.json:skill_checks[3]",
+    "priority": 1,
+    "content": "Skill check \"mountain_climb.scramble-check\": triggers when Scrambling through 1200-1350m zone",
+    "keywords": [
+      "1350m",
+      "scramble",
+      "climb"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_SKI_004",
+    "source": "mountain-climb.json:skill_checks[4]",
+    "priority": 1,
+    "content": "Skill check \"mountain_climb.altitude-sickness-final\": triggers when Final ascent to crater lip",
+    "keywords": [
+      "altitude",
+      "crater",
+      "sickness",
+      "climb"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_MC_SKI_005",
+    "source": "mountain-climb.json:skill_checks[5]",
+    "priority": 1,
+    "content": "Skill check \"mountain_climb.crater-descent\": triggers when Descending into crater",
+    "keywords": [
+      "crater",
+      "climb",
+      "descent"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_SHI_000",
+    "source": "finding-the-ship.json:ship_condition.exterior",
+    "priority": 2,
+    "content": "Ship exterior: Weathered but structurally sound. Some scoring from volcanic debris.",
+    "keywords": [
+      "volcanic"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_SHI_001",
+    "source": "finding-the-ship.json:ship_condition.power_plant",
+    "priority": 1,
+    "content": "Ship power_plant: Offline. Fuel cells depleted. Primary issue.",
+    "keywords": [
+      "offline",
+      "depleted",
+      "fuel",
+      "power"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_SHI_002",
+    "source": "finding-the-ship.json:ship_condition.maneuver",
+    "priority": 2,
+    "content": "Ship maneuver: Functional once power restored.",
+    "keywords": [
+      "functional",
+      "power",
+      "maneuver"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_SHI_003",
+    "source": "finding-the-ship.json:ship_condition.jump_drive",
+    "priority": 2,
+    "content": "Ship jump_drive: Needs calibration but operational.",
+    "keywords": [
+      "operational"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_SHI_004",
+    "source": "finding-the-ship.json:ship_condition.life_support",
+    "priority": 1,
+    "content": "Ship life_support: Offline but intact.",
+    "keywords": [
+      "offline",
+      "intact"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_REP_000",
+    "source": "finding-the-ship.json:repair_requirements.immediate",
+    "priority": 1,
+    "content": "Repair (immediate): Fuel - can be refined from water/atmosphere",
+    "keywords": [
+      "fuel"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_REP_001",
+    "source": "finding-the-ship.json:repair_requirements.short_term",
+    "priority": 1,
+    "content": "Repair (short_term): Power plant restart procedure",
+    "keywords": [
+      "power"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_REP_002",
+    "source": "finding-the-ship.json:repair_requirements.calibration",
+    "priority": 1,
+    "content": "Repair (calibration): Jump drive needs recalibration before use",
+    "keywords": [
+      "jump drive"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_HAZ_000",
+    "source": "finding-the-ship.json:environmental_hazards[0]",
+    "priority": 2,
+    "content": "Environmental hazard: Thin atmosphere - filter masks required",
+    "keywords": [
+      "thin atmosphere"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_HAZ_001",
+    "source": "finding-the-ship.json:environmental_hazards[1]",
+    "priority": 2,
+    "content": "Environmental hazard: Volcanic gases - periodic venting",
+    "keywords": [
+      "volcanic"
+    ],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  },
+  {
+    "id": "EXT_FTS_HAZ_002",
+    "source": "finding-the-ship.json:environmental_hazards[2]",
+    "priority": 2,
+    "content": "Environmental hazard: Unstable footing in some areas",
+    "keywords": [],
+    "relevant_npcs": [
+      "narrator-high-and-dry"
+    ]
+  }
+]

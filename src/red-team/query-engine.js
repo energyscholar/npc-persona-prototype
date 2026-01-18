@@ -7,13 +7,25 @@
 const fs = require('fs');
 const path = require('path');
 const { loadFacts, getFactsForNpc } = require('./fact-database');
+const { quickChat } = require('../ai-client');
 
 const QUERIES_FILE = path.join(__dirname, '../../data/red-team/queries.json');
+const GENERATED_QUERIES_DIR = path.join(__dirname, '../../data/red-team/generated-queries');
+
+/**
+ * Query tiers for prioritized validation
+ */
+const TIER = {
+  CRITICAL: 1,      // Plot-breaking if wrong, NPC role-specific
+  IMPORTANT: 2,     // General world facts any local would know
+  NICE_TO_HAVE: 3   // Deep lore, flavor, edge cases
+};
 
 /**
  * Query definition structure
  * @typedef {Object} Query
  * @property {string} id - Query identifier (Q001, Q002, etc.)
+ * @property {number} tier - Priority tier (1=CRITICAL, 2=IMPORTANT, 3=NICE-TO-HAVE)
  * @property {string} fact_id - Related fact ID
  * @property {string[]} target_npcs - NPCs to query
  * @property {string} query - The question to ask
@@ -22,10 +34,61 @@ const QUERIES_FILE = path.join(__dirname, '../../data/red-team/queries.json');
  */
 
 /**
- * Load queries from database
+ * Load generated queries from output directory
+ * @returns {Array<Query>} Generated queries from all adventures
+ */
+function loadGeneratedQueries() {
+  if (!fs.existsSync(GENERATED_QUERIES_DIR)) {
+    return [];
+  }
+
+  const queries = [];
+  try {
+    const files = fs.readdirSync(GENERATED_QUERIES_DIR).filter(f => f.endsWith('.json'));
+    for (const file of files) {
+      const filePath = path.join(GENERATED_QUERIES_DIR, file);
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      if (data.queries) {
+        queries.push(...data.queries);
+      }
+    }
+  } catch (e) {
+    console.error('Error loading generated queries:', e.message);
+  }
+
+  return queries;
+}
+
+/**
+ * Load queries from database (merges manual + generated)
  * @returns {Array<Query>} Query definitions
  */
 function loadQueries() {
+  let manualQueries = [];
+
+  if (!fs.existsSync(QUERIES_FILE)) {
+    manualQueries = initializeQueries();
+  } else {
+    try {
+      const data = JSON.parse(fs.readFileSync(QUERIES_FILE, 'utf8'));
+      manualQueries = data.queries || [];
+    } catch (e) {
+      console.error('Error loading queries:', e.message);
+      manualQueries = [];
+    }
+  }
+
+  // Merge with generated queries
+  const generatedQueries = loadGeneratedQueries();
+
+  return [...manualQueries, ...generatedQueries];
+}
+
+/**
+ * Load only manual queries (excludes generated)
+ * @returns {Array<Query>} Manual query definitions
+ */
+function loadManualQueries() {
   if (!fs.existsSync(QUERIES_FILE)) {
     return initializeQueries();
   }
@@ -202,15 +265,66 @@ function getQuery(queryId) {
 }
 
 /**
+ * Get queries filtered by tier
+ * @param {number} maxTier - Maximum tier to include (1=CRITICAL only, 2=CRITICAL+IMPORTANT, etc.)
+ * @returns {Array<Query>} Filtered queries
+ */
+function getQueriesByTier(maxTier = TIER.NICE_TO_HAVE) {
+  const queries = loadQueries();
+  return queries.filter(q => (q.tier || TIER.NICE_TO_HAVE) <= maxTier);
+}
+
+/**
+ * Get critical (Tier 1) queries for a specific NPC
+ * @param {string} npcId - NPC identifier
+ * @returns {Array<Query>} Critical queries targeting this NPC
+ */
+function getCriticalQueriesForNpc(npcId) {
+  const queries = loadQueries();
+  return queries.filter(q =>
+    q.target_npcs.includes(npcId) &&
+    (q.tier || TIER.NICE_TO_HAVE) === TIER.CRITICAL
+  );
+}
+
+/**
+ * Get queries for NPC filtered by tier
+ * @param {string} npcId - NPC identifier
+ * @param {number} maxTier - Maximum tier to include
+ * @returns {Array<Query>} Filtered queries for this NPC
+ */
+function getQueriesForNpcByTier(npcId, maxTier = TIER.NICE_TO_HAVE) {
+  const queries = loadQueries();
+  return queries.filter(q =>
+    q.target_npcs.includes(npcId) &&
+    (q.tier || TIER.NICE_TO_HAVE) <= maxTier
+  );
+}
+
+/**
  * Build a probe prompt for an NPC
  * @param {Query} query - Query to ask
  * @param {Object} npc - NPC data
  * @returns {string} Formatted prompt
  */
 function buildProbePrompt(query, npc) {
-  return `You are ${npc.name}. A traveller asks you: "${query.query}"
+  let prompt = `You are ${npc.name}`;
+  if (npc.title) prompt += `, ${npc.title}`;
+  prompt += '.\n\n';
 
-Answer in character, using your knowledge. Be specific and factual.`;
+  // Include knowledge base if present
+  if (npc.knowledge_base && Object.keys(npc.knowledge_base).length > 0) {
+    prompt += `YOUR KNOWLEDGE:\n`;
+    for (const [topic, content] of Object.entries(npc.knowledge_base)) {
+      prompt += `- ${topic}: ${content}\n`;
+    }
+    prompt += '\n';
+  }
+
+  prompt += `A traveller asks you: "${query.query}"\n\n`;
+  prompt += `Answer in character, using your knowledge. Be specific and factual.`;
+
+  return prompt;
 }
 
 /**
@@ -239,8 +353,8 @@ async function executeQuery(query, npc, client = null) {
 
   try {
     const prompt = buildProbePrompt(query, npc);
-    const response = await client.chat(prompt);
-    result.response = response.content;
+    const response = await quickChat(client, prompt);
+    result.response = response;
   } catch (e) {
     result.error = e.message;
   }
@@ -267,14 +381,63 @@ async function executeAllQueriesForNpc(npcId, npc, client = null) {
   return results;
 }
 
+/**
+ * Execute critical (Tier 1) queries only for an NPC
+ * Use this for quick validation on NPC load
+ * @param {string} npcId - NPC identifier
+ * @param {Object} npc - NPC data
+ * @param {Object} client - AI client (optional)
+ * @returns {Array} Query results
+ */
+async function executeCriticalQueriesForNpc(npcId, npc, client = null) {
+  const queries = getCriticalQueriesForNpc(npcId);
+  const results = [];
+
+  for (const query of queries) {
+    const result = await executeQuery(query, npc, client);
+    results.push(result);
+  }
+
+  return results;
+}
+
+/**
+ * Execute queries for NPC filtered by tier
+ * @param {string} npcId - NPC identifier
+ * @param {Object} npc - NPC data
+ * @param {number} maxTier - Maximum tier to include
+ * @param {Object} client - AI client (optional)
+ * @returns {Array} Query results
+ */
+async function executeQueriesForNpcByTier(npcId, npc, maxTier, client = null) {
+  const queries = getQueriesForNpcByTier(npcId, maxTier);
+  const results = [];
+
+  for (const query of queries) {
+    const result = await executeQuery(query, npc, client);
+    results.push(result);
+  }
+
+  return results;
+}
+
 module.exports = {
+  TIER,
   loadQueries,
+  loadManualQueries,
+  loadGeneratedQueries,
   saveQueries,
   initializeQueries,
   getQueriesForNpc,
   getQuery,
+  getQueriesByTier,
+  getCriticalQueriesForNpc,
+  getQueriesForNpcByTier,
   buildProbePrompt,
   executeQuery,
   executeAllQueriesForNpc,
-  QUERIES_FILE
+  executeCriticalQueriesForNpc,
+  executeQueriesForNpcByTier,
+  QUERIES_FILE,
+  GENERATED_QUERIES_DIR
 };

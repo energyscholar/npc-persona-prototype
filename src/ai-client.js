@@ -16,7 +16,7 @@ const Anthropic = require('@anthropic-ai/sdk');
 
 // Configuration
 const DEFAULT_MODEL = 'claude-sonnet-4-20250514';
-const HAIKU_MODEL = 'claude-haiku-3-5-20241022';
+const HAIKU_MODEL = 'claude-3-5-haiku-20241022';
 const MAX_OUTPUT_TOKENS = 1000;
 
 // Environment detection

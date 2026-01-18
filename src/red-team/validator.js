@@ -7,9 +7,16 @@
 const fs = require('fs');
 const path = require('path');
 const { getFact } = require('./fact-database');
-const { getQuery, getQueriesForNpc } = require('./query-engine');
+const { getQuery, getQueriesForNpc, getCriticalQueriesForNpc, TIER } = require('./query-engine');
 
 const RESULTS_DIR = path.join(__dirname, '../../data/validation-results');
+const CACHE_FILE = path.join(__dirname, '../../data/validation-results/validation-cache.json');
+
+/**
+ * In-memory validation cache
+ * Persisted to disk for session continuity
+ */
+let validationCache = null;
 
 /**
  * Validation verdicts
@@ -19,6 +26,131 @@ const VERDICT = {
   FAIL: 'FAIL',
   WARN: 'WARN'
 };
+
+/**
+ * Load validation cache from disk
+ * @returns {Object} Cache data { npcId: { lastValidated, passed, failed } }
+ */
+function loadValidationCache() {
+  if (validationCache) return validationCache;
+
+  if (!fs.existsSync(CACHE_FILE)) {
+    validationCache = {};
+    return validationCache;
+  }
+
+  try {
+    validationCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+    return validationCache;
+  } catch (e) {
+    validationCache = {};
+    return validationCache;
+  }
+}
+
+/**
+ * Save validation cache to disk
+ */
+function saveValidationCache() {
+  if (!validationCache) return;
+
+  const dir = path.dirname(CACHE_FILE);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(validationCache, null, 2));
+}
+
+/**
+ * Get cached validation status for an NPC
+ * @param {string} npcId - NPC identifier
+ * @returns {Object|null} Cache entry or null if not cached
+ */
+function getCachedValidation(npcId) {
+  loadValidationCache();
+  return validationCache[npcId] || null;
+}
+
+/**
+ * Update validation cache for an NPC
+ * @param {string} npcId - NPC identifier
+ * @param {Object} report - Validation report
+ */
+function updateValidationCache(npcId, report) {
+  loadValidationCache();
+
+  validationCache[npcId] = {
+    lastValidated: report.timestamp,
+    tier: report.tier || null,
+    passed: report.summary.pass,
+    failed: report.summary.fail,
+    warned: report.summary.warn,
+    allPassed: report.summary.fail === 0 && report.summary.warn === 0,
+    failedQueries: report.results
+      .filter(r => r.verdict === VERDICT.FAIL)
+      .map(r => r.query_id)
+  };
+
+  saveValidationCache();
+}
+
+/**
+ * Check if NPC validation is stale (older than maxAge)
+ * @param {string} npcId - NPC identifier
+ * @param {number} maxAgeMs - Max age in milliseconds (default: 24 hours)
+ * @returns {boolean} True if stale or not cached
+ */
+function isValidationStale(npcId, maxAgeMs = 24 * 60 * 60 * 1000) {
+  const cached = getCachedValidation(npcId);
+  if (!cached) return true;
+
+  const age = Date.now() - new Date(cached.lastValidated).getTime();
+  return age > maxAgeMs;
+}
+
+/**
+ * Check if NPC should skip validation
+ * @param {string} npcId - NPC identifier
+ * @param {number} tier - Tier level to check
+ * @returns {Object} { skip: boolean, reason: string }
+ */
+function shouldSkipValidation(npcId, tier = TIER.CRITICAL) {
+  const cached = getCachedValidation(npcId);
+
+  if (!cached) {
+    return { skip: false, reason: 'No cached validation' };
+  }
+
+  // If last validation failed, don't skip
+  if (!cached.allPassed) {
+    return { skip: false, reason: `Previous validation had ${cached.failed} failures` };
+  }
+
+  // If validation is fresh (< 1 hour for critical), skip
+  const maxAge = tier === TIER.CRITICAL ? 60 * 60 * 1000 : 24 * 60 * 60 * 1000;
+  if (!isValidationStale(npcId, maxAge)) {
+    return { skip: true, reason: `Passed validation ${cached.lastValidated}` };
+  }
+
+  return { skip: false, reason: 'Validation cache expired' };
+}
+
+/**
+ * Clear validation cache for an NPC
+ * @param {string} npcId - NPC identifier (or null for all)
+ */
+function clearValidationCache(npcId = null) {
+  loadValidationCache();
+
+  if (npcId) {
+    delete validationCache[npcId];
+  } else {
+    validationCache = {};
+  }
+
+  saveValidationCache();
+}
 
 /**
  * Validate a response against a query's expectations
@@ -304,6 +436,93 @@ function formatValidationReport(report) {
   return lines.join('\n');
 }
 
+/**
+ * Quick validation - runs only Tier 1 (CRITICAL) queries
+ * Designed for NPC load path, with caching and skip logic
+ *
+ * @param {string} npcId - NPC identifier
+ * @param {Array} queryResults - Results from executeCriticalQueriesForNpc
+ * @param {Object} options - Options { forceRevalidate: false, autoLearn: false }
+ * @returns {Object} { skipped, report, needsLearning }
+ */
+function quickValidate(npcId, queryResults, options = {}) {
+  const { forceRevalidate = false, autoLearn = false } = options;
+
+  // Check if we can skip
+  if (!forceRevalidate) {
+    const skipCheck = shouldSkipValidation(npcId, TIER.CRITICAL);
+    if (skipCheck.skip) {
+      return {
+        skipped: true,
+        reason: skipCheck.reason,
+        cached: getCachedValidation(npcId),
+        report: null,
+        needsLearning: false
+      };
+    }
+  }
+
+  // Run validation
+  const report = runNpcValidation(npcId, queryResults);
+  report.tier = TIER.CRITICAL;
+  report.mode = 'quick';
+
+  // Update cache
+  updateValidationCache(npcId, report);
+
+  // Determine if learning is needed
+  const needsLearning = autoLearn && report.summary.fail > 0;
+  const failedQueries = report.results.filter(r => r.verdict === VERDICT.FAIL);
+
+  return {
+    skipped: false,
+    reason: null,
+    cached: null,
+    report,
+    needsLearning,
+    failedQueries: needsLearning ? failedQueries : []
+  };
+}
+
+/**
+ * Full validation - runs all queries up to specified tier
+ *
+ * @param {string} npcId - NPC identifier
+ * @param {Array} queryResults - Results from executeQueriesForNpcByTier
+ * @param {number} maxTier - Maximum tier included
+ * @returns {Object} Validation report with tier info
+ */
+function tieredValidate(npcId, queryResults, maxTier = TIER.NICE_TO_HAVE) {
+  const report = runNpcValidation(npcId, queryResults);
+  report.tier = maxTier;
+  report.mode = 'tiered';
+
+  // Update cache
+  updateValidationCache(npcId, report);
+
+  return report;
+}
+
+/**
+ * Get validation summary for display
+ * @param {string} npcId - NPC identifier
+ * @returns {Object|null} Summary or null if not validated
+ */
+function getValidationSummary(npcId) {
+  const cached = getCachedValidation(npcId);
+  if (!cached) return null;
+
+  return {
+    npcId,
+    lastValidated: cached.lastValidated,
+    status: cached.allPassed ? 'OK' : 'NEEDS_ATTENTION',
+    passed: cached.passed,
+    failed: cached.failed,
+    warned: cached.warned,
+    failedQueries: cached.failedQueries || []
+  };
+}
+
 module.exports = {
   VERDICT,
   validateResponse,
@@ -313,5 +532,17 @@ module.exports = {
   loadValidationReport,
   getAllValidationReports,
   formatValidationReport,
-  RESULTS_DIR
+  // Cache functions
+  loadValidationCache,
+  getCachedValidation,
+  updateValidationCache,
+  clearValidationCache,
+  isValidationStale,
+  shouldSkipValidation,
+  // Quick/tiered validation
+  quickValidate,
+  tieredValidate,
+  getValidationSummary,
+  RESULTS_DIR,
+  CACHE_FILE
 };

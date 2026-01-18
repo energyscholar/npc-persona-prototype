@@ -1,13 +1,13 @@
 {
   "id": "startown-investigation",
   "act": "act-2-walston",
-  "order": 6,
+  "order": 5,
   "title": "Startown",
   "setting": "Commercial district near Walston Starport",
 
   "atmosphere": "Small-town frontier. A few hotels, shops, and the Dusty Airlock bar. Locals are friendly but reserved with offworlders. Vargr are present but keep to themselves.",
 
-  "description": "An optional scene where Travellers can gather information, buy supplies, and learn about local conditions before heading to the mountain.",
+  "description": "After clearing customs, Travellers settle into Startown - the commercial district near the starport. Here they can find lodging, gather intelligence, and arrange their meeting with Minister Greener in the capital.",
 
   "objectives": [
     "Gather intelligence about the previous crew",
@@ -29,9 +29,27 @@
   ],
 
   "triggers": {
-    "entry": "Travellers choose to explore before departing",
-    "exit": "Travellers decide to proceed to the mountain"
+    "entry": "Travellers clear customs and enter Startown",
+    "exit": "Travellers arrange meeting and travel to capital"
   },
+
+  "stages": [
+    {
+      "name": "Finding Lodging",
+      "objective": "Secure rooms at Frontier Inn, stow equipment and cargo",
+      "description": "The Frontier Inn is the better option - clean, functional, and the innkeeper is discreet about offworlder business."
+    },
+    {
+      "name": "Local Investigation",
+      "objective": "Gather intel about the ship, previous crew, and local conditions",
+      "description": "The Dusty Airlock bar is where information flows. A few drinks and the right questions can reveal useful intelligence."
+    },
+    {
+      "name": "Arranging the Meeting",
+      "objective": "Contact Minister Greener's office and arrange travel to the capital",
+      "description": "The Minister's office is in the capital at Central Lake, connected by rail. An appointment must be scheduled."
+    }
+  ],
 
   "locations": {
     "dusty_airlock": "The main bar. Bartender knows everyone's business.",

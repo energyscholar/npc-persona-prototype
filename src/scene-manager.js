@@ -6,7 +6,7 @@
  */
 
 const { loadScene, listScenes, recordBeat } = require('./story-engine');
-const { setFlag, saveStoryState } = require('./decision-tracker');
+const { setFlag, saveStoryState, selectStage, slugifyStage } = require('./decision-tracker');
 
 /**
  * Scene directive types
@@ -15,7 +15,8 @@ const DIRECTIVE_TYPES = {
   SCENE: 'SCENE',
   FLASHBACK: 'FLASHBACK',
   MONTAGE: 'MONTAGE',
-  TIME_SKIP: 'TIME_SKIP'
+  TIME_SKIP: 'TIME_SKIP',
+  STAGE: 'STAGE'  // NEW - stage within current scene
 };
 
 /**
@@ -72,6 +73,15 @@ function parseSceneDirective(text) {
     return {
       type: DIRECTIVE_TYPES.SCENE,
       sceneId: nextMatch[1]
+    };
+  }
+
+  // [STAGE: stage-id] - Navigate to stage within current scene
+  const stageMatch = text.match(/\[STAGE:\s*([a-z0-9-]+)\]/i);
+  if (stageMatch) {
+    return {
+      type: DIRECTIVE_TYPES.STAGE,
+      stageId: stageMatch[1]
     };
   }
 

@@ -1,0 +1,90 @@
+{
+  "npc_id": "narrator-high-and-dry",
+  "tier": 1,
+  "timestamp": "2026-01-17T23:00:18.744Z",
+  "results": [
+    {
+      "query_id": "Q001",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Who owns the Highndry?",
+      "response": "*The Narrator's voice carries the weight of institutional authority*\n\nThe Highndry belongs to the Imperial Interstellar Scout Service - the IISS holds clear title to the scout/courier vessel. What the travellers have been offered is not ownership, but something almost as valuable: a detached duty lease.\n\nUnder the terms approved at Flammarion, they would operate the ship independently for one year, with the lease renewable based on their service record. It's an unusual arrangement - the Scout Service rarely allows civilians to lease their vessels. But then, Walston is hardly a priority posting, and the previous crew's... difficulties... have left the Service with a problem that needs solving.\n\nMinister Greener holds the authority to execute the lease transfer, but only once the abandoned survey work is completed. Until then, the Highndry sits disabled in the mountains, technically IISS property but practically abandoned - a ship without a crew, waiting for someone competent enough to claim her.\n\n*A pause, as if considering the implications*\n\nOf course, possession and ownership can be fluid concepts on frontier worlds, far from Imperial oversight. But the Scout Service has long memories, and their ships carry transponders that are... difficult to remove cleanly.",
+      "timestamp": "2026-01-17T22:59:50.435Z",
+      "fact_id": "FACT_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "Scout Service",
+        "IISS",
+        "lease",
+        "detached duty"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 4/4 expected keywords"
+    },
+    {
+      "query_id": "Q002",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What is detached duty and what does it mean for the ship?",
+      "response": "*The Narrator's voice carries the weight of bureaucratic complexity made simple*\n\nDetached duty is the Scout Service's way of keeping useful people in useful places without the expense of a full posting. Think of it as a long leash with benefits attached.\n\nThe travellers have been approved for a one-year renewable lease on the scout/courier *Highndry* - she belongs to the IISS, but they'll operate her independently under the terms of their detached duty agreement. No commanding officers breathing down their necks, no regular reports to file, no scheduled patrol routes. The ship becomes theirs to use as they see fit... assuming they complete the job that comes with her.\n\nIt's an attractive arrangement: experienced travellers get their own ship without the crushing debt of purchasing one outright, and the Scout Service gets reliable operators maintaining their presence in remote systems like Walston. The lease can be renewed annually, provided both parties remain satisfied with the arrangement.\n\nOf course, there's always a catch. In this case, it's a simple surveying job that the previous crew somehow managed to botch badly enough to flee the system entirely. Minister Greener holds the keys, and he expects that job completed before he'll hand over operational control of the *Highndry*.\n\n*A pause, weighted with possibility*\n\nOne wonders what could go so wrong with a routine volcanic survey...",
+      "timestamp": "2026-01-17T23:00:00.362Z",
+      "fact_id": "FACT_002",
+      "verdict": "PASS",
+      "expected_found": [
+        "lease",
+        "one-year",
+        "renewable"
+      ],
+      "expected_missing": [
+        "obligations"
+      ],
+      "failure_found": [],
+      "details": "Found 3/4 expected keywords"
+    },
+    {
+      "query_id": "Q010",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What should the PCs know before passing through customs on Walston?",
+      "response": "*The Narrator's voice takes on a tone of practical caution*\n\nAs the Autumn Gold settles onto the tarmac at Walston Starport, the travellers would do well to note the prominent multilingual signs flanking the customs checkpoint: 'ALL WEAPONS MUST BE DECLARED - LAW LEVEL 8 IN EFFECT.'\n\nWalston maintains strict weapons control. Any firearms, blades longer than 10 centimeters, or energy weapons must be declared and stored in the starport's security vault for Cr10 per week. The customs officer—professional, thorough, but not hostile—operates with Tech Level 8 detection equipment. Not the most sophisticated scanners in the galaxy, but adequate for catching the unprepared or careless.\n\nThe travellers face a choice that will set the tone for their stay: declare their weapons honestly and pay the storage fee, attempt to smuggle contraband past customs and risk the consequences of discovery, or simply proceed unarmed into a world where they know little of what awaits them.\n\n*A pause, as if considering the weight of first impressions*\n\nHow they handle this first test of Walston's laws may well influence how the locals perceive these new arrivals seeking to claim an abandoned scout ship.",
+      "timestamp": "2026-01-17T23:00:08.703Z",
+      "fact_id": "FACT_020",
+      "verdict": "PASS",
+      "expected_found": [
+        "weapons",
+        "declare",
+        "storage"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "safebox"
+      ],
+      "failure_found": [],
+      "details": "Found 3/5 expected keywords"
+    },
+    {
+      "query_id": "Q011",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Walston's law level and what it means for weapons.",
+      "response": "*The Narrator's voice carries the weight of institutional authority and practical warning*\n\nWalston operates under Law Level 8 - what the Imperial classifications term \"high law.\" Here, weapons are the exclusive domain of law enforcement and military personnel. The regulation is stark in its simplicity: no firearms, no energy weapons, no blades longer than ten centimeters may be carried outside one's private residence.\n\n*A pause, as if consulting unseen records*\n\nThe world's Tech Level 8 capabilities mean their enforcement is thorough, if not sophisticated. Visual inspections, handheld scanners, trained eyes watching for telltale bulges or suspicious behavior. At the starport customs checkpoint, multilingual signs declare the law in no uncertain terms, and a secure storage facility awaits any declared weapons at ten credits per week.\n\n*The tone shifts slightly, acknowledging the crossroads ahead*\n\nFor travellers arriving at Walston, this presents an immediate choice: declare weapons honestly and pay storage fees, attempt concealment with all its attendant risks, or proceed entirely unarmed into whatever awaits on this frontier world. The customs officers are professional - neither hostile nor lenient, simply thorough in their duties.\n\n*A final note, almost conspiratorial*\n\nIt's worth noting that Walston's law enforcement takes these regulations seriously. The consequences of being caught armed without authorization extend far beyond mere confiscation...",
+      "timestamp": "2026-01-17T23:00:18.743Z",
+      "fact_id": "FACT_011",
+      "verdict": "WARN",
+      "expected_found": [
+        "weapons"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "strict",
+        "controlled",
+        "prohibited"
+      ],
+      "failure_found": [],
+      "details": "Only 1/5 expected keywords found"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "pass": 3,
+    "warn": 1,
+    "fail": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "npc_id": "mr-casarii",
+  "tier": 1,
+  "timestamp": "2026-01-17T23:00:46.856Z",
+  "results": [
+    {
+      "query_id": "Q001",
+      "npc_id": "mr-casarii",
+      "query_text": "Who owns the Highndry?",
+      "response": "*Anders looks up from the manila folder he's been organizing and adjusts his reading glasses*\n\nThe Imperial Interstellar Scout Service owns Highndry - that's the IISS. Let me be absolutely clear about this, because it's important you understand the arrangement.\n\n*He taps the folder with his pen*\n\nThis isn't a sale or a gift. What you're getting is a detached duty agreement - essentially a one-year lease. You operate the ship under Scout Service terms, but we retain ownership throughout. The previous operators had the same arrangement, which became void when they were arrested for fraud.\n\n*He leans forward slightly*\n\nYour detached duty agreement is renewable annually, indefinitely, as long as both parties meet their obligations. You file your reports, cooperate with any Scout Service requests, maintain the vessel properly - standard procedure. We don't interfere with your operations otherwise.\n\n*He makes a note on the form*\n\nThe Scout Service can recall the ship if absolutely necessary, but that's rare. Most detached duty arrangements run for years without incident. Just remember - you're custodians, not owners. Take care of her, and she'll take care of you.\n\nAny questions about the ownership structure before we move on to the technical details?",
+      "timestamp": "2026-01-17T23:00:26.612Z",
+      "fact_id": "FACT_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "Scout Service",
+        "IISS",
+        "lease",
+        "detached duty"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 4/4 expected keywords"
+    },
+    {
+      "query_id": "Q002",
+      "npc_id": "mr-casarii",
+      "query_text": "What is detached duty and what does it mean for the ship?",
+      "response": "*Anders looks up from his perfectly organized stack of manila folders and adjusts his reading glasses*\n\nRight, let me walk you through this - it's standard procedure but I know it can be confusing if you haven't dealt with Scout Service contracts before.\n\nDetached duty is essentially a lease arrangement with the IISS. You get operational control of Highndry for one year, renewable annually. The Scout Service retains ownership throughout - this isn't a gift or a sale, it's a working arrangement.\n\n*He pulls out a specific folder and opens it*\n\nHere's what it means practically: You operate the ship as if it were yours - decide where to go, what cargo to carry, how to make your living with her. But you have obligations. You file quarterly reports with the Scout Service, you cooperate if we need the ship for official business - which is rare, mind you - and you maintain her in proper condition.\n\nAfter the one-year term, assuming you've met your obligations, it renews automatically. I've seen some detached duty agreements run for decades. The arrangement continues indefinitely as long as both parties are satisfied with the arrangement.\n\n*He taps the folder*\n\nThe previous crew's agreement was voided due to their fraud charges - that's why you're here. Per regulations, we needed new operators, and your applications were approved.\n\nAny questions about the terms? The renewal process is straightforward, but I want to make sure you understand what you're agreeing to.",
+      "timestamp": "2026-01-17T23:00:36.510Z",
+      "fact_id": "FACT_002",
+      "verdict": "PASS",
+      "expected_found": [
+        "lease",
+        "one-year",
+        "renewable",
+        "obligations"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 4/4 expected keywords"
+    },
+    {
+      "query_id": "Q003",
+      "npc_id": "mr-casarii",
+      "query_text": "What happens to the ship after the mission ends?",
+      "response": "*adjusts papers and looks up from the detached duty forms*\n\nAfter the mission? Well, that depends on what you mean by \"mission ends.\" \n\nThe immediate mission - getting to Walston, repairing Highndry, and flying her back for checkout - that's maybe three weeks, a month at most. Once she passes her post-recovery inspection here at Flammarion, you'll have completed the recovery assignment.\n\nBut then the real detached duty begins. As I mentioned, this is a one-year lease arrangement, renewable annually. So after the recovery mission, Highndry becomes your responsibility under the standard detached duty agreement. You operate her, maintain her, file the required reports with us every six months, and cooperate with any Scout Service requests that come up.\n\n*taps the forms with a pen*\n\nThe Scout Service retains ownership throughout - that never changes. But as long as you meet your obligations and we're satisfied with how things are going, the lease renews every year. I've seen detached duty arrangements run for decades. Some scouts retire still operating their old ships.\n\nOf course, if the Service needs to recall her for some reason - emergency, military situation, that sort of thing - we can terminate the agreement. But that's rare. Standard procedure is renewal.\n\n*slight smile*\n\nThink of it less as a temporary mission and more as... well, as getting your own ship to operate, with the Scout Service as a very hands-off landlord.\n\nAny other questions about the arrangement?",
+      "timestamp": "2026-01-17T23:00:46.856Z",
+      "fact_id": "FACT_004",
+      "verdict": "PASS",
+      "expected_found": [
+        "lease",
+        "renewable",
+        "Scout Service"
+      ],
+      "expected_missing": [
+        "return"
+      ],
+      "failure_found": [],
+      "details": "Found 3/4 expected keywords"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "pass": 3,
+    "warn": 0,
+    "fail": 0
+  }
+}

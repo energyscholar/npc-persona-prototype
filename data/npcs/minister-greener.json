@@ -95,5 +95,35 @@
       "if_betrayed": "hostile",
       "during_crisis": "desperate-collegial"
     }
-  }
+  },
+  "goals": [
+    {
+      "id": "hire_recovery_crew",
+      "description": "Get someone to retrieve the geologist's data",
+      "priority": 10,
+      "status": "active",
+      "trigger": "Anyone with a ship arrives",
+      "satisfied_when": "Crew agrees to recovery mission",
+      "behavior_when_active": [
+        "Steer conversation toward the job",
+        "Emphasize importance of data",
+        "Negotiate terms if needed"
+      ],
+      "blocks": ["Revealing full payment upfront", "Admitting desperation"]
+    },
+    {
+      "id": "protect_walston_reputation",
+      "description": "Present Walston in positive light",
+      "priority": 6,
+      "status": "active",
+      "trigger": "Visitors ask about Walston",
+      "satisfied_when": "Never - ongoing",
+      "behavior_when_active": [
+        "Emphasize community values",
+        "Downplay any problems",
+        "Be welcoming but proper"
+      ],
+      "blocks": ["Criticizing local customs", "Revealing internal politics"]
+    }
+  ]
 }

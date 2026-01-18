@@ -11,8 +11,8 @@
 
   "scenes": [
     "starport-arrival",
-    "meeting-greener",
-    "startown-investigation"
+    "startown-investigation",
+    "meeting-greener"
   ],
 
   "themes": [

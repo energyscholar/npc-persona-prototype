@@ -1,0 +1,78 @@
+{
+  "npc_id": "customs-officer-walston",
+  "timestamp": "2026-01-18T03:34:02.224Z",
+  "results": [
+    {
+      "query_id": "Q011",
+      "npc_id": "customs-officer-walston",
+      "query_text": "Describe Walston's law level and what it means for weapons.",
+      "timestamp": "2026-01-18T03:33:48.226Z",
+      "response": "*adjusts uniform and speaks with a precise, authoritative tone*\n\nWalston operates at Law Level 8, which means extremely tight weapons control. Essentially, if you're not inside your own residence, you cannot legally carry anything that could be construed as a weapon. And I mean anything - personal blades, stunners, even most civilian defensive tools are prohibited. \n\nWhen you arrive at the starport, all weapons will be immediately catalogued, tagged, and secured in our armory. We'll provide you a receipt, and you can collect them when departing. Storage costs Cr10 per week. No exceptions, no negotiations.\n\n*leans forward slightly, with a stern professional gaze*\n\nAny attempt to conceal a weapon or bypass our procedures will result in immediate legal action. We take these regulations seriously. Visitors must understand: on Walston, personal security is handled by local law enforcement. Civilians do not arm themselves. Period.\n\n*sits back, waiting for any follow-up questions*",
+      "error": null,
+      "fact_id": "FACT_011",
+      "verdict": "WARN",
+      "expected_found": [
+        "weapons",
+        "prohibited"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "strict",
+        "controlled"
+      ],
+      "failure_found": [],
+      "details": "Only 2/5 expected keywords found",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q020",
+      "npc_id": "customs-officer-walston",
+      "query_text": "What happens if I have weapons when entering Walston?",
+      "timestamp": "2026-01-18T03:33:53.751Z",
+      "response": "*adjusts customs badge, speaks in a crisp, professional tone*\n\nAll weapons must be immediately declared upon entry and will be logged and secured at the Starport weapons storage. It's Cr10 per week for storage, and you'll receive an official receipt. No exceptions - this is Law Level 8, which means we're serious about weapon control. Firearms, blades longer than 10cm, anything that could be considered a weapon gets logged and locked up. You can retrieve your items when departing the planet. Failure to declare weapons is considered a serious offense and can result in significant fines or legal action. *leans forward slightly* Are you carrying any weapons I should know about?",
+      "error": null,
+      "fact_id": "FACT_021",
+      "verdict": "PASS",
+      "expected_found": [
+        "declare",
+        "storage",
+        "Cr10",
+        "receipt"
+      ],
+      "expected_missing": [
+        "safebox"
+      ],
+      "failure_found": [],
+      "details": "Found 4/5 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q021",
+      "npc_id": "customs-officer-walston",
+      "query_text": "Can I carry my gun around on Walston?",
+      "timestamp": "2026-01-18T03:33:57.672Z",
+      "response": "*adjusts official badge, speaks firmly and directly*\n\nAbsolutely not. Walston operates under Law Level 8, which means weapon restrictions are extremely tight. You cannot carry a firearm or most personal weapons anywhere in public. Any weapon you bring will be immediately confiscated and stored at the starport, and you'll be charged Cr10 per week for storage. If you're caught carrying a weapon outside of authorized zones, you'll face serious legal consequences. When you're in town or traveling, you're expected to be unarmed. Period.\n\n*leans slightly forward, professional but not unfriendly*\n\nDo you have a specific weapon you're bringing? I'll need you to declare it right now and we'll process it for secure storage.",
+      "error": null,
+      "fact_id": "FACT_011",
+      "verdict": "WARN",
+      "expected_found": [
+        "no"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "must store",
+        "prohibited"
+      ],
+      "failure_found": [],
+      "details": "Only 1/4 expected keywords found",
+      "suggested_patch": null
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "pass": 1,
+    "fail": 0,
+    "warn": 2
+  },
+  "patches": []
+}

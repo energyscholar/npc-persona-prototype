@@ -1,0 +1,72 @@
+{
+  "npc_id": "customs-officer-walston",
+  "tier": 1,
+  "timestamp": "2026-01-17T23:01:09.548Z",
+  "results": [
+    {
+      "query_id": "Q011",
+      "npc_id": "customs-officer-walston",
+      "query_text": "Describe Walston's law level and what it means for weapons.",
+      "response": "*looks up from paperwork with practiced efficiency*\n\nLaw level's pretty reasonable here - Level 6. Nothing too restrictive. \n\n*taps pen on desk*\n\nWhat that means for you is shotguns and rifles need to be checked in - standard Cr10 per week storage fee. You get a receipt, pick them up when you leave. Body pistols, blade weapons under 20cm, that sort of thing - you can keep those on you, no problem.\n\n*leans back slightly*\n\nWe're not looking to disarm honest spacers, just keep the heavy stuff from walking around town. Had a trader last year try to tell me his gauss rifle was a \"surveying instrument.\" \n\n*slight smirk*\n\nI've been doing this eight years - I've heard them all. But like I said, we're reasonable. You declare what you've got, pay the storage fee, no hassles. Most folks find it fair enough.\n\n*goes back to shuffling papers*\n\nAnything specific you need to declare, or just asking in general?",
+      "timestamp": "2026-01-17T23:00:55.756Z",
+      "fact_id": "FACT_011",
+      "verdict": "WARN",
+      "expected_found": [
+        "strict",
+        "weapons"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "controlled",
+        "prohibited"
+      ],
+      "failure_found": [],
+      "details": "Only 2/5 expected keywords found"
+    },
+    {
+      "query_id": "Q020",
+      "npc_id": "customs-officer-walston",
+      "query_text": "What happens if I have weapons when entering Walston?",
+      "response": "*looks up from paperwork with a practiced expression*\n\nStandard procedure - you declare any weapons, we store them in the port lockup for ten credits per week. You get a receipt, pick them back up when you're ready to depart. \n\n*taps pen on desk*\n\nIt's not negotiable, I'm afraid. Walston law requires all offworld weapons to be secured while you're planetside. Been that way since before I started this job. Simple enough - just saves everyone trouble if things get heated in town.\n\n*glances back at forms*\n\nMost spacers don't give me grief about it. It's when people try to \"forget\" to mention their holdout pistol that my day gets interesting. And trust me, the scanner catches everything anyway.\n\nYou carrying anything that needs declaring?",
+      "timestamp": "2026-01-17T23:01:03.000Z",
+      "fact_id": "FACT_021",
+      "verdict": "WARN",
+      "expected_found": [
+        "declare",
+        "receipt"
+      ],
+      "expected_missing": [
+        "storage",
+        "safebox",
+        "Cr10"
+      ],
+      "failure_found": [],
+      "details": "Only 2/5 expected keywords found"
+    },
+    {
+      "query_id": "Q021",
+      "npc_id": "customs-officer-walston",
+      "query_text": "Can I carry my gun around on Walston?",
+      "response": "*looks up from paperwork with a practiced expression*\n\nNo firearms in the settlement. Port regulation 127-C. You can check them here at customs - ten credits per week, you get a receipt. Pick them up when you're ready to leave.\n\n*taps pen on desk*\n\nOutside the settlement boundary, that's different. World Government doesn't much care what you do out in the wilderness, but in Startown and the port area, all weapons get stored. Been that way since before I started here.\n\n*slides a storage form across the desk*\n\nStandard procedure. Fill this out if you've got something to declare. Most spacers don't give me any trouble about it - it's not like we're confiscating anything.",
+      "timestamp": "2026-01-17T23:01:09.548Z",
+      "fact_id": "FACT_011",
+      "verdict": "WARN",
+      "expected_found": [
+        "no"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "must store",
+        "prohibited"
+      ],
+      "failure_found": [],
+      "details": "Only 1/4 expected keywords found"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "pass": 0,
+    "warn": 3,
+    "fail": 0
+  }
+}

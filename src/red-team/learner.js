@@ -50,11 +50,11 @@ function loadNpc(npcId) {
  * @param {Object} params - Generation parameters
  * @returns {string} Prompt for LLM
  */
-function buildLearnerPrompt({ fact, npc, expectedKeywords, originalQuery, failedResponse }) {
+function buildLearnerPrompt({ fact, npc, expectedKeywords, failureKeywords, originalQuery, failedResponse }) {
   const traits = npc.personality?.traits?.join(', ') || 'professional';
   const style = npc.personality?.speech || npc.personality?.communication_style || 'direct';
 
-  return `You are helping improve an NPC's knowledge base for a Traveller RPG game.
+  let prompt = `You are helping improve an NPC's knowledge base for a Traveller RPG game.
 
 NPC PROFILE:
 - Name: ${npc.name}
@@ -66,7 +66,16 @@ FACT THE NPC SHOULD KNOW:
 ${fact.content}
 
 REQUIRED KEYWORDS (must naturally include):
-${expectedKeywords.join(', ')}
+${expectedKeywords.join(', ')}`;
+
+  if (failureKeywords && failureKeywords.length > 0) {
+    prompt += `
+
+FORBIDDEN WORDS (NEVER use these - they indicate wrong understanding):
+${failureKeywords.join(', ')}`;
+  }
+
+  prompt += `
 
 FAILED EXCHANGE:
 Player asked: "${originalQuery}"
@@ -76,12 +85,15 @@ TASK:
 Write a knowledge_base entry (2-4 sentences) that this NPC would use to answer correctly.
 - Use the NPC's voice and personality
 - Include ALL required keywords naturally
+- NEVER use any of the forbidden words
 - Don't be a robot - be conversational
 - Include relevant context the NPC would know
 
 OUTPUT FORMAT:
 TOPIC: [single_word_topic]
 CONTENT: [your in-character knowledge entry]`;
+
+  return prompt;
 }
 
 /**
@@ -319,6 +331,7 @@ async function runLearningCycle(failedResult, options = {}) {
       fact,
       npc,
       expectedKeywords: query.expected_keywords,
+      failureKeywords: query.failure_keywords,
       originalQuery: failedResult.query_text,
       failedResponse: failedResult.response
     }, aiClient);
@@ -360,11 +373,11 @@ async function runLearningCycle(failedResult, options = {}) {
         cycle.final_status = 'LEARNED';
         console.log(`[Learner] ✓ Verification passed`);
       } else {
-        // 6. Rollback on failure
-        console.log(`[Learner] ✗ Verification failed, rolling back...`);
-        rollbackPatch(failedResult.npc_id, patchResult.backup_path);
-        cycle.final_status = 'FAILED_VERIFICATION';
-        cycle.rollback = true;
+        // Keep patch but mark as needs review (don't rollback - knowledge is likely correct)
+        cycle.final_status = 'LEARNED_NEEDS_REVIEW';
+        cycle.verification_warning = verification.details;
+        console.log(`[Learner] ~ Knowledge added, but response phrasing needs review`);
+        console.log(`[Learner]   Issue: ${verification.details}`);
       }
     }
 
@@ -410,6 +423,7 @@ async function runLearningForReport(report, options = {}) {
     summary: {
       total: results.length,
       learned: results.filter(r => r.final_status === 'LEARNED').length,
+      learnedNeedsReview: results.filter(r => r.final_status === 'LEARNED_NEEDS_REVIEW').length,
       failed: results.filter(r => r.final_status === 'FAILED_VERIFICATION').length,
       escalated: results.filter(r => r.final_status === 'ESCALATED').length,
       pending: results.filter(r => r.final_status === 'PENDING_REVIEW').length

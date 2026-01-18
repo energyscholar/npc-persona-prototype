@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "iiss-detached-duty-documents",
+      "name": "IISS Detached Duty Documents",
+      "description": "Official Scout Service documentation proving your authority over Highndry. Includes lease terms, ship registration, and your identification as the assigned operator.",
+      "type": "document",
+      "unlocks": ["ship-access", "official-credibility", "scout-service-contacts"],
+      "show_to": "Present these when you need to prove your authority over the ship"
+    },
+    {
+      "id": "repair-kit-crates",
+      "name": "Repair Kit (3 Flight Cases)",
+      "description": "Three heavy flight cases containing circuit panels, tools, a portable diagnostic unit with temporary control software, and a container of general spares. The diagnostic unit can upload a software patch that'll keep Highndry flying for three months.",
+      "type": "cargo",
+      "weight": "heavy",
+      "requires_transport": true,
+      "unlocks": ["ship-repair"],
+      "contents": [
+        "Circuit panels",
+        "Portable diagnostic unit",
+        "Temporary control software",
+        "General spares",
+        "Tool kit"
+      ]
+    }
+  ]
+}

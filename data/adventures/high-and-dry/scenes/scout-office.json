@@ -41,5 +41,23 @@
     ]
   },
 
-  "narrator_prompt": "The Scout Service Way Station is a hive of activity - couriers coming and going, reports being filed, ships being assigned. But for one Traveller today, it holds something special: documentation for an inheritance."
+  "narrator_prompt": "You've received word that your application for detached duty has been approved. A Scout Service courier awaits collection - but first, you need to report to the Scout Service Way Station to receive your briefing and documentation. The Way Station is busy with the usual traffic of couriers and administrators.",
+
+  "opening_context": {
+    "pc_knows": [
+      "You've been approved for a detached duty scout ship",
+      "You need to report to Scout Service administration",
+      "This is at Flammarion Highport"
+    ],
+    "pc_goal": "Report to administration and receive your briefing"
+  },
+
+  "npc_opening_behavior": {
+    "mr-casarii": {
+      "waits_for_approach": true,
+      "opening_line": "Good day. How can I help you?",
+      "trigger_full_briefing": "PC shows ID or mentions detached duty/ship assignment",
+      "post_id_behavior": "Provide full briefing on Highndry situation"
+    }
+  }
 }

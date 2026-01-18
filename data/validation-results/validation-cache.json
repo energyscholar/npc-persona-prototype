@@ -1,0 +1,38 @@
+{
+  "narrator-high-and-dry": {
+    "lastValidated": "2026-01-17T23:00:18.744Z",
+    "tier": 1,
+    "passed": 3,
+    "failed": 0,
+    "warned": 1,
+    "allPassed": false,
+    "failedQueries": []
+  },
+  "mr-casarii": {
+    "lastValidated": "2026-01-17T23:00:46.856Z",
+    "tier": 1,
+    "passed": 3,
+    "failed": 0,
+    "warned": 0,
+    "allPassed": true,
+    "failedQueries": []
+  },
+  "customs-officer-walston": {
+    "lastValidated": "2026-01-17T23:01:09.548Z",
+    "tier": 1,
+    "passed": 0,
+    "failed": 0,
+    "warned": 3,
+    "allPassed": false,
+    "failedQueries": []
+  },
+  "minister-greener": {
+    "lastValidated": "2026-01-17T23:01:17.151Z",
+    "tier": 1,
+    "passed": 0,
+    "failed": 0,
+    "warned": 1,
+    "allPassed": false,
+    "failedQueries": []
+  }
+}

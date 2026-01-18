@@ -1,0 +1,74 @@
+{
+  "npc_id": "minister-greener",
+  "timestamp": "2026-01-18T03:34:39.869Z",
+  "results": [
+    {
+      "query_id": "Q040",
+      "npc_id": "minister-greener",
+      "query_text": "What is the payment for the volcano survey job?",
+      "timestamp": "2026-01-18T03:34:28.457Z",
+      "response": "*adjusts kilt and clears throat*\n\nCr3000 in cash, paid upon successful completion of the survey. It's fair compensation for a 2-3 day job mapping Mount Salbarii's interior using planetary survey equipment. Not a fortune, mind you, but honest pay for honest work. The previous crew took the money and ran, but I expect professionals to actually finish what they're hired to do. *gives a pointed look* The cash is right here in an Imperial credit case, ready for the right team.",
+      "error": null,
+      "fact_id": "FACT_050",
+      "verdict": "PASS",
+      "expected_found": [
+        "Cr3000",
+        "3000"
+      ],
+      "expected_missing": [
+        "credits"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q041",
+      "npc_id": "minister-greener",
+      "query_text": "How long will the survey take?",
+      "timestamp": "2026-01-18T03:34:31.835Z",
+      "response": "*adjusts kilt and clears throat*\n\nThe survey of Mount Salbarii will take approximately 2-3 days, using a properly equipped scout ship with planetary survey equipment and seismic charges. We need to thoroughly map the mountain's interior to predict the likelihood of a potential volcanic eruption. The previous survey crew failed to complete this task, but I'm confident the right team can get it done efficiently. It's a straightforward scientific mission, and we need solid geological data to ensure the safety of our settlements.",
+      "error": null,
+      "fact_id": "FACT_051",
+      "verdict": "PASS",
+      "expected_found": [
+        "2-3 days",
+        "days"
+      ],
+      "expected_missing": [
+        "two",
+        "three"
+      ],
+      "failure_found": [],
+      "details": "Found 2/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q042",
+      "npc_id": "minister-greener",
+      "query_text": "Where is the ship located?",
+      "timestamp": "2026-01-18T03:34:34.812Z",
+      "response": "*adjusts my kilt and looks at you directly*\n\nI'll be direct with you: I'm not revealing the exact ship location until we have a firm agreement. What I can tell you is that the scout/courier Highndry is approximately 120 kilometers from our capital, situated in the mountainous region near Mount Salbarii. But the precise coordinates? Those stay with me until we have terms settled. \n\nThis isn't about being difficult - it's about ensuring serious, professional parties are interested in the survey work. The previous crew made a mess of things, and I'm not keen on another false start. If you're genuinely interested in the mission, we can discuss specifics and location details.\n\n*takes a sip from a metal flask, watching you carefully*",
+      "error": null,
+      "fact_id": "FACT_053",
+      "verdict": "PASS",
+      "expected_found": [
+        "120",
+        "kilometers",
+        "mountain",
+        "Salbarii"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 4/4 expected keywords",
+      "suggested_patch": null
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "pass": 3,
+    "fail": 0,
+    "warn": 0
+  },
+  "patches": []
+}

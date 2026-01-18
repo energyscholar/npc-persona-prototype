@@ -81,7 +81,23 @@ IMPORTANT GUIDELINES:
     prompt += `\n${options.agmContext}\n`;
   }
 
-  // NEW: Inject goal priorities
+  // Inject active goals from persona
+  if (persona.goals && persona.goals.length > 0) {
+    const activeGoals = persona.goals.filter(g => g.status === 'active');
+    if (activeGoals.length > 0) {
+      // Sort by priority (highest first)
+      activeGoals.sort((a, b) => b.priority - a.priority);
+      prompt += `\n=== YOUR CURRENT GOALS ===\n`;
+      for (const goal of activeGoals.slice(0, 3)) {
+        prompt += `- ${goal.description} (priority: ${goal.priority}/10)\n`;
+        if (goal.behavior_when_active) {
+          prompt += `  Approach: ${goal.behavior_when_active.join('; ')}\n`;
+        }
+      }
+    }
+  }
+
+  // NEW: Inject goal priorities (legacy/runtime priorities)
   if (options.goalPriorities?.length > 0) {
     prompt += `\n=== YOUR PRIORITIES NOW ===\n`;
     for (const p of options.goalPriorities) {

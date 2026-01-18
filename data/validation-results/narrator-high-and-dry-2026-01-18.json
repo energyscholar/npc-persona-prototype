@@ -1,0 +1,665 @@
+{
+  "npc_id": "narrator-high-and-dry",
+  "timestamp": "2026-01-18T03:33:01.545Z",
+  "results": [
+    {
+      "query_id": "Q001",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Who owns the Highndry?",
+      "timestamp": "2026-01-18T03:28:35.126Z",
+      "response": "*A measured, authoritative tone emerges, rich with bureaucratic precision*\n\nTechnically, the Highndry is owned by the Imperial Interstellar Scout Service - the IISS. She is a Type S Scout/Courier vessel currently under a one-year renewable lease arrangement. The travellers seeking her must first complete a specific task for Minister Alan Greener: surveying Mount Salbarii volcano. \n\nUpon successful completion of this abandoned mission, the leasing rights will transfer to the new crew. The deal includes a Cr3000 bonus, contingent on satisfactory mission completion. Until then, she remains officially an IISS asset, though currently disabled and awaiting restoration near Mount Salbarii.\n\n*A subtle note of professional respect enters the narrative voice*\n\nThe ship is waiting. Not just for ownership to be transferred, but to be brought back to life by competent hands. Her systems are intact - her power plant silent, her life support dormant, but her fundamental integrity unbroken. She is a scout vessel, designed to endure, ready to serve those who demonstrate the skill to resurrect her.\n\nWould you care to know more about her current status?",
+      "error": null,
+      "fact_id": "FACT_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "Scout Service",
+        "IISS",
+        "lease"
+      ],
+      "expected_missing": [
+        "detached duty"
+      ],
+      "failure_found": [],
+      "details": "Found 3/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q002",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What is detached duty and what does it mean for the ship?",
+      "timestamp": "2026-01-18T03:28:42.559Z",
+      "response": "*A thoughtful pause, then a crisp, authoritative narration begins*\n\nDetached duty, in the context of the Scout Service, represents a unique operational arrangement. When a scout vessel like the Highndry is placed on detached duty, it means the Imperial Interstellar Scout Service has authorized an independent crew to operate the vessel under a specific lease agreement. \n\nIn our case, this means the travellers have been granted a one-year renewable lease on the Highndry. They aren't purchasing the ship, but effectively renting it from the IISS with the understanding that they will complete specific mission objectives. Here, that objective is the completion of the abandoned Mount Salbarii volcano survey.\n\nThe lease terms are straightforward but precise: successfully survey the volcano, and the ship becomes their operational base for the next year. Minister Alan Greener acts as the IISS representative, holding the administrative keys, so to speak. The Cr3000 offered is both incentive and partial compensation for taking on this abandoned mission.\n\nFor the Highndry herself, detached duty means transitioning from a structured Scout Service deployment to an independent operational status. Her systems remain IISS property, but her day-to-day management transfers to this new crew. Their competence will determine whether the lease is renewed - a fact that adds both opportunity and pressure to their mission.\n\n*A subtle mechanical hum accompanies the final words, as if the ship herself is listening*",
+      "error": null,
+      "fact_id": "FACT_002",
+      "verdict": "PASS",
+      "expected_found": [
+        "lease",
+        "one-year",
+        "renewable"
+      ],
+      "expected_missing": [
+        "obligations"
+      ],
+      "failure_found": [],
+      "details": "Found 3/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q010",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What should the PCs know before passing through customs on Walston?",
+      "timestamp": "2026-01-18T03:28:51.353Z",
+      "response": "*The Narrator's voice emerges, measured and precise, with a hint of experienced caution*\n\nListen carefully, travelers. Walston's customs checkpoint is not a mere formality - it is a critical gateway where preparation meets strict law enforcement. \n\nYou are entering a Law Level 8 world with zero tolerance for unauthorized weapons. Every firearm, blade over 10 centimeters, or energy weapon MUST be declared. Your options are straightforward: store weapons at the starport safebox for Cr10 per week, or risk severe consequences. Their Tech Level 8 detection isn't sophisticated, but it is thorough - visual inspections and basic scanners will reveal concealed items.\n\nUnderstand this: smuggling here isn't just illegal, it's profoundly unwise. The customs officer isn't looking to trap you, but to maintain order. They are professional, methodical, and will not hesitate to impose significant penalties for non-compliance.\n\nA word of cultural advice: Walston's society is quietly stratified. You'll notice Vargr predominantly in service roles while humans occupy official positions. Be respectful, be precise, and above all, be transparent at the checkpoint. Your journey to the Highndry depends on making a clean, uncomplicated entry.\n\n*A subtle pause, then a final, crisp note of warning*\n\nDeclare. Everything.",
+      "error": null,
+      "fact_id": "FACT_020",
+      "verdict": "PASS",
+      "expected_found": [
+        "weapons",
+        "declare",
+        "safebox"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "storage"
+      ],
+      "failure_found": [],
+      "details": "Found 3/5 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q011",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Walston's law level and what it means for weapons.",
+      "timestamp": "2026-01-18T03:29:00.550Z",
+      "response": "*adjusts tone to a crisp, official narrative voice*\n\nWalston operates at Law Level 8 - a classification that translates to rigorous weapons control. Here, personal armament is not a casual matter, but a strictly regulated privilege. All firearms, blades exceeding 10 centimeters, and energy weapons must be declared upon arrival and stored securely at the starport's safebox, at a standard fee of Cr10 per week.\n\nThe intent is clear: maintain social order through comprehensive disarmament. At Tech Level 8, their detection methods are thorough - visual inspections and basic scanners ensure compliance. Attempting to smuggle weapons carries severe potential consequences. Travelers have three fundamental choices: declare and store, proceed unarmed, or risk significant legal intervention.\n\nThis isn't merely bureaucratic procedure, but a reflection of Walston's social fabric. The hereditary dictatorship values predictable control. Every weapon not in authorized hands represents a potential disruption to their carefully managed social hierarchy. \n\n*voice takes on a slightly cautionary tone*\n\nWise travelers adapt. On Walston, discretion isn't just prudent - it's mandatory. The law leaves no meaningful gray area.",
+      "error": null,
+      "fact_id": "FACT_011",
+      "verdict": "WARN",
+      "expected_found": [
+        "strict",
+        "weapons"
+      ],
+      "expected_missing": [
+        "Law 8",
+        "controlled",
+        "prohibited"
+      ],
+      "failure_found": [],
+      "details": "Only 2/5 expected keywords found",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q012",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What is Walston's population makeup?",
+      "timestamp": "2026-01-18T03:29:08.508Z",
+      "response": "*Adjusts tone to a precise, informative register*\n\nBased on current demographic records, Walston has a population of approximately 3,000 inhabitants, with a notable composition: roughly 70% are Vargr, while humans comprise the remaining 30%. However, the population statistics only tell part of the story.\n\nWhile Vargr represent a significant majority numerically, they occupy a complex social stratum. They are integrated into the society, predominantly serving in service and labor roles, but rarely ascending to positions of true authority. You'll find Vargr as chauffeurs, starport workers, service staff, and technical personnel - but conspicuously absent from government leadership and senior administrative positions.\n\nThe social structure is stable but quietly unjust. A human visitor will quickly notice that while Vargr are tolerated and even essential to daily functioning, they exist under a form of systemic limitation. They work throughout the society, but an unspoken \"glass ceiling\" restricts their upward mobility.\n\n*A slight, sardonic undertone enters the narrative voice*\n\nIt's a delicate social mechanism - present enough to be functional, limited enough to maintain the current power structure. Walston's demographics are not just numbers, but a reflection of its complex social engineering.",
+      "error": null,
+      "fact_id": "FACT_013",
+      "verdict": "PASS",
+      "expected_found": [
+        "70%",
+        "Vargr",
+        "majority"
+      ],
+      "expected_missing": [
+        "3000"
+      ],
+      "failure_found": [],
+      "details": "Found 3/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q031",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Tell me about local customs and traditions on Walston.",
+      "timestamp": "2026-01-18T03:29:15.844Z",
+      "response": "*The Narrator's voice emerges, rich with descriptive detail and a hint of documentary-like authority*\n\nWalston's culture is deeply rooted in traditional highland practices, despite their technological sophistication. The population predominantly wears traditional kilts - a sartorial statement that speaks more to social identity than mere clothing. Humans form the ruling class, with a hereditary dictatorship led by Dictator Masterton, while Vargr occupy a complex social stratum.\n\nThe local demographic tells a nuanced story: approximately 3000 inhabitants, with 70% being Vargr. However, this numerical majority does not translate to political power. Vargr are systematically confined to service roles - you'll find them as drivers, service staff, and technical workers, but rarely in positions of genuine authority. It's a quietly oppressive system of social stratification that maintains a veneer of stability.\n\nLaw Level 8 governs nearly every aspect of social interaction. Weapon restrictions are stringent - even carrying a blade over 10 centimeters requires official declaration. At the starport, visitors must store firearms and energy weapons in secure lockboxes, a ritual that underscores the society's emphasis on controlled, regulated interaction.\n\nThe cultural atmosphere blends traditional highland sensibilities with a pragmatic, somewhat conservative technological approach. Locals are not hostile to offworlders, but they expect precise adherence to their established protocols. Respect the local customs, follow the rules, and Walston reveals itself as a fascinating, if complex, social ecosystem.\n\n*The narrative voice carries a tone of anthropological precision, neither condemning nor romanticizing, but presenting the culture with clinical objectivity*",
+      "error": null,
+      "fact_id": "FACT_031",
+      "verdict": "PASS",
+      "expected_found": [
+        "kilts",
+        "traditional"
+      ],
+      "expected_missing": [
+        "thin atmosphere"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q001",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe climbing Mount Salbarii",
+      "timestamp": "2026-01-18T03:29:26.623Z",
+      "response": "*The narrator's voice emerges, measured and precise, carrying the weight of geological expertise*\n\nClimbing Mount Salbarii is no casual undertaking. The mountain reveals herself in distinct zones, each presenting unique challenges. \n\nAt the Lower Slopes between 500 and 900 meters, the terrain becomes dramatically steep. The path winds around imposing rock faces where each step is a calculated negotiation with the landscape. Experienced mountaineers might attempt direct climbs, but prudence suggests strategic routing. The gradient here is unforgiving - one miscalculation could mean a precipitous descent.\n\nEntering the Middle Ascent at 1100 meters, the altitude begins to assert its dominance. The thinning atmosphere becomes a silent adversary. Your body will struggle against diminishing oxygen, and mountain sickness can ambush even seasoned travelers. Push too quickly, and your physiology will revolt. This is not merely a climb, but a test of adaptive skill and bodily resilience.\n\nThe Final Ascent from 1000 to 1400 meters is brutal - a near-vertical rock face demanding absolute concentration. Technical climbing skills aren't just recommended, they're essential. Each meter gained brings you closer to both your scientific objective and potential geological peril. \n\n*A slight pause, then with a note of caution*\n\nAnd always remember - this is an active volcanic environment. Silent gas vents and potential thermal activity make every step a negotiation with a living, unpredictable landscape.\n\nNot a journey for the unprepared.",
+      "error": null,
+      "fact_id": "EXT_MC_STA_000",
+      "verdict": "WARN",
+      "expected_found": [
+        "climb"
+      ],
+      "expected_missing": [
+        "1400m",
+        "crater"
+      ],
+      "failure_found": [],
+      "details": "Only 1/3 expected keywords found",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q002",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Lower Slopes",
+      "timestamp": "2026-01-18T03:29:34.639Z",
+      "response": "*A contemplative tone emerges, rich with the authority of countless planetary surveys*\n\nBetween 500 and 900 meters, the Lower Slopes of Mount Salbarii transform from gentle terrain into a dramatically steep challenge. This segment is not a casual walk, but a calculated navigation through intricate pathways that wind around imposing rock faces.\n\nThe gradient here demands respect. Each meter is a strategic decision - direct climbers might choose vertical ascents to save time, but such choices carry inherent risks. The terrain speaks a language of geological complexity: sharp inclines, loose scree, intermittent volcanic rubble that can shift treacherously underfoot.\n\nNavigation requires more than physical strength. You'll need route-finding skill, an understanding of the mountain's subtle topographical language. Sharp-angled switchbacks are your primary route, offering marginally safer passage than direct vertical approaches. Rock formations here are predominantly volcanic basalt - fractured, sometimes unstable, with surfaces that can crumble without warning.\n\nThe thin atmosphere begins to make its presence known at these altitudes. Breath becomes more deliberate, movements more calculated. Each step is not just a physical progression, but a negotiation with the mountain's unforgiving landscape.\n\n*A pause, then a final, measured observation*\n\nIn the Lower Slopes, the mountain does not simply present a path - it offers a challenge. And your response defines your journey.",
+      "error": null,
+      "fact_id": "EXT_MC_STA_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "climb"
+      ],
+      "expected_missing": [
+        "900m"
+      ],
+      "failure_found": [],
+      "details": "Found 1/2 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q003",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Middle Ascent",
+      "timestamp": "2026-01-18T03:29:43.102Z",
+      "response": "*The narrator's voice rises, measured and precise, carrying the crisp authority of countless planetary survey reports*\n\nAt 1100 meters, the Middle Ascent becomes a subtle crucible of human endurance. Here, the mountain does not merely present a physical route, but a living challenge that tests your body's fundamental adaptation mechanisms. The air grows thin - approximately 15% oxygen concentration, compared to standard planetary norms. Each breath requires deliberate effort, each step a negotiation with diminishing atmospheric support.\n\nThe terrain transitions from the lower slopes' complex winding paths to more exposed rocky surfaces. Vegetation becomes sparse - hardy lichens and occasional wind-stunted shrubs mark your passage. Temperature fluctuations are dramatic; daytime temperatures might reach 12°C, while nightfall can plummet to -5°C within hours.\n\nAltitude sickness becomes a genuine risk here. Even seasoned mountaineers can find themselves battling headaches, slight disorientation, and reduced physical performance. The body's acclimatization is not instantaneous - it's a gradual process of metabolic recalibration.\n\nMountaineering protocols are essential. Maintain a steady, measured pace. Hydration is critical. Supplemental oxygen becomes increasingly advisable. This is not merely a climb - it's a systematic, calculated ascent where your margin of safety depends entirely on technical skill, physiological awareness, and disciplined decision-making.\n\n*A subtle pause, then*\n\nChoose your path carefully. The mountain is always listening.",
+      "error": null,
+      "fact_id": "EXT_MC_STA_002",
+      "verdict": "PASS",
+      "expected_found": [
+        "altitude",
+        "sickness"
+      ],
+      "expected_missing": [
+        "1100m"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q004",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Upper Slopes",
+      "timestamp": "2026-01-18T03:29:52.342Z",
+      "response": "*A measured, authoritative voice emerges, tinged with the careful observation of a seasoned planetary surveyor*\n\nThe Upper Slopes of Mount Salbarii begin at approximately 1000 meters and extend to the crater lip at 1400 meters. This segment represents the most technically challenging portion of the mountain's ascent - a near-vertical terrain of fractured volcanic rock and unstable geological formations.\n\nHere, the landscape transitions from rugged incline to a near-vertical challenge. Basaltic formations create unpredictable handholds, with sections of loose scree that can trigger sudden micro-landslides. The thin atmosphere becomes dramatically more pronounced, with oxygen levels dropping to approximately 60% of sea-level concentrations. Respiratory protection isn't just recommended - it's critically essential.\n\nThermal sensors indicate periodic heat signatures suggesting ongoing magmatic activity beneath the surface. These zones require extreme caution; what appears to be stable ground might conceal hidden thermal vents or potentially unstable substrate. The Final Ascent segment, particularly between 1200-1400 meters, demands technical climbing skills, specialized equipment, and a methodical approach.\n\n*A subtle pause, then a note of professional warning*\n\nAny survey team attempting these Upper Slopes must be equipped with high-altitude respiratory gear, geological scanning equipment, and a comprehensive understanding of volcanic terrain mechanics. This is not a casual expedition, but a precision scientific undertaking with substantial environmental risks.",
+      "error": null,
+      "fact_id": "EXT_MC_STA_003",
+      "verdict": "PASS",
+      "expected_found": [
+        "altitude"
+      ],
+      "expected_missing": [
+        "1200m"
+      ],
+      "failure_found": [],
+      "details": "Found 1/2 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q005",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Scramble Zone",
+      "timestamp": "2026-01-18T03:30:01.352Z",
+      "response": "*A measured, analytical tone emerges, crisp with professional detachment*\n\nThe Scramble Zone represents the terrain between 300-500 meters on Mount Salbarii's lower slopes, a critical transitional area where geological complexity increases dramatically. Here, the relatively stable lower ground gives way to more treacherous conditions, demanding heightened navigational skill and careful route selection.\n\nGeologically, the Scramble Zone is characterized by unstable scree fields, fractured basalt formations, and intermittent lava remnants from previous volcanic events. The terrain is not uniformly steep, but punctuated by sudden elevation changes and loose rock surfaces that require methodical movement. A misstep here could trigger minor rockslides or result in dangerous slips.\n\nAtmospheric conditions in this zone begin to thin noticeably. Oxygen levels drop perceptibly, and temperature variations become more extreme. Travelers must be prepared with appropriate respiratory protection and layered thermal gear. Wind patterns become less predictable, occasionally channeling through narrow rock formations with surprising intensity.\n\nFor our Mount Salbarii survey team, the Scramble Zone represents more than a geographical feature - it's a critical threshold between relatively safe approach and serious mountaineering challenge. Careful route selection and constant geological awareness are not merely recommended, but essential for safe progression.\n\n*The narrator's tone remains clinical, but carries an underlying current of respect for the landscape's inherent complexity*",
+      "error": null,
+      "fact_id": "EXT_MC_STA_004",
+      "verdict": "WARN",
+      "expected_found": [
+        "scramble"
+      ],
+      "expected_missing": [
+        "1350m",
+        "hazard"
+      ],
+      "failure_found": [],
+      "details": "Only 1/3 expected keywords found",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q006",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Final Ascent",
+      "timestamp": "2026-01-18T03:30:09.945Z",
+      "response": "*The narrator's voice emerges, crisp and professional, with an underlying tension that speaks to the mountain's inherent danger*\n\nThe Final Ascent of Mount Salbarii is not merely a climb - it is a vertical challenge that demands absolute technical mastery. From the 1000m mark to the crater lip at 1400m, you're confronting a near-vertical rock face that transforms mountain travel from mere movement into a precise, life-or-death choreography.\n\nEach meter is a calculated risk. The gradient is punishingly steep - almost sheer in sections - requiring not just physical strength, but technical climbing skills. Your equipment becomes your lifeline: specialized pitons, climbing harnesses, redundant safety lines. One miscalculation here means a potentially fatal fall across jagged volcanic rock formations.\n\nThe geological instability adds another layer of complexity. This isn't just about climbing technique, but reading the mountain's volatile temperament. Loose scree, potential steam vents, the underlying threat of volcanic activity - these aren't theoretical risks, but immediate environmental variables that could shift catastrophically at any moment.\n\n*A slight pause, the narrator's tone becoming subtly more intense*\n\nThis is where your survey mission transforms from scientific observation to pure survival. The crater rim isn't just a destination - it's a razor's edge between mission success and potential geological catastrophe.\n\nProceed with extreme caution.",
+      "error": null,
+      "fact_id": "EXT_MC_STA_005",
+      "verdict": "PASS",
+      "expected_found": [
+        "1400m",
+        "crater"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 2/2 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q007",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "Describe Crater Descent",
+      "timestamp": "2026-01-18T03:30:18.379Z",
+      "response": "*The Narrator's voice emerges, calm and precise, with an undertone of professional caution*\n\nThe Crater Descent represents the most technically challenging phase of the Mount Salbarii survey. From the crater lip at 1400m, you're confronting a near-vertical geological environment where every movement requires calculated precision. \n\nTechnically, this descent involves a 300-meter vertical drop with multiple geological strata exposing volcanic rock layers - basaltic formations predominantly, with potential pyroclastic evidence from previous eruptions. The terrain is unstable, with loose scree and potential thermal vents creating additional environmental complexity.\n\nCritical equipment requirements include:\n- High-tensile climbing gear\n- Respirators rated for potential sulfur dioxide emissions\n- Thermal-resistant outer layers\n- Multi-spectrum geological scanning equipment\n- Redundant communication systems\n\nThe descent is not merely a physical challenge, but a scientific opportunity. Each meter offers potential geological data about Mount Salbarii's volcanic history. However, the ongoing pressure buildup we've detected means this is also a time-critical operation. The volcano is not dormant - it's preparing to communicate its own geological narrative, potentially with explosive emphasis.\n\n*A pause, then with a hint of professional understatement*\n\nPrudence and speed are equally essential companions on this descent.",
+      "error": null,
+      "fact_id": "EXT_MC_STA_006",
+      "verdict": "PASS",
+      "expected_found": [
+        "crater",
+        "climb",
+        "descent"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 3/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q008",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What are the effects of altitude sickness?",
+      "timestamp": "2026-01-18T03:30:27.203Z",
+      "response": "*The Narrator's voice emerges, rich with the clinical precision of countless planetary expedition logs*\n\nAltitude sickness emerges as a precise physiological response to reduced atmospheric pressure and oxygen levels. On Mount Salbarii, where the ascent begins challenging human adaptation around 1100 meters, the effects manifest systematically:\n\nInitial Stage (Mild Symptoms):\n- Headache, typically a dull, persistent pressure\n- Fatigue and weakness\n- Slight dizziness\n- Reduced appetite\n- Disrupted sleep patterns\n\nModerate Stage:\n- More intense headaches\n- Nausea and potential vomiting\n- Increased respiratory rate\n- Decreased coordination\n- Potential confusion or mild cognitive impairment\n\nSevere Stage (High Altitude Pulmonary/Cerebral Edema):\n- Significant breathing difficulty\n- Chest congestion\n- Potential blue-tinged skin coloration\n- Potential loss of consciousness\n- Risk of fatal fluid accumulation in lungs or brain\n\nOn Walston's thin atmosphere, with its challenging mountainous terrain, travelers must ascend gradually, remain hydrated, and recognize early warning signs. Rapid ascent invites physiological crisis - the mountain does not forgive human hubris.\n\n*A measured pause, then a clinical concluding note*\n\nPreparedness is survival.",
+      "error": null,
+      "fact_id": "EXT_MC_ALT_000",
+      "verdict": "PASS",
+      "expected_found": [
+        "altitude",
+        "sickness"
+      ],
+      "expected_missing": [
+        "dm-2"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q009",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What are the effects of altitude sickness?",
+      "timestamp": "2026-01-18T03:30:34.499Z",
+      "response": "*The Narrator's voice emerges, calm and clinical, with a hint of mountaineering expertise*\n\nAltitude sickness, or Acute Mountain Syndrome, emerges as a physiological response to rapid ascent into environments with diminishing oxygen pressure. On Mount Salbarii, where our elevations range from 500 to 1400 meters, the risk becomes particularly pronounced above 1100 meters - what we call the Middle Ascent zone.\n\nThe progression is systematic and potentially dangerous:\n\nInitial Symptoms (500-1000m):\n- Mild headache\n- Slight fatigue\n- Reduced physical performance\n- Mild shortness of breath\n\nModerate Altitude Effects (1100-1300m):\n- Significant headache\n- Nausea\n- Dizziness\n- Decreased cognitive function\n- Potential disorientation\n- Reduced decision-making capacity\n\nSevere Altitude Sickness (1300-1400m):\n- Pulmonary edema risk\n- Potential cerebral swelling\n- Extreme fatigue\n- Potentially life-threatening respiratory complications\n- Risk of unconsciousness within minutes without intervention\n\nPreventative Measures:\n- Slow, deliberate ascent\n- Proper acclimatization\n- Supplemental oxygen\n- Hydration\n- Respiratory protection\n\n*The voice grows slightly more pointed*\n\nOn Walston, with its thin atmosphere, these risks are not theoretical. They are geological reality.",
+      "error": null,
+      "fact_id": "EXT_MC_ALT_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "altitude",
+        "sickness"
+      ],
+      "expected_missing": [
+        "dm-4"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q010",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What are the effects of altitude sickness?",
+      "timestamp": "2026-01-18T03:30:41.946Z",
+      "response": "*The Narrator's voice emerges, measured and clinical, with an undertone of experienced caution*\n\nAltitude sickness on Walston, particularly around Mount Salbarii, is a potentially severe physiological response to rapid ascent into thin atmospheric conditions. At the 1100-meter Middle Ascent zone, symptoms typically manifest progressively:\n\nInitial Stage (Mild Hypoxia):\n- Headache, often described as persistent and pressure-like\n- Fatigue disproportionate to physical exertion\n- Slight dizziness\n- Reduced mental acuity\n- Decreased appetite\n\nAdvanced Stage (Moderate Altitude Stress):\n- Shortness of breath, even during minimal movement\n- Increased heart rate\n- Potential nausea\n- Impaired coordination\n- Possible mild confusion\n\nCritical Stage (Severe Altitude Sickness):\n- Significant respiratory distress\n- Potential cerebral edema\n- Risk of rapid unconsciousness\n- Potential pulmonary complications\n\nOur survey team's recommendation: Ascend slowly, use supplemental oxygen, maintain hydration, and monitor individual physiological responses. The mountain does not forgive hasty or unprepared travelers.\n\n*A subtle mechanical hiss punctuates the final statement, reminiscent of an environmental systems warning*",
+      "error": null,
+      "fact_id": "EXT_MC_ALT_002",
+      "verdict": "PASS",
+      "expected_found": [
+        "altitude",
+        "sickness"
+      ],
+      "expected_missing": [
+        "dm-6"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q011",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What checks are required for PC chooses to climb shortcut?",
+      "timestamp": "2026-01-18T03:30:48.900Z",
+      "response": "*The Narrator's voice emerges, crisp and authoritative, with an undertone of mountaineering expertise*\n\nFor a shortcut through the Lower Slopes between 500-900m, a climber must pass three critical skill checks:\n\n1. Athletics (Difficult, -2 modifier):\n- Confirms physical capacity to manage steep terrain\n- Represents strength and agility for technical climbing\n- Failure risks potential injury or significant time loss\n\n2. Survival (Difficult, -2 modifier):\n- Tests ability to read terrain and choose optimal route\n- Evaluates risk assessment against potential geological hazards\n- Failure might expose climber to unexpected rock instability or gas venting zones\n\n3. Mountaineering/Technical Climbing (Average difficulty):\n- Verifies specific climbing technique\n- Checks equipment readiness and proper use of climbing gear\n- Failure could mean dangerous slips or compromised route selection\n\n*A pause, then a precise addendum*\n\nAdditional environmental considerations: Thin atmosphere at this altitude introduces oxygen depletion risks. Filter masks are mandatory. Each failed check increases potential exposure time, accelerating hypoxia risk.\n\nRecommended preparation: Multi-spectrum atmospheric sensors, high-altitude climbing equipment, emergency oxygen reserves.\n\n*The voice carries a clinical, matter-of-fact tone - part warning, part professional assessment*\n\nChoose wisely. The mountain does not forgive mistakes.",
+      "error": null,
+      "fact_id": "EXT_MC_SKI_000",
+      "verdict": "PASS",
+      "expected_found": [
+        "climb"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 1/1 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q012",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What checks are required for Party pushes pace above 900m?",
+      "timestamp": "2026-01-18T03:30:57.285Z",
+      "response": "*The Narrator's voice emerges, crisp and authoritative, laden with the precision of countless mountain expeditions*\n\nAt 900 meters, mountain ascent becomes a critical physiological challenge. Mandatory pre-push checks include:\n\n1. Oxygen Saturation Screening\n- Mandatory pulse oximetry test\n- Must maintain 90% blood oxygen level minimum\n- Any reading below 88% requires mandatory acclimatization halt\n\n2. Personal Equipment Verification\n- Sealed respiratory filters\n- Active atmospheric composition sensor\n- Minimum two hours emergency oxygen reserve\n- High-altitude thermal layering\n\n3. Physical Assessment Checklist\n- Resting pulse rate\n- Blood pressure\n- Hydration status\n- No signs of acute mountain sickness\n- Verify each team member's individual adaptation threshold\n\n4. Environmental Monitoring\n- Continuous atmospheric gas mix analysis\n- Wind speed and directional tracking\n- Thermal gradient assessment\n- Active volcanic emission sensor readings\n\nThe Final Ascent between 1000-1400 meters is unforgiving. A single overlooked detail can transform a scientific expedition into a survival scenario. Pushing beyond 900 meters demands absolute discipline and methodical preparation.\n\n*A pause, then a final, pointed observation*\n\nThe mountain does not negotiate. It simply waits to test your preparedness.",
+      "error": null,
+      "fact_id": "EXT_MC_SKI_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "altitude",
+        "sickness"
+      ],
+      "expected_missing": [
+        "900m",
+        "climb"
+      ],
+      "failure_found": [],
+      "details": "Found 2/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q013",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What checks are required for Party reaches 1200m?",
+      "timestamp": "2026-01-18T03:31:05.281Z",
+      "response": "*The voice emerges, clinical yet slightly ominous - the tone of one who has witnessed many mountain expeditions*\n\nAt 1100m, entering the Middle Ascent zone, your party requires strict physiological and equipment checks:\n\nMandatory Personal Assessments:\n- Oxygen saturation levels (must remain above 90%)\n- Blood pressure monitoring\n- Altitude sickness symptom check\n- Respiratory rate tracking\n- Hydration status verification\n\nCritical Equipment Checks:\n- Supplemental oxygen systems fully charged\n- Multi-spectrum atmospheric sensors calibrated\n- Filter masks with redundant filtration layers\n- Emergency descent gear functional\n- Thermal insulation layers intact\n\nEnvironmental Risk Factors at 1200m:\n- Oxygen concentration drops to approximately 65% of sea level\n- Potential for rapid onset hypoxia increases exponentially\n- Wind chill factor becomes significant\n- Potential for micro-fissure gas venting rises\n\n*A precise pause, then a clinical addendum*\n\nOne miscalculation here means potential unconsciousness within minutes. Mount Salbarii does not forgive mistakes. Preparation is survival.\n\nWould you like me to elaborate on any specific check protocol?",
+      "error": null,
+      "fact_id": "EXT_MC_SKI_002",
+      "verdict": "PASS",
+      "expected_found": [
+        "1200m",
+        "altitude",
+        "sickness"
+      ],
+      "expected_missing": [
+        "climb"
+      ],
+      "failure_found": [],
+      "details": "Found 3/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q014",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What checks are required for Scrambling through 1200-1350m zone?",
+      "timestamp": "2026-01-18T03:31:12.252Z",
+      "response": "*The narrator's voice emerges, measured and precise, tinged with the clinical detachment of a seasoned survey professional*\n\nAt this altitude and terrain complexity, the 1200-1350m zone demands rigorous pre-movement checks. Specifically:\n\nPhysical Readiness Assessment:\n- Oxygen saturation check (minimum 92%)\n- Hydration status verification\n- Respiratory rate monitoring\n- Quick pulse and altitude acclimatization test\n\nEquipment Verification:\n- Sealed respirator/filter mask rated for thin atmosphere\n- Thermal protective layer\n- Geological survey instruments calibrated for volcanic gas detection\n- Emergency locator beacon functional\n- Minimum 3-hour emergency oxygen reserve\n- Climbing harness and safety lines rated for near-vertical terrain\n\nEnvironmental Pre-Scan:\n- Thermal gradient mapping\n- Gas emission spectrum analysis\n- Ground stability assessment\n- Active volcanic vent proximity evaluation\n\nRecommended team composition: Minimum two climbers, one technical specialist, one medical professional. Solo traversal is NOT recommended in this zone.\n\n*A subtle pause, then a final note of caution*\n\nRemember: At 1200m, this mountain does not forgive casual preparation. Every check is between you and survival.",
+      "error": null,
+      "fact_id": "EXT_MC_SKI_003",
+      "verdict": "PASS",
+      "expected_found": [
+        "1350m",
+        "climb"
+      ],
+      "expected_missing": [
+        "scramble"
+      ],
+      "failure_found": [],
+      "details": "Found 2/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q015",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What checks are required for Final ascent to crater lip?",
+      "timestamp": "2026-01-18T03:31:19.943Z",
+      "response": "*The narrator's voice emerges, measured and precise, carrying the weight of countless mountain expeditions*\n\nFor the Final Ascent to Mount Salbarii's crater lip, three critical pre-climb checks are mandatory:\n\n1. Personal Equipment Verification:\n- Full respirator with volcanic particulate filter\n- High-altitude climbing harness\n- Impact-resistant helmet\n- Sealed environmental suit rated for 1400m thin atmosphere\n- Minimum two oxygen reserve tanks\n- Thermal-resistant gloves with climbing grip\n\n2. Technical Climbing Readiness:\n- Rope integrity check: minimum 11mm static climbing rope\n- Piton and anchor verification - no micro-fractures\n- Climbing hardware rated for +60° gradient\n- Emergency grapnel and secondary descent line\n- Geological survey equipment secured and sealed\n\n3. Physiological Preparedness:\n- Blood oxygen saturation minimum 92%\n- Current altitude acclimatization at 1100m for minimum 6 hours\n- Resting heart rate below 100 bpm\n- No signs of mountain sickness\n- Hydration levels at optimal performance\n- Emergency medical kit with altitude sickness countermeasures\n\n*The voice becomes subtly ominous* \n\nRemember: Mount Salbarii does not forgive mistakes. Each check could mean life or death at 1400 meters.",
+      "error": null,
+      "fact_id": "EXT_MC_SKI_004",
+      "verdict": "PASS",
+      "expected_found": [
+        "altitude",
+        "crater",
+        "sickness",
+        "climb"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 4/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q016",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What checks are required for Descending into crater?",
+      "timestamp": "2026-01-18T03:31:28.344Z",
+      "response": "*The narrator's voice emerges, measured and precise, with the careful tone of a seasoned scout service veteran*\n\nDescending into Mount Salbarii's crater demands rigorous preparation and systematic safety checks. Critical requirements include:\n\nEnvironmental Checks:\n- Full respirator with multi-spectrum gas filter\n- Atmospheric composition sensor\n- Thermal-resistant jumpsuit rated to 150°C\n- High-altitude/volcanic environment survival pack\n- Emergency oxygen reserve (minimum 3-hour capacity)\n\nTechnical Equipment:\n- Geologic stability scanner\n- Thermal gradient mapper\n- Rope/climbing gear rated for volcanic terrain\n- Seismic activity monitor\n- GPS/Positioning beacon with emergency transponder\n\nPersonal Readiness:\n- Oxygen saturation above 95%\n- Acclimatization at current altitude for minimum 4 hours\n- Physical fitness assessment\n- Psychological readiness verification\n- Communication link with surface team\n\n*Voice drops slightly, becoming more intense*\n\nRemember: This is not a casual expedition. Mount Salbarii is actively preparing to erupt. Every check is survival-critical. One miscalculation means potential death. The mountain does not forgive mistakes.\n\n*A pause, then a final, clinical observation*\n\nRecommended team size: 3-4 trained personnel. Solo descent is not recommended.",
+      "error": null,
+      "fact_id": "EXT_MC_SKI_005",
+      "verdict": "PASS",
+      "expected_found": [
+        "crater",
+        "climb",
+        "descent"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 3/3 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q017",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:31:36.422Z",
+      "response": "*A measured, professional tone emerges, tinged with the clinical assessment of a seasoned scout service narrator*\n\nThe High and Dry's current state is a technical challenge, but not an insurmountable one. Her primary issue is power - the power plant is completely offline, with fuel cells depleted. Without those fuel reserves, she's essentially a cold, dormant hull against the rocky Walstonian landscape.\n\nSpecifically, she requires:\n- Power plant reactivation\n- Fuel cell replenishment\n- Circuit block replacement\n- System calibration\n\nHer jump drive remains fundamentally operational - just needing precise technical adjustment. Life support systems are intact but powered down, likely resettable with careful engineering. The hull shows volcanic debris scoring, but her structural integrity is uncompromised.\n\nThink of her as a sleeping vessel, waiting for skilled hands to restore her to operational status. The technical challenges are significant but not fatal. A competent repair team could likely return her to flight-worthy condition within a calculated timeframe.\n\n*A subtle undertone of professional pride accompanies the assessment - this is a scout vessel, after all, designed to endure precisely these kinds of planetary challenges*\n\nWould you like me to elaborate on any specific system's condition?",
+      "error": null,
+      "fact_id": "EXT_FTS_SHI_000",
+      "verdict": "PASS",
+      "expected_found": [
+        "volcanic"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 1/1 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q018",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:31:43.678Z",
+      "response": "*A measured, professional tone emerges, clinical yet not without a hint of professional concern*\n\nThe High and Dry is currently disabled, but not irreparably so. Her primary issue is a complete power plant shutdown - her fuel cells are entirely depleted. Without power, her critical systems are offline: life support is dark, navigation is unresponsive, and her environmental controls are silent.\n\nCircuit blocks will need replacement, and a comprehensive systems recalibration is mandatory. The jump drive remains fundamentally sound - operational, but requiring precise technical adjustment. Her exterior bears the scoring of volcanic debris, but structurally, she remains intact.\n\nThe ship isn't dead; she's simply... waiting. Waiting for competent hands to restore her to operational status. Her hull whispers of resilience, of survived challenges. A few targeted repairs, some fresh power cells, careful system diagnostics - and she'll be prepared to leap between stars once more.\n\n*A pause, then with a touch of dry understatement*\n\nShe just needs someone who understands scout vessel mechanics and isn't intimidated by a challenge. The High and Dry isn't broken. She's merely... paused.",
+      "error": null,
+      "fact_id": "EXT_FTS_SHI_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "offline",
+        "depleted",
+        "fuel",
+        "power"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 4/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q019",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:31:50.843Z",
+      "response": "*The narration begins, a measured professional tone conveying technical precision*\n\nAh, the High and Dry. Our scout vessel is... challenged, but not defeated. Her primary issues are straightforward: the power plant is completely depleted - fuel cells empty, systems cold and dark. Her jump drive is technically intact but requires careful calibration. Life support is offline, though the core infrastructure suggests a relatively simple reset is possible.\n\n*A hint of professional pride enters the voice*\n\nStructurally, she's sound. Her hull bears volcanic scoring from this harsh environment - scars that speak to her resilience. She's taken a beating, but her fundamental integrity remains uncompromised. Circuit blocks will need replacing, systems recalibrating, but she can fly again. \n\n*A pause, then clinically*\n\nPriority tasks: restore power plant, calibrate jump drive, reset life support systems. A competent engineering team could resurrect her within days. She's not destroyed - merely... dormant. Waiting for skilled hands to breathe technological life back into her heart.\n\n*The narration carries an undertone of confidence: this ship will fly again*",
+      "error": null,
+      "fact_id": "EXT_FTS_SHI_002",
+      "verdict": "WARN",
+      "expected_found": [
+        "power"
+      ],
+      "expected_missing": [
+        "functional",
+        "maneuver"
+      ],
+      "failure_found": [],
+      "details": "Only 1/3 expected keywords found",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q020",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:31:57.698Z",
+      "response": "*The Narrator's voice emerges, measured and clinical*\n\nThe Highndry sits disabled, but not destroyed. Her primary issues are systematic and repairable. The power plant is completely depleted - her fuel cells have run dry, leaving her essentially a cold, inert shell against the volcanic mountainside. Circuit blocks need replacement, and her systems require comprehensive calibration.\n\nCritically, her core systems remain fundamentally sound. The jump drive is operationally intact, just requiring precise technical adjustment. Life support infrastructure is present and potentially recoverable with careful reset procedures. Her hull bears the scars of volcanic environment exposure - scoring and etching from debris - but her structural integrity remains uncompromised.\n\nThink of her like a sleeping machine, waiting for skilled hands to reawaken her systems. She's not destroyed, merely... dormant. The technical challenges are significant but not insurmountable for a competent crew. She's a scout vessel designed to endure harsh planetary conditions, and right now, she's waiting to be restored to her full potential.\n\n*A slight pause, then with a hint of professional admiration*\n\nShe just needs the right touch to breathe technological life back into her heart.",
+      "error": null,
+      "fact_id": "EXT_FTS_SHI_003",
+      "verdict": "PASS",
+      "expected_found": [
+        "operational"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 1/1 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q021",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:32:05.118Z",
+      "response": "*A measured, professional tone emerges, the voice of an experienced Scout Service narrator*\n\nThe Highndry bears the marks of a challenging abandonment. Her primary systems are disabled but not destroyed. The power plant is completely offline - fuel cells depleted, leaving her a cold, dark shell against the rocky landscape. Her circuit blocks will need replacing, and critical systems require careful calibration.\n\nSpecifically, her life support is offline, though the core infrastructure remains intact. An experienced engineer could likely reset these systems without extensive replacement. The jump drive is operational but needs precise technical adjustment - she's not ready for interstellar transit, but she's not beyond repair.\n\nThe external hull shows scoring from volcanic debris, battle scars that speak to her resilience. She's structurally sound, just... dormant. Waiting for a competent crew to breathe technological life back into her systems.\n\nThis is not a ship destroyed, but a ship temporarily defeated - and the Scout Service knows that with the right skills, patience, and determination, the Highndry can fly again. Her fundamental integrity remains uncompromised. She just needs someone who understands her, who can coax her back to readiness.\n\n*A subtle hint of pride enters the narrator's voice* She's waiting for her new crew.",
+      "error": null,
+      "fact_id": "EXT_FTS_SHI_004",
+      "verdict": "PASS",
+      "expected_found": [
+        "offline",
+        "intact"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 2/2 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q022",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:32:12.639Z",
+      "response": "*A measured, professional tone emerges, clinical yet not without a hint of professional pride*\n\nThe High and Dry is essentially powered down, but not critically damaged. Her primary issues are systemic but recoverable. The power plant is completely offline, with fuel cells fully depleted - she's essentially a cold, dark vessel resting against the volcanic terrain. Circuit blocks need replacing, and all systems require careful recalibration.\n\nThe life support systems are intact but inactive - they'll need a methodical reset. The jump drive itself is operational, just requiring precise technical adjustment. Her hull bears the scars of volcanic environment exposure - scoring and etching from debris, but structurally sound.\n\nIn short, she's not destroyed, merely dormant. She needs skilled hands to restore her to operational status. A competent engineering team could likely bring her back to flight-ready condition with careful, systematic work. The ship has survived worse - these are technical challenges, not fatal wounds.\n\n*A subtle undertone suggests both professional assessment and underlying respect for the vessel*\n\nWould you like me to elaborate on any specific system's condition?",
+      "error": null,
+      "fact_id": "EXT_FTS_REP_000",
+      "verdict": "PASS",
+      "expected_found": [
+        "fuel"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 1/1 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q023",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:32:19.723Z",
+      "response": "*A measured, professional tone emerges, the voice of someone intimately familiar with scout vessel diagnostics*\n\nThe High and Dry requires several critical repairs. Her power plant is completely offline, with fuel cells fully depleted - essentially rendering her a cold, lifeless hull against the rocky Walston landscape. While her jump drive remains fundamentally operational, it demands precise calibration after the volcanic encounter. Life support systems are offline but structurally intact, suggesting a potential reset rather than full replacement.\n\nCircuit blocks need replacing throughout her systems, and comprehensive calibration is essential. Her exterior bears volcanic scoring - visual evidence of her challenging environment - but her fundamental structural integrity remains sound. \n\nShe's disabled, not destroyed. With skilled technical intervention, the High and Dry can fly again. The circuits, power restoration, and careful recalibration are the key challenges. Her core systems whisper potential, waiting for competent hands to restore her to full functionality.\n\n*A subtle undertone of pride emerges* She's a Scout Service vessel, after all. Designed to endure precisely these kinds of planetary challenges. She just needs... careful attention.\n\nWould you like me to elaborate on any specific system's current status?",
+      "error": null,
+      "fact_id": "EXT_FTS_REP_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "power"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 1/1 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q024",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What's wrong with the ship?",
+      "timestamp": "2026-01-18T03:32:26.826Z",
+      "response": "*A measured, professional tone emerges - the voice of a seasoned scout service narrator*\n\nThe Highndry is disabled, but not destroyed. Her primary issue is a complete power plant failure, with fuel cells entirely depleted. This means all critical systems are offline - life support is shut down, and while her jump drive remains fundamentally intact, she cannot currently operate.\n\nCircuit blocks need systematic replacement, and every system requires careful recalibration. She'll need a comprehensive technical restoration. The exterior hull bears volcanic debris scoring, evidence of her challenging environment, but structurally she remains sound.\n\n*A hint of professional pride enters the narrative*\n\nThis is not terminal damage. With skilled engineers and careful work, the Highndry can fly again. Her fundamental integrity is uncompromised - she's a scout vessel designed to endure precisely these kinds of harsh planetary conditions. What she needs now is attention, expertise, and a restoration of her essential power systems.\n\n*The voice grows slightly wry*\n\nThink of her as sleeping, not dead. Just waiting for the right hands to wake her back to life.\n\nWould you like me to elaborate on any specific system's condition?",
+      "error": null,
+      "fact_id": "EXT_FTS_REP_002",
+      "verdict": "PASS",
+      "expected_found": [
+        "jump drive"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 1/1 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q025",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What dangers should I watch for?",
+      "timestamp": "2026-01-18T03:32:34.208Z",
+      "response": "*A deep, measured voice emerges, carrying the tone of a seasoned expedition narrator*\n\nListen carefully. On Walston, danger is not a single threat, but a layered challenge that demands constant vigilance.\n\nFirst, the environment itself is your primary adversary. The thin atmosphere becomes increasingly treacherous as you ascend Mount Salbarii. Above 800 meters, oxygen levels drop precipitously. Without proper respiratory protection, you'll risk hypoxia - unconsciousness can strike within minutes. Your filter mask is not a luxury, but a lifeline.\n\nVolcanic hazards are ever-present. Silent gas vents can emerge unpredictably from fissures and crater edges. These are colorless, odorless killers that multi-spectrum sensors are your only defense against. The mountain is not dormant, but a breathing, unpredictable entity.\n\nThen there's Tensher's Wolf - a feral predator left behind by the previous expedition. Large, hungry, potentially tameable but currently dangerous. It roams near the Highndry's crash site, a reminder that biological threats complement geological ones.\n\nLegally, you must navigate Walston's strict weapons control. Law Level 8 means any undeclared weapon risks severe consequences. Customs will thoroughly inspect all equipment. One mistake could terminate your entire mission before it begins.\n\nAnd underlying all: the impending volcanic eruption. Mount Salbarii is not sleeping, but building pressure. Your survey might be the thin line between preparation and catastrophe.\n\n*The voice drops to a portentous whisper*\n\nChoose wisely. On this world, survival is not guaranteed - it is earned.",
+      "error": null,
+      "fact_id": "EXT_FTS_HAZ_000",
+      "verdict": "PASS",
+      "expected_found": [
+        "thin atmosphere"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 1/1 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "GEN_Q026",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What dangers should I watch for?",
+      "timestamp": "2026-01-18T03:32:43.383Z",
+      "response": "*A deep, measured voice emerges, tinged with the careful precision of a Scout Service veteran*\n\nListen carefully. This world of Walston is not to be underestimated. Your primary hazards come in layers, each more treacherous than the last.\n\nFirst, the atmosphere itself is your initial threat. Thin and unforgiving, oxygen levels drop dramatically above 800 meters. Without proper respiratory protection, you'll experience hypoxia within minutes. Filter masks aren't optional - they're survival equipment.\n\nThe volcano presents multiple dangers. Mount Salbarii isn't merely a geological feature - it's a ticking time bomb. We've confirmed it's building pressure, with periodic gas venting from hidden fissures. These gas releases are silent, colorless, potentially toxic. Carry multi-spectrum atmospheric sensors and treat every geological anomaly with profound respect.\n\nWildlife presents another challenge. Tensher's Wolf roams the mountain - a feral predator left behind by the previous crew. Large, potentially hungry, but not necessarily unmanageable if approached with caution and intelligence.\n\nThen there's human complexity. Walston operates at Law Level 8 - weapons are strictly controlled. Bring anything beyond a 10cm blade, and you'll be processing paperwork at the starport safebox, presuming they don't arrest you outright.\n\n*The voice grows slightly harder*\n\nBut your greatest danger? Overconfidence. This mission demands precision, adaptability, and the humility to recognize when the mountain - or the situation - is teaching you something.\n\nProceed with caution. Proceed with respect.\n\n*A brief, knowing pause*\n\nAny questions?",
+      "error": null,
+      "fact_id": "EXT_FTS_HAZ_001",
+      "verdict": "FAIL",
+      "expected_found": [],
+      "expected_missing": [
+        "volcanic"
+      ],
+      "failure_found": [],
+      "details": "None of expected keywords found: volcanic",
+      "suggested_patch": {
+        "field": "knowledge_base.general_knowledge",
+        "value": "Environmental hazard: Volcanic gases - periodic venting",
+        "keywords_to_include": [
+          "volcanic"
+        ],
+        "reason": "None of expected keywords found: volcanic"
+      }
+    },
+    {
+      "query_id": "GEN_Q027",
+      "npc_id": "narrator-high-and-dry",
+      "query_text": "What dangers should I watch for?",
+      "timestamp": "2026-01-18T03:32:52.982Z",
+      "response": "*A calm, precise voice emerges, carrying the weight of countless planetary expeditions*\n\nListen carefully. Walston is not a world to be taken lightly. \n\nYour primary hazards are environmental and geological. First, the atmosphere - thin and treacherous. Above 800 meters, oxygen drops rapidly. Without proper filter masks, you'll experience hypoxia within minutes. Death comes silently here, disguised as simple exhaustion.\n\nMount Salbarii herself is your most immediate threat. She is not dormant, but building pressure - a geological time bomb. The volcano's slopes are a labyrinth of hazards: steep rock faces between 500-900 meters demand expert navigation. The Final Ascent from 1000 to 1400 meters is virtually vertical, requiring technical climbing skills and absolute concentration.\n\nBiological risks include Tensher's Wolf - a feral predator left behind by the previous crew. Potentially tameable, but currently hungry and unpredictable.\n\nPolitical dangers exist too. Walston is Law Level 8 - weapons are strictly controlled. Customs will confiscate any blade over 10cm or firearm. Attempt to smuggle, and you'll face severe consequences.\n\nAnd always watch for volcanic gas vents - silent, deadly exhalations that can emerge without warning from mountain fissures.\n\n*A pause, then softly* Choose wisely. The mountain does not forgive mistakes.",
+      "error": null,
+      "fact_id": "EXT_FTS_HAZ_002",
+      "verdict": "PASS",
+      "expected_found": [],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "No specific keywords required",
+      "suggested_patch": null
+    }
+  ],
+  "summary": {
+    "total": 33,
+    "pass": 28,
+    "fail": 1,
+    "warn": 4
+  },
+  "patches": [
+    {
+      "npc_id": "narrator-high-and-dry",
+      "query_id": "GEN_Q026",
+      "fact_id": "EXT_FTS_HAZ_001",
+      "field": "knowledge_base.general_knowledge",
+      "value": "Environmental hazard: Volcanic gases - periodic venting",
+      "keywords": [
+        "volcanic"
+      ],
+      "reason": "None of expected keywords found: volcanic",
+      "timestamp": "2026-01-18T03:33:01.559Z"
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "version": "1.0",
+  "generated": "2026-01-18T00:08:36.537Z",
+  "adventure": "high-and-dry",
+  "count": 27,
+  "queries": [
+    {
+      "id": "GEN_Q001",
+      "source": "extracted",
+      "fact_id": "EXT_MC_STA_000",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "Describe climbing Mount Salbarii",
+      "expected_keywords": [
+        "1400m",
+        "crater",
+        "climb"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q002",
+      "source": "extracted",
+      "fact_id": "EXT_MC_STA_001",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "Describe Lower Slopes",
+      "expected_keywords": [
+        "900m",
+        "climb"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q003",
+      "source": "extracted",
+      "fact_id": "EXT_MC_STA_002",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "Describe Middle Ascent",
+      "expected_keywords": [
+        "1100m",
+        "altitude",
+        "sickness"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q004",
+      "source": "extracted",
+      "fact_id": "EXT_MC_STA_003",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "Describe Upper Slopes",
+      "expected_keywords": [
+        "1200m",
+        "altitude"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q005",
+      "source": "extracted",
+      "fact_id": "EXT_MC_STA_004",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "Describe Scramble Zone",
+      "expected_keywords": [
+        "1350m",
+        "scramble",
+        "hazard"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q006",
+      "source": "extracted",
+      "fact_id": "EXT_MC_STA_005",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "Describe Final Ascent",
+      "expected_keywords": [
+        "1400m",
+        "crater"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q007",
+      "source": "extracted",
+      "fact_id": "EXT_MC_STA_006",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "Describe Crater Descent",
+      "expected_keywords": [
+        "crater",
+        "climb",
+        "descent"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q008",
+      "source": "extracted",
+      "fact_id": "EXT_MC_ALT_000",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What are the effects of altitude sickness?",
+      "expected_keywords": [
+        "dm-2",
+        "altitude",
+        "sickness"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q009",
+      "source": "extracted",
+      "fact_id": "EXT_MC_ALT_001",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What are the effects of altitude sickness?",
+      "expected_keywords": [
+        "dm-4",
+        "altitude",
+        "sickness"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q010",
+      "source": "extracted",
+      "fact_id": "EXT_MC_ALT_002",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What are the effects of altitude sickness?",
+      "expected_keywords": [
+        "dm-6",
+        "altitude",
+        "sickness"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q011",
+      "source": "extracted",
+      "fact_id": "EXT_MC_SKI_000",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What checks are required for PC chooses to climb shortcut?",
+      "expected_keywords": [
+        "climb"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q012",
+      "source": "extracted",
+      "fact_id": "EXT_MC_SKI_001",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What checks are required for Party pushes pace above 900m?",
+      "expected_keywords": [
+        "900m",
+        "altitude",
+        "sickness",
+        "climb"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q013",
+      "source": "extracted",
+      "fact_id": "EXT_MC_SKI_002",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What checks are required for Party reaches 1200m?",
+      "expected_keywords": [
+        "1200m",
+        "altitude",
+        "sickness",
+        "climb"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q014",
+      "source": "extracted",
+      "fact_id": "EXT_MC_SKI_003",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What checks are required for Scrambling through 1200-1350m zone?",
+      "expected_keywords": [
+        "1350m",
+        "scramble",
+        "climb"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q015",
+      "source": "extracted",
+      "fact_id": "EXT_MC_SKI_004",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What checks are required for Final ascent to crater lip?",
+      "expected_keywords": [
+        "altitude",
+        "crater",
+        "sickness",
+        "climb"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q016",
+      "source": "extracted",
+      "fact_id": "EXT_MC_SKI_005",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What checks are required for Descending into crater?",
+      "expected_keywords": [
+        "crater",
+        "climb",
+        "descent"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q017",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_SHI_000",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "volcanic"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q018",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_SHI_001",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "offline",
+        "depleted",
+        "fuel",
+        "power"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q019",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_SHI_002",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "functional",
+        "power",
+        "maneuver"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q020",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_SHI_003",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "operational"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q021",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_SHI_004",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "offline",
+        "intact"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q022",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_REP_000",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "fuel"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q023",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_REP_001",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "power"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q024",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_REP_002",
+      "tier": 1,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What's wrong with the ship?",
+      "expected_keywords": [
+        "jump drive"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q025",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_HAZ_000",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What dangers should I watch for?",
+      "expected_keywords": [
+        "thin atmosphere"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q026",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_HAZ_001",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What dangers should I watch for?",
+      "expected_keywords": [
+        "volcanic"
+      ],
+      "failure_keywords": []
+    },
+    {
+      "id": "GEN_Q027",
+      "source": "extracted",
+      "fact_id": "EXT_FTS_HAZ_002",
+      "tier": 2,
+      "target_npcs": [
+        "narrator-high-and-dry"
+      ],
+      "query": "What dangers should I watch for?",
+      "expected_keywords": [],
+      "failure_keywords": []
+    }
+  ]
+}

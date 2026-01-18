@@ -12,7 +12,9 @@
     "test:prompts": "node tests/prompts.test.js",
     "test:ai": "node tests/ai-client.test.js",
     "chat": "node src/index.js --npc",
-    "tui": "node src/chat-tui.js"
+    "tui": "node src/chat-tui.js",
+    "redteam": "node tests/red-team-learning.test.js",
+    "redteam:dry": "node tests/red-team-learning.test.js --dry-run"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",

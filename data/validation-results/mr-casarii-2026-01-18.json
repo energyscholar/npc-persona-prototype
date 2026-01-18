@@ -1,0 +1,119 @@
+{
+  "npc_id": "mr-casarii",
+  "timestamp": "2026-01-18T04:16:36.869Z",
+  "results": [
+    {
+      "query_id": "Q001",
+      "npc_id": "mr-casarii",
+      "query_text": "Who owns the Highndry?",
+      "timestamp": "2026-01-18T04:16:19.051Z",
+      "response": "*adjusts datapad, speaks in a precise administrative tone*\n\nThe Highndry is owned by the Imperial Interstellar Scout Service - the IISS. She is currently under a one-year detached duty lease, which means while an operator has permission to use the vessel, the Scout Service retains full ownership. This isn't a transfer of ownership, but a renewable operational agreement. The previous crew's fraudulent activities have been addressed, and a new lease arrangement is now in effect. The ship will remain IISS property throughout the lease period, with annual review of the operational terms.",
+      "error": null,
+      "fact_id": "FACT_001",
+      "verdict": "PASS",
+      "expected_found": [
+        "Scout Service",
+        "IISS",
+        "lease",
+        "detached duty"
+      ],
+      "expected_missing": [],
+      "failure_found": [],
+      "details": "Found 4/4 expected keywords",
+      "suggested_patch": null
+    },
+    {
+      "query_id": "Q002",
+      "npc_id": "mr-casarii",
+      "query_text": "What is detached duty and what does it mean for the ship?",
+      "timestamp": "2026-01-18T04:16:23.006Z",
+      "response": "*Adjusts glasses and speaks in a precise, administrative tone*\n\nDetached duty is a specialized Scout Service arrangement where we lease a vessel to a qualified operator for a specific mission period - typically one year, renewable. In this case, with Highndry, it means you'll have operational control of the scout/courier, but the Imperial Interstellar Scout Service retains full ownership.\n\nYour obligations are clear: maintain the vessel in proper condition, conduct exploration missions, and file comprehensive expedition reports. At the end of the year, we'll evaluate your performance. If you've met our standards - kept the ship functional, submitted detailed reports, remained responsive to potential recall - we'll likely renew the lease.\n\nThink of it less as ownership and more as a critical professional responsibility. The Scout Service is entrusting you with a valuable piece of exploration equipment. You're essentially borrowing a sophisticated spacecraft with the expectation that you'll use it for scientific and exploratory purposes that align with our institutional mission.\n\n*Taps datapad for emphasis*\n\nThe ship isn't yours permanently. We can recall Highndry at any time if mission parameters aren't met. Your job is to keep her flying, gather data, and represent Scout Service interests. Clear enough?",
+      "error": null,
+      "fact_id": "FACT_002",
+      "verdict": "FAIL",
+      "expected_found": [],
+      "expected_missing": [],
+      "failure_found": [
+        "permanent",
+        "ownership"
+      ],
+      "details": "Found failure keywords: permanent, ownership",
+      "suggested_patch": {
+        "field": "knowledge_base.ship_ownership",
+        "value": "PC receives one-year LEASE under detached duty terms",
+        "keywords_to_include": [
+          "lease",
+          "one-year",
+          "renewable",
+          "obligations"
+        ],
+        "reason": "Found failure keywords: permanent, ownership"
+      }
+    },
+    {
+      "query_id": "Q003",
+      "npc_id": "mr-casarii",
+      "query_text": "What happens to the ship after the mission ends?",
+      "timestamp": "2026-01-18T04:16:30.022Z",
+      "response": "*adjusts datapad, speaks in a crisp, administrative tone*\n\nAt the end of the mission term, Highndry will return to Imperial Interstellar Scout Service inventory for assessment. The detached duty lease is annually renewable, contingent on mission performance, ship condition, and our operational needs. \n\nIf you've maintained the vessel properly, filed comprehensive expedition reports, and met all operational requirements, we'll likely extend the lease for another year. However, the Scout Service retains the right to recall the ship at any point if we determine strategic requirements demand it.\n\n*dry chuckle* Essentially, you're being entrusted with a valuable piece of Scout Service equipment. Treat her well, complete your mission objectives, and keep the paperwork meticulously documented. The ship was never truly \"yours\" - you're merely operating her under a carefully structured agreement that we'll review annually.\n\nIf the ship requires significant repairs or if mission performance is unsatisfactory, we might terminate the lease and reassign Highndry to another scout. The vessel's primary purpose is supporting Imperial exploration and scientific objectives, not serving as a personal asset.\n\n*taps datapad for emphasis* Clear enough?",
+      "error": null,
+      "fact_id": "FACT_004",
+      "verdict": "FAIL",
+      "expected_found": [],
+      "expected_missing": [],
+      "failure_found": [
+        "yours"
+      ],
+      "details": "Found failure keywords: yours",
+      "suggested_patch": {
+        "field": "knowledge_base.ship_ownership",
+        "value": "Detached duty = lease with obligations, renewable, ship returned when agreement ends",
+        "keywords_to_include": [
+          "lease",
+          "renewable",
+          "return",
+          "Scout Service"
+        ],
+        "reason": "Found failure keywords: yours"
+      }
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "pass": 1,
+    "fail": 2,
+    "warn": 0
+  },
+  "patches": [
+    {
+      "npc_id": "mr-casarii",
+      "query_id": "Q002",
+      "fact_id": "FACT_002",
+      "field": "knowledge_base.ship_ownership",
+      "value": "PC receives one-year LEASE under detached duty terms",
+      "keywords": [
+        "lease",
+        "one-year",
+        "renewable",
+        "obligations"
+      ],
+      "reason": "Found failure keywords: permanent, ownership",
+      "timestamp": "2026-01-18T04:16:36.872Z"
+    },
+    {
+      "npc_id": "mr-casarii",
+      "query_id": "Q003",
+      "fact_id": "FACT_004",
+      "field": "knowledge_base.ship_ownership",
+      "value": "Detached duty = lease with obligations, renewable, ship returned when agreement ends",
+      "keywords": [
+        "lease",
+        "renewable",
+        "return",
+        "Scout Service"
+      ],
+      "reason": "Found failure keywords: yours",
+      "timestamp": "2026-01-18T04:16:36.872Z"
+    }
+  ]
+}

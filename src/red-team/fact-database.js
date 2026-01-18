@@ -7,6 +7,15 @@
 const fs = require('fs');
 const path = require('path');
 
+// Lazy-loaded to avoid circular dependency
+let learningIntegration = null;
+function getLearningIntegration() {
+  if (!learningIntegration) {
+    learningIntegration = require('../knowledge-extraction/learning-integration');
+  }
+  return learningIntegration;
+}
+
 const FACTS_FILE = path.join(__dirname, '../../data/red-team/facts.json');
 const SOURCES = {
   highAndDry: path.join(__dirname, '../../.claude/reference/high-and-dry-detailed.md'),
@@ -112,11 +121,31 @@ function getFactsByCategory(category) {
 }
 
 /**
- * Get a specific fact by ID
+ * Get a specific fact by ID (checks both manual and extracted facts)
  * @param {string} factId - Fact identifier
  * @returns {Object|null} Fact or null
  */
 function getFact(factId) {
+  // Check manual facts first
+  const db = loadFacts();
+  const manualFact = db.byId[factId];
+  if (manualFact) return manualFact;
+
+  // Check extracted facts if ID starts with EXT_
+  if (factId && factId.startsWith('EXT_')) {
+    const integration = getLearningIntegration();
+    return integration.getExtractedFact(factId);
+  }
+
+  return null;
+}
+
+/**
+ * Get a manual fact only (bypasses extracted fact lookup)
+ * @param {string} factId - Fact identifier
+ * @returns {Object|null} Fact or null
+ */
+function getManualFact(factId) {
   const db = loadFacts();
   return db.byId[factId] || null;
 }
@@ -202,6 +231,7 @@ module.exports = {
   getFactsForNpc,
   getFactsByCategory,
   getFact,
+  getManualFact,
   extractFactsFromSource,
   initializeFactDatabase,
   FACTS_FILE

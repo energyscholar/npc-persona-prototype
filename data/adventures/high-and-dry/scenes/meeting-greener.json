@@ -1,7 +1,7 @@
 {
   "id": "meeting-greener",
   "act": "act-2-walston",
-  "order": 5,
+  "order": 6,
   "title": "The Minister's Office",
   "setting": "Government building, Settlement Island, Walston",
 
@@ -27,7 +27,7 @@
   ],
 
   "triggers": {
-    "entry": "Travellers request ship access at starport, directed here",
+    "entry": "Travellers travel by rail from Startown to the capital after arranging meeting",
     "exit": "Survey deal struck OR Travellers refuse terms"
   },
 

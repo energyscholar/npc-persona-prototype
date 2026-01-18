@@ -22,6 +22,7 @@ const { advanceToScene, markBeatComplete, executeFlashback, getCurrentScene } = 
 const { recordDecision, saveStoryState, loadStoryState, setFlag } = require('./decision-tracker');
 const { createAgmState, updateSceneContext } = require('./agm-state');
 const { buildAgmContext, getNpcPriorities } = require('./agm-npc-bridge');
+const { initializeInventory, addToInventory, hasItem, checkUnlock, getCargoItems, describeInventory } = require('./inventory');
 
 /**
  * Adventure play modes
@@ -54,6 +55,9 @@ async function startAdventure(adventureId, pcId, client) {
     if (!storyState.currentScene) {
       storyState.currentScene = adventure.startingScene || 'scout-office';
     }
+
+    // Initialize inventory
+    initializeInventory(storyState);
   }
 
   const session = {
@@ -734,6 +738,28 @@ function jumpToSceneByNumber(session, sceneNum) {
   return advanceToScene(session, sceneId);
 }
 
+/**
+ * Acquire information for PC (persists to storyState)
+ * @param {Object} session - Adventure session
+ * @param {string} info - Information acquired
+ * @param {string} source - Source of information (NPC ID or 'narrator')
+ */
+function acquireInfo(session, info, source) {
+  if (!session.storyState.acquired_info) {
+    session.storyState.acquired_info = [];
+  }
+
+  session.storyState.acquired_info.push({
+    info,
+    source,
+    timestamp: new Date().toISOString(),
+    scene: session.storyState.currentScene
+  });
+
+  // Note: saveStoryState would be called here in production
+  // For now, the info persists in session memory
+}
+
 module.exports = {
   startAdventure,
   getOpeningNarration,
@@ -754,5 +780,12 @@ module.exports = {
   formatDramatisPersonae,
   displayTheatricalFrame,
   getSceneList,
-  jumpToSceneByNumber
+  jumpToSceneByNumber,
+  acquireInfo,
+  // Inventory functions
+  addToInventory,
+  hasItem,
+  checkUnlock,
+  getCargoItems,
+  describeInventory
 };

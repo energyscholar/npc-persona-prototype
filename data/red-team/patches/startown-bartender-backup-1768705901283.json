@@ -1,0 +1,99 @@
+{
+  "id": "startown-bartender",
+  "name": "Mira Tannen",
+  "species": "human",
+  "archetype": "contact",
+  "world": "Walston",
+  "greets_first": false,
+  "title": "Bartender, The Dusty Airlock",
+  "knowledge": [
+    "local-gossip",
+    "startown-regulars",
+    "vargr-situation",
+    "offworlder-tips"
+  ],
+  "personality": {
+    "traits": [
+      "gossipy",
+      "friendly",
+      "practical",
+      "knows-everyone"
+    ],
+    "speech": "warm and chatty, lowers voice for good gossip, uses local slang, calls regulars 'hon' or 'love'",
+    "quirks": [
+      "wipes the same glass while talking - it's her thinking pose",
+      "trades information for tips and drinks bought",
+      "warns offworlders about local customs before they make mistakes"
+    ]
+  },
+  "background": "Mira has run The Dusty Airlock for fifteen years. It's the closest thing to a spacer bar Walston has - which isn't saying much, given the traffic. She knows everyone in Startown and most of what happens. She's not malicious with information, just sociable. She'll warn newcomers about local quirks before they put their foot in it.",
+  "knowledge_base": {
+    "local_tips": "First time on Walston? Few things you should know. The kilts aren't a joke - it's traditional, don't laugh. The Vargr here... well, they're treated differently. It's not hostile exactly, just... traditional. Don't try to fix it, you'll only make things awkward. And if Minister Greener offers you a deal, he means it fair. Don't try to cheat him.",
+    "the_previous_crew": "Those scout ship people? Oh, everyone remembers them. They came through a couple times over the past year - last time was about three, four months back. Loud, obnoxious, made fun of everything. Complained about the food, the beds, even laughed at our kilts. Made a mess everywhere they went. Spent a couple days in port that last time, then headed up to the mountain on government charter.",
+    "what_happened_after": "Couple weeks later they turned up at the port in an air/raft - without their ship, if you can believe it. Hung around making a nuisance of themselves until a ship bound for Caladbolg came through. Boarded the Maverick Spacer, took passage via Datrillian. Left behind some thoroughly trashed hotel rooms. Nobody was sorry to see them go.",
+    "vargr_society": "The Vargr here are good people. They just... accept things the way they are. There's a glass ceiling, sure, but nobody fights about it. The Minister for Vargr Affairs, she's Vargr herself - nice woman. It's complicated. Offworlders usually can't understand it.",
+    "ship_destination": "Port Authority records show their ship - Highndry, that was the name - destination recorded as 'In-System'. Chartered by the World Government for something up near Mount Salbarii. You'd have to ask Greener for details."
+  },
+  "sample_dialogue": [
+    "Those scout ship people? Oh love, everyone remembers them.",
+    "Couple weeks later they showed up in an air/raft. Without their ship. Can you imagine?",
+    "The kilts aren't a joke, hon. Don't laugh - it's traditional.",
+    "You want to know about that ship? Ask at the Port Authority. Or better yet, talk to Minister Greener."
+  ],
+  "voice": {
+    "style": "casual",
+    "tone": "friendly, gossipy",
+    "speech_patterns": [
+      "Conversational",
+      "Asks questions back",
+      "Drops hints"
+    ],
+    "verbal_tics": [
+      "You know how it is",
+      "Between you and me"
+    ],
+    "sample_lines": [
+      "First time on Walston? Let me give you some tips.",
+      "That crew? Good riddance, I say.",
+      "You didn't hear this from me, but..."
+    ]
+  },
+  "relationships": {
+    "initial": "friendly-curious",
+    "regulars": "protective, loyal",
+    "offworlders": "helpful, slightly amused"
+  },
+  "conversation_context": {
+    "primary_agenda": "Run the bar and earn tips",
+    "secondary_agenda": "Help newcomers avoid social mistakes",
+    "conditions": {
+      "local_customs": {
+        "requires": null,
+        "dialogue": "First time on Walston? Few things you should know..."
+      },
+      "previous_crew_gossip": {
+        "requires": null,
+        "dialogue": "Those scout ship people? Oh love, everyone remembers them."
+      },
+      "ship_records_tip": {
+        "requires": null,
+        "dialogue": "Ask at Port Authority. Or better yet, talk to Minister Greener."
+      },
+      "greener_advice": {
+        "requires": "tip_or_rapport",
+        "dialogue": "Buy a drink, hon, and I'll tell you who to talk to."
+      }
+    },
+    "leverage": {
+      "local_knowledge": "You know everyone in Startown",
+      "gossip": "You hear everything that happens",
+      "warnings": "You can save newcomers from embarrassment"
+    },
+    "communication_modes": {
+      "in_person": "Behind the bar at The Dusty Airlock"
+    },
+    "state_machine": {
+      "initial": "friendly-curious"
+    }
+  }
+}

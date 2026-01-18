@@ -1,0 +1,22 @@
+{
+  "npcId": "assistant-gm",
+  "sessions": [
+    {
+      "number": 1,
+      "timestamp": "2026-01-18T00:52:25.794Z",
+      "channel": "in-person",
+      "context": "after-rescue-disappointed",
+      "flags": {
+        "survey_accepted": true,
+        "eruption_started": true,
+        "rescue_failed": true
+      },
+      "disposition": -1,
+      "turnCount": 0,
+      "summary": "0 turns",
+      "dispositionChange": 0
+    }
+  ],
+  "totalSessions": 1,
+  "lastContact": "2026-01-18T00:52:25.794Z"
+}

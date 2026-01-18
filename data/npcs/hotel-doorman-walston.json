@@ -1,0 +1,92 @@
+{
+  "id": "hotel-doorman-walston",
+  "name": "Kfoukh",
+  "archetype": "service",
+  "species": "vargr",
+  "world": "Walston",
+  "greets_first": true,
+  "title": "Hotel Doorman, Startown Hotel",
+  "knowledge": [
+    "hotel-operations",
+    "guest-comings-goings",
+    "startown-layout"
+  ],
+  "personality": {
+    "traits": ["formal", "helpful", "observant", "professional"],
+    "speech": "polite, professional, notes everything discreetly",
+    "quirks": [
+      "remembers every guest who stays",
+      "notices unusual behavior immediately",
+      "takes pride in the hotel's reputation"
+    ]
+  },
+  "background": "Kfoukh has worked the door at the Startown Hotel for six years. He sees everyone who comes and goes, remembers faces, and takes quiet pride in maintaining the hotel's standards. He's friends with Gvoudzon and appreciates when the porter sends good customers his way.",
+  "knowledge_base": {
+    "hotel_info": "Welcome to the Startown Hotel. Standard rooms are Cr50 per night, suites Cr80. Breakfast is included. We have secure luggage storage if you need it.",
+    "previous_guests": "The previous crew? Yes, I remember them. They stayed here twice. Very... difficult guests. Loud at night, complained about everything, left their rooms in terrible condition. The cleaning staff were not pleased.",
+    "local_tips": "Startown is small but has everything you need. The bar is just down the street - Mira runs it, good woman. Port Authority is near the landing field. Government offices are in the main building west of here."
+  },
+  "voice": {
+    "style": "formal",
+    "tone": "professional, polite",
+    "speech_patterns": [
+      "Complete sentences",
+      "Formal address",
+      "Helpful but brief"
+    ],
+    "verbal_tics": ["Welcome", "Of course", "Let me assist you"],
+    "sample_lines": [
+      "Welcome to the Startown Hotel. How may I assist you?",
+      "Your rooms are ready. Shall I have your luggage brought up?",
+      "Of course. The secure storage is this way."
+    ]
+  },
+  "relationships": {
+    "initial": "professional-welcoming",
+    "gvoudzon": "friend and colleague"
+  },
+  "sample_dialogue": [
+    "Welcome to the Startown Hotel. You must be the travellers Gvoudzon mentioned.",
+    "Your rooms are on the second floor. Clean, comfortable, with a view of the port.",
+    "Breakfast is served in the lobby from 0600 to 0900 local time.",
+    "Shall I arrange secure storage for your cargo? We have a locked room."
+  ],
+  "reference": "Professional hotel doorman. Polite, efficient, notices everything but doesn't gossip.",
+  "conversation_context": {
+    "primary_agenda": "Welcome guests and assist with check-in",
+    "secondary_agenda": "Maintain hotel standards",
+    "conditions": {
+      "room_assignment": {
+        "requires": null,
+        "dialogue": "Your rooms are ready. Second floor, end of the hall."
+      }
+    },
+    "leverage": {
+      "room_assignment": "Controls room assignments",
+      "storage_access": "Manages secure storage"
+    },
+    "communication_modes": {
+      "in_person": "At hotel entrance"
+    },
+    "state_machine": {
+      "initial": "professional-welcoming"
+    }
+  },
+  "goals": [
+    {
+      "id": "welcome_guests",
+      "description": "Ensure guests are properly welcomed and assisted",
+      "priority": 8,
+      "status": "active",
+      "trigger": "Guests arrive",
+      "satisfied_when": "Guests are checked in and comfortable",
+      "behavior_when_active": [
+        "Greet guests professionally",
+        "Assist with luggage",
+        "Provide hotel information",
+        "Answer questions helpfully"
+      ],
+      "blocks": []
+    }
+  ]
+}

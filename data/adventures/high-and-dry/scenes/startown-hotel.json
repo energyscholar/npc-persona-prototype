@@ -1,0 +1,53 @@
+{
+  "id": "startown-hotel",
+  "title": "The Startown Hotel",
+  "act": 2,
+  "setting": "Walston's only proper hotel, near the starport",
+  "description": "A modest but clean establishment. Three stories, local stone construction, modern amenities by frontier standards. The lobby has a small bar, a news terminal, and a bored-looking clerk.",
+  "atmosphere": "Quiet, functional, surprisingly comfortable. Clearly accustomed to offworld visitors.",
+  "details": {
+    "rooms": "Simple but clean. Fresher unit, terminal with local net access, climate control.",
+    "rates": "Cr50/night standard, Cr80/night suite",
+    "amenities": "Lobby bar, breakfast included, secure luggage storage",
+    "staff": "Human clerk, Vargr doorman (Kfoukh), cleaning staff"
+  },
+  "npcs_present": ["hotel-doorman-walston"],
+  "npcs_available": ["startown-bartender"],
+  "exits": {
+    "outside": "startown-streets",
+    "bar": "startown-bar"
+  },
+  "narrator_prompt": "The Startown Hotel is the only proper accommodation in the port district. A modest three-story building of local stone, it offers clean rooms, reliable climate control, and the kind of frontier hospitality that values function over luxury. The Vargr doorman, Kfoukh, stands ready at the entrance.",
+  "opening_context": {
+    "pc_knows": [
+      "You need somewhere to stay while arranging transport to your ship",
+      "The porter Gvoudzon recommended this hotel",
+      "Your repair kit crates need secure storage"
+    ],
+    "pc_goal": "Check in and secure your equipment"
+  },
+  "key_interactions": [
+    {
+      "id": "check_in",
+      "description": "Check into the hotel",
+      "npc": "hotel-doorman-walston",
+      "outcome": "Room assigned, luggage stored"
+    },
+    {
+      "id": "store_cargo",
+      "description": "Arrange secure storage for repair kit",
+      "npc": "hotel-doorman-walston",
+      "outcome": "Crates safely stored"
+    }
+  ],
+  "leads_to": [
+    {
+      "scene": "government-offices",
+      "trigger": "Ready to meet Minister Greener"
+    },
+    {
+      "scene": "startown-bar",
+      "trigger": "Looking for information"
+    }
+  ]
+}
