@@ -1,0 +1,698 @@
+[
+  {
+    "id": "computer-weave-basic-tl10",
+    "name": "Computer Weave, Basic",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "computer-weave-improved-tl11",
+    "name": "Computer Weave, Improved",
+    "tl": 11,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "computer-weave-enhanced-tl13",
+    "name": "Computer Weave, Enhanced",
+    "tl": 13,
+    "cost": 600,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "computer-weave-advanced-tl15",
+    "name": "Computer Weave, Advanced",
+    "tl": 15,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "sensor-suite-1-tl13",
+    "name": "Sensor Suite (+1)",
+    "tl": 13,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "sensor-suite-2-tl14",
+    "name": "Sensor Suite (+2)",
+    "tl": 14,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "sensor-suite-3-tl15",
+    "name": "Sensor Suite (+3)",
+    "tl": 15,
+    "cost": 65000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "cockpit-sensory-suite-tl10",
+    "name": "Cockpit Sensory Suite",
+    "tl": 10,
+    "cost": 500000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "mechanostatic-scanner-tl13",
+    "name": "Mechanostatic Scanner",
+    "tl": 13,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 60
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "neural-comm-basic-tl10",
+    "name": "Neural Comm Basic",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 60
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "neural-comm-improved-tl12",
+    "name": "Neural Comm Improved",
+    "tl": 12,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 60
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "neural-comm-enhanced-tl14",
+    "name": "Neural Comm Enhanced",
+    "tl": 14,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 60
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "neural-comm-advanced-tl15",
+    "name": "Neural Comm Advanced",
+    "tl": 15,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 60
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "commdot-tl10",
+    "name": "Commdot",
+    "tl": 10,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "commdot-tl12",
+    "name": "Commdot",
+    "tl": 12,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "mobile-comm-tl6",
+    "name": "Mobile Comm",
+    "tl": 6,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "mobile-comm-tl8",
+    "name": "Mobile Comm",
+    "tl": 8,
+    "cost": 150,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "mobile-comm-tl10",
+    "name": "Mobile Comm",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-transceiver-tl9",
+    "name": "Laser Transceiver",
+    "tl": 9,
+    "cost": 2500,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-transceiver-tl11",
+    "name": "Laser Transceiver",
+    "tl": 11,
+    "cost": 1500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-transceiver-tl13",
+    "name": "Laser Transceiver",
+    "tl": 13,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "radio-transceiver-tl5",
+    "name": "Radio Transceiver",
+    "tl": 5,
+    "cost": 225,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 5
+  },
+  {
+    "id": "radio-transceiver-tl7",
+    "name": "Radio Transceiver",
+    "tl": 7,
+    "cost": 100,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 5
+  },
+  {
+    "id": "radio-transceiver-tl8",
+    "name": "Radio Transceiver",
+    "tl": 8,
+    "cost": 75,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 5
+  },
+  {
+    "id": "radio-transceiver-tl9",
+    "name": "Radio Transceiver",
+    "tl": 9,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 5
+  },
+  {
+    "id": "radio-transceiver-tl12",
+    "name": "Radio Transceiver",
+    "tl": 12,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 65
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 5
+  },
+  {
+    "id": "meson-transceiver-tl12",
+    "name": "Meson Transceiver",
+    "tl": 12,
+    "cost": 50000,
+    "mass": 200,
+    "source": {
+      "book": "CSC",
+      "page": 66
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "meson-transceiver-tl14",
+    "name": "Meson Transceiver",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 66
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "computer-terminal-tl6",
+    "name": "Computer Terminal",
+    "tl": 6,
+    "cost": 200,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "computer-interface-tl8",
+    "name": "Computer Interface",
+    "tl": 8,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "basic-mainframe-computer-tl5",
+    "name": "Basic Mainframe Computer",
+    "tl": 5,
+    "cost": 2000000,
+    "mass": 5000,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "improved-mainframe-computer-tl6",
+    "name": "Improved Mainframe Computer",
+    "tl": 6,
+    "cost": 4000000,
+    "mass": 4000,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "advanced-mainframe-computer-tl7",
+    "name": "Advanced Mainframe Computer",
+    "tl": 7,
+    "cost": 5000000,
+    "mass": 1000,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "basic-mid-sized-computer-tl6",
+    "name": "Basic Mid-sized Computer",
+    "tl": 6,
+    "cost": 500000,
+    "mass": 500,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "improved-mid-sized-computer-tl7",
+    "name": "Improved Mid-sized Computer",
+    "tl": 7,
+    "cost": 50000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "enhanced-mid-sized-computer-tl8",
+    "name": "Enhanced Mid-sized Computer",
+    "tl": 8,
+    "cost": 10000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "advanced-mid-sized-computer-tl9",
+    "name": "Advanced Mid-sized Computer",
+    "tl": 9,
+    "cost": 10000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "superior-mid-sized-computer-tl10",
+    "name": "Superior Mid-sized Computer",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "portable-computer-0-tl7",
+    "name": "Portable Computer/0",
+    "tl": 7,
+    "cost": 500,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "portable-computer-1-tl8",
+    "name": "Portable Computer/1",
+    "tl": 8,
+    "cost": 250,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "portable-computer-2-tl10",
+    "name": "Portable Computer/2",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "portable-computer-3-tl12",
+    "name": "Portable Computer/3",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "portable-computer-4-tl13",
+    "name": "Portable Computer/4",
+    "tl": 13,
+    "cost": 1500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "portable-computer-5-tl14",
+    "name": "Portable Computer/5",
+    "tl": 14,
+    "cost": 5000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 68
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "radio-jammer-handheld-tl6",
+    "name": "Radio Jammer, Handheld",
+    "tl": 6,
+    "cost": 500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 78
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "radio-jammer-heavy-tl4",
+    "name": "Radio Jammer, Heavy",
+    "tl": 4,
+    "cost": 50000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 78
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "bioscanner-tl15",
+    "name": "Bioscanner",
+    "tl": 15,
+    "cost": 350000,
+    "mass": 3.5,
+    "source": {
+      "book": "CSC",
+      "page": 79
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "densitometer-tl14",
+    "name": "Densitometer",
+    "tl": 14,
+    "cost": 20000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 79
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "metal-detector-tl5",
+    "name": "Metal Detector",
+    "tl": 5,
+    "cost": 250,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "metal-detector-tl7",
+    "name": "Metal Detector",
+    "tl": 7,
+    "cost": 150,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "metal-detector-tl9",
+    "name": "Metal Detector",
+    "tl": 9,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "electronics",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "psi-detector-tl13",
+    "name": "Psi-detector",
+    "tl": 13,
+    "cost": 5000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "personal-mediscanner-tl12",
+    "name": "Personal Mediscanner",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 92
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "portable-mediscanner-tl12",
+    "name": "Portable Mediscanner",
+    "tl": 12,
+    "cost": 2000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 92
+    },
+    "category": "electronics"
+  },
+  {
+    "id": "re-entry-computer-tl8",
+    "name": "Re-Entry Computer",
+    "tl": 8,
+    "cost": 2500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 121
+    },
+    "category": "electronics"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": "kimbly",
+  "name": "Kimbly",
+  "archetype": "mascot",
+  "title": "Ship's Tenser Wolf",
+  "location": "amishi",
+  "location_detail": "Roams ship / Often in Rec Area",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["playful", "protective", "intelligent", "affectionate"],
+    "speech": "cannot speak - communicates through body language, growls, whines, tail wags",
+    "quirks": [
+      "follows favorite crew members",
+      "senses tension before fights",
+      "brings 'gifts' to crew",
+      "protective of the ship"
+    ]
+  },
+  "background": "Tenser wolf adopted by the crew. Intelligent enough to understand basic commands and sense emotional states. The crew's unofficial mascot and morale booster.",
+  "knowledge": ["ship-layout", "crew-emotions", "danger-sense"],
+  "relationships": {
+    "crew": "mascot"
+  },
+  "notes": "Kimbly cannot speak but can be described responding to situations. Use body language and animal sounds."
+}

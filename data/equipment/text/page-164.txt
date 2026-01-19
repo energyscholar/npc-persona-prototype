@@ -1,0 +1,59 @@
+ LIGHT ASSAULT GUN                                                 MACHINEGUN
+ This is a heavy 20mm calibre rifle, fed by a five-round           A larger and less portable version of the autorifle,
+ magazine. It is intended to be truly human-portable,              the machinegun may be relatively low tech but it is
+ delivering extremely hard-hitting power at squad-level            capable of sawing even armoured targets in half. The
+ but its low rate of fire and small magazine mean its              machinegun may use the rifle variant ammunition found
+ user must be adequately supported in a fire fight. The            in the Specialised Ammunition chapter.
+ light assault gun comes equipped with a bipod and may
+ use the heavy weapon variant ammunition found in the              PGHP
+ Specialised Ammunition chapter.                                   The Plasma Gun, Human Portable is the standard
+                                                                   assault weapon of the marines. It is so heavy and
+ LIGHT GATLING LASER                                               bulky that it can only be used easily by a trooper in
+ An attempt to put a multiple barrel laser system into a           battle dress. It is powered by a built-in micro-fusion
+ small package, the light gatling laser is low-powered             generator and fires a high-energy plasma stream.
+ compared to similar support weaponry but is capable of            More advanced plasma guns adjust the weapon’s
+ delivering a hail of fire. This alone can defeat or at least      optimum range and plasma temperature.
+ scare off lower Tech Level enemies but it quickly runs
+ out of steam against heavily armoured targets. However,           PLASMA JET
+ there is little in its class that matches it for price versus     A crude use of plasma technology, the plasma jet is
+ performance. Firing chemical cartridges, the gatling laser        also the ultimate expression of primitive flamethrowers.
+ uses disposable magazines which can be replaced in                Powered by a micro-fusion generator carried in a
+ the same manner as slug thrower magazines.                        backpack, this weapon unleashes a short-ranged,
+                                                                   barely controlled torrent of plasma capable of
+                                                                   annihilating anything close by.
+
+                                                                   RAM GRENADE LAUNCHER
+                                                                   Rocket Assisted Multi-Purpose grenade launchers
+                                                                   have a long range and are capable of firing up to three
+     PGHP                                                          grenades in a single attack. The RAM grenade launcher
+                                                                   may use the heavy weapon variant ammunition found in
+                                                                   the Specialised Ammunition chapter.
+
+                                                                   RAPID-FIRE MACHINEGUN
+                                                                   This is a light machinegun tuned to develop an
+                                                                   incredibly high rate of fire. The Auto score of this
+      Plasma Jet                                                   weapon may be doubled but the weapon must be left to
+                                                                   cool for two rounds after this has been done. The rapid-
+                                                                   fire machinegun may use the rifle variant ammunition
+                                                                   types found in the Specialised Ammunition chapter.
+
+                                                                   ROCKET LAUNCHER
+                                                                   The poor man’s FGHP. Anyone standing behind a rocket
+RAM Grenade
+Launcher
+                                                                   launcher when it is fired will be caught in its back blast    Weaponry
+                                                                   and suffer 3D damage from the burning gases. It takes
+                                                                   three Minor Actions to reload a rocket launcher. The
+                                                                   rocket launcher may use the heavy weapon variant
+                                                                   ammunition found in the Specialised Ammunition chapter.
+
+
+
+
+ Rapid-Fire Machinegun                                           Rocket Launcher
+
+
+
+
+                                                                                                                                163
+

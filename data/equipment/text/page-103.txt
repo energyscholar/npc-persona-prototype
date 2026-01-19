@@ -1,0 +1,58 @@
+                                                                         T       R        A       V        E        L       L       E        R
+
+
+
+                                                                             DESERT AND ARID ENVIRONMENTS
+                ICE TERRAIN KIT                                              Travellers, at least humans, cannot thrive in hot or
+                A set of accessories making crossing ice or climbing         arid environments. They need protection from the heat
+                icy surfaces less hazardous. Includes crampons               and some source of water. As noted on page 82 in the
+                for boots, snowshoes, rope and a brightly-coloured           Traveller Core Rulebook, lack of protection in the heat
+                rescue blanket. The kit removes any negative DM for          will eventually cause damage to unprotected Travellers.
+                checks performed on ice or snow. The ice terrain kit
+                does not include clothing.                                   ADVANCED DESERT SUIT
+                                                                             An all-in-one suit designed to minimise moisture loss
+                Item         TL Effect                      Kg Cost          by trapping sweat between the porous inner layer and
+                Ice Terrain 1     Removes negative DMs      4     Cr50       impermeable outer one. The suit is reflectorised to
+                Kit               caused by ice or snow                      reduce the heating effect of the sun (although a dulled
+                                                                             or camouflage option is also available). It includes
+                                                                             a hood, face mask and goggles. The suit reduces
+                SKIS                                                         damage from very hot desert conditions (50°C) to
+                A set of skis and poles. Skis make travel over snow          1D every four hours (see page 82 of the Traveller
+                much faster and less fatiguing, eliminating any speed        Core Rulebook) and allows short-term survival in
+                penalties if on level ground and more than doubling          temperatures up to 65°C, at 1D per hour damage
+                speed when moving downhill.                                  effects. For every Tech Level above 9, the suit will
+                                                                             increase the interval between damage rolls by two
+                Item TL Effect                              Kg Cost          hours and increase the maximum temperature for
+                Skis   1    No snow speed penalties,        1     Cr75       short-term survival by 5°.
+                            x2.5 speed downhill
+                                                                             Item             TL Effect                    Kg Cost
+                SNOWSHOES                                                    Advanced 9          Protection from       2        Cr1000
+                A pair of wide shoes designed to spread the wearer’s         Desert Suit         desert conditions (1D
+                weight and make walking on soft surfaces like snow                               per 4 hours)
+                or volcanic dust safer, reducing any penalties to
+                movement in these conditions by half.                        DESERT KIT
+                                                                             A basic desert outfit including loose-fitting trousers and
+                Item            TL Effect                   Kg Cost          shirt, a wide-brimmed hat, sunglasses, large water bottle
+                Snowshoes 0         Halves movement         1     Cr30       (2 litres) and mineral tablets. It increases the interval for
+                                    penalties on snow or                     1D damage from heat up to 50°C to every two hours.
+                                    dust
+                                                                             Item          TL Effect                          Kg Cost
+                                                                             Desert Kit 5       Protection from desert      1      Cr75
+                                                                Skis                            conditions (1D per 2 hours)
+Survival gear
+
+
+
+
+                                                                                                                                Desert Kit
+
+
+
+
+                  Ice Terrain Kit
+
+
+
+
+     102
+

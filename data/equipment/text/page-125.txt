@@ -1,0 +1,72 @@
+                                                                               T      R        A       V       E          L       L     E       R
+
+
+
+                                                                                   TENT-BARRACKS
+                                                                                   A large tent providing shelter for eight people against
+                PRE-FABRICATED CABIN                                               the weather and environment. The pole structure
+                A basic 6 x 4 x 3 metre hut with windows and a door                requires 1D person-hours to set up properly. The
+                but with no heating, lighting or sanitary facilities fitted.       TL8 version of the tent-barracks can be effectively
+                The cabin is capable of withstanding light to severe               pressurised using a chemical seal from the inside but
+                winds, offering shelter from precipitation, storms and             does not have life support. There is no airlock – the tent
+                temperatures down to -10ºC. It requires eight person-              depressurises when it is opened.
+                hours to erect or dismantle. A ‘heat and light’ pack is
+                normally purchased with the cabin, costing Cr1000 and
+                                                                                   Tent
+                slots into ready holders but requires an external power
+                                                                                   Barracks TL Effect                            Kg Cost
+                source. There is no plumbing.
+                                                                                   Basic        6   Basic shelter habitat        10   Cr500
+                The prefab cabin is often used as an adjunct to an                                  up to 8 persons
+                advanced base complex as a work unit or additional                 Improved 8       +Pressurised                 10   Cr5000
+                storage space but can be used as living quarters for
+                up to four people. It does not support the addition of
+                advanced base options. Dismantled and ready for
+                shipment, the cabin displaces one ton of cargo space.                      Habitat Module
+                The walls of a pre-fabricated cabin provide Protection
+                +2 against external damage.
+
+                Item               TL Effect                 Kg        Cost
+                Pre-Fabricated 6        Basic shelter for    400 Cr2000
+                Cabin                   up to four
+
+                TARPAULIN                                                                                                     Pre-Fabricated
+                Canvas or waterproof cloth sheet used to create a 2 x 4
+                                                                                                                              Cabin
+                metre temporary shelter. Protects against precipitation
+                and can withstand light winds.
+
+                Item         TL   Effect                          Kg    Cost
+                Tarpaulin 1       Temporary shelter: 2 x 4        4     Cr10
+                                  metre sheet
+                                                                                        Tent-Barracks
+                TENT
+                Basic shelter for two persons offering protection
+                from precipitation, storms and temperatures down
+                to 0ºC and is able to withstand light to moderate
+                winds. At TL7, the tent can be pressurised and will
+Survival gear
+
+
+
+
+                protect against conditions down to -20°C but does
+                not have life support. There is no airlock – the tent is
+                depressurised when opened.
+
+                                                                                                                   Tent
+                Tent         TL Effect                        Kg Cost
+                Basic        3    Basic shelter habitat       6       Cr200
+                                  up to 2 persons
+                Improved 7        +Pressurised                5       Cr2000
+
+
+
+
+                                                                                               Tarpaulin
+
+
+
+
+     124
+

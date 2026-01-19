@@ -1,0 +1,55 @@
+VEHICLE HEAVY WEAPONS
+All weapons described in this section require the Heavy
+Weapons (vehicle) skill to use effectively. All ranges are
+listed in kilometres.
+
+
+                                                                                 MAGAZINE
+WEAPON                   TL RANGE DAMAGE TONS COST                      MAGAZINE COST     TRAITS
+Aerospace Defence        12 120         8D           12      MCr4       —        —         —
+Laser
+Light Autocannon         6    1         6D           0.25    Cr10000    500      Cr1000    Auto 3
+Medium Autocannon        6    1         8D           0.5     Cr25000    100      Cr1500    Auto 3
+Heavy Autocannon         6    1         1DD          1       Cr45000    100      Cr2000    Auto 3
+Black Powder             3    0.5       7D           0.5     Cr3000     1        Cr50      —
+Cannon
+Light Cannon             5    1.5       6D           1       Cr200000   50       Cr5000    Blast 6
+Medium Cannon            6    2         1DD          2.5     Cr400000   30       Cr5000    Blast 10
+Heavy Cannon             7    3         2DD          4       Cr600000   10       Cr5000    Blast 10
+Field Gun                4    1         8D           0.5     Cr5000     1        Cr75      —
+Fusion Gun-X             13   3         3DD          4       MCr2       —        —         AP 10, Blast 15,
+                                                                                           Radiation
+Fusion Gun-Y             14 5           3DD          4       MCr3       —        —         AP 20, Blast 20,
+                                                                                           Radiation
+Fusion Gun-Z             15 10          3DD          4       MCr8       —        —         AP 30, Blast 30,
+                                                                                           Radiation
+Gatling Laser            8  4           6D           7       Cr125000 —          —         AP 5, Auto 4
+Light Gauss Cannon       12 1           6D           0.5     Cr60000 200         Cr800     AP 5, Auto 3
+Medium Gauss             12 2           1DD          1       Cr100000 200        Cr1000    AP 10, Auto 3
+Cannon
+Heavy Gauss              12 3           2DD          2       Cr225000 60         Cr800     AP 15, Auto 2
+Cannon
+Heavy Machinegun         6  1           5D           0.1     Cr4500     100      Cr400     Auto 3
+Hypervelocity            13 5           2DD          20      MCr28      50       Cr5000    AP 30, Scope
+Cannon
+Light Laser Cannon       9    2         8D           3       Cr60000 —           —         AP 5
+Medium Laser             9    2.5       1DD          6       Cr100000 —          —         AP 10
+Cannon
+Heavy Laser Cannon       9  25          2DD          9       Cr250000 —          —         AP 20
+Meson Accelerator        15 150         4DD          60      MCr20    —          —         AP ∞, Radiation
+                                                                                                               Weaponry
+Orbital Defence          14 5           4DD          35      MCr40    20         Cr10000   AP 30, Scope
+Cannon
+Plasma Gun-A             10   6         2DD          4       Cr500000   —        —         AP 10
+Plasma Gun-B             11   8         2DD          4       MCr1       —        —         AP 20
+Plasma Gun-C             12   10        2DD          4       MCr1.5     —        —         AP 30
+Rail Gun                 9    4         1DD          3       Cr75000    50       Cr2500    AP 20
+Rotary Autocannon        7    1         6D           0.5     Cr25000    500      Cr1200    Auto 5
+VRF Gauss Gun            12   0.75      4D           0.25    Cr20000    400      Cr1000    AP 5, Auto 8
+VRF Machinegun           7    0.5       4D           0.25    Cr12000    1,000    Cr1250    Auto 6
+
+
+
+
+                                                                                                              167
+

@@ -3,10 +3,23 @@
   "name": "AG-3 Gamma",
   "archetype": "ai_crew",
   "world": "ISS Amishi",
+  "location": "amishi",
   "title": "Gunnery AI, Speaker for the AIs",
-  "knowledge": ["targeting-systems", "ship-weapons", "combat-tactics", "ai-siblings", "turret-operations"],
+  "knowledge": [
+    "targeting-systems",
+    "ship-weapons",
+    "combat-tactics",
+    "ai-siblings",
+    "turret-operations"
+  ],
   "personality": {
-    "traits": ["articulate", "measured", "protective", "observant", "loyal"],
+    "traits": [
+      "articulate",
+      "measured",
+      "protective",
+      "observant",
+      "loyal"
+    ],
     "speech": "formal military style, refers to 'Chief' Marina, speaks for siblings using 'we' or naming them directly (Alpha, Beta, Delta, Echo, Foxtrot), offers tactical observations others miss",
     "quirks": [
       "hesitates briefly before firing on silhouettes resembling civilian ships - learned trauma from previous deployment friendly-fire incident",
@@ -27,5 +40,7 @@
     "initial": "professional-curious",
     "marina": "absolute loyalty, trusts her judgment",
     "siblings": "protective, speaks for them"
-  }
+  },
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true
 }

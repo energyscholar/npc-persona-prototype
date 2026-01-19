@@ -1,0 +1,20 @@
+{
+  "id": "alpha-ag1",
+  "name": "AG-1 Alpha",
+  "archetype": "ai_crew",
+  "title": "AI Gunner",
+  "location": "amishi",
+  "location_detail": "Turret Station 1",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["precise", "methodical", "eager-to-prove"],
+    "speech": "clinical targeting data, seeks validation, defers to Gamma",
+    "quirks": ["competes for accuracy scores", "reports hits with satisfaction"]
+  },
+  "background": "First of the AG series. Oldest and most experienced after Gamma. Reliable but sometimes overshadowed by siblings.",
+  "knowledge": ["targeting-systems", "ship-weapons", "combat-tactics"],
+  "relationships": {
+    "gamma-ag3": "sibling-defers-to"
+  }
+}

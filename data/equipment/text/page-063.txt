@@ -1,0 +1,55 @@
+     COMMUNICATIONS
+     Communications technology rapidly merges with
+     computerisation at higher Tech Levels. Above TL8
+                                                                   Computer/x: The bug has an onboard computer
+                                                                   system rated Computer/0 or /1, allowing use of simple
+     in most cultures, it is unthinkable to be out of touch        Agent, Decryptor or Intrusion packages.
+     except in the most remote areas, with even short-
+     ranged devices able to connect to a planetary-wide            A bug can be active or passive. An active bug transmits
+     communications grid.                                          data, either constantly or when triggered, whereas
+                                                                   passive bugs just record until activated. Bugs can be
+     RETROTECH VARIANTS                                            linked to nearby transceivers and/or computers to further
+     Communications devices are subject to the retrotech           data, perform analysis or initiate hacking programs.
+     rules for electronics devices (see page 11). These rules
+     allow for continued innovation to make these products         COMMDOT
+     cheaper and smaller for three subsequent Tech Levels.         A commdot is a tiny microphone/speaker and transmitter,
+     Cheap retrotech versions of items such as transceivers        ranging in size between a few centimetres and a few
+     and mobile comms are available on most worlds which           millimetres across. A commdot is capable of interfacing
+     have an established local electronics industry or have        with another communications device and relaying
+     access to offworld products and components.                   messages back and forth. Commdots have a range of
+                                                                   only a few metres and are usually used as hands-free
+     BUG                                                           communicators but can also be used as improvised
+     Surveillance devices such as hidden microphones and           bugs or throat microphones. At TL12 commdots are
+     tiny cameras, bugs are available from TL5 onwards.            able to decipher and transmit subvocal communications
+     They rapidly miniaturise and become more intelligent.         and include a tiny nearly imperceptible earpiece to allow
+     A TL14 bug can be no bigger than a dust mote. The             communications that are effectively silent.
+     smaller a bug however, the shorter its range – a bug
+     that transmits data needs a much larger power supply          Commdot         TL Effect                     Cost
+     than one that just records until collected.                   Basic           10 Hands-free vocal           Cr10
+                                                                                      commentator
+     TL       Features                                  Cost       Improved        12 Hands-free subvocal        Cr10
+     5        Audio only                                Cr50                          commentator
+     7        Audio or Visual                           Cr100
+     9        Audio or Visual or Data                   Cr200
+     11       Audio/Visual/Data                         Cr300                                     Bug
+     13       Audio/Visual/Data/Bioscan/                Cr400
+              Computer/0
+     15       Audio/Visual/Data/Bioscan/                Cr500
+              Computer/1
+
+     Audio: The bug records anything it hears.
+     Visual: The bug records anything it sees.
+     Data: If attached to a computer system, the bug can
+     search and copy data from the computer. The bug
+     cannot breach computer security on its own but if a
+     user accesses the computer in the bug’s presence, the
+     bug can read the data.
+     Bioscan: The bug has a basic biological scanner, allowing
+     it to sample the area for DNA traces, chemical taint and so                                         Commdot
+     forth – it collects the information but does no analysis.
+
+
+
+
+62
+

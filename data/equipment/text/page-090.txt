@@ -1,0 +1,65 @@
+average adult size. A bioreaction chamber is a sealed         up to 12 times normal rate with access to power and
+environment but does not provide hostile environment          stored nutrients. The TL13 advanced chamber can
+or vacuum protection. Mass and cost are indicated per         act as a growth accelerator, increasing the growth
+cubic litre of capacity and do not include the mass of the    rate of tissues or complete organisms by up to 50
+biological entity grown or the cost of any ‘raw materials’.   times; this greatly increases the maturation of the
+                                                              organism, potentially producing a fully grown human
+A TL6 basic bioreaction chamber can support the               in less than five months, although perhaps at the
+growth of microbes with a simple nutrient feed                expense of its long-term viability.
+mechanism. This provides the basis for growing
+medicinal organisms, simple feedstock and biomass             All bioreaction chambers require organic feedstock
+fuel sources. A TL8 improved chamber allows the               mass of at least the equivalent mass of their finished
+growth of tissues. It can grow skin, muscles or artificial    ‘product’. It is possible to insert an organism’s genetic
+meat fit for consumption.                                     source material and a few additive nutrients into an
+                                                              advanced bioreaction chamber and see a fully grown
+The TL10 enhanced chamber can grow a complete                 clone emerge four to five months later.
+organism, for instance carrying a mammal from
+conception to birth. The enhanced chamber can grow            Bioreaction                            Kg per Cost per
+a fertilised embryo or cloned organism to full term in        Chamber     TL Complexity              Litre  Litre
+a normal gestation period or at accelerated growth
+                                                              Basic           6    Microbes          5        Cr1000
+                                                              Improved        8    Tissues           4        Cr2000
+                                                              Enhanced        10 Complex             3        Cr5000
+                                                                                 organisms, x
+                                                                                 12 growth
+                                                              Advanced        13 x 50                2        Cr20000
+                                                                                 Accelerated
+                                                                                 growth
+
+                                                              CRYOBERTH
+                                                              A cryoberth, or ‘icebox’ is a coffin-like machine similar
+                                                              to the low or frozen berths used on some spacecraft.
+                                                              Unlike a low berth, a cryoberth is designed to quickly
+                                                              (within one combat round) freeze an individual, usually
+                                                              in response to severe medical trauma. This process
+                                                              carries inherent risk and the individual must perform
+                                                              a low berth survival check on entry and exit from
+                                                              cryoberth-induced hibernation (see Traveller Core
+
+
+
+
+                                                                                                                           Medical and Care Supplies
+                                                              Rulebook, page 156). Medical skills applied to aid
+                                                              entry cyroberth survival checks are considered rushed,
+                                                              lowering an applicable medical skill by DM-2, and are
+                                                              often counterproductive if no qualified individual is
+                                                              available. At TL12 survival checks receive DM+1.
+
+                                                              A cryoberth is typically used to place severely injured
+                                                              patients into stasis until they receive medical treatment.
+                                                              The cryoberth’s internal power system can function for
+                                                              up to one week on its own batteries but they are usually
+                                                              connected to a vehicle or ship power supply.
+
+                                                              Cryoberth TL Effect                        Kg   Cost
+                                                              Basic         10 Freeze injured patient 200 Cr50000
+                                                                               within six seconds
+                                                              Improved      12 DM+1 to survival          200 Cr50000
+                                                                               checks
+
+
+
+
+                                                                                                                           89
+

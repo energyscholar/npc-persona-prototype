@@ -1,0 +1,68 @@
+                                                                        T       R       A       V       E        L       L       E       R
+
+
+
+                                                                            CRYOJET
+                                                                            In one way the opposite of a flamethrower, the cryojet
+           HEAVY WEAPONS                                                    projects a stream of cryogenically chilled liquid which
+                                                                            can do massive damage to living tissue. However, its
+           Sometimes, a big mission can only be accomplished
+           with a big gun. The weapons here are for those                   primary use is to freeze the joints of sealed armour,
+           Travellers who possess both the skill and confidence.            temporarily incapacitating the target. If a target wearing
+           Illegal on many worlds, there is little better weapon with       any kind of sealed protective suit is struck by a cryojet,
+           which to face the dangers of a hostile wilderness, pirate        they must make an Average (8+) STR check or be held
+           haven or war zone.                                               in place for 1D rounds.
+
+                                                                            DISPOSABLE PLASMA LAUNCHER
+           PORTABLE HEAVY WEAPONS                                           This is a self-contained, disposable weapon launching
+                                                                            an 80mm rocket-propelled directed plasma warhead.
+           These are among the most powerful weapons to
+           appear on the battlefield and require special training           The plasma launcher is a deadly weapon able to
+           to use effectively. Only weapons mounted on vehicles             destroy even high-technology armoured vehicles. It
+           and ships will be more powerful at any equivalent Tech           is a favoured import with mid-tech forces that need a
+           Level. These weapons require the Heavy Weapons                   deterrent against higher-tech foes.
+           (portable) skill to use effectively.
+                                                                            EARLY MACHINEGUN
+           ANTI-MATERIEL RIFLE                                              Once the principles of machineguns were understood,
+           The anti-materiel rifle is a single-shot super-heavy rifle       militaries were quick to adopt them. Design flaws and
+           firing long cartridges at high velocity. It is designed          tendencies to jam were soon overcome, leaving a
+           to destroy light vehicles and will make a real mess of           weapon that ruled the battlefield utterly.
+           armoured infantry. It comes equipped with a bipod and
+           scope, and although it can be fired from the hip, this is        FGHP
+           an arduous task for most individuals.                            The ultimate personal firearm, the Fusion Gun, Human
+                                                                            Portable (similar weapons are available for other
+           ASSAULT ROCKET LAUNCHER                                          species) is more like a piece of artillery. It includes a
+           The assault rocket launcher (ARL) fires 10mm solid-              gravity suspension system to reduce its inertia and
+           fuel rocket slugs. Ammunition is held in detachable              fires a pulse of what amounts to a directed nuclear
+           magazines inserted into the underside of the weapon              explosion. Those without radiation protection who are
+           behind the pistol grip. The standard ARL is not                  nearby when a FGHP is fired will suffer a potentially
+           capable of automatic fire. A more expensive support              lethal dose of radiation.
+           version is otherwise quite similar and magazines are
+           interchangeable between the two. A personal defence              FLAMETHROWER
+           weapon (PDW) variant also exists, which has an                   A relatively crude device, the flamethrower consists of
+           extremely short barrel and no stock.                             a fuel tank, compressor and a nozzle that can project a
+                                                                            torrent of fire for some distance. Changing magazines
+           All ARL weapons suffer DM-1 to attack rolls. The                 (fuel tanks) takes 2D rounds and if a person carrying a
+           PDW variant suffers DM-2 to attack rolls made                    flamethrower is hit by any attack with an Effect of 4 or
+           against targets beyond 10 metres. The ARL may use                greater, the weapon will explode, destroying itself and
+Weaponry
+
+
+
+
+           the rifle variant ammunition found in the Specialised            immediately inflicting damage on the carrier as if they
+           Ammunition chapter.                                              had been hit by it. Flamethrowers of TL8 or greater are
+                                                                            not prone to explode in this fashion.
+           CARTRIDGE PORTABLE PLASMA GUN (CPPG)
+           Firing a superheated chemical cell, the CPPG is an               GRENADE LAUNCHER
+           early plasma gun which uses a tubular magazine                   Grenade launchers are used to fire 40mm rifle
+           similar to that used by some shotguns. With integrated           grenades over long distances. The grenade launcher
+           holographic sights (see page 175), the CPPG is an                may use the heavy weapon variant ammunition found
+           effective anti-material gun and sniping platform but it          in the Specialised Ammunition chapter.
+           initially lacks range.
+
+
+
+
+   160
+

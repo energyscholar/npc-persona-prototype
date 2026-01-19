@@ -1,0 +1,49 @@
+                                                                         MAGAZINE
+WEAPON             TL RANGE DAMAGE TONS COST                    MAGAZINE COST     TRAITS
+Black Powder Mortar 3     0.5       6D      0.5     Cr2000      1              Cr50         Artillery, Blast 6
+Bombardment Gun    5      30 (10)   2DD     220     Cr500000 1                 Cr1500       Artillery, Blast 20
+Demolition Gun     6      0.1       1DD     5       Cr30000     1              Cr500        AP 10, Artillery,
+                                                                                            Blast 10
+Heavy Bombardment 5       40 (10)   3DD     500     Cr750000 1                 Cr2500       Artillery, Blast 20
+Gun
+Heavy Gun          8      12        1DD     12      Cr120000 1                 Cr400        AP 8, Artillery,
+                                                                                            Blast 10
+Infantry Mortar    5      1 (0.1)   5D      0.012   Cr3500      1              Cr50         Artillery, Blast 5
+Light Howitzer     5      6         8D      2       Cr50000     1              Cr150        Artillery, Blast 10
+Light Gun          6      9         8D      2       Cr75000     1              Cr200        AP 5, Artillery,
+                                                                                            Blast 10
+Mass Driver        12 40            1DD     7       Cr500000 1                 Cr750        Artillery, Blast 10
+Siege Gun          7      50 (10)   4DD     1,200   MCr19       1              Cr5000       AP 10, Artillery,
+                                                                                            Blast 50
+Support Mortar     7      3         9D      0.25    Cr11000     1              Cr100        Artillery, Blast 6
+
+
+
+
+ Black Powder
+ Mortar
+
+
+                                                                                      Bombardment Gun
+
+
+
+                        Heavy Bombardment Gun                                          Demolition Gun
+
+
+
+
+                                                                                                                   Weaponry
+
+                                                             Infantry Mortar
+
+
+
+
+                                Heavy Gun
+
+
+
+
+                                                                                                                  165
+

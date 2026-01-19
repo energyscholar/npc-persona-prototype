@@ -1,0 +1,67 @@
+PERSONAL AUTOMEDIC                                        PERSONAL MEDISCANNER
+A personal automedic is an automated drug dispenser       This is a small monitoring unit normally worn on the
+tailored to a specific user’s body chemistry. This        belt or upper arm. A personal mediscanner monitors a
+item is normally a patch attached to the torso but        wearer’s life signs, including blood composition, blood
+it can be installed subcutaneously. It monitors the       sugar and body temperature. It warns when exhaustion
+wearer’s bio-signs for changes, then dispense anti-       or dehydration are imminent, gives information to the
+toxins, antibiotics, stimulants, sedatives and other      wearer or medical personnel about poisoning or other
+pharmaceuticals required to keep the user at peak         hazardous conditions and allows quick diagnosis
+efficiency or to prevent collapse. Under normal           of ailments. Using the information from a personal
+conditions a personal automedic will need to be           mediscanner provides DM+1 on Medic checks.
+restocked and the batteries recharged every four
+weeks (at a cost of Cr500).                               Item            TL Effect                  Kg Cost
+                                                          Personal    12 Personalised                —    Cr1000
+In the event of poisoning or infection, a personal
+                                                          Mediscanner    medical monitor,
+automedic will administer a specific antidote if
+                                                                         diagnostic tool
+it possesses it and recognises the threat (as
+determined by the Referee), neutralising the
+poison or disease immediately. If not, it will react      PORTABLE MEDISCANNER
+to general symptoms and use general or broad-             This is a larger version of the personal mediscanner
+spectrum remedies as its database thinks best. In         for use by field medics. The device is not optimised for
+many instances (as determined by the Referee) the         a single individual and takes 1D minutes to calibrate
+personal automedic provides a DM+1 to checks              itself to each new subject. It gives the same data
+made to overcome poisons or diseases, even if an          as the personal version (although with slightly less
+exact counteragent is not available.                      detail), providing DM+1 on Medic checks once it has
+                                                          finished its analysis. Add-on chips for alien species
+Most automedics are also equipped to store and            are available for Cr500 each.
+dispense a single dose of hibernation Fast Drug
+(purchased separately, see page 93) should it ever        Item            TL   Effect                Kg Cost
+be needed. If the wearer is seriously injured or dying
+                                                          Portable    12       Monitor, diagnostic   1    Cr2000
+the automedic will automatically use this drug to slow
+                                                          Mediscanner          tool
+bleeding, delay shock and/or conserve oxygen. The
+wearer can also manually activate this drug at any
+time if needed. If desired, this can be replaced with a   TRAUMA PACK
+dose of some other drug. A personal automedic also        The trauma pack is a vital device carried by
+provides all of the benefits of a personal mediscanner.   battlefield medics and first responders. It is a small
+                                                          satchel of chemicals and drugs used to pump life
+Item         TL Effect                   Kg Cost          back in a wounded body. Unsubtle (and deadly in
+                                                          multiple doses), the chemicals can make a patient
+
+
+
+
+                                                                                                                     Medical and Care Supplies
+Personal  11      Monitor, diagnostic    —    Cr15000     ignore wounds for a few hours – hopefully enough
+Automedic         tool, auto-drug                         time to get them to a proper medical facility. The
+                  dispenser                               use of a trauma pack requires a Medic check but
+                                                          will restore 1D END to a wounded patient. This END
+                                                          can be used to bring a technically ‘dead’ patient
+                                                          back from 0 END, so long as their last wound was
+                                                          suffered within 1D rounds. This regained END lasts
+  Trauma Pack                                             for 1D hours, at which point it vanishes, potentially
+                                                          killing the patient. A patient can only benefit from the
+                                                          administration of a trauma pack once per day.
+
+                                                          Item      TL Effect                         Kg Cost
+                                                          Trauma 8       Field recovery of 1D END 2        Cr750
+                                                          Pack           for 1D hours
+
+
+
+
+                                                                                                                     91
+

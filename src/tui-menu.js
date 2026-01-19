@@ -105,10 +105,7 @@ function centerText(str, width) {
 const MAIN_MENU_OPTIONS = [
   { key: '1', label: 'Play High and Dry Adventure', action: 'adventure' },
   { key: '2', label: 'Communicate with NPC (Test Mode)', action: 'npc-test' },
-  { key: '3', label: 'Training Session', action: 'training' },
-  { key: '4', label: 'Quick Chat (Legacy Mode)', action: 'quick-chat' },
-  { key: '5', label: 'Red Team Validation', action: 'red-team' },
-  { key: '6', label: 'Exit', action: 'exit' }
+  { key: '3', label: 'Exit', action: 'exit' }
 ];
 
 /**
@@ -372,6 +369,26 @@ function displayScenarioMenu(scenarios, history = {}) {
   return drawBoxWithHeader(header, bodyLines, innerWidth + 2);
 }
 
+/**
+ * Display a campaign selection menu
+ * @param {Object[]} campaigns - Array of campaign objects with id and name
+ * @returns {string} Formatted menu string
+ */
+function displayCampaignMenu(campaigns) {
+  const innerWidth = MENU_WIDTH - 2;
+  const header = centerText('SELECT CAMPAIGN', innerWidth);
+
+  const bodyLines = [
+    '', // blank line
+    ...campaigns.map((c, i) => `  ${i + 1}. ${c.name}`),
+    '',
+    '  [B] Back',
+    '' // blank line
+  ];
+
+  return drawBoxWithHeader(header, bodyLines);
+}
+
 module.exports = {
   // Box drawing
   drawBox,
@@ -385,6 +402,7 @@ module.exports = {
   // Menus
   displayMainMenu,
   displayPickerMenu,
+  displayCampaignMenu,
   displaySceneFrame,
   displayContactHistory,
   displayFlagMenu,

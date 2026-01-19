@@ -4,8 +4,19 @@
   "species": "Human",
   "homeworld": "Flammarion",
   "background": "Former scout service, mustered out after one term. Approved by IISS for detached duty - a one-year renewable lease on a Type S Scout/Courier, the Highndry, stranded on Walston. The ship belongs to the Scout Service; Alex operates it independently under lease terms. Competent but still finding their footing as an independent traveller.",
-  "traits": ["resourceful", "curious", "independent", "sometimes reckless"],
-  "skills_notable": ["Pilot-1", "Astrogation-1", "Vacc Suit-1", "Survival-1", "Gun Combat-0"],
+  "traits": [
+    "resourceful",
+    "curious",
+    "independent",
+    "sometimes reckless"
+  ],
+  "skills_notable": [
+    "Pilot-1",
+    "Astrogation-1",
+    "Vacc Suit-1",
+    "Survival-1",
+    "Gun Combat-0"
+  ],
   "appearance": "Late 20s, medium build, practical clothing, carries a worn scout service duffel",
   "social_standing": 6,
   "motivations": [
@@ -29,5 +40,25 @@
       "notes": "Credited to account, spending is PC's choice/problem"
     }
   },
-  "notes": "Solo PC for High and Dry. NPCs should treat as a competent but unproven newcomer."
+  "personal_weapons": [
+    {
+      "id": "autopistol-standard",
+      "name": "Autopistol",
+      "type": "weapon",
+      "subtype": "firearm",
+      "legal_at_law_level": 5,
+      "description": "Standard sidearm from scout service days"
+    },
+    {
+      "id": "blade-combat",
+      "name": "Combat Blade",
+      "type": "weapon",
+      "subtype": "blade",
+      "legal_at_law_level": 8,
+      "description": "Utility blade, legal in most jurisdictions"
+    }
+  ],
+  "notes": "Solo PC for High and Dry. NPCs should treat as a competent but unproven newcomer.",
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

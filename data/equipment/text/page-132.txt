@@ -1,0 +1,55 @@
+WEAPONRY
+Travellers may be able to solve many situations                 the start of every round. However, the Referee may
+without resorting to combat or other forms of violence.         rule it continues to burn so long as flammable material
+Sometimes, combat is forced upon them, at others                is present. A Traveller may use a Significant Action to
+it results from the failure of alternative means to             extinguish the fire, requiring an Average (8+) DEX check.
+resolve an encounter and the Travellers may decide              The Traveller gains DM+2 if using firefighting equipment.
+that combat is the most viable method of solving
+a problem. In all situations, it is important for the           One Use: This weapon is designed to be used just
+Traveller to have the proper tools.                             once, completely expending its energy or ammunition
+                                                                and then being rendered useless.
+
+NEW WEAPON TRAITS                                               Silent: Most projectile weapons require a noisy
+                                                                discharge of chemical, heat or kinetic energy in order to
+Some of the weapons described in these sections
+have additional weapons traits not described in the             attack but this weapon channels or removes the excess
+Traveller Core Rulebook. These are:                             sound energy also created. Any attempts to detect the
+                                                                source of this sound suffer DM-6.
+Artillery: Artillery weapons shoot projectiles along a
+ballistic trajectory, allowing them to ‘lob’ shots at targets   Smasher: This weapon is particularly heavy and
+out of sight. When firing at a target that can be seen,         carries a great deal of momentum when it is swung.
+Artillery weapons follow the usual rules for ranged attacks.    A Traveller attacked by a Smasher weapon may not
+                                                                attempt to parry it.
+When attempting indirect fire at a target that cannot
+be physically seen, the attack suffers a DM-2 penalty.          Very Dangerous: Only a madman uses a weapon with
+In addition, if the precise location of the targets is not      this reputation. If an attack roll is made with Effect -3 or
+known (enemies are behind a wall or have ducked                 worse, it explodes. Damage is inflicted upon the person
+down into a trench, for example) the attack will land 1D        firing it and the weapon is rendered inoperable.
+metres in a random direction away from them for every
+100 metres the target is from the attacker, minus the
+Effect of the attack roll. A negative Effect will, of course,
+add to this distance instead.
+
+It is worth remembering that knowing where targets may              TL0 WEAPONS
+be does not mean they need to be seen. The use of                  Absence of technology does not mean lack of
+sensors, as described on page 160 of the Traveller Core            skill or ingenuity but it does limit the materials
+Rulebook, provide a good indication where enemies are              available. An obsidian spearpoint may be just
+lurking, as can forward observers.                                 as well-crafted and sharp as one made of
+                                                                   bronze or iron but is more likely to shatter on
+Dangerous: This weapon can be as lethal to its user                a bad throw. For all weapons introduced at
+as the intended target. If an attack roll is made by               TL0, any attack roll with Effect -3 or worse will
+this weapon with Effect -5 or worse, it explodes. Its              cause it to break. For a bow, this means the
+damage is inflicted upon the person firing it and the              bow or string, not the arrow (which at any TL
+weapon is rendered inoperable.                                     is unrecoverable on any non-odd Effect (+2, 0,
+                                                                   -2, etc.). The same weapons crafted at TL1 or
+Fire: This weapon sets a target on fire, causing damage            above do not suffer this defect.
+every round after the initial attack. A target can only
+be set on fire by one Fire weapon at a time – use the
+highest damage Fire weapon. Left to its own devices,
+a fire will extinguish itself on a 2D roll of 8+, rolled at
+
+
+
+
+                                                                                                                               131
+

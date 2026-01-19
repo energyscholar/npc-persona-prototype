@@ -1,0 +1,60 @@
+ENHANCED MOBILITY                                         FLIGHT PACK
+By fitting faster-acting servos and responsive            Using an array of efficient rockets and turbines, the
+control systems, the operator’s effective dexterity       flight pack allows battle dress to take to the air. Using
+is boosted beyond human limits. This modification         a flight pack requires the Flyer (wing) skill and allows
+also increases an operator’s base movement rate           the battle dress to travel at up to High speed with an
+by 50%. The modification can only be applied to           Agility equal to the operator’s (battle dress-enhanced)
+powered armour and each additional application            DEX DM. It has a maximum range of 200 kilometres
+requires twice the number of slots and cost as the        or one hour endurance at 200 kilometres per hour. At
+previous application.                                     maximum velocity of 300 kilometres per hour, the range
+                                                          drops to 135 kilometres.
+Modification TL Effect                   Slots Cost
+Enhanced        14 Additional            1    Cr35000     Modification TL       Effect             Slots Cost
+Mobility           DEX+3, +50%                            Flight Pack      10   Powered flight     6       Cr50000
+                   movement rate                                                at High speed,
+                                                                                200km range
+ENHANCED STRENGTH
+By fitting more powerful servos and reinforcing the       FUEL CELLS
+load bearing components of battle dress, the Traveller    While advanced battle dress has a suitably long duration
+finds their effective strength boosted immeasurably.      for use in battle, additional fuel cells provide much
+This modification also increases an operator’s base       greater flexibility for mission profiles beyond the standard
+movement rate by 50%. The modification can only           12 hours. Each additional fuel cell increases the
+be applied to powered armour and each additional          operational duration of battle dress by another 12 hours.
+application requires twice the number of slots and cost
+as the previous application.                              Modification TL       Effect                 Slots Cost
+                                                          Fuel Cells       13   Adds 12-hour           2    Cr1000
+Modification TL Effect                Slots Cost                                duration to suit
+Enhanced        14 Additional         2       Cr25000                           power
+Strength           STR+3
+                                                          HEAVY PLATING
+ENVIRONMENT PROTECTION                                    The purpose of battle dress is protection but there
+Battle dress is sufficiently tough to resist most         will always be discerning customers looking for that
+environments but there are worlds whose atmospheres       little bit extra. A series of additional plating fitted to
+are so thoroughly unpleasant that even advanced           strategic locations across the suit can increase its
+armour cannot protect an operator for more than           defensive capabilities further, rendering the operator
+a few hours. Environment protection shields battle        nigh impervious to all but the heaviest weapons. Heavy
+dress against corrosive atmospheres (or corrosive         plating adds +1 to the Protection score of battle dress
+and insidious atmospheres, if the more advanced           and may be applied up to five times to the same suit.
+version is purchased) for 72 hours, after which battle    However, the third application of heavy plating will
+dress will start to lose one point of Protection every    reduce the battle dress’ DEX bonus by -2.
+hour until destroyed. This limit is reset by a thorough
+decontamination between exposures. Environment            Modification TL       Effect              Slots Cost
+damage can be repaired at 10% of the suit’s total cost                                                                   Armour
+                                                          Heavy            13   Protection +1,      1       Cr4000
+per point of protection lost.
+                                                          Plating               up to 5x, but 3
+                                                                                or more=DEX-2
+Modification TL Effect               Slots Cost
+Environment     13 72-hour           1       Cr40000
+Protection         corrosive
+(corrosive)        atmosphere
+                   protection
+Environment     13 72-hour           1       Cr150000
+Protection         insidious
+(insidious)        atmosphere
+                   protection                                                                    Heavy Plating
+
+
+
+                                                                                                                         45
+

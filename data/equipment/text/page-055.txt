@@ -1,0 +1,78 @@
+                                                                    T      R        A        V        E      L       L       E       R
+
+
+
+                                                                        TERMINAL STABILISATION SYSTEM
+                                                                        This is a complex system that monitors all body
+           SMUGGLING CONTAINER                                          functions and, upon sensing imminent death,
+           A portion of the Traveller’s body is surgically modified
+                                                                        immediately releases a potent mix of chemicals and
+           to house a polymer pocket, covered by what appears
+                                                                        nanobots designed to keep the Traveller alive, if not
+           like normal skin. Using a trigger, usually looking
+                                                                        completely functional. When the Traveller is killed, the
+           like a blemish or scar to open, the pocket can hold
+                                                                        terminal stabilisation system immediately adds +1D
+           roughly five kilograms of mass but nothing larger
+                                                                        END. If this is not sufficient to make the Traveller’s END
+           than 20 centimetres in any dimension. Under normal
+                                                                        a positive figure, death will still occur.
+           circumstances, it requires a Difficult (10+) Investigate
+           check (1D rounds, INT) to discover the container when
+           closed. By default, it is considered to be Natural-looking   Augment                  TL Effect               Cost
+           (DM-2) and is not directly affected by electromagnetic       Terminal Stabilisation 16 See above              MCr2.5
+           attacks, although its contents are not so protected.         System
+
+           Augment       TL    Effect                     Cost
+                                                                        VIDEO TATTOO
+           Smuggling     8     Internally concealed       Cr15000       Some or all of the skin can be injected by configurable
+           Container           container                                pigment particles, allowing for a tattoo design controlled
+                                                                        through an interface built into the tattoo itself or by
+           SUBDERMAL ARMOUR                                             a voice or data link. These patterns switch between
+           This augmentation adds a mesh of ballistic fibres to         static or full-motion and allow the tattooed individual to
+           the skin and reinforces bones, providing the Traveller       change skin colour to any tone or even to a camouflage
+           with extra armour. At higher Tech Levels, more               pattern, potentially allowing DM+2 to Stealth checks if
+           advanced polymers and lightweight alloys line the            the entire camouflaged body is exposed.
+           Traveller’s organs as well as skin. Subdermal armour
+           is not upgradeable; a completely new augmentation            Augment         TL   Effect                   Cost
+           must be installed to achieve greater Protection at           Video Tattoo 12      Controls video tattoo    Cr20000
+           a later date. Subdermal armour stacks with other             Controller           for limb or body
+           protection (but not other subdermal armour) and is
+           not affected by electromagnetic attacks but can be           Video Tattoo 12      Covers one limb,         Cr20000
+           detected by electronic means.                                (limb)               head, or half a torso
+                                                                        Video Tattoo 12      Covers entire body       Cr120000
+           Augment        TL Effect                     Cost            (full body)
+           Subdermal      10 Protection +1              Cr50000
+           Armour +1
+           Subdermal      11   Protection +3            Cr100000
+                                                                        LIMBS
+           Armour +3                                                    ASLAN CYBER-CLAW
+                                                                        This augment is normally only available in Aslan
+           Subdermal      12 Protection +4              Cr250000
+                                                                        cultural regions. The jointed metacarpal of the Traveller
+           Armour +4
+                                                                        is replaced by a cybernetic mechanism and polymer
+           Subdermal      14 Protection +5              Cr500000        sheath holding a retractable claw, similar to the natural
+           Armour +5                                                    weapon of an Aslan. With a subtle flick of the wrist the
+Augments
+
+
+
+
+                                                                        mechanism locks or unlocks the eight-centimetre-long
+                                                                        steel claw, allowing it to be used as a deadly weapon.
+                                                                        Some Aslan have had their natural dew-claws replaced
+                                                                        with these as a sign of their militant mentality or to
+                                                                        replace damaged dewclaws but most are adopted by
+                                                                        humans trying to integrate themselves into male Aslan
+                                                                        circles. This base augment may be upgraded with Claw
+                                                                        Coating (Edging and Hardening options available to
+                                                                        Aslan as described in Aliens of Charted Space: Volume
+                                                                        1 page 58), but does one point less damage per
+                                                                        damage dice than the Aslan versions.
+
+
+
+
+    54
+

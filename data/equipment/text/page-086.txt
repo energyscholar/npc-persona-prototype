@@ -1,0 +1,60 @@
+PERSONAL SAFE                                                 REMEMBRANCE HOLOGRAM
+Not every Traveller trusts their shipmates and the            This is a small device that fits easily into the palm
+personal safe provides a measure of safety for                which, when activated, projects a pre-programmed
+valuables. Personal safes are large enough to store           20–30 centimetre image of a person. These are often
+documents and a couple of pistols or similar-sized            persons close and dear to the owner of the device but
+objects. A locker-sized safe, suitable for storing up to 40   who have departed from the universe of the living, most
+kilograms of rifles or similar sized objects, is available    often family members, although some Travellers may
+for 10 times the mass and cost of the personal safe.          keep a remembrance hologram of a close companion.
+                                                              There is also a market on some worlds for remembrance
+Safes available prior to TL8 are purely mechanical            holograms depicting recently deceased celebrities –
+in nature, requiring Mechanic checks to force open.           these are often much more expensive. At higher tech
+More advanced models have an electronic component,            levels, these holograms become increasingly life-like.
+requiring Electronics (computers) to enter. Intrusion
+software packages (see page 71) can aid attempts              Item             TL   Effect              Kg   Cost
+to bypass an electronic safe. As with other software
+                                                              Remembrance 9         Holographic figure —     Cr250
+Intrusion checks, the relative Tech Level difference
+                                                              Hologram
+between the safe and the computer used to crack
+it acts as a DM to the task, and safe locks of higher
+Tech Level than the Intrusion package are effectively         SLEEP INDUCER
+immune from electronic bypass.                                Consisting of a framework attached to the head of
+                                                              a bed, the sleep inducer is a programmable system
+Use of brute force, such as cutting through the safe          influencing brain waves to encourage first sleep
+with lasers or using explosives are still possible, but       and then alertness. No longer waiting to fall asleep
+may damage the contents of a safe or leave evidence           naturally, a Traveller can now programme downtime to
+of compromise. Treat a safe as having armour equal to         the minute. At the end of the programmed sleep period,
+twice its Tech Level; four points of damage (20 for the       the sleep inducer functions as a silent alarm clock.
+locker) is sufficient to compromise a personal safe and
+extract its (surviving) contents.                             Item            TL    Effect             Kg    Cost
+                                                              Sleep Inducer 10      Induces sleep      2     Cr1000
+Personal Safe TL        Intrusion check      Kg    Cost                             and wakefulness
+Basic             4     Difficult (10+)      5     Cr150
+                        Mechanic
+Improved          6     Very Difficult       4     Cr250               Remembrance
+                        (12+) Mechanic                                 Hologram
+Enhanced          8     Very Difficult       3     Cr400
+                        (12+) Electronics
+                        (computers)
+Advanced          12    Formidable           3     Cr600
+                        (14+) Electronics
+                        (computers)
+
+                                                                                                                        Home Comforts
+Personal           —    —                    x10 x10
+locker safe
+
+
+
+
+  Miniatures
+  Wargame
+
+                                                                                     Personal Safe
+
+
+
+
+                                                                                                                        85
+

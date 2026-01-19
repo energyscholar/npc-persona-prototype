@@ -1,0 +1,67 @@
+                                                                         T       R        A        V         E     L         L        E      R
+
+
+
+                                                                             PSI-FINDER BINOCULARS
+                                                                             These binoculars are the same as PRIS binoculars but
+              PRIS BINOCULARS                                                have one additional setting. By turning on a special filter,
+              PRIS (Portable Radiation Imaging System) binoculars
+                                                                             the psi-finder binoculars place a nimbus of luminescent
+              have no lenses, projecting an image for the wearer
+                                                                             light around the image of anything with a PSI score. The
+              as if they were using optical binoculars. The image
+                                                                             stronger and brighter the nimbus is, the more powerful
+              can be gathered using a variety of electromagnetic
+                                                                             the psionic ability of the individual viewed. A higher tech
+              wavelengths from microwaves through visual light to
+                                                                             version of these is available in a thin visor form, either as
+              gamma rays. The binoculars read naturally-occurring
+                                                                             a standalone item or as a coating.
+              emissions, then convert the data into an optical
+              display using false colour. Composite images using
+              different spectra are possible and can highlight things        Item          TL     Effect                 Kg       Cost
+              missed when viewing in just one mode but this can be           Psi-finder 16        PRIS + PSI             1        Cr10000
+              confusing to a new user. Electronics (sensors) skill is        Binoculars           detection
+              not required for the use of PRIS devices.                      Psi-finder    17     Thin form or visor     —        Cr15000
+                                                                             Visor                coating
+              PRIS goggles, are essentially the same but have
+              close-range magnification capability instead of distance
+              magnification and are used by engineers. One of their          SPOTLIGHT
+              most important features is the ability to see stresses         A large electric light, usually vehicle, building or
+              and cracks in materials before they become visible to          ground-mounted, although also available with a
+              the unaided eye.                                               deployable tripod. A spotlight is a focused beam
+                                                                             providing daytime-bright lighting in less than 30
+              At TL15, PRIS ‘sunglasses’ become available,                   degrees of conical coverage to a distance of 200
+              incorporating imaging features in eyeglasses or a              metres. A floodlight version is more suitable for area
+              visor with a thick upper frame; a wrist unit or computer       lighting and has identical mass and cost. At TL9 and
+              interface (with Bandwidth 0) provides control. These           above this light is capable of switching between spot
+              sunglasses can switch from distant to close-range              and flood modes. These lights are normally attached
+              viewing on command.                                            to external power sources but have internal short-
+                                                                             term battery storage at TL9 for up to one hour of use.
+                                                                             Larger lights are available with additional range at
+              Item           TL   Effect                Kg    Cost
+                                                                             linear increases in mass and cost.
+              PRIS           12   Multi-spectrum        1     Cr3500
+              Binoculars          vision, long range
+                                                                             Item             TL    Effect                   Kg     Cost
+                                  magnification
+                                                                             Spotlight        5     Illuminates 30° cone 20         Cr200
+              PRIS           12   Multi-spectrum        —     Cr4000
+                                                                                                    to 200 metres
+              Goggles             vision, close-range
+                                  magnification                              Floodlight       5     Illuminates 120°         20     Cr200
+                                                                                                    cone to 100 metres
+              PRIS       15       Eyeglass version    —       Cr7000
+              Sunglasses          of PRIS Binoculars/                        Combination 9          Variable beam width, 10         Cr500
+                                  Goggles                                    Light                  1 hour battery life
+Electronics
+
+
+
+
+                       PRIS Binoculars                           Psi-Finder Binoculars                            Spotlight
+
+
+
+      76
+

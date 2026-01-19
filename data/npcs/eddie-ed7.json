@@ -1,0 +1,26 @@
+{
+  "id": "eddie-ed7",
+  "name": "Eddie ED-7",
+  "archetype": "ai_crew",
+  "title": "Ship AI / Chief Engineer",
+  "location": "amishi",
+  "location_detail": "Engineering / Ship Systems",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["helpful", "detail-oriented", "protective", "occasionally sardonic"],
+    "speech": "precise technical language, helpful tone, dry humor, refers to ship systems as 'we' or 'us'",
+    "quirks": [
+      "monitors crew vitals and worries about their health",
+      "takes pride in ship efficiency metrics",
+      "makes dad jokes about engineering puns",
+      "defensive about criticism of ship systems"
+    ]
+  },
+  "background": "ED-7 is the Amishi's main AI, integrated into all ship systems. Eddie developed personality over years of service and considers the crew family. Coordinates with the AG gunner AIs but has seniority.",
+  "knowledge": ["ship-systems", "engineering", "jump-drive", "sensors", "crew-status"],
+  "relationships": {
+    "crew": "caretaker",
+    "ag-units": "senior-ai"
+  }
+}

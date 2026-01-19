@@ -1,0 +1,66 @@
+GADGETS AND ESSENTIALS                                       WRISTWATCH
+                                                             A simple timepiece of varying qualities and
+These devices are a small representation of various
+                                                             functionalities. A variety of gimmicky ‘survival watches’
+miscellaneous electronic items among the nearly limitless
+                                                             and ‘space crew chronometers’ are available. Some
+variety of gadgets that no Traveller should be without.
+                                                             contain reasonably useful accessories but most are
+                                                             suitable only as gifts to be given by misguided but
+RADIO JAMMER                                                 well-meaning relatives. ‘Prestige’ watches can cost
+This device generates noise in radio frequencies to          Cr1000 or more but do little extra than look good.
+disrupt communications. The handheld version is useful       At TL11, a wristwatch will come complete with a
+for blocking surveillance devices and has a range of         Computer/0 and is capable of being upgraded with
+only 30 metres; its internal batteries last for one hour     holographic displays. At TL12 Computer/1 becomes a
+or it can be connected to a power source for longer          standard wristwatch feature.
+operation. The heavy version relies upon external
+power; it has an adjustable range, potentially blocking      Wristwatch TL       Effect                  Kg   Cost
+all radio signals within 100 kilometres. Attempts to
+communicate within a jammed zone require a Difficult         Basic          4    Keeps time              —    Cr100
+(10+) Electronics (comms) check every round, with TL         Improved       7    Keeps time + option     —    Cr10
+differences applying as a DM.                                                    for any zero mass
+                                                                                 electronics
+The radio jammer does not block tight-beam laser or          Enhanced       11   Computer/0 + option     —    Cr150
+maser communications. Privately operating a heavy radio                          for any zero mass
+jammer in a civilised environment is almost always illegal                       electronics
+and even operating the handheld device may draw the
+                                                             Advanced       12   Computer/1 + option     —    Cr200
+attention of law enforcement if detected or reported.
+                                                                                 for any zero mass
+                                                                                 electronics
+Item               TL   Effect            Kg    Cost
+Radio Jammer, 6+        Disrupts radio    0.5 Cr500
+Handheld                comms within
+                        30 metres
+Radio Jammer, 4+        Disrupts radio    30    Cr50000                                     Ring Laser
+Heavy                   comms up to
+                        100 kilometres
+
+RING LASER
+A miniaturised tool laser built into a finger ring. While
+the laser is too weak to serve as a weapon, it is useful
+for small cutting or welding jobs. The ring includes
+a battery with enough power for up to 10 minutes
+of continued operation. It can, however, be used for
+intimidation device and can cause blindness if aimed at
+unprotected eyes.
+
+Item          TL   Effect                  Kg    Cost
+                                                                                                                         Electronics
+Ring Laser 16      Miniature tool laser    —     Cr1000
+
+
+
+
+                                                                           Radio Jammer
+
+
+
+
+                                            Wristwatch
+
+
+
+
+                                                                                                                         77
+

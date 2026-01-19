@@ -1,0 +1,2901 @@
+[
+  {
+    "name": "Laser Anti-Missile System",
+    "category": "weapon",
+    "tl": 13,
+    "cost": 75000,
+    "mass": 0,
+    "damage": "1D",
+    "range": 500,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Auto 3"
+    ],
+    "source_page": 45
+  },
+  {
+    "name": "Advanced Laser Anti-Missile System",
+    "category": "weapon",
+    "tl": 15,
+    "cost": 125000,
+    "mass": 0,
+    "damage": "2D",
+    "range": 1000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Auto 4"
+    ],
+    "source_page": 45
+  },
+  {
+    "name": "Aslan Cyber-claw",
+    "category": "weapon",
+    "tl": 9,
+    "range": "Melee",
+    "damage": "1D+1",
+    "cost": 10000,
+    "mass": 0,
+    "source_page": 56,
+    "traits": []
+  },
+  {
+    "name": "Grapnel Launcher",
+    "tl": 7,
+    "cost": 100,
+    "mass": 3,
+    "category": "weapon",
+    "damage": "2D",
+    "range": 25,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "effect": "25-metre-range grapnel launcher",
+    "traits": [],
+    "source_page": 116
+  },
+  {
+    "name": "Chain Saw",
+    "category": "weapon",
+    "tl": 6,
+    "effect": "Motorised cutting tool",
+    "mass": 6,
+    "cost": 50,
+    "damage": "4D",
+    "range": "Melee",
+    "traits": [
+      "DM-2 to attack rolls"
+    ],
+    "source_page": 126
+  },
+  {
+    "name": "Anti-Armour Flail",
+    "category": "weapon",
+    "tl": 8,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 3,
+    "cost": 250,
+    "traits": [
+      "AP 5",
+      "One Use"
+    ],
+    "source_page": 134
+  },
+  {
+    "name": "Club",
+    "category": "weapon",
+    "tl": 0,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 2,
+    "cost": 0,
+    "traits": [],
+    "source_page": 134
+  },
+  {
+    "name": "Gravity Hammer",
+    "category": "weapon",
+    "tl": 13,
+    "range": "Melee",
+    "damage": "5D",
+    "mass": 5,
+    "cost": 10000,
+    "traits": [
+      "AP 50",
+      "Bulky",
+      "Smasher"
+    ],
+    "source_page": 134
+  },
+  {
+    "name": "Mace",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "2D+2",
+    "mass": 3,
+    "cost": 20,
+    "traits": [
+      "Bulky",
+      "Smasher"
+    ],
+    "source_page": 134
+  },
+  {
+    "name": "Sap",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "1D",
+    "mass": 1,
+    "cost": 30,
+    "traits": [
+      "Stun"
+    ],
+    "source_page": 134
+  },
+  {
+    "name": "Sledgehammer",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 8,
+    "cost": 30,
+    "traits": [
+      "Smasher",
+      "Very Bulky"
+    ],
+    "source_page": 134
+  },
+  {
+    "name": "Staff",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 2,
+    "cost": 5,
+    "traits": [],
+    "source_page": 134
+  },
+  {
+    "name": "Static Maul",
+    "category": "weapon",
+    "tl": 11,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 3,
+    "cost": 650,
+    "traits": [
+      "AP 4",
+      "Bulky",
+      "Smasher"
+    ],
+    "source_page": 134
+  },
+  {
+    "name": "Stunstick",
+    "category": "weapon",
+    "tl": 8,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 0.5,
+    "cost": 300,
+    "traits": [
+      "Stun"
+    ],
+    "source_page": 134
+  },
+  {
+    "name": "Arc-Field Weapon",
+    "category": "weapon",
+    "tl": 14,
+    "range": "Melee",
+    "damage": "5D+2",
+    "mass": 4,
+    "cost": 25000,
+    "traits": [
+      "AP 30"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Assault Pike",
+    "category": "weapon",
+    "tl": 5,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 8,
+    "cost": 200,
+    "traits": [
+      "AP 4",
+      "Bulky",
+      "One Use"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Assault Pike",
+    "category": "weapon",
+    "tl": 8,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 5,
+    "cost": 400,
+    "traits": [
+      "AP 4",
+      "One Use"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Battle Axe",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 4,
+    "cost": 225,
+    "traits": [
+      "AP 2",
+      "Bulky"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Blade",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 1,
+    "cost": 100,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Broadsword",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 3,
+    "cost": 500,
+    "traits": [
+      "Bulky"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Chaindrive Axe",
+    "category": "weapon",
+    "tl": 10,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 6,
+    "cost": 600,
+    "traits": [
+      "AP 4",
+      "Bulky"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Chaindrive Sword",
+    "category": "weapon",
+    "tl": 10,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 4,
+    "cost": 500,
+    "traits": [
+      "AP 2"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Cutlass",
+    "category": "weapon",
+    "tl": 2,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 2,
+    "cost": 200,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Dagger",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "1D+2",
+    "mass": 0.5,
+    "cost": 10,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Great Axe",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "4D+2",
+    "mass": 8,
+    "cost": 750,
+    "traits": [
+      "Smasher",
+      "Very Bulky"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Hatchet",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "2D+2",
+    "mass": 2,
+    "cost": 50,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Lance",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "5D",
+    "mass": 4,
+    "cost": 250,
+    "traits": [
+      "AP 4"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Long Blade",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 2,
+    "cost": 200,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Long Blade",
+    "category": "weapon",
+    "tl": 3,
+    "range": "Melee",
+    "damage": "3D+2",
+    "mass": 2,
+    "cost": 300,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Monoblade",
+    "category": "weapon",
+    "tl": 12,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 1,
+    "cost": 2500,
+    "traits": [
+      "AP 10"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Monofilament Axe",
+    "category": "weapon",
+    "tl": 12,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 4,
+    "cost": 3000,
+    "traits": [
+      "AP 15",
+      "Bulky",
+      "Smasher"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Piston Spear",
+    "category": "weapon",
+    "tl": 7,
+    "range": "Melee",
+    "damage": "3D+2",
+    "mass": 3,
+    "cost": 400,
+    "traits": [
+      "AP 2"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Psi Blade",
+    "category": "weapon",
+    "tl": 16,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 1,
+    "cost": 30000,
+    "traits": [
+      "Special (PSI)"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Psi Dagger",
+    "category": "weapon",
+    "tl": 16,
+    "range": "Melee",
+    "damage": "1D+2",
+    "mass": 0.5,
+    "cost": 25000,
+    "traits": [
+      "Special (PSI)"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Rapier",
+    "category": "weapon",
+    "tl": 2,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 1,
+    "cost": 200,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Spear",
+    "category": "weapon",
+    "tl": 0,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 2,
+    "cost": 10,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Static Axe",
+    "category": "weapon",
+    "tl": 11,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 5,
+    "cost": 750,
+    "traits": [
+      "AP 6",
+      "Bulky",
+      "Smasher"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Static Axe",
+    "category": "weapon",
+    "tl": 12,
+    "range": "Melee",
+    "damage": "4D+2",
+    "mass": 4,
+    "cost": 1000,
+    "traits": [
+      "AP 8",
+      "Smasher"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Static Blade",
+    "category": "weapon",
+    "tl": 11,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 3,
+    "cost": 700,
+    "traits": [
+      "AP 5"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Static Blade",
+    "category": "weapon",
+    "tl": 12,
+    "range": "Melee",
+    "damage": "3D+2",
+    "mass": 2,
+    "cost": 900,
+    "traits": [
+      "AP 6"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Stealth Dagger",
+    "category": "weapon",
+    "tl": 8,
+    "range": "Melee",
+    "damage": "1D+2",
+    "mass": 0.5,
+    "cost": 175,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "Stone Axe",
+    "category": "weapon",
+    "tl": 0,
+    "range": "Melee",
+    "damage": "2D+1",
+    "mass": 2,
+    "cost": 5,
+    "traits": [],
+    "source_page": 136
+  },
+  {
+    "name": "War Pick",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "2D+2",
+    "mass": 3,
+    "cost": 275,
+    "traits": [
+      "AP 4"
+    ],
+    "source_page": 136
+  },
+  {
+    "name": "Brass Knuckles",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "1D+2",
+    "mass": 0,
+    "cost": 10,
+    "source_page": 140,
+    "traits": []
+  },
+  {
+    "name": "Claw Glove",
+    "category": "weapon",
+    "tl": 10,
+    "range": "Melee",
+    "damage": "1D+2",
+    "mass": 0,
+    "cost": 1000,
+    "source_page": 140,
+    "traits": [
+      "AP 2"
+    ]
+  },
+  {
+    "name": "Claw Glove",
+    "category": "weapon",
+    "tl": 11,
+    "range": "Melee",
+    "damage": "2D+2",
+    "mass": 0,
+    "cost": 3000,
+    "source_page": 140,
+    "traits": [
+      "AP 4"
+    ]
+  },
+  {
+    "name": "Claw Glove",
+    "category": "weapon",
+    "tl": 12,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 0,
+    "cost": 5000,
+    "source_page": 140,
+    "traits": [
+      "AP 10"
+    ]
+  },
+  {
+    "name": "Claw Glove",
+    "category": "weapon",
+    "tl": 14,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 0,
+    "cost": 25000,
+    "source_page": 140,
+    "traits": [
+      "AP 30"
+    ]
+  },
+  {
+    "name": "Garrotte",
+    "category": "weapon",
+    "tl": 0,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 0,
+    "cost": 10,
+    "source_page": 140,
+    "traits": []
+  },
+  {
+    "name": "Handspikes",
+    "category": "weapon",
+    "tl": 2,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 0,
+    "cost": 100,
+    "source_page": 140,
+    "traits": []
+  },
+  {
+    "name": "Knuckleblasters",
+    "category": "weapon",
+    "tl": 8,
+    "range": "Melee",
+    "damage": "5D",
+    "mass": 0.5,
+    "cost": 150,
+    "source_page": 140,
+    "traits": []
+  },
+  {
+    "name": "Monofilament Garrotte",
+    "category": "weapon",
+    "tl": 12,
+    "range": "Melee",
+    "damage": "3D",
+    "mass": 0,
+    "cost": 1000,
+    "source_page": 140,
+    "traits": [
+      "AP 10",
+      "Dangerous"
+    ]
+  },
+  {
+    "name": "Piston Fist",
+    "category": "weapon",
+    "tl": 9,
+    "range": "Melee",
+    "damage": "3D+2",
+    "mass": 0.5,
+    "cost": 150,
+    "source_page": 140,
+    "traits": []
+  },
+  {
+    "name": "Stunfist",
+    "category": "weapon",
+    "tl": 8,
+    "range": "Melee",
+    "damage": "1D+2",
+    "mass": 0,
+    "cost": 250,
+    "source_page": 140,
+    "traits": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Boarding Shield",
+    "category": "weapon",
+    "tl": 9,
+    "range": "Melee",
+    "damage": "1D",
+    "mass": 5,
+    "cost": 1500,
+    "traits": [
+      "Bulky"
+    ],
+    "source_page": 141
+  },
+  {
+    "name": "Buckler",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": "1D",
+    "mass": 1,
+    "cost": 10,
+    "traits": [],
+    "source_page": 141
+  },
+  {
+    "name": "Expandable Shield",
+    "category": "weapon",
+    "tl": 12,
+    "range": "Melee",
+    "damage": "1D",
+    "mass": 1,
+    "cost": 2500,
+    "traits": [],
+    "source_page": 141
+  },
+  {
+    "name": "Gravitic Shield",
+    "category": "weapon",
+    "tl": 17,
+    "range": "Melee",
+    "damage": "1D",
+    "mass": 0,
+    "cost": 2500,
+    "traits": [],
+    "source_page": 141
+  },
+  {
+    "name": "Large Shield",
+    "category": "weapon",
+    "tl": 1,
+    "range": "Melee",
+    "damage": null,
+    "mass": 5,
+    "cost": 200,
+    "traits": [],
+    "source_page": 141
+  },
+  {
+    "name": "Riot Shield",
+    "category": "weapon",
+    "tl": 6,
+    "range": "Melee",
+    "damage": "1D",
+    "mass": 1.5,
+    "cost": 175,
+    "traits": [],
+    "source_page": 141
+  },
+  {
+    "name": "Shield",
+    "category": "weapon",
+    "tl": 0,
+    "range": "Melee",
+    "damage": "1D",
+    "mass": 2,
+    "cost": 150,
+    "traits": [],
+    "source_page": 141
+  },
+  {
+    "name": "Shock Whip",
+    "category": "weapon",
+    "tl": 9,
+    "cost": 450,
+    "mass": 1,
+    "damage": "2D",
+    "range": "Melee",
+    "magazine": 0,
+    "magazine_cost": 0,
+    "source_page": 142,
+    "traits": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Whip",
+    "category": "weapon",
+    "tl": 1,
+    "cost": 15,
+    "mass": 1,
+    "damage": "D3",
+    "range": "Melee",
+    "magazine": 0,
+    "magazine_cost": 0,
+    "source_page": 142,
+    "traits": []
+  },
+  {
+    "name": "Antique Pistol",
+    "category": "weapon",
+    "tl": 2,
+    "range": 5,
+    "damage": "2D-3",
+    "mass": 0.5,
+    "cost": 100,
+    "magazine": 1,
+    "magazine_cost": 5,
+    "traits": [],
+    "source_page": 144
+  },
+  {
+    "name": "Assault Pistol",
+    "category": "weapon",
+    "tl": 6,
+    "range": 10,
+    "damage": "3D-3",
+    "mass": 1,
+    "cost": 250,
+    "magazine": 15,
+    "magazine_cost": 10,
+    "traits": [
+      "Auto 2"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Autopistol",
+    "category": "weapon",
+    "tl": 5,
+    "range": 10,
+    "damage": "3D-3",
+    "mass": 1,
+    "cost": 200,
+    "magazine": 15,
+    "magazine_cost": 10,
+    "traits": [],
+    "source_page": 144
+  },
+  {
+    "name": "Body Pistol",
+    "category": "weapon",
+    "tl": 8,
+    "range": 5,
+    "damage": "2D",
+    "mass": 0,
+    "cost": 500,
+    "magazine": 6,
+    "magazine_cost": 10,
+    "traits": [],
+    "source_page": 144
+  },
+  {
+    "name": "Cartridge Pistol",
+    "category": "weapon",
+    "tl": 7,
+    "range": 10,
+    "damage": "4D",
+    "mass": 1.5,
+    "cost": 300,
+    "magazine": 6,
+    "magazine_cost": 10,
+    "traits": [
+      "Bulky"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Coach Pistol",
+    "category": "weapon",
+    "tl": 3,
+    "range": 5,
+    "damage": "4D-3",
+    "mass": 2,
+    "cost": 200,
+    "magazine": 2,
+    "magazine_cost": 10,
+    "traits": [
+      "Dangerous"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Duck's Foot Pistol",
+    "category": "weapon",
+    "tl": 3,
+    "range": 5,
+    "damage": "3D-3",
+    "mass": 2,
+    "cost": 300,
+    "magazine": 8,
+    "magazine_cost": 25,
+    "traits": [
+      "Auto 4",
+      "Dangerous"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Flechette Pistol",
+    "category": "weapon",
+    "tl": 9,
+    "range": 10,
+    "damage": "3D-2",
+    "mass": 1,
+    "cost": 275,
+    "magazine": 2,
+    "magazine_cost": 10,
+    "traits": [
+      "Silent"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Gauss Pistol",
+    "category": "weapon",
+    "tl": 13,
+    "range": 20,
+    "damage": "3D",
+    "mass": 1,
+    "cost": 500,
+    "magazine": 40,
+    "magazine_cost": 20,
+    "traits": [
+      "AP 3",
+      "Auto 2"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Heavy Revolver",
+    "category": "weapon",
+    "tl": 5,
+    "range": 10,
+    "damage": "4D-3",
+    "mass": 1.5,
+    "cost": 400,
+    "magazine": 6,
+    "magazine_cost": 15,
+    "traits": [
+      "Bulky"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Magrail Pistol",
+    "category": "weapon",
+    "tl": 14,
+    "range": 15,
+    "damage": "3D+3",
+    "mass": 1,
+    "cost": 750,
+    "magazine": 20,
+    "magazine_cost": 60,
+    "traits": [
+      "Auto 4"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Revolver",
+    "category": "weapon",
+    "tl": 4,
+    "range": 10,
+    "damage": "3D-3",
+    "mass": 0.5,
+    "cost": 150,
+    "magazine": 6,
+    "magazine_cost": 5,
+    "traits": [],
+    "source_page": 144
+  },
+  {
+    "name": "Shot Pistol",
+    "category": "weapon",
+    "tl": 5,
+    "range": 2,
+    "damage": "3D",
+    "mass": 0.5,
+    "cost": 60,
+    "magazine": 1,
+    "magazine_cost": 5,
+    "traits": [],
+    "source_page": 144
+  },
+  {
+    "name": "Snub Pistol",
+    "category": "weapon",
+    "tl": 8,
+    "range": 5,
+    "damage": "3D-3",
+    "mass": 0,
+    "cost": 150,
+    "magazine": 6,
+    "magazine_cost": 10,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Universal Autopistol",
+    "category": "weapon",
+    "tl": 8,
+    "range": 10,
+    "damage": "3D-3",
+    "mass": 1,
+    "cost": 300,
+    "magazine": 10,
+    "magazine_cost": 10,
+    "traits": [],
+    "source_page": 144
+  },
+  {
+    "name": "Zip Gun",
+    "category": "weapon",
+    "tl": 3,
+    "range": 5,
+    "damage": "2D-3",
+    "mass": 0,
+    "cost": 50,
+    "magazine": 1,
+    "magazine_cost": 5,
+    "traits": [
+      "Dangerous"
+    ],
+    "source_page": 144
+  },
+  {
+    "name": "Gauntlet Laser",
+    "category": "weapon",
+    "tl": 10,
+    "range": 20,
+    "damage": "3D",
+    "mass": 2,
+    "cost": 2500,
+    "magazine": 100,
+    "magazine_cost": 1100,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Hand Flamer",
+    "category": "weapon",
+    "tl": 10,
+    "range": 5,
+    "damage": "3D",
+    "mass": 2,
+    "cost": 1500,
+    "magazine": 5,
+    "magazine_cost": 25,
+    "traits": [
+      "Blast 2",
+      "Fire"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Laser Pistol",
+    "category": "weapon",
+    "tl": 9,
+    "range": 20,
+    "damage": "3D",
+    "mass": 2,
+    "cost": 2000,
+    "magazine": 100,
+    "magazine_cost": 1000,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Laser Pistol",
+    "category": "weapon",
+    "tl": 11,
+    "range": 30,
+    "damage": "3D+3",
+    "mass": 1,
+    "cost": 3000,
+    "magazine": 100,
+    "magazine_cost": 3000,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Maser Pistol",
+    "category": "weapon",
+    "tl": 17,
+    "range": 20,
+    "damage": "3D+3",
+    "mass": 2,
+    "cost": 25000,
+    "magazine": 12,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 10",
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Matter Disintegrator",
+    "category": "weapon",
+    "tl": 18,
+    "range": 5,
+    "damage": "1DD",
+    "mass": 1,
+    "cost": 2500000,
+    "magazine": 0,
+    "magazine_cost": 50000,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Matter Disintegrator",
+    "category": "weapon",
+    "tl": 19,
+    "range": 10,
+    "damage": "2DD",
+    "mass": 1,
+    "cost": 4000000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Pepper Spray",
+    "category": "weapon",
+    "tl": 5,
+    "range": 3,
+    "damage": "Special",
+    "mass": 0,
+    "cost": 5,
+    "magazine": 5,
+    "magazine_cost": 5,
+    "traits": [
+      "Stun"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Personal Defence Laser",
+    "category": "weapon",
+    "tl": 13,
+    "range": 25,
+    "damage": "3D+3",
+    "mass": 2,
+    "cost": 6000,
+    "magazine": 25,
+    "magazine_cost": 100,
+    "traits": [
+      "Auto 2",
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Stunner",
+    "category": "weapon",
+    "tl": 8,
+    "range": 5,
+    "damage": "2D",
+    "mass": 0.5,
+    "cost": 500,
+    "magazine": 100,
+    "magazine_cost": 200,
+    "traits": [
+      "Stun",
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Stunner",
+    "category": "weapon",
+    "tl": 10,
+    "range": 5,
+    "damage": "2D+3",
+    "mass": 0,
+    "cost": 750,
+    "magazine": 100,
+    "magazine_cost": 200,
+    "traits": [
+      "Stun",
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Stunner",
+    "category": "weapon",
+    "tl": 12,
+    "range": 10,
+    "damage": "3D",
+    "mass": 0,
+    "cost": 1000,
+    "magazine": 100,
+    "magazine_cost": 200,
+    "traits": [
+      "Stun",
+      "Zero-G"
+    ],
+    "source_page": 150
+  },
+  {
+    "name": "Cartridge Laser Carbine",
+    "category": "weapon",
+    "tl": 13,
+    "cost": 500,
+    "mass": 2,
+    "damage": "3D",
+    "range": "Rifle",
+    "magazine": 10,
+    "magazine_cost": 50,
+    "traits": [
+      "Cartridge"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Cartridge Laser Rifle",
+    "category": "weapon",
+    "tl": 13,
+    "cost": 750,
+    "mass": 4,
+    "damage": "4D",
+    "range": "Rifle",
+    "magazine": 6,
+    "magazine_cost": 75,
+    "traits": [
+      "Auto 3",
+      "Cartridge"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Cryo Rifle",
+    "category": "weapon",
+    "tl": 14,
+    "cost": 1000,
+    "mass": 3,
+    "damage": "2D",
+    "range": "Rifle",
+    "magazine": 5,
+    "magazine_cost": 100,
+    "traits": [
+      "Stun"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Flame Rifle",
+    "category": "weapon",
+    "tl": 12,
+    "cost": 600,
+    "mass": 3,
+    "damage": "3D",
+    "range": "Rifle",
+    "magazine": 4,
+    "magazine_cost": 60,
+    "traits": [
+      "Incendiary"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Heavy Laser Rifle",
+    "category": "weapon",
+    "tl": 14,
+    "cost": 2000,
+    "mass": 6,
+    "damage": "5D",
+    "range": 500,
+    "magazine": 6,
+    "magazine_cost": 200,
+    "traits": [
+      "Integrated Power Pack"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Ion Rifle",
+    "category": "weapon",
+    "tl": 14,
+    "cost": 5000,
+    "mass": 4,
+    "damage": "3D",
+    "range": "Rifle",
+    "magazine": 5,
+    "magazine_cost": 500,
+    "traits": [
+      "Electronic Disruption"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Laser Carbine",
+    "category": "weapon",
+    "tl": 12,
+    "cost": 400,
+    "mass": 2,
+    "damage": "2D",
+    "range": 250,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Backpack Power"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Laser Rifle",
+    "category": "weapon",
+    "tl": 12,
+    "cost": 600,
+    "mass": 4,
+    "damage": "3D",
+    "range": 500,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Backpack Power"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Laser Sniper Rifle",
+    "category": "weapon",
+    "tl": 13,
+    "cost": 1500,
+    "mass": 5,
+    "damage": "4D",
+    "range": 750,
+    "magazine": 6,
+    "magazine_cost": 150,
+    "traits": [
+      "Integrated Power Pack",
+      "Sniper"
+    ],
+    "source_page": 152
+  },
+  {
+    "name": "Cartridge Laser Carbine",
+    "category": "weapon",
+    "tl": 10,
+    "range": 150,
+    "damage": "4D",
+    "mass": 3,
+    "cost": 2500,
+    "magazine": 15,
+    "magazine_cost": 70,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Cartridge Laser Carbine",
+    "category": "weapon",
+    "tl": 12,
+    "range": 200,
+    "damage": "4D+3",
+    "mass": 2.5,
+    "cost": 4000,
+    "magazine": 20,
+    "magazine_cost": 70,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Cartridge Laser Rifle",
+    "category": "weapon",
+    "tl": 10,
+    "range": 200,
+    "damage": "5D",
+    "mass": 5,
+    "cost": 3500,
+    "magazine": 20,
+    "magazine_cost": 150,
+    "traits": [
+      "Auto 3",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Cartridge Laser Rifle",
+    "category": "weapon",
+    "tl": 12,
+    "range": 400,
+    "damage": "5D+3",
+    "mass": 4,
+    "cost": 8000,
+    "magazine": 25,
+    "magazine_cost": 150,
+    "traits": [
+      "Auto 3",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Cryo Rifle",
+    "category": "weapon",
+    "tl": 13,
+    "range": 10,
+    "damage": "4D",
+    "mass": 9,
+    "cost": 6000,
+    "magazine": 12,
+    "magazine_cost": 150,
+    "traits": [
+      "Blast 3"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Flame Rifle",
+    "category": "weapon",
+    "tl": 9,
+    "range": 10,
+    "damage": "4D",
+    "mass": 8,
+    "cost": 2500,
+    "magazine": 10,
+    "magazine_cost": 50,
+    "traits": [
+      "Blast 3",
+      "Fire"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Heavy Laser Rifle",
+    "category": "weapon",
+    "tl": 12,
+    "range": 1200,
+    "damage": "6D",
+    "mass": 12,
+    "cost": 14000,
+    "magazine": 12,
+    "magazine_cost": 500,
+    "traits": [
+      "Scope",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Ion Rifle",
+    "category": "weapon",
+    "tl": 14,
+    "range": 600,
+    "damage": "Special",
+    "mass": 6,
+    "cost": 16000,
+    "magazine": 100,
+    "magazine_cost": 5000,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Ion Rifle",
+    "category": "weapon",
+    "tl": 15,
+    "range": 800,
+    "damage": "Special",
+    "mass": 5,
+    "cost": 24000,
+    "magazine": 100,
+    "magazine_cost": 8000,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Laser Carbine",
+    "category": "weapon",
+    "tl": 9,
+    "range": 150,
+    "damage": "4D",
+    "mass": 4,
+    "cost": 2500,
+    "magazine": 50,
+    "magazine_cost": 1000,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Laser Carbine",
+    "category": "weapon",
+    "tl": 11,
+    "range": 200,
+    "damage": "4D+3",
+    "mass": 2,
+    "cost": 4000,
+    "magazine": 50,
+    "magazine_cost": 3000,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Laser Rifle",
+    "category": "weapon",
+    "tl": 9,
+    "range": 200,
+    "damage": "5D",
+    "mass": 5,
+    "cost": 3500,
+    "magazine": 100,
+    "magazine_cost": 1500,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Laser Rifle",
+    "category": "weapon",
+    "tl": 11,
+    "range": 400,
+    "damage": "5D+3",
+    "mass": 3,
+    "cost": 8000,
+    "magazine": 100,
+    "magazine_cost": 3500,
+    "traits": [
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Laser Sniper Rifle",
+    "category": "weapon",
+    "tl": 12,
+    "range": 600,
+    "damage": "5D+3",
+    "mass": 4,
+    "cost": 9000,
+    "magazine": 6,
+    "magazine_cost": 250,
+    "traits": [
+      "Scope",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Maser Rifle",
+    "category": "weapon",
+    "tl": 16,
+    "range": 300,
+    "damage": "5D+3",
+    "mass": 8,
+    "cost": 30000,
+    "magazine": 20,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 10",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Plasma Rifle",
+    "category": "weapon",
+    "tl": 16,
+    "range": 300,
+    "damage": "6D",
+    "mass": 4,
+    "cost": 100000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [],
+    "source_page": 154
+  },
+  {
+    "name": "Solar Beam Rifle",
+    "category": "weapon",
+    "tl": 17,
+    "range": 500,
+    "damage": "1DD",
+    "mass": 4,
+    "cost": 200000,
+    "magazine": 20,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 20",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Stagger Laser Rifle",
+    "category": "weapon",
+    "tl": 12,
+    "range": 300,
+    "damage": "5D",
+    "mass": 4,
+    "cost": 10000,
+    "magazine": 50,
+    "magazine_cost": 5000,
+    "traits": [
+      "Auto 2",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Stagger Laser Rifle",
+    "category": "weapon",
+    "tl": 14,
+    "range": 350,
+    "damage": "5D+3",
+    "mass": 3,
+    "cost": 15000,
+    "magazine": 100,
+    "magazine_cost": 6000,
+    "traits": [
+      "Auto 3",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Stun Blaster (beam)",
+    "category": "weapon",
+    "tl": 13,
+    "range": 20,
+    "damage": "4D",
+    "mass": 5,
+    "cost": 3000,
+    "magazine": 200,
+    "magazine_cost": 500,
+    "traits": [
+      "Stun",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Stun Blaster (blast)",
+    "category": "weapon",
+    "tl": 0,
+    "range": 0,
+    "damage": "3D",
+    "mass": 0,
+    "cost": 0,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Blast 3",
+      "Stun",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Stun Carbine",
+    "category": "weapon",
+    "tl": 12,
+    "range": 20,
+    "damage": "3D",
+    "mass": 4,
+    "cost": 2000,
+    "magazine": 50,
+    "magazine_cost": 200,
+    "traits": [
+      "Stun",
+      "Zero-G"
+    ],
+    "source_page": 154
+  },
+  {
+    "name": "Atlatl",
+    "tl": 0,
+    "category": "weapon",
+    "range": "+100%",
+    "damage": "—",
+    "cost": 20,
+    "mass": 1,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [],
+    "source_page": 155
+  },
+  {
+    "name": "Compound Cam Bow",
+    "tl": 5,
+    "category": "weapon",
+    "range": 100,
+    "damage": "3D-3",
+    "cost": 250,
+    "mass": 1,
+    "magazine": 1,
+    "magazine_cost": 5,
+    "traits": [
+      "AP 2",
+      "Silent"
+    ],
+    "source_page": 155
+  },
+  {
+    "name": "Crossbow",
+    "tl": 1,
+    "category": "weapon",
+    "range": 100,
+    "damage": "3D-3",
+    "cost": 200,
+    "mass": 3,
+    "magazine": 1,
+    "magazine_cost": 1,
+    "traits": [
+      "AP 2",
+      "Silent"
+    ],
+    "source_page": 155
+  },
+  {
+    "name": "Dart",
+    "tl": 0,
+    "category": "weapon",
+    "range": 50,
+    "damage": "2D-2",
+    "cost": 10,
+    "mass": 0.5,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "One Shot",
+      "Silent"
+    ],
+    "source_page": 155
+  },
+  {
+    "name": "Javelin",
+    "tl": 0,
+    "category": "weapon",
+    "range": 25,
+    "damage": "2D",
+    "cost": 10,
+    "mass": 1,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "One Shot",
+      "Silent"
+    ],
+    "source_page": 155
+  },
+  {
+    "name": "Long Bow",
+    "tl": 1,
+    "category": "weapon",
+    "range": 100,
+    "damage": "3D-3",
+    "cost": 150,
+    "mass": 1.5,
+    "magazine": 1,
+    "magazine_cost": 1,
+    "traits": [
+      "AP 2",
+      "Bulky",
+      "Silent"
+    ],
+    "source_page": 155
+  },
+  {
+    "name": "Repeating Crossbow",
+    "tl": 2,
+    "category": "weapon",
+    "range": 75,
+    "damage": "2D",
+    "cost": 400,
+    "mass": 4,
+    "magazine": 6,
+    "magazine_cost": 6,
+    "traits": [
+      "Silent"
+    ],
+    "source_page": 155
+  },
+  {
+    "name": "Short Bow",
+    "tl": 0,
+    "category": "weapon",
+    "range": 75,
+    "damage": "2D-3",
+    "cost": 50,
+    "mass": 1,
+    "magazine": 1,
+    "magazine_cost": 1,
+    "traits": [
+      "Silent"
+    ],
+    "source_page": 155
+  },
+  {
+    "name": "Bolas",
+    "category": "weapon",
+    "tl": 0,
+    "range": 10,
+    "damage": "—",
+    "mass": 1,
+    "cost": 5,
+    "source_page": 157,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "Silent"
+    ]
+  },
+  {
+    "name": "Boomerang",
+    "category": "weapon",
+    "tl": 0,
+    "range": 25,
+    "damage": "1D",
+    "mass": 1,
+    "cost": 5,
+    "source_page": 157,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "Silent"
+    ]
+  },
+  {
+    "name": "Monofilament Bolas",
+    "category": "weapon",
+    "tl": 12,
+    "range": 10,
+    "damage": "3D",
+    "mass": 1,
+    "cost": 500,
+    "source_page": 157,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 10",
+      "Silent"
+    ]
+  },
+  {
+    "name": "Monofilament Net",
+    "category": "weapon",
+    "tl": 12,
+    "range": 5,
+    "damage": "Special",
+    "mass": 1,
+    "cost": 1000,
+    "source_page": 157,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 10",
+      "Silent"
+    ]
+  },
+  {
+    "name": "Net",
+    "category": "weapon",
+    "tl": 1,
+    "range": 5,
+    "damage": "—",
+    "mass": 1,
+    "cost": 10,
+    "source_page": 157,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "Silent"
+    ]
+  },
+  {
+    "name": "Sling",
+    "category": "weapon",
+    "tl": 0,
+    "range": 100,
+    "damage": "2D-2",
+    "mass": 0,
+    "cost": 10,
+    "source_page": 157,
+    "magazine": 1,
+    "magazine_cost": 1,
+    "traits": [
+      "Silent"
+    ]
+  },
+  {
+    "name": "Aerosol Grenade",
+    "category": "weapon",
+    "tl": 9,
+    "range": 20,
+    "damage": "—",
+    "mass": 0.5,
+    "cost": 15,
+    "source_page": 158,
+    "traits": [
+      "Blast 9"
+    ]
+  },
+  {
+    "name": "Chemical Grenade",
+    "category": "weapon",
+    "tl": 5,
+    "range": 20,
+    "damage": "Special",
+    "mass": 0.5,
+    "cost": 50,
+    "source_page": 158,
+    "traits": [
+      "Blast 9"
+    ]
+  },
+  {
+    "name": "Electromagnetic Pulse Grenade",
+    "category": "weapon",
+    "tl": 9,
+    "range": 20,
+    "damage": "—",
+    "mass": 0.5,
+    "cost": 100,
+    "source_page": 158,
+    "traits": [
+      "Blast 6"
+    ]
+  },
+  {
+    "name": "Frag Grenade",
+    "category": "weapon",
+    "tl": 6,
+    "range": 20,
+    "damage": "5D",
+    "mass": 0.5,
+    "cost": 30,
+    "source_page": 158,
+    "traits": [
+      "Blast 9"
+    ]
+  },
+  {
+    "name": "Incendiary Grenade",
+    "category": "weapon",
+    "tl": 7,
+    "range": 20,
+    "damage": "2D",
+    "mass": 0.5,
+    "cost": 75,
+    "source_page": 158,
+    "traits": [
+      "Blast 3",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Neurotoxin Grenade",
+    "category": "weapon",
+    "tl": 9,
+    "range": 20,
+    "damage": "Special",
+    "mass": 0.5,
+    "cost": 250,
+    "source_page": 158,
+    "traits": [
+      "Blast 9"
+    ]
+  },
+  {
+    "name": "Plasma Grenade",
+    "category": "weapon",
+    "tl": 16,
+    "range": 20,
+    "damage": "8D",
+    "mass": 0.5,
+    "cost": 500,
+    "source_page": 158,
+    "traits": [
+      "Blast 6"
+    ]
+  },
+  {
+    "name": "Smoke Grenade",
+    "category": "weapon",
+    "tl": 6,
+    "range": 20,
+    "damage": "—",
+    "mass": 0.5,
+    "cost": 15,
+    "source_page": 158,
+    "traits": [
+      "Blast 9"
+    ]
+  },
+  {
+    "name": "Stun Grenade",
+    "category": "weapon",
+    "tl": 7,
+    "range": 20,
+    "damage": "3D",
+    "mass": 0.5,
+    "cost": 30,
+    "source_page": 158,
+    "traits": [
+      "Blast 9",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Thermal Smoke Grenade",
+    "category": "weapon",
+    "tl": 7,
+    "range": 20,
+    "damage": "—",
+    "mass": 0.5,
+    "cost": 30,
+    "source_page": 158,
+    "traits": [
+      "Blast 9"
+    ]
+  },
+  {
+    "name": "Tranq Gas Grenade",
+    "category": "weapon",
+    "tl": 8,
+    "range": 20,
+    "damage": "Special",
+    "mass": 0.5,
+    "cost": 75,
+    "source_page": 158,
+    "traits": [
+      "Blast 9"
+    ]
+  },
+  {
+    "name": "Breaching Charge",
+    "category": "weapon",
+    "tl": 8,
+    "damage": "4D",
+    "range": "—",
+    "mass": 1,
+    "cost": 250,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 6",
+      "Blast 1"
+    ],
+    "source_page": 160
+  },
+  {
+    "name": "Complex Chemical Charge",
+    "category": "weapon",
+    "tl": 10,
+    "damage": "4D",
+    "range": "—",
+    "mass": 1,
+    "cost": 500,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 15",
+      "Blast 9"
+    ],
+    "source_page": 160
+  },
+  {
+    "name": "Fusion Block",
+    "category": "weapon",
+    "tl": 16,
+    "damage": "1DD",
+    "range": "—",
+    "mass": 1,
+    "cost": 10000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 50",
+      "Blast 12",
+      "Radiation"
+    ],
+    "source_page": 160
+  },
+  {
+    "name": "Neutrino Detonator",
+    "category": "weapon",
+    "tl": 17,
+    "damage": "8D",
+    "range": "—",
+    "mass": 1,
+    "cost": 50000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "AP ∞",
+      "Blast 25"
+    ],
+    "source_page": 160
+  },
+  {
+    "name": "Plastic Explosive",
+    "category": "weapon",
+    "tl": 6,
+    "damage": "3D",
+    "range": "—",
+    "mass": 1,
+    "cost": 200,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Blast 9"
+    ],
+    "source_page": 160
+  },
+  {
+    "name": "Pocket Nuke",
+    "category": "weapon",
+    "tl": 12,
+    "damage": "6DD",
+    "range": "—",
+    "mass": 4,
+    "cost": 250000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Blast 1,000",
+      "Radiation"
+    ],
+    "source_page": 160
+  },
+  {
+    "name": "TDX",
+    "category": "weapon",
+    "tl": 12,
+    "damage": "4D",
+    "range": "—",
+    "mass": 1,
+    "cost": 1000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "Blast 15"
+    ],
+    "source_page": 160
+  },
+  {
+    "name": "Black Powder Mortar",
+    "category": "weapon",
+    "tl": 3,
+    "range": 0.5,
+    "damage": "6D",
+    "mass": 0.5,
+    "cost": 2000,
+    "magazine": 1,
+    "magazine_cost": 50,
+    "traits": [
+      "Artillery",
+      "Blast 6"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Bombardment Gun",
+    "category": "weapon",
+    "tl": 5,
+    "range": "30 (10)",
+    "damage": "2DD",
+    "mass": 220,
+    "cost": 500000,
+    "magazine": 1,
+    "magazine_cost": 1500,
+    "traits": [
+      "Artillery",
+      "Blast 20"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Demolition Gun",
+    "category": "weapon",
+    "tl": 6,
+    "range": 0.1,
+    "damage": "1DD",
+    "mass": 5,
+    "cost": 30000,
+    "magazine": 1,
+    "magazine_cost": 500,
+    "traits": [
+      "AP 10",
+      "Artillery",
+      "Blast 10"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Heavy Bombardment Gun",
+    "category": "weapon",
+    "tl": 5,
+    "range": "40 (10)",
+    "damage": "3DD",
+    "mass": 500,
+    "cost": 750000,
+    "magazine": 1,
+    "magazine_cost": 2500,
+    "traits": [
+      "Artillery",
+      "Blast 20"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Heavy Gun",
+    "category": "weapon",
+    "tl": 8,
+    "range": 12,
+    "damage": "1DD",
+    "mass": 12,
+    "cost": 120000,
+    "magazine": 1,
+    "magazine_cost": 400,
+    "traits": [
+      "AP 8",
+      "Artillery",
+      "Blast 10"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Infantry Mortar",
+    "category": "weapon",
+    "tl": 5,
+    "range": "1 (0.1)",
+    "damage": "5D",
+    "mass": 0.012,
+    "cost": 3500,
+    "magazine": 1,
+    "magazine_cost": 50,
+    "traits": [
+      "Artillery",
+      "Blast 5"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Light Howitzer",
+    "category": "weapon",
+    "tl": 5,
+    "range": 6,
+    "damage": "8D",
+    "mass": 2,
+    "cost": 50000,
+    "magazine": 1,
+    "magazine_cost": 150,
+    "traits": [
+      "Artillery",
+      "Blast 10"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Light Gun",
+    "category": "weapon",
+    "tl": 6,
+    "range": 9,
+    "damage": "8D",
+    "mass": 2,
+    "cost": 75000,
+    "magazine": 1,
+    "magazine_cost": 200,
+    "traits": [
+      "AP 5",
+      "Artillery",
+      "Blast 10"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Mass Driver",
+    "category": "weapon",
+    "tl": 12,
+    "range": 40,
+    "damage": "1DD",
+    "mass": 7,
+    "cost": 500000,
+    "magazine": 1,
+    "magazine_cost": 750,
+    "traits": [
+      "Artillery",
+      "Blast 10"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Siege Gun",
+    "category": "weapon",
+    "tl": 7,
+    "range": "50 (10)",
+    "damage": "4DD",
+    "mass": 1200,
+    "cost": 19000000,
+    "magazine": 1,
+    "magazine_cost": 5000,
+    "traits": [
+      "AP 10",
+      "Artillery",
+      "Blast 50"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Support Mortar",
+    "category": "weapon",
+    "tl": 7,
+    "range": 3,
+    "damage": "9D",
+    "mass": 0.25,
+    "cost": 11000,
+    "magazine": 1,
+    "magazine_cost": 100,
+    "traits": [
+      "Artillery",
+      "Blast 6"
+    ],
+    "source_page": 166
+  },
+  {
+    "name": "Aerospace Defence Laser",
+    "category": "weapon",
+    "tl": 12,
+    "range": 120,
+    "damage": "8D",
+    "mass": 12,
+    "cost": 4000000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [],
+    "source_page": 168
+  },
+  {
+    "name": "Light Autocannon",
+    "category": "weapon",
+    "tl": 6,
+    "range": 1,
+    "damage": "6D",
+    "mass": 0.25,
+    "cost": 10000,
+    "magazine": 500,
+    "magazine_cost": 1000,
+    "traits": [
+      "Auto 3"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Medium Autocannon",
+    "category": "weapon",
+    "tl": 6,
+    "range": 1,
+    "damage": "8D",
+    "mass": 0.5,
+    "cost": 25000,
+    "magazine": 100,
+    "magazine_cost": 1500,
+    "traits": [
+      "Auto 3"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Heavy Autocannon",
+    "category": "weapon",
+    "tl": 6,
+    "range": 1,
+    "damage": "1DD",
+    "mass": 1,
+    "cost": 45000,
+    "magazine": 100,
+    "magazine_cost": 2000,
+    "traits": [
+      "Auto 3"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Black Powder Cannon",
+    "category": "weapon",
+    "tl": 3,
+    "range": 0.5,
+    "damage": "7D",
+    "mass": 0.5,
+    "cost": 3000,
+    "magazine": 1,
+    "magazine_cost": 50,
+    "traits": [],
+    "source_page": 168
+  },
+  {
+    "name": "Light Cannon",
+    "category": "weapon",
+    "tl": 5,
+    "range": 1.5,
+    "damage": "6D",
+    "mass": 1,
+    "cost": 200000,
+    "magazine": 50,
+    "magazine_cost": 5000,
+    "traits": [
+      "Blast 6"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Medium Cannon",
+    "category": "weapon",
+    "tl": 6,
+    "range": 2,
+    "damage": "1DD",
+    "mass": 2.5,
+    "cost": 400000,
+    "magazine": 30,
+    "magazine_cost": 5000,
+    "traits": [
+      "Blast 10"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Heavy Cannon",
+    "category": "weapon",
+    "tl": 7,
+    "range": 3,
+    "damage": "2DD",
+    "mass": 4,
+    "cost": 600000,
+    "magazine": 10,
+    "magazine_cost": 5000,
+    "traits": [
+      "Blast 10"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Field Gun",
+    "category": "weapon",
+    "tl": 4,
+    "range": 1,
+    "damage": "8D",
+    "mass": 0.5,
+    "cost": 5000,
+    "magazine": 1,
+    "magazine_cost": 75,
+    "traits": [],
+    "source_page": 168
+  },
+  {
+    "name": "Fusion Gun-X",
+    "category": "weapon",
+    "tl": 13,
+    "range": 3,
+    "damage": "3DD",
+    "mass": 4,
+    "cost": 2000000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 10",
+      "Blast 15",
+      "Radiation"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Fusion Gun-Y",
+    "category": "weapon",
+    "tl": 14,
+    "range": 5,
+    "damage": "3DD",
+    "mass": 4,
+    "cost": 3000000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 20",
+      "Blast 20",
+      "Radiation"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Fusion Gun-Z",
+    "category": "weapon",
+    "tl": 15,
+    "range": 10,
+    "damage": "3DD",
+    "mass": 4,
+    "cost": 8000000,
+    "magazine": 0,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 30",
+      "Blast 30",
+      "Radiation"
+    ],
+    "source_page": 168
+  },
+  {
+    "name": "Light Anti-Air Missile",
+    "category": "weapon",
+    "tl": 7,
+    "range": 5,
+    "damage": "6D",
+    "mass": 0.25,
+    "cost": 5000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Anti-Air Missile",
+    "category": "weapon",
+    "tl": 7,
+    "range": 8,
+    "damage": "8D",
+    "mass": 0.5,
+    "cost": 12000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Long Range Anti-Air Missile",
+    "category": "weapon",
+    "tl": 7,
+    "range": 40,
+    "damage": "8D",
+    "mass": 0.75,
+    "cost": 22000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Anti-Tank Missile",
+    "category": "weapon",
+    "tl": 7,
+    "range": 6,
+    "damage": "8D",
+    "mass": 0.5,
+    "cost": 18000,
+    "magazine": 1,
+    "magazine_cost": 6000,
+    "traits": [
+      "AP 30",
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Bolt Thrower",
+    "category": "weapon",
+    "tl": 1,
+    "range": 0.2,
+    "damage": "4D",
+    "mass": 0.5,
+    "cost": 2000,
+    "magazine": 1,
+    "magazine_cost": 25,
+    "traits": [
+      "AP 5"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Light Bomb",
+    "category": "weapon",
+    "tl": 4,
+    "range": 0,
+    "damage": "1DD",
+    "mass": 0.1,
+    "cost": 1500,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 20",
+      "Blast 20",
+      "One Use"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Medium Bomb",
+    "category": "weapon",
+    "tl": 4,
+    "range": 0,
+    "damage": "2DD",
+    "mass": 0.5,
+    "cost": 4000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 25",
+      "Blast 25",
+      "One Use"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Heavy Bomb",
+    "category": "weapon",
+    "tl": 4,
+    "range": 0,
+    "damage": "3DD",
+    "mass": 1,
+    "cost": 8000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 30",
+      "Blast 30",
+      "One Use"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Bombardment Missile",
+    "category": "weapon",
+    "tl": 9,
+    "range": 200,
+    "damage": "1DD",
+    "mass": 1,
+    "cost": 36000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 20",
+      "Blast 20",
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Bombardment Rocket Rack",
+    "category": "weapon",
+    "tl": 6,
+    "range": 8,
+    "damage": "5D",
+    "mass": 2,
+    "cost": 30000,
+    "magazine": 12,
+    "magazine_cost": 8000,
+    "traits": [
+      "Auto 3",
+      "Blast 15"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Earthquake Bomb",
+    "category": "weapon",
+    "tl": 4,
+    "range": 2,
+    "damage": "5DD",
+    "mass": 10,
+    "cost": 100000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "Blast 250",
+      "One Use"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Heavy Rocket Pod",
+    "category": "weapon",
+    "tl": 6,
+    "range": 2,
+    "damage": "6D",
+    "mass": 0.5,
+    "cost": 12000,
+    "magazine": 6,
+    "magazine_cost": 6000,
+    "traits": [
+      "Auto 3",
+      "Blast 10"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Plasma Missile Rack",
+    "category": "weapon",
+    "tl": 12,
+    "range": 50,
+    "damage": "4DD",
+    "mass": 2,
+    "cost": 1000000,
+    "magazine": 12,
+    "magazine_cost": 400000,
+    "traits": [
+      "AP 20",
+      "Auto 3",
+      "Blast 15",
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Rocket Pod",
+    "category": "weapon",
+    "tl": 6,
+    "range": 1.5,
+    "damage": "4D",
+    "mass": 0.25,
+    "cost": 8000,
+    "magazine": 18,
+    "magazine_cost": 8000,
+    "traits": [
+      "Auto 3",
+      "Blast 5"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Tac Launcher (Anti-aircraft)",
+    "category": "weapon",
+    "tl": 10,
+    "range": 10,
+    "damage": "8D",
+    "mass": 0.25,
+    "cost": 16000,
+    "magazine": 4,
+    "magazine_cost": 8000,
+    "traits": [
+      "Scope",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Tac Launcher (Anti-personnel)",
+    "category": "weapon",
+    "tl": 10,
+    "range": 6,
+    "damage": "4D",
+    "mass": 0.25,
+    "cost": 12000,
+    "magazine": 4,
+    "magazine_cost": 4000,
+    "traits": [
+      "Blast 10",
+      "Scope",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Tac Launcher (Armour piercing)",
+    "category": "weapon",
+    "tl": 10,
+    "range": 6,
+    "damage": "8D",
+    "mass": 0.25,
+    "cost": 15000,
+    "magazine": 4,
+    "magazine_cost": 6000,
+    "traits": [
+      "AP 10",
+      "Scope",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Torpedo",
+    "category": "weapon",
+    "tl": 4,
+    "range": 1,
+    "damage": "1DD",
+    "mass": 0.5,
+    "cost": 3000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 10",
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Torpedo",
+    "category": "weapon",
+    "tl": 5,
+    "range": 5,
+    "damage": "3DD",
+    "mass": 0.5,
+    "cost": 5000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 30",
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Torpedo",
+    "category": "weapon",
+    "tl": 8,
+    "range": 50,
+    "damage": "5DD",
+    "mass": 0.5,
+    "cost": 12000,
+    "magazine": 1,
+    "magazine_cost": 0,
+    "traits": [
+      "AP 50",
+      "One Use",
+      "Smart"
+    ],
+    "source_page": 172
+  },
+  {
+    "name": "Water Cannon",
+    "category": "weapon",
+    "tl": 5,
+    "range": 0.1,
+    "damage": "—",
+    "mass": 0.5,
+    "cost": 2000,
+    "magazine": 10,
+    "magazine_cost": 0,
+    "traits": [],
+    "source_page": 172
+  },
+  {
+    "name": "Bayonet",
+    "category": "weapon",
+    "tl": 2,
+    "range": "Melee",
+    "damage": "2D",
+    "mass": 1,
+    "cost": 20,
+    "traits": [],
+    "magazine": 0,
+    "magazine_cost": 0,
+    "source_page": 175
+  },
+  {
+    "name": "Chaindrive Bayonet",
+    "category": "weapon",
+    "tl": 9,
+    "range": "Melee",
+    "damage": "4D",
+    "mass": 3,
+    "cost": 1000,
+    "traits": [
+      "AP 4",
+      "Bulky"
+    ],
+    "magazine": 0,
+    "magazine_cost": 0,
+    "source_page": 175
+  }
+]

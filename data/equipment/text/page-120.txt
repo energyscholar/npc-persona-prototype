@@ -1,0 +1,32 @@
+SOLAR PANEL ARRAY                                        it is an intermittent source of energy and in many
+A portable solar panel is a set of foldable panels and   locations actual average efficiencies may be less
+their supports which provide equivalent power output     than 20%. A wind turbine requires moderate wind
+to a hydrocarbon generator. These may power and          speeds to function. Very strong winds will exceed its
+recharge equipment or store energy in a power cell. A    operating parameters and force it to shut down to
+solar panel only works in daylight and is considerably   avoid destruction. A wind turbine will only function at
+less useful in overcast weather.                         half power in Thin atmospheres, quarter in Very Thin
+                                                         atmospheres and not at all in Trace or Vacuum. In
+                                                         Dense atmospheres the wind turbine cannot exceed its
+Solar Panel Array TL       Effect         Kg   Cost
+                                                         rated power and may be forced to shut down in even
+Basic                7     Solar energy 100 Cr2500       moderate winds unless specifically built for a Dense
+Improved             9     Solar energy 50     Cr5000    atmosphere – at costs and mass which essentially
+Advanced             11    Solar energy 20     Cr8000    increase to match any added energy benefit.
+
+                                                         Wind Turbine TL       Effect             Kg    Cost
+WIND TURBINE
+The portable wind turbine consists of an expandable      Basic           7     Wind energy        60    Cr500
+tripod or plate base stand, a telescoping tube and       Improved        9     Wind energy        30    Cr1000
+a turbine of blade or helical design. At capacity, it    Advanced        11    Wind energy        10    Cr2000
+is the equivalent of a hydrocarbon generator but
+
+
+
+
+                                                                                                                    Survival gear
+
+
+
+
+                                                                                                                   119
+

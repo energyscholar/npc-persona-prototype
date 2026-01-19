@@ -1,0 +1,58 @@
+                                                                        T       R        A       V        E        L       L        E        R
+
+
+
+                                                                            SMOKE
+                                                                            Smoke grenades create a thick cloud that disrupts
+           FRAG                                                             vision. This imposes DM-2 to all attacks on targets
+           Fragmentation grenades explode in a blast of shrapnel            within the cloud. IR vision completely bypasses
+           designed to kill or cripple anyone close by.                     this cloud of smoke. Smoke clouds dissipate after
+                                                                            1Dx3 rounds, although heavy winds and rain can
+           INCENDIARY                                                       drastically reduce this time.
+           Incendiary grenades ignite their targets upon impact
+           with a fuel mixture that continues to burn.                      STUN
+                                                                            Stun grenades release a powerful pulse of energy,
+           NEUROTOXIN                                                       usually in the form or light and/or sound that
+           This grenade creates a cloud of gas that, if inhaled, will       incapacitates targets rather than killing them.
+           likely prove deadly. Any living target within the cloud
+           that does not have a respirator or sealed suit will be           THERMAL SMOKE
+           attacked as if by a poison with a Very Difficult (12+)           This acts as a smoke grenade but throws out hot
+           END check, Damage 1D INT and Interval of one round.              particles that block IR vision as well. This imposes
+           Gas clouds dissipate after 1Dx3 rounds, although                 DM-2 to all attacks on targets within the cloud. Smoke
+           heavy winds and rain can drastically reduce this time.           clouds dissipate after 1Dx3 rounds, although heavy
+           These grenades are banned, often even for military               winds and rain can drastically reduce this time.
+           use, on any world of Law Level 1 or above.
+
+                                                                            TRANQ GAS
+           PLASMA                                                           This grenade creates a cloud of gas that, if inhaled, will
+           A development of the frag grenade, the plasma                    likely render an enemy unconscious. Any living target
+           grenade unleashes a microsecond burst of pure energy             within the cloud that does not have a respirator or sealed
+           to vaporise its targets.                                         suit will be attacked as if by a poison with a Difficult (10+)
+                                                                            END check, Damage unconscious and Interval of one
+                                                                            round. Gas clouds dissipate after 1Dx3 rounds, although
+                                                                            heavy winds and rain can drastically reduce this time.
+
+
+
+
+                   Incendiary
+                                                 Neurotoxin
+                                                                                      Plasma
+Weaponry
+
+
+
+
+                                                                                                                Thermal Smoke
+
+
+
+
+                     Smoke
+                                                      Stun
+                                                                                     Tranq Gas
+
+
+
+   158
+

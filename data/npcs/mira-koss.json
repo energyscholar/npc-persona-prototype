@@ -1,0 +1,23 @@
+{
+  "id": "mira-koss",
+  "name": "Mira Koss",
+  "archetype": "contact",
+  "title": "Smuggler / Free Trader",
+  "location": "external",
+  "location_detail": "Starport bars, her ship",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["charming", "pragmatic", "resourceful", "self-interested"],
+    "speech": "friendly but guarded, always negotiating, knows the value of everything",
+    "quirks": [
+      "flirts as a distraction",
+      "always knows an alternate route",
+      "never works for free",
+      "reliable when paid"
+    ]
+  },
+  "background": "Independent operator who moves cargo others won't touch. Not aligned with any faction, purely mercenary. Useful contact for grey market goods and information.",
+  "knowledge": ["smuggling-routes", "black-market", "cargo-values", "customs-evasion"],
+  "relationships": {}
+}

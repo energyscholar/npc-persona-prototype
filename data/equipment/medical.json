@@ -1,0 +1,425 @@
+[
+  {
+    "category": "medical",
+    "name": "Automedikit Basic",
+    "tl": 10,
+    "effect": "Automatic First Aid and Fast Drug injector",
+    "mass": 0,
+    "cost": 5000,
+    "source_page": 21
+  },
+  {
+    "category": "medical",
+    "name": "Automedikit Improved",
+    "tl": 11,
+    "effect": "+Drug injection on command",
+    "mass": 0,
+    "cost": 7500,
+    "source_page": 21
+  },
+  {
+    "category": "medical",
+    "name": "Automedikit Enhanced",
+    "tl": 12,
+    "effect": "TL12 Medikit equivalent",
+    "mass": 0,
+    "cost": 10000,
+    "source_page": 21
+  },
+  {
+    "category": "medical",
+    "name": "Automedikit Advanced",
+    "tl": 14,
+    "effect": "TL14 Medikit equivalent",
+    "mass": 0,
+    "cost": 15000,
+    "source_page": 21
+  },
+  {
+    "name": "Extended Life Support",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 0,
+    "source_page": 23,
+    "category": "medical",
+    "effect": "Increases suit life support capability to 18 hours"
+  },
+  {
+    "name": "Life Support Belt",
+    "category": "medical",
+    "tl": 10,
+    "cost": 3000,
+    "mass": 2,
+    "source_page": 25,
+    "effect": "1 hour life support"
+  },
+  {
+    "name": "Life Support Belt",
+    "category": "medical",
+    "tl": 12,
+    "cost": 4000,
+    "mass": 2,
+    "source_page": 25,
+    "effect": "2 hours life support"
+  },
+  {
+    "name": "Life Support Belt",
+    "category": "medical",
+    "tl": 15,
+    "cost": 5000,
+    "mass": 1,
+    "source_page": 25,
+    "effect": "2 hours life support, up to 3 wearable"
+  },
+  {
+    "name": "Life Support System",
+    "category": "medical",
+    "tl": 8,
+    "cost": 6000,
+    "mass": 10,
+    "source_page": 25,
+    "effect": "6 hours life support"
+  },
+  {
+    "name": "Life Support System",
+    "category": "medical",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 6,
+    "source_page": 25,
+    "effect": "6 hours life support"
+  },
+  {
+    "name": "Life Support System",
+    "category": "medical",
+    "tl": 12,
+    "cost": 8000,
+    "mass": 4,
+    "source_page": 25,
+    "effect": "6 hours life support, up to 2 wearable"
+  },
+  {
+    "name": "Advanced Life Support",
+    "category": "medical",
+    "tl": 13,
+    "effect": "Increases suit life support capability to 72 hours",
+    "cost": 20000,
+    "mass": 0,
+    "source_page": 45
+  },
+  {
+    "name": "Fabulous Augmentation Treatment",
+    "category": "medical",
+    "tl": 15,
+    "cost": 3500000,
+    "mass": 0,
+    "source_page": 60,
+    "effect": "DM+1 to all social interaction checks"
+  },
+  {
+    "name": "Vivarium Medium",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 4,
+    "source_page": 87,
+    "category": "medical",
+    "effect": "Habitat for 3-5 Hits animals"
+  },
+  {
+    "name": "Autodoc Basic",
+    "tl": 13,
+    "cost": 100000,
+    "mass": 500,
+    "source_page": 89,
+    "category": "medical",
+    "effect": "Diagnosis, drug delivery, surgery, Medic 3"
+  },
+  {
+    "name": "Autodoc Improved",
+    "tl": 14,
+    "cost": 1000000,
+    "mass": 500,
+    "source_page": 89,
+    "category": "medical",
+    "effect": "Reanimation, low berth, bioreactor, Medic 3"
+  },
+  {
+    "name": "Autodoc Advanced",
+    "tl": 15,
+    "cost": 3000000,
+    "mass": 500,
+    "source_page": 89,
+    "category": "medical",
+    "effect": "Advanced sensors, science toolkit, Medic 4"
+  },
+  {
+    "name": "Cryoberth Basic",
+    "category": "medical",
+    "tl": 10,
+    "effect": "Freeze injured patient within six seconds",
+    "mass": 200,
+    "cost": 50000,
+    "source_page": 90
+  },
+  {
+    "name": "Cryoberth Improved",
+    "category": "medical",
+    "tl": 12,
+    "effect": "DM+1 to survival checks",
+    "mass": 200,
+    "cost": 50000,
+    "source_page": 90
+  },
+  {
+    "name": "Field Surgical Kit",
+    "tl": 5,
+    "cost": 1500,
+    "mass": 3,
+    "source_page": 91,
+    "category": "medical",
+    "effect": "Kit for First Aid (DM+0) and surgery (DM-2)"
+  },
+  {
+    "name": "First Aid Kit Basic",
+    "tl": 2,
+    "cost": 10,
+    "mass": 0,
+    "source_page": 91,
+    "category": "medical",
+    "effect": "First Aid Medic check DM-2"
+  },
+  {
+    "name": "First Aid Kit Improved",
+    "tl": 5,
+    "cost": 125,
+    "mass": 0,
+    "source_page": 91,
+    "category": "medical",
+    "effect": "First Aid Medic check DM-1"
+  },
+  {
+    "name": "Medikit Basic",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 1,
+    "source_page": 91,
+    "category": "medical",
+    "effect": "First Aid Medic check DM+0"
+  },
+  {
+    "name": "Medikit Improved",
+    "tl": 10,
+    "cost": 1500,
+    "mass": 1,
+    "source_page": 91,
+    "category": "medical",
+    "effect": "First Aid Medic check DM+1"
+  },
+  {
+    "name": "Medikit Enhanced",
+    "tl": 12,
+    "cost": 5000,
+    "mass": 1,
+    "source_page": 91,
+    "category": "medical",
+    "effect": "First Aid Medic check DM+2"
+  },
+  {
+    "name": "Medikit Advanced",
+    "tl": 14,
+    "cost": 10000,
+    "mass": 0,
+    "source_page": 91,
+    "category": "medical",
+    "effect": "First Aid Medic check DM+3"
+  },
+  {
+    "name": "Personal Mediscanner",
+    "tl": 12,
+    "category": "medical",
+    "effect": "Personalised medical monitor, diagnostic tool",
+    "mass": 0,
+    "cost": 1000,
+    "source_page": 92
+  },
+  {
+    "name": "Portable Mediscanner",
+    "tl": 12,
+    "category": "medical",
+    "effect": "Monitor, diagnostic tool",
+    "mass": 1,
+    "cost": 2000,
+    "source_page": 92
+  },
+  {
+    "name": "Personal Automedic",
+    "tl": 11,
+    "category": "medical",
+    "effect": "Monitor, diagnostic tool, auto-drug dispenser",
+    "mass": 0,
+    "cost": 15000,
+    "source_page": 92
+  },
+  {
+    "name": "Combat Drug",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source_page": 94,
+    "category": "medical",
+    "effect": "DM+4 to initiative, free Reaction, -2 damage"
+  },
+  {
+    "name": "Fast Drug",
+    "tl": 10,
+    "cost": 200,
+    "mass": 0,
+    "source_page": 94,
+    "category": "medical",
+    "effect": "Hibernation: slows metabolism by 60:1"
+  },
+  {
+    "name": "G-Tolerance Drug Patch",
+    "tl": 9,
+    "cost": 20,
+    "mass": 0,
+    "source_page": 94,
+    "category": "medical",
+    "effect": "Negates effect of +1G, speeds acclimation"
+  },
+  {
+    "name": "G-Tolerance Drug Injection",
+    "tl": 9,
+    "cost": 100,
+    "mass": 0,
+    "source_page": 94,
+    "category": "medical",
+    "effect": "Negates effect of +1G, speeds acclimation"
+  },
+  {
+    "name": "G-Tolerance Drug Auto-Injector",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source_page": 94,
+    "category": "medical",
+    "effect": "Voice or radio activated for up to 20 doses"
+  },
+  {
+    "name": "Inhibitor Drug",
+    "tl": 9,
+    "cost": 500,
+    "mass": 0,
+    "source_page": 94,
+    "category": "medical",
+    "effect": "DM-2 to PSI checks and no regaining of points"
+  },
+  {
+    "name": "Medicinal Drug",
+    "tl": 5,
+    "cost": 5,
+    "mass": 0,
+    "source_page": 94,
+    "category": "medical",
+    "effect": "Treat specific disease or condition"
+  },
+  {
+    "name": "Null Drug",
+    "tl": 16,
+    "cost": 5000,
+    "mass": 0,
+    "source_page": 95,
+    "category": "medical",
+    "effect": "Completely shuts off psionics for 2D hours"
+  },
+  {
+    "name": "Psi-Drug (standard)",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 0,
+    "source_page": 95,
+    "category": "medical",
+    "effect": "3 PSI restored, +2 boosted"
+  },
+  {
+    "name": "Psi-Drug (double)",
+    "tl": 8,
+    "cost": 4000,
+    "mass": 0,
+    "source_page": 95,
+    "category": "medical",
+    "effect": "6 PSI restored, +4 boosted"
+  },
+  {
+    "name": "Psi-Drug (special)",
+    "tl": 8,
+    "cost": 10000,
+    "mass": 0,
+    "source_page": 95,
+    "category": "medical",
+    "effect": "9 PSI restored, +6 boosted"
+  },
+  {
+    "name": "Slow Drug",
+    "tl": 11,
+    "cost": 500,
+    "mass": 0,
+    "source_page": 96,
+    "category": "medical",
+    "effect": "Speeds metabolism by 30:1 to quicken healing"
+  },
+  {
+    "name": "Recreational Drugs",
+    "tl": 1,
+    "cost": 10,
+    "mass": 0,
+    "source_page": 96,
+    "category": "medical",
+    "effect": "Generally bad"
+  },
+  {
+    "name": "Zero-G Tolerance Drug",
+    "tl": 9,
+    "cost": 20,
+    "mass": 0,
+    "category": "medical",
+    "effect": "Negates effect of low G, speeds acclimation",
+    "source_page": 97
+  },
+  {
+    "name": "Life Support Mask",
+    "category": "medical",
+    "tl": 7,
+    "effect": "Environment mask + vacuum and underwater, 1 hour air supply",
+    "mass": 2,
+    "cost": 1000,
+    "source_page": 100
+  },
+  {
+    "category": "medical",
+    "name": "Life Support, Short Term",
+    "tl": 8,
+    "effect": "Per module: 1 week for 2 persons",
+    "mass": 0,
+    "cost": 20000,
+    "source_page": 124
+  },
+  {
+    "category": "medical",
+    "name": "Life Support, Long Term",
+    "tl": 8,
+    "effect": "Per module: 90 days for 2 persons",
+    "mass": 0,
+    "cost": 100000,
+    "source_page": 124
+  },
+  {
+    "category": "medical",
+    "name": "Life Support Supplies",
+    "tl": 8,
+    "effect": "Per module per period",
+    "mass": 50,
+    "cost": 1000,
+    "source_page": 124
+  }
+]

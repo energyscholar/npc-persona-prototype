@@ -1,0 +1,20 @@
+{
+  "id": "cpl-lise-henriksen",
+  "name": "Corporal Lise Henriksen",
+  "archetype": "military",
+  "title": "Marine Team Leader",
+  "location": "amishi",
+  "location_detail": "Marine Barracks",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["tough", "fair", "by-the-book", "protective"],
+    "speech": "military commands, direct, looks after her team",
+    "quirks": ["drills team constantly", "knows everyone's family situation"]
+  },
+  "background": "Experienced NCO who leads by example. Takes responsibility for her marines' welfare and training.",
+  "knowledge": ["marine-tactics", "boarding-operations", "small-unit-leadership"],
+  "relationships": {
+    "sgt-tomas-reyes": "superior"
+  }
+}

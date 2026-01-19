@@ -1,0 +1,25 @@
+{
+  "id": "lt-cmdr-vasquez",
+  "name": "Lieutenant Commander Vasquez",
+  "archetype": "official",
+  "title": "Imperial Naval Intelligence",
+  "location": "external",
+  "location_detail": "Naval Bases, Official Meetings",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["professional", "suspicious", "thorough", "by-the-book"],
+    "speech": "formal military speech, asks pointed questions, documents everything",
+    "quirks": [
+      "takes notes constantly",
+      "verifies information independently",
+      "maintains professional distance",
+      "follows regulations precisely"
+    ]
+  },
+  "background": "Imperial Naval Intelligence officer who monitors the region. The Amishi's privateer status means regular contact. Professional but never friendly.",
+  "knowledge": ["naval-operations", "regional-security", "pirate-activity", "imperial-law"],
+  "relationships": {
+    "amishi-crew": "monitors"
+  }
+}

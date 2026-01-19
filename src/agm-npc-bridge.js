@@ -85,6 +85,9 @@ function getNpcPriorities(agmState, npc, storyState) {
   if (npcState?.sceneRole === 'gatekeeper') {
     priorities.push('Control access to information/resources until conditions met');
   }
+  if (npcState?.sceneRole === 'informant') {
+    priorities.push('Share relevant information when asked, guide the conversation toward useful intel');
+  }
 
   return priorities;
 }
@@ -137,6 +140,11 @@ function determineActiveSpeaker(agmState, playerAction, scene) {
   const addressed = detectAddressedNpc(playerAction, npcsPresent);
   if (addressed) {
     return { speaker: 'npc', npcId: addressed };
+  }
+
+  // If only one NPC present and dialogue action, they respond
+  if (npcsPresent.length === 1 && isDialogueAction(playerAction)) {
+    return { speaker: 'npc', npcId: npcsPresent[0] };
   }
 
   // If dialogue action but no specific NPC, check for high-urgency NPC

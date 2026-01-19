@@ -1,0 +1,68 @@
+                                                                            T       R       A       V       E        L       L       E       R
+
+
+
+                                                                                VERY DEEP OPERATION DIVING SUIT
+                SWIMMING EQUIPMENT                                              The Very Deep Operations (VDO) diving suit is an
+                Includes swim fins, face mask and a snorkel. Improves           extremely tough piece of equipment that allows a
+                speed and manoeuvrability underwater. Without                   wearer to descend safely to depths of more than
+                swimming equipment, movement speed is halved and                1,200 metres. Its manipulators are clumsy (providing
+                underwater tasks suffer an additional DM-2 unless the           DM-2 to any physical task checks) but there are few
+                Traveller has amphibious or aquatic traits.                     better choices for working outside a vessel in the deep
+                                                                                ocean. The internal air supply will run for six hours. The
+                                                                                hardened suit provides Protection +12 and does not
+                 Item         TL Effect                        Kg Cost
+                                                                                require pre-breathing.
+                 Swimming 3        Improves speed and          3    Cr100
+                 Equipment         tasks underwater                             The VDO diving suit requires training to use. An
+                                                                                operator without Profession (diver) 2 or Vacc Suit 2 will
+                                                                                suffer an additional DM equal to the missing skill level
+                                                                                to all tasks checks while using the suit. This is added to
+                     Swimming Equipment                                         the unskilled DM-3.
+
+                                                                                Item          TL Effect                   Kg Cost
+                                                                                VDO         8      Descend to 1,200       36     Cr50000
+                                                                                Diving Suit        metres without
+                                                                                                   pre-breathing,
+                                                                                                   Protection +12
+
+
+
+
+                UNDERWATER AIR TANKS
+                Similar to oxygen tanks but designed for use underwater.
+                Two tanks last six hours and a refill costs Cr20 for the
+                proper atmospheric mixture for any species.
+
+                Item           TL Effect                       Kg Cost
+                Underwater 5       Two tanks providing 6 12         Cr800
+                Air Tanks          hours of air supply
+
+                WATER DYE
+                A tube of liquid dye which can be used to highlight
+                a patch of water with a bright, easily spotted colour
+Survival gear
+
+
+
+
+                visible from the air. The primary drawbacks of this form
+                of signalling are the short duration of the coloured
+                patch (which lasts around 15 minutes in calm waters
+                and far less in stormy weather) and the fact it cannot be
+                spotted at night. At TL9, the latter problem is overcome
+                by using a phosphorescent dye which is visible both at
+                day and at night.
+
+                Item               TL   Effect                 Kg    Cost
+                Water Dye          4    Coloured dye for    —        Cr25
+                                        signalling in water
+                Water Dye,     9        +Phosphorescent        —     Cr25
+                                                                                                   Very Deep Operation Diving Suit
+                phosphorescent          for night visibility
+
+
+
+
+     114
+

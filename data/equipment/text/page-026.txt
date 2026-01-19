@@ -1,0 +1,62 @@
+PERSONALISATION                                              SELF-SEALING
+The basic version of this uses hardened enamels              Self-sealing systems can be added to any armour
+and pigments to artistically alter armour or clothing to     (except ablat) when manufactured. The armour can then
+reflect the individuality of Travellers, the military they   seal breaches and repair minor damage. This cannot
+belong to or other affiliations. The improved version        reconstruct a severely damaged suit but ensures a
+uses embedded fibres or emitters to display patterns         damaged vacc suit or torn jacket mends itself.
+or images on the surface of the armour; these can be
+altered at will, not at the speed of full motion video,      Modification TL Effect                     Kg Cost
+but they act as basic camouflage configured for any
+                                                             Self-Sealing    11   Automatically       —      Cr2000
+environment. A more advanced version, allowing for
+                                                                                  mends damage and
+full motion 2D images is equivalent to the full motion
+                                                                                  seals suit breaches
+chameleon modification (see page 21).
+
+Personalisation TL Effect                     Kg Cost        SMART FABRIC
+                                                             Smart fabric resists stains and dirt, cleaning itself
+Basic                2    Custom image        —    Cr10      automatically. Smart fabric armour or clothing
+                          or logo                            automatically sloughs off dirt, dust and mud (although
+Improved             10 Programmable          —    Cr1000    this can be suspended for the purposes of camouflage).
+                        custom image
+                        or basic                             Modification TL Effect                     Kg Cost
+                        camouflage
+                                                             Smart Fabric    10 Resists stains and      —    Cr1000
+                                                                                dirt, automatic
+PSIONIC SHIELD HELMET                                                           cleaning
+A psionic shield helmet can be built into armour or worn
+as a separate unit. It acts as a shield against psionic
+influences, blocking all telepathic powers.                  SUBMARINE FUNCTIONALITY
+                                                             Only available on sealed suits (such as vacc suits,
+Modification      TL Effect                  Kg Cost         combat armour and powered armour), this modification
+                                                             adds oxygenators, pressure valves, flow venting fins
+Psionic Shield 12 Blocks all                 2     Cr4000
+                                                             and small turbines to help propel the suit’s wearer
+Helmet            telepathic powers
+                                                             underwater (or within a similar fluid). This modification
+                                                             allows a suit to completely ignore any penalties for
+REFLEC COATING                                               being submerged at depths up to the rated value under
+A coating of reflec can be added to the surface of a         standard atmosphere and gravity for as long as it has
+piece of armour or suit. This modification imposes           life support. The cost for the modification is multiplied
+DM-2 on any Stealth checks the wearer attempts and           by the Protection value of the armour.
+negates any camouflage or chameleon options.
+                                                             Submarine
+Modification TL Effect                        Kg Cost        Functionality TL Effect                    Kg Cost
+Reflec           10 +10 Protection     —           Cr2000    Basic            9    600 metre safe    6       x Cr200
+Coating             vs. lasers, DM-2                                               submersible depth
+                    to stealth checks,                       Improved         12 2,000 metre safe  6         x Cr300
+                    negates camouflage                                           submersible depth                       Armour
+                    and chameleon                            Advanced         15 4,000 metre safe  6         x Cr500
+                                                                                 submersible depth
+
+
+
+
+                  Magnetic Grapples
+
+
+
+
+                                                                                                                         25
+

@@ -1,0 +1,63 @@
+VR GOGGLES                                                     VR IMMERSION CHAIR
+This projects a virtual reality (VR) environment to the        A VR immersion chair provides the ultimate VR
+wearer’s eyes. The goggles come with a pair of gloves          experience. This item consists of a large armchair and
+to allow the wearer to interact with the environment and       a linked VR helmet. The chair provides the processing
+a headset allows two-way audio interaction. The basic          power, medical monitoring and safety for a user
+unit uses differences in the images projected to each          brought into a lucid dream-like state with their nervous
+eye to simulate a 3D environment, whereas goggles              system temporarily disconnected from their body. This
+at TL10+ use holography. These allow only limited              allows full immersion in a virtual world. The process
+immersion based on external stimulus, with TL10+               of VR immersion takes a full minute and 'extraction’
+units providing tactile feedback to the gloved hands.          requires 1D combat rounds (6–36 seconds) as the body
+An augmented reality (AR) mode allows the goggles              ‘awakens’. An optional extended immersion kit includes
+to operate as an overlay, inputting virtual aspects into       medical-grade connections for feeding, waste disposal
+the real environment. The TL12 version has less mass           and muscle conditioning without terminating the VR
+and better holography, and the components can pass             state, allowing an experience to last indefinitely.
+as regular glasses, earbuds and gloves, but for a truly
+immersive experience, users gravitate towards VR               Item             TL Effect             Kg   Cost
+helmets and immersion chairs.
+                                                               VR Immersion     13   Full immersion 150 Cr200000
+                                                               Chair                 VR
+VR Goggles TL            Effect                 Kg Cost
+                                                               Extended         13   +Indefinite      10   Cr200000
+Basic              8     VR/AR vision,          1   Cr500      Immersion Kit         immersion
+                         hearing
+Improved           10    +Holographic         1     Cr1000
+                         environment, tactile
+                         feedback
+Advanced           12    Lightweight            —   Cr1000
+
+VR HELMET
+A VR helmet allows for deeper immersion than VR
+goggles. The TL9 version covers the entire head
+with a helmet equipped with a pull-down visor and
+comes with standard VR gloves; it provides the same
+functions as improved VR Goggles at an early Tech
+Level. The TL11 helmet exceeds what is possible with
+mere goggles. Its helmet lining consists of hundreds
+of external brain stimulation interfaces capable of
+directly actuating the wearer’s brain. This allows for
+the emulation of real sensory perception, including
+full-body tactile sensation, smell and taste but it is still
+a heavy item with limited battery life. The TL13 helmet
+is not only much lighter but extends battery life from
+
+                                                                                                                          Home Comforts
+eight hours to a full day. Helmets can be connected to
+external power sources for longer uninterrupted use,
+although this may limit mobility.
+
+VR Helmet TL            Effect                  Kg Cost
+Basic          9        VR/AR immersion         2   Cr2000
+                        as Improved VR
+                        Goggles, 4 hours
+Improved       11       brain stimulation for   1.5 Cr5000
+                        full sensory VR,
+                        8 hours
+Advanced       13       Lightweight, 24 hour    —   Cr5000
+                        battery
+
+
+
+
+                                                                                                                          87
+

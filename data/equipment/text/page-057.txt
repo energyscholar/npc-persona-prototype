@@ -1,0 +1,65 @@
+                                                                       T       R        A       V        E        L       L       E        R
+
+
+
+                                                                           Razor
+                                                                           Claw          TL Effect                            Cost
+           ENHANCED MOBILITY                                               Basic         11 Crystaliron Claws: As             Cr20000
+           The Traveller has both legs modified to move faster                              melee weapon: 2D, AP 3
+           with greater stability. The basic version adds 1.5 metres       Improved      13 Monofilament Claws: As            Cr35000
+           to the distance the Traveller can move with a Minor                              melee weapon: 2D, AP 8
+           Action. Additionally, all checks based on balance or            Advanced 15 Arc-field Claws: As melee              Cr50000
+           ambulatory reflexes are made with DM+1.                                     weapon: 4D, AP 20
+
+           At TL11, internal chemical pumps and fatigue-resistant
+           fibres are added, greatly increasing ground speed
+           and agility. This augment adds three metres to the
+           distance the Traveller moves with a Minor Action and
+           all checks based on balance or ambulatory reflexes
+           are made with DM+2.
+
+           At TL13, this augment is made from superior materials
+           designed to maximise efficiency and stability. This
+           adds six metres to the distance the Traveller moves
+           with a Minor Action and all checks based on balance or
+           ambulatory reflexes are made with DM+3.
+                                                                                                       Razor Claws
+           As with Combat Arms, these cybernetic options
+           represent standard models. The Robot Handbook
+           cyborg rules allow for custom cybernetic legs, although
+           availability may be limited.
+
+           Enhanced                                                        PROSTHETIC LIMB
+           Mobility TL Effect                             Cost             A prosthetic replacement limb or hand provides no
+           Basic         8   +1.5 metre movement,         Cr10000          exceptional abilities but does restore at least some
+                             DM+1 to relevant checks                       functionality to compensate for the loss of an original limb.
+           Improved      11 +3 metre movement,            Cr15000          A primitive prosthetic is available at TL2 and is
+                            DM+2 to relevant checks                        available in prototype form as early as TL1. Oftentimes
+           Advanced      13 +6 metre movement,            Cr25000          a length of wood to make up for a lost leg or bent
+                            DM+3 to relevant checks                        hook of metal to serve as a makeshift hand, these
+                                                                           prosthetics are awkwardly inefficient as a replacement.
+           RAZOR CLAWS                                                     The fitting of a crude prosthetic requires a Difficult (10+)
+           Imbedded claws designed to retract under the                    Medic check (1D hours, EDU). If the procedure involves
+           fingernails are strong enough to cut steel. At higher           amputation of the damaged limb, a failed check
+           Tech Levels, increasingly sharp edges cut through               indicates the recipient will die during the procedure
+           harder substances. The claws are adjustable,                    (or optionally, suffer 3D damage for each negative
+Augments
+
+
+
+
+           extending as far as five centimetres from the fingertips,       Effect). If the failed attempt involves replacement of
+           allowing attacks to cause deep wounds and rip                   a previously amputated limb, the procedure fails and
+           deep into bodies and machinery. At TL13 these are               another attempt must be made with a new prosthetic.
+           monofilament sharp, and at TL15 they are enhanced               Although these allow the Traveller to replace a limb,
+           with an arc-field whose blue glowing energy cannot be           they are not utilitarian and suffer DM-2 on all DEX-
+           parried by anything below TL14, but which, drawing              based checks using that limb. This augmentation is not
+           energy from the body, cannot be used for more than 10           affected by electromagnetic attacks but detection is
+           combat rounds per day; once the Traveller’s power is            trivial by casual visual inspection.
+           expended, these claws revert to basic functionality.
+
+
+
+
+    56
+

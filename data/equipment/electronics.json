@@ -1,0 +1,1004 @@
+[
+  {
+    "category": "electronics",
+    "name": "Body Camera",
+    "tl": 8,
+    "effect": "2D video recorder and transmitter",
+    "mass": 0,
+    "cost": 50,
+    "source_page": 21
+  },
+  {
+    "category": "electronics",
+    "name": "Body Camera",
+    "tl": 10,
+    "effect": "+Unlimited storage",
+    "mass": 0,
+    "cost": 150,
+    "source_page": 21
+  },
+  {
+    "name": "Computer Weave, Basic",
+    "category": "electronics",
+    "tl": 10,
+    "effect": "Computer/0",
+    "cost": 500,
+    "mass": 0,
+    "source_page": 22
+  },
+  {
+    "name": "Computer Weave, Improved",
+    "category": "electronics",
+    "tl": 11,
+    "effect": "Computer/1",
+    "cost": 500,
+    "mass": 0,
+    "source_page": 22
+  },
+  {
+    "name": "Computer Weave, Enhanced",
+    "category": "electronics",
+    "tl": 13,
+    "effect": "Computer/2",
+    "cost": 600,
+    "mass": 0,
+    "source_page": 22
+  },
+  {
+    "name": "Computer Weave, Advanced",
+    "category": "electronics",
+    "tl": 15,
+    "effect": "Computer/3",
+    "cost": 1000,
+    "mass": 0,
+    "source_page": 22
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Eye Protection, Geiger Counter, Body Camera, Helmet Lights, Radio Transceiver (50km)"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 9,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Computer/0, Radio Transceiver (500km)"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 10,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Computer/1, Binoculars, IR Goggles, Radio Transceiver (500km), Scope"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 11,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Computer/1, Binoculars, IR Goggles, Radio Transceiver (500km), Scope"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 12,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Computer/2, Binoculars, IR Goggles, Light Intensifier Goggles, Radio Transceiver (500km), Scope"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 13,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Computer/2, PRIS Binoculars, Radio Transceiver (5,000km), Scope"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 14,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Computer/2, PRIS Binoculars, Radio Transceiver (5,000km), Scope"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 15,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Computer/3, PRIS Binoculars, Radio Transceiver (5,000km), Scope"
+  },
+  {
+    "name": "Electronics Suite",
+    "category": "electronics",
+    "tl": 16,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 28,
+    "effect": "Includes Bioscanner, Computer/4, PRIS Binoculars, Radio Transceiver (5,000 km), Scope"
+  },
+  {
+    "name": "Sensor Suite (+1)",
+    "tl": 13,
+    "cost": 20000,
+    "mass": 0,
+    "category": "electronics",
+    "effect": "DM+1 to Electronics (sensors) checks",
+    "source_page": 48,
+    "slots": 1
+  },
+  {
+    "name": "Sensor Suite (+2)",
+    "tl": 14,
+    "cost": 50000,
+    "mass": 0,
+    "category": "electronics",
+    "effect": "DM+2 to Electronics (sensors) checks",
+    "source_page": 48,
+    "slots": 2
+  },
+  {
+    "name": "Sensor Suite (+3)",
+    "tl": 15,
+    "cost": 65000,
+    "mass": 0,
+    "category": "electronics",
+    "effect": "DM+3 to Electronics (sensors) checks",
+    "source_page": 48,
+    "slots": 2
+  },
+  {
+    "name": "Terminal Stabilisation System",
+    "category": "electronics",
+    "tl": 16,
+    "cost": 2500000,
+    "mass": 0,
+    "source_page": 55,
+    "effect": "Adds +1D END when Traveller is killed"
+  },
+  {
+    "name": "Mechanostatic Scanner",
+    "category": "electronics",
+    "tl": 13,
+    "cost": 10000,
+    "mass": 0,
+    "source_page": 60,
+    "effect": "Detects augments within 20 metres"
+  },
+  {
+    "name": "Neural Comm Basic",
+    "category": "electronics",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source_page": 60,
+    "effect": "Audio only communications"
+  },
+  {
+    "name": "Neural Comm Improved",
+    "category": "electronics",
+    "tl": 12,
+    "cost": 5000,
+    "mass": 0,
+    "source_page": 60,
+    "effect": "Audio/Visual, Computer/0"
+  },
+  {
+    "name": "Neural Comm Enhanced",
+    "category": "electronics",
+    "tl": 14,
+    "cost": 20000,
+    "mass": 0,
+    "source_page": 60,
+    "effect": "Multiple forms of data, Computer/1"
+  },
+  {
+    "name": "Neural Comm Advanced",
+    "category": "electronics",
+    "tl": 15,
+    "cost": 25000,
+    "mass": 0,
+    "source_page": 60,
+    "effect": "Multiple forms of data, Computer/2"
+  },
+  {
+    "name": "Neural Link",
+    "category": "electronics",
+    "tl": 13,
+    "cost": 30000,
+    "mass": 0,
+    "source_page": 61,
+    "effect": "Neural Comm + nervous system access"
+  },
+  {
+    "name": "Neural Jack",
+    "category": "electronics",
+    "tl": 13,
+    "cost": 50000,
+    "mass": 0,
+    "source_page": 61,
+    "effect": "Neural Link + Wafer Jack/8"
+  },
+  {
+    "name": "Bug",
+    "category": "electronics",
+    "tl": 5,
+    "cost": 50,
+    "mass": 0,
+    "source_page": 63,
+    "effect": "Audio only"
+  },
+  {
+    "name": "Bug",
+    "category": "electronics",
+    "tl": 7,
+    "cost": 100,
+    "mass": 0,
+    "source_page": 63,
+    "effect": "Audio or Visual"
+  },
+  {
+    "name": "Bug",
+    "category": "electronics",
+    "tl": 9,
+    "cost": 200,
+    "mass": 0,
+    "source_page": 63,
+    "effect": "Audio or Visual or Data"
+  },
+  {
+    "name": "Bug",
+    "category": "electronics",
+    "tl": 11,
+    "cost": 300,
+    "mass": 0,
+    "source_page": 63,
+    "effect": "Audio/Visual/Data"
+  },
+  {
+    "name": "Bug",
+    "category": "electronics",
+    "tl": 13,
+    "cost": 400,
+    "mass": 0,
+    "source_page": 63,
+    "effect": "Audio/Visual/Data/Bioscan/Computer/0"
+  },
+  {
+    "name": "Bug",
+    "category": "electronics",
+    "tl": 15,
+    "cost": 500,
+    "mass": 0,
+    "source_page": 63,
+    "effect": "Audio/Visual/Data/Bioscan/Computer/1"
+  },
+  {
+    "name": "Holographic Display",
+    "category": "electronics",
+    "tl": 9,
+    "effect": "Translucent moving holograph",
+    "mass": 2,
+    "cost": 800,
+    "source_page": 64
+  },
+  {
+    "name": "Holographic Display",
+    "category": "electronics",
+    "tl": 11,
+    "effect": "Realistic moving holograph",
+    "mass": 1,
+    "cost": 1000,
+    "source_page": 64
+  },
+  {
+    "name": "Holographic Display",
+    "category": "electronics",
+    "tl": 12,
+    "effect": "True-to-life moving holograph",
+    "mass": 0,
+    "cost": 1000,
+    "source_page": 64
+  },
+  {
+    "name": "Holographic Projector",
+    "category": "electronics",
+    "tl": 9,
+    "effect": "Translucent moving holograph",
+    "mass": 6,
+    "cost": 1000,
+    "source_page": 64
+  },
+  {
+    "name": "Holographic Projector",
+    "category": "electronics",
+    "tl": 11,
+    "effect": "Realistic moving holograph",
+    "mass": 3,
+    "cost": 2000,
+    "source_page": 64
+  },
+  {
+    "name": "Holographic Projector",
+    "category": "electronics",
+    "tl": 12,
+    "effect": "True-to-life moving holograph",
+    "mass": 1,
+    "cost": 10000,
+    "source_page": 64
+  },
+  {
+    "name": "Holographic Projector",
+    "category": "electronics",
+    "tl": 14,
+    "effect": "Small form-factor",
+    "mass": 0,
+    "cost": 25000,
+    "source_page": 64
+  },
+  {
+    "name": "Mobile Comm",
+    "category": "electronics",
+    "tl": 6,
+    "effect": "Audio-only",
+    "mass": 0,
+    "cost": 50,
+    "source_page": 64
+  },
+  {
+    "name": "Mobile Comm",
+    "category": "electronics",
+    "tl": 8,
+    "effect": "Audio and visual, Computer/0",
+    "mass": 0,
+    "cost": 150,
+    "source_page": 64
+  },
+  {
+    "name": "Mobile Comm",
+    "category": "electronics",
+    "tl": 10,
+    "effect": "Multiple forms of data, Computer/1",
+    "mass": 0,
+    "cost": 500,
+    "source_page": 64
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 5,
+    "range": "Distant (5km)",
+    "mass": 20,
+    "cost": 225,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 5,
+    "range": "Very Distant (50km)",
+    "mass": 70,
+    "cost": 750,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 5,
+    "range": "Regional (500km)",
+    "mass": 150,
+    "cost": 1500,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 5,
+    "range": "Continental (5,000km)",
+    "mass": 300,
+    "cost": 15000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 5,
+    "range": "Planetary (50,000km)",
+    "mass": 1000,
+    "cost": 500000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 7,
+    "range": "Distant (5km)",
+    "mass": 1,
+    "cost": 100,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 7,
+    "range": "Very Distant (50km)",
+    "mass": 5,
+    "cost": 250,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 7,
+    "range": "Regional (500km)",
+    "mass": 10,
+    "cost": 500,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 7,
+    "range": "Continental (5,000km)",
+    "mass": 20,
+    "cost": 5000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 7,
+    "range": "Planetary (50,000km)",
+    "mass": 200,
+    "cost": 50000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 7,
+    "range": "Interplanetary (500,000km)",
+    "mass": 2000,
+    "cost": 500000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 8,
+    "range": "Distant (5km)",
+    "mass": 0,
+    "cost": 75,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 8,
+    "range": "Very Distant (50km)",
+    "mass": 0,
+    "cost": 500,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 9,
+    "range": "Regional (500km)",
+    "mass": 0,
+    "cost": 500,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 9,
+    "range": "Continental (5,000km)",
+    "mass": 0,
+    "cost": 5000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 9,
+    "range": "Planetary (50,000km)",
+    "mass": 10,
+    "cost": 15000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 9,
+    "range": "Interplanetary (500,000km)",
+    "mass": 20,
+    "cost": 30000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 12,
+    "range": "Continental (5,000km)",
+    "mass": 0,
+    "cost": 500,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 12,
+    "range": "Planetary (50,000km)",
+    "mass": 2,
+    "cost": 2000,
+    "source_page": 65
+  },
+  {
+    "name": "Radio Transceiver",
+    "category": "electronics",
+    "tl": 12,
+    "range": "Interplanetary (500,000km)",
+    "mass": 5,
+    "cost": 5000,
+    "source_page": 65
+  },
+  {
+    "name": "Computer Terminal",
+    "category": "electronics",
+    "tl": 6,
+    "cost": 200,
+    "mass": 2,
+    "effect": "Computer/0 and interface",
+    "source_page": 68
+  },
+  {
+    "name": "Computer Interface",
+    "category": "electronics",
+    "tl": 8,
+    "cost": 100,
+    "mass": 0,
+    "effect": "Computer/0 and interface",
+    "source_page": 68
+  },
+  {
+    "name": "Basic Mainframe Computer",
+    "category": "electronics",
+    "tl": 5,
+    "cost": 2000000,
+    "mass": 5000,
+    "effect": "Computer/0",
+    "source_page": 68
+  },
+  {
+    "name": "Improved Mainframe Computer",
+    "category": "electronics",
+    "tl": 6,
+    "cost": 4000000,
+    "mass": 4000,
+    "effect": "Computer/1",
+    "source_page": 68
+  },
+  {
+    "name": "Advanced Mainframe Computer",
+    "category": "electronics",
+    "tl": 7,
+    "cost": 5000000,
+    "mass": 1000,
+    "effect": "Computer/2",
+    "source_page": 68
+  },
+  {
+    "name": "Basic Mid-sized Computer",
+    "category": "electronics",
+    "tl": 6,
+    "cost": 500000,
+    "mass": 500,
+    "effect": "Computer/0",
+    "source_page": 68
+  },
+  {
+    "name": "Improved Mid-sized Computer",
+    "category": "electronics",
+    "tl": 7,
+    "cost": 50000,
+    "mass": 50,
+    "effect": "Computer/1",
+    "source_page": 68
+  },
+  {
+    "name": "Enhanced Mid-sized Computer",
+    "category": "electronics",
+    "tl": 8,
+    "cost": 10000,
+    "mass": 10,
+    "effect": "Computer/2",
+    "source_page": 68
+  },
+  {
+    "name": "Advanced Mid-sized Computer",
+    "category": "electronics",
+    "tl": 9,
+    "cost": 10000,
+    "mass": 5,
+    "effect": "Computer/3",
+    "source_page": 68
+  },
+  {
+    "name": "Superior Mid-sized Computer",
+    "category": "electronics",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 5,
+    "effect": "Computer/4",
+    "source_page": 68
+  },
+  {
+    "name": "Portable Computer/0",
+    "category": "electronics",
+    "tl": 7,
+    "cost": 500,
+    "mass": 5,
+    "effect": "Portable Computer/0",
+    "source_page": 68
+  },
+  {
+    "name": "Portable Computer/1",
+    "category": "electronics",
+    "tl": 8,
+    "cost": 250,
+    "mass": 2,
+    "effect": "Portable Computer/1",
+    "source_page": 68
+  },
+  {
+    "name": "Portable Computer/2",
+    "category": "electronics",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0.5,
+    "effect": "Portable Computer/2",
+    "source_page": 68
+  },
+  {
+    "name": "Portable Computer/3",
+    "category": "electronics",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0.5,
+    "effect": "Portable Computer/3",
+    "source_page": 68
+  },
+  {
+    "name": "Portable Computer/4",
+    "category": "electronics",
+    "tl": 13,
+    "cost": 1500,
+    "mass": 0.5,
+    "effect": "Portable Computer/4",
+    "source_page": 68
+  },
+  {
+    "name": "Portable Computer/5",
+    "category": "electronics",
+    "tl": 14,
+    "cost": 5000,
+    "mass": 0.5,
+    "effect": "Portable Computer/5",
+    "source_page": 68
+  },
+  {
+    "name": "Intelligent Interface",
+    "category": "electronics",
+    "tl": 11,
+    "cost": 100,
+    "mass": 0,
+    "source_page": 72,
+    "effect": "Artificial intelligence allowing computer interaction as a sentient being"
+  },
+  {
+    "name": "Interface",
+    "category": "electronics",
+    "tl": 7,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 72,
+    "effect": "Provides ability to display computer data"
+  },
+  {
+    "name": "Camera (still, mono)",
+    "tl": 4,
+    "cost": 1000,
+    "mass": 50,
+    "category": "electronics",
+    "effect": "Tripod-mounted device to capture images",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (still, mono)",
+    "tl": 5,
+    "cost": 200,
+    "mass": 2,
+    "category": "electronics",
+    "effect": "Handheld device, development required",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (still, colour)",
+    "tl": 6,
+    "cost": 100,
+    "mass": 1,
+    "category": "electronics",
+    "effect": "Handheld device, instant photo",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (still, colour)",
+    "tl": 7,
+    "cost": 200,
+    "mass": 1,
+    "category": "electronics",
+    "effect": "Digital media image",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (motion)",
+    "tl": 5,
+    "cost": 0,
+    "mass": 0,
+    "category": "electronics",
+    "effect": "Motion picture camera (pre TL8)",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (motion/still, colour)",
+    "tl": 8,
+    "cost": 200,
+    "mass": 1,
+    "category": "electronics",
+    "effect": "Professional-grade stand-alone camera",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (still, holographic)",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 2,
+    "category": "electronics",
+    "effect": "Moderate-grade holographic images",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (motion, holographic)",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 2,
+    "category": "electronics",
+    "effect": "Full motion holography",
+    "source_page": 74
+  },
+  {
+    "name": "Camera (professional grade)",
+    "tl": 5,
+    "cost": 0,
+    "mass": 0,
+    "category": "electronics",
+    "effect": "DM+2 to Art checks",
+    "source_page": 74
+  },
+  {
+    "name": "Camera Lens",
+    "tl": 4,
+    "cost": 2000,
+    "mass": 0,
+    "category": "electronics",
+    "effect": "For professional cameras, multiple required",
+    "source_page": 74
+  },
+  {
+    "category": "electronics",
+    "name": "Electronic Binoculars",
+    "tl": 8,
+    "cost": 750,
+    "mass": 1,
+    "source_page": 75,
+    "effect": "10x magnification, rangefinder, light intensification"
+  },
+  {
+    "category": "electronics",
+    "name": "Electronic Binoculars",
+    "tl": 9,
+    "cost": 750,
+    "mass": 1,
+    "source_page": 75,
+    "effect": "+Infrared thermal imaging"
+  },
+  {
+    "category": "electronics",
+    "name": "Electronic Binoculars",
+    "tl": 10,
+    "cost": 750,
+    "mass": 1,
+    "source_page": 75,
+    "effect": "+Image processing of partially seen objects"
+  },
+  {
+    "name": "Radio Jammer, Handheld",
+    "category": "electronics",
+    "tl": 6,
+    "effect": "Disrupts radio comms within 30 metres",
+    "mass": 0.5,
+    "cost": 500,
+    "source_page": 78
+  },
+  {
+    "name": "Radio Jammer, Heavy",
+    "category": "electronics",
+    "tl": 4,
+    "effect": "Disrupts radio comms up to 100 kilometres",
+    "mass": 30,
+    "cost": 50000,
+    "source_page": 78
+  },
+  {
+    "name": "Bioscanner",
+    "category": "electronics",
+    "tl": 15,
+    "effect": "Organic molecule sensing and analysis",
+    "mass": 3.5,
+    "cost": 350000,
+    "source_page": 79
+  },
+  {
+    "name": "Bug Sweeper (standard)",
+    "category": "electronics",
+    "tl": 5,
+    "effect": "Detects surveillance devices",
+    "mass": 0.5,
+    "cost": 100,
+    "source_page": 79
+  },
+  {
+    "name": "Bug Sweeper (deluxe)",
+    "category": "electronics",
+    "tl": 5,
+    "effect": "Detects surveillance devices, DM+2",
+    "mass": 0.5,
+    "cost": 1000,
+    "source_page": 79
+  },
+  {
+    "name": "Metal Detector",
+    "tl": 5,
+    "category": "electronics",
+    "effect": "Detects coin-sized items to 1 metre depth",
+    "mass": 5,
+    "cost": 250,
+    "source_page": 80
+  },
+  {
+    "name": "Metal Detector",
+    "tl": 7,
+    "category": "electronics",
+    "effect": "Detects coin-sized items to 3 metre depth",
+    "mass": 3,
+    "cost": 150,
+    "source_page": 80
+  },
+  {
+    "name": "Metal Detector",
+    "tl": 9,
+    "category": "electronics",
+    "effect": "Detects coin-sized items to 10 metre depth",
+    "mass": 0,
+    "cost": 250,
+    "source_page": 80
+  },
+  {
+    "name": "Psi-detector",
+    "tl": 13,
+    "category": "electronics",
+    "effect": "Detects and evaluates PSI rating",
+    "mass": 10,
+    "cost": 5000,
+    "source_page": 80
+  },
+  {
+    "category": "electronics",
+    "name": "Holographic Play Table",
+    "tl": 9,
+    "effect": "Holographic display on table",
+    "mass": 9,
+    "cost": 1000,
+    "source_page": 84
+  },
+  {
+    "name": "Holographic Wallpaper",
+    "category": "electronics",
+    "tl": 12,
+    "effect": "Holographic walls",
+    "mass": 9,
+    "cost": 16000,
+    "source_page": 85
+  },
+  {
+    "name": "Remembrance Hologram",
+    "category": "electronics",
+    "tl": 9,
+    "cost": 250,
+    "mass": 0,
+    "source_page": 86,
+    "effect": "Projects 20-30cm holographic image of a person"
+  },
+  {
+    "name": "Holosimulacrum",
+    "category": "electronics",
+    "tl": 17,
+    "effect": "Creates immersive holographic environment",
+    "mass": 0,
+    "cost": 5000000,
+    "source_page": 112
+  },
+  {
+    "name": "Re-Entry Computer",
+    "tl": 8,
+    "category": "electronics",
+    "effect": "Flyer (wing) 2 for re-entry survival check",
+    "mass": 0,
+    "cost": 2500,
+    "source_page": 121
+  },
+  {
+    "name": "Electronic Tool Set",
+    "category": "electronics",
+    "tl": 7,
+    "effect": "Tools for electronic assembly and repair",
+    "mass": 2,
+    "cost": 2000,
+    "source_page": 127
+  },
+  {
+    "name": "Holographic Sights",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 0.5,
+    "source_page": 176,
+    "category": "electronics",
+    "effect": "Scope + DM+1 to attack rolls beyond 50m"
+  },
+  {
+    "name": "Scan Jammer",
+    "tl": 8,
+    "cost": 2500,
+    "mass": 0,
+    "category": "electronics",
+    "effect": "DM-4 to Electronic (sensors) checks for weapon",
+    "source_page": 177
+  },
+  {
+    "name": "Smart Tracker",
+    "tl": 11,
+    "category": "electronics",
+    "effect": "Allows DM+2 to attack rolls 'tagged' target",
+    "mass": 0,
+    "cost": 500,
+    "source_page": 178
+  }
+]

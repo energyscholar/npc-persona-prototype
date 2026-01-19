@@ -1,0 +1,58 @@
+                                        INFINITE ROPE
+                                        Stored in liquid form within a device looking like a caulk
+                                        gun, infinite rope is a bacterium binding to itself with
+                                        amazing strength and flexibility. When needed, the
+                                        trigger on the ‘gun’ is pulled and a length of rope will be
+                         Folding cage   produced, instantly toughening. The dispenser has a
+                                        shutter that allows for the rope to then be cut and used
+                                        as normal. When finished, however, the rope can be
+                                        balled up and reloaded into the gun to be digested by
+                                        the bacterium colony and re-used later. A single infinite
+                                        rope dispenser can produce up to 26 metres of rope
+                                        before running out and must have at least one metre’s
+                                        worth of colony left inside to reclaim old rope (a readout
+ Grav Harness                           indicates how much of the colony remains in the
+                                        gun). The rope is extremely strong, carrying up to 750
+                                        kilograms without showing stress or tearing.
+
+                                        Item      TL    Effect                       Kg       Cost
+                                        Infinite 16     Gun with reusable (to        1        Cr1000
+                                        Rope            25m) rope, 750kg load
+         Infinite Rope
+                                        HIKING BOOTS
+                                        A set of sturdy boots protecting the wearer’s feet and
+                                        ankles from rough ground, thorns and other minor hazards.
+                                        Higher-tech boots are lighter and more comfortable.
+
+                                        Hiking Boots TL          Effect                  Kg    Cost
+                                        Basic               1    Protection +1 to        2     Cr50
+                                                                 feet and ankles
+                                        Improved            6    Protection +1 to        1     Cr50
+                                                                 feet and ankles
+                                        Advanced            8    Protection +2 to        —     Cr200
+                                                                 feet and ankles
+
+                                        MAGNETIC COMPASS
+                                        Indicates direction of magnetic north on worlds with a
+                                        strong global magnetic field.
+
+                                        Item           TL   Effect                       Kg    Cost
+
+                                                                                                        Survival gear
+G-Suit
+                                        Magnetic 3          Indicates direction of       —     Cr10
+                                        Compass             magnetic field
+
+                                        POCKET SAW
+                                        A slim but sharp collapsible saw or saw-like chain which
+                                        can be folded into a 12 centimetre long box or a pocket.
+
+                                        Item      TL    Effect                           Kg    Cost
+                                        Pocket 6        Collapse lightweight saw         —     Cr25
+                                        Saw
+
+
+
+
+                                                                                                       107
+

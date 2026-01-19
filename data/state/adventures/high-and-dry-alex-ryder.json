@@ -1,7 +1,7 @@
 {
   "adventure": "high-and-dry",
   "currentAct": "act-1-journey",
-  "currentScene": "scout-office",
+  "currentScene": "starport-arrival",
   "completedBeats": [
     "starport-arrival",
     "first-observations"
@@ -17,16 +17,16 @@
   "gameDate": "001-1105",
   "pcId": "alex-ryder",
   "sceneHistory": [
-    "scout-office",
-    "finding-the-ship",
-    "meeting-greener",
     "layover-567-908",
     "layover-567-908",
     "startown-investigation",
     "journey-to-mountain",
     "save-the-ship",
     "scout-office",
-    "scout-office"
+    "scout-office",
+    "scout-office",
+    "scout-office",
+    "starport-arrival"
   ],
   "completedScenes": [
     "scout-office",
@@ -41,5 +41,5 @@
     "journey-to-mountain",
     "save-the-ship"
   ],
-  "lastPlayed": "2026-01-18T04:40:45.180Z"
+  "lastPlayed": "2026-01-18T09:06:39.057Z"
 }

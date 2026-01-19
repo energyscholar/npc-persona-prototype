@@ -265,6 +265,39 @@ function listPersonas(world = null) {
 }
 
 /**
+ * List NPC IDs filtered by campaign
+ * @param {string} campaignId - Campaign identifier (e.g., 'solo-high-and-dry')
+ * @returns {string[]} Array of NPC IDs in the campaign (includes system NPCs)
+ */
+function listPersonasByCampaign(campaignId) {
+  if (!campaignId || !fs.existsSync(DATA_DIR)) {
+    return [];
+  }
+
+  const ids = fs.readdirSync(DATA_DIR)
+    .filter(f => f.endsWith('.json'))
+    .map(f => f.replace('.json', ''));
+
+  return ids.filter(id => {
+    try {
+      const filePath = path.join(DATA_DIR, `${id}.json`);
+      const content = fs.readFileSync(filePath, 'utf8');
+      const persona = JSON.parse(content);
+
+      // System NPCs (campaign: "system") appear in all campaigns
+      if (persona.campaign === 'system') {
+        return true;
+      }
+
+      // Match campaign ID
+      return persona.campaign === campaignId;
+    } catch {
+      return false;
+    }
+  });
+}
+
+/**
  * Get summary info for an NPC (for listing)
  * @param {string} npcId - NPC identifier
  * @returns {Object} { id, name, title, world, archetype }
@@ -297,5 +330,6 @@ module.exports = {
   validatePersona,
   getArchetypeDefaults,
   listPersonas,
+  listPersonasByCampaign,
   getPersonaSummary
 };

@@ -1,0 +1,58 @@
+SKILL AUGMENTATION                                             Wafer Jack TL   Effect                 Cost
+The Traveller’s nervous system is rewired to be more           Basic      12   Expert + Computer/2,   Cr10000
+suited to a particular task. A pilot might have reflexes                       Bandwidth 4
+and sense of balance improved, for example, while
+a broker might become capable of controlling pupil             Improved   13   Expert + Computer/2,   Cr15000
+responses and smelling alien pheromones and skin                               Bandwidth 8
+salinity. A skill augmentation grants the Traveller DM+1       Advanced   15   Expert + Computer/3,   Cr30000
+when using that specific skill. A Traveller may only have                      Bandwidth 12
+one augmentation per skill and must possess the skill
+at level 0 or more to benefit from it. Three different skill
+augmentations can be installed at any one time.
+
+Augment           TL   Effect                    Cost
+Skill        12        Skill+1 to any one        Cr50000
+Augmentation           skill of level 0+
+
+VENOM GLANDS
+This bionic augment requires the insertion of toxic
+salivary glands into the jawbone, making the saliva a
+potent necrotic toxin. The Traveller inflicts an additional
+D+3 points of damage whenever successfully biting a
+living creature. Users are immune to their own venom
+and bite victims with divergent biochemistries may not
+necessarily be affected by these glands.
+
+Augment           TL    Effect                   Cost
+Venom Glands 11         Add D+3 points        Cr10000
+                        damage to bite attack
+
+WAFER JACK
+A wafer jack is a computer system implanted into the
+base of the skull that contains a physical data socket
+and a processor running an interface program. A
+Traveller with a wafer jack can use Expert programs
+for tasks relying on INT or EDU only. The main benefit
+is that it is much smaller and more discrete than
+a portable computer and the user can access the
+Expert program by thought alone. A wafer jack has
+a specialised Computer/2 for Expert programs only,
+always running Intelligence Interface.
+
+The wafer jack’s Intelligence Interface does not use                                                            Augments
+any Bandwidth, so all available computer Bandwidth
+may be used for running one or two Expert software
+packages. Total storage capacity of physical data
+wafers is indicated by the wafer jack’s total Bandwidth.
+Swapping out software is done with physical media and
+not possible in the heat of the moment.
+
+The advanced wafer jack has a specialised Computer/3
+capable of simultaneously running one, two or three
+Expert packages of total Bandwidth 3.
+
+
+
+
+                                                                                                                61
+

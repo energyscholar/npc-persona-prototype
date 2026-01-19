@@ -1,0 +1,65 @@
+ENERGY RIFLES                                                HEAVY LASER RIFLE
+                                                             A large and somewhat unwieldy weapon, the heavy laser
+All weapons described in this section require the Gun
+                                                             rifle is intended for snipers who hunt heavily armoured
+Combat (energy) skill to use effectively.
+                                                             targets but it is equally well-suited to targeting light
+                                                             vehicles. The power pack is integrated into the weapon
+CARTRIDGE LASER CARBINE                                      itself, removing the need for a heavy backpack.
+A cartridge laser carbine dispenses the need for a power
+pack by using a magazine that provides the necessary
+energy to fire the weapon via chemical reaction. This
+                                                             ION RIFLE
+                                                             At higher Tech Levels, ion technology has been
+greatly reduces the overall weight, albeit at the cost
+                                                             miniaturised to the level that it can be used for personal
+of fewer shots. However, the cartridge is no slower
+                                                             weapons. At TL14, a hit from an ion rifle can disrupt
+to replace than a slug magazine and is disposable,
+                                                             robots, electronic equipment on vehicles or powered
+meaning no lengthy recharges are required.
+                                                             armour for 1D rounds. Powered armour or robots with
+                                                             Protection +20 or higher are immune and the weapon
+CARTRIDGE LASER RIFLE                                        does not affect vehicles with Armour 4+. At TL15, the ion
+A heavier, more powerful version of cartridge laser          rifle is considerably more expensive but can penetrate
+weapon, this rifle is capable of automatic fire.             personal or robot armour with any Protection and can
+                                                             momentarily disrupt vehicles with Armour 8 or less.
+CRYO RIFLE
+Taking the technology of the cryojet (see page 160)          LASER CARBINE
+and miniaturising it into the frame of a rifle, this         Laser carbines are shorter and lighter than laser rifles
+weapon becomes the bane of even heavy infantry               and have a correspondingly shorter range.
+encased within battle dress. If a target wearing any
+kind of sealed protective suit is struck by a cryo rifle,
+they must make an Average (8+) STR check or be
+                                                             LASER RIFLE
+                                                             Laser rifles are highly accurate at long range and are
+held in place for 1D rounds.
+                                                             powered by heavy backpacks.
+
+FLAME RIFLE                                                  LASER SNIPER RIFLE
+An advanced flamethrower, the flame rifle packs
+                                                             A six-shot model designed to be used for mobile
+everything a firestarter needs into one compact package.
+                                                             sniping. The power pack is integrated into the weapon
+                                                             itself, removing the need for a heavy backpack.
+
+
+
+
+  Cartridge Laser Carbine
+
+                                                                                         Cartridge Laser Rifle
+                                                                                                                           Weaponry
+
+                               Cryo Rifle
+
+                                                                                     Flame Rifle
+
+
+                                                     Heavy Laser Rifle
+
+
+
+
+                                                                                                                          151
+

@@ -1,0 +1,53 @@
+FABULOUS AUGMENTATION TREATMENT                              NEURAL COMM
+This full-scale treatment concentrates on the head           A neural comm connects the Traveller’s brain to a
+but the whole body is considered. Small adjustments          communications device. A neural comm has identical
+are made to the Traveller’s figure and posture, facial       capacities to a mobile comm (see page 63) but the
+features are adjusted and the social interaction areas of    cost is much higher, as is the required Tech Level. At
+the brain are biologically enhanced. The effect makes        TL10 this connection is to the Traveller’s hearing and
+the Traveller a delight at any function, granting DM+1 to    speech centres allowing verbal communications by
+checks involving social interaction. A lot of higher-class   thought alone. At TL12, links to the visual cortex allow a
+socialites often seem as if they are just better people      full overlay of augmented reality information and other
+than those below them – this treatment is why. This          visual data, including input from HUD devices without
+augmentation is not affected by electromagnetic attacks      the need for a display unit. At TL14, further integration
+or detectable by electronic means.                           allows interface to the Travellers full sensory apparatus,
+                                                             allowing emulated sensations of smell, taste and touch
+Augment           TL Effect                    Cost          and increased computing capability.
+Fabulous          15 DM+1 to all social        MCr3.5
+                                                             A Traveller can access a neural comm by thought
+Augmentation         interaction checks
+                                                             alone but its complicated activities still require an
+Treatment
+                                                             Electronics (comms) or Electronics (computers)
+                                                             check. By default, the transceiver has a five kilometre
+MECHANOSTATIC SCANNER                                        range but it can link to a more powerful transceiver
+This augments one of the Traveller’s ears with a             relay and act as a thought-controlled terminal to a
+manually activated device similar to a communications        more powerful computer within range.
+scanner. When activated, any individuals within
+20 metres with augments detectable by electronic              Neural Comm TL        Effect                  Cost
+means give off a traceable buzz audible only to the
+Traveller. For most augments – except those normally          Basic            10   Audio only              Cr1000
+undetectable – this is automatic but for those of higher      Improved         12   Audio/Visual,           Cr5000
+TL, the scanner must make an Easy (4+) check with a                                 Computer/0
+negative DM equal to the TL difference.                       Enhanced         14   Multiple forms of       Cr20000
+                                                                                    data, Computer/1
+Augment           TL Effect                     Cost          Advanced         15   Multiple forms of       Cr25000
+Mechanostatic 13       Detects augments         Cr10000                             data, Computer/2
+Scanner
+
+
+
+
+                                                                                             Neural Comm
+                                                                                                                          Augments
+
+
+                                                             Enhanced Vision
+
+
+                             Mechanostatic Scanner
+
+
+
+
+                                                                                                                          59
+

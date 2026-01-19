@@ -1,0 +1,6034 @@
+[
+  {
+    "id": "auto-protect-kit-tl12",
+    "name": "Auto Protect Kit",
+    "tl": 12,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 21
+    },
+    "category": "tools"
+  },
+  {
+    "id": "body-camera-tl8",
+    "name": "Body Camera",
+    "tl": 8,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 21
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "body-camera-tl10",
+    "name": "Body Camera",
+    "tl": 10,
+    "cost": 150,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 21
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "camouflage-basic-tl3",
+    "name": "Camouflage, Basic",
+    "tl": 3,
+    "cost": 25,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "tools"
+  },
+  {
+    "id": "camouflage-heavy-tl3",
+    "name": "Camouflage, Heavy",
+    "tl": 3,
+    "cost": 200,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chameleon-full-motion-tl12",
+    "name": "Chameleon, Full Motion",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chameleon-ir-tl12",
+    "name": "Chameleon, IR",
+    "tl": 12,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chameleon-vislight-tl13",
+    "name": "Chameleon, Vislight",
+    "tl": 13,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "tools"
+  },
+  {
+    "id": "coolant-rig-tl8",
+    "name": "Coolant Rig",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 22
+    },
+    "category": "tools"
+  },
+  {
+    "id": "extended-life-support-tl10",
+    "name": "Extended Life Support",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 23
+    },
+    "category": "tools"
+  },
+  {
+    "id": "eye-protection-tl6",
+    "name": "Eye Protection",
+    "tl": 6,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 23
+    },
+    "category": "tools"
+  },
+  {
+    "id": "friend-or-foe-hud-tl11",
+    "name": "Friend or Foe HUD",
+    "tl": 11,
+    "cost": 4000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 23
+    },
+    "category": "tools"
+  },
+  {
+    "id": "gecko-pads-tl9",
+    "name": "Gecko Pads",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 23
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grav-assist-tl12",
+    "name": "Grav Assist",
+    "tl": 12,
+    "cost": 110000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 24
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "grav-assist-tl15",
+    "name": "Grav Assist",
+    "tl": 15,
+    "cost": 120000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 24
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "gyro-stabiliser-rig-tl9",
+    "name": "Gyro-Stabiliser Rig",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 24
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "gyro-stabiliser-rig-tl11",
+    "name": "Gyro-Stabiliser Rig",
+    "tl": 11,
+    "cost": 5000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 24
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "hands-free-cuff-tl8",
+    "name": "Hands-Free Cuff",
+    "tl": 8,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 24
+    },
+    "category": "tools"
+  },
+  {
+    "id": "helmet-lights-tl6",
+    "name": "Helmet Lights",
+    "tl": 6,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 24
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "helmet-lights-tl8",
+    "name": "Helmet Lights",
+    "tl": 8,
+    "cost": 20,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 24
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "life-support-belt-tl10",
+    "name": "Life Support Belt",
+    "tl": 10,
+    "cost": 3000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "life-support-belt-tl12",
+    "name": "Life Support Belt",
+    "tl": 12,
+    "cost": 4000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "life-support-belt-tl15",
+    "name": "Life Support Belt",
+    "tl": 15,
+    "cost": 5000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "life-support-system-tl8",
+    "name": "Life Support System",
+    "tl": 8,
+    "cost": 6000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "life-support-system-tl10",
+    "name": "Life Support System",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "life-support-system-tl12",
+    "name": "Life Support System",
+    "tl": 12,
+    "cost": 8000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "magnetic-grapples-tl8",
+    "name": "Magnetic Grapples",
+    "tl": 8,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools"
+  },
+  {
+    "id": "minefield-boots-tl8",
+    "name": "Minefield Boots",
+    "tl": 8,
+    "cost": 250,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 25
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personalisation-basic-tl2",
+    "name": "Personalisation Basic",
+    "tl": 2,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personalisation-improved-tl10",
+    "name": "Personalisation Improved",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "psionic-shield-helmet-tl12",
+    "name": "Psionic Shield Helmet",
+    "tl": 12,
+    "cost": 4000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "reflec-coating-tl10",
+    "name": "Reflec Coating",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "self-sealing-tl11",
+    "name": "Self-Sealing",
+    "tl": 11,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "smart-fabric-tl10",
+    "name": "Smart Fabric",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "submarine-functionality-basic-tl9",
+    "name": "Submarine Functionality Basic",
+    "tl": 9,
+    "cost": 200,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "submarine-functionality-improved-tl12",
+    "name": "Submarine Functionality Improved",
+    "tl": 12,
+    "cost": 300,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "submarine-functionality-advanced-tl15",
+    "name": "Submarine Functionality Advanced",
+    "tl": 15,
+    "cost": 500,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 26
+    },
+    "category": "tools"
+  },
+  {
+    "id": "tactical-video-suite-basic-tl7",
+    "name": "Tactical Video Suite Basic",
+    "tl": 7,
+    "cost": 100,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "tools"
+  },
+  {
+    "id": "tactical-video-suite-improved-tl8",
+    "name": "Tactical Video Suite Improved",
+    "tl": 8,
+    "cost": 200,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "tools"
+  },
+  {
+    "id": "tactical-video-suite-advanced-tl10",
+    "name": "Tactical Video Suite Advanced",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "tools"
+  },
+  {
+    "id": "thruster-pack-basic-tl7",
+    "name": "Thruster Pack Basic",
+    "tl": 7,
+    "cost": 2000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "tools"
+  },
+  {
+    "id": "thruster-pack-improved-tl12",
+    "name": "Thruster Pack Improved",
+    "tl": 12,
+    "cost": 14000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "tools"
+  },
+  {
+    "id": "thruster-pack-advanced-tl14",
+    "name": "Thruster Pack Advanced",
+    "tl": 14,
+    "cost": 20000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "tools"
+  },
+  {
+    "id": "electronics-suite-tl8",
+    "name": "Electronics Suite",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "electronics-suite-tl9",
+    "name": "Electronics Suite",
+    "tl": 9,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "electronics-suite-tl10",
+    "name": "Electronics Suite",
+    "tl": 10,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "electronics-suite-tl11",
+    "name": "Electronics Suite",
+    "tl": 11,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "electronics-suite-tl12",
+    "name": "Electronics Suite",
+    "tl": 12,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "electronics-suite-tl13",
+    "name": "Electronics Suite",
+    "tl": 13,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "electronics-suite-tl14",
+    "name": "Electronics Suite",
+    "tl": 14,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "electronics-suite-tl15",
+    "name": "Electronics Suite",
+    "tl": 15,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 28
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 8
+  },
+  {
+    "id": "emergency-softsuit-tl8",
+    "name": "Emergency Softsuit",
+    "tl": 8,
+    "cost": 500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 30
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "pressure-sleeve-tl9",
+    "name": "Pressure Sleeve",
+    "tl": 9,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 30
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "rescue-suit-tl8",
+    "name": "Rescue Suit",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 32
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "skinsuit-tl9",
+    "name": "Skinsuit",
+    "tl": 9,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 32
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "shipsuit-tl8",
+    "name": "Shipsuit",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 32
+    },
+    "category": "tools"
+  },
+  {
+    "id": "deluxe-shipsuit-tl8",
+    "name": "Deluxe Shipsuit",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 32
+    },
+    "category": "tools"
+  },
+  {
+    "id": "exoskeleton-tl9",
+    "name": "Exoskeleton",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 37
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "exoskeleton-tl12",
+    "name": "Exoskeleton",
+    "tl": 12,
+    "cost": 15000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 37
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "active-camouflage-tl15",
+    "name": "Active Camouflage",
+    "tl": 15,
+    "cost": 200000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 45
+    },
+    "category": "tools"
+  },
+  {
+    "id": "advanced-life-support-tl13",
+    "name": "Advanced Life Support",
+    "tl": 13,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 45
+    },
+    "category": "tools"
+  },
+  {
+    "id": "enhanced-mobility-tl14",
+    "name": "Enhanced Mobility",
+    "tl": 14,
+    "cost": 35000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 46
+    },
+    "category": "tools"
+  },
+  {
+    "id": "flight-pack-tl10",
+    "name": "Flight Pack",
+    "tl": 10,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 46
+    },
+    "category": "tools"
+  },
+  {
+    "id": "enhanced-strength-tl14",
+    "name": "Enhanced Strength",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 46
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fuel-cells-tl13",
+    "name": "Fuel Cells",
+    "tl": 13,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 46
+    },
+    "category": "tools"
+  },
+  {
+    "id": "heavy-plating-tl13",
+    "name": "Heavy Plating",
+    "tl": 13,
+    "cost": 4000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 46
+    },
+    "category": "tools"
+  },
+  {
+    "id": "high-velocity-targeting-array-tl15",
+    "name": "High Velocity Targeting Array",
+    "tl": 15,
+    "cost": 750000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "integrated-toolkit-tl13",
+    "name": "Integrated Toolkit",
+    "tl": 13,
+    "cost": 3000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "integrated-weapon-mount-pistol-tl10",
+    "name": "Integrated Weapon Mount (Pistol)",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "integrated-weapon-mount-close-combat-tl10",
+    "name": "Integrated Weapon Mount (Close Combat)",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "integrated-weapon-mount-rifle-tl10",
+    "name": "Integrated Weapon Mount (Rifle)",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "integrated-weapon-mount-personal-heavy-weapon-tl10",
+    "name": "Integrated Weapon Mount (Personal Heavy Weapon)",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "integrated-weapon-mount-vehicle-heavy-weapon-tl10",
+    "name": "Integrated Weapon Mount (Vehicle Heavy Weapon)",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "ion-shield-tl14",
+    "name": "Ion Shield",
+    "tl": 14,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 47
+    },
+    "category": "tools"
+  },
+  {
+    "id": "parachute-tl4",
+    "name": "Parachute",
+    "tl": 4,
+    "cost": 250,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 98
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "parachute-tl9",
+    "name": "Parachute",
+    "tl": 9,
+    "cost": 2500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "parachute-thin-atmosphere-tl9",
+    "name": "Parachute (Thin Atmosphere)",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "tools"
+  },
+  {
+    "id": "prismatic-aerosol-tl9",
+    "name": "Prismatic Aerosol",
+    "tl": 9,
+    "cost": 6000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "tools"
+  },
+  {
+    "id": "stealth-1-tl13",
+    "name": "Stealth (+1)",
+    "tl": 13,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "tools"
+  },
+  {
+    "id": "stealth-2-tl14",
+    "name": "Stealth (+2)",
+    "tl": 14,
+    "cost": 100000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "tools"
+  },
+  {
+    "id": "stealth-3-tl15",
+    "name": "Stealth (+3)",
+    "tl": 15,
+    "cost": 125000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 48
+    },
+    "category": "tools"
+  },
+  {
+    "id": "detachable-tl9",
+    "name": "Detachable",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools"
+  },
+  {
+    "id": "remotely-operated-detachable-augment-tl11",
+    "name": "Remotely-operated Detachable Augment",
+    "tl": 11,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grav-propelled-detachable-augment-tl13",
+    "name": "Grav-propelled Detachable Augment",
+    "tl": 13,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools"
+  },
+  {
+    "id": "natural-looking-tl10",
+    "name": "Natural-looking",
+    "tl": 10,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "natural-looking-tl14",
+    "name": "Natural-looking",
+    "tl": 14,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "ruggedised-tl8",
+    "name": "Ruggedised",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools"
+  },
+  {
+    "id": "self-repairing-tl14",
+    "name": "Self-repairing",
+    "tl": 14,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools"
+  },
+  {
+    "id": "invisitech-tl12",
+    "name": "Invisitech",
+    "tl": 12,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools"
+  },
+  {
+    "id": "additional-manipulator",
+    "name": "Additional Manipulator",
+    "tl": 0,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 50
+    },
+    "category": "tools"
+  },
+  {
+    "id": "manipulator-basic-tl10",
+    "name": "Manipulator Basic",
+    "tl": 10,
+    "cost": 7500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 51
+    },
+    "category": "tools"
+  },
+  {
+    "id": "manipulator-improved-tl12",
+    "name": "Manipulator Improved",
+    "tl": 12,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 51
+    },
+    "category": "tools"
+  },
+  {
+    "id": "manipulator-advanced-tl14",
+    "name": "Manipulator Advanced",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 51
+    },
+    "category": "tools"
+  },
+  {
+    "id": "all-temperature-epidermal-symbiote-tl14",
+    "name": "All-Temperature Epidermal Symbiote",
+    "tl": 14,
+    "cost": 2500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 51
+    },
+    "category": "tools"
+  },
+  {
+    "id": "altered-appearance-basic-tl6",
+    "name": "Altered Appearance Basic",
+    "tl": 6,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 51
+    },
+    "category": "tools"
+  },
+  {
+    "id": "altered-appearance-improved-tl9",
+    "name": "Altered Appearance Improved",
+    "tl": 9,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 51
+    },
+    "category": "tools"
+  },
+  {
+    "id": "altered-appearance-advanced-tl12",
+    "name": "Altered Appearance Advanced",
+    "tl": 12,
+    "cost": 200000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 51
+    },
+    "category": "tools"
+  },
+  {
+    "id": "internal-auto-injector-tl10",
+    "name": "Internal Auto-injector",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 54
+    },
+    "category": "tools"
+  },
+  {
+    "id": "metastatic-platelet-injection-tl12",
+    "name": "Metastatic Platelet Injection",
+    "tl": 12,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 54
+    },
+    "category": "tools"
+  },
+  {
+    "id": "muscular-bridging-tl13",
+    "name": "Muscular Bridging",
+    "tl": 13,
+    "cost": 250000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 54
+    },
+    "category": "tools"
+  },
+  {
+    "id": "physical-augmentation-1-tl11",
+    "name": "Physical Augmentation +1",
+    "tl": 11,
+    "cost": 500000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 54
+    },
+    "category": "tools"
+  },
+  {
+    "id": "physical-augmentation-2-tl12",
+    "name": "Physical Augmentation +2",
+    "tl": 12,
+    "cost": 1000000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 54
+    },
+    "category": "tools"
+  },
+  {
+    "id": "physical-augmentation-3-tl15",
+    "name": "Physical Augmentation +3",
+    "tl": 15,
+    "cost": 5000000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 54
+    },
+    "category": "tools"
+  },
+  {
+    "id": "soldier-s-organ-package-tl12",
+    "name": "Soldier's Organ Package",
+    "tl": 12,
+    "cost": 1500000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 54
+    },
+    "category": "tools"
+  },
+  {
+    "id": "smuggling-container-tl8",
+    "name": "Smuggling Container",
+    "tl": 8,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "tools"
+  },
+  {
+    "id": "video-tattoo-controller-tl12",
+    "name": "Video Tattoo Controller",
+    "tl": 12,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "tools"
+  },
+  {
+    "id": "video-tattoo-limb-tl12",
+    "name": "Video Tattoo (Limb)",
+    "tl": 12,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "tools"
+  },
+  {
+    "id": "video-tattoo-full-body-tl12",
+    "name": "Video Tattoo (Full Body)",
+    "tl": 12,
+    "cost": 120000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "tools"
+  },
+  {
+    "id": "aslan-cyber-claw",
+    "name": "Aslan Cyber-Claw",
+    "tl": 0,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "tools"
+  },
+  {
+    "id": "autonomous-locomotion-rig-tl9",
+    "name": "Autonomous Locomotion Rig",
+    "tl": 9,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 56
+    },
+    "category": "tools"
+  },
+  {
+    "id": "combat-arm-basic-tl8",
+    "name": "Combat Arm Basic",
+    "tl": 8,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 56
+    },
+    "category": "tools"
+  },
+  {
+    "id": "combat-arm-improved-tl11",
+    "name": "Combat Arm Improved",
+    "tl": 11,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 56
+    },
+    "category": "tools"
+  },
+  {
+    "id": "combat-arm-advanced-tl13",
+    "name": "Combat Arm Advanced",
+    "tl": 13,
+    "cost": 75000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 56
+    },
+    "category": "tools"
+  },
+  {
+    "id": "razor-claw-basic-tl11",
+    "name": "Razor Claw Basic",
+    "tl": 11,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 57
+    },
+    "category": "tools"
+  },
+  {
+    "id": "razor-claw-improved-tl13",
+    "name": "Razor Claw Improved",
+    "tl": 13,
+    "cost": 35000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 57
+    },
+    "category": "tools"
+  },
+  {
+    "id": "razor-claw-advanced-tl15",
+    "name": "Razor Claw Advanced",
+    "tl": 15,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 57
+    },
+    "category": "tools"
+  },
+  {
+    "id": "enhanced-mobility-basic-tl8",
+    "name": "Enhanced Mobility Basic",
+    "tl": 8,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 57
+    },
+    "category": "tools"
+  },
+  {
+    "id": "enhanced-mobility-improved-tl11",
+    "name": "Enhanced Mobility Improved",
+    "tl": 11,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 57
+    },
+    "category": "tools"
+  },
+  {
+    "id": "enhanced-mobility-advanced-tl13",
+    "name": "Enhanced Mobility Advanced",
+    "tl": 13,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 57
+    },
+    "category": "tools"
+  },
+  {
+    "id": "prosthetic-limb-tl2",
+    "name": "Prosthetic Limb",
+    "tl": 2,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 57
+    },
+    "category": "tools"
+  },
+  {
+    "id": "prosthetic-limb-primitive-tl2",
+    "name": "Prosthetic Limb (Primitive)",
+    "tl": 2,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 58
+    },
+    "category": "tools"
+  },
+  {
+    "id": "prosthetic-limb-basic-tl7",
+    "name": "Prosthetic Limb (Basic)",
+    "tl": 7,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 58
+    },
+    "category": "tools"
+  },
+  {
+    "id": "prosthetic-limb-improved-tl9",
+    "name": "Prosthetic Limb (Improved)",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 58
+    },
+    "category": "tools"
+  },
+  {
+    "id": "weapon-implant-dagger-tl10",
+    "name": "Weapon Implant (Dagger)",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 58
+    },
+    "category": "tools"
+  },
+  {
+    "id": "weapon-implant-stunstick-tl10",
+    "name": "Weapon Implant (Stunstick)",
+    "tl": 10,
+    "cost": 12000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 58
+    },
+    "category": "tools"
+  },
+  {
+    "id": "weapon-implant-auto-pistol-tl10",
+    "name": "Weapon Implant (Auto Pistol)",
+    "tl": 10,
+    "cost": 12000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 58
+    },
+    "category": "tools"
+  },
+  {
+    "id": "weapon-implant-laser-pistol-tl11",
+    "name": "Weapon Implant (Laser Pistol)",
+    "tl": 11,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 58
+    },
+    "category": "tools"
+  },
+  {
+    "id": "assisted-ambulation-basic-tl13",
+    "name": "Assisted Ambulation Basic",
+    "tl": 13,
+    "cost": 100000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "assisted-ambulation-improved-tl14",
+    "name": "Assisted Ambulation Improved",
+    "tl": 14,
+    "cost": 300000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "assisted-ambulation-advanced-tl15",
+    "name": "Assisted Ambulation Advanced",
+    "tl": 15,
+    "cost": 500000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "ballistic-tracking-lenses-tl11",
+    "name": "Ballistic Tracking Lenses",
+    "tl": 11,
+    "cost": 8000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cognitive-augmentation-1-tl12",
+    "name": "Cognitive Augmentation +1",
+    "tl": 12,
+    "cost": 500000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cognitive-augmentation-2-tl14",
+    "name": "Cognitive Augmentation +2",
+    "tl": 14,
+    "cost": 1000000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "complex-cranial-processing-unit-tl14",
+    "name": "Complex Cranial Processing Unit",
+    "tl": 14,
+    "cost": 350000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "enhanced-vision-basic-tl13",
+    "name": "Enhanced Vision Basic",
+    "tl": 13,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "enhanced-vision-improved-tl14",
+    "name": "Enhanced Vision Improved",
+    "tl": 14,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 59
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fabulous-augmentation-treatment-tl15",
+    "name": "Fabulous Augmentation Treatment",
+    "tl": 15,
+    "cost": 3500000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 60
+    },
+    "category": "tools"
+  },
+  {
+    "id": "neural-link-tl13",
+    "name": "Neural Link",
+    "tl": 13,
+    "cost": 30000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 61
+    },
+    "category": "tools"
+  },
+  {
+    "id": "nerve-plug-response-rig-tl13",
+    "name": "Nerve-plug Response Rig",
+    "tl": 13,
+    "cost": 225000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 61
+    },
+    "category": "tools"
+  },
+  {
+    "id": "peripheral-vision-enhancement-tl10",
+    "name": "Peripheral Vision Enhancement",
+    "tl": 10,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 61
+    },
+    "category": "tools"
+  },
+  {
+    "id": "shriekerbox-basic-tl10",
+    "name": "Shriekerbox Basic",
+    "tl": 10,
+    "cost": 8000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 61
+    },
+    "category": "tools"
+  },
+  {
+    "id": "shriekerbox-improved-tl12",
+    "name": "Shriekerbox Improved",
+    "tl": 12,
+    "cost": 16000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 61
+    },
+    "category": "tools"
+  },
+  {
+    "id": "skill-augmentation-tl12",
+    "name": "Skill Augmentation",
+    "tl": 12,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 62
+    },
+    "category": "tools"
+  },
+  {
+    "id": "venom-glands-tl11",
+    "name": "Venom Glands",
+    "tl": 11,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 62
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bug-tl5",
+    "name": "Bug",
+    "tl": 5,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 6
+  },
+  {
+    "id": "bug-tl7",
+    "name": "Bug",
+    "tl": 7,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 6
+  },
+  {
+    "id": "bug-tl9",
+    "name": "Bug",
+    "tl": 9,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 6
+  },
+  {
+    "id": "bug-tl11",
+    "name": "Bug",
+    "tl": 11,
+    "cost": 300,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 6
+  },
+  {
+    "id": "bug-tl13",
+    "name": "Bug",
+    "tl": 13,
+    "cost": 400,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 6
+  },
+  {
+    "id": "bug-tl15",
+    "name": "Bug",
+    "tl": 15,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 63
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 6
+  },
+  {
+    "id": "holographic-display-tl9",
+    "name": "Holographic Display",
+    "tl": 9,
+    "cost": 800,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "holographic-display-tl11",
+    "name": "Holographic Display",
+    "tl": 11,
+    "cost": 1000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "holographic-display-tl12",
+    "name": "Holographic Display",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "holographic-projector-tl9",
+    "name": "Holographic Projector",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "holographic-projector-tl11",
+    "name": "Holographic Projector",
+    "tl": 11,
+    "cost": 2000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "holographic-projector-tl12",
+    "name": "Holographic Projector",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "holographic-projector-tl14",
+    "name": "Holographic Projector",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 64
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "digital-friend-tl11",
+    "name": "Digital Friend",
+    "tl": 11,
+    "cost": 1750,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 71
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intrusion-1-tl10",
+    "name": "Intrusion/1",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intrusion-2-tl11",
+    "name": "Intrusion/2",
+    "tl": 11,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intrusion-3-tl13",
+    "name": "Intrusion/3",
+    "tl": 13,
+    "cost": 100000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intrusion-4-tl15",
+    "name": "Intrusion/4",
+    "tl": 15,
+    "cost": 1000000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intellect-1-tl12",
+    "name": "Intellect/1",
+    "tl": 12,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intellect-2-tl13",
+    "name": "Intellect/2",
+    "tl": 13,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intellect-3-tl14",
+    "name": "Intellect/3",
+    "tl": 14,
+    "cost": 200000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intelligent-interface-tl11",
+    "name": "Intelligent Interface",
+    "tl": 11,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-trainer-tl11",
+    "name": "Personal Trainer",
+    "tl": 11,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "interface-tl7",
+    "name": "Interface",
+    "tl": 7,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "security-0-tl8",
+    "name": "Security/0",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "security-1-tl10",
+    "name": "Security/1",
+    "tl": 10,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "security-2-tl11",
+    "name": "Security/2",
+    "tl": 11,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "security-3-tl12",
+    "name": "Security/3",
+    "tl": 12,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 72
+    },
+    "category": "tools"
+  },
+  {
+    "id": "translator-0-tl9",
+    "name": "Translator/0",
+    "tl": 9,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 73
+    },
+    "category": "tools"
+  },
+  {
+    "id": "translator-1-tl10",
+    "name": "Translator/1",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 73
+    },
+    "category": "tools"
+  },
+  {
+    "id": "universal-translator-tl12",
+    "name": "Universal Translator",
+    "tl": 12,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 73
+    },
+    "category": "tools"
+  },
+  {
+    "id": "camera-still-mono-tl4",
+    "name": "Camera (still, mono)",
+    "tl": 4,
+    "cost": 1000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "camera-still-mono-tl5",
+    "name": "Camera (still, mono)",
+    "tl": 5,
+    "cost": 200,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "camera-still-colour-tl6",
+    "name": "Camera (still, colour)",
+    "tl": 6,
+    "cost": 100,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "camera-still-colour-tl7",
+    "name": "Camera (still, colour)",
+    "tl": 7,
+    "cost": 200,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "camera-motion-tl5",
+    "name": "Camera (motion)",
+    "tl": 5,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools"
+  },
+  {
+    "id": "camera-motion-still-colour-tl8",
+    "name": "Camera (motion/still, colour)",
+    "tl": 8,
+    "cost": 200,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools"
+  },
+  {
+    "id": "camera-still-holographic-tl9",
+    "name": "Camera (still, holographic)",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools"
+  },
+  {
+    "id": "camera-motion-holographic-tl10",
+    "name": "Camera (motion, holographic)",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools"
+  },
+  {
+    "id": "camera-professional-grade-tl5",
+    "name": "Camera (professional grade)",
+    "tl": 5,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools"
+  },
+  {
+    "id": "camera-lens-tl4",
+    "name": "Camera Lens",
+    "tl": 4,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools"
+  },
+  {
+    "id": "binoculars-tl3",
+    "name": "Binoculars",
+    "tl": 3,
+    "cost": 75,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 74
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chemi-view-goggles-tl13",
+    "name": "Chemi-view Goggles",
+    "tl": 13,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 75
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cold-light-lantern-tl6",
+    "name": "Cold Light Lantern",
+    "tl": 6,
+    "cost": 20,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 75
+    },
+    "category": "tools"
+  },
+  {
+    "id": "electronic-binoculars-tl8",
+    "name": "Electronic Binoculars",
+    "tl": 8,
+    "cost": 750,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 75
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "electronic-binoculars-tl9",
+    "name": "Electronic Binoculars",
+    "tl": 9,
+    "cost": 750,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 75
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "electronic-binoculars-tl10",
+    "name": "Electronic Binoculars",
+    "tl": 10,
+    "cost": 750,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 75
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "flashlight-tl6",
+    "name": "Flashlight",
+    "tl": 6,
+    "cost": 10,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "flashlight-tl7",
+    "name": "Flashlight",
+    "tl": 7,
+    "cost": 10,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "flashlight-tl8",
+    "name": "Flashlight",
+    "tl": 8,
+    "cost": 10,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "geiger-counter-tl5",
+    "name": "Geiger Counter",
+    "tl": 5,
+    "cost": 250,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "geiger-counter-tl10",
+    "name": "Geiger Counter",
+    "tl": 10,
+    "cost": 400,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "infrared-flashlight-tl7",
+    "name": "Infrared Flashlight",
+    "tl": 7,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools"
+  },
+  {
+    "id": "infrared-goggles-tl6",
+    "name": "Infrared Goggles",
+    "tl": 6,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "infrared-goggles-tl8",
+    "name": "Infrared Goggles",
+    "tl": 8,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "light-intensifier-goggles-tl7",
+    "name": "Light Intensifier Goggles",
+    "tl": 7,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "light-intensifier-goggles-tl9",
+    "name": "Light Intensifier Goggles",
+    "tl": 9,
+    "cost": 1250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "personal-hud-tl9",
+    "name": "Personal HUD",
+    "tl": 9,
+    "cost": 1500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 76
+    },
+    "category": "tools"
+  },
+  {
+    "id": "pris-binoculars-tl12",
+    "name": "PRIS Binoculars",
+    "tl": 12,
+    "cost": 3500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 77
+    },
+    "category": "tools"
+  },
+  {
+    "id": "pris-goggles-tl12",
+    "name": "PRIS Goggles",
+    "tl": 12,
+    "cost": 4000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 77
+    },
+    "category": "tools"
+  },
+  {
+    "id": "pris-sunglasses-tl15",
+    "name": "PRIS Sunglasses",
+    "tl": 15,
+    "cost": 7000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 77
+    },
+    "category": "tools"
+  },
+  {
+    "id": "spotlight-tl5",
+    "name": "Spotlight",
+    "tl": 5,
+    "cost": 200,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 77
+    },
+    "category": "tools"
+  },
+  {
+    "id": "floodlight-tl5",
+    "name": "Floodlight",
+    "tl": 5,
+    "cost": 200,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 77
+    },
+    "category": "tools"
+  },
+  {
+    "id": "combination-light-tl9",
+    "name": "Combination Light",
+    "tl": 9,
+    "cost": 500,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 77
+    },
+    "category": "tools"
+  },
+  {
+    "id": "wristwatch-basic-tl4",
+    "name": "Wristwatch, Basic",
+    "tl": 4,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 78
+    },
+    "category": "tools"
+  },
+  {
+    "id": "wristwatch-improved-tl7",
+    "name": "Wristwatch, Improved",
+    "tl": 7,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 78
+    },
+    "category": "tools"
+  },
+  {
+    "id": "wristwatch-enhanced-tl11",
+    "name": "Wristwatch, Enhanced",
+    "tl": 11,
+    "cost": 150,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 78
+    },
+    "category": "tools"
+  },
+  {
+    "id": "wristwatch-advanced-tl12",
+    "name": "Wristwatch, Advanced",
+    "tl": 12,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 78
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bug-sweeper-standard-tl5",
+    "name": "Bug Sweeper (standard)",
+    "tl": 5,
+    "cost": 100,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 79
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bug-sweeper-deluxe-tl5",
+    "name": "Bug Sweeper (deluxe)",
+    "tl": 5,
+    "cost": 1000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 79
+    },
+    "category": "tools"
+  },
+  {
+    "id": "em-probe-tl10",
+    "name": "EM Probe",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "tools"
+  },
+  {
+    "id": "ground-penetrating-radar-tl7",
+    "name": "Ground Penetrating Radar",
+    "tl": 7,
+    "cost": 5000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "ground-penetrating-radar-tl9",
+    "name": "Ground Penetrating Radar",
+    "tl": 9,
+    "cost": 8000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "ground-penetrating-radar-tl11",
+    "name": "Ground Penetrating Radar",
+    "tl": 11,
+    "cost": 10000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "nas-tl15",
+    "name": "NAS",
+    "tl": 15,
+    "cost": 35000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 80
+    },
+    "category": "tools"
+  },
+  {
+    "id": "alien-cosplay-kit-tl7",
+    "name": "Alien Cosplay Kit",
+    "tl": 7,
+    "cost": 350,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 81
+    },
+    "category": "tools"
+  },
+  {
+    "id": "autobar-tl8",
+    "name": "Autobar",
+    "tl": 8,
+    "cost": 300,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 81
+    },
+    "category": "tools"
+  },
+  {
+    "id": "autochef-tl9",
+    "name": "Autochef",
+    "tl": 9,
+    "cost": 200,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 81
+    },
+    "category": "tools"
+  },
+  {
+    "id": "autochef-gourmet-model-tl10",
+    "name": "Autochef (Gourmet Model)",
+    "tl": 10,
+    "cost": 2500,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 81
+    },
+    "category": "tools"
+  },
+  {
+    "id": "autolaundry-basic-tl7",
+    "name": "Autolaundry (Basic)",
+    "tl": 7,
+    "cost": 250,
+    "mass": 18,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "autolaundry-improved-tl10",
+    "name": "Autolaundry (Improved)",
+    "tl": 10,
+    "cost": 500,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bed-mattress-tl1",
+    "name": "Bed (mattress)",
+    "tl": 1,
+    "cost": 200,
+    "mass": 80,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bed-hammock-tl1",
+    "name": "Bed (hammock)",
+    "tl": 1,
+    "cost": 10,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bed-anti-grav-tl12",
+    "name": "Bed (anti-grav)",
+    "tl": 12,
+    "cost": 1500,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bed-king-sized",
+    "name": "Bed (king-sized)",
+    "tl": 0,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "clothing-consultant-tl9",
+    "name": "Clothing Consultant",
+    "tl": 9,
+    "cost": 800,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "disguise-kit-tl3",
+    "name": "Disguise Kit",
+    "tl": 3,
+    "cost": 200,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 82
+    },
+    "category": "tools"
+  },
+  {
+    "id": "disguise-net-head-tl12",
+    "name": "Disguise Net (head)",
+    "tl": 12,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 83
+    },
+    "category": "tools"
+  },
+  {
+    "id": "disguise-net-whole-body-tl12",
+    "name": "Disguise Net (whole body)",
+    "tl": 12,
+    "cost": 100000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 83
+    },
+    "category": "tools"
+  },
+  {
+    "id": "flashtray-tl8",
+    "name": "Flashtray",
+    "tl": 8,
+    "cost": 80,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "float-table-small-tl10",
+    "name": "Float Table (small)",
+    "tl": 10,
+    "cost": 200,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "float-table-large-tl10",
+    "name": "Float Table (large)",
+    "tl": 10,
+    "cost": 600,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "hair-styler-tl8",
+    "name": "Hair Styler",
+    "tl": 8,
+    "cost": 450,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "full-body-hair-styler-tl8",
+    "name": "Full Body Hair Styler",
+    "tl": 8,
+    "cost": 1250,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "high-fidelity-music-system-basic-tl6",
+    "name": "High Fidelity Music System (Basic)",
+    "tl": 6,
+    "cost": 1500,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "high-fidelity-music-system-improved-tl11",
+    "name": "High Fidelity Music System (Improved)",
+    "tl": 11,
+    "cost": 4000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "holographic-play-table-tl9",
+    "name": "Holographic Play Table",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 9,
+    "source": {
+      "book": "CSC",
+      "page": 84
+    },
+    "category": "tools"
+  },
+  {
+    "id": "holographic-wallpaper-tl12",
+    "name": "Holographic Wallpaper",
+    "tl": 12,
+    "cost": 16000,
+    "mass": 9,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "home-theatre-basic-tl8",
+    "name": "Home Theatre Basic",
+    "tl": 8,
+    "cost": 4500,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "home-theatre-improved-tl9",
+    "name": "Home Theatre Improved",
+    "tl": 9,
+    "cost": 12000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "home-theatre-advanced-tl11",
+    "name": "Home Theatre Advanced",
+    "tl": 11,
+    "cost": 36000,
+    "mass": 9,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "lords-of-space-tl10",
+    "name": "Lords of Space",
+    "tl": 10,
+    "cost": 250,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "miniatures-wargame-basic-tl1",
+    "name": "Miniatures Wargame Basic",
+    "tl": 1,
+    "cost": 25,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "miniatures-wargame-improved-tl8",
+    "name": "Miniatures Wargame Improved",
+    "tl": 8,
+    "cost": 250,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "miniatures-wargame-enhanced-tl10",
+    "name": "Miniatures Wargame Enhanced",
+    "tl": 10,
+    "cost": 2500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "miniatures-wargame-advanced-tl11",
+    "name": "Miniatures Wargame Advanced",
+    "tl": 11,
+    "cost": 25000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 85
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-safe-basic-tl4",
+    "name": "Personal Safe Basic",
+    "tl": 4,
+    "cost": 150,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 86
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-safe-improved-tl6",
+    "name": "Personal Safe Improved",
+    "tl": 6,
+    "cost": 250,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 86
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-safe-enhanced-tl8",
+    "name": "Personal Safe Enhanced",
+    "tl": 8,
+    "cost": 400,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 86
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-safe-advanced-tl12",
+    "name": "Personal Safe Advanced",
+    "tl": 12,
+    "cost": 600,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 86
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-locker-safe-tl4",
+    "name": "Personal Locker Safe",
+    "tl": 4,
+    "cost": 1500,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 86
+    },
+    "category": "tools"
+  },
+  {
+    "id": "remembrance-hologram-tl9",
+    "name": "Remembrance Hologram",
+    "tl": 9,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 86
+    },
+    "category": "tools"
+  },
+  {
+    "id": "sleep-inducer-tl10",
+    "name": "Sleep Inducer",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 86
+    },
+    "category": "tools"
+  },
+  {
+    "id": "sonic-sweat-and-stain-remover-tl13",
+    "name": "Sonic Sweat and Stain Remover",
+    "tl": 13,
+    "cost": 125,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 87
+    },
+    "category": "tools"
+  },
+  {
+    "id": "sphere-of-solace-tl10",
+    "name": "Sphere of Solace",
+    "tl": 10,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 87
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vivarium-small-tl8",
+    "name": "Vivarium Small",
+    "tl": 8,
+    "cost": 400,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 87
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vivarium-medium-tl8",
+    "name": "Vivarium Medium",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 87
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vivarium-large-tl8",
+    "name": "Vivarium Large",
+    "tl": 8,
+    "cost": 2200,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 87
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vr-goggles-basic-tl8",
+    "name": "VR Goggles Basic",
+    "tl": 8,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vr-goggles-improved-tl10",
+    "name": "VR Goggles Improved",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vr-goggles-advanced-tl12",
+    "name": "VR Goggles Advanced",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vr-helmet-basic-tl9",
+    "name": "VR Helmet Basic",
+    "tl": 9,
+    "cost": 2000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vr-helmet-improved-tl11",
+    "name": "VR Helmet Improved",
+    "tl": 11,
+    "cost": 5000,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vr-helmet-advanced-tl13",
+    "name": "VR Helmet Advanced",
+    "tl": 13,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vr-immersion-chair-tl13",
+    "name": "VR Immersion Chair",
+    "tl": 13,
+    "cost": 200000,
+    "mass": 150,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "extended-immersion-kit-tl13",
+    "name": "Extended Immersion Kit",
+    "tl": 13,
+    "cost": 200000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 88
+    },
+    "category": "tools"
+  },
+  {
+    "id": "adhesive-bandages-tl6",
+    "name": "Adhesive Bandages",
+    "tl": 6,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 89
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bioreaction-chamber-basic-tl6",
+    "name": "Bioreaction Chamber Basic",
+    "tl": 6,
+    "cost": 1000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 90
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bioreaction-chamber-improved-tl8",
+    "name": "Bioreaction Chamber Improved",
+    "tl": 8,
+    "cost": 2000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 90
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bioreaction-chamber-enhanced-tl10",
+    "name": "Bioreaction Chamber Enhanced",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 90
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bioreaction-chamber-advanced-tl13",
+    "name": "Bioreaction Chamber Advanced",
+    "tl": 13,
+    "cost": 20000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 90
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cryoberth-basic-tl10",
+    "name": "Cryoberth Basic",
+    "tl": 10,
+    "cost": 50000,
+    "mass": 200,
+    "source": {
+      "book": "CSC",
+      "page": 90
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cryoberth-improved-tl12",
+    "name": "Cryoberth Improved",
+    "tl": 12,
+    "cost": 50000,
+    "mass": 200,
+    "source": {
+      "book": "CSC",
+      "page": 90
+    },
+    "category": "tools"
+  },
+  {
+    "id": "field-surgical-kit-tl5",
+    "name": "Field Surgical Kit",
+    "tl": 5,
+    "cost": 1500,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 91
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-automedic-tl11",
+    "name": "Personal Automedic",
+    "tl": 11,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 92
+    },
+    "category": "tools"
+  },
+  {
+    "id": "trauma-pack-tl8",
+    "name": "Trauma Pack",
+    "tl": 8,
+    "cost": 750,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 92
+    },
+    "category": "tools"
+  },
+  {
+    "id": "anti-rad-tl8",
+    "name": "Anti-rad",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 93
+    },
+    "category": "tools"
+  },
+  {
+    "id": "adrenaliser-tl10",
+    "name": "Adrenaliser",
+    "tl": 10,
+    "cost": 150,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 93
+    },
+    "category": "tools"
+  },
+  {
+    "id": "anagathics-tl15",
+    "name": "Anagathics",
+    "tl": 15,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 93
+    },
+    "category": "tools"
+  },
+  {
+    "id": "meta-performance-enhancer-tl10",
+    "name": "Meta-performance Enhancer",
+    "tl": 10,
+    "cost": 600,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 95
+    },
+    "category": "tools"
+  },
+  {
+    "id": "metabolic-accelerator-tl10",
+    "name": "Metabolic Accelerator",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 95
+    },
+    "category": "tools"
+  },
+  {
+    "id": "nervous-response-dampener-tl9",
+    "name": "Nervous Response Dampener",
+    "tl": 9,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 95
+    },
+    "category": "tools"
+  },
+  {
+    "id": "panaceas-tl8",
+    "name": "Panaceas",
+    "tl": 8,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 95
+    },
+    "category": "tools"
+  },
+  {
+    "id": "radiation-emergency-applicator-tl10",
+    "name": "Radiation Emergency Applicator",
+    "tl": 10,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 96
+    },
+    "category": "tools"
+  },
+  {
+    "id": "starlight-drops-tl12",
+    "name": "Starlight Drops",
+    "tl": 12,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 96
+    },
+    "category": "tools"
+  },
+  {
+    "id": "truth-serum-tl5",
+    "name": "Truth Serum",
+    "tl": 5,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 97
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grav-parachute-tl10",
+    "name": "Grav Parachute",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 98
+    },
+    "category": "tools"
+  },
+  {
+    "id": "parachute-very-thin-tl5",
+    "name": "Parachute (Very Thin)",
+    "tl": 5,
+    "cost": 500,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 98
+    },
+    "category": "tools"
+  },
+  {
+    "id": "parawing-tl7",
+    "name": "Parawing",
+    "tl": 7,
+    "cost": 400,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 98
+    },
+    "category": "tools"
+  },
+  {
+    "id": "parawing-very-thin-tl7",
+    "name": "Parawing (Very Thin)",
+    "tl": 7,
+    "cost": 800,
+    "mass": 16,
+    "source": {
+      "book": "CSC",
+      "page": 98
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grav-belt-basic-tl12",
+    "name": "Grav Belt (Basic)",
+    "tl": 12,
+    "cost": 100000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 98
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grav-belt-improved-tl15",
+    "name": "Grav Belt (Improved)",
+    "tl": 15,
+    "cost": 100000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 98
+    },
+    "category": "tools"
+  },
+  {
+    "id": "squirrel-suit-tl7",
+    "name": "Squirrel Suit",
+    "tl": 7,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 99
+    },
+    "category": "tools"
+  },
+  {
+    "id": "protective-suit-tl6",
+    "name": "Protective Suit",
+    "tl": 6,
+    "cost": 1000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "tools"
+  },
+  {
+    "id": "heavy-protective-suit-tl7",
+    "name": "Heavy Protective Suit",
+    "tl": 7,
+    "cost": 1400,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "tools"
+  },
+  {
+    "id": "nbc-suit-tl8",
+    "name": "NBC Suit",
+    "tl": 8,
+    "cost": 250,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "tools"
+  },
+  {
+    "id": "radiation-suit-tl6",
+    "name": "Radiation Suit",
+    "tl": 6,
+    "cost": 5000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 101
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rebreather-tl6",
+    "name": "Rebreather",
+    "tl": 6,
+    "cost": 250,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 101
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cold-weather-clothing-basic",
+    "name": "Cold Weather Clothing Basic",
+    "tl": 0,
+    "cost": 200,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 102
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cold-weather-clothing-improved-tl1",
+    "name": "Cold Weather Clothing Improved",
+    "tl": 1,
+    "cost": 200,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 102
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cold-weather-clothing-advanced-tl5",
+    "name": "Cold Weather Clothing Advanced",
+    "tl": 5,
+    "cost": 500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 102
+    },
+    "category": "tools"
+  },
+  {
+    "id": "heatsuit-tl8",
+    "name": "Heatsuit",
+    "tl": 8,
+    "cost": 350,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 102
+    },
+    "category": "tools"
+  },
+  {
+    "id": "ice-axe-tl3",
+    "name": "Ice Axe",
+    "tl": 3,
+    "cost": 50,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 102
+    },
+    "category": "tools"
+  },
+  {
+    "id": "ice-terrain-kit-tl1",
+    "name": "Ice Terrain Kit",
+    "tl": 1,
+    "cost": 50,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 103
+    },
+    "category": "tools"
+  },
+  {
+    "id": "skis-tl1",
+    "name": "Skis",
+    "tl": 1,
+    "cost": 75,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 103
+    },
+    "category": "tools"
+  },
+  {
+    "id": "snowshoes",
+    "name": "Snowshoes",
+    "tl": 0,
+    "cost": 30,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 103
+    },
+    "category": "tools"
+  },
+  {
+    "id": "advanced-desert-suit-tl9",
+    "name": "Advanced Desert Suit",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 103
+    },
+    "category": "tools"
+  },
+  {
+    "id": "desert-kit-tl5",
+    "name": "Desert Kit",
+    "tl": 5,
+    "cost": 75,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 103
+    },
+    "category": "tools"
+  },
+  {
+    "id": "goggles-shades-basic-tl5",
+    "name": "Goggles/Shades (Basic)",
+    "tl": 5,
+    "cost": 20,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 104
+    },
+    "category": "tools"
+  },
+  {
+    "id": "goggles-shades-improved-tl7",
+    "name": "Goggles/Shades (Improved)",
+    "tl": 7,
+    "cost": 20,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 104
+    },
+    "category": "tools"
+  },
+  {
+    "id": "goggles-shades-advanced-tl9",
+    "name": "Goggles/Shades (Advanced)",
+    "tl": 9,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 104
+    },
+    "category": "tools"
+  },
+  {
+    "id": "heatproof-suit-tl8",
+    "name": "Heatproof Suit",
+    "tl": 8,
+    "cost": 100,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 104
+    },
+    "category": "tools"
+  },
+  {
+    "id": "hydro-collector-tl11",
+    "name": "Hydro-collector",
+    "tl": 11,
+    "cost": 1000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 104
+    },
+    "category": "tools"
+  },
+  {
+    "id": "hydro-reclamation-suit-tl11",
+    "name": "Hydro-Reclamation Suit",
+    "tl": 11,
+    "cost": 10000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 104
+    },
+    "category": "tools"
+  },
+  {
+    "id": "solar-vaporator-tl10",
+    "name": "Solar Vaporator",
+    "tl": 10,
+    "cost": 1250,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 105
+    },
+    "category": "tools"
+  },
+  {
+    "id": "backpack-tl3",
+    "name": "Backpack",
+    "tl": 3,
+    "cost": 45,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 105
+    },
+    "category": "tools"
+  },
+  {
+    "id": "waterproof-backpack-tl6",
+    "name": "Waterproof Backpack",
+    "tl": 6,
+    "cost": 75,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 105
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bivvy-pack-tl7",
+    "name": "Bivvy Pack",
+    "tl": 7,
+    "cost": 150,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 105
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chemical-lightstick-tl6",
+    "name": "Chemical Lightstick",
+    "tl": 6,
+    "cost": 1,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "distress-flare-tl6",
+    "name": "Distress Flare",
+    "tl": 6,
+    "cost": 15,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "duct-tape-tl6",
+    "name": "Duct Tape",
+    "tl": 6,
+    "cost": 5,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fire-extinguisher-tl5",
+    "name": "Fire Extinguisher",
+    "tl": 5,
+    "cost": 50,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "illuminating-flare-tl5",
+    "name": "Illuminating Flare",
+    "tl": 5,
+    "cost": 25,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "signalling-flare-tl5",
+    "name": "Signalling Flare",
+    "tl": 5,
+    "cost": 5,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "whistling-flare-tl5",
+    "name": "Whistling Flare",
+    "tl": 5,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "field-kit-tl3",
+    "name": "Field Kit",
+    "tl": 3,
+    "cost": 100,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "flare-launcher-tl5",
+    "name": "Flare Launcher",
+    "tl": 5,
+    "cost": 75,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 106
+    },
+    "category": "tools"
+  },
+  {
+    "id": "folding-cage-tl12",
+    "name": "Folding Cage",
+    "tl": 12,
+    "cost": 1200,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools"
+  },
+  {
+    "id": "g-suit-tl6",
+    "name": "G-Suit",
+    "tl": 6,
+    "cost": 1000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools"
+  },
+  {
+    "id": "g-suit-liquid-filled-tl8",
+    "name": "G-Suit (liquid-filled)",
+    "tl": 8,
+    "cost": 3000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools"
+  },
+  {
+    "id": "gas-oil-lamp-tl2",
+    "name": "Gas/Oil Lamp",
+    "tl": 2,
+    "cost": 10,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grav-harness-tl12",
+    "name": "Grav Harness",
+    "tl": 12,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grav-harness-battery-tl12",
+    "name": "Grav Harness Battery",
+    "tl": 12,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "grav-harness-battery-tl15",
+    "name": "Grav Harness Battery",
+    "tl": 15,
+    "cost": 1000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "inertial-locator-tl9",
+    "name": "Inertial Locator",
+    "tl": 9,
+    "cost": 1200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 107
+    },
+    "category": "tools"
+  },
+  {
+    "id": "hiking-boots-tl1",
+    "name": "Hiking Boots",
+    "tl": 1,
+    "cost": 50,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 108
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "hiking-boots-tl6",
+    "name": "Hiking Boots",
+    "tl": 6,
+    "cost": 50,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 108
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "hiking-boots-tl8",
+    "name": "Hiking Boots",
+    "tl": 8,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 108
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "magnetic-compass-tl3",
+    "name": "Magnetic Compass",
+    "tl": 3,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 108
+    },
+    "category": "tools"
+  },
+  {
+    "id": "pocket-saw-tl6",
+    "name": "Pocket Saw",
+    "tl": 6,
+    "cost": 25,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 108
+    },
+    "category": "tools"
+  },
+  {
+    "id": "purification-tablets-basic-10-pack-tl7",
+    "name": "Purification Tablets Basic (10 pack)",
+    "tl": 7,
+    "cost": 5,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 109
+    },
+    "category": "tools"
+  },
+  {
+    "id": "purification-tablets-advanced-10-pack-tl13",
+    "name": "Purification Tablets Advanced (10 pack)",
+    "tl": 13,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 109
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rad-blanket-tl9",
+    "name": "Rad Blanket",
+    "tl": 9,
+    "cost": 150,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 109
+    },
+    "category": "tools"
+  },
+  {
+    "id": "reflectorised-tarpaulin-tl7",
+    "name": "Reflectorised Tarpaulin",
+    "tl": 7,
+    "cost": 400,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 109
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rope-tl5",
+    "name": "Rope",
+    "tl": 5,
+    "cost": 20,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "rope-tl9",
+    "name": "Rope",
+    "tl": 9,
+    "cost": 50,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "rope-tl13",
+    "name": "Rope",
+    "tl": 13,
+    "cost": 100,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "sleeping-bag-tl5",
+    "name": "Sleeping Bag",
+    "tl": 5,
+    "cost": 25,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "tools"
+  },
+  {
+    "id": "torch",
+    "name": "Torch",
+    "tl": 0,
+    "cost": 1,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 111
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chameleon-fibres-basic-tl12",
+    "name": "Chameleon Fibres Basic",
+    "tl": 12,
+    "cost": 8000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 111
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chameleon-fibres-improved-tl13",
+    "name": "Chameleon Fibres Improved",
+    "tl": 13,
+    "cost": 60000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 111
+    },
+    "category": "tools"
+  },
+  {
+    "id": "climate-controlled-tl10",
+    "name": "Climate Controlled",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 112
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rad-shielding-tl10",
+    "name": "Rad-Shielding",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 112
+    },
+    "category": "tools"
+  },
+  {
+    "id": "self-assembling-tl11",
+    "name": "Self-Assembling",
+    "tl": 11,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 112
+    },
+    "category": "tools"
+  },
+  {
+    "id": "artificial-gill-tl8",
+    "name": "Artificial Gill",
+    "tl": 8,
+    "cost": 4000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 113
+    },
+    "category": "tools"
+  },
+  {
+    "id": "deep-diving-suit-tl8",
+    "name": "Deep-Diving Suit",
+    "tl": 8,
+    "cost": 20000,
+    "mass": 22,
+    "source": {
+      "book": "CSC",
+      "page": 113
+    },
+    "category": "tools"
+  },
+  {
+    "id": "atmospheric-diving-suit-tl7",
+    "name": "Atmospheric Diving Suit",
+    "tl": 7,
+    "cost": 24000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 113
+    },
+    "category": "tools"
+  },
+  {
+    "id": "dive-suit-tl6",
+    "name": "Dive Suit",
+    "tl": 6,
+    "cost": 60,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 114
+    },
+    "category": "tools"
+  },
+  {
+    "id": "heated-dive-suit-tl8",
+    "name": "Heated Dive Suit",
+    "tl": 8,
+    "cost": 650,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 114
+    },
+    "category": "tools"
+  },
+  {
+    "id": "swimming-equipment-tl3",
+    "name": "Swimming Equipment",
+    "tl": 3,
+    "cost": 100,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 115
+    },
+    "category": "tools"
+  },
+  {
+    "id": "vdo-diving-suit-tl8",
+    "name": "VDO Diving Suit",
+    "tl": 8,
+    "cost": 50000,
+    "mass": 36,
+    "source": {
+      "book": "CSC",
+      "page": 115
+    },
+    "category": "tools"
+  },
+  {
+    "id": "underwater-air-tanks-tl5",
+    "name": "Underwater Air Tanks",
+    "tl": 5,
+    "cost": 800,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 115
+    },
+    "category": "tools"
+  },
+  {
+    "id": "water-dye-tl4",
+    "name": "Water Dye",
+    "tl": 4,
+    "cost": 25,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 115
+    },
+    "category": "tools"
+  },
+  {
+    "id": "water-dye-phosphorescent-tl9",
+    "name": "Water Dye, phosphorescent",
+    "tl": 9,
+    "cost": 25,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 115
+    },
+    "category": "tools"
+  },
+  {
+    "id": "climbing-hoist-tl8",
+    "name": "Climbing Hoist",
+    "tl": 8,
+    "cost": 175,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 116
+    },
+    "category": "tools"
+  },
+  {
+    "id": "climbing-kit-basic-tl4",
+    "name": "Climbing Kit Basic",
+    "tl": 4,
+    "cost": 100,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 116
+    },
+    "category": "tools"
+  },
+  {
+    "id": "climbing-kit-improved-tl8",
+    "name": "Climbing Kit Improved",
+    "tl": 8,
+    "cost": 500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 116
+    },
+    "category": "tools"
+  },
+  {
+    "id": "grapnel-and-cable-tl2",
+    "name": "Grapnel and Cable",
+    "tl": 2,
+    "cost": 35,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 116
+    },
+    "category": "tools"
+  },
+  {
+    "id": "pitons-tl4",
+    "name": "Pitons",
+    "tl": 4,
+    "cost": 5,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 116
+    },
+    "category": "tools"
+  },
+  {
+    "id": "piton-hammer-tl4",
+    "name": "Piton Hammer",
+    "tl": 4,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 116
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fission-microreactor-basic-tl6",
+    "name": "Fission Microreactor Basic",
+    "tl": 6,
+    "cost": 200000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 118
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fission-microreactor-improved-tl8",
+    "name": "Fission Microreactor Improved",
+    "tl": 8,
+    "cost": 100000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 118
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fission-microreactor-advanced-tl10",
+    "name": "Fission Microreactor Advanced",
+    "tl": 10,
+    "cost": 100000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 118
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fusion-plus-generator-basic-tl10",
+    "name": "Fusion Plus Generator Basic",
+    "tl": 10,
+    "cost": 50000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 118
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fusion-plus-generator-improved-tl13",
+    "name": "Fusion Plus Generator Improved",
+    "tl": 13,
+    "cost": 100000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 118
+    },
+    "category": "tools"
+  },
+  {
+    "id": "hydrocarbon-generator-basic-tl5",
+    "name": "Hydrocarbon Generator Basic",
+    "tl": 5,
+    "cost": 100,
+    "mass": 25,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "hydrocarbon-generator-improved-tl8",
+    "name": "Hydrocarbon Generator Improved",
+    "tl": 8,
+    "cost": 350,
+    "mass": 15,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "hydrocarbon-generator-advanced-tl10",
+    "name": "Hydrocarbon Generator Advanced",
+    "tl": 10,
+    "cost": 500,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "power-cell-basic-tl8",
+    "name": "Power Cell Basic",
+    "tl": 8,
+    "cost": 2000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "power-cell-improved-tl10",
+    "name": "Power Cell Improved",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "power-cell-advanced-tl12",
+    "name": "Power Cell Advanced",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rtg-generator-basic-tl7",
+    "name": "RTG Generator Basic",
+    "tl": 7,
+    "cost": 200000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rtg-generator-improved-tl9",
+    "name": "RTG Generator Improved",
+    "tl": 9,
+    "cost": 500000,
+    "mass": 75,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rtg-generator-advanced-tl11",
+    "name": "RTG Generator Advanced",
+    "tl": 11,
+    "cost": 1000000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 119
+    },
+    "category": "tools"
+  },
+  {
+    "id": "solar-panel-array-basic-tl7",
+    "name": "Solar Panel Array Basic",
+    "tl": 7,
+    "cost": 2500,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 120
+    },
+    "category": "tools"
+  },
+  {
+    "id": "solar-panel-array-improved-tl9",
+    "name": "Solar Panel Array Improved",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 120
+    },
+    "category": "tools"
+  },
+  {
+    "id": "solar-panel-array-advanced-tl11",
+    "name": "Solar Panel Array Advanced",
+    "tl": 11,
+    "cost": 8000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 120
+    },
+    "category": "tools"
+  },
+  {
+    "id": "wind-turbine-basic-tl7",
+    "name": "Wind Turbine Basic",
+    "tl": 7,
+    "cost": 500,
+    "mass": 60,
+    "source": {
+      "book": "CSC",
+      "page": 120
+    },
+    "category": "tools"
+  },
+  {
+    "id": "wind-turbine-improved-tl9",
+    "name": "Wind Turbine Improved",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 120
+    },
+    "category": "tools"
+  },
+  {
+    "id": "wind-turbine-advanced-tl11",
+    "name": "Wind Turbine Advanced",
+    "tl": 11,
+    "cost": 2000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 120
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bulkhead-patches-tl10",
+    "name": "Bulkhead Patches",
+    "tl": 10,
+    "cost": 150,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 121
+    },
+    "category": "tools"
+  },
+  {
+    "id": "personal-re-entry-kit-tl8",
+    "name": "Personal Re-Entry Kit",
+    "tl": 8,
+    "cost": 15000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 121
+    },
+    "category": "tools"
+  },
+  {
+    "id": "iris-valve-opener-tl10",
+    "name": "Iris Valve Opener",
+    "tl": 10,
+    "cost": 200,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 121
+    },
+    "category": "tools"
+  },
+  {
+    "id": "portable-airlock-tl9",
+    "name": "Portable Airlock",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 121
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rescue-bubble-tl9",
+    "name": "Rescue Bubble",
+    "tl": 9,
+    "cost": 600,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 121
+    },
+    "category": "tools"
+  },
+  {
+    "id": "advanced-base-basic-tl8",
+    "name": "Advanced Base Basic",
+    "tl": 8,
+    "cost": 75000,
+    "mass": 6000,
+    "source": {
+      "book": "CSC",
+      "page": 123
+    },
+    "category": "tools"
+  },
+  {
+    "id": "advanced-base-improved-tl10",
+    "name": "Advanced Base Improved",
+    "tl": 10,
+    "cost": 120000,
+    "mass": 6000,
+    "source": {
+      "book": "CSC",
+      "page": 123
+    },
+    "category": "tools"
+  },
+  {
+    "id": "blank-powered-module-tl8",
+    "name": "Blank Powered Module",
+    "tl": 8,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 123
+    },
+    "category": "tools"
+  },
+  {
+    "id": "power-cell-backup-tl8",
+    "name": "Power Cell Backup",
+    "tl": 8,
+    "cost": 40000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 123
+    },
+    "category": "tools"
+  },
+  {
+    "id": "power-cell-backup-tl10-tl10",
+    "name": "Power Cell Backup TL10",
+    "tl": 10,
+    "cost": 24000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 123
+    },
+    "category": "tools"
+  },
+  {
+    "id": "foam-dome-option-tl8",
+    "name": "Foam Dome Option",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 123
+    },
+    "category": "tools"
+  },
+  {
+    "id": "additional-blank-module-tl8",
+    "name": "Additional Blank Module",
+    "tl": 8,
+    "cost": 5000,
+    "mass": 1000,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "additional-power-module-tl8",
+    "name": "Additional Power Module",
+    "tl": 8,
+    "cost": 15000,
+    "mass": 2000,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "additional-power-module-tl10",
+    "name": "Additional Power Module",
+    "tl": 10,
+    "cost": 60000,
+    "mass": 2000,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "corrosive-protection-tl8",
+    "name": "Corrosive Protection",
+    "tl": 8,
+    "cost": 100000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "foam-protection-tl8",
+    "name": "Foam Protection",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "life-support-short-term-tl8",
+    "name": "Life Support, Short Term",
+    "tl": 8,
+    "cost": 20000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "life-support-long-term-tl8",
+    "name": "Life Support, Long Term",
+    "tl": 8,
+    "cost": 100000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "life-support-supplies-tl8",
+    "name": "Life Support Supplies",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "power-cell-backup-basic-tl8",
+    "name": "Power Cell Backup, Basic",
+    "tl": 8,
+    "cost": 40000,
+    "mass": 720,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "power-cell-backup-improved-tl10",
+    "name": "Power Cell Backup, Improved",
+    "tl": 10,
+    "cost": 24000,
+    "mass": 288,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "habitat-module-basic-tl8",
+    "name": "Habitat Module Basic",
+    "tl": 8,
+    "cost": 10000,
+    "mass": 1000,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "habitat-module-improved-tl10",
+    "name": "Habitat Module Improved",
+    "tl": 10,
+    "cost": 20000,
+    "mass": 500,
+    "source": {
+      "book": "CSC",
+      "page": 124
+    },
+    "category": "tools"
+  },
+  {
+    "id": "pre-fabricated-cabin-tl6",
+    "name": "Pre-Fabricated Cabin",
+    "tl": 6,
+    "cost": 2000,
+    "mass": 400,
+    "source": {
+      "book": "CSC",
+      "page": 125
+    },
+    "category": "tools"
+  },
+  {
+    "id": "tarpaulin-tl1",
+    "name": "Tarpaulin",
+    "tl": 1,
+    "cost": 10,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 125
+    },
+    "category": "tools"
+  },
+  {
+    "id": "chain-tl4",
+    "name": "Chain",
+    "tl": 4,
+    "cost": 100,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 126
+    },
+    "category": "tools"
+  },
+  {
+    "id": "carpentry-tool-set-tl2",
+    "name": "Carpentry Tool Set",
+    "tl": 2,
+    "cost": 300,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 126
+    },
+    "category": "tools"
+  },
+  {
+    "id": "combat-engineering-tool-set-basic-tl3",
+    "name": "Combat Engineering Tool Set - Basic",
+    "tl": 3,
+    "cost": 150,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 126
+    },
+    "category": "tools"
+  },
+  {
+    "id": "combat-engineering-tool-set-improved-tl6",
+    "name": "Combat Engineering Tool Set - Improved",
+    "tl": 6,
+    "cost": 300,
+    "mass": 15,
+    "source": {
+      "book": "CSC",
+      "page": 126
+    },
+    "category": "tools"
+  },
+  {
+    "id": "combat-engineering-tool-set-advanced-tl8",
+    "name": "Combat Engineering Tool Set - Advanced",
+    "tl": 8,
+    "cost": 500,
+    "mass": 15,
+    "source": {
+      "book": "CSC",
+      "page": 126
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cutting-torch-basic-tl5",
+    "name": "Cutting Torch Basic",
+    "tl": 5,
+    "cost": 500,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 127
+    },
+    "category": "tools"
+  },
+  {
+    "id": "cutting-torch-improved-tl10",
+    "name": "Cutting Torch Improved",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 127
+    },
+    "category": "tools"
+  },
+  {
+    "id": "electric-welding-kit-basic-tl5",
+    "name": "Electric Welding Kit Basic",
+    "tl": 5,
+    "cost": 1500,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 127
+    },
+    "category": "tools"
+  },
+  {
+    "id": "electric-welding-kit-improved-tl10",
+    "name": "Electric Welding Kit Improved",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 127
+    },
+    "category": "tools"
+  },
+  {
+    "id": "electronic-tool-set-tl7",
+    "name": "Electronic Tool Set",
+    "tl": 7,
+    "cost": 2000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 127
+    },
+    "category": "tools"
+  },
+  {
+    "id": "excavation-tool-set-tl3",
+    "name": "Excavation Tool Set",
+    "tl": 3,
+    "cost": 30,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 127
+    },
+    "category": "tools"
+  },
+  {
+    "id": "forensics-toolkit-basic-tl8",
+    "name": "Forensics Toolkit Basic",
+    "tl": 8,
+    "cost": 2000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 128
+    },
+    "category": "tools"
+  },
+  {
+    "id": "forensics-toolkit-improved-tl10",
+    "name": "Forensics Toolkit Improved",
+    "tl": 10,
+    "cost": 4000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 128
+    },
+    "category": "tools"
+  },
+  {
+    "id": "forensics-toolkit-enhanced-tl12",
+    "name": "Forensics Toolkit Enhanced",
+    "tl": 12,
+    "cost": 8000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 128
+    },
+    "category": "tools"
+  },
+  {
+    "id": "forensics-toolkit-advanced-tl14",
+    "name": "Forensics Toolkit Advanced",
+    "tl": 14,
+    "cost": 10000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 128
+    },
+    "category": "tools"
+  },
+  {
+    "id": "laser-cutting-gear-tl9",
+    "name": "Laser Cutting Gear",
+    "tl": 9,
+    "cost": 4000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 128
+    },
+    "category": "tools"
+  },
+  {
+    "id": "laser-drill-tl9",
+    "name": "Laser Drill",
+    "tl": 9,
+    "cost": 7500,
+    "mass": 16,
+    "source": {
+      "book": "CSC",
+      "page": 128
+    },
+    "category": "tools"
+  },
+  {
+    "id": "laser-scalpel-tl10",
+    "name": "Laser Scalpel",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "mechanical-tool-set-tl3",
+    "name": "Mechanical Tool Set",
+    "tl": 3,
+    "cost": 1000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "metalwork-tool-set-basic-tl3",
+    "name": "Metalwork Tool Set (Basic)",
+    "tl": 3,
+    "cost": 1000,
+    "mass": 15,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "metalwork-tool-set-improved-tl5",
+    "name": "Metalwork Tool Set (Improved)",
+    "tl": 5,
+    "cost": 3000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "metalwork-tool-set-enhanced-tl10",
+    "name": "Metalwork Tool Set (Enhanced)",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "metalwork-tool-set-advanced-tl14",
+    "name": "Metalwork Tool Set (Advanced)",
+    "tl": 14,
+    "cost": 10000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "navigation-tool-set-basic-tl1",
+    "name": "Navigation Tool Set (Basic)",
+    "tl": 1,
+    "cost": 200,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "navigation-tool-set-improved-tl3",
+    "name": "Navigation Tool Set (Improved)",
+    "tl": 3,
+    "cost": 1000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "navigation-tool-set-advanced-tl5",
+    "name": "Navigation Tool Set (Advanced)",
+    "tl": 5,
+    "cost": 2000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 129
+    },
+    "category": "tools"
+  },
+  {
+    "id": "offworld-construction-toolkit-tl9",
+    "name": "Offworld Construction Toolkit",
+    "tl": 9,
+    "cost": 12500,
+    "mass": 42,
+    "source": {
+      "book": "CSC",
+      "page": 130
+    },
+    "category": "tools"
+  },
+  {
+    "id": "spade-shovel-tl1",
+    "name": "Spade/Shovel",
+    "tl": 1,
+    "cost": 5,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 130
+    },
+    "category": "tools"
+  },
+  {
+    "id": "pocket-magnet-tl3",
+    "name": "Pocket Magnet",
+    "tl": 3,
+    "cost": 20,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 130
+    },
+    "category": "tools"
+  },
+  {
+    "id": "return-mirror-tl4",
+    "name": "Return Mirror",
+    "tl": 4,
+    "cost": 500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 130
+    },
+    "category": "tools"
+  },
+  {
+    "id": "rescue-tool-set-tl7",
+    "name": "Rescue Tool Set",
+    "tl": 7,
+    "cost": 2000,
+    "mass": 15,
+    "source": {
+      "book": "CSC",
+      "page": 130
+    },
+    "category": "tools"
+  },
+  {
+    "id": "starship-engineer-tool-set-tl12",
+    "name": "Starship Engineer Tool Set",
+    "tl": 12,
+    "cost": 4000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "surveying-tool-set-basic-tl3",
+    "name": "Surveying Tool Set Basic",
+    "tl": 3,
+    "cost": 1000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "surveying-tool-set-improved-tl7",
+    "name": "Surveying Tool Set Improved",
+    "tl": 7,
+    "cost": 1000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "surveying-tool-set-advanced-tl9",
+    "name": "Surveying Tool Set Advanced",
+    "tl": 9,
+    "cost": 3000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "tool-laser-basic-tl12",
+    "name": "Tool Laser Basic",
+    "tl": 12,
+    "cost": 500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "tool-laser-improved-tl13",
+    "name": "Tool Laser Improved",
+    "tl": 13,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "weapon-engineering-tool-set-slug-throwers-tl2",
+    "name": "Weapon Engineering Tool Set Slug Throwers",
+    "tl": 2,
+    "cost": 200,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "weapon-engineering-tool-set-energy-weapons-tl8",
+    "name": "Weapon Engineering Tool Set Energy Weapons",
+    "tl": 8,
+    "cost": 800,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 131
+    },
+    "category": "tools"
+  },
+  {
+    "id": "riot-shield-tl9",
+    "name": "Riot Shield",
+    "tl": 9,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 142
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "shield-tl1",
+    "name": "Shield",
+    "tl": 1,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 142
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "auxiliary-grenade-launcher-tl7",
+    "name": "Auxiliary Grenade Launcher",
+    "tl": 7,
+    "cost": 200,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 175
+    },
+    "category": "tools"
+  },
+  {
+    "id": "auxiliary-ram-grenade-launcher-tl8",
+    "name": "Auxiliary RAM Grenade Launcher",
+    "tl": 8,
+    "cost": 400,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 175
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bandolier-tl3",
+    "name": "Bandolier",
+    "tl": 3,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 175
+    },
+    "category": "tools"
+  },
+  {
+    "id": "bipod-tl4",
+    "name": "Bipod",
+    "tl": 4,
+    "cost": 50,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 175
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fof-safety-tl9",
+    "name": "FOF Safety",
+    "tl": 9,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "fof-tag-tl9",
+    "name": "FOF Tag",
+    "tl": 9,
+    "cost": 25,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "gyrostabiliser-tl9",
+    "name": "Gyrostabiliser",
+    "tl": 9,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "heavy-tripod-tl4",
+    "name": "Heavy Tripod",
+    "tl": 4,
+    "cost": 100,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "high-capacity-magazine-tl4",
+    "name": "High-capacity Magazine",
+    "tl": 4,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "holographic-sights-tl10",
+    "name": "Holographic Sights",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intelligent-weapon-basic-tl11",
+    "name": "Intelligent Weapon Basic",
+    "tl": 11,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intelligent-weapon-improved-tl12",
+    "name": "Intelligent Weapon Improved",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intelligent-weapon-enhanced-tl13",
+    "name": "Intelligent Weapon Enhanced",
+    "tl": 13,
+    "cost": 1200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "intelligent-weapon-advanced-tl15",
+    "name": "Intelligent Weapon Advanced",
+    "tl": 15,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 176
+    },
+    "category": "tools"
+  },
+  {
+    "id": "laser-sight-tl8",
+    "name": "Laser Sight",
+    "tl": 8,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "laser-sight-tl10",
+    "name": "Laser Sight",
+    "tl": 10,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "scan-jammer-tl8",
+    "name": "Scan Jammer",
+    "tl": 8,
+    "cost": 2500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools"
+  },
+  {
+    "id": "p-hud-tl9",
+    "name": "P-HUD",
+    "tl": 9,
+    "cost": 1500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "p-hud-tl11",
+    "name": "P-HUD",
+    "tl": 11,
+    "cost": 2500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "additional-weapon-key-module-tl9",
+    "name": "Additional Weapon Key Module",
+    "tl": 9,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools"
+  },
+  {
+    "id": "scope-tl5",
+    "name": "Scope",
+    "tl": 5,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "scope-tl7",
+    "name": "Scope",
+    "tl": 7,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 177
+    },
+    "category": "tools",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "secure-weapon-tl10",
+    "name": "Secure Weapon",
+    "tl": 10,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 178
+    },
+    "category": "tools"
+  },
+  {
+    "id": "suppressor-tl8",
+    "name": "Suppressor",
+    "tl": 8,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 178
+    },
+    "category": "tools"
+  },
+  {
+    "id": "shoulder-stock-tl4",
+    "name": "Shoulder Stock",
+    "tl": 4,
+    "cost": 75,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 178
+    },
+    "category": "tools"
+  },
+  {
+    "id": "shoulder-stock-telescoping-tl9",
+    "name": "Shoulder Stock (telescoping)",
+    "tl": 9,
+    "cost": 500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 178
+    },
+    "category": "tools"
+  },
+  {
+    "id": "x-ray-outlining-aid-1m-tl9",
+    "name": "X-Ray Outlining Aid (1m)",
+    "tl": 9,
+    "cost": 300,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 178
+    },
+    "category": "tools"
+  },
+  {
+    "id": "x-ray-outlining-aid-3m-tl11",
+    "name": "X-Ray Outlining Aid (3m)",
+    "tl": 11,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 178
+    },
+    "category": "tools"
+  },
+  {
+    "id": "smart-tracker-tl11",
+    "name": "Smart Tracker",
+    "tl": 11,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 178
+    },
+    "category": "tools"
+  }
+]

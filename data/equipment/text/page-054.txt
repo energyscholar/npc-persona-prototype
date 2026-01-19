@@ -1,0 +1,63 @@
+INTERNAL AUTO-INJECTOR                                     PHYSICAL AUGMENTATION
+This implant holds a dose of drugs (decided at time of     A Traveller’s endurance, strength or reflexes can be
+implant) to be automatically administered according to     increased by replacing motor neurons with faster synthetic
+a predefined trigger event. More advanced versions         cells, reinforcing bones or replacing organs with tougher
+can be purchased, with each increase in TL adding          vat-grown clones. Augmentations must be purchased for
+Cr5000 to the cost and allowing for two additional         STR, DEX and END separately and only one augmentation
+doses with specific triggering events for each drug.       for each characteristic may be installed at any one time.
+                                                           These are not upgradeable; a new augmentation must be
+Augment         TL Effect                     Cost         installed to achieve a higher increase at a later date. This
+                                                           augmentation is not affected by electromagnetic attacks or
+Internal        10 Conditional drug           Cr10000
+                                                           detectable by electronic means.
+Auto-injector      release mechanism
+
+                                                           Augment               TL Effect                  Cost
+METASTATIC PLATELET INJECTION                              Physical        11         +1 to STR, DEX        Cr500000
+This augment is an injection of super-powered              Augmentation +1            or END
+clotting cells which bond with the body’s existing
+                                                           Physical        12 +2 to STR, DEX                MCr1
+platelet production cells. The platelets reproduce
+                                                           Augmentation +2    or END
+extremely rapidly when active, sealing wounds
+quickly. The scabs and scars they leave are always         Physical        15 +3 to STR, DEX                MCr5
+a pasty blue in colour however, a sign of the artificial   Augmentation +3    or END
+proteins in their construction. These platelets double
+characteristic points gained through natural healing       SOLDIER’S ORGAN PACKAGE
+and are not affected by electromagnetic attacks or         A combination of genetic alteration and bionic additions
+detectable by electronic means.                            to the organ cavity, this extensive body augment was
+                                                           originally designed to create more efficient soldiers. It
+Augment              TL Effect                Cost         adds several redundant organs, improves existing ones
+Metastatic           12 Doubles natural       Cr25000      and works in concert with the Traveller’s biology to make
+Platelet Injection      healing rate                       them more efficient. The genetic and surgical processes
+                                                           are long, requiring 1D months of constant care and
+                                                           medical visits (or a like number of carefully supervised
+MUSCULAR BRIDGING                                          Slow Drug doses and 1D weeks of rehabilitation and
+Through surgery and a                                      acclimation) and a steady supply of anti-depressants,
+long, painful recovery                                     genetic stabilisers, pain-killers and basic antibiotics. This
+process lasting 1D                                         package is controversial and rarely performed outside
+weeks, this augment                                        authoritarian regimes, as it results in a DM-1 penalty
+adds thousands of                                          to all aging checks and may affect a recipient’s sanity.
+microscopic protein                                        When the process is finished, the recipient has all of the
+strings to the Traveller’s                                 following organ structures and effects:
+muscular system.                                           • Tri-Lung Capacity: Delays suffocation by an
+Making every muscle                                             additional 15 minutes.
+stronger and more                                          • Bi-Liver Complex: Grants immunity to alcohol and
+flexible, this increases                                        most ingested toxins.
+the Traveller’s STR                                        • Adrenometer: Allows 36 hours of wakefulness without           Augments
+and DEX by +1 and                                               penalty on a triple standard daily caloric intake.
+movement by +3 metres                                      • Quad-Kidney Cycle: Allows for survival on half
+per Minor Action. This augmentation is not affected by          normal water consumption.
+electromagnetic or detectable by electronic means.         • Aortal Heart Bud: Grants DM+2 to all END-
+                                                                based checks.
+Augment TL Effect                            Cost
+Muscular    13 STR +1, DEX +1,               Cr250000
+Bridging       movement +3 metres                          Augment             TL   Effect                    Cost
+                                                           Soldier’s Organ 12       See above                 MCr1.5
+                                                           Package
+
+
+
+
+                                                                                                                           53
+

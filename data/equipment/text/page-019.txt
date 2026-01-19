@@ -1,0 +1,70 @@
+                                                                       T      R        A       V        E       L        L        E      R
+
+
+
+                                                                           Fireproof Suit: A fireproof suit is a complete body
+                                                                           suit of light flexible material designed to resist heat
+         ANTI-ENERGY ARMOUR                                                and shed burning chemicals. It resembles the suits
+         Lasers and energy weapons require a special type                  worn by racing drivers under their coveralls. It has no
+         of protection not always afforded by other armour.                value against any weapons other than lasers, energy
+         The armour showcased here has little value against                weapons and fire.
+         conventional weapons such as firearms but offers
+         significant protection against lasers, flamethrowers and
+         ‘energy’ weapons such as plasma rifles.                           Neural Sheath: Cloth weaved with thin-spun chains
+                                                                           of advanced neural crystals, this protective suit is
+         Importantly, unless otherwise stated, all armour in this          worthless against physical damage but immensely
+         section can be worn over the top of standard or archaic           useful against blocking energies created and
+         armour. However, only one type of anti-energy armour              manipulated by psions. The neural sheath is extremely
+         can be worn in this way. Anti-energy armour cannot                thin and lightweight, and can be worn beneath any
+         be worn on top of protective suits, powered armour or             other form of armour or clothing. Any form of damage
+         battle dress, although modifications to such suits may            originating from neural or psionic powers, weaponry or
+         provide similar protection.                                       attack is affected by a neural sheath.
+
+          Ablat: Ablat is a cheap alternative to reflec, fashioned
+          from a material which will ablate (vaporise) when hit by
+          laser fire or other energy weapons. The ablation of the
+          material carries away the energy of the laser and protects
+          the wearer. Continued fire against ablat degrades
+          its effectiveness but the armour is cheap and easily
+          replaceable. Ablat also has a minimal value against other
+          forms of attack but it cannot be combined with any other
+          types of armour. Each laser hit on ablat armour reduces
+          its Protection score against lasers by one.
+
+
+          Conduit-Bleed: Designed specifically to supercool
+          plasma energy, this dense suit of polymer-alloy
+          mixtures is well suited to blunt the impact of most
+          blows. The advances made to these materials means
+          directed plasma energy is far less likely to harm
+          the wearer. While conduit-bleed can be worn over
+          standard armour, such bulky suit layering imposes
+                                                                                                                Neural sheath
+          DM-1 on all checks that involve physical activity,
+          including close combat attacks.
+
+
+          Dispersion: A semi-metallic polymer that wraps the               Reflec: Reflective material on a plastic base can be
+          wearer in advanced energy-dispersion materials. This             tailored into a body suit which is ineffective against most
+          protective suit is not quite as physically protective as
+Armour
+
+
+
+
+                                                                           weapons but superior in defence against laser fire. Reflec
+          anti-ballistic cloth but is built to absorb and eliminate        is expensive and often difficult to obtain, imposing DM-2
+          most wavelengths of energy that strikes it.                      on any Stealth checks the wearer attempts.
+
+         ARMOUR TYPE                     PROTECTION                               TL RAD KG COST                 REQUIRED SKILL
+         Ablat                            +1 (+6 vs. lasers)                      9    —      2     Cr75         None
+         Conduit-Bleed                    +4 (+15 vs. plasma)                     14   —      8     Cr3500       None
+         Dispersion                       +2 (+10 vs. fire, lasers and energy)    12   50     3     Cr2000       None
+         Fireproof Suit                   +0 (+4 vs. fire, lasers and energy)     7    —      1     Cr50         None
+         Neural Sheath                    +0 (+20 vs. psionics)                   17   —      2     Cr80000      None
+         Reflec                           +0 (+10 vs. lasers)                     10   —      1     Cr1500       None
+
+
+
+   18
+

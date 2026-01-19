@@ -59,5 +59,14 @@
       "trigger_full_briefing": "PC shows ID or mentions detached duty/ship assignment",
       "post_id_behavior": "Provide full briefing on Highndry situation"
     }
+  },
+
+  "on_complete": {
+    "emails": [
+      {
+        "template": "casarii-briefing",
+        "from_npc": "mr-casarii"
+      }
+    ]
   }
 }

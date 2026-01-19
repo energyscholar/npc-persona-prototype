@@ -1,0 +1,69 @@
+FACE MASK                                                     NBC SUIT
+A basic face mask and goggles used by aviators and            An advanced protective suit composed of ‘breathable’
+riders of open vehicles. Protects against windblown           fabric preventing heat build-up while protecting the
+dust and similar hazards.                                     wearer from airborne contaminants, biological or
+                                                              chemical weapons, and radioactive fallout. It offers no
+Item     TL Effect                              Kg Cost       protection from direct radiation or vacuum and requires
+                                                              an environment or life support mask to be effective.
+Face     4    Eye and face protection from —        Cr20
+                                                              NBC suiting is designed to be easy to decontaminate
+Mask          dust, etc.
+                                                              and is only slightly more cumbersome than the normal
+                                                              field uniform worn by soldiers.
+FILTER MASK
+A filter set that allows an individual to breathe Tainted     Item         TL Effect                      Kg Cost
+(4, 7, 9) Atmospheres and also protects against the
+inhalation of heavy smoke or dust. More advanced              NBC Suit 8        Protection against        2    Cr250
+respirators are small enough to fit into the nose or can                        airborne contaminants,
+even be a lung implant.                                                         bio or chem weapons,
+                                                                                and radioactive fallout
+
+Filter Mask TL Effect                       Kg Cost
+Basic          3    Protection against      —     Cr10
+                                                              OXYGEN/AIR TANKS
+                                                              A twin set of compressed oxygen tanks, allowing
+                    Tainted (4, 7, 9)
+                                                              independent breathing in smoke, dust, gas or Exotic
+                    Atmospheres
+                                                              atmospheres. Two tanks last six hours. These tanks
+Improved       10 Nose plug or lung         —     Cr1000      are not suitable for underwater use, see underwater air
+                  implant                                     tanks (Page 114) instead. A refill of proper atmospheric
+                                                              mixture for any given species costs Cr20.
+LIFE-SUPPORT MASK
+The life-support, or ‘space’ mask, is functionally similar    Item          TL Effect                     Kg Cost
+to the environment mask but can be used in a vacuum           Oxygen/Air    5     Two tanks providing 6   12   Cr500
+or underwater down to a depth of five metres. It gives        Tanks               hours of air supply
+a full seal with NBC or other emergency suit such as a
+body sleeve. The mask has integral filters but is normally
+connected by a hose to a belt-mounted filter/blower           PROTECTIVE SUIT
+unit or a one-hour air tank. Using the belt filter makes      A sealed, air-conditioned environment suit designed
+breathing easier and reduces fatigue. The air tank is         to allow the user to survive in Corrosive atmospheres.
+necessary for vacuum or underwater use but can be             The suit’s internal air supply is good for six hours.
+replaced by larger tanks, artificial gills or a rebreather,   The heavy version also protects against Insidious
+reducing life support mask mass to a negligible amount.       atmospheres. This is not a vacc suit. It will protect
+A filter unit and single air tank are included in the mask    against low pressure (Very Thin atmospheres) but will
+price. Additional units cost Cr500 each.                      fail after a short time in Trace atmosphere or vacuum
+                                                              conditions due to internal pressure. After six hours use
+                                                              in Corrosive or Insidious atmospheres, the suit will
+Item            TL Effect                   Kg Cost
+
+                                                                                                                         Survival gear
+                                                              require reconditioning at 10% cost or risk failure every
+Life Support 7       Environment mask       2     Cr1000      hour on a 2D roll of 2 with a negative DM of one for
+Mask                 + vacuum and                             every hour beyond six since last reconditioning.
+                     underwater, 1 hour
+                     air supply
+                                                              Item              TL Effect                 Kg Cost
+                                                              Protective Suit 6      Protects against     6    Cr1000
+                                                                                     Atmospheres 2-B
+                                                                                     for 6 hours
+                                                              Heavy           7      Protects against     5    Cr1400
+                                                              Protective Suit        Atmospheres 2-C
+                                                                                     for 6 hours
+        Face Mask
+
+
+
+
+                                                                                                                         99
+

@@ -1,0 +1,48 @@
+                                                                              T       R       A        V         E      L       L       E        R
+
+
+
+                                                                                  VIVARIUM
+                                                                                  This is a self-contained living area with adjustable
+                SONIC SWEAT AND STAIN REMOVER                                     environment controls intended for the keeping of exotic
+                Just what a busy Traveller needs to spruce up clothes and         and alien pets. Temperature, light and atmosphere are
+                armour after a particularly noisome mission. Using the very       all selectable, allowing a Traveller to keep a favourite pet
+                latest vibe technology, just swipe this magic wand over any       close by at home or in their stateroom. Vivaria come in
+                annoyingly stubborn stain or odour and watch it disappear.        different sizes, rated below as to the size of animals that
+                                                                                  can be kept in them by the total number of their Hits.
+                Item                 TL      Effect            Kg   Cost
+                Sonic Sweat and 13           Cleans clothes     1   Cr125         Vivarium TL        Size of animal            Kg Cost
+                Stain Remover                and armour as a                      Small        8     1–2 Hits                  2     Cr400
+                                             Significant Action
+                                                                                  Medium       8     3–5 Hits                  4     Cr1000
+                                                                                  Large        8     6–10 Hits                 8     Cr2200
+                SPHERE OF SOLACE
+                Using active sound-cancelling technology, the sphere
+                of solace creates an adjustable area of silence
+                through which only the loudest sounds are capable of
+                penetrating (if a battle is going on between shipmates
+                using the sphere versus the high fidelity music system,
+                highest Tech Level will win…). This is used to create a
+                zone over up to five metres in radius where a Traveller
+                can enjoy both peace and quiet.
+
+                Item          TL    Effect                     Kg   Cost
+                Sphere of     10    Creates 5 metre radius 1        Cr500            Sonic Sweat and
+                Solace              sphere of silence                                Stain Remover
+Home Comforts
+
+
+
+
+                               Sphere of Solace
+
+
+
+
+                                                         Vivarium
+
+
+
+
+       86
+

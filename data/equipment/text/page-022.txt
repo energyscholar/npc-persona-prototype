@@ -1,0 +1,68 @@
+CAMOUFLAGE, BASIC                                              CHAMELEON, IR
+Using natural or artificial material to break up distinctive   IR chameleon technology can be added to any full-
+outlines of a person or equipment, camouflage makes it         body armour or suit. It selectively bleeds heat to match
+more difficult to detect the wearer. Camouflage suitable       background infrared levels and effectively renders the wearer
+to its environment grants DM+2 to all Stealth checks           invisible to infrared detection (DM+4 to Stealth checks made
+made against visual searches, such as an opposed               against sensors). IR chameleon technology is compatible
+Recon check. Partially suitable camouflage patterns,           with camouflage or full motion chameleon technology.
+such as a woodland pattern in an urban or desert
+environment, are only half as effective and totally             Modification TL Effect                        Kg Cost
+unsuitable patterns, such as a green-brown pattern in a
+                                                                Chameleon,       12 DM+4 to Stealth     —           Cr5000
+jungle of pink and purple foliage, are totally ineffective.
+                                                                IR                  checks vs infrared
+Basic camouflage can be defeated by infrared and
+                                                                                    and thermal sensors
+other detection systems operating beyond the visual
+spectrum and is ineffective at ranges of less than 100
+metres unless the wearer remains stationary.                   CHAMELEON, VISLIGHT
+                                                               A more advanced form of chameleonic armour, this lines
+Modification TL       Effect                    Kg Cost        the surface of the full-body armour or suit with light-
+                                                               bending technology, making the wearer nearly invisible
+Camouflage,      3    DM+2 to suitable          —    Cr25      to visual or thermal sensors (DM+4 to Stealth checks).
+Basic                 Stealth checks                           Vislight chameleon provides this bonus at any range to
+                      beyond 100m                              both stationary and moving wearers to within five metres.
+
+CAMOUFLAGE, HEAVY                                               Modification TL Effect                       Kg Cost
+A heavy coating of materials to simulate a particular
+                                                                Chameleon,       13 DM+4 to Stealth  —             Cr50000
+environment, such as a ghillie suit, can provide DM+3
+                                                                Vislight            checks beyond 5m
+to Stealth checks to wearers or DM+4 if the wearer
+remains stationary. Heavy camouflage grants no DM to
+Stealth checks against infrared or thermal sensors.            COMPUTER WEAVE
+                                                               Computer weave can be added to any armour that
+Modification TL Effect                          Kg Cost        does not already have a computer system and adds an
+                                                               integrated computer to that armour.
+Camouflage,      3    DM+3 or +4 to suitable 3      Cr200
+Heavy                 Stealth checks
+                                                                Computer Weave TL           Effect           Kg    Cost
+                                                                Basic                  10   Computer/0       —     Cr500
+CHAMELEON, FULL MOTION
+Full motion chameleon technology allows the surface             Improved               11   Computer/1       —     Cr500
+of armour or clothing to transform into varying colours         Enhanced               13   Computer/2       —     Cr600
+and patterns, in both static and full 2D motion modes.          Advanced               15   Computer/3       —     Cr1000
+This grants the wearer DM+3 to all Stealth checks and
+can be effective for a quickly moving wearer at as close
+as 20 metres range. Full motion chameleon technology           COOLANT RIG
+can also be used for non-stealth purposes; changing            Wearing heavy armour in a hot environment can make
+the colouration of clothing or turning the wearer into a       life extremely uncomfortable. This web of tubing filled
+live-action walking advertisement.                             with chemical coolant transforms a hot day on a volcanic          Armour
+                                                               planet or desert crossing into something far more
+                                                               tolerable. Armour or a full body suit fitted with a coolant rig
+Modification TL Effect                      Kg Cost
+                                                               allows the wearer to comfortably endure temperatures of
+Chameleon,       12 DM+3 to suitable        —    Cr10000       up to 50°C without suffering damage (see page 82 of the
+Full Motion         Stealth checks                             Traveller Core Rulebook). Temperatures higher than this
+                    beyond 20m                                 are reduced to the next lower level, up to 100°C, wherein
+                                                               the coolant rig becomes ineffective.
+
+                                                                Modification TL        Effect                 Kg    Cost
+                                                                Coolant Rig      8     Negates heat           2     Cr1000
+                                                                                       effects up to 50°C
+
+
+
+
+                                                                                                                                 21
+

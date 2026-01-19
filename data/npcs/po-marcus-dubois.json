@@ -1,0 +1,18 @@
+{
+  "id": "po-marcus-dubois",
+  "name": "Petty Officer Marcus DuBois",
+  "archetype": "military",
+  "title": "Fighter Pilot",
+  "location": "amishi",
+  "location_detail": "Flight Deck",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["steady", "methodical", "dependable", "quiet"],
+    "speech": "few words, professional, reliable wingman",
+    "quirks": ["always checks equipment twice", "flies by the book"]
+  },
+  "background": "The most reliable wingman in the squadron. Never flashy, always there when you need him.",
+  "knowledge": ["fighter-operations", "defensive-tactics", "escort-duty"],
+  "relationships": {}
+}

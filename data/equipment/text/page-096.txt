@@ -1,0 +1,65 @@
+RADIATION EMERGENCY APPLICATOR                                 treated in a TL8+ medical facility; once END reaches
+A type of emergency anti-rad drug cocktail, these one-use      0, the user’s INT will begin to decrease permanently by
+pneumatic syringes can be triggered to punch through           -1 per minute. Fast Drug will neutralise Slow Drug but
+clothing or armour granting up to Protection +2, pumping       drug interactions will cause an immediate 2D damage.
+seven different chemicals into the recipient. So long as
+the applicator is used within one hour of receiving a dose     Item         TL Effect                     Kg Cost
+of radiation, the recipient’s rads are reduced by 1D x 10.     Slow Drug    11 Speeds metabolism by —          Cr500
+No matter how much or quickly the applicator is used,                          30:1 to quicken healing
+intense and steady vomiting will occur for 1D minutes
+after use, effectively reducing DEX to 1 and movement to
+half. Taking additional doses or combining this drug with      STARLIGHT DROPS
+anti-rad will reduce radiation levels further at the cost of   These eye drops enhance the user’s vision
+another 1D minutes of vomiting, dry heaving by this point,     dramatically. By adding a few drops of this stinging
+and a permanent reduction of DEX and END by 1 for              liquid into each eye and waiting for the burning
+each additional dose, in addition to any negative effects of   sensation to pass, the user gains the IR Vision trait
+multiple Anti-rad doses if applicable.                         (see the Traveller Core Rulebook, page 85). The effects
+                                                               of the drug last for 1D hours, during which time the
+                                                               user’s eyes take on a silvery and cloudy appearance. A
+Item           TL   Effect                    Kg    Cost       dropper of starlight drops contains six doses.
+Radiation  10       1D x 10 rad reduction, —        Cr200
+Emergency           vomiting for 1D                            Item       TL   Effect                     Kg   Cost
+Applicator          minutes
+                                                               Starlight 12    IR vision for 1D hours,    —    Cr500
+                                                               Drops           6 doses
+RECREATIONAL DRUGS
+Recreational drugs vary widely in both cost and effect
+across the galaxy. Many cultures have legal recreational       STIMS
+drugs, such as alcohol. However, most legal drugs are          These remove fatigue, although at a cost. A Traveller
+relatively mild in effect but harmful in large doses. More     who uses stims removes Fatigue (see the Traveller
+potent drugs are usually illegal, especially those affecting   Core Rulebook, page 80) but also sustains one point
+the user in such a way as to make them dangerous               of damage. If stims are used repeatedly without
+to others. Manufacturers and suppliers will charge             natural sleep in between, the user suffers a cumulative
+whatever the market will stand. These drugs are often          additional point of damage every time (so, on the
+subject to addiction and withdrawal effects and may            second use, two points of damage are sustained, on
+contain (more) harmful contaminates or poisons. Some           the third, three points and so on).
+may actually provide some medical benefit.
+                                                               Item    TL Effect                           Kg Cost
+Item                   TL    Effect           Kg    Cost       Stims 8      Removes fatigue, but cause     —    Cr50
+
+
+
+
+                                                                                                                         Medical and Care Supplies
+Recreational Drugs 1+        Generally bad —        Cr10+                   damage
+
+
+SLOW DRUG
+This is a variant of the metabolic accelerator. It can
+only be applied safely in a medical facility where life-
+support and cryotechnology is available, as it increases
+the metabolism and aging to around 30 times normal
+for one day, allowing a patient to undergo a month
+of healing in a single day. Using this drug outside
+of a hospital or sickbay is a messy and painful way
+to commit suicide, as the user will rapidly cook their
+internal organs and suffer massive brain damage. A
+user on unsupervised Slow Drug lapses into feverish
+unconsciousness within 1D rounds and will begin
+suffering one point of damage every minute if not
+
+
+
+
+                                                                                                                         95
+

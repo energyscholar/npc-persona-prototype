@@ -1,0 +1,55 @@
+SLUG RIFLES                                                 ADVANCED COMBAT RIFLE
+                                                            The ultimate evolution of the conventional firearm,
+All weapons described in this section require the Gun
+                                                            advanced combat rifles are the weapon of choice for
+Combat (slug) skill to use effectively.
+                                                            many military units. Standard equipment includes an
+                                                            electronic battlefield sight, incorporating both light
+ACCELERATOR RIFLE                                           amplification and passive IR, visual magnification and
+Also known as gyrojet weapons, accelerator rifles           a laser rangefinder which may also be used as a target
+are designed for zero-gravity combat. They fire tiny        painting device. The weapon is also gyroscopically
+missiles that leave the rifle with minimal velocity and     stabilised during firing. A sling is provided and the
+thus minimal recoil, then accelerate to high speed.         muzzle of the rifle includes an integral flash suppressor
+The TL11 version has greater range and is sometimes         and adaptor for launching a 40mm RAM shoot-through
+equipped with guided rounds capable of multiple             grenade (see Auxiliary Grenade Launcher on page 174).
+burns and firing around corners.
+
+
+WEAPON                  TL RANGE DAMAGE KG COST                   MAGAZINE MAGAZINE COST TRAITS
+Accelerator Rifle       9    250       3D         2       Cr900   15            Cr30                 Zero-G
+                        11   400       3D         2       Cr1500 20             Cr40                 Zero-G
+Advanced Combat         10 450         3D         3       Cr1000 40             Cr15                 Auto 3, Scope
+Rifle
+Air Rifle               3    50        2D         3       Cr225   1             Cr1                  Silent
+                        4    75        3D-2       3       Cr350   1             Cr1                  Silent
+Antique Rifle           2    25        3D-3       3       Cr150   1             Cr10                 —
+Assault Rifle           7    200       3D         4       Cr500   30            Cr15                 Auto 2
+Assault Shotgun         6    50        4D         5       Cr500   24            40                   Auto 2, Bulky
+Autorifle               6    300       3D         5       Cr750   20            Cr10                 Auto 2
+Big Game Rifle          5    200       3D+3       8       Cr1250 5              Cr50                 Very Bulky
+Flechette               9    20        3D-2       3       Cr500   40            Cr20                 Auto 3, Silent
+Submachine Gun
+Gauss Assault Gun       12 20          4D         2       Cr1300 36             Cr35                 AP 5, Auto 2
+Gauss Rifle             12 600         4D         4       Cr1500 80             Cr80                 AP 5, Auto 3,
+                                                                                                     Scope
+Gauss Sniper Rifle      12 1000        5D         4       Cr2500 12             Cr20                 AP 6, Scope
+Gauss                   12 50          3D+2       3       Cr1000 60             Cr60                 AP 3, Auto 4
+Submachinegun
+Heavy Advanced          10 450         4D         5       Cr2000 30             Cr20                 Auto 2, Bulky,
+Combat Rifle                                                                                         Scope
+Magrail Rifle           14 150         4D+3       4       Cr2500 30             Cr100                Auto 6
+Rifle                   5    250       3D         3       Cr200   5             Cr10                 —                   Weaponry
+Sawed-off Shotgun       4    10        4D         2       Cr200   6             Cr10                 Bulky
+Shotgun                 4    50        4D         4       Cr200   6             Cr10                 Bulky
+Light Shotgun           4    40        3D         3       Cr150   6             Cr10                 —
+Sniper Rifle            8    500       3D         5       Cr700   4             Cr10                 AP 5, Scope,
+                                                                                                     Silent
+Snub Carbine            11   75        3D-3       1       Cr500   20            Cr30                 Zero-G
+Spear Gun               6    25        3D         2       Cr50    1             Cr10                 Silent
+Submachine Gun          6    25        3D         3       Cr400   20            Cr10                 Auto 3
+
+
+
+
+                                                                                                                        145
+

@@ -1,0 +1,57 @@
+OFFWORLD CONSTRUCTION TOOLKIT                                  Item        TL   Effect                   Kg       Cost
+An offworld construction toolkit contains equipment            Scientific 5+    DM+2 to Science          12       Cr2000
+to aid field construction in a vacuum or similar               Toolkit          speciality checks
+environment, such as a rockball world with a Trace
+atmosphere. It is specifically designed to deal with
+low-gravity situations. The kit consists of enabling           SPADE/SHOVEL
+equipment, such as anchoring points which can be               A basic digging tool with many uses. A pickaxe or
+spiked into the surface of a planetoid or moon to              similar tool is available for the same cost and mass.
+prevent workers from being flung about by their own
+tools. The majority of tools are powered, along with a         Item             TL Effect                     Kg Cost
+few semi-robotic devices to help clear debris.                 Spade/Shovel 1        Basic digging            1    Cr5
+                                                                                     implement
+ Item            TL Effect                   Kg Cost
+ Offworld     9       Tools for              42    Cr12500
+ Construction         construction in                                                 Scientific Toolkits
+ Toolkit              low-G or vacuum
+
+POCKET MAGNET
+A small but very powerful horseshoe magnet capable of
+lifting one kilogram against 1G.
+                                                               Cybernetics
+ Item      TL     Effect                          Kg   Cost
+ Pocket    3      Magnet lifts 1 kilogram at 1G —      Cr20
+ Magnet
+
+RETURN MIRROR
+Used in surveying, a return mirror is used to reflect a
+light beam directly back along its path from within a 15º
+arc. Includes a folding tripod stand. It is commonly used
+with a laser rangefinder to give very accurate results.
+
+ Item     TL     Effect                        Kg      Cost    Planetology
+ Return 4        Surveying mirror with a       0.5 Cr500
+ Mirror          tripod stand
+
+RESCUE TOOL SET
+A comprehensive set of supports, cutting gear (including
+‘Jaws of Life’) and other tools used to reach and rescue
+trapped persons trapped in damaged vehicles or
+buildings. The kit does not include any sensors.
+                                                               Life Sciences                                                Tools
+ Item       TL    Effect                      Kg    Cost
+ Rescue 7         Tools for vehicle and       15    Cr2000
+ Tool Set         building rescue
+
+SCIENTIFIC TOOLKITS
+Scientific toolkits are tailored to a single Science skill
+speciality, generally providing DM+2 to checks related
+to that speciality. Various scientific toolkits are detailed
+in the Traveller Core Rulebook on pages 121–123.
+
+                                                               Robotics
+
+
+
+                                                                                                                           129
+

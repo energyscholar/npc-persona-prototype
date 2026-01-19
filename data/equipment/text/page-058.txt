@@ -1,0 +1,62 @@
+A basic prosthetic is built with better grade alloys
+and plastics. Attachment relies on standard and
+safe medical procedures, although initial surgical
+stabilisation of serious wounds still carries standard
+risks. These prosthetic limbs and hands are shaped
+like a real body part and allow somewhat competent
+use after a rehabilitation period of 1D+2 weeks. This
+prosthetic inflicts DM-1 to all DEX-based checks that
+require its use. This augmentation is not affected by
+electromagnetic attacks but is detectable as artificial.
+
+An improved prosthetic uses robotic parts and
+nerve-connected biofeedback that allow it to
+function identically to a lost limb. After a 1D+2 week
+rehabilitation period, the Traveller is able to perform
+DEX-based checks with no penalty. This prosthetic
+is affected by electromagnetic pulses and while still
+detectable as artificial, it can be disguised by adding
+Natural-looking and Invisitech options.
+
+Prosthetic
+Limb       TL Effect                              Cost
+                                                                     Weapon Implant
+Primitive      2   DM-2 on DEX-based              Cr100
+                   checks using limb
+Basic          7   DM-1 on DEX-based              Cr250
+                   checks using limb
+Improved       9   No DEX penalty                 Cr5000
+                                                           WEAPON IMPLANT
+                                                           One of the Traveller’s hands and forearm is replaced
+                                                           with a lifelike framework of alloy and polymers which
+                                                           has a hidden hinged split built within it. Opening in two
+                                                           halves, from between the middle and ring fingers to the
+                                                           elbow, the implant hides a small weapon shielded from
+                                                           most scanners (those of TL12 and lower). The weapon
+                                                           is modified to fit the implant and operates on nervous
+                                                           impulse but is otherwise the same as its common
+                                                           counterpart. This implant includes the cost of the custom
+                                                           weapon and any required magazine or power pack.
+                                                           Reloading requires insertion of individual ammunition into
+                                                           the magazine or external links to a power source. Subject
+                                                           to Availability, weapons may be upgraded at implantation
+                                                           time only to similar-sized items at cost of five times the
+                                                           base cost in addition to the cost of the standard implant.
+                                                           Note that a ranged stunner is considered an upgrade from
+                                                           a laser pistol, not a stunstick.
+                                                                                                                        Augments
+                                                           Weapon Implant TL        Effect               Cost
+                                                           Weapon Implant 10        See text             Cr5000
+                                                           - Dagger
+                                                           Weapon Implant 10        See text             Cr10000
+                                                           - Stunstick
+            Prosthetic Limbs                               Weapon Implant 10        See text             Cr12000
+                                                           - Auto Pistol
+                                                           Weapon Implant 11        See text             Cr25000
+                                                           - Laser Pistol
+
+
+
+
+                                                                                                                        57
+

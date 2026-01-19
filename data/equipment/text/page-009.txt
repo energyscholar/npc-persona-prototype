@@ -1,0 +1,87 @@
+                                                                                      T       R       A       V         E        L          L    E      R
+
+
+                                                                                          as eight kilograms of steel if creating a solid chunk of
+                                                                                          material. Actual usage is limited by voids, spacing and
+                         are available. Most commercially sourced fabrication
+                                                                                          waste material. The Referee can assume a chamber litre
+                         chambers are specifically blocked from creating
+                                                                                          is able to produce items of one to two kilograms mass in
+                         weapons, currency, copywritten materials or controlled
+                                                                                          most instances. One Slot, as used by suits and robots is
+                         substances, however the specific restrictions vary by
+                                                                                          the equivalent of about 1.5 chamber litre. For installation
+                         government and manufacturer.
+                                                                                          purposes, the volume of the fabricator itself is twice that
+                                                                                          of its chamber’s capacity.
+                         The Fabrication Chamber Capabilities table lists
+                         fabricators of increasing complexity at the Tech Level
+                         of their introduction. Most fabrication chambers can             Fabrication Chamber per Chamber Litre
+                         produce items of two Tech Levels less than their                 Fabrication Chamber TL            Kg       Cost
+                         constructed Tech Level but retain their complexity limits.       Basic                     8       2        Cr2000
+                         For instance, a basic fabricator at TL8 can produce TL6
+                                                                                          Improved                  10      2        Cr10000
+                         mechanical items; a TL10 version of a basic fabricator
+                         could produce TL8 items but only those with mechanical           Enhanced                  13      2        Cr50000
+                         parts – an improved fabricator would be necessary                Advanced                  17      2        Cr200000
+                         to create TL8 items with simple electronics. The
+                         relationship holds until the introduction of the advanced        Devices smaller than one chamber litre are available
+                         fabricator at TL17, a device capable of producing most           but as much of the cost is the mechanism and not
+                         items up to its current Tech Level in complexity.                the chamber, they cost as much as a one chamber
+                                                                                          litre device. In the opposite direction, a smaller
+                         The Time Requirement listed for each type of                     mechanism can be installed in a larger chamber,
+                         fabrication chamber is a minimum to complete                     doubling both capacity and time requirement at only
+                         fabrication of an object. Brains, biological or robotic,         a 50% increase in cost. This can be done twice,
+                         and their ‘neurological’ connections quadruple                   allowing for quadruple capacity and time at just
+                         construction time and complex, highly irregularly                double the cost, but beyond this limit, the mechanism
+                         shaped objects and objects requiring high melting                becomes too fragile to operate reliably.
+                         temperatures and cooling, such as crystaliron and
+                         certain other metals, will also double fabrication time,
+                         meaning a highly complex electronics-laden item like
+                                                                                          STANDARD FABRICATORS
+                                                                                          Fabrication chambers are most commonly available
+                         a robot may require as much as eight times the listed
+                                                                                          in the sizes of one, two, five, 10, 20, 50, and 100
+                         time period to be ready for extraction.
+                                                                                          chamber litres. Operations requiring the live insertion
+                                                                                          for modification or the creation of an intact adult
+                         A chamber litre is a standard 10x10x10 centimetres
+                                                                                          human-sized object generally requires a full 100
+                         measurement. Abbreviated as ‘cl’, it is commonly mis-
+                                                                                          chamber litres, although a custom 80 chamber litre unit
+                         attributed as ‘cubic litre’. Most fabrication chambers
+                                                                                          would likely suffice. A standard starship workshop can
+                         are at least 10 centimetres in all dimensions, meaning
+                                                                                          accommodate up to 100 chamber litres of fabrication
+                         a chamber to produce a two-metre item in one piece
+                                                                                          chambers, with large workshops aboard capital ships
+Equipment Availability
+
+
+
+
+                         would require at least 20 chamber litre capacity. Items
+                                                                                          containing extremely large custom units.
+                         with many parts can be created in smaller chambers and
+                         assembled later. A fully utilised chamber litre might only
+                                                                                          A standard fabricator is available at a 10% discount from
+                         hold one kilogram of biological material but may form up
+                                                                                          most retailers. Custom units larger than 100 chamber
+                         to two kilograms of dense synthetic materials or as much
+                                                                                          litres often carry a 10–60% premium and may not
+
+                         Fabrication Chamber Capabilities
+                         Fabrication                                                                               Max TL item         Time
+                         Chamber     TL       Complexity                                                           created             Requirement
+                         Basic          8     Mechanical                                                           TL-2                2 hours
+                         Improved       10    Simple electronics, Computer/1 equipment,                            TL-2                2 hours
+                                              Primitive, Basic or Hunter/Killer robot brains
+                         Enhanced       13    Complex electronics, simple biomechanical,                           TL-2                1 hour
+                                              Computer/2 equipment or advanced robot brains
+                         Advanced       17    Complex biomechanical, any computer or robot brain                   TL                  1 hour
+
+
+
+
+               8
+

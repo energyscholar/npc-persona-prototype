@@ -1,0 +1,3562 @@
+[
+  {
+    "id": "laser-anti-missile-system-tl13",
+    "name": "Laser Anti-Missile System",
+    "tl": 13,
+    "cost": 75000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 45
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Rifle",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Auto 3"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "advanced-laser-anti-missile-system-tl15",
+    "name": "Advanced Laser Anti-Missile System",
+    "tl": 15,
+    "cost": 125000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 45
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Distant",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Auto 4"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "aslan-cyber-claw-tl9",
+    "name": "Aslan Cyber-claw",
+    "tl": 9,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 56
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D+1",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "grapnel-launcher-tl7",
+    "name": "Grapnel Launcher",
+    "tl": 7,
+    "cost": 100,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 116
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Shotgun",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "pistol"
+  },
+  {
+    "id": "chain-saw-tl6",
+    "name": "Chain Saw",
+    "tl": 6,
+    "cost": 50,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 126
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "DM-2 to attack rolls"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "anti-armour-flail-tl8",
+    "name": "Anti-Armour Flail",
+    "tl": 8,
+    "cost": 250,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 5",
+        "One Use"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "club",
+    "name": "Club",
+    "tl": 0,
+    "cost": 0,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "gravity-hammer-tl13",
+    "name": "Gravity Hammer",
+    "tl": 13,
+    "cost": 10000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 50",
+        "Bulky",
+        "Smasher"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "mace-tl1",
+    "name": "Mace",
+    "tl": 1,
+    "cost": 20,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Bulky",
+        "Smasher"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "sap-tl1",
+    "name": "Sap",
+    "tl": 1,
+    "cost": 30,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Stun"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "sledgehammer-tl1",
+    "name": "Sledgehammer",
+    "tl": 1,
+    "cost": 30,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Smasher",
+        "Very Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "staff-tl1",
+    "name": "Staff",
+    "tl": 1,
+    "cost": 5,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "static-maul-tl11",
+    "name": "Static Maul",
+    "tl": 11,
+    "cost": 650,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4",
+        "Bulky",
+        "Smasher"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "stunstick-tl8",
+    "name": "Stunstick",
+    "tl": 8,
+    "cost": 300,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 134
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Stun"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "arc-field-weapon-tl14",
+    "name": "Arc-Field Weapon",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 30"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "assault-pike-tl5",
+    "name": "Assault Pike",
+    "tl": 5,
+    "cost": 200,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4",
+        "Bulky",
+        "One Use"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "assault-pike-tl8",
+    "name": "Assault Pike",
+    "tl": 8,
+    "cost": 400,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4",
+        "One Use"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "battle-axe-tl1",
+    "name": "Battle Axe",
+    "tl": 1,
+    "cost": 225,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 2",
+        "Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "blade-tl1",
+    "name": "Blade",
+    "tl": 1,
+    "cost": 100,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "broadsword-tl1",
+    "name": "Broadsword",
+    "tl": 1,
+    "cost": 500,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "chaindrive-axe-tl10",
+    "name": "Chaindrive Axe",
+    "tl": 10,
+    "cost": 600,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4",
+        "Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "chaindrive-sword-tl10",
+    "name": "Chaindrive Sword",
+    "tl": 10,
+    "cost": 500,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 2"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "cutlass-tl2",
+    "name": "Cutlass",
+    "tl": 2,
+    "cost": 200,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "dagger-tl1",
+    "name": "Dagger",
+    "tl": 1,
+    "cost": 10,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "great-axe-tl1",
+    "name": "Great Axe",
+    "tl": 1,
+    "cost": 750,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Smasher",
+        "Very Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "hatchet-tl1",
+    "name": "Hatchet",
+    "tl": 1,
+    "cost": 50,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "lance-tl1",
+    "name": "Lance",
+    "tl": 1,
+    "cost": 250,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "long-blade-tl1",
+    "name": "Long Blade",
+    "tl": 1,
+    "cost": 200,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "long-blade-tl3",
+    "name": "Long Blade",
+    "tl": 3,
+    "cost": 300,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "monoblade-tl12",
+    "name": "Monoblade",
+    "tl": 12,
+    "cost": 2500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "monofilament-axe-tl12",
+    "name": "Monofilament Axe",
+    "tl": 12,
+    "cost": 3000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 15",
+        "Bulky",
+        "Smasher"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "piston-spear-tl7",
+    "name": "Piston Spear",
+    "tl": 7,
+    "cost": 400,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 2"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "rapier-tl2",
+    "name": "Rapier",
+    "tl": 2,
+    "cost": 200,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "spear",
+    "name": "Spear",
+    "tl": 0,
+    "cost": 10,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "static-axe-tl11",
+    "name": "Static Axe",
+    "tl": 11,
+    "cost": 750,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 6",
+        "Bulky",
+        "Smasher"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "static-axe-tl12",
+    "name": "Static Axe",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 8",
+        "Smasher"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "static-blade-tl11",
+    "name": "Static Blade",
+    "tl": 11,
+    "cost": 700,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 5"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "static-blade-tl12",
+    "name": "Static Blade",
+    "tl": 12,
+    "cost": 900,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 6"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "stealth-dagger-tl8",
+    "name": "Stealth Dagger",
+    "tl": 8,
+    "cost": 175,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "stone-axe",
+    "name": "Stone Axe",
+    "tl": 0,
+    "cost": 5,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D+1",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "war-pick-tl1",
+    "name": "War Pick",
+    "tl": 1,
+    "cost": 275,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 136
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "brass-knuckles-tl1",
+    "name": "Brass Knuckles",
+    "tl": 1,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "claw-glove-tl10",
+    "name": "Claw Glove",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 2"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "claw-glove-tl11",
+    "name": "Claw Glove",
+    "tl": 11,
+    "cost": 3000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "claw-glove-tl12",
+    "name": "Claw Glove",
+    "tl": 12,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "claw-glove-tl14",
+    "name": "Claw Glove",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 30"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 4
+  },
+  {
+    "id": "garrotte",
+    "name": "Garrotte",
+    "tl": 0,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "handspikes-tl2",
+    "name": "Handspikes",
+    "tl": 2,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "knuckleblasters-tl8",
+    "name": "Knuckleblasters",
+    "tl": 8,
+    "cost": 150,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "monofilament-garrotte-tl12",
+    "name": "Monofilament Garrotte",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10",
+        "Dangerous"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "piston-fist-tl9",
+    "name": "Piston Fist",
+    "tl": 9,
+    "cost": 150,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "stunfist-tl8",
+    "name": "Stunfist",
+    "tl": 8,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Stun"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "boarding-shield-tl9",
+    "name": "Boarding Shield",
+    "tl": 9,
+    "cost": 1500,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 141
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "buckler-tl1",
+    "name": "Buckler",
+    "tl": 1,
+    "cost": 10,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 141
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "expandable-shield-tl12",
+    "name": "Expandable Shield",
+    "tl": 12,
+    "cost": 2500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 141
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "large-shield-tl1",
+    "name": "Large Shield",
+    "tl": 1,
+    "cost": 200,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 141
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "riot-shield-tl6",
+    "name": "Riot Shield",
+    "tl": 6,
+    "cost": 175,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 141
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "shield",
+    "name": "Shield",
+    "tl": 0,
+    "cost": 150,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 141
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "shock-whip-tl9",
+    "name": "Shock Whip",
+    "tl": 9,
+    "cost": 450,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 142
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Stun"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "antique-pistol-tl2",
+    "name": "Antique Pistol",
+    "tl": 2,
+    "cost": 100,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D-3",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 5,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "assault-pistol-tl6",
+    "name": "Assault Pistol",
+    "tl": 6,
+    "cost": 250,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Melee",
+      "magazine": 15,
+      "magazine_cost": 10,
+      "traits": [
+        "Auto 2"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "autopistol-tl5",
+    "name": "Autopistol",
+    "tl": 5,
+    "cost": 200,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Melee",
+      "magazine": 15,
+      "magazine_cost": 10,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "body-pistol-tl8",
+    "name": "Body Pistol",
+    "tl": 8,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 6,
+      "magazine_cost": 10,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "cartridge-pistol-tl7",
+    "name": "Cartridge Pistol",
+    "tl": 7,
+    "cost": 300,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 6,
+      "magazine_cost": 10,
+      "traits": [
+        "Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "coach-pistol-tl3",
+    "name": "Coach Pistol",
+    "tl": 3,
+    "cost": 200,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D-3",
+      "range": "Melee",
+      "magazine": 2,
+      "magazine_cost": 10,
+      "traits": [
+        "Dangerous"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "duck-s-foot-pistol-tl3",
+    "name": "Duck's Foot Pistol",
+    "tl": 3,
+    "cost": 300,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Melee",
+      "magazine": 8,
+      "magazine_cost": 25,
+      "traits": [
+        "Auto 4",
+        "Dangerous"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "flechette-pistol-tl9",
+    "name": "Flechette Pistol",
+    "tl": 9,
+    "cost": 275,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-2",
+      "range": "Melee",
+      "magazine": 2,
+      "magazine_cost": 10,
+      "traits": [
+        "Silent"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "gauss-pistol-tl13",
+    "name": "Gauss Pistol",
+    "tl": 13,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 40,
+      "magazine_cost": 20,
+      "traits": [
+        "AP 3",
+        "Auto 2"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "heavy-revolver-tl5",
+    "name": "Heavy Revolver",
+    "tl": 5,
+    "cost": 400,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D-3",
+      "range": "Melee",
+      "magazine": 6,
+      "magazine_cost": 15,
+      "traits": [
+        "Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "magrail-pistol-tl14",
+    "name": "Magrail Pistol",
+    "tl": 14,
+    "cost": 750,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D+3",
+      "range": "Melee",
+      "magazine": 20,
+      "magazine_cost": 60,
+      "traits": [
+        "Auto 4"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "revolver-tl4",
+    "name": "Revolver",
+    "tl": 4,
+    "cost": 150,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Melee",
+      "magazine": 6,
+      "magazine_cost": 5,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "shot-pistol-tl5",
+    "name": "Shot Pistol",
+    "tl": 5,
+    "cost": 60,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 5,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "snub-pistol-tl8",
+    "name": "Snub Pistol",
+    "tl": 8,
+    "cost": 150,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Melee",
+      "magazine": 6,
+      "magazine_cost": 10,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "universal-autopistol-tl8",
+    "name": "Universal Autopistol",
+    "tl": 8,
+    "cost": 300,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Melee",
+      "magazine": 10,
+      "magazine_cost": 10,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "zip-gun-tl3",
+    "name": "Zip Gun",
+    "tl": 3,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 144
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D-3",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 5,
+      "traits": [
+        "Dangerous"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "gauntlet-laser-tl10",
+    "name": "Gauntlet Laser",
+    "tl": 10,
+    "cost": 2500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 100,
+      "magazine_cost": 1100,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "hand-flamer-tl10",
+    "name": "Hand Flamer",
+    "tl": 10,
+    "cost": 1500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 5,
+      "magazine_cost": 25,
+      "traits": [
+        "Blast 2",
+        "Fire"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "laser-pistol-tl9",
+    "name": "Laser Pistol",
+    "tl": 9,
+    "cost": 2000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 100,
+      "magazine_cost": 1000,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "laser-pistol-tl11",
+    "name": "Laser Pistol",
+    "tl": 11,
+    "cost": 3000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D+3",
+      "range": "Shotgun",
+      "magazine": 100,
+      "magazine_cost": 3000,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "pistol",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "personal-defence-laser-tl13",
+    "name": "Personal Defence Laser",
+    "tl": 13,
+    "cost": 6000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D+3",
+      "range": "Shotgun",
+      "magazine": 25,
+      "magazine_cost": 100,
+      "traits": [
+        "Auto 2",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "pistol"
+  },
+  {
+    "id": "stunner-tl8",
+    "name": "Stunner",
+    "tl": 8,
+    "cost": 500,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 100,
+      "magazine_cost": 200,
+      "traits": [
+        "Stun",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "stunner-tl10",
+    "name": "Stunner",
+    "tl": 10,
+    "cost": 750,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D+3",
+      "range": "Melee",
+      "magazine": 100,
+      "magazine_cost": 200,
+      "traits": [
+        "Stun",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "stunner-tl12",
+    "name": "Stunner",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 150
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 100,
+      "magazine_cost": 200,
+      "traits": [
+        "Stun",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "cartridge-laser-carbine-tl10",
+    "name": "Cartridge Laser Carbine",
+    "tl": 10,
+    "cost": 2500,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Assault Weapon",
+      "magazine": 15,
+      "magazine_cost": 70,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "cartridge-laser-carbine-tl12",
+    "name": "Cartridge Laser Carbine",
+    "tl": 12,
+    "cost": 4000,
+    "mass": 2.5,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D+3",
+      "range": "Assault Weapon",
+      "magazine": 20,
+      "magazine_cost": 70,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "cartridge-laser-carbine-tl13",
+    "name": "Cartridge Laser Carbine",
+    "tl": 13,
+    "cost": 500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Rifle",
+      "magazine": 10,
+      "magazine_cost": 50,
+      "traits": [
+        "Cartridge"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "cartridge-laser-rifle-tl10",
+    "name": "Cartridge Laser Rifle",
+    "tl": 10,
+    "cost": 3500,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Assault Weapon",
+      "magazine": 20,
+      "magazine_cost": 150,
+      "traits": [
+        "Auto 3",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "cartridge-laser-rifle-tl12",
+    "name": "Cartridge Laser Rifle",
+    "tl": 12,
+    "cost": 8000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D+3",
+      "range": "Rifle",
+      "magazine": 25,
+      "magazine_cost": 150,
+      "traits": [
+        "Auto 3",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "cartridge-laser-rifle-tl13",
+    "name": "Cartridge Laser Rifle",
+    "tl": 13,
+    "cost": 750,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Rifle",
+      "magazine": 6,
+      "magazine_cost": 75,
+      "traits": [
+        "Auto 3",
+        "Cartridge"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "cryo-rifle-tl13",
+    "name": "Cryo Rifle",
+    "tl": 13,
+    "cost": 6000,
+    "mass": 9,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 12,
+      "magazine_cost": 150,
+      "traits": [
+        "Blast 3"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "cryo-rifle-tl14",
+    "name": "Cryo Rifle",
+    "tl": 14,
+    "cost": 1000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Rifle",
+      "magazine": 5,
+      "magazine_cost": 100,
+      "traits": [
+        "Stun"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "flame-rifle-tl9",
+    "name": "Flame Rifle",
+    "tl": 9,
+    "cost": 2500,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 10,
+      "magazine_cost": 50,
+      "traits": [
+        "Blast 3",
+        "Fire"
+      ]
+    },
+    "subcategory": "melee",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "flame-rifle-tl12",
+    "name": "Flame Rifle",
+    "tl": 12,
+    "cost": 600,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Rifle",
+      "magazine": 4,
+      "magazine_cost": 60,
+      "traits": [
+        "Incendiary"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "heavy-laser-rifle-tl12",
+    "name": "Heavy Laser Rifle",
+    "tl": 12,
+    "cost": 14000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "6D",
+      "range": "Distant",
+      "magazine": 12,
+      "magazine_cost": 500,
+      "traits": [
+        "Scope",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "heavy-laser-rifle-tl14",
+    "name": "Heavy Laser Rifle",
+    "tl": 14,
+    "cost": 2000,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Rifle",
+      "magazine": 6,
+      "magazine_cost": 200,
+      "traits": [
+        "Integrated Power Pack"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "ion-rifle-tl14",
+    "name": "Ion Rifle",
+    "tl": 14,
+    "cost": 5000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Rifle",
+      "magazine": 5,
+      "magazine_cost": 500,
+      "traits": [
+        "Electronic Disruption"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "laser-carbine-tl9",
+    "name": "Laser Carbine",
+    "tl": 9,
+    "cost": 2500,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Assault Weapon",
+      "magazine": 50,
+      "magazine_cost": 1000,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-carbine-tl11",
+    "name": "Laser Carbine",
+    "tl": 11,
+    "cost": 4000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D+3",
+      "range": "Assault Weapon",
+      "magazine": 50,
+      "magazine_cost": 3000,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-carbine-tl12",
+    "name": "Laser Carbine",
+    "tl": 12,
+    "cost": 400,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Assault Weapon",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Backpack Power"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-rifle-tl9",
+    "name": "Laser Rifle",
+    "tl": 9,
+    "cost": 3500,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Assault Weapon",
+      "magazine": 100,
+      "magazine_cost": 1500,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-rifle-tl11",
+    "name": "Laser Rifle",
+    "tl": 11,
+    "cost": 8000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D+3",
+      "range": "Rifle",
+      "magazine": 100,
+      "magazine_cost": 3500,
+      "traits": [
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-rifle-tl12",
+    "name": "Laser Rifle",
+    "tl": 12,
+    "cost": 600,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Rifle",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Backpack Power"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "laser-sniper-rifle-tl12",
+    "name": "Laser Sniper Rifle",
+    "tl": 12,
+    "cost": 9000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D+3",
+      "range": "Rifle",
+      "magazine": 6,
+      "magazine_cost": 250,
+      "traits": [
+        "Scope",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "laser-sniper-rifle-tl13",
+    "name": "Laser Sniper Rifle",
+    "tl": 13,
+    "cost": 1500,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 152
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Distant",
+      "magazine": 6,
+      "magazine_cost": 150,
+      "traits": [
+        "Integrated Power Pack",
+        "Sniper"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "stagger-laser-rifle-tl12",
+    "name": "Stagger Laser Rifle",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Rifle",
+      "magazine": 50,
+      "magazine_cost": 5000,
+      "traits": [
+        "Auto 2",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "stagger-laser-rifle-tl14",
+    "name": "Stagger Laser Rifle",
+    "tl": 14,
+    "cost": 15000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D+3",
+      "range": "Rifle",
+      "magazine": 100,
+      "magazine_cost": 6000,
+      "traits": [
+        "Auto 3",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "rifle",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "stun-blaster-beam-tl13",
+    "name": "Stun Blaster (beam)",
+    "tl": 13,
+    "cost": 3000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 200,
+      "magazine_cost": 500,
+      "traits": [
+        "Stun",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "stun-blaster-blast",
+    "name": "Stun Blaster (blast)",
+    "tl": 0,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 3",
+        "Stun",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "stun-carbine-tl12",
+    "name": "Stun Carbine",
+    "tl": 12,
+    "cost": 2000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 154
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 50,
+      "magazine_cost": 200,
+      "traits": [
+        "Stun",
+        "Zero-G"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "compound-cam-bow-tl5",
+    "name": "Compound Cam Bow",
+    "tl": 5,
+    "cost": 250,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 155
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Pistol",
+      "magazine": 1,
+      "magazine_cost": 5,
+      "traits": [
+        "AP 2",
+        "Silent"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "crossbow-tl1",
+    "name": "Crossbow",
+    "tl": 1,
+    "cost": 200,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 155
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Pistol",
+      "magazine": 1,
+      "magazine_cost": 1,
+      "traits": [
+        "AP 2",
+        "Silent"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "tl": 0,
+    "cost": 10,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 155
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D-2",
+      "range": "Shotgun",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "One Shot",
+        "Silent"
+      ]
+    },
+    "subcategory": "pistol"
+  },
+  {
+    "id": "javelin",
+    "name": "Javelin",
+    "tl": 0,
+    "cost": 10,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 155
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Shotgun",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "One Shot",
+        "Silent"
+      ]
+    },
+    "subcategory": "pistol"
+  },
+  {
+    "id": "long-bow-tl1",
+    "name": "Long Bow",
+    "tl": 1,
+    "cost": 150,
+    "mass": 1.5,
+    "source": {
+      "book": "CSC",
+      "page": 155
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D-3",
+      "range": "Pistol",
+      "magazine": 1,
+      "magazine_cost": 1,
+      "traits": [
+        "AP 2",
+        "Bulky",
+        "Silent"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "repeating-crossbow-tl2",
+    "name": "Repeating Crossbow",
+    "tl": 2,
+    "cost": 400,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 155
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Pistol",
+      "magazine": 6,
+      "magazine_cost": 6,
+      "traits": [
+        "Silent"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "short-bow",
+    "name": "Short Bow",
+    "tl": 0,
+    "cost": 50,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 155
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D-3",
+      "range": "Pistol",
+      "magazine": 1,
+      "magazine_cost": 1,
+      "traits": [
+        "Silent"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "boomerang",
+    "name": "Boomerang",
+    "tl": 0,
+    "cost": 5,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 157
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D",
+      "range": "Shotgun",
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "Silent"
+      ]
+    },
+    "subcategory": "pistol"
+  },
+  {
+    "id": "monofilament-bolas-tl12",
+    "name": "Monofilament Bolas",
+    "tl": 12,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 157
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10",
+        "Silent"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "sling",
+    "name": "Sling",
+    "tl": 0,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 157
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D-2",
+      "range": "Pistol",
+      "magazine": 1,
+      "magazine_cost": 1,
+      "traits": [
+        "Silent"
+      ]
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "frag-grenade-tl6",
+    "name": "Frag Grenade",
+    "tl": 6,
+    "cost": 30,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 158
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "incendiary-grenade-tl7",
+    "name": "Incendiary Grenade",
+    "tl": 7,
+    "cost": 75,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 158
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 3",
+        "Fire"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "stun-grenade-tl7",
+    "name": "Stun Grenade",
+    "tl": 7,
+    "cost": 30,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 158
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 9",
+        "Stun"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "breaching-charge-tl8",
+    "name": "Breaching Charge",
+    "tl": 8,
+    "cost": 250,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 160
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 6",
+        "Blast 1"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "complex-chemical-charge-tl10",
+    "name": "Complex Chemical Charge",
+    "tl": 10,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 160
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 15",
+        "Blast 9"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "plastic-explosive-tl6",
+    "name": "Plastic Explosive",
+    "tl": 6,
+    "cost": 200,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 160
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "tdx-tl12",
+    "name": "TDX",
+    "tl": 12,
+    "cost": 1000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 160
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 15"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "black-powder-mortar-tl3",
+    "name": "Black Powder Mortar",
+    "tl": 3,
+    "cost": 2000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 166
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "6D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 50,
+      "traits": [
+        "Artillery",
+        "Blast 6"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "infantry-mortar-tl5",
+    "name": "Infantry Mortar",
+    "tl": 5,
+    "cost": 3500,
+    "mass": 0.012,
+    "source": {
+      "book": "CSC",
+      "page": 166
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 50,
+      "traits": [
+        "Artillery",
+        "Blast 5"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "light-howitzer-tl5",
+    "name": "Light Howitzer",
+    "tl": 5,
+    "cost": 50000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 166
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 150,
+      "traits": [
+        "Artillery",
+        "Blast 10"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "light-gun-tl6",
+    "name": "Light Gun",
+    "tl": 6,
+    "cost": 75000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 166
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 200,
+      "traits": [
+        "AP 5",
+        "Artillery",
+        "Blast 10"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "support-mortar-tl7",
+    "name": "Support Mortar",
+    "tl": 7,
+    "cost": 11000,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 166
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "9D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 100,
+      "traits": [
+        "Artillery",
+        "Blast 6"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "aerospace-defence-laser-tl12",
+    "name": "Aerospace Defence Laser",
+    "tl": 12,
+    "cost": 4000000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 168
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Assault Weapon",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "rifle"
+  },
+  {
+    "id": "light-autocannon-tl6",
+    "name": "Light Autocannon",
+    "tl": 6,
+    "cost": 10000,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 168
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "6D",
+      "range": "Melee",
+      "magazine": 500,
+      "magazine_cost": 1000,
+      "traits": [
+        "Auto 3"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "medium-autocannon-tl6",
+    "name": "Medium Autocannon",
+    "tl": 6,
+    "cost": 25000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 168
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 100,
+      "magazine_cost": 1500,
+      "traits": [
+        "Auto 3"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "black-powder-cannon-tl3",
+    "name": "Black Powder Cannon",
+    "tl": 3,
+    "cost": 3000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 168
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "7D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 50,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "light-cannon-tl5",
+    "name": "Light Cannon",
+    "tl": 5,
+    "cost": 200000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 168
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "6D",
+      "range": "Melee",
+      "magazine": 50,
+      "magazine_cost": 5000,
+      "traits": [
+        "Blast 6"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "field-gun-tl4",
+    "name": "Field Gun",
+    "tl": 4,
+    "cost": 5000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 168
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 75,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "light-anti-air-missile-tl7",
+    "name": "Light Anti-Air Missile",
+    "tl": 7,
+    "cost": 5000,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "6D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "One Use",
+        "Smart"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "anti-air-missile-tl7",
+    "name": "Anti-Air Missile",
+    "tl": 7,
+    "cost": 12000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "One Use",
+        "Smart"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "long-range-anti-air-missile-tl7",
+    "name": "Long Range Anti-Air Missile",
+    "tl": 7,
+    "cost": 22000,
+    "mass": 0.75,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Shotgun",
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "One Use",
+        "Smart"
+      ]
+    },
+    "subcategory": "pistol"
+  },
+  {
+    "id": "anti-tank-missile-tl7",
+    "name": "Anti-Tank Missile",
+    "tl": 7,
+    "cost": 18000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 6000,
+      "traits": [
+        "AP 30",
+        "One Use",
+        "Smart"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "bolt-thrower-tl1",
+    "name": "Bolt Thrower",
+    "tl": 1,
+    "cost": 2000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 1,
+      "magazine_cost": 25,
+      "traits": [
+        "AP 5"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "bombardment-rocket-rack-tl6",
+    "name": "Bombardment Rocket Rack",
+    "tl": 6,
+    "cost": 30000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "5D",
+      "range": "Melee",
+      "magazine": 12,
+      "magazine_cost": 8000,
+      "traits": [
+        "Auto 3",
+        "Blast 15"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "heavy-rocket-pod-tl6",
+    "name": "Heavy Rocket Pod",
+    "tl": 6,
+    "cost": 12000,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "6D",
+      "range": "Melee",
+      "magazine": 6,
+      "magazine_cost": 6000,
+      "traits": [
+        "Auto 3",
+        "Blast 10"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "rocket-pod-tl6",
+    "name": "Rocket Pod",
+    "tl": 6,
+    "cost": 8000,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 18,
+      "magazine_cost": 8000,
+      "traits": [
+        "Auto 3",
+        "Blast 5"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "tac-launcher-anti-aircraft-tl10",
+    "name": "Tac Launcher (Anti-aircraft)",
+    "tl": 10,
+    "cost": 16000,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 4,
+      "magazine_cost": 8000,
+      "traits": [
+        "Scope",
+        "Smart"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "tac-launcher-anti-personnel-tl10",
+    "name": "Tac Launcher (Anti-personnel)",
+    "tl": 10,
+    "cost": 12000,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 4,
+      "magazine_cost": 4000,
+      "traits": [
+        "Blast 10",
+        "Scope",
+        "Smart"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "tac-launcher-armour-piercing-tl10",
+    "name": "Tac Launcher (Armour piercing)",
+    "tl": 10,
+    "cost": 15000,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 172
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "8D",
+      "range": "Melee",
+      "magazine": 4,
+      "magazine_cost": 6000,
+      "traits": [
+        "AP 10",
+        "Scope",
+        "Smart"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "bayonet-tl2",
+    "name": "Bayonet",
+    "tl": 2,
+    "cost": 20,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 175
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": []
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "chaindrive-bayonet-tl9",
+    "name": "Chaindrive Bayonet",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 175
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4",
+        "Bulky"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "bomblet-tl7",
+    "name": "Bomblet",
+    "tl": 7,
+    "cost": 4,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 180
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 20"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "canister-tl3",
+    "name": "Canister",
+    "tl": 3,
+    "cost": 2,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 180
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 20"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "concussion-tl7",
+    "name": "Concussion",
+    "tl": 7,
+    "cost": 1,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 180
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Stun"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "fragmentation-tl6",
+    "name": "Fragmentation",
+    "tl": 6,
+    "cost": 1,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 180
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast x2"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "claw-glove-hardened-tl10",
+    "name": "Claw Glove (hardened)",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "1D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 2"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "claw-glove-edging-tl11",
+    "name": "Claw Glove (edging)",
+    "tl": 11,
+    "cost": 3000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "2D+2",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 4"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "claw-glove-monofilament-tl12",
+    "name": "Claw Glove (monofilament)",
+    "tl": 12,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "3D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10"
+      ]
+    },
+    "subcategory": "melee"
+  },
+  {
+    "id": "claw-glove-arc-field-tl14",
+    "name": "Claw Glove (arc-field)",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 140
+    },
+    "category": "weapons",
+    "weapon_stats": {
+      "damage": "4D",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 30"
+      ]
+    },
+    "subcategory": "melee"
+  }
+]

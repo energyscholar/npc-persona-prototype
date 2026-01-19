@@ -1,0 +1,56 @@
+LARGE SHIELD                                                SPECIALISED MELEE WEAPONS
+A large shield is normally hung on a strap from the
+                                                            Weapons described in this section require the Melee
+shoulder to help bear its weight and cannot be used
+                                                            skill to use effectively, although each requires its own
+as a weapon. So long as the wielder has STR 9+, the
+                                                            speciality. In these cases, Melee (whip).
+large shield increases their effective Melee skill by +2
+when parrying and a wielder with no Melee skill counts
+as having Melee 1 when using a large shield to parry.       SHOCK WHIP
+However, if the wielder does not have the required          A shock whip is more an instrument of torture than a
+STR, it simply counts as a shield.                          useful weapon. It is normally used on a low setting
+                                                            to inflict pain from both the whip’s own action and
+                                                            accompanying shock effect but the charge can be
+RIOT SHIELD                                                 increased to make it an effective, if unusual, weapon. Use
+A round or rectangular shield of fireproof plastic, which
+                                                            of a shock whip grants DM+1 to Intimidate and Persuade
+may be clear or opaque, a riot shield is the modern
+                                                            checks made while questioning (torturing) a Traveller.
+version of a shield but is lighter and also grants
+Protection +1 against ranged attacks. It also makes the
+Traveller immune to the Fire trait from weapons that        WHIP
+make attacks from the front.                                This is a long whip that takes some practice and skill to
+                                                            use effectively. It may be used either to inflict damage
+                                                            or entangle an opponent at a distance of up to five
+SHIELD                                                      metres. If the latter is desired, a successful attack
+Various types of medium-sized shields exist, round
+                                                            will inflict no damage but instead force an immediate
+shields, kite shields and so forth.
+                                                            grapple (see page 78 of the Traveller Core Rulebook)
+                                                            between the attacker and target.
+                              Large Shield
+
+
+
+
+                                                                                                Shock whip
+
+
+
+
+                                                                                                                          Weaponry
+                                                   Riot Shield
+
+         Shield                                                              Whip
+
+
+WEAPON                          TL     RANGE       DAMAGE        KG     COST             TRAITS
+Shock Whip                      9      Melee       2D            1      Cr450            Stun
+Whip                            1      Melee       D3            1      Cr15             —
+
+
+
+
+                                                                                                                         141
+

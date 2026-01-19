@@ -1,0 +1,44 @@
+ARMOUR TYPE                   PROTECTION                             TL RAD KG COST              REQUIRED SKILL
+Ballistic Vest                +4                                     8     —     1    Cr500      None
+Ceramic Carapace              +10 (+16 vs. lasers, flame throwers,   12    —     4    Cr12000    None
+                              and other heat/fire-based attacks)
+Cloth                         +5                                     7     —     7    Cr250      None
+                              +8                                     10    —     3    Cr500      None
+Cloth Jacket                  +5                                     10    —     2    Cr500      None
+Cloth Trench Coat             +6                                     10    —     4    Cr500      None
+Diplo Vest                    +3                                     10    —     —    Cr250      None
+Flak Jacket                   +3                                     7     —     8    Cr100      None
+                              +5                                     8     —     6    Cr300      None
+Flak Shell                    +8                                     9     —     8    Cr1000     None
+Hunter Field Garb             +4                                     12    —     3    Cr10000    None
+Jack                          +1                                     1     —     2    Cr50       None
+Mesh                          +2                                     6     —     3    Cr150      None
+Personal Energy Shield        +12 (+0 vs. lasers)                    15    —     1*   Cr320000   None
+Poly Carapace                 +10                                    10    —     4    Cr10000    None
+Lightweight Poly Carapace +12                                        11    —     2    Cr15000    None
+Advanced Poly Carapace        +16                                    13    —     2    Cr35000    None
+Post-Apocalyptic              +4                                     6     —     3    Cr150      None
+Protec Suit                   +4                                     9     —     1    Cr500      None
+ Tactical Riot Armour       +4                                       7     —     6    Cr600      None
+*The mass of the personal energy shield is that of the battery
+
+
+                                                                                         Cloth Jacket
+
+
+
+
+        Ballistic Vest
+                                                                                                                  Armour
+                                                                         Cloth Trench Coat
+
+
+
+
+                                                                 Cloth Armour
+    Ceramic carapace
+
+
+
+                                                                                                                  13
+

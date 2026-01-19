@@ -1,0 +1,74 @@
+                                                                       T      R        A       V      E         L     L         E     R
+
+
+
+                                                                           Augment           TL Effect                   Cost
+                                                                           Cockpit       10      DM+1 on high-speed Cr500000
+           HEAD                                                            Sensory Suite         checks
+           ASSISTED AMBULATION
+           By adding tiny stimulatory conduits in the brain and            COGNITIVE AUGMENTATION
+           certain muscles and tendons, a Traveller’s body can             Replacing slow nerve cells with faster synthetic
+           be ‘programmed’ to function more efficiently for longer.        substrates and implanting optoelectronic boosters
+           Using electricity generated from an internal battery            can increase the speed at which a Traveller thinks,
+           system which recharges using the Traveller’s own diet,          effectively boosting their intelligence. Note that
+           the body can function at peak physical capability for           Cognitive Augmentation is subject to electromagnetic
+           hours longer than normal. At TL13, the Traveller requires       attacks unless Ruggedised.
+           three times the standard food intake but can operate
+           normally on four hours of sleep. This drops to twice the        Augment             TL   Effect               Cost
+           food intake and two hours of sleep at TL14 and at TL15
+                                                                           Cognitive       12       +1 to INT            Cr500000
+           reaches +50% food intake and one hour of sleep.
+                                                                           Augmentation +1
+                                                                           Cognitive       14       +2 to INT            MCr1
+           Assisted
+                                                                           Augmentation +2
+           Ambulation       TL     Effect               Cost
+                                                                           Cognitive       16       +3 to INT            MCr5
+           Basic            13     Only 4 hours sleep   Cr100000
+                                                                           Augmentation +3
+                                   required at 3x
+                                   caloric intake
+           Improved         14     Only 2 hours sleep   Cr300000           COMPLEX CRANIAL PROCESSING UNIT
+                                   required at 2x                          Effectively a biological computer integrated with higher
+                                   caloric intake                          brain functions, this processing unit automatically
+                                                                           activates when the Traveller begins considering complex
+           Advanced         15     Only 1 hour sleep    Cr500000           calculations. This grants DM+1 to all checks (typically
+                                   required at 1.5x                        Science-related) that involve complicated mathematics.
+                                   caloric intake                          This augment is compatible with Cognitive Augmentation
+                                                                           but is not affected by electromagnetic attacks.
+           BALLISTIC TRACKING LENSES
+           The Traveller’s retinas are laced with tiny receptors,          Augment             TL   Effect               Cost
+           outlining any object targeted by the Traveller’s weapon.
+                                                                           Complex Cranial 14       DM+1 to complex Cr350000
+           Ballistic tracking lenses grant the Traveller DM+1 on all
+                                                                           Processing Unit          Science checks
+           ranged attacks where they can physically see the target
+           but cannot be combined with scopes or other sighting
+           aids. The Traveller’s eyes shine strangely in direct            ENHANCED VISION
+           lighting, revealing the device to observers.                    A Traveller can be implanted with cybernetic eyes,
+                                                                           giving them the permanent functionality of binoculars
+           Augment               TL   Effect                Cost           and IR/Light Intensifier goggles (see pages 73-75). At
+                                                                           TL14, the Traveller can also see into and beyond the
+           Ballistic Tracking 11      DM+1 on unassisted Cr8000            ultraviolet spectrum and emulate the effects of PRIS
+           Lenses                     ranged attacks                       binoculars (see page 76).
+Augments
+
+
+
+
+           COCKPIT SENSORY SUITE                                           Enhanced
+           An augment sometimes given to high-G fighter pilots             Vision   TL Effect                             Cost
+           and other fast-vehicle drivers, this alteration thickens
+                                                                           Basic        13    Binocular zoom, IR/Light    Cr25000
+           the membranes of the eye, speeds hand-to-eye co-
+                                                                                              Intensifier
+           ordination and enhances blood flow to the brain when
+           under high pressure or stress. This augment grants              Improved     14    PRIS binocular functionality Cr50000
+           DM+1 to all Pilot, Drive, Flyer and Seafarer checks
+           made when travelling at high speeds.
+
+
+
+
+    58
+

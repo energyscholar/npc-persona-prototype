@@ -1,0 +1,67 @@
+     COMPUTERS AND SOFTWARE
+     Any technological society runs on computers, with
+     access to them as basic as the right to air and water.
+     To those both knowledgeable and skilled, they open
+     an array of possibilities in all areas of life and having       SHIP-BASED COMPUTERS
+     the right computer for the right job is often more             The computers used on spacecraft to calculate
+     important than carrying a gun.                                 jump travel and combat solutions are more
+                                                                    powerful than those typically found planetside
+                                                                    and can run much more sophisticated software.
+     USING COMPUTERS                                                These are covered in detail within High Guard.
+                                                                    Advanced multi-node computers of this type
+     Computers in Traveller are ranked by their Processing
+     score, typically between 0 and 9. A Computer/3, for            may also be found operating large surface
+     example, has a Processing score of 3. This is its ability      installations such as starports, factories or
+     to run software.                                               military bases. These are capable of running any
+                                                                    software detailed in this chapter but are generally
+     Note that Processing does not limit how much software          focused on spacecraft-specific programs.
+     a computer can store and have ready to use, just
+     how many software packages can be active at once.
+     Beyond TL8, the storage capacity of even a modest
+     computer is effectively unlimited.
+                                                                 Software packages of more than 1 Bandwidth cannot
+     All software has a Bandwidth score, which represents        be copied easily, as they require a non-trivial amount
+     the processing power a computer requires to run it.         of bandwidth to transfer and are generally restricted by
+     At any one time, a computer can run any software            copy-protection schemes.
+     packages whose combined Bandwidth does not
+     exceed its Processing score.
+
+     For example, a Computer/3 could run Translator/1
+                                                                 COMPUTERS
+                                                                 By TL8 most technological devices, from vehicles
+     and Security/2 simultaneously but if the operator           to light fixtures, utilise an internal computer. The
+     using it then wanted to run Intelligent Interface           computers described here are general purpose or
+     (which requires 1 Bandwidth) they would have to             specialised versions designed to run the software
+     swap it with one of the existing packages.                  packages presented.
+
+     An operator can use any high-Bandwidth software
+     at a lower Bandwidth, to a minimum of the lowest
+     Bandwidth shown. For example, an operator could
+                                                                 PROTO AND RETRO TECH VARIANTS
+                                                                 Computer capabilities are very susceptible to Tech
+     run Intrusion/3 on a Computer/1 but it would only
+                                                                 Level variances and are subject to the Proto and
+     function as Intrusion/1.
+                                                                 Retro Tech rules (see page 11). These allow for
+                                                                 early, expensive and massive computers up to two
+     A computer with Processing 0 can only run one software
+                                                                 Tech Levels earlier than described and for continued
+     package of Bandwidth 0 at a time. The exception to this
+                                                                 innovation to make these products cheaper and smaller
+     is the Interface program. Interface is the only program
+                                                                 with each subsequent Tech Level.
+     that can run on a computer terminal or interface device
+     but it will run in conjunction with one other Bandwidth 0
+                                                                 Retrotech variants have a strong effect on computer
+     program on other Computer/0 devices. A computer with
+                                                                 models. At each Tech Level above the listed optimal
+     Processing 1 or greater can run an effectively unlimited
+                                                                 Tech Level, computers are available at half the price
+     number of Bandwidth 0 programs.
+                                                                 and mass of the basic model.
+
+
+
+
+66
+

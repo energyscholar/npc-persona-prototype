@@ -1,0 +1,65 @@
+FLASHLIGHT                                                      INFRARED GOGGLES
+The common flashlight. It is battery powered and lasts          A headset with goggles or an adaptation to a visor that
+six hours of continuous use. A flashlight produces a            allows a wearer to see visible light and thermal imaging.
+wide cone of light up to 18 metres long with a radius           Thermal imaging allows temperature differences to be
+of six metres. TL7+ models have adjustable beams                detected, making warm objects like animals, people and
+allowing them to produce a tight beam of light up to 36         vehicles obvious unless there is a lot of ‘heat clutter’
+metres long, with a one-metre radius or illuminate a            in the area. It will not allow the wearer to find his way
+10 metre circle. At TL8 the efficient bulbs and batteries       around a cave or similar environment where everything
+allow for 24 hours continuous use, quick recharging,            is much the same temperature.
+and multiple modes including strobes and narrow
+beams up to 250 metres. Specialised flashlights can be          Infrared
+mounted on helmets or weapons.                                  Goggles          TL Effect                          Kg Cost
+                                                                Basic            6    Infrared or thermal vision 1       Cr500
+ Flashlight TL        Effect                    Kg    Cost
+                                                                Improved         8    Lightweight                   —    Cr500
+ Basic           6    Flashlight: 18 x 6m       0.5 Cr10
+                      cone of light, 6 hours
+                                                                LIGHT INTENSIFIER GOGGLES
+ Improved        7    +Adjustable to 36 x 1m 0.5 Cr10           These goggles allow clear, monochrome vision up to 18
+                      cone or 10 m radius                       metres in anything less than total dark. While some light
+ Advanced        8    +Multimode,            0.5 Cr10           is required to produce this effect, anything approaching
+                      rechargeable, 24 hours                    normal daylight conditions severely degrades the clarity.
+                                                                At TL9, light intensifier goggles are combined with IR
+GEIGER COUNTER                                                  goggles and adjust to normal vision in daylight conditions.
+This simple handheld device picks up ambient or projected
+radiation in the area and relays it as a series of clicks and   Light Intensifier
+lights. The TL5 Geiger counter detects the presence of any      Goggles           TL Effect                     Kg Cost
+source of 30 rads per hour or greater. The more advanced        Basic                  7      light             1       Cr500
+version can determine exactly what element is producing                                       intensification
+the radiation and the direction of origin.
+                                                                Improved               9      +Infrared       —         Cr1250
+                                                                                              thermal imaging
+ Geiger
+ Counter     TL Effect                          Kg Cost
+                                                                PERSONAL HUD
+ Basic       5       Detects radiation presence 2    Cr250      A personal HUD (Heads-Up Display) can be fitted to
+ Improved 10 +Determines source’s      —             Cr400      a set of goggles or shades, a monocle or the inside of
+             composition and direction                          a helmet. The HUD displays incoming messages and
+                                                                video from a user’s mobile comm, data pulled from a
+INFRARED FLASHLIGHT                                             portable computer or a weapon’s aiming device. Tying
+A version of the flashlight which emits infrared instead        any device or weapon into the HUD and calibrating
+of visible-spectrum light. Consequently, only those             it takes an hour and costs Cr100. Information can be
+equipped with IR vision aids can see the illumination.          exchanged by cable or wirelessly. The latter creates a
+                                                                certain amount of radio ‘noise’ which can be detected or
+                                                                                                                                 Electronics
+It has an integral, rechargeable battery which provides
+six hours of continuous illumination.                           jammed, so military HUDs normally use fibre-optic cable.
+
+
+ Item         TL Effect                          Kg Cost        Item         TL      Effect                     Kg      Cost
+ Infrared   7        Infrared-emitting 6 hour    —    Cr50      Personal     9       HUD for one                —       Cr1500
+ Flashlight          rechargeable light                         HUD                  calibrated device
+
+
+Infrared Flashlight
+
+
+
+
+                                      Infrared Goggles                     Light Intensifier Goggles
+
+
+
+                                                                                                                                 75
+

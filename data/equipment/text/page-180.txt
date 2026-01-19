@@ -1,0 +1,50 @@
+WEAPON              TL RANGE DAMAGE COST TRAITS                   PISTOL RIFLE SHOTGUN HEAVY
+Aerosol             7    —      —         x3    Blast 12          —     —     —          
+APDS                5    +10%   -1 per    x5    AP X              —          —          
+                                dice
+Armour Piercing     4    —      —         x4    AP X                                  
+Baton               5    -25%   Stun/     x2    Stun (50%)                            
+                                Regular
+Bomblet             7    —      3D        x4    Blast 20          —     —     —          
+Canister            3    20     4D        x2    Blast 20          —     —     —          
+Chemical            5    —      Special   x5    Blast 12          —     —     —          
+Concussion          7    —      4D        x1    Stun              —     —     —          
+Directed Plasma 15 —            +1D       x10   AP x3, Blast 0    —     —               
+                    16 —        +1D       x10   AP x3, Blast 0              —          —
+Electromagnetic     9    —      None      x10   Blast 20          —     —     —          
+Pulse
+Extended Range 7         +25%   -1D       x3    —                           —          
+Flare               4    —      None      x1    Blast 100         —     —     —          
+Foam                9    —      Special   x5    —                 —     —     —          
+                    11   —      Special   x5    —                 —     —               
+Fragmentation       6    —      4D        x1    Blast x2          —     —     —          
+Fuel-air            7    —      1DD       x8    Blast x3          —     —     —          
+Guided              7    —      —         x6    Smart             —     —     —          
+                    10 —        —         x6    Smart                       —          
+HEAP                5    -25%   +1D       x8    AP Special        —     —     —          
+Incendiary          8    —      —         x3    Blast X, Fire                         
+Net                 8    -50%   Special   x3    Blast x0.5        —     —     —          
+Neurotoxin          5    —      Special   x10   Blast 12          —     —     —          
+Nuclear             6    —      6DD       x20   Blast 500,        —     —     —          
+                                                Radiation
+Plasma              15 —        +1D       x10   AP x2, Blast x2   —     —               
+                    16 —        +1D       x10   AP x2, Blast x2                       
+
+
+
+
+                                                                                                Specialised Ammunition
+Smoke               4    —      None      x1    Blast 12          —     —     —          
+Solid Shot          5    -25%   —         x2    AP X                                  
+Thermal Smoke       7    —      —         x2    Blast 12          —     —     —          
+
+
+
+
+           Armour Piercing                      HEAP                        Incendiary
+
+
+
+
+                                                                                               179
+

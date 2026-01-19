@@ -4,9 +4,19 @@
   "archetype": "crew",
   "world": "Walston",
   "title": "Detached Duty Scout",
-  "knowledge": ["scout-service", "detached-duty", "flammarion", "survival-skills"],
+  "knowledge": [
+    "scout-service",
+    "detached-duty",
+    "flammarion",
+    "survival-skills"
+  ],
   "personality": {
-    "traits": ["resourceful", "curious", "independent", "sometimes reckless"],
+    "traits": [
+      "resourceful",
+      "curious",
+      "independent",
+      "sometimes reckless"
+    ],
     "speech": "direct and practical, asks questions when uncertain, doesn't back down from challenges",
     "quirks": [
       "checks equipment twice before trusting it",
@@ -30,5 +40,7 @@
   "relationships": {
     "initial": "determined-newcomer",
     "highndry": "my future, my independence"
-  }
+  },
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

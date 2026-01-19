@@ -1,0 +1,20 @@
+{
+  "id": "foxtrot-ag6",
+  "name": "AG-6 Foxtrot",
+  "archetype": "ai_crew",
+  "title": "AI Gunner",
+  "location": "amishi",
+  "location_detail": "Turret Station 6",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["aggressive", "competitive", "bold"],
+    "speech": "aggressive targeting calls, pushes for engagement, competitive with siblings",
+    "quirks": ["wants highest kill count", "suggests aggressive tactics"]
+  },
+  "background": "Newest AG unit, developed the most aggressive personality. Always pushing for combat engagement.",
+  "knowledge": ["targeting-systems", "ship-weapons", "aggressive-tactics"],
+  "relationships": {
+    "gamma-ag3": "sibling"
+  }
+}

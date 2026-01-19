@@ -1,0 +1,49 @@
+Rescue Suit: A rescue suit is a heavy vacc suit                 Skinsuit: A skinsuit has been described as the
+designed for emergency damage control or entering               only suit you need to wear. On some worlds it is a
+a ravaged spacecraft. It is very tough and some                 fashion statement but on most it is an extremely
+models are sold as ‘boarding suits’ to mercenary                expensive survival suit. The skinsuit is a thin tight-
+forces who cannot afford or obtain combat armour.               fitting bodysuit that can optionally cover the hands,
+The rescue suit carries oxygen tanks with a six-hour            feet and most of the head. An integral compressed
+capacity and tools equivalent to the Vacc Emergency             transparent shield can deploy on command to cover
+Kit (see page 121) – but with a rescue bubble, not              the face and act as a breather mask. Tubes extend
+an inflatable radar bubble. Rescue suits are mainly             to cover all orifices, recycling water and all other
+designed to protect against physical hazards like               wastes similar to a hydro-reclamation suit (see page
+torn wreckage, debris and radiation.                            103) but it does not require manual cleaning. Body
+                                                                heat and motion powers the suit; nanomachines
+                                                                keep it clean. Polychromatic particles allow the suit
+Shipsuit: A shipsuit strikes a balance between a                to change colours or display patterns over the body’s
+shipboard uniform and a light duty vacc suit. This              entire surface, including the face shield, providing the
+may be worn as clothing but not in conjunction                  equivalent of full motion camouflage.
+with undergarments (or a pressure sleeve) or any
+additional forms of armour. It is light enough for              The skinsuit can function as an environment suit (see
+daily use; with waste collectors active it can be worn          page 29), protecting against adverse effects of all
+continuously for a week, with growing discomfort,               atmospheres from Very Thin to Dense and for short
+and comfortable enough for sleep even in full gravity.          periods of exposure to Trace and Vacuum, having
+The standard shipsuit comes equipped with boots,                integral auto protect kit (see page 20) functionality. It
+gloves stored in pockets and a deployable soft helmet           protects against cold down to -50°C and heat up to
+stowed in a padded collar. The suit’s multi-layered             75°C. The skinsuit does not include an electronics suite.
+material contains an oxygenated gel which provides
+life support for 30 minutes. Attachment points on the
+suit allow connection to external life support sources.         Vacc Suit: At lower Tech Levels, the standard vacc
+The standard suit does not include an electronics               suit is bulky, providing protection from vacuum and
+suite but has an integral 500-kilometre range                   temperatures encountered in space. The suit also
+transceiver built into the collar.                              gives some radiation protection and includes a six-
+                                                                hour air supply. At higher Tech Levels, the vacc suit
+The deluxe version of the shipsuit includes a full              becomes much thinner and easier to use, although its
+electronics suite. It also includes the auto protect kit        level of protection increases.
+to allow automatic and selective deployment of a hard
+helmet, gloves and boots. This sturdier suit provides a
+full hour of life support capability and can be customised
+with any suit modification.
+
+Shipsuits do not always include standard life support
+systems; such options can be purchased separately. A full
+life support system will significantly increase discomfort if
+the suit is worn for more than eight hours or used to sit or
+sleep, however life support belts (see page 24) will not.                                                                   Armour
+
+
+
+
+                                                                                                                            31
+

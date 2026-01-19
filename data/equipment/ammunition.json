@@ -1,0 +1,350 @@
+[
+  {
+    "name": "Aerosol",
+    "category": "ammunition",
+    "tl": 7,
+    "range": "—",
+    "damage": "—",
+    "cost": 3,
+    "traits": [
+      "Blast 12"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "APDS",
+    "category": "ammunition",
+    "tl": 5,
+    "range": "+10%",
+    "damage": "-1 per dice",
+    "cost": 5,
+    "traits": [
+      "AP X"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Armour Piercing",
+    "category": "ammunition",
+    "tl": 4,
+    "range": "—",
+    "damage": "—",
+    "cost": 4,
+    "traits": [
+      "AP X"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Baton",
+    "category": "ammunition",
+    "tl": 5,
+    "range": "-25%",
+    "damage": "Stun/Regular",
+    "cost": 2,
+    "traits": [
+      "Stun (50%)"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Bomblet",
+    "category": "ammunition",
+    "tl": 7,
+    "range": "—",
+    "damage": "3D",
+    "cost": 4,
+    "traits": [
+      "Blast 20"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Canister",
+    "category": "ammunition",
+    "tl": 3,
+    "range": 20,
+    "damage": "4D",
+    "cost": 2,
+    "traits": [
+      "Blast 20"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Chemical",
+    "category": "ammunition",
+    "tl": 5,
+    "range": "—",
+    "damage": "Special",
+    "cost": 5,
+    "traits": [
+      "Blast 12"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Concussion",
+    "category": "ammunition",
+    "tl": 7,
+    "range": "—",
+    "damage": "4D",
+    "cost": 1,
+    "traits": [
+      "Stun"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Directed Plasma",
+    "category": "ammunition",
+    "tl": 15,
+    "range": "—",
+    "damage": "+1D",
+    "cost": 10,
+    "traits": [
+      "AP x3",
+      "Blast 0"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Directed Plasma",
+    "category": "ammunition",
+    "tl": 16,
+    "range": "—",
+    "damage": "+1D",
+    "cost": 10,
+    "traits": [
+      "AP x3",
+      "Blast 0"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Electromagnetic Pulse",
+    "category": "ammunition",
+    "tl": 9,
+    "range": "—",
+    "damage": "None",
+    "cost": 10,
+    "traits": [
+      "Blast 20"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Extended Range",
+    "category": "ammunition",
+    "tl": 7,
+    "range": "+25%",
+    "damage": "-1D",
+    "cost": 3,
+    "traits": [],
+    "source_page": 180
+  },
+  {
+    "name": "Flare",
+    "category": "ammunition",
+    "tl": 4,
+    "range": "—",
+    "damage": "None",
+    "cost": 1,
+    "traits": [
+      "Blast 100"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Foam",
+    "category": "ammunition",
+    "tl": 9,
+    "range": "—",
+    "damage": "Special",
+    "cost": 5,
+    "traits": [],
+    "source_page": 180
+  },
+  {
+    "name": "Foam",
+    "category": "ammunition",
+    "tl": 11,
+    "range": "—",
+    "damage": "Special",
+    "cost": 5,
+    "traits": [],
+    "source_page": 180
+  },
+  {
+    "name": "Fragmentation",
+    "category": "ammunition",
+    "tl": 6,
+    "range": "—",
+    "damage": "4D",
+    "cost": 1,
+    "traits": [
+      "Blast x2"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Fuel-air",
+    "category": "ammunition",
+    "tl": 7,
+    "range": "—",
+    "damage": "1DD",
+    "cost": 8,
+    "traits": [
+      "Blast x3"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Guided",
+    "category": "ammunition",
+    "tl": 7,
+    "range": "—",
+    "damage": "—",
+    "cost": 6,
+    "traits": [
+      "Smart"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Guided",
+    "category": "ammunition",
+    "tl": 10,
+    "range": "—",
+    "damage": "—",
+    "cost": 6,
+    "traits": [
+      "Smart"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "HEAP",
+    "category": "ammunition",
+    "tl": 5,
+    "range": "-25%",
+    "damage": "+1D",
+    "cost": 8,
+    "traits": [
+      "AP Special"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Incendiary",
+    "category": "ammunition",
+    "tl": 8,
+    "range": "—",
+    "damage": "—",
+    "cost": 3,
+    "traits": [
+      "Blast X",
+      "Fire"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Net",
+    "category": "ammunition",
+    "tl": 8,
+    "range": "-50%",
+    "damage": "Special",
+    "cost": 3,
+    "traits": [
+      "Blast x0.5"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Neurotoxin",
+    "category": "ammunition",
+    "tl": 5,
+    "range": "—",
+    "damage": "Special",
+    "cost": 10,
+    "traits": [
+      "Blast 12"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Nuclear",
+    "category": "ammunition",
+    "tl": 6,
+    "range": "—",
+    "damage": "6DD",
+    "cost": 20,
+    "traits": [
+      "Blast 500",
+      "Radiation"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Plasma",
+    "category": "ammunition",
+    "tl": 15,
+    "range": "—",
+    "damage": "+1D",
+    "cost": 10,
+    "traits": [
+      "AP x2",
+      "Blast x2"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Plasma",
+    "category": "ammunition",
+    "tl": 16,
+    "range": "—",
+    "damage": "+1D",
+    "cost": 10,
+    "traits": [
+      "AP x2",
+      "Blast x2"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Smoke",
+    "category": "ammunition",
+    "tl": 4,
+    "range": "—",
+    "damage": "None",
+    "cost": 1,
+    "traits": [
+      "Blast 12"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Solid Shot",
+    "category": "ammunition",
+    "tl": 5,
+    "range": "-25%",
+    "damage": "—",
+    "cost": 2,
+    "traits": [
+      "AP X"
+    ],
+    "source_page": 180
+  },
+  {
+    "name": "Thermal Smoke",
+    "category": "ammunition",
+    "tl": 7,
+    "range": "—",
+    "damage": "—",
+    "cost": 2,
+    "traits": [
+      "Blast 12"
+    ],
+    "source_page": 180
+  }
+]

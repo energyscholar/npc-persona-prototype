@@ -1,0 +1,69 @@
+                                                              INTRUSION
+                                                              Intrusion software is designed to break through
+                                                              Security packages, allowing users to gain access to
+                                                              computers that would otherwise be off limits. Because
+                                                              of this, Intrusion software is illegal on many worlds
+                                                              (typically any worlds of Law Level 4+). Intrusion grants
+                                                              a DM equal to its Bandwidth to all checks made to
+                                                              electronically hack into a computer. Intrusion can be
+                                                              used in conjunction with an Agent package or by a
+                                                              Traveller using Electronics (computers) skill.
+INTELLECT
+An Intellect software package is similar to the more          Software           Bandwidth          TL    Cost
+primitive Agent, with more advanced intelligence, able        Intrusion/1        1                  10    Cr1000
+to communicate normally with a Traveller and run an           Intrusion/2        2                  11    Cr10000
+assigned Expert package. It can simultaneously run
+                                                              Intrusion/3        3                  13    Cr100000
+any Expert package and a number of Expert packages
+equal to the Bandwidth remaining after subtracting that       Intrusion/4        4                  15    MCr1
+required for Intellect. Intellect is required for unskilled
+Travellers to use an Expert package.                          PERSONAL TRAINER
+                                                              Often a modified Digital Friend package, the Personal
+Software             Bandwidth          TL   Cost             Trainer is intended to aid the education of a Traveller.
+Intellect/1          1                  12   Cr2000           Its use grants DM+1 to all checks made to gain or
+                                                              improve skills during post-career education (see
+Intellect/2          2                  13   Cr50000
+                                                              Traveller Core Rulebook page 55) but a new package
+Intellect/3          3                  14   Cr200000         must be purchased for each new skill being studied.
+
+INTELLIGENT INTERFACE                                         Software            Bandwidth          TL   Cost
+The Intelligent Interface package features an artificial      Personal Trainer    1                  11   Cr2000
+intelligence which allows a computer to report data
+and receive commands as if it were a sentient being.
+Those familiar with Intelligent Interfaces will quickly       SECURITY
+recognise its presence but a more primitive Traveller         The purpose of a Security package is to defend
+could be fooled into thinking it is a living intelligence.    against hackers and other intrusion attempts, providing
+Intelligent Interface is required for a Traveller with at     an effective firewall to keep the computer safe from
+least skill 0 to receive DM+1 when using an Expert            interference. The ability of Security to defend itself
+software package; it does not allow an unskilled              is represented by the difficulty of the Electronics
+Traveller to benefit from an Expert package.                  (computers) check required to bypass it, which improves
+
+
+
+
+                                                                                                                           Computers and software
+                                                              with the complexity of the Security package. Security/0 is
+                                                              installed freely upon most computers upon purchase.
+Software                    Bandwidth   TL   Cost
+Intelligent Interface       1           11   Cr100
+                                                                                         Intrusion
+INTERFACE                                                     Software      Bandwidth TL Difficulty          Cost
+An Interface package is usually required for interaction      Security/0 0               8    Average        Cr0
+with a computer, as it provides the ability to display                                        (8+)
+data upon a screen, over audio or some other medium.          Security/1 1               10   Difficult      Cr200
+The lack of Interface does not restrict the abilities of a                                    (10+)
+computer – only how it can communicate with users.
+                                                              Security/2 2               11   Very Difficult Cr1000
+Interface is installed freely on most computers upon
+                                                                                              (12+)
+purchase and does not prevent Computer/0 devices
+from running one additional Bandwidth 0 program.              Security/3 3               12   Formidable     Cr20000
+                                                                                              (14+)
+Software                Bandwidth       TL   Cost
+Interface               0               7    Cr0
+
+
+
+
+                                                                                                                           71
+

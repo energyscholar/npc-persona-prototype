@@ -1,0 +1,58 @@
+Item                                TL    Effect                                                 Kg       Cost
+Additional Blank Module             8     Module capable of supporting 2 persons                 1,000    Cr5000
+Additional Power Module             8     Hydrocarbon, supports itself + up to 4 modules         2,000    Cr15000
+Additional Power Module             10    Fusion Plus, supports itself + up to 4 modules         2,000    Cr60000
+ Corrosive protection               8     Per module: Corrosive, extreme temperature             —        Cr100000
+ Foam Protection                    8     Per module: Micrometeorite and weather                 10       Cr1000
+ Life Support, short term           8     Per module: 1 week for 2 persons                       —        Cr20000
+ Life Support, long term            8     Per module: 90 days for 2 persons                      —        Cr100000
+ Life Support supplies              8     Per module per period                                  50       Cr1000
+ Power Cell Backup, Basic           8     24 hour support for 5 modules                          720      Cr40000
+ Power Cell Backup, Improved        10    24 hour support for 5 modules                          288      Cr24000
+
+
+While airtight and pressurised, the advanced base               HABITAT MODULE
+modules do not include life support options by default.         Modular unpressurised quarters for six people,
+They will protect against atmospheric Taint and Very Thin       capable of withstanding anything less than hurricane-
+atmospheres (using compressors) and insulate against            force winds. It includes 42 person-days of survival
+temperatures from 200°C to -200°C. A module can add             rations, potable water and power cells to maintain
+short- or long-term life support capability to support          minimal lighting and temperature control for one day.
+Vacuum, Trace and Exotic atmospheres. These options             Connections to external power sources are available.
+include a small collapsible airlock foyer. Advanced base        Quarters are tight, with three bunks, a mini-galley
+modules are not constructed to support artificial gravity, as   and a very small fresher. The module requires 12
+this would require greater power and structural elements.       person-hours to assemble. It will protect against
+                                                                Tainted atmospheres and temperatures extremes
+Short term (one week) life support for two persons adds         ranging from +/- 50°C.
+Cr20000 to the cost of a module. Long term life support
+includes closed loop systems to recycle air, water              Habitat modules can be attached to other modules
+and waste for up to 90 days without replenishment at            to form a base. As a stand-alone module, these
+a cost of Cr100000 per module. Replenishment and                quarters are intended for short-duration stays and as
+maintenance at the end of each life support duration            emergency accommodations. Longer-term activities
+requires Cr1000 and 50 kilograms in replenishment               or those requiring room to do anything other than
+supplies per module.                                            sleep, eat and shelter in place should consider using
+                                                                an advanced base.
+Adding support for Corrosive environments or extremes
+of temperature (beyond +/- 200°C) costs an additional           The TL10 version is pressurised and includes life-
+Cr100000. A life support option is a prerequisite for           support for six occupants for one week (1,000 person-
+this level of protection and modules operating in such          hours) and benefits from a collapsible emergency
+environments should at least double their power                 airlock. It adds protection against Vacuum, Trace,
+supply to maintain habitability. Modules are generally          Very Thin and Exotic atmospheres and temperatures
+
+                                                                                                                         Survival gear
+not constructed to survive Insidious atmospheres                extremes from +/- 100°C. External power sources
+– those environments usually require underground                are necessary to provide life support beyond one day
+accommodations or active measures. Note that                    even in relatively benign temperature environments.
+hydrocarbon generators normally require atmospheric             The walls of a habitat module provide Protection +2
+oxygen to function, although specialised alternatives           against external damage.
+may be available for certain Exotic atmospheres.
+
+
+Habitat Module               TL     Effect                                                      Kg       Cost
+Basic                        8      Shelter habitat up to 6 persons + week supplies             1,000    Cr10000
+Improved                     10     +Short-term life support                                    500      Cr20000
+
+
+
+
+                                                                                                                        123
+

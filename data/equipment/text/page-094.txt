@@ -1,0 +1,64 @@
+COMBAT DRUG                                                   Taking multiple doses of G-tolerance drugs in either
+Combat drugs enhance reaction times and improve a             form will increase their benefits but each additive dose
+body’s responses to trauma. Users of combat drugs             risks causing a burst blood vessel or the tearing of
+gain DM+4 to all initiative rolls. They also gain a free      muscles. For each dose beyond the first, the user must
+Reaction every round with no penalty applied and              make an immediate Simple (2+) END check with a
+reduce all damage sustained by -2 points per attack.          negative DM equal to all doses taken within the hour.
+The drug kicks in around 18 seconds (three rounds)            Negative Effects are applied as damage and this check
+after injection and lasts for around 10 minutes. When         must be performed every time another dose is taken
+the drug wears off, the user is Fatigued (see the             until no drug remains in the user’s system.
+Traveller Core Rulebook, page 80).
+                                                              Item             TL Effect                    Kg Cost
+Item       TL Effect                        Kg Cost           G-Tolerance      9    Negates effect          —    Cr20
+Combat 10       DM+4 to initiative, free    —     Cr1000      Drug Patch            of +1G, speeds
+Drug            Reaction, -2 damage                                                 acclimation
+                                                              G-Tolerance    9      Negates effect          —    Cr100
+FAST DRUG                                                     Drug Injection        of +1G, speeds
+Also called Hibernation, this drug puts the user into                               acclimation
+a state akin to suspended animation, slowing their            G-Tolerance      10 voice or radio            —    Cr500
+metabolic rate down to a ratio of 60:1 – a subjective         Drug Auto-          activated for up to
+day for the user is actually two months. Fast Drug            Injector            20 doses
+is normally used to prolong life support reserves or
+as a cheap substitute for a cryoberth. An antidote            INHIBITOR DRUG
+is available for the same cost. Both the drug and             Psionic inhibitors dampen the brain’s ability to
+its antidote take effect nearly immediately – in the          generate psychic effects. A user who takes (or, more
+combat round following administration – although              often, is forcibly injected with) an inhibitor drug suffers
+fully awakening from the drug’s effects can take a            DM-2 to all PSI-related checks and cannot regain PSI
+few (1D) hours, during which time the user’s physical         points. Each hour, the user may make an END check
+characteristics increase from 1 to their normal (or           to throw off the effects of the drug. Inhibitor drugs
+wound-adjusted) level at a steady rate.                       have no effect on non-psionic individuals.
+
+Item         TL Effect                        Kg Cost         Item       TL    Effect                       Kg   Cost
+Fast Drug 10 Hibernation: slows               —    Cr200      Inhibitor 9      DM-2 to PSI checks and       —    Cr500
+             metabolism by 60:1                               Drug             no regaining of points
+
+G-TOLERANCE DRUG
+A G-tolerance drug has two uses: increasing a body’s          MEDICINAL DRUGS
+
+
+
+
+                                                                                                                            Medical and Care Supplies
+ability to withstand uncompensated high-G manoeuvres          Includes vaccines, antitoxins and antibiotics. They
+for relatively short periods and aiding in acclimation to     range in cost from Cr5 to several thousand Credits,
+high-gravity worlds. The long-acting acclimation version      depending on the rarity and complexity. Medicinal
+comes in a patch and will provide a full day of tolerance     drugs require the Medic skill to use properly – using the
+to environments up to 2G. Each dose advances                  wrong drug can be worse than doing nothing.
+acclimation by a further day, allowing long-time use of
+these patches to alleviate the need to continue them in       Item          TL Effect                        Kg Cost
+half the time a user would typically need for acclimation.    Medicinal 5+ Treat specific disease or         —    Cr5+
+                                                              Drug         condition
+The short-term injectable version increases G-tolerance
+by one G for one hour. This effect is instantaneous and
+will stack with the benefits of a G-suit (see page 106) for
+tolerating high-G manoeuvres. A voice or radio activated
+auto-injector (Cr500) for up to 20 doses (sold separately)
+of this drug is often built into seats of vehicles expected
+to engage in such manoeuvres and is often available to
+G-suits or hostile environment vacc suits.
+
+
+
+
+                                                                                                                            93
+

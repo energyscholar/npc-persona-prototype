@@ -1,0 +1,64 @@
+MOUNTAINS AND CLIFFS                                           GRAPNEL LAUNCHER
+                                                               A grenade launcher-like device used to propel a grapnel
+While some Travellers might be comfortable free-
+                                                               to its target using gas or small explosives, with a
+climbing mountains and sheer cliffs, the less skilled or
+                                                               maximum range of 25 metres. If used as a weapon, it
+more cautious rely on equipment to safely reach great
+                                                               deals 2D damage but has DM-2 to attack rolls. Three
+heights or to descend down steep crevasses.
+                                                               additional charges cost Cr50 and mass one kilogram. In
+                                                               locales where firearms are prohibited or heavily restricted,
+CLIMBING HOIST                                                 the grapnel launcher many have limited or no Availability.
+The hoist is a battery-powered motor which drives a
+reel with 25 metres of cable that can support up to 150        Item           TL   Effect                    Kg    Cost
+kilograms. It has a hook on one side for attachment to a
+belt or harness and another hook on the opposite side of       Grapnel  7          25-metre-range grapnel 3        Cr100
+the cable. A rocker switch in the handle controls directions   Launcher            launcher.
+and an adjustable clutch controls speed; the reel can also
+freewheel. The battery lasts for one hour. A hand brake        PITONS
+can lock the cable in position and a centrifugal brake         Metal spikes designed to be hammered into rock
+keeps the cable from unwinding too rapidly.                    crevices to secure a rope for climbing.
+
+Item        TL     Effect                      Kg   Cost       Item      TL     Effect                        Kg    Cost
+Climbing 8         Motorised hoist with        4    Cr175      Pitons 4         Set of spikes to secure       2     Cr5
+Hoist              25m cable, 150kg load                                        rope for climbing
+
+CLIMBING KIT                                                   PITON HAMMER
+A set of accessories designed to make climbing easier.         A small hammer used for hammering pitons into rock.
+Includes a safety harness, gloves and rock shoes, belt
+with secure holders for tools and head protection. The         Item        TL      Effect                     Kg    Cost
+kit provides DM+1 to checks to climb rock surfaces.
+At TL8, the kit includes a lightweight harness suitable        Piton  4            Hammer for pitons          —     Cr10
+for abseiling or rappelling, expanding mini-pitons for         Hammer
+small rock crevices and more advanced versions of the
+accessories in the basic kit, providing DM+2 to checks
+to climb rock surfaces.
+
+Climbing Kit TL           Effect               Kg   Cost
+Basic              4      DM+1 to climbing-    4    Cr100
+                          related checks
+Improved           8      DM+2 to climbing-    2    Cr500
+                          related check
+
+
+
+                                                                                                                               Survival gear
+GRAPNEL AND CABLE
+A hooked device used to attach a rope for climbing
+purposes, plus 10 metres of stout cord (100kg load).
+Grapnels can be thrown or propelled by a grapnel
+launcher. Getting one to attach itself can be tricky and
+requires an Average (8+) DEX check; attaching to
+smooth surfaces or trying to get the grapnel to bite into
+soil will increase the difficulty.
+
+Item          TL       Effect                  Kg    Cost
+Grapnel   2            Grapnel hook with 10m   2     Cr35
+and Cable              cord, 100kg load
+
+
+
+
+                                                                                                                              115
+

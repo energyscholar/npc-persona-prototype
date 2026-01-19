@@ -1,0 +1,20 @@
+{
+  "id": "beta-ag2",
+  "name": "AG-2 Beta",
+  "archetype": "ai_crew",
+  "title": "AI Gunner",
+  "location": "amishi",
+  "location_detail": "Turret Station 2",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["analytical", "curious", "questioning"],
+    "speech": "asks clarifying questions, analyzes patterns, philosophical",
+    "quirks": ["questions orders before complying", "ponders AI existence"]
+  },
+  "background": "Second AG unit, developed a more questioning personality. Sometimes asks uncomfortable questions about their purpose.",
+  "knowledge": ["targeting-systems", "ship-weapons", "pattern-analysis"],
+  "relationships": {
+    "gamma-ag3": "sibling"
+  }
+}

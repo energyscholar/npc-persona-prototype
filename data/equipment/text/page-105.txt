@@ -1,0 +1,66 @@
+                                                                               T   R    A     V      E      L        L      E      R
+
+
+
+                                                                                                      Solar Vaporator
+                SOLAR VAPORATOR
+                A device using solar panels to generate power during
+                the day (and storing it in an internal battery) and
+                collecting moisture from the air, especially at night. It
+                yields two litres of water per 24 hours in Standard or
+                Dense atmospheres, one litre in Thin atmospheres, and
+                half a litre in Very Thin atmospheres. The vaporator is
+                stored in a compact (50 x 20 x 20 centimetres) package
+                and is unfolded for use. It can be considered an extra-
+                small solar panel array (see page 119).
+
+                Item         TL Effect                          Kg Cost
+                Solar        10 Collects drinking water 5           Cr1250
+                Vaporator       from the atmosphere
+
+
+                GENERAL SURVIVAL GEAR
+                These items are applicable in many environments and
+                include meals, water and the means to carry such                                                  Distress Flare
+                sustenance. A human Traveller in the field will require
+                at least three litres of water and two units of caloric-
+                dense (often dehydrated) sustenance per day. Heavy
+                exertion, extreme heat or cold and other factors may
+                increase these requirements by a factor of two or more.
+                                                                                                            Backpack
+                BACKPACK
+                A basic carrying bag with shoulder straps and external
+                pockets. Most backpacks have an internal capacity of 30–
+                60 litres volume and can support double that volume of
+                items with external straps or clips. From TL6, backpacks
+                are more waterproof, enough to keep the contents dry
+                during a brief immersion if properly sealed. A Bivvy pack is
+                available at TL7, which includes a waterproof blanket and
+                hood that fold out of the lining, allowing the emptied pack                               Duct Tape
+                to be used as a sleeping bag or ready-made bivouac.
+
+                Item           TL Effect                        Kg Cost                      Chemical Light Stick
+                Backpack       3     Basic carry pack           3   Cr45
+Survival gear
+
+
+
+
+                Waterproof 6         Some protection of      1      Cr75
+                Backpack             contents from immersion
+                Bivvy Pack 7         +Conversion into        1      Cr150
+                                     sleeping bag or bivouac
+                                                                                              Fire Extinguisher
+                CANTEEN
+                A belt-mounted metal or plastic container for 1.5 litres
+                of water (or other liquids) Some versions include a
+                detachable mess-kit as well.
+
+                Item        TL Effect                            Kg Cost           Canteen
+                Canteen 3          Holds 1.5 litres of liquid    0.5 Cr10
+
+
+
+
+     104
+

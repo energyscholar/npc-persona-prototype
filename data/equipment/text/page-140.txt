@@ -1,0 +1,48 @@
+                                                     MONOFILAMENT GARROTTE
+                                                     A piece of monofilament wire which spools from two
+                                                     handles. It attacks as a standard garrotte but causes
+                                                     3D damage on consecutive rounds, often decapitating
+                                                     the victim. Mishaps can cause harm to the wielder,
+                                                     accidently severing a hand or worse.
+
+                                                     PISTON FIST
+                                                     This heavy metal forearm brace has a built-in
+                                                     pneumatic ram that activates whenever the wielder
+                                                     makes a quick punching motion. Driven forward under
+                                                     great pressure, it has the potential to punch through
+                                                     solid walls. The wielder’s STR DM is never added to
+                                    Claw Glove       the damage caused by this weapon.
+
+                                                     STUNFIST
+                                                     A stunfist is a high-technology knuckleduster containing
+                                                     a shock unit (along with insulation for the wearer) that
+                                                     incapacitates the victim rather than pummels them.
+
+
+
+
+                      Piston Fist
+
+
+
+                                                              Stunfist
+
+
+WEAPON                        TL    RANGE   DAMAGE      KG       COST           TRAITS
+Brass Knuckles                1     Melee   1D+2        —        Cr10           —
+Claw Glove (hardened)         10    Melee   1D+2        —        Cr1000         AP 2                             Weaponry
+Claw Glove (edging)           11    Melee   2D+2        —        Cr3000         AP 4
+Claw Glove (monofilament)     12    Melee   3D          —        Cr5000         AP 10
+Claw Glove (arc-field)        14    Melee   4D          —        Cr25000        AP 30
+Garrotte                      0     Melee   2D          —        Cr10           —
+Handspikes                    2     Melee   2D          —        Cr100          —
+Knuckleblasters               8     Melee   5D          0.5      Cr150          —
+Monofilament Garrotte         12    Melee   3D          —        Cr1000         AP 10, Dangerous
+Piston Fist                   9     Melee   3D+2        0.5      Cr150          —
+Stunfist                      8     Melee   1D+2        —        Cr250          Stun
+
+
+
+
+                                                                                                                139
+

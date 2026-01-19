@@ -1,0 +1,48 @@
+                                                                      T        R       A    V      E     L     L       E     R
+
+
+
+
+           NET
+           This is a large net, usually with weights fastened
+           to its extremities. It is thrown over a target with the
+           intention of entangling them. A person hit by a net
+           does not sustain any damage. Instead, they must
+           make a Melee (unarmed) check opposed by the                                                       Sling
+           Athletics (dexterity) check of the attacker, as if being
+           grappled. If failed, the defender is immobilised. The
+           defender can escape the net by making a successful
+           Average (8+) DEX check (1D rounds).
+
+           SLING                                                              Boomerang
+           A projectile weapon which propels small stones or metal
+           bullets using rotational energy. Slings are powerful but
+           require a certain amount of skill to use effectively.
+
+
+
+
+                                               Bolas
+
+
+                                                                  Monofilament Bolas
+Weaponry
+
+
+
+
+                            Net                                                                   Monofilament Net
+
+           WEAPON                  TL RANGE DAMAGE KG COST                         MAGAZINE MAGAZINE COST TRAITS
+           Bolas                   0    10        —           1       Cr5          1        —                Silent
+           Boomerang               0    25        1D          1       Cr5          1        —                Silent
+           Monofilament Bolas      12 10          3D          1       Cr500        1        —                AP 10, Silent
+           Monofilament Net        12 5           Special     1       Cr1000       1        —                AP 10, Silent
+           Net                     1    5         —           1       Cr10         1        —                Silent
+           Sling                   0    100       2D-2        —       Cr10         1        Cr1              Silent
+
+
+
+
+   156
+

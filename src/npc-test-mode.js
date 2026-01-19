@@ -5,7 +5,8 @@
  * Allows testing NPC behavior across channels, contexts, and flag states
  */
 
-const { listPersonas, loadPersona, getPersonaSummary } = require('./persona');
+const { listPersonas, listPersonasByCampaign, loadPersona, getPersonaSummary } = require('./persona');
+const { getContextsForNpc, contextsToMenuOptions, DEFAULT_CONTEXTS } = require('./campaign-contexts');
 const { loadPC, listPCs } = require('./pc-roster');
 const { createMemory, addMessage, serialize, deserialize } = require('./memory');
 const { assembleFullPrompt } = require('./prompts');
@@ -339,8 +340,12 @@ Channels: in-person, radio, email, telephone, intercom
  * @param {string} world - World to filter by
  * @returns {Array} Menu options
  */
-function getNpcOptions(world = 'Walston') {
-  const npcs = listPersonas(world);
+function getNpcOptions(world = 'Walston', campaignId = null) {
+  // Use campaign filter if provided, otherwise filter by world
+  const npcs = campaignId
+    ? listPersonasByCampaign(campaignId)
+    : listPersonas(world);
+
   return npcs
     .filter(id => !id.includes('narrator')) // Exclude narrator personas
     .map((id, idx) => {
@@ -367,9 +372,21 @@ function getChannelOptions() {
 
 /**
  * Get context options for picker menu
+ * @param {string} [npcId] - Optional NPC ID for location-aware contexts
+ * @param {string} [campaignId] - Optional campaign ID
  * @returns {Array} Menu options
  */
-function getContextOptions() {
+function getContextOptions(npcId = null, campaignId = null) {
+  // If NPC specified, try to get location-aware contexts
+  if (npcId) {
+    const contexts = getContextsForNpc(npcId, campaignId);
+    // Only use location contexts if not default (i.e., NPC has a location)
+    if (contexts !== DEFAULT_CONTEXTS) {
+      return contextsToMenuOptions(contexts);
+    }
+  }
+
+  // Fall back to story-beat presets for solo campaign or NPCs without location
   return Object.entries(CONTEXT_PRESETS).map(([id, preset]) => ({
     key: preset.key,
     label: preset.label,

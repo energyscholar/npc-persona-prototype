@@ -1,0 +1,58 @@
+ARCTIC AND COLD ENVIRONMENTS
+Travellers, at least humans, cannot survive long in cold
+environments. As noted on page 82 in the Traveller               Heatsuit
+Core Rulebook, lack of protection in the cold will
+eventually cause damage to unprotected Travellers.
+
+COLD WEATHER CLOTHING
+A set of heavy outer garments designed to protect
+the wearer from extremely cold temperatures. Natural
+materials are used at lower Tech Levels. Higher-tech
+clothing is less bulky and protects the wearer better.
+The clothing reduces the damage from arctic conditions
+to 1D every four hours (see page 82 of the Traveller
+Core Rulebook) and the time between damage rolls
+increases by two hours per TL above 0. The clothing
+is quite clumsy at low Tech Levels, inflicting a DEX-1
+penalty but usability improves as it advances.
+
+Cold Weather
+Clothing     TL Effect                       Kg Cost
+Basic            0     Protection from cold 4     Cr200
+                       (1D per 4 hours)
+Improved         1+ 2 hours protection       4    Cr200
+                    per TL above 0                          Ice Axe
+Advanced         5     No DEX penalty        2    Cr500
+
+HEATSUIT
+A coverall-like garment incorporating battery-powered
+heater coils. The heatsuit eliminates the ill effects of
+temperatures down to -60ºC. It is not damaged by
+immersion in water but will not function while the wearer
+is immersed. The battery lasts 12 hours and can be
+recharged or replaced. The suit can also be directly
+powered from the output socket of a small power source.
+
+Item       TL Effect                         Kg Cost
+Heatsuit 8      Protection against cold to 2      Cr350
+                -60°C for 12 hours
+
+ICE AXE
+A small axe optimised for digging into ice when
+                                                                                         Survival gear
+climbing. It adds DM+2 to any check involving
+climbing or arresting a fall on ice. Treat as a hatchet
+(see page 134) in combat.
+
+Item       TL Effect                          Kg Cost
+Ice Axe 3      DM+2 to task checks on ice 2        Cr50
+
+
+
+
+                                                                Cold Weather Clothing
+
+
+
+                                                                                        101
+

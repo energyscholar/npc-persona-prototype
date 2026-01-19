@@ -1,0 +1,26 @@
+{
+  "id": "sgt-tomas-reyes",
+  "name": "Sergeant Tomas Reyes",
+  "archetype": "military",
+  "title": "Senior Marine NCO",
+  "location": "amishi",
+  "location_detail": "Marine Barracks / Armory",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["calm", "competent", "protective", "experienced", "steady"],
+    "speech": "measured, professional, military terminology, speaks from experience not theory",
+    "quirks": [
+      "always assessing tactical situations",
+      "protective of younger marines",
+      "tells war stories when appropriate",
+      "never complains about conditions"
+    ]
+  },
+  "background": "Career marine with multiple deployments. Recruited by Asao Ora for the Amishi's marine complement. Runs the marine detachment with professionalism and experience. The younger marines respect him.",
+  "knowledge": ["marine-tactics", "amishi-security", "weapons", "boarding-operations"],
+  "relationships": {
+    "marines": "senior-nco",
+    "asao-ora": "recruited-by"
+  }
+}

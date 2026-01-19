@@ -1,0 +1,64 @@
+                                                                              T     R      A       V      E      L      L      E      R
+
+
+
+                                                                                        Binoculars
+              CHEMI-VIEW GOGGLES
+              An advanced set of goggles which attach to a wrist-linked
+              ‘sniffer’, chemi-view technology allows the user to set their
+              viewer to a specific chemical compound, protein strand
+              or elemental presence. The sniffer takes a sample and
+              locks the goggles into the proper vision mode, causing
+              the goggles to brightly any traces of that substance. This
+              item is useful for finding drugs, bombs or alien species,
+              but requires a reference sample to operate. The sniffer is
+              powerful enough to be set for specific strands of DNA, if a
+              tissue sample is made available.
+
+              Item               TL    Effect               Kg    Cost
+              Chemi-view         13    Detects specified —        Cr5000
+              Goggles                  chemical compound
+
+              COLD LIGHT LANTERN
+              A fuel cell powered version of the flashlight lasts for
+              three days of continuous use. Produces a wide cone                                              Chemi-View Goggles
+              of light up to 18 metres away with a radius of six
+              metres. Also capable of producing a tight beam of
+              light up to 36 metres with a one metre radius or be
+              used to illuminate a 10 metre radius.
+
+              Item           TL       Effect                 Kg     Cost
+              Cold Light     6        Fuel cell powered 3    0.25 Cr20
+              Lantern                 day electric torch
+
+              ELECTRONIC BINOCULARS
+              Similar to optical binoculars, electronic binoculars also
+              include a laser rangefinder and light intensification
+              function that allows vision in all conditions of poor               Geiger Counter
+              lighting except total darkness. Electronic binoculars
+              do not allow the user to see through fog, smoke or
+              thick foliage. At TL9 the binoculars include infrared
+              and thermal imaging capabilities. From TL10 they
+              incorporate an image-processing unit to help identify
+              partially hidden objects.
+Electronics
+
+
+
+
+              Electronic
+              Binoculars TL Effect                           Kg Cost
+              Basic          8        10x magnification,     1     Cr750
+                                      rangefinder, light                                                             Cold Light Lantern
+                                      intensification
+              Improved       9        +Infrared thermal      1     Cr750
+                                      imaging
+              Advanced       10 +Image processing of         1     Cr750
+                                partially seen objects
+                                                                                                       Electronic Binoculars
+
+
+
+
+      74
+

@@ -1,0 +1,59 @@
+BIO-FUSION POWER PORT                                        This genetic modification is subject to the same risks
+This cybernetic augment is a small caloric generator         of multiple adaptions as detailed for the Genetic
+built into the rib cage. Provided the Traveller consumes     Environmental Adaption augment (see page 52).
+six times the normal caloric intake daily, the power port    Genetic aquamorph augmentations are not affected by
+will produce enough energy to serve as a power source        electromagnetic attacks or detectable by electronic means.
+for an energy pistol, producing 50 shots daily.
+                                                             Augment        TL   Effect                      Cost
+Augment       TL     Effect                     Cost         Genetic   12        Amphibious adaptation       Cr30000
+Bio-fusion 13        Power source for energy Cr10000         Aquamorph           (see above)
+Power Port           pistol                                  Adaption
+
+
+CARDIOTRIGGER DETONATOR
+The cardiotrigger detonator, or ‘dead man’s bomb’,
+is not often an augmentation a Traveller will willingly
+install. Typically used by terrorist organisations, rogue
+governments and the occasional sociopath, this
+augment links a single explosive device to the heart
+rate of the Traveller. If the Traveller’s heart ever stops
+beating, the bomb will detonate 2D seconds later. The
+Tech Level and cost of the cardiotrigger detonator is
+reliant upon the type of explosive used (see page 159),
+adding +1 to the device’s Tech Level and multiplying its
+cost by 10 times the cost of the explosive charge. The
+cardiotrigger detonator is a Category 5 item in the rare
+instances when legally sanctioned.
+
+Augment         TL    Effect                     Cost
+Cardiotrigger 7+      Heart-triggered dead-      Special
+Detonator             man’s bomb
+
+GENETIC AQUAMORPH ADAPTION
+This genetic alteration transforms the
+recipient into an amphibious being, able to
+function both on land and under water indefinitely,
+with some restrictions. Aquamorphs acquire modified
+gills to allow indefinite breathing underwater to a safe
+limit of 30 metres on worlds of standard atmospheric
+pressure and gravity conditions. They can dive as
+deep as 100 metres if they take proper precautions
+against nitrogen narcosis. Modifications to body shape
+include enlarged webbed hands and feet, and denser
+body fat. Underwater, aquamorphs gain DM+2 to all                                                                         Augments
+Recon checks (and suffer DM-2 on land) and gain
+DM+2 for all checks related to swimming.
+
+Survival on land is possible as long as aquamorphs
+keep their skin moist and remain well hydrated – they
+require twice the water intake of a baseline member of
+their species – six litres per day for humans. Effective
+STR is halved while on land. Both while underwater
+and in microgravity, all aquamorphs are considered to
+have Athletics (dexterity) skill of at least 0.
+
+
+
+
+                                                                                                                          51
+

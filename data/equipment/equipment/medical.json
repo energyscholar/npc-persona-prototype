@@ -1,0 +1,326 @@
+[
+  {
+    "id": "automedikit-basic-tl10",
+    "name": "Automedikit Basic",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 21
+    },
+    "category": "medical"
+  },
+  {
+    "id": "automedikit-improved-tl11",
+    "name": "Automedikit Improved",
+    "tl": 11,
+    "cost": 7500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 21
+    },
+    "category": "medical"
+  },
+  {
+    "id": "automedikit-enhanced-tl12",
+    "name": "Automedikit Enhanced",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 21
+    },
+    "category": "medical"
+  },
+  {
+    "id": "automedikit-advanced-tl14",
+    "name": "Automedikit Advanced",
+    "tl": 14,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 21
+    },
+    "category": "medical"
+  },
+  {
+    "id": "autodoc-basic-tl13",
+    "name": "Autodoc Basic",
+    "tl": 13,
+    "cost": 100000,
+    "mass": 500,
+    "source": {
+      "book": "CSC",
+      "page": 89
+    },
+    "category": "medical"
+  },
+  {
+    "id": "autodoc-improved-tl14",
+    "name": "Autodoc Improved",
+    "tl": 14,
+    "cost": 1000000,
+    "mass": 500,
+    "source": {
+      "book": "CSC",
+      "page": 89
+    },
+    "category": "medical"
+  },
+  {
+    "id": "autodoc-advanced-tl15",
+    "name": "Autodoc Advanced",
+    "tl": 15,
+    "cost": 3000000,
+    "mass": 500,
+    "source": {
+      "book": "CSC",
+      "page": 89
+    },
+    "category": "medical"
+  },
+  {
+    "id": "first-aid-kit-basic-tl2",
+    "name": "First Aid Kit Basic",
+    "tl": 2,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 91
+    },
+    "category": "medical"
+  },
+  {
+    "id": "first-aid-kit-improved-tl5",
+    "name": "First Aid Kit Improved",
+    "tl": 5,
+    "cost": 125,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 91
+    },
+    "category": "medical"
+  },
+  {
+    "id": "medikit-basic-tl8",
+    "name": "Medikit Basic",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 91
+    },
+    "category": "medical"
+  },
+  {
+    "id": "medikit-improved-tl10",
+    "name": "Medikit Improved",
+    "tl": 10,
+    "cost": 1500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 91
+    },
+    "category": "medical"
+  },
+  {
+    "id": "medikit-enhanced-tl12",
+    "name": "Medikit Enhanced",
+    "tl": 12,
+    "cost": 5000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 91
+    },
+    "category": "medical"
+  },
+  {
+    "id": "medikit-advanced-tl14",
+    "name": "Medikit Advanced",
+    "tl": 14,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 91
+    },
+    "category": "medical"
+  },
+  {
+    "id": "combat-drug-tl10",
+    "name": "Combat Drug",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 94
+    },
+    "category": "medical"
+  },
+  {
+    "id": "fast-drug-tl10",
+    "name": "Fast Drug",
+    "tl": 10,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 94
+    },
+    "category": "medical"
+  },
+  {
+    "id": "g-tolerance-drug-patch-tl9",
+    "name": "G-Tolerance Drug Patch",
+    "tl": 9,
+    "cost": 20,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 94
+    },
+    "category": "medical"
+  },
+  {
+    "id": "g-tolerance-drug-injection-tl9",
+    "name": "G-Tolerance Drug Injection",
+    "tl": 9,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 94
+    },
+    "category": "medical"
+  },
+  {
+    "id": "g-tolerance-drug-auto-injector-tl10",
+    "name": "G-Tolerance Drug Auto-Injector",
+    "tl": 10,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 94
+    },
+    "category": "medical"
+  },
+  {
+    "id": "inhibitor-drug-tl9",
+    "name": "Inhibitor Drug",
+    "tl": 9,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 94
+    },
+    "category": "medical"
+  },
+  {
+    "id": "medicinal-drug-tl5",
+    "name": "Medicinal Drug",
+    "tl": 5,
+    "cost": 5,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 94
+    },
+    "category": "medical"
+  },
+  {
+    "id": "psi-drug-standard-tl8",
+    "name": "Psi-Drug (standard)",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 95
+    },
+    "category": "medical"
+  },
+  {
+    "id": "psi-drug-double-tl8",
+    "name": "Psi-Drug (double)",
+    "tl": 8,
+    "cost": 4000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 95
+    },
+    "category": "medical"
+  },
+  {
+    "id": "psi-drug-special-tl8",
+    "name": "Psi-Drug (special)",
+    "tl": 8,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 95
+    },
+    "category": "medical"
+  },
+  {
+    "id": "stims-tl8",
+    "name": "Stims",
+    "tl": 8,
+    "cost": 50,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 96
+    },
+    "category": "medical"
+  },
+  {
+    "id": "slow-drug-tl11",
+    "name": "Slow Drug",
+    "tl": 11,
+    "cost": 500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 96
+    },
+    "category": "medical"
+  },
+  {
+    "id": "recreational-drugs-tl1",
+    "name": "Recreational Drugs",
+    "tl": 1,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 96
+    },
+    "category": "medical"
+  },
+  {
+    "id": "zero-g-tolerance-drug-tl9",
+    "name": "Zero-G Tolerance Drug",
+    "tl": 9,
+    "cost": 20,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 97
+    },
+    "category": "medical"
+  }
+]

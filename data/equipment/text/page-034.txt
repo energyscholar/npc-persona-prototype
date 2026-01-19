@@ -1,0 +1,53 @@
+MILITARY SUITS                                                   Combat Armour: Combat armour is a complete
+                                                                 array of metal and synthetic armour. It contains
+Military suits are considered Category 4 items. Even
+when legal, they may be difficult to obtain, requiring a         oxygen tanks for six hours and a recycling unit which
+special order if available at all. Accredited military units     can more than double this endurance if the wearer is
+have greater success in acquisition but such items are           not unduly exerting themself.
+not routinely stocked at startown armouries.
+
+                                                                 Combat Environment Suit: A neck to toe, airtight,
+ Boarding Vacc Suit: An armoured suit hardened                   loosely fitting suit constructed of ballistic cloth.
+ to the dangers of exposure to vacuum or hostile                 Generally worn open at the neck and wrists, the
+ environments, the boarding vacc suit was originally             combat environment suit can be sealed by donning
+ used to help battle pirates when life support failed            gauntlets and a clear flexible plastic hood, giving
+ during an attack. It includes a six-hour air supply.            complete protection against chemical agents, tainted
+ As technology improves the suits become thinner                 atmospheres, biological agents and moderate defence
+ and sturdier, revolutionising their use in ship-to-ship         against radiation. A combat environment suit will
+ combat. The advanced version of this suit uses poly             protect against most atmospheric hazards and support
+ carapace plates to enhance protection.                          the user in Very Thin atmospheres. It will fail fairly
+                                                                 quickly in a Trace atmosphere (D3 hours typically)
+                                                                 and more rapidly (D3 x 10 minutes) in vacuum. It is
+ Ceramic Combat Armour: A heavy suit of                          not designed for Corrosive or Insidious atmospheres
+ advanced materials, overlapping ceramic alloy plates            and is not powered or heated, although it will protect
+ grant this armour and integrated helmet extreme                 Travellers from temperatures between +/-50°C. Neither
+ durability. Besides the six-hour capacity for complete          an electronics suite nor life support is included.
+ environmental sealing, the ceramic alloy grants a
+ much higher degree of protection against lasers,
+ flamethrowers and other energy-based attacks.                   Psi-Enhanced Combat Armour: This suit of
+                                                                 advanced combat armour is rigged with a latticework of
+                                                                 neural crystals, drawing from the wearer’s natural psionic
+                                                                 strength to create an invisible reinforcement. As well as
+                                                                 having a full eight-hour air supply built into the suit when
+                                                                 sealed, the wearer adds half (round down) their PSI to
+                                                                 the Protection score of the armour while worn.
+
+
+ARMOUR TYPE                              PROTECTION                   TL RAD KG COST                   REQUIRED SKILL
+Boarding Vacc Suit, Basic                +11                          11    50     25     Cr18000      Vacc Suit 1
+Boarding Vacc Suit, Improved             +13                          12    75     12     Cr24000      Vacc Suit 1
+Boarding Vacc Suit, Advanced             +16                          13    90     12     Cr48000      Vacc Suit 1
+ Ceramic Combat Armour                   +12 (+18 vs. fire, lasers,   13    150    15     Cr90000      Vacc Suit 1
+                                         and energy)
+ Combat Armour, Basic                    +13                          10    85     20     Cr96000      Vacc Suit 1
+ Combat Armour, Improved                 +17                          12    145    16     Cr88000      Vacc Suit 0
+ Combat Armour, Advanced                 +19                          14    180    12     Cr160000     Vacc Suit 0
+                                                                                                                                Armour
+ Combat Environment Suit                 +8                           10    20     4      Cr1000       None
+ Psi-Enhanced Combat Armour              +15 (+ ½ PSI)                16    250    10     Cr500000     None
+
+
+
+
+                                                                                                                                33
+

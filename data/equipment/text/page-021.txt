@@ -1,0 +1,75 @@
+                                                                    T      R        A         V        E       L           L       E     R
+
+
+                                                                        drugs and metabolic accelerators on command
+                                                                        (usually by the wearer’s voice command, although
+         GENERAL MODIFICATIONS                                          some military units allow remote activation). The kit
+                                                                        contains standard supplies common to a medikit of
+         Various other items can be used in conjunction with
+         armour. Unless noted otherwise, these modifications            the same Tech Level and one dose of Fast Drug; other
+         can be applied to all armour types, from archaic               drugs must be purchased separately.
+         to battle dress, although the latter has additional
+         alterations available. These general modifications             Automedikit TL        Effect                  Kg Cost
+         can also be applied to other equipment or suits, such          Basic           10    Automatic First         —        Cr5000
+         as survival gear, or applied to clothing, or even a                                  Aid and Fast
+         sheet or other covering draped over whatever is to be                                Drug injector
+         protected or hidden from view.
+                                                                        Improved        11    +Drug injection         —        Cr7500
+                                                                                              on command
+         ADDITIONAL PADDING                                             Enhanced        12    TL12 Medikit            —        Cr10000
+         Layering furs, cotton and/or hides onto existing armour                              equivalent
+         will somewhat hinder movement but provide better
+         protection from physical attacks. A person wearing             Advanced        14    TL14 Medikit            —        Cr15000
+         additional padding suffers DM-1 to all checks involving                              equivalent
+         DEX, including attacks, but adds +1 to their Protection.
+         Padding can also be used in place of armour, providing         AUTO PROTECT KIT
+         Protection +1 without the DEX penalty, making it little        Similar to the auto helmet but more all-encompassing,
+         more than an improvised heavier version of Jack.               the auto protect kit automatically deploys a helmet,
+                                                                        gloves and boots from rings at the neck, wrists and
+         Modification TL      Effect                  Kg     Cost       ankles of a protective suit. An auto protect kit is only
+                                                                        available for full protective suits. The kit replaces the
+         Additional      1    Protection +1, DM-1     5      Cr50
+                                                                        helmet, gloves and boots of the suit with versions
+         Padding              to DEX checks
+                                                                        that deploy within a second on verbal or electronic
+                                                                        command or in response to hostile environmental
+         AUTO HELMET                                                    conditions. Springs in the boot extraction mechanism
+         Usable with any full suit of armour or protective              will cause the wearer to involuntarily hop from leg-to-
+         equipment, this modification allows the collapse of the        leg if standing when the boots deploy and any item held
+         suit’s helmet into a thick neck collar. Upon verbal or         will be dropped when the gloves deploy. Each ring can
+         electronic command, or if sensing hostile environmental        be deployed separately if desired. An auto protect kit
+         conditions, the helmet will automatically deploy,              must be installed at time of purchase or retrofitted by a
+         telescoping around the wearer’s head within a second.          skilled armourer at double the purchase cost.
+         This helmet replaces that normally associated with the
+         armour and will include all features of the armour or          Modification TL       Effect                   Kg Cost
+         other modifications. An auto helmet must be installed at
+         time of purchase or retrofitted by a skilled armourer at       Auto Protect    12    Automatically            —       Cr20000
+         double the purchase cost.                                      Kit                   deploys helmet,
+                                                                                              gloves and boots
+         Modification    TL    Effect            Kg       Cost
+         Auto Helmet     12    Automatically     —        Cr10000
+                                                                        BODY CAMERA
+Armour
+
+
+
+
+                                                                        While most protective suits include a helmet-mounted
+                               deploys helmet
+                                                                        camera to record or transmit video images, some do
+                                                                        not. When added to armour or clothing, the camera
+         AUTOMEDIKIT                                                    is activated by a manual switch or voice command.
+         An internal medical scanner and drug injector,                 Body cameras store 72 hours of footage at TL8 and
+         the automedikit can be installed in any full suit. It          effectively unlimited amounts at TL10 and greater.
+         automatically applies First Aid if the wearer is reduced
+         to END 0 (treat the automedikit as having Medic                Modification     TL       Effect                   Kg Cost
+         skill equal to the DM provided by a medikit of the
+         same Tech Level). It can also administer fast drug             Body Camera 8             2D video recorder        —     Cr50
+         (Hibernation) on command or if life support systems                                      and transmitter
+         are failing. The TL11 version can also inject combat           Body Camera 10            +Unlimited storage       —     Cr150
+
+
+
+
+   20
+

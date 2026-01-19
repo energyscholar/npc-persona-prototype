@@ -141,5 +141,7 @@
       "repair_method: thorough vs quick ship repairs",
       "barvinn_or_chauffeur: who to rescue in the crisis"
     ]
-  }
+  },
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

@@ -1,0 +1,66 @@
+                                                                      T      R         A         V       E       L         L       E   R
+
+
+
+
+           Additional                                                         BIOTECH
+           Manipulator       TL Effect                    Cost               For most civilisations in Charted Space biotech is not
+           Basic             10 STR 6, DEX 10             Cr7500             a default technology but is available at TL16, allowing
+                                                                             the creation of purely biological enhancements. These
+           Improved          12 STR 9, DEX 12             Cr15000            have the same effects as normal augmentations but
+           Advanced          14 STR 9, DEX 15             Cr25000            involve the implantation of ‘natural’ organs to achieve
+                                                                             them. Some civilisations in Charted Space or cultures
+           ALL-TEMPERATURE EPIDERMAL SYMBIOTE                                in other universes may have biotech options as
+           This augment is a lifeform related to both viruses                standard at lower Tech Levels.
+           and bacteria and is injected into the Traveller’s body.
+           Sweating is the body’s temperature regulation system              Biotech augmentations effectively have the
+           but it has limitations. By adding this augment, the               Invisitech, Natural-looking and Ruggedised options
+           Traveller produces several varying levels of chemical             by default with a total +300% increase in cost.
+           sweat, cooling down and heating up the body to remain             Additional options add to this cost multiplier. Biotech
+           at a perfect body temperature. This augment allows                augments are not Self-repairing by default: a wound
+           the Traveller to ignore cold or heat from -30° to +50°C,          might heal but a severed finger or damaged eye will
+           although it is ineffective in temperatures outside this           still need special attention to repair.
+           range. It also reduces the amount of liquid consumption
+           required per day by 20%. This augmentation is                      Option    TL Effect                       Cost
+           biological and not affected by electromagnetic attacks.            Biotech 16 Invisitech, Natural-           +300% of
+                                                                                         looking, Ruggedised            augment
+           Augment            TL Effect                     Cost
+           All-Temperature 14 Ignore temperature   Cr2500                    In universes where biotech is more common, a
+           Epidermal          effects -30° to                                basic biotech augment will have these options
+           Symbiote           +50°C, reduce liquid                           at the Tech Level of introduction for the augment
+                              requirements by 20%                            but still have option costs for these features
+                                                                             which equal +150% for basic versions and up to
+                                                                             +300% for more advanced versions of Invisitech
+           ALTERED APPEARANCE                                                and Natural-looking options.
+           In some situations, a Traveller might find it prudent to
+           permanently alter their appearance. Legitimate reasons
+           for such procedures abound but often this augment
+           occurs in unlicensed locations aided by the transfer of
+           untraceable funds (assume 5-10, or 4+1D x standard
+           cost); in those situations, the surgeon or geneticist          TL12, retroviral techniques can change a person’s
+           performing the procedure must succeed at a Difficult (10+)     DNA to an extent that identification is impossible. This
+           check with the relevant skills and characteristic bonus.       advanced procedure is illegal for private citizens on
+           Negative Effects are at the discretion of the Referee.         most worlds and is subject to the same risks of multiple
+                                                                          adaptions as detailed for the genetic environmental
+           At TL6, this augment is essentially plastic surgery.           adaption augment (see page 52). Altered appearance
+           It can alter facial appearance, gender and make                augmentations are not affected by attacks such as
+Augments
+
+
+
+
+           moderate changes to a person’s build. Such changes             electromagnetic pulses.
+           will fool a visual inspection or even facial recognition
+           systems but will have no effect on other biometric scans       Altered
+           including fingerprint readers, retinal scans and genetic       Appearance         TL      Effect                 Cost
+           scanners. To fool all but genetic scanners, the TL9            Basic              6       Plastic surgery        Cr10000
+           procedure can use transplanted eyes, laser sculpted
+           fingerprints, melanin alterations and more advanced            Improved           9       +Whole Body            Cr50000
+           surgery, changing height by up to 10 centimetres in                                       Transformation
+           either direction by using bone grafts or removal. At           Advanced           12      +Genetic Alteration    Cr200000
+
+
+
+
+    50
+

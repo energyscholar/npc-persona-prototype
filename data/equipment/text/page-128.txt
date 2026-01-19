@@ -1,0 +1,57 @@
+FORENSICS TOOLKIT                                        LASER CUTTING GEAR
+A forensic toolkit is a specialised analytical toolkit   A backpack power supply and laser or plasma cutting
+designed to investigate crime or accident scenes         unit, this cutting gear is standard for use aboard
+to determine what has occurred. It is used in            starships. It can cut through most materials prior to
+conjunction with the Investigate skill. With equipment   TL16, although cutting through hull armour requires a
+and materials useful in supporting the scientific        very long time to create a breach. If used as a weapon,
+skills of biology and chemistry, it can often aid        it inflicts DM-2 to attack rolls and has an effective range
+in a task chain using one or more Science and            of 10 metres but deals 6D damage.
+Investigate checks to reach a conclusion. More
+advanced toolkits contain better sensors and analytic    Item            TL Effect                    Kg Cost
+equipment, providing DM+1 to Investigate checks at
+                                                         Laser        9       Cuts through metals   4      Cr4000
+TL10, DM+2 at TL12 and DM+3 at TL14.
+                                                         Cutting Gear         constructed at < TL16
+
+Forensics
+Toolkit   TL Effect                       Kg Cost        LASER DRILL
+                                                         A heavy-duty semi-portable laser used for mining,
+Basic         8    Investigate crime or   12   Cr2000    the laser drill is a tripod-mounted projector much
+                   accident scenes                       more powerful than the laser rifle. It is also more
+Improved      10   DM+1 to Investigate 10      Cr4000    cumbersome and far less accurate, being intended
+                   checks                                for work at point blank ranges. A power pack (not
+Enhanced      12   DM+2 to Investigate 10      Cr8000    interchangeable with those used for lighter laser
+                   checks                                weapons) can be hooked to the drill, providing one
+                                                         hour of intermittent use; a cable can also be run to
+Advanced      14   DM+3 to Investigate 8       Cr10000
+                                                         the power source of a ship, vehicle or prospector’s
+                   checks
+                                                         buggy which provides unlimited power at the cost of
+                                                         mobility. Extra powerpacks cost Cr3000 and extra
+                                                         tripods cost Cr250. The laser drill will eventually cut
+                                                         through any known material. If used as a weapon, it
+                                                         inflicts DM-2 to attack rolls with an effective range of
+                                                         10 metres but will deal 9D damage.
+
+                                                         Item         TL Effect                      Kg Cost
+                                                         Laser Drill 9     Cuts through any known 16       Cr7500
+                                                                           material, eventually.
+
+ Laser Cutting Gear
+
+
+
+
+                                                                                                                        Tools
+        Forsenics Toolkit
+
+
+
+
+                                                                              Laser Drill
+
+
+
+
+                                                                                                                       127
+

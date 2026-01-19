@@ -1,0 +1,57 @@
+     AUGMENTS
+     Travellers roaming the stars know the importance of
+     being well-equipped. Some, however, take this much          INSTALLING AUGMENTS
+     further, augmenting their bodies to enhance personal        The installation of augments often requires very
+     mental and physical capabilities. An expanding market       extensive surgery. It is assumed that any reputable
+     of cybernetics caters to these Travellers, offering         augments dealer will have access to first class
+     a bewildering array of upgrades that can make a             hospital services (this will not apply if the Traveller
+     customer literally super-human.                             visits a back street or illegal augments dealer) and
+                                                                 so there will normally be no actual danger in the
+     Although technology is capable of significantly altering    process. However, it will take time, typically 1D
+     and improving the body, obvious cybernetic, genetic or      weeks, although this is often reduced through the
+     surgical alteration of the human form is frowned upon       use of Slow Drug (see page 95).
+     in many societies.
+
+     While humans can be altered to survive on hostile           MEDICAL TREATMENT
+     worlds – denizens of a waterworld might be given gills      Augments can interfere with medical treatments. Unless
+     and finger-webbing, while those living on a world with      otherwise specified, all long-term care or surgery Medic
+     dangerous native micro-organisms might have their           checks treating an augmented Traveller suffer a negative
+     immune and digestive systems altered to compensate          DM equal to the difference in Tech Level between
+     – unnecessary augmentation is seen as unpleasant            the medical facility and that of the most advanced
+     and even perverse in many cultures. There are some          augmentation. For example, a Traveller with TL15
+     worlds where genetic alteration or cybernetics are          augmented Endurance being treated in a TL10 hospital
+     widespread or even mandatory, just as there are worlds      would inflict DM-5 to the surgeon’s Medic check.
+     where they are strictly forbidden.
+
+     Most items in this category can be cybernetic
+     (mechanical or electronic implants and prostheses),
+                                                                 ELECTROMAGNETIC PULSES
+                                                                 Any weapons that directly affect machinery and
+     biological (genetic engineering and surgical alternation)   electronics (such as the electromagnetic pulse
+     or both (a more common solution), but the general term      grenade on page 157) will also have the same effect
+     of ‘augment’ is used for all of them.                       on personal augmentations. Some are immune to
+                                                                 this kind of attack and this will be noted in their
+     Augments can take characteristics above the normal          descriptions. The Ruggedised option (see below)
+     maximums for a Traveller’s species. Augments are            will negate the effects of this attack for augments
+     normally grouped into those that affect the torso or the    normally affected by electromagnetic pulses. In
+     entire body, limbs and the head – generally through         general, purely biological augments are immune.
+     enhancement or replacement of sensory organs,
+     although other more subtle augmentation is available.
+     Augmentation pricing and features assume a basic
+     humanoid body type; sophonts who deviate from this
+                                                                 OPTIONS
+                                                                 Many augments have additional customisation options
+     may not have access to some augmentations and may           available, some only being available to certain types
+     have specific augments more suited to their physical        of augments. Even where augments are legal and
+     characteristics and structure.                              accepted, these special features may not be readily
+                                                                 available or may be restricted and subject to Availability
+                                                                 rules at the discretion of the Referee. Options which
+                                                                 increase the percentage cost of the augment are
+                                                                 computed from the base cost with percentages added
+                                                                 before multiplication of the cost.
+
+
+
+
+48
+

@@ -7,6 +7,8 @@
 
 const { loadScene, listScenes, recordBeat } = require('./story-engine');
 const { setFlag, saveStoryState, selectStage, slugifyStage } = require('./decision-tracker');
+const { sendEmailFromTemplate } = require('./email-system');
+const { loadPersona } = require('./persona');
 
 /**
  * Scene directive types
@@ -125,6 +127,50 @@ function getCompletedScenes(session) {
 }
 
 /**
+ * Trigger emails defined in scene's on_complete block
+ * @param {Object} session - Adventure session
+ * @param {Object} scene - Scene object with on_complete.emails
+ * @returns {Array} Array of triggered email info
+ */
+function triggerSceneEmails(session, scene) {
+  const emailsTriggered = [];
+
+  // Skip if no on_complete emails defined
+  if (!scene?.on_complete?.emails) {
+    return emailsTriggered;
+  }
+
+  // Skip if scene already completed (idempotent)
+  const completedScenes = session.storyState.completedScenes || [];
+  if (completedScenes.includes(scene.id)) {
+    return emailsTriggered;
+  }
+
+  for (const emailTrigger of scene.on_complete.emails) {
+    try {
+      const npc = loadPersona(emailTrigger.from_npc);
+      if (!npc) {
+        console.warn(`Email trigger: NPC not found: ${emailTrigger.from_npc}`);
+        continue;
+      }
+
+      const email = sendEmailFromTemplate(session, emailTrigger.template, npc);
+      if (email) {
+        emailsTriggered.push({
+          from: npc.name,
+          subject: email.subject,
+          npcId: npc.id
+        });
+      }
+    } catch (e) {
+      console.warn(`Failed to send email: ${emailTrigger.template}`, e.message);
+    }
+  }
+
+  return emailsTriggered;
+}
+
+/**
  * Advance to a new scene
  * @param {Object} session - Adventure session
  * @param {string} sceneId - Target scene ID
@@ -169,6 +215,12 @@ function advanceToScene(session, sceneId, options = {}) {
     }
     if (!session.storyState.completedScenes.includes(currentScene.id)) {
       session.storyState.completedScenes.push(currentScene.id);
+
+      // Trigger emails on scene completion (before adding to completed list check)
+      const emailsTriggered = triggerSceneEmails(session, currentScene);
+      if (emailsTriggered.length > 0) {
+        result.emailsTriggered = emailsTriggered;
+      }
     }
   }
 
@@ -394,5 +446,7 @@ module.exports = {
   // Back navigation
   goBackToScene,
   getSceneHistory,
-  canGoBack
+  canGoBack,
+  // Email triggers
+  triggerSceneEmails
 };

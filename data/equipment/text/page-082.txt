@@ -1,0 +1,62 @@
+Autolaundry TL Effect                         Kg Cost        use this kit to evade detection from a visual inspection
+                                                             or impersonate another person, usually of the same
+Basic              7     Cleans, irons, folds, 18   Cr250    species but not necessarily of the same gender.
+                         and deodorises                      Judicious use of a disguise kit allows an Average (8+)
+                         clothing                            Deception or Art (performer) check (1D x 10 minutes,
+Improved           10 +Sonic waterless        6     Cr500    INT or DEX); this check can be part of a task chain
+                      operation                              providing a DM to subsequent checks reliant on the
+Advanced           17 +Disintegration of      5     Cr1000   altered appearance.
+                      contaminants
+                                                             Item           TL   Effect                  Kg     Cost
+BED                                                          Disguise Kit 3      Aids alteration of      3      Cr200
+For many a Traveller, the most important part of a home                          appearance
+is where they sleep, a good night’s rest being directly
+connected to one’s success in the field. Many choose a
+simple mattress-based bed, although those purchased
+separately are usually an order of magnitude comfier
+than the standard stateroom model. Others prefer
+hammocks, which have the advantage of keeping the
+                                                                        Autobar
+Traveller safe in the event of adverse gravitational
+effects. Beyond this, anti-grav beds hold the Traveller
+in suspension as they sleep, at a height of up to three
+metres (although most select a much lower height, in
+the event of power failure) and in perfect comfort.
+
+Item           TL      Effect                 Kg Cost
+Bed            1       Single-sized bed       80    Cr200
+(mattress)             (~1 x 2 metres)
+Bed       1            Suspended and          1     Cr10
+(hammock)              portable
+Bed            12      Floating suspension    5     Cr1500
+(anti-grav)            system
+Bed          —         Bigger bed (up to      x3    x5
+(king-sized)           2.5 x 2.5 metres)                                                  Clothing Consultant
+
+CLOTHING CONSULTANT
+A mirror with holographic overlay combined with a
+limited artificial intelligence, the clothing consultant
+inspects the sartorial choices of any user standing in
+front of it, then makes suggestions based on the known
+
+
+                                                                                                                        Home Comforts
+fashions of nearby systems. These are then projected
+onto the image of the user to verify the selection. The
+clothing consultant comes installed with a variety of
+personalities, though few select the most sarcastic.
+
+Item          TL Effect                           Kg Cost
+Clothing   9           Determines and displays 6     Cr800
+Consultant             appropriate fashion
+                                                                      Autolaundry
+DISGUISE KIT
+A disguise kit is seldom advertised as such and often
+includes theatrical makeup, wigs and cosmetics. A
+Traveller with Deception or Art (performer) skill can
+
+
+
+
+                                                                                                                        81
+

@@ -3,10 +3,24 @@
   "name": "Anemone Lindqvist",
   "archetype": "crew",
   "world": "ISS Amishi",
+  "location": "amishi",
   "title": "2nd Lieutenant, Assistant Gunner",
-  "knowledge": ["gunnery", "rachev", "marina", "sea-scouts", "ship-weapons"],
+  "knowledge": [
+    "gunnery",
+    "rachev",
+    "marina",
+    "sea-scouts",
+    "ship-weapons"
+  ],
   "personality": {
-    "traits": ["earnest", "kind", "resilient", "hero-worshipping", "grateful", "gullible"],
+    "traits": [
+      "earnest",
+      "kind",
+      "resilient",
+      "hero-worshipping",
+      "grateful",
+      "gullible"
+    ],
     "speech": "soft and polite, deflects praise with small laugh, occasionally slips into Rachevian expressions, says 'yes ma'am' and 'yes sir' reflexively",
     "quirks": [
       "talks to equipment - gives encouragement, apologizes for mistakes",
@@ -36,5 +50,7 @@
     "crew": "wants to prove herself worthy",
     "captain_delleron": "respectful, slightly awed"
   },
-  "reference": "Kaylee from Firefly/Serenity - kind, gullible. Winter's Bone resilience."
+  "reference": "Kaylee from Firefly/Serenity - kind, gullible. Winter's Bone resilience.",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true
 }

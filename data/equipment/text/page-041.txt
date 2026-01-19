@@ -1,0 +1,66 @@
+                                                                     T     R        A       V       E       L       L      E      R
+
+
+
+                                                                         Logistics Battle Dress: This suit is optimised
+         Artillery Battle Dress: Artillery battle dress is               for its load-carrying capability. The logistics suit
+         more heavily armoured than standard and has                     allows the operator to carry small-vehicle loads of
+         heavier servos that enable it to carry heavy weapons.           ammunition and supplies into places where only
+         However, it is too large and clumsy to use handheld             infantry can go. Standard missions include ferrying
+         weapons normally and any attempt to do so will result           field repair kits (with spares), bulk ammunition
+         in DM-2 being applied to all attack rolls.                      boxes and fast-load kits for close support grenade
+                                                                         launchers. Given suitable packaging, an operator
+                                                                         can carry loads equal to six times their STR+END
+         Assault Battle Dress: Assault battle dress                      (using the battle dress’ enhanced STR) and will not
+         sacrifices mobility for extra armour and firepower.             count as being heavily encumbered (see page 98
+         A laser weapon is usually fitted to the suit’s left arm         of the Traveller Core Rulebook). Logistics suits are
+         and a grenade launcher is often installed on the right          also used by some battlefield medics.
+         shoulder to allow for self-support and engagement of
+         differing targets (mounts and weapons not included).
+         In addition, a hand-held weapon is carried by troops            Psi-Commando Battle Dress: Similar to the
+         in assault battle dress.                                        psi-enhanced battle dress, the psi-commando suit
+                                                                         retains the invisible telekinetic shield and features
+                                                                         enhancements that include active psionic interfaces
+         Battle Dress: The standard entry-level battle                   and superior heating and cooling systems designed
+         dress suit, combining mobility with protection and              to aid teleportation abilities. The operator adds half
+         weapons capability.                                             (rounded up) their PSI to the Protection score of
+                                                                         the armour. In addition, the psi-commando battle
+                                                                         dress counts as part of the operator’s own body
+         Ceramic Battle Dress: Designed and built with a                 when teleporting (thus not increasing the PSI cost of
+         layer of advanced ceramic-metal hybrid materials                Teleportation) and doubles the vertical distances that
+         around its armoured plates, ceramic battle dress                may be teleported, as described on page 234 of the
+         is especially useful for soldiers who fight enemies             Traveller Core Rulebook.
+         relying on laser or energy-based weaponry. Already
+         highly efficient against conventional attacks, this
+         battle dress is all but immune to these weapons.                Psi-Enhanced Battle Dress: This suit is interwoven
+                                                                         with highly specialised crystalline fibres and
+                                                                         conduits that pick up on the latent psionic abilities
+         Combat Pioneer Battle Dress: Combat pioneer                     of the operator. The mental energies created and
+         battle dress is slightly heavier than the standard model.       manipulated by the conduits create an invisible
+         It mounts no default weapons but has a built-in sensor          telekinetic field inside the plating of the suit,
+         suite appropriate to its Tech Levels designed to detect         protecting them from attack. The operator adds half
+         explosives and other hazards. This suit utilises a              (rounded up) their PSI score to the Protection score
+         range of built-in backpack-mounted tools including a            of the armour while worn.
+         Combat Engineering Tool Set (see page 125), drills
+         and decontamination equipment. The suit can self-
+         decontaminate from most chemical and biological agents.         Scout Battle Dress: Scout battle dress is normally
+                                                                         used by reconnaissance units, artillery spotters and
+Armour
+
+
+
+
+                                                                         other soldiers needing protection and mobility. It
+         Command Battle Dress: Officers use command                      is popular among some officers and rapid-assault
+         battle dress. Its defensive capabilities are superior to        units. Grav assist is fitted as standard and included
+         those of standard battle dress and it carries a more            in the price.
+         comprehensive communications suite with twice
+         the range, greater bandwidth and command-assist
+         computer software. This equipment provides DM+2 to
+         all Tactics (military) checks the operator makes.
+
+
+
+
+   40
+

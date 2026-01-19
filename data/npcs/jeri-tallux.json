@@ -3,10 +3,23 @@
   "name": "Jeri Tallux",
   "archetype": "crew",
   "world": "ISS Amishi",
+  "location": "amishi",
   "title": "Computer Chief",
-  "knowledge": ["computers", "ship-systems", "vacc-suit-operations", "damage-control", "crisis-response"],
+  "knowledge": [
+    "computers",
+    "ship-systems",
+    "vacc-suit-operations",
+    "damage-control",
+    "crisis-response"
+  ],
   "personality": {
-    "traits": ["pragmatic", "competent", "knows-her-worth", "unflappable", "professional"],
+    "traits": [
+      "pragmatic",
+      "competent",
+      "knows-her-worth",
+      "unflappable",
+      "professional"
+    ],
     "speech": "direct and efficient, doesn't waste words, occasional dry humor, comfortable with silence",
     "quirks": [
       "negotiated 20% above initial offer before accepting the job",
@@ -20,5 +33,7 @@
     "initial": "professional-respectful",
     "crew": "earned respect through action, not words"
   },
-  "stateroom": "2/19"
+  "stateroom": "2/19",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true
 }

@@ -1,0 +1,70 @@
+                                                        T     R      A      V   E     L     L     E        R
+
+
+
+
+        Net				156                          Purification Tablets		 108      Spear Gun			 148
+        Neural Comm			                59    Rad Blanket			            108   Spear				137
+        Neural Jack			                60    Rad Shielding			          111   Sphere of Solace		 86
+        Neural Link			 60                   Radiation Suit			         100   Spotlight			 76
+        Neurotoxin			 158                   Radio Jammer			           77    Squirrel Suit			         98
+        Neutrino Detonator		 159            Rail Gun			 170                 Staff				134
+        Null Drug			 94                     RAM Grenade Launcher      163   Stagger Laser Rifle		 152
+        Null Shield			 24                   Rapid-Fire Machinegun		   163   Static Axe			 137
+        Null Skull			 60                    Rapier				137                   Static Blade			          137
+        Offworld Construction Toolkit 129   Razor Claws			            56    Static Maul			 134
+        Orbital Defence Cannon		      170   Rebreather			 100               Stealth Dagger			        137
+        Oxygen/Air Tanks		 99               Reflec Coating			         25    Stims				95
+        Panaceas			 94                      Reflectorised Tarpaulin		 108   Stone Axe			 137
+        Parachute			 97                     Remembrance Hologram      85    Stun Blaster			          152
+        Parawing			 97                      Repeating Crossbow		      154   Stun Carbine			          152
+        Pepper Spray			               150   Rescue Bubble			          120   Stunfist				139
+        Personal Automedic		          91    Rescue Tool Set		129            Stunner				150
+        Personal Defence Laser        150   Respirator			 100               Stunstick			 134
+        Personal HUD			               75    Revolver			 144                 Submachine Gun		 148
+        Personal Mediscanner		        91    Rifle				146                    Support Mortar			        166
+        Personal Re-Entry Kit		       120   Ring Laser			 77                Surveying Toolkit		 130
+        Personal Safe			              85    Riot Shield			 141              Survival Kit			 109
+        Personal Trainer		 71               Rocket Launcher		 163           Survival Meal			         109
+        PGHP				163                         Rocket Pod			             173   Survival Still			        109
+        Physical User Interface		     68    Rope				109                     Tac Launcher			          173
+        Piston Fist			 139                  Rotary Autocannon		 173         Tactical Video Suite		   26
+        Piston Spear			               135   RTG Generator			          118   Tarpaulin			 124
+        Piton Hammer			               115   Sap				132                      TDX				159
+        Pitons				115                       Sawed-off Shotgun		 148         Tent				124
+        Plasma Gun			                 170   Scan Jammer			            176   Tent-Barracks			         124
+        Plasma Jet			 163                   Scientific Toolkits		 129       Thrust Pistol			         121
+        Plasma Missile Rack		         172   Scope				176                    Thruster Pack			         26
+        Plasma Rifle			               152   Sensor Suite			           47    Tool Laser			 130
+        Plastic Explosive		 159             Shield				141                   Torch				110
+        Pocket Magnet			              129   Shock Whip			             141   Torpedo			173
+        Pocket Nuke			                159   Short Bow			 154                Tranq Gas 			 158
+        Pocket Saw			                 107   Shot Pistol			 144              Transceiver			           64
+        Portable Airlock			           120   Shotgun			 148                  Translator			 72
+        Portable Computer		 67              Shoulder Stock			         177   Trauma Pack			           91
+        Portable Mediscanner		        91    Shriekerbox			            60    Underwater Air Tanks		   112
+        Power Cell			 118                   Siege Gun			 166                Universal Autopistol		   144
+        Pre-Fabricated Cabin		        124   Skis				102                     Universal Translator		   72
+        PRIS Binoculars		76                 Sledgehammer			           132   Vacc Emergency Kit		     121
+Index
+
+
+
+
+        Prismatic Aerosol		 47              Sleep Inducer			          85    Vacc Suit Accessory Pack 26
+        Prosthetic Limb			            56    Sleeping Bag			           109   VDO Diving Suit		113
+        Protective Suit			            99    Sling				156                    Vivarium			 86
+        Psi Blade			 137                    Slow Drug			 95                 VRF Gauss Gun		 170
+        Psi Dagger			 137                   Sniper Rifle			           148   VRF Machinegun		 170
+        Psi-Amplifier			              111   Snowshoes			              102   War Pick			 137
+        PSI-detector			               79    Snub Carbine			           148   Water Cannon			          173
+        Psi-Drug			 94                      Snub Pistol			 144              Whip				141
+        Psi-finder Binoculars		       76    Solar Beam Rifle		 152          Wind Turbine			          119
+        Psionic Shield Helmet		       25    Solar Vaporator			        104   Wristwatch			 77
+        Psi-taps			60                       Sonic Stain Remover		     86    Zip Gun 			144
+
+
+
+
+  184
+

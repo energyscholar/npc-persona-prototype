@@ -1,0 +1,60 @@
+DETACHABLE                                                        NATURAL-LOOKING
+Only available to external cybernetic augments (such as           Adding a layer of synthetic skin and hair over a
+limbs and eyes), this allows the Traveller to disconnect the      cybernetic augment can help make it seem more
+augment using a specialised socket. This can be done for          organic and lifelike at a passing glance. This helps the
+storage, disguise or to allow multiple augments to fit into the   augment blend in with the rest of the Traveller’s body,
+same socket. The disconnection process requires a Major           granting DM+2 to all Deception checks made to hide
+Action, as does reconnection. While disconnected, the             the augment. At TL14, this bonus is increased to DM+4.
+detachable augment is nothing more than another piece of
+equipment and has no connection to the Traveller at all.          Option             TL    Effect                  Cost
+                                                                  Natural-looking 10       DM+2 to all             +25% of
+ Option            TL Effect            Cost                                               Deception checks        augment
+ Detachable        9    Removable +Cr5000,                        Natural-looking 14       DM+4 to all             +75% of
+                        via socket +25% of augment                                         Deception checks        augment
+
+However, in addition to the option listed above, a
+detachable augment may be able to operate separate from           RUGGEDISED
+the Traveller’s body for an additional Cr10000. Additionally,     All circuitry and electronic components in the augment
+this augment has a grav locomotion option, allowing the           have been shielded against outside energies. This
+augment to be controlled while detached and operated as           makes the augment immune to energy-based weaponry
+a grav-propelled object capable of six metres movement            that targets augments and weapons that have adverse
+per Minor Action. This movement range is restricted to            effects based on cybernetic augments such as
+the communications range between the interface and the            electromagnetic pulse grenades or ion weapons.
+augment, which is a 50 metre wireless data link unless the
+controller and augment have better transceivers installed.        Option           TL Effect              Cost
+                                                                  Ruggedised 8         Immune to EM       +25% of augment
+ Option                  TL Effect                Cost                                 and ion attacks
+ Remotely-operated 11          Augment        +Cr10000
+ detachable augment            remote control                     SELF-REPAIRING
+ Grav-propelled     13         Grav-propelled +Cr10000,           The augment comes standard with a self-repair
+ detachable augment            remote control +200% of            mechanism, using nanites, protein coating or some
+                                              augment             other method. Instead of requiring special attention by
+                                                                  a cyberdoc, geneticist or bionicist, the augment heals
+                                                                  like any other part of the body when damaged.
+INVISITECH
+The augment is made from materials which will not
+trigger an alert on a scanner, sensor or mechanostatic            Option             TL Effect                 Cost
+listener. Other than medical examination or direct                Self-repairing     14 Heals naturally        +100% of
+visual contact with the augment, there is no electronic                                                        augment
+way to sense its presence. At TL16, invisitech also
+fools psionic scanning such as clairvoyance.
+                                                                  TORSO
+ Option       TL    Effect                     Cost               ADDITIONAL MANIPULATOR                                         Augments
+ Invisitech 12      Undetectable by            +100% of           The addition of a segmented tentacle-like appendage can
+                    electronic scanners        augment            be useful in situations where the Traveller requires a third
+ Invisitech 16      +Psionic scanning          +200% of           hand. Built with polymer plastics and non-ferrous alloys,
+                                               augment            the appendage is attached between two of the Traveller’s
+                                                                  ribs, along the lateral side of their body. The appendage
+                                                                  can collapse or extend from 20 centimetres to a full metre
+                                                                  in length. It is only a few centimetres in circumference
+                                                                  but ends in a tiny collapsible claw capable of remarkable
+                                                                  manual control. Only one additional manipulator can be
+                                                                  added to each side of the body without restricting lung
+                                                                  capacity. The basic version has STR 6 and DEX 10 but
+                                                                  more advanced versions have greater capabilities.
+
+
+
+
+                                                                                                                                 49
+

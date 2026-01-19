@@ -1,0 +1,69 @@
+                                                                                       T      R        A       V       E       L        L      E       R
+
+
+                                                                                           additional checks for every subsequent hour of new
+                                                                                           verbal or written material, with a cumulative DM+1 for
+                         TRANSLATOR                                                        every additional check. Once the total Effect reaches
+                         Translator packages are specialised Expert software               +6, the universal translator is able to perform real-time
+                         that only use Language skills. The TL9 version pro-               translation similar to the standard Translator/1 package.
+                         vides a near-real-time translation but at TL10 it works           If the total Effect first reaches DM-6, the universal
+                         in real-time and better understands the nuances of                translator has reinforced systematic errors which will
+                         language. Both can handle all languages common in                 lead to egregious mistranslations.
+                         the area of space from which they originated – usually
+                         within a sector or a single polity, whichever is larger –
+                                                                                           Software                Bandwidth       TL   Cost
+                         and can automatically update themselves upon arriving
+                         at any TL9+ world. Unlike Expert packages, translator             Universal Translator    3               12   Cr25000
+                         packages provide a very literal translation, sometimes
+                         misunderstanding idioms, dialects or subtle meanings.
+
+
+                         Software             Bandwidth         TL    Cost                     OPEN-SOURCE SOFTWARE
+                         Translator/0         0                 9     Cr50                    The cost and Bandwidth of software packages
+                         Translator/1         1                 10    Cr500                   assume they are proprietary commercial
+                                                                                              products. In some universes or polities, this
+                                                                                              is a standard assumption. For instance, most
+                         UNIVERSAL TRANSLATOR                                                 computers in the Third Imperium operate with an
+                         The Universal Translator package allows real-time analysis           interface first created by the Vilani. A licensed
+                         of both written and spoken language. Using a database                package can run on one computer at a time and
+                         of known languages and multi-tiered algorithms means                 loading onto new computers requires revalidation
+                         that even previously unknown languages can usually be                of the license.
+                         translated. Languages relying on senses other than sight
+                         or hearing, or originating from species whose physiology or          Other cultures are more freewheeling when it
+                         psychology is unknown or poorly understood may defy the              comes to copying software but these packages
+                         Universal Translator’s capabilities.                                 often lack the long history of development and
+                                                                                              integration of commercial options. If the Referee
+                         This package requires varied input to analyse a                      chooses to allow open source, either free or
+                         language. For unknown languages of moderate                          possibly easily copyable software, consider
+                         complexity, the package’s initial success after the                  imposing one or more of the following limitations:
+                         equivalent of an hour of spoken input or equivalent                  • The computer is more expensive:
+                         written material is the result of a Difficult (10+) check,               Computers capable of running this software
+                         to which the software’s operator may add any Science                     cost double.
+                         (linguistics) skill as a positive DM. The following                  • The software is harder to use: An operator
+Computers and software
+
+
+
+
+                         complications each add DM-2 to this check:                               must have Electronics (computers) 1 or
+                         • Languages of previously unknown sophonts.                              higher to use it.
+                         • Languages relying heavily or primarily on non-                     • The software is less efficient: All software
+                              visual and non-auditory components.                                 with a Bandwidth greater than 1 require +1
+                         • Written language without context (no pictures,                         Bandwidth to run.
+                              obvious symbology, or correlating language text).               • The software is not legal: On some worlds
+                                                                                                  (Law Level 9+) running unlicensed software
+                         This task can be performed carefully by consuming six                    is a crime.
+                         hours’ worth of material to receive a DM+2.
+
+                         The Effect indicates the accuracy of the translation,
+                         with positive results indicating basic comprehension
+                         and negative effects suggesting inaccuracies and
+                         translation errors. An Effect of -6 indicates the translator
+                         is incapable of understanding the language. Other than
+                         this exceptional failure result, the package may attempt
+
+
+
+
+            72
+

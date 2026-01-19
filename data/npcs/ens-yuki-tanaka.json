@@ -1,0 +1,18 @@
+{
+  "id": "ens-yuki-tanaka",
+  "name": "Ensign Yuki Tanaka",
+  "archetype": "military",
+  "title": "Fighter Pilot",
+  "location": "amishi",
+  "location_detail": "Flight Deck",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["focused", "competitive", "perfectionist", "reserved"],
+    "speech": "professional, technical, speaks more through actions than words",
+    "quirks": ["meditates before missions", "keeps detailed flight logs"]
+  },
+  "background": "Academy trained, excellent technical skills. Proves herself through performance rather than words.",
+  "knowledge": ["fighter-operations", "navigation", "combat-maneuvers"],
+  "relationships": {}
+}

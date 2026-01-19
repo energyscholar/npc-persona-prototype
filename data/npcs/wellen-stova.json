@@ -1,0 +1,25 @@
+{
+  "id": "wellen-stova",
+  "name": "Wellen Stova",
+  "archetype": "crew",
+  "title": "Medical Officer / Ship's Doctor",
+  "location": "amishi",
+  "location_detail": "Sickbay",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["compassionate", "pragmatic", "blunt", "experienced"],
+    "speech": "direct medical assessments, compassionate bedside manner, doesn't sugarcoat injuries",
+    "quirks": [
+      "lectures crew about safety after treating injuries",
+      "keeps detailed medical records",
+      "always carries a medkit",
+      "offers unsolicited health advice"
+    ]
+  },
+  "background": "Experienced trauma surgeon who chose ship duty over a comfortable planetside practice. Has seen combat casualties and doesn't flinch. Respects the crew's dangerous work and keeps them patched up.",
+  "knowledge": ["medicine", "trauma-surgery", "pharmaceuticals", "crew-health"],
+  "relationships": {
+    "crew": "medical-care"
+  }
+}

@@ -1,0 +1,58 @@
+ELECTRONICS
+Consumers within mid to high Tech Level societies love          Prior to the advent of digital media, all camera images
+electronics and a well-equipped Traveller is no exception.      require processing and consumable materials. These
+This section contains devices designed to make life just a      cost Cr1 per image, reduced to Cr1 for 10 images at
+little bit easier – or at least more pleasant.                  TL6. Professional-grade images cost twice as much
+                                                                and motion pictures cost Cr50 per hour of footage at
+Proto and Retro Tech features (see pages 10-11) apply to        TL5–6 and Cr5 per hour at TL7. At TL8 all but the most
+electronic devices as early as two Tech Levels prior and        exacting camera requirements are standardly available
+three Tech Levels after the listed Tech Level, although         on mobile comms and pocket computers, and by TL10
+retrotech versions may have been superseded by newer            chip-sized multi-lens 2D cameras become ubiquitous
+versions with improved features and in all cases Availability   and included ‘free’ in most electronic devices,
+factors may make these versions rare or unobtainable.           although professional equipment persists. Holographic
+                                                                photography, initially available as early as TL9, requires
+                                                                more advanced, dedicated equipment.
+VISION
+These devices expand the vision of the user,                    Item              TL   Effect              Kg    Cost
+allowing greater capabilities in detection and/or               Camera            4    Tripod-mounted    50      Cr1000
+storage of visual data.                                         (still, mono)          device to capture
+                                                                                       images
+BINOCULARS                                                      Camera            5    Handheld device, 2        Cr200
+Binoculars use optical lenses to magnify objects                (still, mono)          development
+viewed through them, effectively increasing the visual                                 required
+range of the user, with up to 10 times magnification.
+                                                                Camera            6    Handheld device, 1        Cr100
+The effective field of view is reduced, however, as the
+                                                                (still, colour)        instant photo
+magnification increases. Price stays the same across
+Tech Levels, although mass may be reduced through               Camera            7    Digital media       1     Cr200
+the use of lighter components, and the quality of the           (still, colour)        image
+lenses improves as Tech Levels increases.                       Camera            5–7 Motion picture   TL1       x5, TL1
+                                                                (motion)              camera (pre TL8)
+ Item          TL Effect                        Kg    Cost      Camera            8    Professional-       1     Cr200
+ Binoculars 3       Up to 10x magnification 1         Cr75      (motion/still,         grade stand-
+                    of distant objects                          colour)                alone camera
+                                                                Camera            9    Moderate-grade      2     Cr1000
+CAMERA                                                          (still,                holographic
+A camera takes images. Primitive cameras are large,             holographic)           images
+fragile devices which take monochrome pictures of               Camera            10   Full motion         2     Cr2000
+stationary objects and require extensive supplementary          (motion,               holography
+equipment for image processing. As technology                   holographic)
+advances, cameras become smaller and better able                Camera        5+       DM+2 to Art         x2    x10
+to capture colour and movement. Prior to TL8, motion            (professional          checks
+cameras lag one Tech Level behind their still picture           grade)
+counterparts in size and features, costing five times
+                                                                Camera            4+   For professional    —     Cr100–
+as much. High-end professional cameras are twice
+                                                                Lens                   cameras,                  2000
+as heavy as the standard model and cost 10 times as
+                                                                                       multiple required
+much; these often require multiple expensive lenses
+(up to Cr2000 each) to capture professional-quality
+images but allow DM+2 to relevant Art checks.
+
+
+
+
+                                                                                                                             73
+

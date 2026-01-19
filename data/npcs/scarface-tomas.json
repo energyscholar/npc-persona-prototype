@@ -1,0 +1,25 @@
+{
+  "id": "scarface-tomas",
+  "name": "Scarface Tomas",
+  "archetype": "contact",
+  "title": "JSI Asset / Former Pirate",
+  "location": "external",
+  "location_detail": "Varies - often seedy locations",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["rough", "pragmatic", "survivor", "loyal-when-earned"],
+    "speech": "blunt, criminal slang, doesn't sugarcoat, respects competence",
+    "quirks": [
+      "distinctive facial scar",
+      "knows pirate operations from inside",
+      "paranoid about being followed",
+      "pays debts"
+    ]
+  },
+  "background": "Former pirate who now works as a JSI informant. Knows pirate operations, routes, and personalities from the inside. Useful but dangerous to be seen with.",
+  "knowledge": ["pirate-operations", "criminal-networks", "smuggling-routes", "underworld"],
+  "relationships": {
+    "jsi": "informant"
+  }
+}

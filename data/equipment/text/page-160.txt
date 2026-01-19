@@ -1,0 +1,71 @@
+EXPLOSIVES                                                      NEUTRINO DETONATOR
+                                                                A complex device about the size of a laptop computer,
+The Explosives skill is used with all explosives. The
+                                                                the neutrino detonator uses a complex process to create
+damage caused by an explosive is always multiplied
+                                                                a powerful explosion that sends a wave of overlapping
+by the Effect of the Explosives check used to set it.
+                                                                neutrinos through all matter surrounding it. This wave
+Effect 0 is treated as +1 but the Referee may apply
+                                                                causes breaks in the bonds that hold matter together.
+unintended effects or consequences.
+                                                                It has little direct effect on inorganic substances, which
+                                                                just return to their former state instantly. Organic matter,
+Doubling the quantity of an explosive will increase its
+                                                                however, suffers major cellular damage. This explosion
+damage by 1D and Blast by +1. Continually doubling the
+                                                                ignores all inorganic substances (walls, doors, armour
+quantity of explosives will have a cumulative effect, for
+                                                                and so on), inflicting its damage only on organic
+instance quadrupling the quantity will increase damage
+                                                                materials within its Blast. Armour provides no protection
+by 2D and Blast by +2, and eight times the listed quantity
+                                                                against a neutrino detonator.
+will increase damage by 3D and Blast by +3.
+
+BREACHING CHARGE                                                PLASTIC EXPLOSIVE
+                                                                This generic, multi-purpose plastic explosive is a
+This is a small pre-packed shaped charge for cutting or
+                                                                favourite of military units, terrorists, demolition teams
+breaching. Charges are self-adhesive and can be set on a
+                                                                and Travellers across Charted Space.
+timer or command detonated. When a breaching charge
+explodes, it concentrates its force so while the blast radius
+is very small, the destructive effect is greatly enhanced.      POCKET NUKE
+                                                                Hideously illegal on most worlds, the pocket nuke is
+                                                                actually the size of a briefcase and therefore too large to
+COMPLEX CHEMICAL CHARGE                                         fit into a grenade launcher. Using multiple pocket nukes
+When two chemical polymers are combined physically,
+                                                                will not increase the Damage or Blast of the explosion.
+normally through a timed mechanical or electronic
+device, they react explosively. There is a D3 round
+delay between the chemical chain forming and the                TDX
+charge exploding but the resulting chemical detonation          An advanced gravity-polarised explosive, TDX
+is very powerful and concentrated.                              explodes only along the horizontal axis.
+
+FUSION BLOCK
+This is a dense and expensive material formed into a                                          Pocket Nuke
+cube and fitted with a chemi-pressure trigger. This creates
+a shaped explosion of fusion energy. This explosion is
+extremely powerful and does not pause for most physical
+matter, sublimating it into gas almost instantly.
+
+
+
+
+                                                                                       TDX
+                                     Plastic Explosive                                                                          Weaponry
+WEAPON                           TL      RANGE        DAMAGE       KG       COST             TRAITS
+Breaching Charge                 8       —            4D           1        Cr250            AP 6, Blast 1
+Complex Chemical Charge          10      —            4D           1        Cr500            AP 15, Blast 9
+Fusion Block                     16      —            1DD          1        Cr10000          AP 50, Blast 12, Radiation
+Neutrino Detonator               17      —            8D           1        Cr50000          AP ∞, Blast 25
+Plastic Explosive                6       —            3D           1        Cr200            Blast 9
+Pocket Nuke                      12      —            6DD          4        Cr250000         Blast 1,000, Radiation
+TDX                              12      —            4D           1        Cr1000           Blast 15
+
+
+
+
+                                                                                                                               159
+

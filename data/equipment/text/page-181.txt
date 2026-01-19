@@ -1,0 +1,69 @@
+                                                                                    T       R        A       V        E       L        L       E        R
+
+
+
+                                                                                        DIRECTED PLASMA
+                                                                                        Directed plasma rounds are an advanced version of
+                         ARMOUR PIERCING DISCARDING SABOT (APDS)                        shaped charge weapons, intended to destroy hard targets.
+                         Representing several variations on the theme of a              They become available for pistols and rifles at TL16.
+                         rod penetrator launched with a sabot and featuring
+                         increasingly long acronyms, APDS is an anti-armour             ELECTROMAGNETIC PULSE
+                         round representative of various efforts to get through         This round unleashes a massive burst of
+                         armour. APDS ammunition provides a weapon with                 electromagnetic radiation that does not harm living
+                         an AP trait equal to triple the number of damage dice          tissue but causes unshielded electronics to shut
+                         it rolls but reduces damage by one point per damage            down for 1D minutes. Unshielded electronics of more
+                         dice. If the weapon already has the AP trait, this is          than two Tech Levels lower than the round will be
+                         added to the final AP score. Artillery weapons and             permanently fried, while all electronics of more than two
+                         bombs may not use ADPS rounds.                                 Tech Levels higher will be completely immune.
+
+                         BATON                                                          EXTENDED RANGE
+                         A baton round is non-lethal, usually filled with rubber,       Extended range rounds use more efficient propellant
+                         plastic or some less solid material. It is far from            or even a rocket boost to increase their velocity and
+                         harmless but will deliver less lethal results, with half       therefore effective range. Artillery weapons may
+                         (round up) of any hits applied as Stun damage. Any AP          combine extended range ammunition with other types
+                         or Blast traits are negated by the use of a baton round.       simply by adding their cost multipliers together.
+
+                         BOMBLET                                                        FLARE
+                         Bomblet rounds are warheads that break apart above             This is an illuminating round designed to shed light
+                         the target to scatter small bomblets over a wide area.         over a wide area. The round is fired into the air and
+                         Only Artillery weapons and bombs may use bomblet               then descends on a parachute (it therefore can only
+                         rounds and any AP trait will be lost when they are used.       be used on worlds of Atmosphere 2+). Everything
+                                                                                        within the Blast area is illuminated as normal daylight.
+                         CANISTER                                                       Thermal and light-intensification equipment is designed
+                         Also called beehive, grapeshot and flechette, canister         to cut out to protect the wearer’s sight, so these rounds
+                         rounds are used for close-range defence against                cannot be used to blind the enemy, although they will
+                         enemy infantry and effectively turns the weapon into a         make advanced sighting gear less useful and thus level
+                         giant shotgun. Artillery weapons and bombs may not             the playing field for those without it. The illumination will
+                         use canister rounds.                                           last for 1D + the planet’s Atmosphere rounds.
+
+                                                                                        FRAGMENTATION
+                         CHEMICAL                                                       This is an anti-personnel warhead, throwing out
+                         This round creates a cloud of gas which, depending             shards of shrapnel across a very wide area. If the
+Specialised Ammunition
+
+
+
+
+                         on composition, will either be incapacitating or deadly.       weapon does not have a Blast trait, fragmentation
+                         Any living target within the cloud that does not have          rounds give it Blast 10.
+                         a respirator or sealed suit will be attacked as if by a
+                         poison with a Very Difficult (12+) END check, Damage
+                         1D and Interval of one round. A non-lethal round will do       FOAM
+                         stun damage, while a lethal round causes injury and            A foam round, when fired from grenade launchers
+                         often death from lung and/or skin contact. Gas clouds          or heavier weapons, disperses a sticky foam which
+                         dissipate after 1D x three rounds, although heavy winds        temporarily incapacitates a target. If the damage inflicted
+                         and rain can drastically reduce this time.                     exceeds a person’s STR or a vehicle’s Hull, ignoring
+                                                                                        all armour, the target is stuck to the ground or a nearby
+                         CONCUSSION                                                     wall. Escape requires a Very Difficult (12+) STR check,
+                         Often used in training exercises and as a distraction in       which may be attempted once per round. A vehicle may
+                         close assaults, concussion rounds are non-lethal shells        be freed with a Difficult (10+) skill check, with a negative
+                         that burst with a loud noise and bright flash. They are        DM equal to the foam ‘damage’ divided by the vehicle’s
+                         intended to stun opponents rather than kill them.              Hits, rounding up in the foam’s favour. Foam rounds for
+                                                                                        shotguns become available at TL11 and are ineffective
+                                                                                        against vehicles with a Hull value greater than 4.
+
+
+
+
+         180
+

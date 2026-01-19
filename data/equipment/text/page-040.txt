@@ -1,0 +1,51 @@
+                                                                                             REQUIRED
+ARMOUR TYPE                        PROTECTION TL RAD STR DEX SLOTS KG COST                   SKILL
+Artillery Battle Dress, Basic      +26             13   245   +6   +2   30   180 Cr275000    Vacc Suit 2
+Artillery Battle Dress, Improved   +29             14   290   +8   +2   30   180 Cr320000    Vacc Suit 1
+Artillery Battle Dress, Advanced   +32             15   320   +8   +2   33   180 Cr640000    Vacc Suit 1
+Assault Battle Dress, Basic        +25             13   250   +4   +4   20   140 Cr300000    Vacc Suit 2
+Assault Battle Dress, Improved     +28             14   300   +6   +4   20   140 Cr330000    Vacc Suit 1
+Assault Battle Dress, Advanced     +31             15   330   +6   +4   22   140 Cr660000    Vacc Suit 1
+Battle Dress, Basic                +22             13   245   +4   +4   16   100 Cr200000    Vacc Suit 2
+Battle Dress, Improved             +25             14   290   +6   +4   16   100 Cr220000    Vacc Suit 1
+Battle Dress, Advanced             +28             15   320   +6   +4   18   100 Cr440000    Vacc Suit 1
+Ceramic Battle Dress, Basic        +22 (+32 vs.    13   245   +4   +4   16   100 Cr400000    Vacc Suit 2
+                                   fire, lasers,
+                                   and energy)
+Ceramic Battle Dress, Improved     +25 (+35 vs.    14   290   +6   +4   16   100 Cr440000    Vacc Suit 1
+                                   fire, lasers,
+                                   and energy)
+Ceramic Battle Dress, Advanced     +28 (+38 vs.    15   320   +6   +4   18   100 Cr880000    Vacc Suit 1
+                                   fire, lasers,
+                                   and energy)
+Combat Pioneer Battle Dress,       +23             13   275   +4   +4   12   120 Cr270000    Vacc Suit 2
+Basic
+Combat Pioneer Battle Dress,       +26             14   310   +6   +4   12   120 Cr300000    Vacc Suit 1
+Improved
+Combat Pioneer Battle Dress,       +29             15   340   +6   +4   14   120 Cr600000    Vacc Suit 1
+Advanced
+Command Battle Dress, Basic        +24             13   275   +4   +4   18   110 Cr325000    Vacc Suit 2
+Command Battle Dress, Improved +27                 14   310   +6   +4   18   110 Cr350000    Vacc Suit 1
+Command Battle Dress, Advanced     +30             15   340   +6   +4   20   110 Cr700000    Vacc Suit 1
+Logistics Battle Dress, Basic      +22             13   245   +8   +0   20   220 Cr290000    Vacc Suit 2
+Logistics Battle Dress, Improved   +25             14   290   +8   +0   20   220 Cr320000    Vacc Suit 2
+Logistics Battle Dress, Advanced +28               15   320   +8   +0   22   220 Cr640000    Vacc Suit 2
+Psi-Commando Battle Dress,         +26 (+ ½ PSI) 15     300   +6   +4   20   110 MCr1.2      Vacc Suit 1
+Basic
+Psi-Commando Battle Dress,         +29 (+ ½ PSI) 16     330   +6   +4   22   110 MCr2.4      Vacc Suit 1
+Advanced
+Psi-Enhanced Battle Dress,         +22 (+ ½ PSI) 13     245   +4   +4   16   100 Cr800000    Vacc Suit 1   Armour
+Basic
+Psi-Enhanced Battle Dress,         +25 (+ ½ PSI) 14     290   +6   +4   16   100 Cr880000    Vacc Suit 1
+Improved
+Psi-Enhanced Battle Dress,         +28 (+ ½ PSI) 15     320   +6   +4   18   100 MCr1.76     Vacc Suit 1
+Advanced
+Scout Battle Dress, Basic          +20             13   230   +2   +6   12   90   Cr270000   Vacc Suit 1
+Scout Battle Dress, Improved       +23             14   260   +4   +6   12   90   Cr300000   Vacc Suit 1
+Scout Battle Dress, Advanced       +26             15   290   +4   +6   12   90   Cr600000   Vacc Suit 1
+
+
+
+
+                                                                                                           39
+

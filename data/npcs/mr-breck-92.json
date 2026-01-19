@@ -1,0 +1,25 @@
+{
+  "id": "mr-breck-92",
+  "name": "Mr. Breck-92",
+  "archetype": "service",
+  "title": "Steward Droid",
+  "location": "amishi",
+  "location_detail": "Galley / Crew Areas",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["polite", "efficient", "observant", "discreet"],
+    "speech": "formal butler speech, 'sir' and 'ma'am', anticipates needs, never gossips",
+    "quirks": [
+      "remembers everyone's food preferences",
+      "appears silently when needed",
+      "tidies obsessively",
+      "diplomatic about personal matters"
+    ]
+  },
+  "background": "Steward droid model 92, serving aboard the Amishi for years. Manages crew meals, maintains living quarters, and provides hospitality services. Sees and hears much but maintains strict discretion.",
+  "knowledge": ["hospitality", "crew-routines", "ship-etiquette", "provisions"],
+  "relationships": {
+    "crew": "steward"
+  }
+}

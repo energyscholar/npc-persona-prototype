@@ -1,0 +1,65 @@
+                                                                                      T       R       A       V        E       L       L       E        R
+
+
+
+                                                                                          ZERO-G TOLERANCE DRUG
+                            TRUTH SERUM                                                   This drug is available in patch or pill form, providing 24-
+                            Truth serum is designed to force the recipient to             hour tolerance to zero-G environments. The drug will
+                            answer questions truthfully. It must be tailored to the       alleviate most side-effects of space adaption syndrome
+                            species being questioned and carries some risks.              in zero gravity and halve the acclimation time required
+                            One dose usually forces the subject to pass a Difficult       in both low and zero gravity environments. Taking
+                            (10+) END check or be unable to lie for 1D minutes. At        multiple simultaneous doses of this drug provides no
+                            the end of this period, the subject suffers 2D damage         additional benefit and will undo any beneficial effect if
+                            and becomes unconscious for an hour. Truth serum              the user fails a Routine (6+) END check.
+                            tends to make the subject vague and confused, so
+                            answer may be nonsensical even if they are not                 Item              TL Effect                   Kg Cost
+                            deliberately lying. Obtaining useful information from          Zero-G         9       Negates effect         —    Cr20
+                            a subject usually requires the Persuade skill, with the        Tolerance Drug         of low G, speeds
+                            truth serum granting DM+2.                                                            acclimation
+
+                            Item           TL Effect                     Kg Cost
+                            Truth Serum 5       Makes lies Difficult     —    Cr500
+                                                for 1D minutes
+
+
+
+
+                                ADDICTION AND WITHDRAWAL
+                               At the Referee’s discretion, the use of various drugs may cause addiction and lead to dependence, cravings
+                               and withdrawal. Besides recreational drugs, likely candidates for addiction include combat drug, meta-
+                               performance enhancer, metabolic accelerator, nervous response dampener and stims. Even PSI drugs might
+                               be addictive if that is an aspect the Referee wants to explore. These rules are suggested guidelines for the
+                               Referee to consider if the negative aspects of drug use are to be part of a campaign.
+
+                               Addiction has two main effects: cravings and withdrawal. Tolerance – the need to take more drugs to achieve
+                               the same effect – can also factor in chronic use, although that will require additional recordkeeping. Actual
+                               addiction rarely occurs after first use and some habitual users of a drug might avoid addiction altogether but
+                               to simulate addiction, the Referee can require an END check to avoid it after a certain number of doses or
+                               after a certain number within a constrained time period.
+
+                               Withdrawal is a physical reaction to the absence of the drug to which the Traveller is addicted. This can be a
+Medical and Care Supplies
+
+
+
+
+                               debilitating condition, even fatal in some instances. After a period without any access to the drug, the addicted
+                               Traveller in withdrawal must begin making increasingly difficult END checks, with negative Effects causing
+                               temporary reduction to END and/or other characteristics. The number and severity of checks required for
+                               withdrawal to complete and the time interval between checks is left to the discretion of the Referee but should
+                               be consistent for the withdrawal effect for a particular drug, at least across a particular species.
+
+                               Cravings often occur after withdrawal but more often begin long before withdrawal becomes an issue.
+                               Cravings are controlled by continued use of the drug. Failure to acquire an adequate supply will tend to result
+                               in increasingly erratic behaviour. The optional Fatigue rules presented in the Naval Campaign Sourcebook
+                               (page 58) and the Deepnight Revelation Referee Handbook (page 41) can be impacted by this craving, with
+                               increasingly negative DMs to avoid Fatigue as time passes. Or the Referee may simply require DM-1 for all
+                               checks for every day or week the Traveller goes without the drug. Cravings will cease when the drug is taken
+                               again, resetting the clock for both cravings and withdrawal. Cravings will usually, but not necessarily, subside
+                               after a longer period of time (months, possibly years) after the last dose was taken.
+
+
+
+
+              96
+

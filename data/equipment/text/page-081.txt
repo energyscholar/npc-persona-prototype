@@ -1,0 +1,59 @@
+     HOME COMFORTS
+     The personal living space of a Traveller speaks to            opening cans. However, it tends to complain if it is not
+     their personality and there are many items that can be        given premium ingredients. The gourmet model may
+     purchased to allow a Traveller to express themself. Many      provide a small positive DM to Steward checks in some
+     are curiosities; some are simply designed to make life a      instances but it is not a substitute for a ship’s steward.
+     little easier or comfier. The equipment in this chapter is
+     intended for Travellers who wish to decorate their homes      Item                TL Effect               Kg Cost
+     with the best the galaxy can offer – even if that home is a
+                                                                   Autochef            9    Robotic food       6    Cr200
+     stateroom on board a tramp freighter far out in uncharted
+                                                                                            preparation
+     space. In some instances, a Referee may deem that
+                                                                                            system
+     access to some of these items may result in a small
+     positive DM to Fatigue checks during long voyages.            Autochef        10 +/better meals           5    Cr2500
+                                                                   (gourmet model)
+     ALIEN COSPLAY KIT
+     A fad on some worlds, Travellers sometimes choose
+     to go to very elaborate lengths to appear as an alien,
+     such as a Zhodani, Droyne or Aslan. The very best
+     cosplay kits can make a Traveller appear almost
+     indistinguishable from a real alien at a distance, although
+     there will always be a feeling of ‘falseness’ up close.
+
+     Item            TL Effect                     Kg Cost
+     Alien       7       Superficial alien     1        Cr350
+     Cosplay Kit         sophont impersonation
+
+     AUTOBAR
+     With an automatically updated database covering
+     the finest cocktails developed on civilised worlds, the
+     autobar provides a voice-activated drinks delivery
+     system. The quality of the drinks dispensed is dependent                                              Autochef
+     on the quality of the ingredients, which must be procured
+     and replenished periodically. The autobar stores up to        AUTOLAUNDRY
+     two litres of drinks internally and includes attachments to   No Traveller wants to take time away from earning
+     external sources ranging from bottles to barrels.             a profit by engaging in mundane household chores.
+                                                                   The autolaundry was designed to pick up this slack
+     Item       TL    Effect                      Kg    Cost       and free Travellers from that most arduous of duties –
+                                                                   cleaning clothes. Autolaundries use water and chemical
+     Autobar 8        Voice-activated cocktail    4     Cr300
+                                                                   detergents but the detergents are designed to be
+                      mixer and dispenser
+                                                                   biodegradable with a catalytic treatment, allowing them
+                                                                   to be recycled. These systems use as little water as they
+     AUTOCHEF                                                      can get away with; at TL7, they use less than a cup of
+     A fully automated voice-activated robotic food                water to wash a standard five kilogram load. By TL9, the
+     preparation system, the autochef requires a user to           amount consumed is even less. At TL10, autolaundries
+     simply feed it ingredients and it will deliver properly       are completely sonic and no water is consumed. At
+     cooked meals derived from a huge database of                  TL17, autolaundries use a low-level matter disintegrator
+     recipes. The gourmet autochef is based on the same            to eliminate dirt, bacteria, stubborn stains and even
+     principles but is capable of more complex creations           pests such as moth larvae. All autolaundries steam, iron,
+     and performing a wider range of actions, such as              fold and lightly deodorise clothing.
+
+
+
+
+80
+

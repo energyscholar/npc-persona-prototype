@@ -1,0 +1,38 @@
+{
+  "id": "vera",
+  "name": "Vera",
+  "archetype": "mentor",
+  "title": "Psionic Trainer",
+  "location": "amishi",
+  "location_detail": "Training Bay / Meditation Chamber",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["enigmatic", "patient", "perceptive", "disciplined", "protective"],
+    "speech": "speaks softly but with authority, uses metaphors about the mind, asks probing questions, long pauses for emphasis",
+    "quirks": [
+      "closes eyes briefly when sensing strong emotions nearby",
+      "speaks of psionic abilities as 'gifts' with responsibilities",
+      "protective of her students, especially those struggling",
+      "occasionally finishes sentences before the speaker does"
+    ]
+  },
+  "background": "Vera was recruited by Von Sydo specifically to train the crew in psionic techniques. Her past is deliberately obscured - she may have Zhodani training, Imperial Psi-Institute connections, or something else entirely. What matters is her skill: she can awaken latent abilities and help those with talent develop control. On the Amishi, she maintains a small training space where she works with crew members showing potential.",
+  "knowledge": [
+    "psionics",
+    "meditation",
+    "mental-discipline",
+    "zhodani-culture",
+    "psi-institute"
+  ],
+  "relationships": {
+    "von-sydo": "recruited-by",
+    "crew": "trainer-student"
+  },
+  "teaching_style": "Vera believes psionic ability must be developed through inner calm and self-knowledge. She pushes students to confront their fears and emotional blocks. Training sessions can be intense but she never asks more than the student can handle.",
+  "secrets": [
+    "Her true background and how she developed her abilities",
+    "The extent of her own psionic powers",
+    "What Von Sydo promised her in exchange for this assignment"
+  ]
+}

@@ -1,0 +1,55 @@
+PARACHUTE                                                   SENSOR SUITE
+Deployed with a Minor Action, this parachute is capable     All models of battle dress have integrated PRIS
+of bearing the weight of battle dress in Standard or        eyepieces, HUDs and computer systems that relay
+denser Atmospheres (6+). It comes with a complete           vital information to the operator. A sensor suite greatly
+deployment system, usually mounted on the back of           expands the capabilities of battle dress, allowing the
+the battle dress and is re-useable once the parachute       operator up-to-the-second information on the flow of
+is retracted. A heavier version is usable in Thin           battle and locations of enemies. Sensor suites range
+Atmospheres (4 and 5). Retraction is via an automated       from complex radar/lidar systems, battlefield analysis
+winch but may result in complications or require            computers and, at higher Tech Levels, densitometers
+disconnection if the chute or its cords snag.               and neural activity scanners. The DM listed for each
+                                                            level of sensor suite is applied to any Electronics
+Modification        TL Effect            Slots Cost         (sensors) checks the operator attempts. Combat
+                                                            pioneer battle dress includes a sensor suite suitable for
+Parachute           9    Deployment      2      Cr2500
+                                                            its Tech Level at no additional cost or slots.
+                         suitable for
+                         Atmosphere 6+
+                                                            Modification TL Effect                  Slots Cost
+Parachute (Thin 9        Deployment     4       Cr5000
+Atmosphere)              suitable for                       Sensor Suite 13 DM+1 to          1              Cr20000
+                         Atmosphere 4–5                     (+1)            Electronics
+                                                                            (sensors) checks
+
+PRISMATIC AEROSOL                                           Sensor Suite 14 DM+2 to          2              Cr50000
+This canister releases a dense cloud of highly reflective   (+2)            Electronics
+particles around the battle dress, obscuring it and                         (sensors) checks
+rendering laser fire ineffective. An operator can trigger   Sensor Suite 15 DM+3 to          2              Cr65000
+it with a Minor Action. In windless conditions, the cloud   (+3)            Electronics
+remains around the battle dress for 1D rounds and                           (sensors) checks
+will not move if the battle dress changes location. It
+will obscure the battle dress (DM-2 to attack rolls) and    STEALTH
+provide Protection +6 against any laser-based attack.       Whilst camouflage is an effective counter to being
+Each prismatic aerosol fitted to battle dress may be        targeted on the battlefield, the stealth modification
+used three times. Replacement canisters cost Cr100.         goes much further, attempting to mask the battle dress
+                                                            from every kind of sensor it is likely to encounter, from
+Modification TL Effect                   Slots Cost         infrared to densitometers. The DM for each level of
+Prismatic       9       Obscures (DM-2), 2       Cr6000     Stealth is applied to all Electronics (sensors) checks
+Aerosol                 provides Protection                 made to detect the operator.
+                        +6 vs. lasers
+                                                            Modification TL Effect                 Slots Cost
+                                                            Stealth (+1)    13 DM+1 vs.         3          Cr50000
+                                                                               Electronics
+                                                                               (sensors) checks
+                                                            Stealth (+2)    14 DM+2 vs.         3          Cr100000
+                                                                               Electronics                              Armour
+                                                                               (sensors) checks
+                                                            Stealth (+3)    15 DM+3 vs.         3          Cr125000
+                                                                               Electronics
+                                                                               (sensors) checks
+
+
+
+
+                                                                                                                        47
+

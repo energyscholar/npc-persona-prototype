@@ -1,0 +1,62 @@
+SURVIVAL GEAR
+Travellers demand a range of equipment to help
+them cope with extreme environments and remind
+                                                            GRAV PARACHUTE
+                                                            A personal harness incorporating a smaller version
+them of the comforts of home, even in the depths of         of the grav belt, the chute can be manually controlled
+the wilderness. These labour-saving and life-saving         or set to activate at a given altitude. Instead of relying
+devices are found in the ship’s lockers and holds of        upon atmospheric resistance, a grav chute uses a
+many exploratory ships.                                     localised contragrav field to slow the Traveller’s descent.
+                                                            It does not allow much more lateral movement than a
+Some items are nearly universally useful but the            standard parachute but functions even on worlds with
+necessities required for survival vary greatly on           no atmosphere. It can be cut in and out or used for slight
+environment and terrain, and so the equipment listed in     braking rather than the all-or-nothing descent available
+this chapter is divided into easy-to-reference sections     with a conventional chute. The internal batteries are good
+that allow you to find exactly the gear you need for your   for one descent between recharges. A grav parachute
+latest expedition into the wilderness.                      cannot be used to give ‘lift’ for upward movement but
+                                                            will slow a fall regardless of a user’s orientation. Internal
+                                                            safety devices will ensure the user makes a soft landing,
+AERIAL ENVIRONMENTS                                         often at very low speed, even if unconscious.
+Most Travellers lack the ability to fly or avoid damage
+from falling a great distance. These items provide           Item         TL    Effect                    Kg       Cost
+methods to overcome these limitations.
+                                                             Grav      10       Grav descent control      4        Cr2000
+                                                             Parachute          and arrest
+GRAV BELT
+A harness worn across the body, the grav belt is
+equipped with artificial gravity modules, allowing the      PARACHUTE
+wearer to fly. The internal battery will operate for a      A basic parachute kit including harness and reserve chute.
+maximum of four hours before recharging. At TL15, the       Parachutes only function in Thin or denser Atmospheres
+battery can operate for 12 hours before recharging. The     (4+). A larger chute at twice the mass and cost is available
+grav belt allows the wearer to fly at up to Medium speed.   for Very Thin atmospheres (2–3). Parachutes in Trace
+                                                            atmospheres do not adequately slow a user.
+Endurance is based on both the mass and speed of
+the object lifted. Maximum velocity is 200 kilometres        Item          TL Effect                          Kg Cost
+per hour, but duration assumes a cruising velocity of        Parachute     4    Soft landing in               3     Cr250
+100 kilometres per hour. Exceeding cruising speed                               Atmosphere 4+
+reduces effective endurance by 2/3 – every minute
+                                                             Parachute 5        Functions in                  6     Cr500
+over 100 kilometres per hour counts as 1.5 minutes
+                                                             (Very Thin)        Atmosphere 2–3
+endurance. A grav belt cannot lift more than 500
+kilograms total mass, including the mass of the wearer
+and any other items carried; if carrying more than 250      PARAWING
+kilograms, endurance is halved.                             An advanced parachute that allows more control over
+                                                            where the user lands. The parawing kit includes a
+                                                            reserve chute and harness.
+Grav Belt TL Effect                      Kg Cost
+Basic        12 Grav belt (Medium        6    Cr100000
+                                                             Item          TL Effect                          Kg Cost
+                speed), 4 hours
+                                                             Parawing      7    Soft landing in               8    Cr400
+Improved     15 Grav belt (Medium        6    Cr100000
+                                                                                Atmosphere 4+
+                speed), 12 hours
+                                                             Parawing 7         Functions in                  16   Cr800
+                                                             (Very Thin)        Atmosphere 2–3
+
+
+
+
+                                                                                                                            97
+

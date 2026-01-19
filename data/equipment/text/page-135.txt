@@ -1,0 +1,74 @@
+                                                                        T       R        A        V        E        L       L        E        R
+
+
+
+                                                                            BLADE
+                                                                            A short sword, somewhere between a dagger and a
+           STAFF                                                            cutlass in length. These blades sometimes feature a
+           Typically, a makeshift peasant’s weapon but more                 large basket hilt.
+           well-balanced than a club, the staff remains easily
+           accessible to the lowest serf and yet effective in skilled       BROADSWORD
+           hands. A staff used two-handed by a wielder with Melee           A heavy two-handed sword, capable of doing some
+           skill also serves as shield for parrying purposes.               serious damage even to a well-armoured, high-
+                                                                            technology opponent.
+           STATIC MAUL
+           This is a sophisticated weapon that generates a localised        CHAINDRIVE AXE
+           static field capable of weakening molecular bonds upon           A small but high torque engine built into the haft of
+           impact. It is effective against armoured targets although        this weapon drives a set of independently spinning,
+           still requires brute strength to cause crippling damage.         chain-driven teeth in the axe head. These are capable
+                                                                            of shredding an enemy with a single blow. The battery-
+           STUNSTICK                                                        powered chaindrive will operate for 30 minutes of
+           A short and innocuous looking weapon, this ceramic               combat or intimidation before requiring a recharge.
+           stick can deliver a painful and debilitating shock to
+           anyone who touches the wrong end.                                CHAINDRIVE SWORD
+                                                                            A small but high torque engine built into the hilt of this
+                                                                            weapon drives a paired row of sawing teeth, creating
+           BLADE WEAPONS                                                    the blade of the weapon. A truly vicious weapon, it
+           All weapons described in this section require the Melee          is used by those who like to intimidate. The battery-
+           (blade) skill to use effectively.                                powered chaindrive will operate for 30 minutes of
+                                                                            combat or intimidation before requiring a recharge.
+           ARC-FIELD WEAPON
+           This is a highly advanced weapon that does not                   CUTLASS
+           actually have a blade at all; arc-field weapons have             A sword with a single-edged curved blade, this is the
+           dense, conductive fibres that are flooded with energy            standard shipboard blade weapon, often kept near
+           from a self-contained power pack when activated. The             airlocks to repel boarders.
+           result is a plane of energy that can slice through nearly
+           anything. Arc-field weapons cannot be parried by any
+           weapon of a lower Tech Level. When available, these
+                                                                            DAGGER
+                                                                            A small knife, approximately 20–30 centimetres in length.
+           weapons are categorised and restricted as energy
+           weapons (banned at Law Level 2).
+                                                                            GREAT AXE
+                                                                            A very large axe with a long haft, wielded in both hands, the
+           ASSAULT PIKE                                                     great axe is a fearsome low-technology infantry weapon
+           Unwieldy when it first appears, the assault pike gets
+                                                                            although limited in close quarters fighting. Nonetheless, it is
+           lighter and more manageable at higher Tech Levels.
+                                                                            capable of smashing through even modern armour. Large
+           It is little more than a shaped charge placed on the
+                                                                            logging axes have a similar performance.
+           end of a pole, jammed against an armoured target
+Weaponry
+
+
+
+
+           to detonate the charge. In theory, the long shaft
+           allows the bearer to be sufficiently far away not to be          HATCHET
+           harmed by the explosion.                                         A light axe head on a short haft, hatchets are basic
+                                                                            work tools and carried as sidearms in some systems.
+                                                                            They are also found in survival and field kits.
+           BATTLE AXE
+           A large axe with one or two blades and wielded in one
+           or both hands, the battle axe is a basic weapon for low-         LANCE
+           technology infantry. In modern societies, such weapons           The classic weapon of an ancient knight, the lance is a
+           are more likely to appear as utilitarian fire axes.              long polearm designed to be used from horseback. If it is
+                                                                            not being wielded from the back of a fast-moving animal
+                                                                            or vehicle, it is treated as a spear (see page 137).
+
+
+
+
+   134
+

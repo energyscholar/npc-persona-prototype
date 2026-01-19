@@ -1,0 +1,51 @@
+      SPECIALISED AMMUNITION
+      The weapons specialist knows a bullet is never just a
+      bullet. One advantage slug throwers have over energy
+      weapons is that their ammunition can be customised,
+      often heavily, to achieve specific desired outcomes            AMMUNITION-SPECIFIC WEAPONS
+      (which normally result in a dead enemy). As the size          A weapon must have a listed magazine cost in
+      of the shell increases, so do the options available,          order to be able to use the ammunition in this
+      with large artillery pieces being capable of firing an        chapter. In addition, the following weapons may
+      amazing array of warheads.                                    not use this ammunition:
+                                                                    Air Rifle
+      The rules and options provided here should be treated         Antique Pistol and Rifle
+      as a toolkit which can be modified to suit a specific         Archaic Weapons
+      universe, world or even individual arms manufacturer.         Coach Pistol
+      As always, the Referee is the final arbiter of what is        Duck’s Foot Pistol
+      possible and they may rule that some ammunition               Energy Weapons
+      types are not available for certain guns.                     Flechette Weapons
+                                                                    Magrail Weapons
+      Every type of ammunition in this chapter includes a           Shot Pistol
+      table describing the weapons it is likely to be available
+      for. The Referee can use this as a guideline. Unless          To use a particular modification, the weapon
+      specifically indicated, any single round of ammunition        firing it must be manufactured at a Tech Level
+      may normally only have one of these modifications.            matching or higher than the listed Tech Level of
+                                                                    the ammunition type. In addition, heavy weapons
+      Any modifiers to the ammunition’s damage, cost, range         may not use the ammunition in this chapter,
+      or other characteristics will also be noted here. A blank     unless otherwise stated in their description.
+      line in the table means there is no change from the
+      weapon’s normal operation.
+
+
+      MODIFICATIONS
+      AEROSOL                                                        HIGH DAMAGE WEAPONS
+      Aerosol rounds disperse a fine mist that diffuses any         If a non-Destructive weapon has its Damage
+      lasers fired into or through it but the mist does not block   score increased to 10D or higher, it becomes a
+      normal vision. Any laser attack tracing a line of sight       Destructive weapon with Damage 1DD. It cannot
+      into or through the mist has its damage reduced by            be increased beyond this.
+      -10. Laser communications are completely blocked by
+      the mist. Multiple uses will not increase this effect, only
+      resetting the time interval for dissipation.
+
+      ARMOUR PIERCING
+      These rounds are pointed projectiles of dense or very
+      hard material designed to punch through armour. AP
+      ammunition provides a weapon with an AP trait equal to
+      the number of damage dice it rolls. If the weapon already
+      has the AP trait, this is added to the final AP score.
+
+
+
+
+178
+

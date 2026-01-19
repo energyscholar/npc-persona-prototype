@@ -1,0 +1,72 @@
+                                                                             T      R       A       V       E         L    L          E    R
+
+
+                                                                                 Dismantled and ready for shipment, the advanced base
+                                                                                 displaces six ship tons, with each additional module
+                WILDERNESS HOUSING                                               taking up 0.5 tons of cargo space when properly crated.
+                                                                                 A single fully expanded module would occupy five ship
+                For protection from the elements while resting or for
+                                                                                 tons. The walls of advanced base modules provide
+                maintaining an isolated camp or outpost, many housing
+                                                                                 Protection +4 against external damage.
+                choices are available, ranging from a simple sheet to keep
+                out the wind and rain up to advanced bases configured to
+                withstand the rigours of almost any environment.                 Advanced
+                                                                                 Base     TL       Effect             Kg       Cost
+                ADVANCED BASE                                                    Basic        8    5 total modules,   6,000 Cr75000
+                A modular, pressurised shelter capable of withstanding                             Hydrocarbon
+                anything less than hurricane force winds. The shelter                              generator
+                offers excellent protection from precipitation and all but       Improved     10   5 total modules,   6,000 Cr120000
+                the most extreme temperature conditions. The base                                  Fusion Plus
+                consists of a power unit equivalent to the Medium                                  generator
+                hydrocarbon generator (see page 118) with six hours
+                of backup power cell capacity, a main cabin to house             ADVANCED BASE OPTIONS
+                it, plus associated support equipment – fuel and water           These options are available only to advanced base
+                tanks (600 litres each), food storage containers, a small        modules, not the other wilderness housing items in
+                galley and freshers. This central unit supports up to            this catalogue.
+                four cabin modules which connect to it in a variety of
+                ways. All modules are six metres long by four metres             An additional ‘blank’ powered module, containing only
+                wide by three metres high, or 72 cubic metres, and can           a power plant able to support four other modules, costs
+                be placed end-to-end, side-to-side or even stacked,              Cr15000. The blank powered unit can be configured
+                although this can result in stability problems.                  like any other module. Adding 24-hour power cell
+                                                                                 backup to an existing or additional power unit costs
+                The main power/galley/storage module takes about 16              Cr40000 or Cr24000 at TL10.
+                person-hours to set up. It powers the other modules
+                and handles recycling of water and similar tasks for             Some purchasers pay an additional Cr1000 per module
+                them. Additional modules beyond the basic four can               for the ‘foam dome’ option. This is a framework over
+                be added but extra units can strain the power plant.             which a thin covering is stretched and sprayed with
+                However, empty modules used for storage need                     a fast-setting foam similar to that used in personal
+                not be heated, lit, nor use water so the extra load is           re-entry kits. The foam dome hardens in moments and
+                only significant if power is needed. The main module             provides improved protection against micrometeorites
+                supports connections to secondary and tertiary power             and inclement weather. It increases a module’s
+                sources, a spare generator, solar or wind arrays, or a           Protection to +8. Solar panel arrays and/or wind
+                larger power cell bank, all purchased separately.                turbines (see page 119) are often added as roof-
+                                                                                 mounted options to supplement the power generator.
+                The unpowered modules are the same size as the
+                main unit and take about four person-hours each to
+                assemble. A set of accommodation furnishings is fitted,
+Survival gear
+
+
+
+
+                although these can be removed. The usual setup is for
+                three modules each to house two people and the fourth
+                used as a common area, with freshers, galley and other
+                facilities shared by all personnel. The base complex
+                is easily able to support six residents but there is little
+                room for work. If more than living quarters are required,
+                additional modules must be purchased.
+
+                The advanced base comes with the main (powered)
+                cabin unit plus four additional unpowered modules.
+                The TL10 version includes a Fusion Plus generator
+                to provide support for up to a month without need for
+                fuel replenishment or up to 10 times as long by using                               Advanced Base
+                deuterium-enriched water (Cr500) as fuel.
+
+
+
+
+     122
+

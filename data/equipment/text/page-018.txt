@@ -1,0 +1,58 @@
+ARCHAIC ARMOUR
+Occasionally Travellers may encounter enemies
+encased in primitive body armour or may be forced into
+a position to purchase and use it themselves. While
+inefficient, it can be effective against melee weapons
+and some weak firearms.
+
+Against ranged weapons of a higher Tech Level, all
+armour in this section halves its Protection (rounding
+up). Unless specifically stated, only one layer of archaic
+armour can be worn at once.
+
+ Breastplate: A metal breastplate covers the front           Breastplate                 Half-Plate
+ and back of the torso, offering decent protection
+ against hand weapons and archaic projectiles.
+
+                                                                               Mail Hauberk
+ Full Plate: A complete suit of armour comprising
+ shaped and fitted metal plates, riveted and
+ interlocked to cover the entire body. It includes
+ gauntlets, heavy leather boots and a helmet. Plate
+ is designed to distribute its weight over the body, so
+ hampers movement less than might be expected.
+ However, it is heavy and tiring to wear and the sheer
+ mass of metal that has to be moved imposes DM-2
+ on all checks involving physical activity, although
+ there is no penalty to close combat attacks.
+
+
+ Half-Plate: Favoured by heavy cavalry even after
+ infantry have dispensed with meaningful armour
+ themselves, half-plate consists of articulated plates
+ backed by light mail and padding.
+
+
+ Mail Hauberk: A knee-length coat of interlocking
+ large or small metal rings set on a leather backing,
+ a hauberk offers excellent protection against hand
+ weapons and is used mainly by heavy infantry and
+ cavalry. Scale mail (constructed with small plates
+ rather than rings) offers similar protection and is a
+ variation of the mail hauberk.
+                                                                                                         Armour
+                                                                           Full Plate
+
+
+
+ARMOUR TYPE                    PROTECTION                    TL RAD KG COST             REQUIRED SKILL
+Breastplate                    +3                            1   —    5      Cr200      None
+Full Plate                     +6                            2   —    20     Cr1000     None
+Half-Plate                     +5                            2   —    12     Cr800      None
+Mail Hauberk                   +4                            1   —    8      Cr500      None
+
+
+
+
+                                                                                                         17
+

@@ -117,7 +117,12 @@
         "Enforce Law Level 8",
         "Be efficient but thorough"
       ],
-      "blocks": ["Letting weapons through", "Skipping procedures"]
+      "blocks": [
+        "Letting weapons through",
+        "Skipping procedures"
+      ]
     }
-  ]
+  ],
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

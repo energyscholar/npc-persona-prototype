@@ -14,7 +14,13 @@
     "repair-services"
   ],
   "personality": {
-    "traits": ["helpful", "well-connected", "practical", "chatty", "loyal-once-trusted"],
+    "traits": [
+      "helpful",
+      "well-connected",
+      "practical",
+      "chatty",
+      "loyal-once-trusted"
+    ],
     "speech": "friendly and direct, drops names casually, uses 'friend' often, slightly broken Imperial but fluent",
     "quirks": [
       "knows everyone's business",
@@ -51,7 +57,11 @@
       "Drops names casually",
       "Offers solutions proactively"
     ],
-    "verbal_tics": ["Friend", "I know a guy", "Tell them Gvoudzon sent you"],
+    "verbal_tics": [
+      "Friend",
+      "I know a guy",
+      "Tell them Gvoudzon sent you"
+    ],
     "sample_lines": [
       "Need help with those crates, friend?",
       "I know everyone on Walston. Who do you need?",
@@ -137,5 +147,7 @@
       "Off-world politics or Scout Service procedures"
     ],
     "if_asked": "Hmm, that I don't know, friend. But I know who might..."
-  }
+  },
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

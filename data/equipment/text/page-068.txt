@@ -1,0 +1,63 @@
+COMPUTER TERMINAL/INTERFACE                                     MID-SIZED COMPUTER
+This is a ‘dumb terminal’ with only limited processing power.   The definition of mid-sized computers changes as
+It serves as an interface to a more powerful computer such      technologies progress, from initial closet-sized units to
+as a ship’s computer or planetary network. Terminals range      smaller server computers that are still too large to carry
+in size depending on their control method – a holographic       and power except in a dedicated backpack with external
+display terminal can be much smaller than one with a            power sources. These replace the mainframe by TL8 and
+physical keyboard and screen. A computer terminal/              can act as components of mid-sized supercomputers.
+interface has Computer/0 and can only run the Interface         Supercomputer clusters based on mid-sized computers
+program. At TL6 the terminal may include a cathode-ray          are not subject to TL maximums in performance.
+screen, a keyboard, a pointing device and a physical
+interface connection or a short-range wireless interface        Mid-sized
+to a more powerful computer. By TL8 an interface can fit        Computer           TL Capability           Kg     Cost
+in a pocket, includes short range wireless or transceiver
+                                                                Basic              6   Computer/0          500 Cr500000
+communicators and operates by touch or voice command.
+                                                                Improved           7   Computer/1          50     Cr50000
+Computer TL Capability                         Kg Cost          Enhanced           8   Computer/2          10     Cr10000
+Terminal      6    Computer/0 and interface 2        Cr200      Advanced           9   Computer/3          5      Cr10000
+Interface     8    Computer/0 and interface —        Cr100      Superior           10 Computer/4           5      Cr10000
+
+
+
+MAINFRAME COMPUTER                                              PORTABLE COMPUTER
+By the standards of its Tech Level, the mainframe is a very     A portable computer is a computer system with
+sophisticated and powerful computer, used by militaries         considerable processing power, yet able to be carried
+and corporations for tasks beyond the abilities of smaller      easily – in today’s world, this covers laptops and
+computers. A mainframe has much of its mass dedicated to        tablets of all sizes. It is more powerful than a computer
+cooling and power supply, and will be accessed by computer      terminal and can be used without access to a network.
+terminals, although early mainframes lack even that ability.
+                                                                Portable Computer                 TL Kg         Cost
+Mainframe                                                       Computer/0                        7    5        Cr500
+Computer            TL Capability           Kg       Cost       Computer/1                        8    2        Cr250
+Basic               5    Computer/0         5,000    MCr2       Computer/2                        10   0.5      Cr500
+Improved            6    Computer/1         4,000    MCr4       Computer/3                        12   0.5      Cr1000
+Advanced            7    Computer/2         1,000    MCr5       Computer/4                        13   0.5      Cr1500
+Beginning at TL7, multiple mainframes may operate as            Computer/5                        14   0.5      Cr5000
+
+
+
+
+                                                                                                                             Computers and software
+supercomputers. This requires a geometric progression of
+mainframes to achieve higher computer capabilities. Two         Even at earlier Tech Levels, the mass and size of
+TL7 mainframes may combine to act as a Computer/3 but           a portable computer decreases even faster than
+Computer/4 requires four mainframes and Computer/5              retrotech rules. For all portable computers, the
+requires eight. Increasing computing power in this manner       following size progression applies:
+requires specialised equipment and linked mainframes
+cannot achieve a greater rating than their Tech Level.          Tech Level Kg            Size                     Cost
+                                                                +1             0.25      Tablet                   x0.5
+                                                                +2             —         Mobile Comm              x0.25
+                                                                +3             —         Computer Chip            x0.125
+                                                                +4             —         Microscopic Chip         x0.0625
+
+
+
+
+                                                       Portable Computer
+
+
+
+
+                                                                                                                             67
+

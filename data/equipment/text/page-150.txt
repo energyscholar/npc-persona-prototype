@@ -1,0 +1,57 @@
+ENERGY WEAPONS                                            ENERGY PISTOLS
+Directed-energy weapons first enter the battlefield       All weapons described in this section require the Gun
+as target designators and range-finders but by TL9        Combat (energy) skill to use effectively.
+weapons capable of inflicting damage appear. Laser
+weapons require a power supply; pistols come with a       GAUNTLET LASER
+belt- or wrist-mounted power pack, whilst rifles have     Effectively a laser pistol mounted to the back of
+backpacks connected by a cable. As the Tech Level         a shielded gauntlet, this weapon is powered by a
+increases, power packs gradually become integrated        backpack-carried energy source fed to it by a cable
+into the weapons themselves.                              usually tethered around the arm. Although very similar
+                                                          to a laser pistol, the gauntlet allows the wielder to retain
+These power packs can be recharged using a ship’s         an open hand while still armed with a potent weapon.
+power plant or another power source. It takes eight
+hours to recharge a power pack. Switching connectors
+from one pack to another is a Minor Action, although      HAND FLAMER
+actions such as unstrapping one backpack and securing     Packing a powerful flamethrower safely into a pistol-
+another can take significantly longer (1D rounds).        sized frame, the hand flamer is useful for boarding
+                                                          actions and other area clearance duties.
+Also included in the general category of energy
+weapons are other non-slug ‘projection’ weapons such      LASER PISTOL
+as flame and cryo guns and, at very high Tech Levels,     The TL9 pistol is bulky but effective, with no recoil
+exotic weapons like disintegrators.                       and a large magazine. At TL11, advances in battery
+                                                          technology and miniaturisation mean the pistol is no
+                                                          larger than a conventional firearm but must still be
+                                                          connected to a battery pack for sustained use.
+
+                                                          MASER PISTOL
+                                                          Using maser (within the microwave area of the
+                                                          electromagnetic spectrum) technology, this pistol
+                                                          carries little physical punch but is superb at breaching
+                                                          armour. The power cell carries an indefinite charge so
+                                                          long as it remains undamaged and will recharge itself
+                                                          after an hour of not being fired.
+                      Gauntlet Laser
+
+
+WEAPON           TL RANGE DAMAGE KG COST                   MAGAZINE POWER PACK COST TRAITS
+Gauntlet Laser 10 20            3D          2    Cr2500    100           Cr1100                    Zero-G
+Hand Flamer      10 5           3D          2    Cr1500    5             Cr25                      Blast 2, Fire
+Laser Pistol     9    20        3D          2    Cr2000    100           Cr1000                    Zero-G
+                 11   30        3D+3        1    Cr3000    100           Cr3000                    Zero-G
+Maser Pistol     17 20          3D+3        2    Cr25000 12              —                         AP 10, Zero-G
+                                                                                                                          Weaponry
+Matter           18 5           1DD         1    MCr2.5    —             Cr50000                   Zero-G
+Disintegrator
+                 19 10          2DD         1    MCr4      —             —                         Zero-G
+Pepper Spray     5    3         Special     —    Cr5       5             Cr5                       Stun
+Personal      13 25             3D+3        2    Cr6000    25            Cr100                     Auto 2, Zero-G
+Defence Laser
+Stunner          8    5         2D          0.5 Cr500      100           Cr200                     Stun, Zero-G
+                 10 5           2D+3        —    Cr750     100           Cr200                     Stun, Zero-G
+                 12 10          3D          —    Cr1000    100           Cr200                     Stun, Zero-G
+
+
+
+
+                                                                                                                         149
+

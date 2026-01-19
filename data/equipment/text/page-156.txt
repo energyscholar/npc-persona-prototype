@@ -1,0 +1,57 @@
+                  Compound Bow   SPECIALISED RANGED WEAPONS
+                                 All weapons described in this section require the
+                                 Athletics skill to use effectively. Use of monofilament
+                                 weapons retains skills from their conventional versions
+                                 when used but they require a separate skill level in the
+                                 specific monofilament weapon to avoid that weapon
+                                 gaining the Dangerous trait. Any use of a ranged
+                                 monofilament weapon without a specific skill of at least
+                                 1 results in the weapon becoming Dangerous.
+
+                                 BOLAS
+                                 This is a throwing weapon made from two or three
+                                 weights fastened together by a cord. It is used to bring
+                                 down an enemy rather than hurt them. A person hit by a
+Short Bow                        bolas does not sustain any damage. Instead, they must
+                                 make a Melee (unarmed) check opposed by the Athletics
+                                 (dexterity) check of the attacker, as if being grappled. If
+                                 failed, the defender is immobilised and falls prone. The
+                                 defender can free themself by performing a successful
+                                 Routine (6+) DEX check as a Significant Action.
+
+
+                  Long Bow       BOOMERANG
+                                 The boomerang is a shaped piece of wood designed
+                                 to be thrown and deliver damage to a target. Most
+                                 boomerangs used for hunting do not return to the
+                                 thrower but a returning boomerang can be purchased
+                                 for Cr10. It inflicts DM-2 on attack rolls but if it misses
+                                 a target it will return to the thrower in the next combat
+                                 round. It can be caught with a successful Athletics
+  Crossbow                       (dexterity) check. The thrower will take damage equal
+                                 to the Effect if it is negative and drop the boomerang.
+
+                                 MONOFILAMENT BOLAS
+                                 Unlike the primitive bolas, this weapon does not
+                                 entangle an enemy but slices through any target with
+                                 its monofilament cords. The bolas will not immobilise a
+                                 target on a successful attack.
+
+                                 MONOFILAMENT NET
+                                 Unlike a standard net, this weapon is designed to slice
+                                 its victim in multiple locations. A person attacked by
+                                 a net must make a Melee (unarmed) check opposed                Weaponry
+                                 by the Athletics (dexterity) check of the attacker, as
+                                 if being grappled. If this check is failed, the defender
+                                 suffers damage dice equal to the Effect of the failure.
+                                 On subsequent rounds, the entrapped person can
+                                 either remain immobilised, taking no further damage, or
+                                 choose to try to escape by making a successful Difficult
+   Repeating Crossbow            (10+) DEX check; failure causes additional damage
+                                 dice equal to the negative Effect.
+
+
+
+
+                                                                                               155
+

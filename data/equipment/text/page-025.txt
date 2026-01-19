@@ -1,0 +1,72 @@
+                                                                           T       R         A        V       E       L       L       E      R
+
+
+                                                                               two systems. A life support system requires one hour
+                                                                               to recharge from connectors available on spacecraft,
+         LIFE SUPPORT BELT                                                     stations and starports.
+         Travellers will find it difficult to sit comfortably in most
+         chairs wearing a full life support system. Many spacecraft            Life Support
+         crew seats contain hook-ups to vacc suits and other                   System            TL Effect                    Kg Cost
+         environmental protective armour to allow the ship to
+                                                                               Basic             8     6 hours life support 10     Cr6000
+         provide life support. Travellers can attach a full life support
+         system to their suits with minimal effort in less than half a         Improved          10 6 hours life support 6         Cr5000
+         minute, a period during which reserves within the suit will           Advanced          12 6 hours life support, 4        Cr8000
+         sustain life. Most suits can only maintain life support for a                              up to 2 wearable
+         few minutes without a life support system.
+                                                                               MAGNETIC GRAPPLES
+         Standard life support is always an option but pressure                These magnetic plates insert into boots to allow the user
+         sleeves and skin suits are thin enough to be worn                     to walk normally on a spacecraft or other ferro-magnetic
+         as uniforms aboard ship. The life support belt is an                  surface without artificial gravity. They will not allow the
+         alternative or temporary system thin enough to allow                  wearer to walk on walls or ceilings in normal gravity.
+         comfortable seating or to wear all day. The belt contains
+         an oxygenated gel and a sophisticated rebreather
+         system to allow full life support for a reasonable period             Modification TL Effect                          Kg Cost
+         of time. At TL10 the belt will sustain life for one hour,             Magnetic          8     Walk on metallic        —    Cr100
+         at TL12 it will support life for two hours and the TL15               Grapples                surfaces in
+         version does no better but is considerably thinner and                                        microgravity
+         available in a bandolier-like form, giving the user the
+         option of wearing two or three of these advanced belts.               MINEFIELD BOOTS
+                                                                               Used by troops in regions where there is a risk from
+          Life Support Belt TL Effect                   Kg Cost                anti-personnel mines and other booby traps hidden
+          Basic                 10    1 hour            2     Cr3000           beneath the ground, these give complete protection
+                                      life support                             against routine hazards such as snakes and grant
+                                                                               Protection +4 against sharpened stakes and anti-
+          Improved              12    2 hours           2     Cr4000
+                                                                               personnel mines. They offer no additional protection
+                                      life support
+                                                                               against combat hazards unless the wearer is
+          Advanced              15    2 hours life   1        Cr5000           deliberately shot in the foot.
+                                      support, up to
+                                      3 wearable
+                                                                               Modification          TL Effect                 Kg Cost
+                                                                               Minefield Boots 8          Protection +4 vs.    3    Cr250
+         LIFE SUPPORT SYSTEM                                                                              foot hazards
+         Some suits may be sealed to provide protection in a
+         vacuum or hazardous environment but include no or
+         limited life support capability, often allowing survival for          NULL SHIELD
+         just a few minutes or at most an hour. These suits can                This expensive and rare modification is extremely
+         be equipped with an external life support system. This                advanced, coating the armour with substances similar
+         is a mask or helmet attachment depending upon the                     to those found in anti-psion ammunition and chemical
+                                                                               psi-sedatives. Armour and clothing properly coated with
+Armour
+
+
+
+
+         suit and is removable when not needed or while being
+         replaced when depleted. The life support system does                  this substance will grant the wearer complete immunity
+         not provide additional protection against temperatures                to any psionic power but also prevents the wearer from
+         or radiation and is not designed to withstand corrosive               using any psionic talent, including Awareness.
+         or insidious atmospheres. This system provides six
+         hours of life support, which may be extended by                       Modification TL Effect                     Kg Cost
+         applying the extended life support modification. At                   Null Shield       17 Complete              —    Cr150000
+         higher Tech Levels, this unit becomes more compact.                                        immunity from
+         The advanced version can be configured in serial,                                          psionic powers
+         allowing 12 hours of life support for a user wearing
+
+
+
+
+   24
+

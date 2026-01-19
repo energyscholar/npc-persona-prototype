@@ -1,0 +1,52 @@
+ROCKETS, MISSILES AND BOMBS
+All weapons described in this section require the Heavy
+Weapons (vehicle) skill to use effectively. Ranges are
+listed in kilometres.
+
+
+                                                                             MAGAZINE
+WEAPON                   TL RANGE DAMAGE TONS COST                  MAGAZINE COST     TRAITS
+Light Anti-Air Missile   7   5        6D          0.25    Cr5000    1        —          One Use, Smart
+Anti-Air Missile         7   8        8D          0.5     Cr12000   1        —          One Use, Smart
+Long Range Anti-Air      7   40       8D          0.75    Cr22000   1        —          One Use, Smart
+Missile
+Anti-Tank Missile        7   6        8D          0.5     Cr18000   1        Cr6000     AP 30, One
+                                                                                        Use, Smart
+Bolt Thrower             1   0.2      4D          0.5     Cr2000    1        Cr25       AP 5
+Light Bomb               4   —        1DD         0.1     Cr1500    1        —          AP 20, Blast 20,
+                                                                                        One Use
+Medium Bomb              4   —        2DD         0.5     Cr4000    1        —          AP 25, Blast 25,
+                                                                                        One Use
+Heavy Bomb               4   —        3DD         1       Cr8000    1        —          AP 30, Blast 30,
+                                                                                        One Use
+Bombardment              9   200      1DD         1       Cr36000   1        —          AP 20, Blast 20,
+Missile                                                                                 One Use, Smart
+Bombardment              6   8        5D          2       Cr30000   12       Cr8000     Auto 3, Blast 15
+Rocket Rack
+Earthquake Bomb          4   2        5DD         10      Cr100000 1         —          Blast 250, One
+                                                                                        Use
+Heavy Rocket Pod         6   2        6D          0.5     Cr12000   6        Cr6000     Auto 3, Blast 10
+Plasma Missile Rack      12 50        4DD         2       MCr1      12       Cr400000   AP 20, Auto 3,
+                                                                                        Blast 15, One
+                                                                                        Use, Smart
+Rocket Pod               6   1.5      4D          0.25    Cr8000    18       Cr8000     Auto 3, Blast 5
+Tac Launcher             10 10        8D          0.25    Cr16000   4        Cr8000     Scope, Smart
+(Anti-aircraft)
+Tac Launcher             10 6         4D          0.25    Cr12000   4        Cr4000     Blast 10, Scope,
+(Anti-personnel)                                                                        Smart
+Tac Launcher             10 6         8D          0.25    Cr15000   4        Cr6000     AP 10, Scope,
+(Armour piercing)                                                                       Smart
+Torpedo                  4   1        1DD         0.5     Cr3000    1        —          AP 10, One
+                                                                                                            Weaponry
+                                                                                        Use, Smart
+                         5   5        3DD         0.5     Cr5000    1        —          AP 30, One
+                                                                                        Use, Smart
+                         8   50       5DD         0.5     Cr12000   1        —          AP 50, One
+                                                                                        Use, Smart
+Water Cannon             5   0.1      —           0.5     Cr2000    10       —          —
+
+
+
+
+                                                                                                           171
+

@@ -1,0 +1,71 @@
+                                                                  T      R        A       V        E        L        L       E      R
+
+
+
+                                                                      Extreme Environment Exploration (E3) Suit:
+                                                                      Some environments are too hazardous for even
+         Exoskeleton: More frame than suit, the exoskeleton           HEV suits. In places where the atmosphere is
+         is a civilian aid to those with mobility problems or         too dense or hazardous, deep under oceans or
+         who require extra help to carry large loads or operate       where gravity prevents easy motion, the extreme
+         in high gravity. This suit is little more than a frame       environment exploration (E3) suit is a requirement.
+         of powered pneumatic limbs that clamp upon the
+         wearer. The TL9 exoskeleton frame adds STR+1 to              This heavy powered suit uses waldos instead of arms,
+         the wearer – to a minimum value of six – but inflicts        allowing a trained operator to manipulate items even
+         a DEX-1 penalty and triples the encumbrance limits           when gravity reaches extremes of up to 5G. The suit
+         of the wearer. The TL12 version adds STR+3 – to a            will fully protect against temperatures from absolute
+         minimum value of 9 – and does not impose a DEX               zero to 1400°C and from corrosive atmospheres. After
+         penalty, whilst quadrupling the wearer’s encumbrance         72 hours, use in insidious atmospheres will cause the
+         level. This improved suit also responds to voice             suit to lose one point of Protection every hour until
+         command to connect itself to the wearer and can be           destroyed; this damage can be repaired at 10% of the
+         programmed to walk and navigate autonomously to              suit’s cost per point. The suit is rated to 10,000 metres
+         a defined location. Exoskeletons have rechargeable           depth in water under standard atmosphere and gravity.
+         battery power for 72 hours of operation. The wearer
+         of an exoskeleton can walk normally in gravity up to         An E3 suit has power and life support for eight hours of
+         3G (4G at TL12) but still suffers initial high gravity       operation. Life support can be extended at additional cost
+         acclimation penalties. An exoskeleton provides no            but power cannot. An operator who minimises movement
+         armour or environmental protection and does not              and actions can stretch the power to twice its rated
+         include an electronics suite.                                duration or three times if operating in relatively benign
+                                                                      environments. Once power fails, the operator feels the full
+                                                                      weight of the suit and cannot operate the hand waldos.
+                                                                      When powered, the suit grants STR +2 but inflicts DEX-2
+                                                                      in addition to any penalty imposed by lack of skill.
+
+
+                                                                      Grav-Enhanced Powered Plate: A much-improved
+                                                                      version of the powered plate suit, this high-tech armour
+                                                                      comes equipped with gravitic gyros in its limbs and torso.
+                                                                      These increase the wearer’s abilities without excessive
+                                                                      drain of the suit’s 500-hour power cell (Cr750 to replace)
+                                                                      and adds STR+3 to the wearer while only reducing DEX
+                                                                      by -1 when unpowered. Additionally, the grav-enhanced
+                                                                      powered plate can use the grav-gyros in its legs to move
+                                                                      faster, increasing speed by +50%.
+
+
+                                                                      Mechanical Carapace: A suit of sealed carapace
+                                                                      plates attached to a simple framework of mechanical
+                                                                      ratchets and pneumatics, this armour is durable but
+                                                                      not very sophisticated. Fuelled for up to 10 hours
+Armour
+
+
+
+
+                                                                      (Cr25 to refuel), the suit adds STR+1 to the Traveller
+                                                                      but inflicts a DEX-1 penalty.
+
+
+                                                                      Powered Plate: A large and bulky suit of insulated
+                                                                      powered armour made of metallic plates forming a
+                                                                      complete body shell, powered plate is tough and
+                                                                      inflexible. So long as the suit’s 100-hour power cell
+                                            Exoskeleton               (Cr250 to replace) has energy the suit adds STR+2
+                                                                      to the wearer but inflicts a DEX-2 penalty. The TL14
+                                                                      version has a 200-hour power cell and adds STR+3
+                                                                      but inflicts a DEX-1 penalty, at a cost of Cr1000.
+
+
+
+
+   36
+

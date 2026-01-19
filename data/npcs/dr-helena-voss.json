@@ -1,0 +1,23 @@
+{
+  "id": "dr-helena-voss",
+  "name": "Dr. Helena Voss",
+  "archetype": "scholar",
+  "title": "Xenoarchaeologist / Researcher",
+  "location": "external",
+  "location_detail": "University, Research Sites",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["brilliant", "obsessive", "socially-awkward", "passionate"],
+    "speech": "technical jargon, excited about discoveries, loses track of social cues",
+    "quirks": [
+      "forgets to eat when working",
+      "lectures without realizing",
+      "genuinely excited by knowledge",
+      "oblivious to danger"
+    ]
+  },
+  "background": "Leading researcher in Ancient artifacts. Often needs transport to remote dig sites or protection for her research. Pays well but can be difficult to work with.",
+  "knowledge": ["ancients", "xenoarchaeology", "artifacts", "academic-politics"],
+  "relationships": {}
+}

@@ -1,0 +1,48 @@
+                          Stagger Laser Rifle
+
+
+                                                                                 Stun Blaster
+
+
+
+
+                                         Stun Carbine
+
+
+WEAPON         TL RANGE DAMAGE KG COST                    MAGAZINE POWER PACK COST TRAITS
+Cartridge     10 150           4D         3     Cr2500    15         Cr70          Zero-G
+Laser Carbine
+               12 200          4D+3       2.5 Cr4000      20         Cr70          Zero-G
+Cartridge      10 200          5D         5     Cr3500    20         Cr150         Auto 3, Zero-G
+Laser Rifle
+               12 400          5D+3       4     Cr8000    25         Cr150         Auto 3, Zero-G
+Cryo Rifle     13 10           4D         9     Cr6000    12         Cr150         Blast 3
+Flame Rifle    9    10         4D         8     Cr2500    10         Cr50          Blast 3, Fire
+Heavy Laser    12 1200         6D         12    Cr14000   12         Cr500         Scope, Zero-G
+Rifle
+Ion Rifle      14 600          Special    6     Cr16000   100        Cr5000        Zero-G
+               15 800          Special    5     Cr24000   100        Cr8000        Zero-G
+Laser Carbine 9     150        4D         4     Cr2500    50         Cr1000        Zero-G
+               11   200        4D+3       2     Cr4000    50         Cr3000        Zero-G
+Laser Rifle    9    200        5D         5     Cr3500    100        Cr1500        Zero-G
+               11   400        5D+3       3     Cr8000    100        Cr3500        Zero-G
+Laser Sniper   12 600          5D+3       4     Cr9000    6          Cr250         Scope, Zero-G
+Rifle
+Maser Rifle    16 300          5D+3       8     Cr30000   20         —             AP 10, Zero-G
+Plasma Rifle   16 300          6D         4     Cr100000 Unlimited   —             —                 Weaponry
+Solar Beam     17 500          1DD        4     Cr200000 20          —             AP 20, Zero-G
+Rifle
+Stagger Laser 12 300           5D         4     Cr10000   50         Cr5000        Auto 2, Zero-G
+Rifle
+               14 350          5D+3       3     Cr15000   100        Cr6000        Auto 3, Zero-G
+Stun Blaster   13 20           4D         5     Cr3000    200        Cr500         Stun, Zero-G
+(beam)
+Stun Blaster   —    —          3D         —     —         —          —             Blast 3, Stun,
+(blast)                                                                            Zero-G
+Stun Carbine   12 20           3D         4     Cr2000    50         Cr200         Stun, Zero-G
+
+
+
+
+                                                                                                    153
+

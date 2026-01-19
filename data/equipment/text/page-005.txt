@@ -1,0 +1,62 @@
+    EQUIPMENT AVAILABILITY
+    Travellers have likely dived straight into this book and
+    started making lists of all the items they think they will
+                                                                     Availability Table
+                                                                     Circumstance                                        DM
+    need in the next adventure. This is as it should be but
+    Referees will have an interest in limiting the availability of   Item is considered highly specialised               -1
+    more exotic equipment in order to maintain the balance of        Item is typically reserved for military use         -2
+    their own campaigns and to keep special items special.           Item’s TL is greater than the World’s TL            -1
+                                                                     Item’s TL is 3–4 above the World’s TL               -1
+    There are two methods of doing this:
+    • Law Levels: These are detailed beginning on                    Item’s TL is 5–9 above the World’s TL               -2
+       page 255 of the Traveller Core Rulebook and will              Item’s TL is 10 or more above the World’s TL        -4
+       be the primary consideration of most Travellers               Traveller willing to pay double listed cost         +1
+       when looking for worlds on which to both purchase
+                                                                     Traveller willing to pay triple listed cost         +2
+       and use equipment.
+    • Availability: Just because something is legal, it              Starport Class A or B                               +1
+       does not automatically follow that it is available            Starport Class X                                    -4
+       in a shop at the starport – or indeed anywhere in             World has Hi, Ht, In and/or Ri Trade Codes          +2
+       the entire system or even in any specific Traveller
+       universe. This chapter presents rules for the Referee         World has Lt, Na, Ni, and/or Po Trade Codes         -2
+       to gauge the relative availability of any item they           World Population 1–2                                -2
+       judge to be special or otherwise restricted.                  World Population 3–5                                -1
+                                                                     World Population 9                                  +1
+
+    AVAILABILITY                                                     World Population 10+                                +2
+    Whenever a Referee deems equipment may not be
+    present or easily found, they may ask the Traveller to           REFEREE’S FIAT
+    roll for the item’s Availability. This should principally be     In addition, a Referee may apply a modifier from
+    done for highly unusual, dangerous or expensive items.           DM-3 to DM+3 to reflect equipment that is easier or
+    Referees are free to apply this rule as they see fit, in         harder to find, rare or common on the present world, or
+    accordance with their own campaign. Camping gear is              features technology the Referee is or is not keen to see
+    likely going to be easy to find without needing to check         proliferate in the campaign!
+    its Availability, whatever planet the Traveller is on, but a
+    disintegrator rifle will be extremely rare in any universe.      TECH LEVEL AND LAW LEVEL
+                                                                     Under normal purchasing conditions, an item unlikely
+    When a Traveller needs to check for the Availability             to be found on a world due to its Tech Level being
+    of an item, this requires an Average (8+) Broker                 too low or Law Level being too high should not be
+    or Streetwise check and with the modifiers on the                made available to Travellers. However, there may be
+    Availability table. On worlds with Population 0, all             exceptions where Referees create a mini-adventure in
+    items will be unavailable except under extraordinary             order to locate such items. Most items of lower Tech
+    circumstances. On worlds with no prior interstellar              Levels will be available in some more ‘modern’ form on
+    contact, any items above the local Tech Level will be            many worlds but specific items, such as a full suit of
+    extremely rare and have an artefact-like status; they will       plate armour or an astrolabe, may not be available at
+    rarely be for sale and any acquisition by the Traveller          all if it has been superseded by something better.
+    will likely require an adventure, not a dice roll.
+
+    If the check is successful, the item has been located
+    and may be purchased. If the check is unsuccessful,
+                                                                     THE BLACK MARKET
+                                                                     Wherever items are restricted or banned, a black
+    the Traveller may try again weekly but there is DM-1
+                                                                     market will arise to supply them. This will allow a canny
+    per previous attempt on a world in the same month.
+                                                                     Traveller to make necessary purchases even on high
+
+
+
+
+4
+

@@ -1,0 +1,69 @@
+                                                                        T       R       A        V       E        L       L          E     R
+
+
+                                                                            equal to 1D times the negative Effect, and prevents the
+                                                                            new modification from taking hold, but it counts as an
+                                                                            adaption for DMs to subsequent attempts.
+           GENETIC ENVIRONMENTAL ADAPTION
+           While some worlds require minimal adaption to                    Undoing an environmental genetic adaption requires
+           survive, perhaps just a few weeks to get used to                 a procedure equivalent in cost and risk to applying
+           changes in air density and gravity, others are less              an additional adaption. These genetic changes are
+           hospitable to unadjusted persons. Those who make                 permanent and inheritable, usually as dominant traits,
+           these ‘marginally habitable’ worlds home may seek                and are not affected by attacks such as electromagnetic
+           out genetic modifications to adapt to local conditions           pulses or detectable by electronic means.
+           and forego the need for masks or protective clothing.
+           Environmental adaptions are usually specific to a world
+           but can include one or more of the following factors:            Augment            TL    Effect                   Cost
+           • Atmospheric Taint and/or Pressure:                             Genetic            12    Adaptation to a          Cr50000
+               Atmospheres 4, 5, 7, 8 and 9.                                Environmental            world or factor
+           • Temperature: Either heat (up to 60°C) or cold                  Adaption
+               (down to -10°C).
+           • Humidity: Usually for arid conditions, halving liquid          GENETIC MICROGRAVITY ADAPTION
+               intake requirements.                                         Most worlds with very low or non-existent gravity
+           • Gravity: Either high (1.4–1.8G) or low (0.2–0.7G).             compensate by keeping habitats at reasonable gravity
+                                                                            levels, whether through gravity plates or by spinning
+           Protection from Taint may be limited by the nature of            all or portions of the habitat. Certain occupations and
+           the specific taint. Also, atmospheric adaptions to better        cultures forego these methods by choice or necessity.
+           support a Dense or Thin atmosphere will cause the                Rather than suffer the health effects of long-term
+           opposite density to have more severe effects – a Dense           living in a microgravity environment, some use genetic
+           adaptation will treat Thin atmospheres as Very Thin and          alterations to modify their bodies to thrive. This type of
+           vice versa. A Dense adaptation will allow better tolerance       alteration has both benefits and drawbacks.
+           of Very Dense atmospheres and a Thin adaptation will
+           allow better survival times in Very Thin atmospheres.            A person who has undergone genetic microgravity
+                                                                            adaption suffers no ill effects from prolonged exposure
+           Each of these is considered a separate modification              to environments of less than 0.2G. They are also
+           in terms of cost but as they are tailored for a specific         supremely adapted to this environment; all recipients
+           world, they involve one medical procedure and count              are considered to have Athletics (dexterity) 2 (or +2 if
+           as a single modification in terms of risk. Governments           they already possess the skill) for actions in microgravity.
+           seeking new colonists may subsidise the cost of a                Recipients also receive DEX+1. The modifications to
+           procedure specific to their world.                               prevent muscular atrophy also grant STR+1.
+
+           General modifications to these are also available. Unlike        The downsides of this modification include receiving
+           the world-specific version, one general atmospheric              END-1 and susceptibility to fatigue in higher gravity
+           adaptation can provide taint adaption or pressure                environments. Worlds of 0.7G or more are considered
+           adaption, but not both. Taint adaption provides protection       high gravity and adaption requires twice as long as
+           from a variety of tainted environments with regards to           an unaugmented person. In these environments, all
+           particulates, pollutants and atmosphere gas mix but              Athletics tasks are performed at DM-1 and any direct
+Augments
+
+
+
+
+           will not necessarily provide protection from biological or       checks against STR, DEX and END receive DM-1.
+           other unusual taints as a world-specific adaption would.
+                                                                            This genetic modification is subject to the same risks of
+           Multiple applications of environmental genetic adaptions         multiple adaptions as detailed for the genetic environmental
+           are possible, although several world-specific adaptions          adaption augment. Genetic microgravity adaption
+           to differing conditions may render one or more of                augmentations are not affected by electromagnetic attacks
+           these adaptions useless or worse. Contradictory                  or detectable by electronic means.
+           temperature and gravity modifications are not allowed.
+           For each modification beyond the first to take hold, the         Augment         TL Effect                         Cost
+           recipient must succeed in an Average (8+) END check,             Genetic      12 Adaptation to microgravity Cr30000
+           with each adaption – including the first and the new             Microgravity    (see above), STR +1,
+           attempt– causing DM-1. A failed check inflicts damage            Adaption        DEX +1, END -1
+
+
+
+
+    52
+

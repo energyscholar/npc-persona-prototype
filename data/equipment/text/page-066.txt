@@ -1,0 +1,65 @@
+Meson transceivers are bulky devices requiring              Encryption is very dependent on Tech Level.
+fine-tuning and precise location information of             Decryption is normally a Very Difficult (12+) Electronics
+communication nodes. They are almost impossible to          (comms) or Electronics (computers) check but
+jam or intercept and can communicate through solid          encryption created by a higher Tech Level is generally
+rock or metal, making communications through the            impossible to decrypt within a reasonable timeframe.
+entire surface of a planet possible. Meson transceivers     If communicating between devices of differing Tech
+are normally restricted to government or military use       Levels, the entire communications stream uses
+and should be considered a Category 5 item available        the encryption technology of the lowest Tech Level
+only with proper documentation or very good illicit         device. Decrypting a lower Tech Level’s encryption
+connections. A meson communication stream may               algorithm provides at least DM+1 for every Tech Level
+not be intercepted or interrupted unless blocked by a       a decryption tool is superior to the technology used to
+precisely positioned meson screen. Particle decay rates     encrypt the information. A hardware encryption module
+prevent meson communication links from exceeding            costs Cr4000 and is available starting at TL6.
+500,000 kilometres range except with the use of multi-
+MCr room-sized equipment.                                   Note: By TL8 nearly all transmissions are encrypted
+                                                            by default but the encryption module provides a
+Meson                                                       much higher degree of protection against advanced
+Transceiver (TL) Range                   Kg     Cost        decryption methodologies which target weakness
+                                                            across the entire communications chain. To decrypt
+TL12                Planetary            200 Cr50000
+                                                            information protected by only the ‘default encryption’ of
+                    (50,000km)
+                                                            TL8+ transceivers requires only a Difficult (10+) check.
+TL12                Interplanetary       500 Cr100000
+                    (500,000km)                             A satellite uplink allows a radio communication
+TL14                Planetary            100 Cr25000        system to maintain a steady link between a ship or
+                    (50,000km)                              satellite in orbit and a surface transceiver. Laser and
+TL14                Interplanetary       200 Cr50000        meson transceivers do not require satellite uplinks
+                    (500,000km)                             as they have integral capability to establish point-to-
+                                                            point between two stationary or moving transceivers.
+                                                            A satellite uplink requires a transceiver capable of
+TRANSCEIVER OPTIONS                                         at least 500 kilometres inherent range but it allows
+Transceivers often include additional features, including   the transceiver to reach a ship or satellite as far as
+computers, hardware encryption and satellite uplinks.       50,000 kilometres distant.
+
+Computer functionality generally occurs when a              The satellite uplink is a dish or flat antenna available
+computer becomes miniaturised enough to be a small          at TL6, which doubles the mass of the transceiver
+component of a transceiver. Computers are an inherent       or adds a minimum of two kilograms to its mass and
+component of TL10+ transceivers. Standard transceiver       costs half as much as the transceiver, or at least
+computer configurations incorporate the functionality       Cr1000. Static uplinks to geostationary targets or
+of a portable computer (see page 67) of two Tech            constellations of satellites are potentially cheaper,
+Levels prior functionality at the computer’s cost at its    still adding 50% to the price of the transceiver but
+introductory Tech Level but with no increase in the         without the Cr1000 minimum.
+
+
+                                                                                                                          Communications
+transceiver’s mass. Custom computer installations
+of up to the current Tech Level of portable computer        A satellite uplink will effectively amplify a transceiver’s
+are often available, adding the portable computer’s         range up to 100 times. If both transceivers in a
+equivalent mass and twice the computer’s cost to the        communications link have uplinks, communications
+total mass and cost of the transceiver.                     can reach 10,000 times the range of the strongest
+                                                            transceiver, allowing a large receiving station to acquire
+                                                            a signal across the span of a solar system.
+
+Transceiver Option                Effect/Limitation         Kg                     Cost
+Computer/x                        TL-2                      —                      +Computer/x cost at TL-2
+Computer/x                        TL                        +Computer/x kg         +2 x Computer/x cost
+Encryption                        TL specific               —                      +Cr4000
+Satellite uplink                  X 100 range               +100% or 2kg           +50% or Cr1000
+
+
+
+
+                                                                                                                          65
+

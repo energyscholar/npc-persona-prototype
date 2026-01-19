@@ -1,0 +1,72 @@
+                                                                             T      R        A       V       E       L       L      E        R
+
+
+
+                                                                                 HOUSING OPTIONS
+                The basic TL9 unit provides DM+2 to all Survival checks          Advanced base and habitat modules, even
+                made to find food in the wild. The TL11 version is               prefabricated cabins and tents can have additional
+                capable of analysing organic input to create a detailed          options installed. Unless stated otherwise the mass and
+                nutritional guide, allowing a stranded Traveller to create       cost of these items is based on a standard module or
+                as balanced a meal as possible, indefinitely staving off         cabin size of 6 x 4 x 3 metres, which is 72 cubic metres
+                hunger and malnutrition if enough organic matter and             or about five ship displacement tons.
+                water is available. The TL13 version includes advanced
+                filters to purify materials, removing any radiation,
+                poison or other contaminants, and its Shugilii filters and
+                catalysts can wring nutrition out of otherwise inedible
+                organic material.
+
+                Marooned Travellers
+                with a survival still will
+                find their food and water
+                needs are taken care of.
+                However, many cite the
+                food as the single greatest
+                drain on their will to live.
+                Fortunately, the still can
+                also be used to distil                                           ARMOURED
+                alcoholic beverages into                                         Survival structures can be layered with the armoured
+                spirits for medicinal or                                         option, granting Protection +5 to those inside from
+                recreational use.                                                attacks originating outside of the structure (and vice
+                                                                                 versa). This triples the mass of the structure. This
+                                                                                 option can be added up to three times with each mass
+                                                                                 increase based on the housing’s initial mass.
+
+                                                                                 Item         TL   Effect                   Kg    Cost
+                                                                                 Armoured 9        Add Protection +5 to     x3    Cr2500
+                                                                                                   structure
+                Survival Still TL Effect                    Kg Cost
+                Basic            9    DM+2 to all Survival 3      Cr1000         CHAMELEON FIBRES
+                                      checks to find food                        Chameleon fibres can provide structures for the
+                Improved         11   Automatic Survival    2     Cr2500         benefits of advanced camouflage. The TL12 version
+                                      check if input                             provides a configurable static camouflage pattern to
+                                      available                                  match the environment and bleeds heat excesses
+                                                                                 to match the background infrared levels, effectively
+                Advanced         13 +Filters for severe     2     Cr4500
+                                                                                 rendering those inside invisible to IR sensors, providing
+Survival gear
+
+
+
+
+                                    containments,
+                                                                                 DM-2 to Recon checks and DM-4 to IR sensor checks.
+                                    Shugilii filters
+                                                                                 The TL13 version uses both IR and Vislight camouflage
+                                                                                 technologies, adding light-bending technology and
+                TORCH                                                            making everyone inside nearly invisible to the naked
+                A bundle of flammable materials mounted on a                     eye (DM-4 to Recon and sensor checks).
+                handle or stick. A torch will last about one hour and
+                illuminate a six-metre radius, producing a thick,
+                heavy smoke as it does so.                                       Chameleon
+                                                                                 Fibres    TL Effect                       Kg Cost
+                Item    TL Effect                               Kg Cost          Basic           12 DM-2 to Recon,         —     Cr8000
+                                                                                                    DM-4 to IR sensor
+                Torch 0      Lights 6-metre radius for 1 hour —     Cr1                             checks
+                                                                                 Improved        13 DM-4 to all Recon      —     Cr60000
+                                                                                                    and sensor checks
+
+
+
+
+     110
+

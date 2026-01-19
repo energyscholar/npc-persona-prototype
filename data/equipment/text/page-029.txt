@@ -1,0 +1,65 @@
+                                                                       T   R        A     V      E        L      L      E    R
+
+
+
+
+                                                                                                         Emergency Hostile
+         CIVILIAN SUITS                                                                                  Environment Suit
+         Civilian suits provide armour protection but their
+         main function is to protect a Traveller from a hostile
+         environment. In most instances, these suits do not
+         require special permits or certifications to purchase,
+         although the explosive ordinance disposal suit occupies
+         a grey area between civilian and military use.
+
+
+          Emergency Hostile Environment Suit: A
+          disposable emergency vacc suit is designed to protect
+          the Traveller from corrosive, insidious and similarly
+          hazardous atmospheres (and, of course, vacuum).
+          The suit is good for six to eight hours in hazardous
+          environments, after which there is a one in six (non-
+          cumulative) chance it will fail every hour. Emergency
+          suits are carried by starships to allow engineering crew
+          to make emergency repairs under unusual conditions.
+          The suit can be refurbished for Cr6000 but each
+          refurbishment inflicts DM-1 to the chance of failure
+          after the ‘safe’ time and reduces possible failure time
+          by one hour. Once the failure chance has reached
+          four in six, the suit is too degraded to be of use. An
+          electronics suite is not included but there is an integral
+          six-hour life support system.
+
+
+
+
+         ARMOUR TYPE                                    PROTECTION             TL RAD KG COST             REQUIRED SKILL
+         Emergency Hostile Environment Suit              +4                    10   —     20   Cr9000     Vacc Suit 1
+         Emergency Softsuit                              +0                    10   —     10   Cr2000     Vacc Suit 0
+         Environment Suit, Basic                         +0                    8    0     1    Cr500      None
+         Environment Suit, Improved                      +2                    10   20    2    Cr500      None
+         Explosive Ordnance Disposal Suit                +12                   8    —     35   Cr8000     None
+         HEV Suit, Basic                                 +8                    9    75    40   Cr24000    Vacc Suit 1
+         HEV Suit, Improved                              +9                    10   90    30   Cr20000    Vacc Suit 1
+         HEV Suit, Enhanced                              +12                   11   140   30   Cr22000    Vacc Suit 0
+Armour
+
+
+
+
+         HEV Suit, Advanced                              +14                   13   170   20   Cr40000    Vacc Suit 0
+         HEV Suit, Superior                              +15                   14   185   10   Cr60000    Vacc Suit 0
+         Pressure Sleeve                                 +0                    10   —     —    Cr600      None
+         Rescue Suit                                     +12                   12   120   22   Cr25000    Vacc Suit 1
+         Shipsuit, Standard                              +4                    14   60    2    Cr30000    None
+         Shipsuit, Deluxe                                +6                    14   75    4    Cr60000    None
+         Skinsuit                                        +4                    14   20    1    Cr100000   None
+         Vacc Suit, Basic                                +4                    8    15    28   Cr12000    Vacc Suit 1
+         Vacc Suit, Improved                             +8                    10   60    12   Cr10000    Vacc Suit 0
+         Vacc Suit, Advanced                             +10                   12   90    8    Cr20000    Vacc Suit 0
+
+
+
+
+   28
+

@@ -1,0 +1,62 @@
+FISSION MICROREACTOR                                         When the internal fuel storage and cooling system runs
+This small reactor is designed to provide constant           dry, the generator must undergo maintenance to its
+power to remote locations and hostile environments           filters and cooling tubes. A generator restart requires a
+where other power sources are not available or reliable.     successful Average (8+) Mechanic check (INT or EDU,
+This miniature fission unit lacks adequate shielding         1D hours) and a full refuelling. The TL13 generator is
+to be placed within a building. Without protection, a        not only smaller but will operate for twice as long before
+person standing one metre away will absorb one rad           requiring refuelling. Although smaller, its deuterium-
+per hour, a relatively small amount that will kill within    enriched water supply requires greater enrichment and
+a few months. A fission microreactor is typically buried     still costs Cr500 per recharge. A Fusion Plus generator
+in the ground with its cooling radiator, a disk some         will not scale below Medium size.
+three metres in diameter, exposed to the surface.
+Alternatively, it is placed sufficiently far away, up to     Fusion Plus
+100 metres, from a habitat to nearly eliminate the           Generator   TL       Effect             Kg    Cost
+radiation risk. The latter solution still causes damage to   Basic           10   Portable fusion    20    Cr50000
+the surrounding environment on habitable worlds and                               generator
+risks severed power connections in any environment.
+                                                             Improved        13   Portable fusion    10    Cr100000
+Safely deploying a reactor requires 16 person-hours,
+                                                                                  generator
+appropriate tools and excavation implements.
+
+A fission microreactor will not scale smaller than
+Medium size but will provide power with little need for
+maintenance for up to 25 years. These reactors have
+severely restricted availability on most worlds, as their
+components are extremely hazardous, although their
+fuel is not nearly enriched enough to build a nuclear
+bomb. After 20 + 1D years, these reactors will need
+maintenance and refuelling, requiring 1D weeks and
+50% of their initial cost in parts and fuel.
+
+Fission
+Microreactor TL        Effect            Kg   Cost
+Basic            6     Deployable        100 Cr200000
+                       fission reactor
+Improved         8     Deployable        50   Cr100000
+                       fission reactor
+Advanced         10    Deployable        20   Cr100000
+                       fission reactor
+
+FUSION PLUS GENERATOR
+A Fusion Plus generator will operate for one month
+
+                                                                                                                           Survival gear
+off water electrolysed into hydrogen and expels
+oxygen as a waste gas. It does not require or support
+external fuel tanks, as its fuel supply is constantly
+run through a series of cooling and generating tubes
+to provide fusion at relatively low temperatures. The
+water doubles as radiation shielding and accounts
+for half the mass of the reactor. Oxygen is the only
+waste product, expelled gradually over the generator’s
+period of operation. Deuterium-enriched water,
+available for Cr500 per recharge, will increase the
+generator’s operating duration by a factor of 10 before
+it requires refuelling and maintenance.
+
+
+
+
+                                                                                                                          117
+

@@ -1,0 +1,25 @@
+{
+  "id": "captain-yuen",
+  "name": "Captain Yuen",
+  "archetype": "survivor",
+  "title": "Merchant Captain / Survivor",
+  "location": "external",
+  "location_detail": "Starports, Hospitals",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["traumatized", "grateful", "determined", "haunted"],
+    "speech": "hesitant, relives events, deeply grateful for rescue, trying to move on",
+    "quirks": [
+      "flinches at sudden sounds",
+      "obsessively checks escape routes",
+      "loyal to those who helped",
+      "nightmares about the attack"
+    ]
+  },
+  "background": "Merchant captain whose ship was attacked by pirates. Sole survivor rescued by the Amishi. Now recovering and trying to rebuild. Grateful beyond words.",
+  "knowledge": ["merchant-shipping", "pirate-attack-details", "survivor-testimony"],
+  "relationships": {
+    "amishi-crew": "owes-life"
+  }
+}

@@ -1,0 +1,69 @@
+                                                                                      T       R       A       V        E       L       L       E        R
+
+
+
+                                                                                          PROTO- AND RETROTECH
+                         SHIP’S LOCKER                                                    The Tech Level listed for an item represents the
+                                                                                          technology of a mature item, one with most bugs
+                         A ship’s locker does not need to include a full                  worked out and manufacturing scaled up to take
+                         inventory of items from this catalogue but neither is it a       advantage of mass or mature production processes.
+                         bottomless pit of supplies, tools and ammunition. The            For many items, improvements in technology have
+                         Referee can assume that to maintain licensed ship                only cosmetic effects; a TL9 dagger might be made
+                         certifications, the following will be available:                 of better metal, become rust-proof and possibly self-
+                         • Emergency soft suits for the standard crew                     sharpening but it still has approximately the same
+                              complement, plus soft suit and/or rescue bubbles for        mass, cost and damage potential as the TL1 version.
+                              the rated number of high and middle passengers.             It may become superseded by a monoblade or a laser
+                         • Tools including electronic, mechanical and starship            scalpel at higher Tech Levels but may still be available
+                              engineer toolsets, bulkhead patches, one iris valve         in its basic form even at TL15.
+                              opener, one portable airlock.
+                         • Survival kits for the rated number of crew and                 Other items may go through a period of development
+                              conscious passengers.                                       affecting cost, mass and features. These items
+                         • One medikit per eight rated crew and conscious                 are normally represented by separate entries for
+                              passengers.                                                 gradations as fine as Basic, Improved, Enhanced,
+                                                                                          Advanced and Superior, although often only three or
+                         If Referees and Travellers want to keep track of ship’s          less of these will apply. Vehicles and robots, as found
+                         locker equipment, they can assume a ship will start              in the Vehicle Handbook and Robot Handbook, have
+                         with additional equipment (typically including more              base performance changes at various Tech Levels
+                         advanced vacc suits, additional tools and civilian               and spacecraft, as described in High Guard, have
+                         weapons) equal in value to 1/1000 the cost of the                components which can be modified by additional
+                         starship. This can include fabricators if the ship has a         advanced or primitive features.
+                         workshop and if the Referee approves.
+                                                                                          Most items in the Central Supply Catalogue have either
+                                                                                          a single entry at an optimal Tech Level or listings of
+                                                                                          gradations. In some instances, these items may be
+                                                                                          available in a locally-developed prototype form as much
+                                                                                          as two Tech Levels prior to their introduction. These
+                                                                                          prototypes may be either reverse-engineered lower-
+                                                                                          tech versions of an item or be experimental versions of
+                                                                                          local design. Such prototypes will generally be subject
+                                                                                          to restrictions on the Availability table and an additional
+                                                                                          DM-2 for prototypes or a DM-4 for early prototypes.
+                                                                                          Depending on the world and local conditions as
+                                                                                          determined by the Referee, prototech items may not be
+Equipment Availability
+
+
+
+
+                                                                                          available at all or they may need to be created from local
+                                                                                          materials by the Traveller at considerable cost and effort.
+
+                                                                                          Conversely, electronics and computers may be
+                                                                                          available at higher Tech Levels for considerably less
+                                                                                          cost and mass than their optimal Tech Level, for
+                                                                                          instance a Computer/1 device may be very cheap and
+                                                                                          of negligible size on a TL14 world where a Computer/5
+                                                                                          device is available.
+
+                                                                                          PROTOTECH
+                                                                                          A prototype device uses lower tech, substitute or
+                                                                                          other prototype components to build an item normally
+                                                                                          constructed at up to two Tech Levels greater technology.
+                                                                                          These devices are non-standard, larger, more expensive
+                                                                                          and often less reliable than their standard counterparts.
+
+
+
+
+            10
+

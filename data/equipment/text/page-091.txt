@@ -1,0 +1,68 @@
+                                                                                          T      R        A      V       E        L        L      E      R
+
+
+                                                                                              Medic checks made to perform First Aid. This rises to
+                                                                                              DM+2 at TL12 and DM+3 at TL14. All medikits allow
+                            FIELD SURGICAL KIT                                                field surgery to be performed, with a general DM-2 to
+                            This is a backpack-sized medical and basic surgical               the Medic check but the DM for First Aid also applies,
+                            kit for doctors, combat medics and paramedics. The                negating some of the risk.
+                            kit contains drugs, surgical supplies and diagnostic
+                            equipment as well as very basic surgical tools. This              Medikit      TL Features                 Kg Cost
+                            allows a medic to perform First Aid without penalty.
+                                                                                              Basic        8    First Aid Medic        1       Cr1000
+                                                                                                                check DM+0
+                            A field surgery kit provides all the necessary equipment
+                            required for most basic (or desperate operations). Tools          Improved     10 First Aid Medic          1       Cr1500
+                            for performing surgery including scalpels, saws, forceps,                         check DM+1
+                            sutures with needle drivers and surgical string. The kit is       Enhanced 12 First Aid Medic              1       Cr5000
+                            basic but fulfils the same functions as its more advanced                     check DM+2
+                            medikit cousins. This kit does not include anaesthetics           Advanced 14 First Aid Medic              —       Cr10000
+                            or other drugs. The field surgical kit is a very basic set                    check DM+3
+                            of workmanlike tools and surgery performed using these
+                            tools will suffer DM-2 to Medic checks.
+
+                            Item            TL Effect                     Kg Cost
+                            Field        5       Kit for First Aid (DM+0) 3    Cr1500
+                            Surgical Kit         and surgery (DM-2)
+                                                                                                                                  Field Surgical Kit
+                            FIRST AID KIT
+                            At low Tech Levels, a First Aid kit consists of little more
+                            than material for a splint and a few herbs and plants
+                            reputed to have medicinal qualities – but it is better
+                            than nothing. At higher Tech Levels, clean bandages,
+                            safety pins, sutures with needle drivers and basic
+                            pharmaceuticals (antibiotics, painkillers and possibly
+                            alcohol to sterilise wounds) are added. First Aid performed
+                            using the TL2 kit will inflict DM-2 to Medic checks, while at
+                            TL5 the penalty drops to DM-1. More effective treatment
+                            requires use of a field surgical kit or a medikit.
+
+                            First Aid Kit TL Features                      Kg Cost
+Medical and Care Supplies
+
+
+
+
+                            Basic            2    First Aid Medic          —    Cr10
+                                                  check DM-2
+                            Improved         5    First Aid Medic          —    Cr125                 Medikit
+                                                  check DM-1
+
+                            MEDIKIT
+                            The components of medikits change with different
+                            Technology Levels. All medikits contain diagnostic
+                            devices and scanners, surgical tools and a panoply                                                        Portable
+                            of drugs and antibiotics, allowing a medic to practice                                                    Mediscanner
+                            their art in the field. More advanced-medikits can help
+                            with more exotic problems or when treating augmented
+                            individuals. For example, a TL8 medikit can test blood
+                            pressure and temperature, while a TL14 kit has a
+                            medical densitometer to create a three-dimensional
+                            view of the patient’s body and can scan brain activity
+                            on the quantum level. TL10 medikits grant DM+1 to
+
+
+
+
+              90
+

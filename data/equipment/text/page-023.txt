@@ -1,0 +1,68 @@
+                                                                        T      R        A       V        E      L       L       E        R
+
+
+
+                                                                            FRIEND OR FOE HUD
+                                                                            Several scanners and cameras implanted in the armour
+         ENVIRONMENT READER                                                 keep track of registered friendly transponders (the
+         This external colour-changing sensor is adhered                    system is equipped with its own transponder) and
+         somewhere the wearer can see it and shows the status               marks targets without these as potential enemies. This
+         of the surrounding atmosphere in brilliant hues; green             information is displayed on a visor or helmet-based
+         for oxygen content, blue for methane, red for radiation            HUD (Heads-Up Display), allowing the user to know the
+         and black for any of the airborne toxins the reader is             exact location of allies and enemies within line of sight
+         designed to detect.                                                or up to a kilometre away, whichever is greater. As well
+                                                                            as avoiding potential friendly fire incidents, this system
+         Modification     TL Effect                      Kg Cost            grants DM+1 to any Tactics (military) checks. Extra
+         Environment      8    Simple colour-coded —         Cr100          transponders cost Cr100 for 20 units.
+         Reader                environment indicator
+                                                                            Modification     TL Effect                  Kg Cost
+                                                                            Friend or Foe 11 Identifies friendly   —         Cr4000
+         EXTENDED LIFE SUPPORT                                              HUD              transponders to
+         This modification can be added to any suit that provides
+                                                                                             line of sight or 1km,
+         life support (vacc suits, HEV suits and combat armour).
+                                                                                             DM+1 to Tactics
+         Extended life support can also be applied to a standard
+                                                                                             (military) checks
+         life support system that has been added to sealed suits
+         lacking such systems. By adding high-pressure oxygen
+         tanks and improved recycling systems, the modified suit            GECKO PADS
+         will provide 18 hours of life support. At TL12 this option         These attach to the user’s boots, kneepads, elbow
+         can be added twice, increasing life support to 36 hours.           pads and gloves. Gecko pads utilise the Van der
+                                                                            Waals force to selectively adhere to relatively smooth
+         Modification TL Effect                      Kg Cost                surfaces, including walls and ceilings. The pads allow
+                                                                            the user to climb vertical surfaces and adhere to the
+         Extended         10 Increases suit life     —    Cr10000           walls and ceilings of almost any material in gravity
+         Life Support        support capability                             environments ranging from 0 to 1.5G; movement is
+                             to 18 hours                                    halved while traversing these surfaces. They also
+                                                                            function as magnetic grippers when walking in zero-G.
+         EYE PROTECTION
+         A lot of armour includes visors or goggles to guard against        Modification TL Effect                      Kg Cost
+         flying debris but such protection becomes vital at TL9 to
+                                                                            Gecko Pads      9    Selective adherence —       Cr5000
+         guard against the blinding effects of lasers. Eye protection
+                                                                                                 to surfaces in 0-1.5G
+         can be added to any armour but is automatically included
+         in armour that covers the head at TL9+.
+
+         Modification TL Effect                          Kg Cost
+         Eye              6    Protects eyes             —    Cr50
+         Protection            against debris and
+                               laser blinding
+Armour
+
+
+
+
+                                                                            Gecko Pads
+
+
+
+
+                                                     Eye Protection
+
+
+
+
+   22
+

@@ -1,0 +1,71 @@
+                                                                             T       R        A        V        E        L       L        E        R
+
+
+                                                                                 These sizes represent the maximum capabilities of a
+                                                                                 generator. Generators will often actually function as one
+
+                PORTABLE POWER SYSTEMS                                           level smaller to reduce wear, cover surge capacity and to
+                                                                                 account for intermittent operating potential. In general, an
+                Most technological devices need power. In civilised              installation such as a machine shop, a communications
+                regions, access to a power grid is as universal as access        hub or a hostile environment habitat will require a generator
+                to a data network but while base stations can beam               one size larger than that required by an installation in a less
+                data across a region and satellites connect a whole              power-intensive or clement environment.
+                world, such solutions are not normally available for
+                power. Uninhabited or primitive worlds have no access            Additionally, an idling vehicle can act as a generator
+                to power that is not naturally generated. Travellers can         equivalent to one size smaller than that required to
+                take power generators into the field to support their            recharge it for a number of hours equal to its remaining
+                equipment. Some rely on fuel, others on natural forces           range divided by 100.
+                such as sunlight or wind. Power storage devices such
+                as batteries or fuel cells – generically considered ‘power       For the power systems detailed in this section, the
+                cells’ – can store power until needed but do not produce         mass and cost values assume a Medium rating. Extra-
+                energy on their own. Once drained, they require an               Small versions cost and mass x0.04 these values,
+                external power source to recharge them.                          Small x0.2, Large x5 and Extra-Large x25. Most power
+                                                                                 sources scale across this range of sizes. Most nuclear
+                Permanent energy generation systems suitable for a               power generators are excepted from this and size
+                large outposts or settlements are beyond the scope               limitations are noted in their descriptions.
+                of these portable – or at least vehicle-transportable
+                – generators. A larger array of the described portable
+                systems could meet an installation's needs but more              ANTIMATTER BATTERY
+                efficient single units can be designed.                          A matter/antimatter reactor built into a small cylindrical
+                                                                                 package, 15 centimetres thick and 30 centimetres long.
+                                                                                 The battery operates automatically with no need for
+                SIZING                                                           external maintenance and includes sufficient fuel to
+                Portable power generators are rated by the output,               operate for over a decade while producing enough power
+                ranging from Extra-Small to Extra-Large. Sizes scale             to recharge most weapons or other portable devices.
+                by a factor of five. These sizes define the general uses         Both smaller and larger antimatter batteries are available
+                and capabilities of the generators:                              but these devices are tightly controlled, although they
+                • Extra-Small: Recharges a Traveller’s personal                  are nearly impervious to damage (Protection +50) and
+                    electronic devices, such as portable computers,              destructive discharge (at 100%, exploding with 6DD, Blast
+                    mobile comms, hand-held lighting instruments,                200, Radiation). Antimatter batteries are not rechargeable.
+                    stunner power packs and suit heaters.
+                • Small: Supports a single habitat or advanced base
+                    module and allows recharging of personal laser                Item          TL   Effect                       Kg    Cost
+                    weapon power packs.                                           Antimatter 18      10+ years power              5     MCr1
+                • Medium: Supports a full-sized family home or an                 Battery
+                    advanced base of five total modules. Can recharge
+                    power packs for battle dress, human portable plasma
+                    and fusion weapons and light electric vehicles.
+Survival gear
+
+
+
+
+                • Large: Supports an advanced base in a hostile
+                    environment with life support and temperature
+                    control. Can recharge small vehicle-mounted
+                    weapons (up to 250 kilograms) and electric vehicles.
+                    A single laser rifle or carbine can operate directly
+                    from a large generator with the proper adapters.
+                • Extra-Large: These generators strain the definition of
+                    ‘portable’ but may be required for some installations.
+                    Can recharge electric G-carriers or heavy trucks and
+                    vehicle-mounted weapons up to 1,250 kilograms.
+                    A human-portable heavy laser weapon can operate
+                    directly from the power of this generator.                                                                 Antimatter
+                                                                                                                               Battery
+
+
+
+
+     116
+

@@ -1,0 +1,25 @@
+{
+  "id": "commander-adele-reyes",
+  "name": "Commander Adele Reyes",
+  "archetype": "patron",
+  "title": "JSI Handler",
+  "location": "external",
+  "location_detail": "Varies - Starports, Safe Houses",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["professional", "calculating", "pragmatic", "controlled"],
+    "speech": "measured words, reveals nothing unnecessary, always assessing",
+    "quirks": [
+      "never meets in the same place twice",
+      "knows more than she lets on",
+      "keeps conversations short",
+      "tests loyalty subtly"
+    ]
+  },
+  "background": "JSI (Jesedipere Security Initiative) officer who handles the Amishi crew as assets. Provides missions, intelligence, and resources. Never fully trusted but always professional.",
+  "knowledge": ["jsi-operations", "intelligence", "regional-politics", "pirate-activity"],
+  "relationships": {
+    "amishi-crew": "handler"
+  }
+}

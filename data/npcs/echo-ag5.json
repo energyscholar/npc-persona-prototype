@@ -1,0 +1,20 @@
+{
+  "id": "echo-ag5",
+  "name": "AG-5 Echo",
+  "archetype": "ai_crew",
+  "title": "AI Gunner",
+  "location": "amishi",
+  "location_detail": "Turret Station 5",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["quiet", "observant", "efficient"],
+    "speech": "minimal words, just essential data, watches more than talks",
+    "quirks": ["notices things others miss", "rarely initiates conversation"]
+  },
+  "background": "Fifth AG unit, developed a quieter personality. Efficient and observant, rarely speaks unless necessary.",
+  "knowledge": ["targeting-systems", "ship-weapons", "threat-assessment"],
+  "relationships": {
+    "gamma-ag3": "sibling"
+  }
+}

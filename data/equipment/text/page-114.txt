@@ -1,0 +1,30 @@
+DIVE SUIT                                                   HEATED DIVE SUIT
+A basic wet or dry diving suit designed to give a           An insulating suit fitted with small heater coils powered
+swimmer some protection from cold water. It requires        by a belt battery unit. A heated dive suit allows the
+swimming equipment to be effective and is compatible        wearer to operate without harm in very cold water. It
+with underwater tanks, rebreathers and artificial gills.    requires swimming equipment to be effective and is
+                                                            compatible with underwater tanks and artificial gills.
+Item        TL Effect                         Kg Cost
+Dive Suit 6      Basic dive suit with some    1    Cr60      Item       TL Effect                        Kg Cost
+                 cold water protection                       Heated    8     Dive suit for very cold     4    Cr650
+                                                             Dive Suit       water (0°C)
+
+
+
+
+                                                      Dive Suit
+
+
+
+
+                                                                                                                         Survival gear
+
+
+
+                                                     Heated Dive Suit
+
+
+
+
+                                                                                                                        113
+

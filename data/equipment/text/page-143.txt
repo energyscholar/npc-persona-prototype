@@ -1,0 +1,70 @@
+                                                                         T       R       A       V        E       L       L          E    R
+
+
+
+
+                                                                                 AMMUNITION MASS
+           SLUG THROWERS                                                        To lower the record-keeping burden of Travellers,
+           Despite advances in energy weapons and other offensive               the mass of ammunition for weapons is generally
+           technologies, accelerating a small piece of metal to high            not considered. However, there are times when
+           velocity is still one of the most efficient ways of killing          this value becomes important, such as when
+           someone. Chemically propelled firearms give way to                   transporting large loads of ammunition to resupply
+           gyrojet (rocket bullets) and gauss (electromagnetically              a beleaguered outpost or when a Traveller begins
+           launched bullets) as technology advances.                            to insist that carrying an extra 100 magazines of
+                                                                                assault rifle ammunition or 10 laser rifle power
+                                                                                packs is ‘not a problem’. To manage these
+           SLUG PISTOLS                                                         situations, the following rules of thumb can
+           All weapons described in this section require the Gun                substitute for formal rules on the mass of every
+           Combat (slug) skill to use effectively.                              single type of ammunition:
+                                                                                • Assume a magazine of 20 rounds of
+           ANTIQUE PISTOL                                                            ammunition equals 10% of the mass of the
+           A flintlock or other primitive projectile weapon. Unless                  weapon; extrapolate as necessary.
+           the weapon is especially well made, it will suffer DM-1              • Assume a power pack to an energy weapon
+           to all attacks. Antique pistols require a successful Gun                  equals 60% of the mass of the weapon if the
+           Combat (slug) check to reload, taking 2D3 Minor Actions.                  power pack is external or 20% if internal.
+                                                                                • If a weapon has no listed mass, assume it is
+                                                                                     0.2 kilograms for calculating ammunition or
+           ASSAULT PISTOL                                                            power pack mass.
+           An autopistol designed to fire bursts of fully-automatic
+           fire, assault pistols are notoriously inaccurate and                 These guidelines will not cover every variation
+           suffer DM-2 to all attack rolls when using burst or full             of weapon and ammunition but should cover
+           auto modes. Users are advised to carry as many extra                 most situations.
+           magazines as they can as the assault pistol burns
+           ammunition very quickly.
+
+           AUTOPISTOL
+           Variants of this semi-automatic pistol are the standard           be discharged at once, in which case the damage is
+           sidearm for law enforcement officers and criminals                increased to 4D. Coach pistols require a successful Gun
+           across the Imperium.                                              Combat (slug) check as a Significant Action to reload.
+
+           BODY PISTOL                                                       DUCK’S FOOT PISTOL
+           Body pistols are manufactured from plastics and                   A good tool for intimidating an entire mob at once, the
+           cultured bone, making them very difficult to detect using         duck’s foot pistol has several (normally between four
+           conventional weapons scanners. Body pistols impose                and eight) splayed barrels which are all discharged at
+           DM-4 to any Electronics (sensors) checks made to                  once. Its effects can be fairly random and the energy
+           detect them. This check is subject to TL differential             expended has been known to wreck the pistol. The
+           rules but more advanced versions of the body pistol are
+Weaponry
+
+
+
+
+                                                                             Duck’s foot pistol can only ever be used on full auto (see
+           available up to TL12.                                             Traveller Core Rulebook, page 79) and a target may only
+                                                                             be attacked once – any extra shots are wasted. This
+           CARTRIDGE PISTOL                                                  weapon requires a successful Gun Combat (slug) check
+           A large smoothbore revolver chambered for a non-                  to reload, taking 2D3 Minor Actions.
+           standard 13mm light shotgun cartridge, this weapon
+           is often used to deal with vermin but has some                    FLECHETTE PISTOL
+           combat applications.                                              This pistol is designed to be an efficient and silent
+                                                                             weapon for use by those who do not wish to bring
+           COACH PISTOL                                                      attention to themselves. It uses compressed air to
+           Essentially a sawed-off double-barrelled black powder             launch a cluster of metal darts.
+           shotgun, the coach pistol is deadly at close range
+           but useless at any real distance. Both barrels can
+
+
+
+
+   142
+

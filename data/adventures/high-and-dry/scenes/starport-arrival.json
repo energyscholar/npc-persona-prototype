@@ -11,12 +11,19 @@
 
   "objectives": [
     "Complete arrival procedures",
+    "Handle weapon declaration at customs",
     "Get directions to government offices",
     "First observations of local culture"
   ],
 
+  "world_context": {
+    "law_level": 8,
+    "notes": "Walston runs strict weapons control - most firearms prohibited"
+  },
+
   "encounters": [
     "customs-check",
+    "weapons-checkin",
     "first-impressions"
   ],
 

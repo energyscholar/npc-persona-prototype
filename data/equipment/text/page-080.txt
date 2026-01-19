@@ -1,0 +1,64 @@
+EM PROBE                                                  METAL DETECTOR
+This handy device detects the electromagnetic             A metal detector uses magnetic fields to locate metals
+emissions of technological devices and can be used as     concealed on the surface or buried underground.
+a diagnostic tool when examining equipment or when        It can detect underground cables of copper but not
+searching for hidden bugs or devices (functioning as a    fibre optics. Ground penetration depth and ability to
+deluxe bug sweeper).                                      identify objects increases with Tech Level. The TL5
+                                                          metal detector is a large broomstick-like device, the
+Item        TL      Effect                Kg     Cost     TL7 version is slightly smaller but includes a readout
+                                                          estimating the composition or identity of the object
+EM Probe 10         Electromagnetic        1     Cr1000
+                                                          detected. At TL9 the detector becomes small enough to
+                    detection and analysis
+                                                          be added as a component to another electronic device.
+
+GROUND PENETRATING RADAR                                  Metal Detector TL           Effect                  Kg    Cost
+A portable ground penetrating radar is able to locate
+items or anomalies buried in soil or loose rock.          Basic                5      Detects coin-           5     Cr250
+Any item of varying density or composition can be                                     sized items to 1
+detected and identified, usually with an Average                                      metre depth
+(8+) Electronics (sensors) check (INT or EDU, 1D          Improved             7      Detects coin-           3     Cr150
+rounds). The initial versions consist of a detector                                   sized items to 3
+with two telescoping mounted arms connected to a                                      metre depth
+control unit. The TL11 version deploys three dedicated    Advanced             9      Detects coin-           —     Cr250
+grav-powered drones from the control unit to allow                                    sized items to 10
+for triangulation to improve accuracy and penetration                                 metre depth
+depth, providing DM+2 to detection attempts.
+
+Ground                                                    NAS
+Penetrating                                               The Neural Activity Scanner (NAS) consists of a
+Radar       TL        Effect             Kg     Cost      backpack and detachable handheld unit and can detect
+                                                          neural activity up to 500 metres away. The device can
+Basic          7      Detects            5      Cr5000    also give a rough estimation of the intelligence level of
+                      anomalies to 40                     organisms based on brainwave patterns.
+                      metres depth
+Improved       9      Detects            4      Cr8000    Item     TL   Effect                           Kg       Cost
+                      anomalies to 80
+                      metres depth                        NAS      15   Neural activity detection        10       Cr35000
+                                                                        and analysis
+Advanced       11     Detects anomalies 2       Cr10000
+                      to 160 metres
+                      depth, DM+2                         PSI-DETECTOR
+                                                          This device is one of the earliest portable instruments
+                                                          for testing psionic ability. Slightly larger than a standard
+                                                          suitcase, it stretches the description of portable. The
+                                                          subject is fitted with an expandable band across their
+                                                          head, which wirelessly connects to the device. Wireless
+                                                          range is 10 metres. It not only determines whether the            Electronics
+                                                          subject possesses a PSI score but the level of psionic
+                                                          strength. Operating the machine requires a Difficult
+                                                          (10+) Electronics (sensors) check (1D minutes, INT or
+                                                          EDU) with the subject’s PSI score as a positive DM.
+                                                          Subjects under the effect of an inhibitor drug inflict
+                                                          DM-2 to this check.
+
+                                                          Item            TL       Effect                 Kg       Cost
+ Ground                                                   Psi-detector 13          Detects and          10         Cr5000
+ Penetrating                                                                       evaluates PSI rating
+ Radar                                         NAS
+
+
+
+
+                                                                                                                            79
+

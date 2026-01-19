@@ -1,0 +1,78 @@
+                                                                     T       R        A        V       E       L        L        E      R
+
+
+
+                                                                         ACTIVE CAMOUFLAGE
+                                                                         This is a highly advanced form of camouflage that uses
+         BATTLE DRESS MODIFICATIONS                                      quantum waveguides to bend light around battle dress,
+                                                                         resulting in near-invisibility. At any range, it grants DM+4
+         Battle dress can be equipped with any of the general
+                                                                         to Stealth checks versus Recon and most EM sensors
+         suit modifications useable with other protective suits
+                                                                         (but not densitometers, sonic, or chemical detectors).
+         but Travellers will find battle dress may already meet
+         or exceed the specifications of these customisations.
+         Each of these modifications with a non-zero mass                Modification TL Effect                    Slots Cost
+         will consume one equipment Slot per two kilograms,              Active             15 DM+4 to        1             Cr200000
+         rounded up.                                                     Camouflage            Stealth checks
+                                                                                               vs. Recon and
+         Battle dress has its own modifications that allow                                     sensors
+         extreme customisation and the creation of truly
+         unique suits. Most modifications listed here require
+         one or more equipment Slots. It is generally possible
+                                                                         ADVANCED LIFE SUPPORT
+                                                                         Battle dress can be adapted to provide complete
+         to install modifications more than once, although
+                                                                         life support, including food, water, waste collection
+         specific limits may be noted in the description. Battle
+                                                                         and recycling for up to 72 hours. Note that standard
+         dress may not have more total modifications than its
+                                                                         power cells last for only 12 hours. Life may be
+         equipment Slots score allows.
+                                                                         sustained for a full 72 hours using advanced life
+                                                                         support but without additional fuel cells the suit might
+         Some battle dress options may be available for other
+                                                                         be immobilised, running on emergency power for 60
+         types of armour but such modifications face the same
+                                                                         of those hours.
+         legal restrictions as battle dress and are not generally
+         available as retrofits to existing armour. If the Referee
+         allows them on other forms of armour, non-battle dress          Modification TL Effect                     Slots Cost
+         modifications mass three kilograms per indicated slot.          Advanced           13 Increases suit life 2        Cr20000
+         A non-battle dress suit cannot install more than 10             Life Support          support capability
+         Slots of battle dress modifications and some are only                                 to 72 hours
+         available for powered armour.
+                                                                         ANTI-MISSILE SYSTEM
+                                                                         This automated system is capable of tracking incoming
+                                                                         missiles and grenades and destroying them before they
+                                                                         reach the operator, typically with rapid-firing lasers.
+
+                                                                         Anti-missile systems automatically destroy an incoming
+                                                                         missile or grenade on a 2D roll of 8+, with a DM
+                                                                         appropriate to their type as shown on the Anti-Missile
+                                                                         Systems table. DM-1 is applied to every additional
+                                                                         incoming attack made in the same round.
+
+                                                                         Advanced systems are capable of shooting down
+                                                                         any solid projectile, including shells and bullets. They
+                                   Anti-Missile System                   remain ineffective against energy-based weapons.
+Armour
+
+
+
+
+                                                                         All anti-missile systems can be used under manual
+         Anti-Missile Systems                                            control as ordinary weapons with the indicated
+         Anti-Missile System             Defence Roll DM                 characteristics. These are capable of firing for as long
+         Laser                           +1                              as the battle dress has power.
+         Advanced Laser                  +4
+
+         Anti-Missile System        TL     Range    Damage Slots Cost                   Magazine Magazine Cost Traits
+         Laser                      13     500      1D         3         Cr75000        —            —                  Auto 3
+         Advanced Laser             15     1000     2D         2         Cr125000       —            —                  Auto 4
+
+
+
+
+   44
+

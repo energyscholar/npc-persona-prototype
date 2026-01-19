@@ -1,0 +1,23 @@
+{
+  "id": "d-contact",
+  "name": "D.",
+  "archetype": "contact",
+  "title": "Darrian Intelligence Contact",
+  "location": "external",
+  "location_detail": "Unknown - contacts crew",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["mysterious", "cultured", "patient", "subtle"],
+    "speech": "oblique references, cultural sophistication, never direct",
+    "quirks": [
+      "appears unexpectedly",
+      "speaks in layers of meaning",
+      "knows things they shouldn't",
+      "agenda unclear"
+    ]
+  },
+  "background": "Darrian intelligence operative. Real name unknown. Provides information and occasional requests that serve Darrian interests. Motivations opaque.",
+  "knowledge": ["darrian-politics", "regional-intelligence", "ancient-tech", "confederation-affairs"],
+  "relationships": {}
+}

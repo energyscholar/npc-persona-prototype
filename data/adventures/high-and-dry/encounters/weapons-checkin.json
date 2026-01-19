@@ -1,0 +1,72 @@
+{
+  "id": "weapons-checkin",
+  "scene": "starport-arrival",
+  "title": "Weapons Declaration",
+  "description": "Walston customs requires declaration of all weapons. Law level 8 prohibits most firearms.",
+
+  "trigger": {
+    "type": "scene_entry",
+    "prerequisite": {
+      "has_illegal_weapons": true
+    }
+  },
+
+  "npc": "customs-officer-walston",
+
+  "prompt": "The customs officer scans your luggage and pauses. 'Weapons detected. Law level 8 applies here. You'll need to declare and check any firearms. Or you can try to talk your way through, but I wouldn't recommend it.'",
+
+  "choices": {
+    "declare_and_check": {
+      "label": "Declare weapons and check them at customs",
+      "description": "Cooperate with customs. Weapons stored safely, retrievable when departing.",
+      "outcome": "weapons_checked"
+    },
+    "attempt_concealment": {
+      "label": "Try to conceal weapons",
+      "description": "Risky. Requires successful Stealth or Deception check.",
+      "skill_check": {
+        "skills": ["Stealth", "Deception"],
+        "difficulty": 10
+      },
+      "outcome_success": "weapons_smuggled",
+      "outcome_failure": "weapons_confiscated"
+    }
+  },
+
+  "outcomes": {
+    "weapons_checked": {
+      "description": "Weapons stored at customs. Claim ticket provided.",
+      "flags": {
+        "weapons_checked_at_starport": true
+      },
+      "store_items": {
+        "location": "starport-customs",
+        "filter": "illegal_weapons"
+      },
+      "narrator_text": "The officer nods approvingly. 'Smart choice. Here's your claim ticket. Pick them up when you leave.' Your weapons are secured in a customs locker."
+    },
+    "weapons_smuggled": {
+      "description": "Successfully concealed weapons from customs.",
+      "flags": {
+        "weapons_smuggled": true
+      },
+      "narrator_text": "The officer waves you through without noticing. Your weapons remain hidden, but one wrong move could expose them."
+    },
+    "weapons_confiscated": {
+      "description": "Weapons seized. Fine assessed. Legal record noted.",
+      "flags": {
+        "weapons_confiscated": true,
+        "legal_issue": true
+      },
+      "remove_items": {
+        "filter": "illegal_weapons"
+      },
+      "fine": {
+        "amount": 500,
+        "currency": "Credits",
+        "reason": "Illegal weapon possession"
+      },
+      "narrator_text": "The officer's expression hardens. 'Attempted concealment. That's a 500 credit fine and confiscation.' Your weapons are seized permanently."
+    }
+  }
+}

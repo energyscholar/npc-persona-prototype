@@ -1,0 +1,66 @@
+                                                                                   T      R        A          V    E       L       L       E        R
+
+
+                                                                                       PSI-ENHANCED TARGETING
+                                                                                       Using a linked wire network worn around the temples
+                     LASER SIGHT                                                       or integrated into headgear, a psionic user can employ
+                     Integrated optics and laser sights grant DM+1 to any              their mental abilities to home in on a target. Truer than
+                     attack made at ranges of less than 50 metres. At TL10,            the images seen by organic eyes, the targeting system
+                     ultraviolet lasers and improved display technology                feeds telepathically-enhanced firing angles and timing
+                     removes the tell-tale ‘red dot’ of a vislight laser.              directly to the user’s brain. No other targeting aids or
+                                                                                       sights may be used in conjunction with this device but
+                     Item          TL      Effect                     Kg Cost          the user may add their PSI modifier to any shooting
+                                                                                       attack that does not use the Auto trait.
+                     Laser Sight 8         DM+1 to attack rolls       —    Cr200
+                     (red dot)             within 50m
+                                                                                       Item              TL   Effect              Kg     Cost
+                     Laser Sight 10        +Invisible UV laser dot —       Cr200
+                     (UV dot)                                                          Psi-enhanced 16        Add PSI modifier    0.5 Cr3000
+                                                                                       Targeting              to non-Auto
+                                                                                                              attack rolls
+                     PERSONAL HEADS-UP DISPLAY (P-HUD)
+                     A Personal HUD projects an aiming point onto an
+                     image of the target, automatically correcting for wind,           SCAN JAMMER
+                     gravity and other factors. Various display devices                A highly illegal (at any Law Level above 0) addition
+                     are available, ranging from a helmet visor to a pair of           to a weapon, frequently used by spies, agents and
+                     designer shades. A P-HUD grants DM+1 on all attack                assassins, the scan jammer emits a localised sensor
+                     rolls at all ranges, for any ranged weapon it is keyed to.        jamming field causing nearby scanning receivers to
+                     Modules that allow additional weapons to be used on               flicker and fail. All Electronics (sensors) checks made to
+                     the same P-HUD system cost Cr250 each and require                 discover the weapon suffer DM-4.
+                     an hour to fit and calibrate. There is no limit on how
+                     many weapons can be calibrated to one P-HUD. At                   Item              TL Effect                Kg Cost
+                     TL11, the P-HUD incorporates a holographic projector              Scan Jammer 8          DM-4 to Electronic —       Cr2500
+                     and no obvious visual device need be worn.                                               (sensors) checks
+                                                                                                              for weapon
+                     Item             TL     Effect               Kg      Cost
+                     P-HUD            9      DM+1 to all attack 0.5 Cr1500             SCOPE
+                                             rolls for keyed                           A high-quality telescopic scope for attachment to
+                                             weapons                                   a rifle or heavy weapon, allowing accurate shots
+                     P-HUD         11        +Holographic         —       Cr2500       at extreme ranges. Any hand-held rifle or heavy
+                     (holographic)           display                                   weapon equipped with this gains the Scope trait. At
+                     Additional       9      Requires 1 hour      —       Cr250        TL7, image enhancement and light intensification
+                     Weapon Key              to calibrate                              are added, allowing the scope to be used in low-light
+                     Module                                                            environments without penalty.
+Weapon Accessories
+
+
+
+
+                                                                                       Item          TL Effect                       Kg Cost
+                                                                                       Scope         5    Allows accurate shots      —     Cr50
+                                                                                                          at extreme ranges
+                                                                                       Scope        7     +Low-light image and       —     Cr50
+                                                                                       (electronic)       light enhancement
+
+
+
+
+                             Personal Heads-up Display (P-HUD)
+
+                                                                                                                           Scope
+
+
+
+
+       176
+

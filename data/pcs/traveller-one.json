@@ -1,5 +1,7 @@
 {
   "id": "traveller-one",
   "name": "Traveller",
-  "notes": "Sample PC for testing High and Dry interactions"
+  "notes": "Sample PC for testing High and Dry interactions",
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

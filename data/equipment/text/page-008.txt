@@ -1,0 +1,67 @@
+Sentencing                                                 cost and those requiring rare elements may cost
+1D+DMs       Sentence                                      more to fabricate in small batches than to purchase
+                                                           from a manufacturer able to acquire such materials
+0 or less    Dismissed or trivial                          in bulk. Optionally, the Referee can impose a 1D x
+1–2          Fine of 1D x Cr1000 (per item)                10% materials cost for most products and a 2D x 10%
+3–4          Fine of 2D x Cr5000 (per item)                materials cost for computers, robots and complicated
+                                                           electronic machinery.
+5–6          Exile or a fine of 2D x Cr10000 (per item)
+7–8          Imprisonment for 1D months, exile or          At TL10 the improved fabrication chamber can create
+             fine of 2D x Cr20000 (per item)               simple electronic devices, including the processors
+9–10         Imprisonment for 1D years or exile            needed for building complete vehicles, appliances and
+11–12        Imprisonment for 2D years or exile            Basic-brained robots.
+13–14        Life imprisonment
+                                                           A TL13 enhanced fabrication chamber can create
+15 or more Death                                           additional fabrication chambers, even complete
+                                                           robots with Advanced brains. An enhanced fabrication
+A result of Exile means the Traveller must leave the       chamber includes the technology to act as an advanced
+planet immediately and never return.                       bioreaction chamber (see page 88). It can print a
+                                                           full organ, limb or similar replacement part, possibly
+                                                           infusing it with cybernetic components, but is unable
+FABRICATION CHAMBERS                                       to directly print a complete living organism, although it
+Purchasing a physical object is one way of acquiring       can infuse a biological creation with an artificial nervous
+equipment. Another method is to build it. At lower         system to be programmed as a robot or artificial being.
+technologies, this requires tools and a workshop.          It can lay down layers of crystaliron but has no ability
+Beginning at TL8, early fabrication chambers – 3D          to produce superdense alloys – which require a heavy
+printers – become available. A simple consumer-grade       industrial process at all Tech Levels.
+product can do little more than print plastic models but
+more sophisticated models can print metal and create       A TL17 advanced fabrication chamber can print a
+everything from spare parts to habitation modules.         complete living biological being or cyborg. It can
+Fabrication chambers are not magic, and at small scale     create computers and robot brains up to full Conscious
+do not replace store-bought items, but for Travellers      complexity. A biological brain created in an advanced
+in need of uncommon parts or far from the nearest          fabrication chamber will be a blank slate. The printing
+delivery service, a fabrication chamber is another         process is not sophisticated enough to duplicate memory
+method for acquiring items, if raw materials and plans     patterns but it can embed wafer jacks capable of acting
+for the equipment are available.                           as accelerating learning enhancers. Objects created in
+                                                           an advanced fabrication chamber cannot be of greater
+A fabrication chamber is often referred to as a            Tech Level than the chamber itself and superdense
+‘fabricator’ or ‘fab’. A TL8 basic fabricator is a         materials remain beyond the capabilities of a fabricator.
+straightforward 3D printer, able to lay down layers
+
+
+
+
+                                                                                                                         Equipment Availability
+of material to form simple mechanical objects.             As a general rule, the listed fabrication chambers can
+Increasingly advanced fabricators can create objects       fully manufacture any non-animate item available two
+of increasing complexity, up to and including additional   Tech Levels or more prior to their own Tech Level. For
+fabrication chambers themselves. Most are a sealed or      instance, a basic fabricator could fully manufacture TL6
+mostly enclosed environment, able to create objects up     items, including auto pistols and even vacuum tube
+to a rated size usually equal to half the unit’s volume.   radios, while an improved fabrication chamber could
+External fabricators also exist; these are useful for      manufacture a transistor radio, portable computer or
+creating larger or irregularly shaped objects such as      other TL8 electronics. This progression holds until the
+habitats and vehicles.                                     debut of the TL17 advanced fabrication chamber, a
+                                                           device capable of turning a society into a post-scarcity
+Fabricators require materials equal to the mass of         civilisation, with nearly any item available on demand,
+the object created. These may be everything from           assuming access to the proper raw materials.
+simple powders to rare earths or more unusual
+materials, depending on the final product. In general,     Note that design templates for fabricated items are
+these materials will cost 50% of the cost of a similar     often patented and require licenses to produce,
+purchased product, although those composed of purely       although pirated and open-source versions of many
+common materials may have as low as a 10% material         common – and some highly questionable – items
+
+
+
+
+                                                                                                                         7
+

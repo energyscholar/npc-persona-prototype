@@ -1,0 +1,62 @@
+CLIMATE CONTROLLED                                             PSI-AMPLIFIER
+This option allows pre-fabricated cabins, tents and other      The opposite of null-shielding, this structure
+sealed but otherwise unheated or cooled housing units          modification sews psi-conduit crystal wires through
+to be climate controlled to +/- 50°C. It does not protect      the outer layers of the building, focusing on a central
+against all atmospheric Taint factors but will block wind-     hub. The presence of so many psi-crystals in the area
+blown dust and other relatively large particles from           grants DM+2 to all psionic checks while within the
+entering the structure while its doors and windows remain      structure but any psion touching the central hub with
+closed. This temperature control is built into the walls and   their bare flesh while using a psionic ability gains DM+6
+will preserve or eliminate ambient heat from its inhabitants   to the check. This modification cannot be used on any
+using heat differential and built-in solar panels and power    building with null-shielding.
+cells to maintain environmental control.
+                                                               Item            TL     Effect                Kg   Cost
+Item          TL Effect                       Kg Cost          Psi-Amplifier 16       DM+2 to Psion         —    Cr75000
+Climate    10 Moderate unpowered              —     Cr500                             checks, +6 if
+Controlled    climate control                                                         touching the hub
+
+HOLOSIMULACRUM                                                 RAD SHIELDING
+The epitome of internal structure alterations, the             This adds neutralised elements of lead and polymer
+holosimulacrum is a network of thousands of                    plastics designed to block radiation to the outer layers
+tiny holographic and gravitic emitters that can be             of any structure, reflecting most radiation. When a
+commanded (verbally or by remote) to recreate a                source of radiation tries to cross the shielded layers, it
+specific location. The holographic terrain will move           is instantly reduced by 100 rads. The shielding works
+and react as if the structure was the proper size,             both ways, reducing rads for outside sources coming
+manipulating gravitic fields to fool the minds, eyes and       in as well as inside sources emanating outward. This
+bodies of those inside into believing they are actually        option can be applied multiple times to a structure. The
+interacting with the area.                                     first application adds no mass to the overall structure but
+                                                               subsequent applications each add 50% to the mass.
+Item                TL Effect                  Kg Cost
+Holosimulacrum 17        Creates immersive —        MCr5       Item              TL      Effect             Kg    Cost
+                         holographic                           Rad-Shielding 10          Blocks 100 rads    —     Cr2000
+                         environment
+                                                               SELF-ASSEMBLING
+NULL-SHIELDING                                                 The structure is capable of expanding and assembling
+Adding certain psion-dulling chemicals and elements to         itself with minimal aid, reducing the time needed to set
+the outer layers of the structure can effectively block the    up the shelter to a single person-hour.
+passage of psionic influence and manipulation. Psions
+suffer DM-2 whenever trying to project an ability through      Item                 TL     Effect           Kg    Cost
+the walls of the structure. The shielding works both
+                                                               Self-Assembling 11          Assembles        —     Cr5000
+ways, on psions within and without. This modification
+                                                                                           with 1 person-
+cannot be used on any building with a psi-amplifier.
+
+                                                                                                                              Survival gear
+                                                                                           hour effort
+
+Item              TL Effect                 Kg Cost
+                                                               SELF-SEALING
+Null-Shielding 16 DM-2 to psion task —            Cr18000      Structures can be made self-repairing and self-sealing.
+                  checks in or out                             Small breaches and rips are automatically fixed in
+                                                               seconds, restoring an air-tight barrier.
+
+                                                               Item            TL Effect                     Kg Cost
+                                                               Self-Sealing 11      Automatically seals      —   Cr2000
+                                                                                    breaches within
+                                                                                    seconds
+
+
+
+
+                                                                                                                             111
+

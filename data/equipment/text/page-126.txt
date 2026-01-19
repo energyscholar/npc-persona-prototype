@@ -1,0 +1,58 @@
+TOOLS
+When travelling between the stars, there is no guarantee
+you will end up on a civilised world with capable
+                                                                CHAIN
+                                                                A moderately heavy 10-metre chain, suitable for heavy
+tradesmen. Beyond the frontier, Travellers have to rely         lifting or towing, or to anchor a light water vessel. Will
+on themselves and the quality of tools they have had the        support up to 250 kilograms if used as a rope.
+foresight to bring with them. From fixing broken equipment
+to building a civilisation from scratch, the tools in this
+                                                                Item     TL   Effect                          Kg   Cost
+section will allow a Traveller to accomplish great things.
+                                                                Chain 4       10 metre chain, 250             6    Cr100
+When tasks are attempted without the required tools, they                     kilogram load
+suffer DM-2 to the check. A Referee may allow improvised
+tools to reduce this modifier to DM-1. Some tools have TL       CHAINSAW
+restrictions and in other cases, at the Referee’s discretion,   A motorised saw for cutting and shaping trees or similar
+attempting tasks using tools more than two Tech Level less      material. The chainsaw can possibly be used as a
+advanced than the equipment worked upon may result in           weapon but it is very awkward and inflicts DM-2 to
+negative modifiers similar to those for lacking or improvised   attack rolls. Damage is 4D if it does strike home. At TL8
+tools. Toolkits more than two Tech Levels greater than the      and above, these are battery-operated and function in
+equipment being worked on may grant DM+2 to related             oxygen-free environments.
+checks (Or may be entirely inappropriate – a chip reader
+will not work on a vacuum tube).
+                                                                Item          TL    Effect                    Kg    Cost
+Some toolkits or sets rely on consumables to allow              Chain Saw 6         Motorised cutting tool.   6     Cr50
+Travellers to accomplish their tasks. If the Referee                                Melee: DM-2 to attack
+cares to track such things, a toolkit contains enough                               rolls, 4D
+consumables to support a month of full-time work before
+requiring replenishment at a cost of 10% of the item.           COMBAT ENGINEERING TOOL SET
+                                                                A specialised toolkit for the construction of field
+CARPENTRY TOOL SET                                              fortifications and removal of obstacles, along with
+A basic set of woodworking equipment including                  other military applications. A basic kit contains
+standard tools necessary to cut, shape and build with           spades, entrenching tools, wire cutters, probes,
+wood or similar material.                                       marking tape and the like. It does not change
+                                                                significantly until TL6, at which point a small metal
+                                                                detector is included. From TL8 onwards, a dozen
+Item          TL   Effect                      Kg    Cost
+                                                                explosive strips are included. These can be used
+Carpentry 2        Woodworking tools           12    Cr300      for cutting, moving/cracking small obstructions or
+Tool Set                                                        detonating mines. The TL6 and TL8 tool sets grant
+                                                                DM+1 and DM+2 to related skill checks respectively.
+
+                                                                Combat
+                                                                Engineering
+                                                                Tool Set    TL Effect                         Kg Cost
+                                                                Basic           3    Combat engineering       12   Cr150
+                                                                                     tools for field use
+                                                                Improved        6    +Metal detector;       15     Cr300
+                                                                                     DM+1 for related tasks
+                                                                Advanced        8    +Explosive strips (12); 15    Cr500
+                                                                                     DM+2 for related tasks
+        Carpentry Tool Set
+
+
+
+
+                                                                                                                             125
+

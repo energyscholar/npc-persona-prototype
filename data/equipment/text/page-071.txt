@@ -1,0 +1,84 @@
+                                                                                                   T      R         A      V       E       L       L       E       R
+
+
+                                                                                                       A variety of skill packages are available. Unless using a
+                                                                                                       specialised computer, Expert software is not available
+                         DIGITAL FRIEND                                                                until TL11 and requires Intelligent Interface, Digital
+                         Digital Friend is a replacement for an Intelligent                            Friend, or Intellect as described above.
+                         Interface package that has been given a definable (and
+                         adjustable) personality and is usually given a name by                        Software            Bandwidth         TL   Cost
+                         its user. It was designed for people who wanted more
+                                                                                                       Expert/1            1                 —    See table
+                         ‘humanity’ in their computers and for those who spend
+                         long periods in isolation, such as scouts and belters.                        Expert/2            2                 +1   x10
+                         Digital Friends are also used for therapeutic purposes                        Expert/3            3                 +2   x100
+                         and have been useful in resolving long standing mental
+                         issues held by many Travellers. If using Fatigue checks                       The Expert Skill Packages table lists the skills commonly
+                         during long duration space voyages or using the Sanity                        available for computers. Travellers augmented with a
+                         (STY) characteristic from the Traveller Companion                             neural link or neural jack may acquire and use skills not
+                         (page 7), at the Referee’s discretion a computer                              listed that normally require characteristics other than
+                         running Digital Friend allows a Traveller a DM+1 on                           INT or EDU. These expert packages are available for
+                         Fatigue and STY checks.                                                       Expert/1 at TL11 at a cost of Cr1000.
+
+                          Software                   Bandwidth           TL     Cost                   EXPERT SKILL PACKAGES
+                          Digital Friend             2                   11     Cr1750                 Expert Package                             TL     Cost
+                                                                                                       Admin                                      8      Cr100
+                                                                                                       Advocate                                   10     Cr500
+
+                           FIND                                                                        Animals (veterinary)                       9      Cr200
+
+
+                           YOUR                                            !
+                                                                                                       Astrogation                                12     Cr500
+                                                                                                       Broker                                     10     Cr200
+
+
+                           DIGITAL
+                                                                                                       Electronics ( )*                           8      Cr100
+                                                                                                       Engineer ( )*                              9      Cr200
+
+
+                           FRIEND
+                          BRAND NEW version 4.4 - only available in the Central Supply Catalogue
+                                                                                                       Explosives
+                                                                                                       Gambler
+                                                                                                       Language ( )*
+                                                                                                                                                  8
+                                                                                                                                                  10
+                                                                                                                                                  9
+                                                                                                                                                         Cr100
+                                                                                                                                                         Cr500
+                                                                                                                                                         Cr200
+                                                                                                       Mechanic                                   8      Cr100
+                         EXPERT                                                                        Medic                                      9      Cr200
+                         Expert software packages allow a computer to mimic a
+                         specific skill – which must be specified when the software                    Navigation                                 8      Cr100
+                         package is purchased. However, the package can only
+Computers and software
+
+
+
+
+                                                                                                       Profession ( )*                            9      Cr200
+                         help if the difficulty of the task is within its parameters.                  Science ( )*                               9      Cr200
+                         Expert/1 allows Difficult (10+) tasks to be attempted,
+                         while Expert/2 allows Very Difficult (12+) tasks to be tried.                 Steward                                    8      Cr100
+                         Expert/3 is required for Formidable (14+) tasks.                              Survival                                   10     Cr200
+                                                                                                        Tactics ( )*                                 8     Cr100
+                         If a user already has at least level 0 of a skill, then any                   *Each speciality requires a separate package.
+                         level Expert package grants DM+1 to their skill check.                        Profession packages are only available for those
+                         Expert software requires Intelligent Interface (Bandwidth                     skills utilising purely INT or EDU. Obscure profession
+                         1), or Digital Friend (Bandwidth 2) to run, unless installed                  or language packages may be more expensive or
+                         on a specialised computer. In most instances, only INT-                       unavailable. An Expert Language package provides both
+                         and EDU-based checks can be attempted.                                        translation and linguistics information for the language,
+                                                                                                       allowing better understanding of idiom, current and
+                         A user without the specified skill can use an Expert                          archaic dialects, and other subtleties of meaning than
+                         package with Intellect (Bandwidth 1+) software to                             available in a generic Translator package.
+                         make a skill check as if they had the skill at the Expert
+                         software’s Bandwidth -1.
+
+
+
+
+            70
+

@@ -1,0 +1,78 @@
+                                                                         T       R       A        V       E        L       L        E       R
+
+
+
+                                                                             GAUSS ASSAULT GUN
+                                                                             This short weapon uses gauss technology to
+           AIR RIFLE                                                         accelerate many flechettes, creating a rapid-firing
+           This is a rifle whose projectile is propelled by                  ‘shotgun’ effect. Its small size makes it convenient
+           compressed air, charged by pumping an internal                    onboard ships and amongst vehicle crews, yet it
+           reservoir to the required pressure. One shot can be               retains a powerful short-ranged punch.
+           fired before the reservoir needs recharging (a process
+           that takes 10 Minor Actions). These are not toys –
+           weapons of this type are designed to kill, although
+                                                                             GAUSS RIFLE
+                                                                             Gauss rifles replace conventional rifles by TL13. Like
+           they are generally more useful for hunting or avoiding
+                                                                             the smaller gauss pistol, these rifles fire high-velocity
+           Law Level restrictions. Not considered firearms, they
+                                                                             projectiles using electromagnetic coils.
+           are often permitted at Law Level 6 or occasionally 7.
+           At TL4, air rifles come with a detachable air cylinder to
+           allow multiple shots (five but the rifle still needs to be        GAUSS SNIPER RIFLE
+           reloaded after every shot). These can be refilled for free        Utilising gauss technology, this sniper rifle is the
+           outside of combat by simply pumping air into them (this           ultimate in long-ranged surgical killing using projectiles.
+           can be done manually but takes a few minutes).                    The scope includes light amplification and passive IR,
+                                                                             visual magnification and a laser rangefinder which may
+                                                                             also be used as a target painting device.
+           ANTIQUE RIFLE
+           A musket or other primitive rifle. Unless the weapon is
+           especially well made, it will have DM-1 to all attacks.           GAUSS SUBMACHINEGUN
+           This weapon requires a successful Gun Combat (slug)               The gauss submachinegun or gauss personal defence
+           check to reload, taking 2D3 Minor Actions.                        weapon (GPDW) is a short-barrel magnetic coil weapon
+                                                                             with an expandable telescopic stock. Designed to be
+           ASSAULT RIFLE                                                     more powerful than a gauss pistol, but small enough to
+           Assault rifles fire lighter projectiles than rifles but are       be used by vehicle crews, it is often found in the hands
+           capable of a higher rate of fire and are more suitable to         of paramilitaries and less savoury fighters.
+           short-range encounters.
+                                                                             HEAVY ADVANCED COMBAT RIFLE
+           ASSAULT SHOTGUN                                                   Using larger calibre rounds, the heavy advanced combat
+           A heavy shotgun fed from a bulky drum magazine, the               rifle is functionally similar to its smaller counterpart and
+           assault shotgun is capable of automatic fire. It uses             hits harder but has a lower rate of fire and requires a
+           the same ammunition as other shotguns and can lay                 strong user to handle the recoil. Standard equipment
+           waste to a wide area.                                             includes an electronic battlefield sight, incorporating both
+                                                                             light amplification and passive IR, visual magnification
+                                                                             and a laser rangefinder which may also be used as a
+           AUTORIFLE                                                         target painting device. The weapon is gyroscopically
+           Automatic rifles have a higher muzzle velocity and are
+                                                                             stabilised during firing but still considered Bulky. A
+           capable of automatic fire. Sometimes called battle rifles.
+                                                                             sling is provided and the muzzle of the rifle includes
+                                                                             an integral flash suppressor and adaptor for launching
+           BIG GAME RIFLE                                                    a 40mm RAM shoot-through grenade (see Auxiliary
+           A bolt-action rifle firing heavy ammunition, this weapon          Grenade Launcher on page 174).
+Weaponry
+
+
+
+
+           is sometimes named after local wildlife (such as
+           elephant gun). Its recoil is massive but the stopping
+           power is impressive.
+                                                                             MAGRAIL RIFLE
+                                                                             Magrail rifles follow the similar principles of
+                                                                             electromagnetic induction to accelerate their projectiles
+           FLECHETTE SUBMACHINE GUN                                          as gauss weapons but utilise an ovoid projectile
+           This is a scaled-up version of the flechette pistol capable       (sometimes erroneously called a disc or shuriken) which
+           of full-automatic fire. A longer barrel, ‘assault’ foregrip       hits hard at short ranges but lacks penetrative power.
+           and folding stock make it more of a combat weapon than
+           an assassination tool and while it lacks stopping power,
+           it sees use in some special operations units.
+                                                                             RIFLE
+                                                                             A long-range hunting rifle or light infantry weapon.
+
+
+
+
+   146
+

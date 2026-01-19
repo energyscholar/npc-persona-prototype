@@ -1,0 +1,56 @@
+Built-in fans draw in any smoke or smell resulting from         HIGH FIDELITY MUSIC SYSTEM
+operation. Some flashtrays can be extremely ornate with         Many Travellers enjoy music as part of their private life,
+artistic designs and accents in precious metals.                although onboard a ship the excessive volume these
+                                                                systems can produce might not be so private. This
+Item         TL     Effect                        Kg    Cost    is solved at TL11 with the introduction of directional
+Flashtray 8         Incinerates small items       0.5 Cr80+     sound output focused in specific and adjustable arcs.
+                                                                However, even at TL6, the sound reproduction of
+                                                                these systems is sufficient to convince all but the most
+FLOAT TABLE                                                     demanding audiophiles that the musicians could indeed
+Float tables come in varying sizes and shapes,                  be in the same room.
+measuring from tray to dining table size. Equipped
+with anti-grav plates, float tables can be positioned in
+mid-air as desired, forming a ready surface for eating or       High Fidelity
+working. They cannot carry more than their own mass             Music System TL           Effect            Kg Cost
+and remain floating but most models can move slowly             Basic               6     High quality audio 8   Cr1500
+upon verbal command.                                            Improved            11    Adjustable sound 8     Cr4000
+                                                                                          propagation for
+Item           TL    Effect                   Kg       Cost                               privacy
+Float Table 10       Tray-sized anti-grav     1        Cr200
+(small)              table                                      HOLOGRAPHIC PLAY TABLE
+Float Table 10       Desk or dining-sized     4        Cr600    Often installed in common areas on board ships,
+(large)              anti-grav table                            the holographic play table can be used as a normal
+                                                                utility surface when not in use but, upon activation, it
+                                                                generates interactive holographic playing pieces from
+HAIR STYLER                                                     a database of board and strategy games. The galaxy’s
+Consisting of a cap placed over the head, this item             most popular games, such as Frontloader, Offbeat,
+alters the style of a user’s hair within minutes, cutting,      Jump and Dimension, are installed by default and
+dyeing, blow drying, adding extensions according to             more can be added to suit the Travellers’ own tastes.
+pre-selected designs. These designs can be updated              Higher Tech Level versions of this table provide higher
+to match the cultural preferences of newly visited              quality holographic images in line with that Tech Levels
+systems. A full body version that encompasses the               holographic display.
+entire user is also available, intended for use by
+species such as Aslan and Vargr, although it has never
+proven popular with the former.                                 Item           TL       Effect              Kg   Cost
+                                                                Holographic 9           Holographic display 9    Cr1000
+Item           TL    Effect                   Kg       Cost     Play Table              on table
+Hair Styler 8        Styles hair within       2        Cr450
+                     minutes (head only)
+Full Body 8          Styles hair within       8        Cr1250
+Hair Styler          minutes (full body)
+
+
+                                                                                                                             Home Comforts
+                                                                                                            Holographic
+                                                                                                            Play Table
+
+
+
+
+ Hair Styler                                                       High Fidelity Music System
+
+
+
+
+                                                                                                                             83
+

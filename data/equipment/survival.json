@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Environment Reader",
+    "tl": 8,
+    "cost": 100,
+    "mass": 0,
+    "source_page": 23,
+    "category": "survival",
+    "effect": "Simple colour-coded environment indicator"
+  },
+  {
+    "name": "Magnetic Grapples",
+    "category": "survival",
+    "tl": 8,
+    "cost": 100,
+    "mass": 0,
+    "source_page": 25,
+    "effect": "Walk on metallic surfaces in microgravity"
+  },
+  {
+    "name": "Vacc Suit Accessory Pack Basic",
+    "category": "survival",
+    "tl": 9,
+    "effect": "+10 Rads, life support 1hr (belt), +4hr (torso)",
+    "mass": 10,
+    "cost": 6000,
+    "source_page": 27
+  },
+  {
+    "name": "Vacc Suit Accessory Pack Improved",
+    "category": "survival",
+    "tl": 12,
+    "effect": "+20 Rads, life support 1hr (belt), +6hr (torso)",
+    "mass": 4,
+    "cost": 6000,
+    "source_page": 27
+  },
+  {
+    "name": "Vacc Suit Accessory Pack Advanced",
+    "category": "survival",
+    "tl": 14,
+    "effect": "+25 Rads, life support 1hr (belt), +8hr (torso)",
+    "mass": 2,
+    "cost": 8000,
+    "source_page": 27
+  },
+  {
+    "name": "Environment Suit",
+    "category": "survival",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 5,
+    "source_page": 30,
+    "effect": "Protects against atmospheric hazards, Very Thin atmospheres, temperatures between +/-50°C"
+  },
+  {
+    "name": "Hostile Environment Vacc Suit",
+    "category": "survival",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 15,
+    "source_page": 30,
+    "effect": "Protects from -273°C to 600°C, 6-hour life support, Basic Submarine Functionality"
+  },
+  {
+    "name": "Pressure Sleeve",
+    "category": "survival",
+    "tl": 9,
+    "cost": 500,
+    "mass": 1,
+    "source_page": 30,
+    "effect": "Survival in low pressure environments, brief vacuum protection when used with life-support mask"
+  },
+  {
+    "name": "Rescue Suit",
+    "category": "survival",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 32,
+    "effect": "Emergency damage control suit with six-hour oxygen tanks and rescue bubble, protects against physical hazards"
+  },
+  {
+    "name": "Vacc Suit",
+    "category": "survival",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source_page": 32,
+    "effect": "Space protection suit with six-hour air supply and radiation protection"
+  },
+  {
+    "name": "Extreme Environment Exploration (E3) Suit",
+    "tl": 12,
+    "cost": 50000,
+    "mass": 100,
+    "category": "survival",
+    "effect": "Protects in extreme environments, 8 hours life support, grants STR+2, DEX-2",
+    "source_page": 37
+  },
+  {
+    "name": "Environment Protection (Corrosive)",
+    "category": "survival",
+    "tl": 13,
+    "cost": 40000,
+    "mass": 0,
+    "source_page": 46,
+    "effect": "72-hour corrosive atmosphere protection"
+  },
+  {
+    "name": "Environment Protection (Insidious)",
+    "category": "survival",
+    "tl": 13,
+    "cost": 150000,
+    "mass": 0,
+    "source_page": 46,
+    "effect": "72-hour insidious atmosphere protection"
+  },
+  {
+    "category": "survival",
+    "name": "Grav-propelled Detachable Augment",
+    "tl": 13,
+    "cost": 10000,
+    "mass": 0,
+    "source_page": 50,
+    "effect": "Grav-propelled remote control"
+  },
+  {
+    "name": "Environment Replicator",
+    "category": "survival",
+    "tl": 8,
+    "cost": 2000,
+    "mass": 12,
+    "effect": "Localises lighting, temperature and humidity",
+    "source_page": 83
+  },
+  {
+    "name": "Home Theatre Basic",
+    "category": "survival",
+    "tl": 8,
+    "effect": "Flat screens and surround sound",
+    "mass": 30,
+    "cost": 4500,
+    "source_page": 85
+  },
+  {
+    "name": "Home Theatre Improved",
+    "category": "survival",
+    "tl": 9,
+    "effect": "Wallpaper screens and speaker network",
+    "mass": 20,
+    "cost": 12000,
+    "source_page": 85
+  },
+  {
+    "name": "Home Theatre Advanced",
+    "category": "survival",
+    "tl": 11,
+    "effect": "Holographic projection",
+    "mass": 9,
+    "cost": 36000,
+    "source_page": 85
+  },
+  {
+    "name": "Breather Mask Basic",
+    "category": "survival",
+    "tl": 5,
+    "mass": 0,
+    "cost": 150,
+    "effect": "Combination filter and respirator",
+    "source_page": 99
+  },
+  {
+    "name": "Breather Mask Improved",
+    "category": "survival",
+    "tl": 10,
+    "mass": 0,
+    "cost": 2000,
+    "effect": "Nose plug or lung implant",
+    "source_page": 99
+  },
+  {
+    "name": "Environment Mask",
+    "category": "survival",
+    "tl": 5,
+    "mass": 0,
+    "cost": 200,
+    "effect": "Combination mask designed for suit use",
+    "source_page": 99
+  },
+  {
+    "name": "Face Mask",
+    "category": "survival",
+    "tl": 4,
+    "effect": "Eye and face protection from dust, etc.",
+    "mass": 0,
+    "cost": 20,
+    "source_page": 100
+  },
+  {
+    "name": "Filter Mask Basic",
+    "category": "survival",
+    "tl": 3,
+    "effect": "Protection against Tainted (4, 7, 9) Atmospheres",
+    "mass": 0,
+    "cost": 10,
+    "source_page": 100
+  },
+  {
+    "name": "Filter Mask Improved",
+    "category": "survival",
+    "tl": 10,
+    "effect": "Nose plug or lung implant",
+    "mass": 0,
+    "cost": 1000,
+    "source_page": 100
+  },
+  {
+    "name": "Oxygen/Air Tanks",
+    "category": "survival",
+    "tl": 5,
+    "effect": "Two tanks providing 6 hours of air supply",
+    "mass": 12,
+    "cost": 500,
+    "source_page": 100
+  },
+  {
+    "name": "Rebreather",
+    "category": "survival",
+    "tl": 6,
+    "mass": 10,
+    "cost": 250,
+    "effect": "Mask/backpack providing 6 (or TL) hours air",
+    "source_page": 101
+  },
+  {
+    "name": "Respirator Basic",
+    "category": "survival",
+    "tl": 5,
+    "mass": 0,
+    "cost": 100,
+    "effect": "Protection against Very Thin (3) atmospheres",
+    "source_page": 101
+  },
+  {
+    "name": "Respirator Improved",
+    "category": "survival",
+    "tl": 10,
+    "mass": 0,
+    "cost": 1000,
+    "effect": "Nose plug or lung implant",
+    "source_page": 101
+  },
+  {
+    "name": "Cold Weather Clothing Basic",
+    "category": "survival",
+    "tl": 0,
+    "effect": "Protection from cold (1D per 4 hours)",
+    "mass": 4,
+    "cost": 200,
+    "source_page": 102
+  },
+  {
+    "name": "Cold Weather Clothing Improved",
+    "category": "survival",
+    "tl": 1,
+    "effect": "2 hours protection per TL above 0",
+    "mass": 4,
+    "cost": 200,
+    "source_page": 102
+  },
+  {
+    "name": "Cold Weather Clothing Advanced",
+    "category": "survival",
+    "tl": 5,
+    "effect": "No DEX penalty",
+    "mass": 2,
+    "cost": 500,
+    "source_page": 102
+  },
+  {
+    "name": "Heatsuit",
+    "category": "survival",
+    "tl": 8,
+    "effect": "Protection against cold to -60°C for 12 hours",
+    "mass": 2,
+    "cost": 350,
+    "source_page": 102
+  },
+  {
+    "name": "Advanced Desert Suit",
+    "category": "survival",
+    "tl": 9,
+    "effect": "Protection from desert conditions (1D per 4 hours)",
+    "mass": 2,
+    "cost": 1000,
+    "source_page": 103
+  },
+  {
+    "name": "Desert Kit",
+    "category": "survival",
+    "tl": 5,
+    "effect": "Protection from desert conditions (1D per 2 hours)",
+    "mass": 1,
+    "cost": 75,
+    "source_page": 103
+  },
+  {
+    "name": "Heatproof Suit",
+    "category": "survival",
+    "tl": 8,
+    "effect": "Acts as fireproof suit and ablat armour, protection from extreme heat (1 per hour to 200°C, 1 per minute to 500°C)",
+    "mass": 6,
+    "cost": 100,
+    "source_page": 104
+  },
+  {
+    "name": "Waterproof Backpack",
+    "category": "survival",
+    "tl": 6,
+    "effect": "Some protection of contents from immersion",
+    "mass": 1,
+    "cost": 75,
+    "source_page": 105
+  },
+  {
+    "name": "Distress Flare",
+    "category": "survival",
+    "tl": 6,
+    "effect": "5 minute emergency flare",
+    "mass": 0.25,
+    "cost": 15,
+    "source_page": 106
+  },
+  {
+    "name": "Illuminating Flare",
+    "category": "survival",
+    "tl": 5,
+    "effect": "Launched flare casting bright light",
+    "mass": 0,
+    "cost": 25,
+    "source_page": 106
+  },
+  {
+    "name": "Signalling Flare",
+    "category": "survival",
+    "tl": 5,
+    "effect": "Launched flare casting signal light only",
+    "mass": 0,
+    "cost": 5,
+    "source_page": 106
+  },
+  {
+    "name": "Whistling Flare",
+    "category": "survival",
+    "tl": 5,
+    "effect": "Launched flare emitting whistle",
+    "mass": 0,
+    "cost": 10,
+    "source_page": 106
+  },
+  {
+    "name": "Flare Launcher",
+    "category": "survival",
+    "tl": 5,
+    "effect": "Smoothbore pistol or tube launcher for flares",
+    "mass": 0,
+    "cost": 75,
+    "source_page": 106
+  },
+  {
+    "name": "Infinite Rope",
+    "tl": 16,
+    "cost": 1000,
+    "mass": 1,
+    "source_page": 108,
+    "category": "survival",
+    "effect": "Gun with reusable (to 25m) rope, 750kg load"
+  },
+  {
+    "name": "Rope",
+    "category": "survival",
+    "tl": 5,
+    "effect": "10 metre rope, 150kg load",
+    "mass": 5,
+    "cost": 20,
+    "source_page": 110
+  },
+  {
+    "name": "Rope",
+    "category": "survival",
+    "tl": 9,
+    "effect": "10 metre rope, 250kg load",
+    "mass": 3,
+    "cost": 50,
+    "source_page": 110
+  },
+  {
+    "name": "Rope",
+    "category": "survival",
+    "tl": 13,
+    "effect": "10 metre rope, 500kg load",
+    "mass": 2,
+    "cost": 100,
+    "source_page": 110
+  },
+  {
+    "name": "Survival Kit",
+    "category": "survival",
+    "tl": 5,
+    "effect": "See above for contents",
+    "mass": 5,
+    "cost": 50,
+    "source_page": 110
+  },
+  {
+    "name": "Survival Kit",
+    "category": "survival",
+    "tl": 10,
+    "effect": "Lighter materials and rations",
+    "mass": 3,
+    "cost": 100,
+    "source_page": 110
+  },
+  {
+    "name": "Survival Meal",
+    "category": "survival",
+    "tl": 1,
+    "effect": "Pre-packed storable meal, 2+ per day required",
+    "mass": 1,
+    "cost": 1,
+    "source_page": 110
+  },
+  {
+    "name": "Survival Meal",
+    "category": "survival",
+    "tl": 5,
+    "effect": "Pre-packed storable meal, 2+ per day required",
+    "mass": 0.5,
+    "cost": 5,
+    "source_page": 110
+  },
+  {
+    "name": "Survival Meal",
+    "category": "survival",
+    "tl": 10,
+    "effect": "Pre-packed storable meal, 2+ per day required",
+    "mass": 0.25,
+    "cost": 10,
+    "source_page": 110
+  },
+  {
+    "name": "Survival Still Basic",
+    "category": "survival",
+    "tl": 9,
+    "effect": "DM+2 to all Survival checks to find food",
+    "mass": 3,
+    "cost": 1000,
+    "source_page": 111
+  },
+  {
+    "name": "Survival Still Improved",
+    "category": "survival",
+    "tl": 11,
+    "effect": "Automatic Survival check if input available",
+    "mass": 2,
+    "cost": 2500,
+    "source_page": 111
+  },
+  {
+    "name": "Survival Still Advanced",
+    "category": "survival",
+    "tl": 13,
+    "effect": "+Filters for severe containments, Shugilii filters",
+    "mass": 2,
+    "cost": 4500,
+    "source_page": 111
+  },
+  {
+    "name": "Artificial Gill",
+    "category": "survival",
+    "tl": 8,
+    "effect": "Unlimited breathing in oxygenated water",
+    "mass": 4,
+    "cost": 4000,
+    "source_page": 113
+  },
+  {
+    "name": "Deep-Diving Suit",
+    "category": "survival",
+    "tl": 8,
+    "effect": "Descend to 600+ metres depth, breathing gel, 6 hours 'air' supply, Protection +4",
+    "mass": 22,
+    "cost": 20000,
+    "source_page": 113
+  },
+  {
+    "name": "Atmospheric Diving Suit",
+    "category": "survival",
+    "tl": 7,
+    "effect": "Descend to 800 metres without pre-breathing, 3 hours air supply, Protection +4",
+    "mass": 30,
+    "cost": 24000,
+    "source_page": 113
+  },
+  {
+    "name": "Heated Dive Suit",
+    "category": "survival",
+    "tl": 8,
+    "effect": "Dive suit for very cold water (0°C)",
+    "mass": 4,
+    "cost": 650,
+    "source_page": 114
+  },
+  {
+    "name": "VDO Diving Suit",
+    "tl": 8,
+    "cost": 50000,
+    "mass": 36,
+    "category": "survival",
+    "effect": "Descend to 1,200 metres without pre-breathing, Protection +12",
+    "source_page": 115
+  },
+  {
+    "name": "Underwater Air Tanks",
+    "tl": 5,
+    "cost": 800,
+    "mass": 12,
+    "category": "survival",
+    "effect": "Two tanks providing 6 hours of air supply",
+    "source_page": 115
+  },
+  {
+    "name": "Water Dye",
+    "tl": 4,
+    "cost": 25,
+    "mass": 0,
+    "category": "survival",
+    "effect": "Coloured dye for signalling in water",
+    "source_page": 115
+  },
+  {
+    "name": "Water Dye, phosphorescent",
+    "tl": 9,
+    "cost": 25,
+    "mass": 0,
+    "category": "survival",
+    "effect": "Phosphorescent for night visibility",
+    "source_page": 115
+  },
+  {
+    "name": "Climbing Hoist",
+    "tl": 8,
+    "cost": 175,
+    "mass": 4,
+    "category": "survival",
+    "effect": "Motorised hoist with 25m cable, 150kg load",
+    "source_page": 116
+  },
+  {
+    "name": "Climbing Kit Basic",
+    "tl": 4,
+    "cost": 100,
+    "mass": 4,
+    "category": "survival",
+    "effect": "DM+1 to climbing-related checks",
+    "source_page": 116
+  },
+  {
+    "name": "Climbing Kit Improved",
+    "tl": 8,
+    "cost": 500,
+    "mass": 2,
+    "category": "survival",
+    "effect": "DM+2 to climbing-related checks",
+    "source_page": 116
+  },
+  {
+    "name": "Rescue Bubble",
+    "tl": 9,
+    "category": "survival",
+    "effect": "Inflatable 2 metre pressurised ball with 2 hours air",
+    "mass": 2,
+    "cost": 600,
+    "source_page": 121
+  },
+  {
+    "name": "Tent Basic",
+    "tl": 3,
+    "cost": 200,
+    "mass": 6,
+    "source_page": 125,
+    "category": "survival",
+    "effect": "Basic shelter habitat up to 2 persons"
+  },
+  {
+    "name": "Tent Improved",
+    "tl": 7,
+    "cost": 2000,
+    "mass": 5,
+    "source_page": 125,
+    "category": "survival",
+    "effect": "Pressurised shelter"
+  },
+  {
+    "name": "Tent Barracks Basic",
+    "tl": 6,
+    "cost": 500,
+    "mass": 10,
+    "source_page": 125,
+    "category": "survival",
+    "effect": "Basic shelter habitat up to 8 persons"
+  },
+  {
+    "name": "Tent Barracks Improved",
+    "tl": 8,
+    "cost": 5000,
+    "mass": 10,
+    "source_page": 125,
+    "category": "survival",
+    "effect": "Pressurised shelter"
+  },
+  {
+    "name": "Rescue Tool Set",
+    "tl": 7,
+    "category": "survival",
+    "effect": "Tools for vehicle and building rescue",
+    "mass": 15,
+    "cost": 2000,
+    "source_page": 130
+  }
+]

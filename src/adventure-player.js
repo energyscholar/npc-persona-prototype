@@ -58,6 +58,13 @@ async function startAdventure(adventureId, pcId, client) {
 
     // Initialize inventory
     initializeInventory(storyState);
+
+    // Load PC's personal weapons into inventory
+    if (pc.personal_weapons && Array.isArray(pc.personal_weapons)) {
+      for (const weapon of pc.personal_weapons) {
+        addToInventory({ storyState }, weapon);
+      }
+    }
   }
 
   const session = {
@@ -178,6 +185,13 @@ async function handleAgmNarration(session, playerAction) {
 
       if (sceneResult.narrativePrompt && !parsed.isFlashback) {
         result.text += `\n\n---\n\n${sceneResult.narrativePrompt}`;
+      }
+
+      // Display email notifications
+      if (sceneResult.emailsTriggered?.length > 0) {
+        for (const emailInfo of sceneResult.emailsTriggered) {
+          result.text += `\n\n[Email received from ${emailInfo.from}: "${emailInfo.subject}"]`;
+        }
       }
     }
   }
@@ -788,5 +802,7 @@ module.exports = {
   hasItem,
   checkUnlock,
   getCargoItems,
-  describeInventory
+  describeInventory,
+  // Re-export from story-engine for convenience
+  loadAdventure
 };

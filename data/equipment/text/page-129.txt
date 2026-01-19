@@ -1,0 +1,68 @@
+                                                                     T      R        A       V       E       L      L      E        R
+
+
+                                                                         astronomical charts. By TL3, the addition of sextant,
+                                                                         spyglass, and chronometer allows for more accurate
+        LASER SCALPEL                                                    positioning anywhere on a world’s surface, though
+        A low-power but high-precision handheld laser ‘knife’            astronomical knowledge of the locale is necessary
+        the size of a pen, used for medical and other delicate           to interpret findings. This improved set of tools will
+        cutting purposes. It carries an internal battery which           provide DM+1 to Navigation checks. By TL5 these tools
+        could support up to 30 minutes of continued operation            become miniaturised. By TL8 such tools are generally
+        and it can be hooked up (by a flexible power cord) to            abandoned on civilised worlds, replaced by local or
+        an external power source for longer-duration work or             global positioning networks. DMs from Navigation and
+        recharging. If used as a weapon, it has an effective             Surveying toolkits do not stack; the highest DM applies.
+        range of five metres but will inflict only one point of
+        damage. If intentionally aimed at a target’s eyes, it will       Navigation
+        cause blindness (for 1D hours but permanent in at least          Tool Set   TL Effect                      Kg Cost
+        one eye on a six) on Effect 6+.
+                                                                         Basic           1   DM+1 to Navigation    8    Cr200
+                                                                                             checks
+        Item      TL Effect                         Kg Cost
+                                                                         Improved        3   DM+2 to Navigation    8    Cr1000
+        Laser   10 Laser tool for medical or        —    Cr2000                              checks
+        Scalpel    delicate cutting
+                                                                         Advanced        5   +Miniaturised         4    Cr2000
+
+        MECHANICAL TOOL SET
+        A set of standard mechanical and plumbing tools                  Mechanical Tool Set
+        including everything necessary to repair and alter
+        mechanical devices: wrenches, pliers and a largish
+        hammer, among other things.
+
+        Item          TL Effect                    Kg Cost
+        Mechanical 3       Tools to repair and     12    Cr1000
+        Tool Set           alter mechanical
+                           devices
+
+        METALWORK TOOL SET
+        A basic set of tools for working and shaping metal.
+        The TL5 kit includes welding equipment. Metalwork
+        on crystaliron alloys requires the TL10 kit and work on
+        bonded superdense materials requires the TL14 kit.
+                                                                                      Metalwork Tool Set
+        Metalwork
+        Tool Set  TL Effect                       Kg Cost
+        Basic         3    Metalworking tools     15    Cr1000
+                           for metals < TL10
+        Improved      5    +Welding kit           12    Cr3000
+        Enhanced      10 +Tools for metals        10    Cr5000
+Tools
+
+
+
+
+                         TL10–13
+        Advanced      14 +Tools form metals       10    Cr10000
+                         TL14–15
+
+        NAVIGATION TOOL SET
+        A navigation tool set is a subset of surveying and
+        astronomical tools designed specifically for determining
+        location and bearing and is useful for land, sea and
+        eventually air navigation. The basic tool set uses
+        primitive equipment: an astrolabe, compass and                      Rescue Tool Set
+
+
+
+  128
+

@@ -1,0 +1,74 @@
+                                                                      T   R        A       V        E       L       L          E   R
+
+
+
+
+                                                                           FORWARD OBSERVERS
+           ARTILLERY WEAPONS                                              On the battlefields of the far future, immense
+           All weapons described in this section require the Heavy        and powerful weapons can be deployed against
+           Weapons (artillery) skill to use effectively. All ranges are   the enemy. However, whether they be missiles
+           listed in kilometres. Any range listed in parentheses is       or bombs from fast-flying aircraft, massive shells
+           the minimum range the weapon can fire at – it may not          from artillery or apocalyptic energy blasts from
+           attack any targets closer than this. Unless otherwise          orbiting spacecraft, they all still need eyes on the
+           stated, artillery weapons may use the variant ammunition       ground to be delivered accurately and effectively.
+           types found in the Specialised Ammunition chapter.             This is where forward observers come in.
+
+                                                                          A forward observer is anyone who has a direct
+           BLACK POWDER MORTAR                                            line of sight to a target and a communications
+           A primitive short-barrelled smoothbore weapon, the
+                                                                          link to a weapon delivery system capable of
+           black powder mortar is little more than a very short
+                                                                          attacking the target but otherwise unable to
+           cannon placed upon a high-angle mount. They are
+                                                                          make the attack due to being beyond line of
+           sometimes called ‘grasshopper guns’ due to their
+                                                                          sight (for artillery weapons), travelling too fast
+           tendency to jump about when firing.
+                                                                          (aircraft) or simply being too far away to gain
+                                                                          accurate visual sight (spacecraft in orbit).
+           BOMBARDMENT GUN
+           A fairly practical weapon as these things go, this super       The forward observer makes an Electronics
+           heavy gun is designed for bombardment of static or slow-       (comms) check (1D rounds, INT). Additional
+           moving targets. It is normally fielded as a railway gun,       modifiers may be included as if this Electronics
+           aboard a maritime vessel or as a coastal defence weapon.       (comms) check was an attack roll, including
+                                                                          those for battlefield conditions, cover and any
+           DEMOLITION GUN                                                 other relevant factors.
+           This is a short-barrelled petard weapon designed to
+           deliver an extremely large explosive charge over a             This check is then used as the start of a task
+           short distance. The demolition gun is normally mounted         chain, to be followed by a straight attack roll
+           aboard engineering or assault support vehicles, to             by the aircraft, artillery or orbiting spacecraft.
+           demolish fortifications and flatten obstructions.              The only modifiers applied to this attack roll are
+                                                                          from the task chain and the skill of the attacker
+                                                                          using the weapon, not the battlefield conditions
+           HEAVY BOMBARDMENT GUN                                          applied to the forward observer check or any
+           This huge artillery piece most likely to be encountered        DMs for the conditions applied to the distant or
+           as a coastal defence piece or aboard a maritime naval          fast-moving attacker.
+           ship. Weapons of this type are occasionally used to
+           launch sub-calibre rockets or missiles in the hope of          If the attack roll misses the target, roll 1D for
+           creating a rudimentary aerospace defence capability            each point of negative Effect, then multiply the
+           but these are rarely successful. They are extremely            total by 10 if the attack was from aircraft or
+           slow to reload, with most models requiring 1D hours            artillery and 100 if it were from a spacecraft. This
+           between firing shells.                                         is the number of metres the attack misses by.
+Weaponry
+
+
+
+
+                                                                          The Referee can randomly determine in which
+           HEAVY GUN                                                      direction the attack actually lands.
+           A standard artillery piece on many worlds, this gun
+           is usually mounted on a vehicle. Some versions can
+           handle small nuclear warheads but this is not usual.
+           This weapon is theoretically capable of firing over open
+           sights but it is somewhat ineffective in this role.
+
+
+           INFANTRY MORTAR
+           A light portable support weapon capable of launching
+           small explosive bombs.
+
+
+
+
+   164
+

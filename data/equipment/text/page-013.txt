@@ -1,0 +1,61 @@
+     ARMOUR
+     Armour is designed to prevent the Traveller from
+     coming to harm but there are a multitude of threats
+                                                                    Ballistic Vest: A flexible and relatively light flak jacket
+                                                                    intended to be worn semi-discreetly. It is still fairly
+     present in the galaxy. Some are relatively passive,
+                                                                    obviously armour but can be concealed under a light
+     such as poisonous atmospheres, intense cold,
+                                                                    jacket, whereas a flak jacket is much more blatant.
+     radiation or the vacuum of space. Then there is the
+     need to ward off bullets, energy beams and blades.
+     Many types of armour combine these functions;                  Ceramic Carapace: Made from specially contoured
+     for example, combat armour can resist most                     plates of advanced ceramic/metal alloys positioned
+     environmental hazards as well as weapons fire.                 over the vital organs of the wearer, keeping them well
+                                                                    protected. Ceramic alloys are designed to slough off
+     Unless otherwise noted, only one type of armour can be         heat and flame, giving the armour a much higher rate
+     worn at a time but there are exceptions. Resolve damage        of protection against lasers, flamethrowers and other
+     from the outside in – damage that gets through the outer       heat/fire-based attacks.
+     layer of armour is next applied to the inner layer.
+
+     The mass of armour is distributed around the body              Cloth: A heavy-duty coverall tailored from ballistic
+     when worn properly, thus reducing its effective weight.        cloth, sometimes containing light metal or ceramic
+     A Traveller can reduce the mass of armour worn by              plates at critical points. The fabric absorbs impact
+     75% to determine encumbrance.                                  energy, distributing the blow over the body of the target
+                                                                    and usually resulting in bruising. Cloth armour can be
+     Most armour covers the torso and vital organs, usually with    concealed under clothing but is fairly easy to spot – a
+     separate head protection. Limbs are less likely to be hit      Routine (6+) Investigate or Recon check is all that is
+     and are harder to protect. However, some armour includes       required to spot the armour. At TL10 this armour is
+     either separate limb protection or full-body coverage.         lighter and more flexible and can be indistinguishable
+                                                                    from ordinary clothing under normal circumstances.
+     Some armour has a required skill. A wearer suffers
+     DM-1 to all checks taken in the armour per missing skill
+     level. For example, a wearer with Vacc Suit 0 who is in        Cloth Jacket: A thick jacket of ballistic cloth covering
+     a suit that requires Vacc Suit 2 would have DM-2 to all        the torso and arms. A cloth jacket resembles a thick
+     their checks. Not having the skill at all inflicts the usual   ‘bomber jacket’ and is often customised to appear as
+     DM-3 unskilled penalty instead (not in addition).              a heavy work jacket when worn by ship’s crews and
+                                                                    workers in potentially hazardous environments. A
+     Radiation is a very present danger to many Travellers,         cloth jacket can be worn over anti-energy armour or
+     whether in combat or exploration. Some armour provides         any standard armour of one kilogram or less in mass
+     a measure of defence against radiation as noted in             but no other armour can be worn over it. Wearing a
+     the rad column of the armour table. This is deducted           cloth jacket in warm climates is both uncomfortable
+     from the rads a Traveller receives every time they are         and rather suspicious. A cloth jacket requires a
+     exposed to radiation or every hour of constant exposure        Difficult (10+) Investigate or Recon check to identify
+     to sources such as reactor leaks or solar flares.              as armour, Average (8+) if worn in warm weather.
+
+
+     STANDARD ARMOUR                                                Cloth Trench Coat: A heavy ankle-length overcoat
+                                                                    tailored from ballistic cloth, this trench coat can be
+     Standard armour offers all-round defence against
+     most attacks, including guns, blades and fists, and            worn outside one other layer of standard, archaic
+     can be found on most worlds of sufficient Tech Level,          or anti-energy armour but no other armour can be
+     although Law Level may restrict its availability. Unless       worn over it. Much like a protec suit, it superficially
+     specifically stated, a Traveller can only wear one layer       resembles clothing but is obviously armour and can
+     of standard armour at once.                                    make the Traveller appear menacing or draw the
+                                                                    attention of authorities.
+
+
+
+
+12
+

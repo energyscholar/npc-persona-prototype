@@ -1,0 +1,67 @@
+                                                                              T       R       A       V       E        L       L       E       R
+
+
+                                                                                  ground on worlds with gravity lower than 1G – although
+                                                                                  it will make them lighter. The grav harness functions as
+                FOLDING CAGE                                                      a grav parachute (see page 97) if necessary. It does
+                A collapsible folding cage used to contain captured               not assist with acclimation on higher G worlds and the
+                animals, constructed from lightweight and durable                 wearer is still subject to any acclimation penalties but
+                crystaliron composites. It is easy to transport but must          suffers no gravity-related fatigue effects.
+                be wrapped in a tarp or other material to prevent
+                clanking or rattling. A folding cage will contain an              On worlds with less gravity than 2G, it can also allow
+                animal of up to 24 Hits.                                          the wearer to carry a heavy load without encumbrance.
+                                                                                  The harness will negate a load of 100 kilograms at
+                Item       TL   Effect                      Kg       Cost         1G, with its capability changing linearly to near 200
+                Folding 12      Collapsible cage for        6        Cr1200       kilograms at near zero-G and to zero at 2G. The wearer
+                Cage            animals up to 24 Hits                             should also consider bulk and balance when carrying
+                                                                                  heavy loads, possibly resulting in some encumbrance
+                                                                                  penalty despite the harness.
+                G-SUIT
+                A G-suit, or more accurately, an anti-G suit is designed          A grav harness holds four rechargeable batteries,
+                to help pilots function during high-G manoeuvres without          each good for two hours at TL12 and four hours at
+                losing consciousness by preventing the pooling of                 TL15. When not using the full power of the harness, for
+                blood in their legs. A G-suit will not assist movement in         example when operating in less than 2G environments
+                a high-G environment but will reduce the total load on a          or when carry a lighter load, battery life will increase
+                wearer by 1G for any task checks required to maintain             accordingly. Additional batteries can be carried and
+                consciousness during uncompensated high-G operations;             should be replaced before the last battery runs
+                this bonus stacks with any G-tolerance drugs (see page            down; these batteries mass one kilogram each and
+                93) consumed. A liquid-filled version provides better             count towards the total encumbrance. A harness
+                compression and adds another G to the wearer’s tolerance.         (and installed batteries) has no effective mass when
+                                                                                  powered and six kilograms mass when powered off.
+                Item            TL Effect                   Kg       Cost
+                G-Suit          6    Negates effect of      3        Cr1000       Item             TL Effect                 Kg Cost
+                                     +1G while seated                             Grav Harness 12 Negates 1G or 100 —              Cr50000
+                G-Suit          8    Negates effect of      6        Cr3000                       kg encumbrance
+                (liquid-filled)      +2G while seated                             Grav Harness 12 Powers gravity      1            Cr500
+                                                                                  Battery         harness for 2 hours
+                GAS/OIL LAMP                                                      Grav Harness 15 Powers gravity      1            Cr1000
+                A lamp lasts about six hours on a half-litre of oil or gas        Battery         harness for 4 hours
+                and will illuminate a five metre radius to the equivalent
+                of normal daylight. The fuel poses a fire hazard if
+                spilled. Fuel refills cost Cr1.
+                                                                                  INERTIAL LOCATOR
+                                                                                  Indicates the direction and distance travelled from
+                                                                                  a starting location. The inertial locator is useful on
+                Item       TL   Effect                          Kg    Cost        worlds without a magnetic field or a satellite positioning
+Survival gear
+
+
+
+
+                Gas/Oil 2       Daylight-equivalent             1     Cr10        network and is more precise than a compass or GPS
+                Lamp            illumination for 6 hours                          locator. The locator will accept data from a wireless
+                                                                                  source to create a location map but accuracy is limited
+                                                                                  to the source material. An inertial locator chip can be
+                GRAV HARNESS                                                      added to a portable computer or mobile comm.
+                A grav harness is an anti-grav device whose strength is
+                between a grav belt and grav parachute. Its purpose is
+                to aid mobility on high-G worlds and/or allow its wearer          Item       TL   Effect                      Kg   Cost
+                to carry a heavier load without encumbrance on normal             Inertial 9      Tracks movement from        —    Cr1200
+                gravity worlds. When worn, the grav harness negates               Locator         a starting point
+                up to 1G, but will not allow the wearer to leave the
+
+
+
+
+     106
+

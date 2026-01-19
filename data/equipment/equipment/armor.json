@@ -1,0 +1,1917 @@
+[
+  {
+    "id": "ballistic-vest-tl8",
+    "name": "Ballistic Vest",
+    "tl": 8,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "ceramic-carapace-tl12",
+    "name": "Ceramic Carapace",
+    "tl": 12,
+    "cost": 12000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 10,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "cloth-tl7",
+    "name": "Cloth",
+    "tl": 7,
+    "cost": 250,
+    "mass": 7,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 5,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "cloth-tl10",
+    "name": "Cloth",
+    "tl": 10,
+    "cost": 500,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 8,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "cloth-jacket-tl10",
+    "name": "Cloth Jacket",
+    "tl": 10,
+    "cost": 500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 5,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "cloth-trench-coat-tl10",
+    "name": "Cloth Trench Coat",
+    "tl": 10,
+    "cost": 500,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 6,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "diplo-vest-tl10",
+    "name": "Diplo Vest",
+    "tl": 10,
+    "cost": 250,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 3,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "flak-jacket-tl7",
+    "name": "Flak Jacket",
+    "tl": 7,
+    "cost": 100,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 3,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "flak-jacket-tl8",
+    "name": "Flak Jacket",
+    "tl": 8,
+    "cost": 300,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 5,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "flak-shell-tl9",
+    "name": "Flak Shell",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 8,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "hunter-field-garb-tl12",
+    "name": "Hunter Field Garb",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "jack-tl1",
+    "name": "Jack",
+    "tl": 1,
+    "cost": 50,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 1,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "mesh-tl6",
+    "name": "Mesh",
+    "tl": 6,
+    "cost": 150,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 2,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "personal-energy-shield-tl15",
+    "name": "Personal Energy Shield",
+    "tl": 15,
+    "cost": 320000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 12,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "poly-carapace-tl10",
+    "name": "Poly Carapace",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 10,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "lightweight-poly-carapace-tl11",
+    "name": "Lightweight Poly Carapace",
+    "tl": 11,
+    "cost": 15000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 12,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "advanced-poly-carapace-tl13",
+    "name": "Advanced Poly Carapace",
+    "tl": 13,
+    "cost": 35000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 16,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "post-apocalyptic-tl6",
+    "name": "Post-Apocalyptic",
+    "tl": 6,
+    "cost": 150,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "protec-suit-tl9",
+    "name": "Protec Suit",
+    "tl": 9,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "tactical-riot-armour-tl7",
+    "name": "Tactical Riot Armour",
+    "tl": 7,
+    "cost": 600,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 14
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "breastplate-tl1",
+    "name": "Breastplate",
+    "tl": 1,
+    "cost": 200,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 18
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 3,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "full-plate-tl2",
+    "name": "Full Plate",
+    "tl": 2,
+    "cost": 1000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 18
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 6,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "half-plate-tl2",
+    "name": "Half-Plate",
+    "tl": 2,
+    "cost": 800,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 18
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 5,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "mail-hauberk-tl1",
+    "name": "Mail Hauberk",
+    "tl": 1,
+    "cost": 500,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 18
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "ablat-tl9",
+    "name": "Ablat",
+    "tl": 9,
+    "cost": 75,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 19
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 1,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "conduit-bleed-tl14",
+    "name": "Conduit-Bleed",
+    "tl": 14,
+    "cost": 3500,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 19
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "dispersion-tl12",
+    "name": "Dispersion",
+    "tl": 12,
+    "cost": 2000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 19
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 2,
+      "rad": 50,
+      "traits": []
+    }
+  },
+  {
+    "id": "fireproof-suit-tl7",
+    "name": "Fireproof Suit",
+    "tl": 7,
+    "cost": 50,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 19
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "reflec-tl10",
+    "name": "Reflec",
+    "tl": 10,
+    "cost": 1500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 19
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "vacc-suit-accessory-pack-basic-tl9",
+    "name": "Vacc Suit Accessory Pack Basic",
+    "tl": 9,
+    "cost": 6000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "vacc-suit-accessory-pack-improved-tl12",
+    "name": "Vacc Suit Accessory Pack Improved",
+    "tl": 12,
+    "cost": 6000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "vacc-suit-accessory-pack-advanced-tl14",
+    "name": "Vacc Suit Accessory Pack Advanced",
+    "tl": 14,
+    "cost": 8000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 27
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "emergency-hostile-environment-suit-tl10",
+    "name": "Emergency Hostile Environment Suit",
+    "tl": 10,
+    "cost": 9000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "emergency-softsuit-tl10",
+    "name": "Emergency Softsuit",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "environment-suit-basic-tl8",
+    "name": "Environment Suit, Basic",
+    "tl": 8,
+    "cost": 500,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "environment-suit-improved-tl10",
+    "name": "Environment Suit, Improved",
+    "tl": 10,
+    "cost": 500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 2,
+      "rad": 20,
+      "traits": []
+    }
+  },
+  {
+    "id": "explosive-ordnance-disposal-suit-tl8",
+    "name": "Explosive Ordnance Disposal Suit",
+    "tl": 8,
+    "cost": 8000,
+    "mass": 35,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 12,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "explosive-ordnance-disposal-suit-tl9",
+    "name": "Explosive Ordnance Disposal Suit",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 25,
+    "source": {
+      "book": "CSC",
+      "page": 30
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "hev-suit-basic-tl9",
+    "name": "HEV Suit, Basic",
+    "tl": 9,
+    "cost": 24000,
+    "mass": 40,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 8,
+      "rad": 75,
+      "traits": []
+    }
+  },
+  {
+    "id": "hev-suit-improved-tl10",
+    "name": "HEV Suit, Improved",
+    "tl": 10,
+    "cost": 20000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 9,
+      "rad": 90,
+      "traits": []
+    }
+  },
+  {
+    "id": "hev-suit-enhanced-tl11",
+    "name": "HEV Suit, Enhanced",
+    "tl": 11,
+    "cost": 22000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 12,
+      "rad": 140,
+      "traits": []
+    }
+  },
+  {
+    "id": "hev-suit-advanced-tl13",
+    "name": "HEV Suit, Advanced",
+    "tl": 13,
+    "cost": 40000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 14,
+      "rad": 170,
+      "traits": []
+    }
+  },
+  {
+    "id": "hev-suit-superior-tl14",
+    "name": "HEV Suit, Superior",
+    "tl": 14,
+    "cost": 60000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 15,
+      "rad": 185,
+      "traits": []
+    }
+  },
+  {
+    "id": "pressure-sleeve-tl10",
+    "name": "Pressure Sleeve",
+    "tl": 10,
+    "cost": 600,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "rescue-suit-tl12",
+    "name": "Rescue Suit",
+    "tl": 12,
+    "cost": 25000,
+    "mass": 22,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 12,
+      "rad": 120,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "shipsuit-standard-tl14",
+    "name": "Shipsuit, Standard",
+    "tl": 14,
+    "cost": 30000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 60,
+      "traits": []
+    }
+  },
+  {
+    "id": "shipsuit-deluxe-tl14",
+    "name": "Shipsuit, Deluxe",
+    "tl": 14,
+    "cost": 60000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 6,
+      "rad": 75,
+      "traits": []
+    }
+  },
+  {
+    "id": "skinsuit-tl14",
+    "name": "Skinsuit",
+    "tl": 14,
+    "cost": 100000,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 20,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "vacc-suit-basic-tl8",
+    "name": "Vacc Suit, Basic",
+    "tl": 8,
+    "cost": 12000,
+    "mass": 28,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 15,
+      "traits": []
+    }
+  },
+  {
+    "id": "vacc-suit-improved-tl10",
+    "name": "Vacc Suit, Improved",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 8,
+      "rad": 60,
+      "traits": []
+    }
+  },
+  {
+    "id": "vacc-suit-advanced-tl12",
+    "name": "Vacc Suit, Advanced",
+    "tl": 12,
+    "cost": 20000,
+    "mass": 8,
+    "source": {
+      "book": "CSC",
+      "page": 29
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 10,
+      "rad": 90,
+      "traits": []
+    }
+  },
+  {
+    "id": "hostile-environment-vacc-suit-tl10",
+    "name": "Hostile Environment Vacc Suit",
+    "tl": 10,
+    "cost": 10000,
+    "mass": 15,
+    "source": {
+      "book": "CSC",
+      "page": 30
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "vacc-suit-tl8",
+    "name": "Vacc Suit",
+    "tl": 8,
+    "cost": 0,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 32
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "boarding-vacc-suit-basic-tl11",
+    "name": "Boarding Vacc Suit, Basic",
+    "tl": 11,
+    "cost": 18000,
+    "mass": 25,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 11,
+      "rad": 50,
+      "traits": []
+    }
+  },
+  {
+    "id": "boarding-vacc-suit-improved-tl12",
+    "name": "Boarding Vacc Suit, Improved",
+    "tl": 12,
+    "cost": 24000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 13,
+      "rad": 75,
+      "traits": []
+    }
+  },
+  {
+    "id": "boarding-vacc-suit-advanced-tl13",
+    "name": "Boarding Vacc Suit, Advanced",
+    "tl": 13,
+    "cost": 48000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 16,
+      "rad": 90,
+      "traits": []
+    }
+  },
+  {
+    "id": "ceramic-combat-armour-tl13",
+    "name": "Ceramic Combat Armour",
+    "tl": 13,
+    "cost": 90000,
+    "mass": 15,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 12,
+      "rad": 150,
+      "traits": []
+    }
+  },
+  {
+    "id": "combat-armour-basic-tl10",
+    "name": "Combat Armour, Basic",
+    "tl": 10,
+    "cost": 96000,
+    "mass": 20,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 13,
+      "rad": 85,
+      "traits": []
+    }
+  },
+  {
+    "id": "combat-armour-improved-tl12",
+    "name": "Combat Armour, Improved",
+    "tl": 12,
+    "cost": 88000,
+    "mass": 16,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 17,
+      "rad": 145,
+      "traits": []
+    }
+  },
+  {
+    "id": "combat-armour-advanced-tl14",
+    "name": "Combat Armour, Advanced",
+    "tl": 14,
+    "cost": 160000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 19,
+      "rad": 180,
+      "traits": []
+    }
+  },
+  {
+    "id": "combat-environment-suit-tl10",
+    "name": "Combat Environment Suit",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 4,
+    "source": {
+      "book": "CSC",
+      "page": 34
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 8,
+      "rad": 20,
+      "traits": []
+    }
+  },
+  {
+    "id": "ceramic-powered-plate-tl13",
+    "name": "Ceramic Powered Plate",
+    "tl": 13,
+    "cost": 300000,
+    "mass": 35,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 16,
+      "rad": 175,
+      "traits": []
+    }
+  },
+  {
+    "id": "exoskeleton-basic-tl9",
+    "name": "Exoskeleton, Basic",
+    "tl": 9,
+    "cost": 10000,
+    "mass": 16,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "exoskeleton-improved-tl12",
+    "name": "Exoskeleton, Improved",
+    "tl": 12,
+    "cost": 20000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "e3-suit-tl14",
+    "name": "E3 Suit",
+    "tl": 14,
+    "cost": 500000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 16,
+      "rad": 250,
+      "traits": []
+    }
+  },
+  {
+    "id": "grav-enhanced-powered-plate-tl14",
+    "name": "Grav-Enhanced Powered Plate",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 75,
+    "source": {
+      "book": "CSC",
+      "page": 37
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 3,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "grav-enhanced-powered-plate-tl15",
+    "name": "Grav-Enhanced Powered Plate",
+    "tl": 15,
+    "cost": 180000,
+    "mass": 32,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 20,
+      "rad": 220,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "mechanical-carapace-basic-tl9",
+    "name": "Mechanical Carapace, Basic",
+    "tl": 9,
+    "cost": 25000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 8,
+      "rad": 30,
+      "traits": []
+    }
+  },
+  {
+    "id": "mechanical-carapace-improved-tl12",
+    "name": "Mechanical Carapace, Improved",
+    "tl": 12,
+    "cost": 50000,
+    "mass": 25,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 10,
+      "rad": 60,
+      "traits": []
+    }
+  },
+  {
+    "id": "powered-plate-basic-tl10",
+    "name": "Powered Plate, Basic",
+    "tl": 10,
+    "cost": 80000,
+    "mass": 40,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 14,
+      "rad": 120,
+      "traits": []
+    }
+  },
+  {
+    "id": "powered-plate-improved-tl14",
+    "name": "Powered Plate, Improved",
+    "tl": 14,
+    "cost": 120000,
+    "mass": 30,
+    "source": {
+      "book": "CSC",
+      "page": 36
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 18,
+      "rad": 200,
+      "traits": []
+    }
+  },
+  {
+    "id": "mechanical-carapace-tl10",
+    "name": "Mechanical Carapace",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 50,
+    "source": {
+      "book": "CSC",
+      "page": 37
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 2,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "powered-plate-tl12",
+    "name": "Powered Plate",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 75,
+    "source": {
+      "book": "CSC",
+      "page": 37
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 3,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "powered-plate-tl14",
+    "name": "Powered Plate",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 75,
+    "source": {
+      "book": "CSC",
+      "page": 37
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 3,
+      "rad": 0,
+      "traits": []
+    },
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "artillery-battle-dress-basic-tl13",
+    "name": "Artillery Battle Dress, Basic",
+    "tl": 13,
+    "cost": 275000,
+    "mass": 180,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 26,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "artillery-battle-dress-improved-tl14",
+    "name": "Artillery Battle Dress, Improved",
+    "tl": 14,
+    "cost": 320000,
+    "mass": 180,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 29,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "artillery-battle-dress-advanced-tl15",
+    "name": "Artillery Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 640000,
+    "mass": 180,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 32,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "assault-battle-dress-basic-tl13",
+    "name": "Assault Battle Dress, Basic",
+    "tl": 13,
+    "cost": 300000,
+    "mass": 140,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 25,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "assault-battle-dress-improved-tl14",
+    "name": "Assault Battle Dress, Improved",
+    "tl": 14,
+    "cost": 330000,
+    "mass": 140,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 28,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "assault-battle-dress-advanced-tl15",
+    "name": "Assault Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 660000,
+    "mass": 140,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 31,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "battle-dress-basic-tl13",
+    "name": "Battle Dress, Basic",
+    "tl": 13,
+    "cost": 200000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 22,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "battle-dress-improved-tl14",
+    "name": "Battle Dress, Improved",
+    "tl": 14,
+    "cost": 220000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 25,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "battle-dress-advanced-tl15",
+    "name": "Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 440000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 28,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "ceramic-battle-dress-basic-tl13",
+    "name": "Ceramic Battle Dress, Basic",
+    "tl": 13,
+    "cost": 400000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 22,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "ceramic-battle-dress-improved-tl14",
+    "name": "Ceramic Battle Dress, Improved",
+    "tl": 14,
+    "cost": 440000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 25,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "ceramic-battle-dress-advanced-tl15",
+    "name": "Ceramic Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 880000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 28,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "combat-pioneer-battle-dress-basic-tl13",
+    "name": "Combat Pioneer Battle Dress, Basic",
+    "tl": 13,
+    "cost": 270000,
+    "mass": 120,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 23,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "combat-pioneer-battle-dress-improved-tl14",
+    "name": "Combat Pioneer Battle Dress, Improved",
+    "tl": 14,
+    "cost": 300000,
+    "mass": 120,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 26,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "combat-pioneer-battle-dress-advanced-tl15",
+    "name": "Combat Pioneer Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 600000,
+    "mass": 120,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 29,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "command-battle-dress-basic-tl13",
+    "name": "Command Battle Dress, Basic",
+    "tl": 13,
+    "cost": 325000,
+    "mass": 110,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 24,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "command-battle-dress-improved-tl14",
+    "name": "Command Battle Dress, Improved",
+    "tl": 14,
+    "cost": 350000,
+    "mass": 110,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 27,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "command-battle-dress-advanced-tl15",
+    "name": "Command Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 700000,
+    "mass": 110,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 30,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "logistics-battle-dress-basic-tl13",
+    "name": "Logistics Battle Dress, Basic",
+    "tl": 13,
+    "cost": 290000,
+    "mass": 220,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 22,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "logistics-battle-dress-improved-tl14",
+    "name": "Logistics Battle Dress, Improved",
+    "tl": 14,
+    "cost": 320000,
+    "mass": 220,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 25,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "logistics-battle-dress-advanced-tl15",
+    "name": "Logistics Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 640000,
+    "mass": 220,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 28,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "psi-commando-battle-dress-basic-tl15",
+    "name": "Psi-Commando Battle Dress, Basic",
+    "tl": 15,
+    "cost": 1200000,
+    "mass": 110,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 26,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "psi-enhanced-battle-dress-basic-tl13",
+    "name": "Psi-Enhanced Battle Dress, Basic",
+    "tl": 13,
+    "cost": 800000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 22,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "psi-enhanced-battle-dress-improved-tl14",
+    "name": "Psi-Enhanced Battle Dress, Improved",
+    "tl": 14,
+    "cost": 880000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 25,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "psi-enhanced-battle-dress-advanced-tl15",
+    "name": "Psi-Enhanced Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 1760000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 28,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "scout-battle-dress-basic-tl13",
+    "name": "Scout Battle Dress, Basic",
+    "tl": 13,
+    "cost": 270000,
+    "mass": 90,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 20,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "scout-battle-dress-improved-tl14",
+    "name": "Scout Battle Dress, Improved",
+    "tl": 14,
+    "cost": 300000,
+    "mass": 90,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 23,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "scout-battle-dress-advanced-tl15",
+    "name": "Scout Battle Dress, Advanced",
+    "tl": 15,
+    "cost": 600000,
+    "mass": 90,
+    "source": {
+      "book": "CSC",
+      "page": 40
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 26,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "subdermal-armour-1-tl10",
+    "name": "Subdermal Armour +1",
+    "tl": 10,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 1,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "subdermal-armour-3-tl11",
+    "name": "Subdermal Armour +3",
+    "tl": 11,
+    "cost": 100000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 3,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "subdermal-armour-4-tl12",
+    "name": "Subdermal Armour +4",
+    "tl": 12,
+    "cost": 250000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 4,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "subdermal-armour-5-tl14",
+    "name": "Subdermal Armour +5",
+    "tl": 14,
+    "cost": 500000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 55
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 5,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "neural-jack-tl13",
+    "name": "Neural Jack",
+    "tl": 13,
+    "cost": 50000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 61
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "wafer-jack-tl12",
+    "name": "Wafer Jack",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 62
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "improved-wafer-jack-tl13",
+    "name": "Improved Wafer Jack",
+    "tl": 13,
+    "cost": 15000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 62
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "advanced-wafer-jack-tl15",
+    "name": "Advanced Wafer Jack",
+    "tl": 15,
+    "cost": 30000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 62
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  },
+  {
+    "id": "armoured-tl9",
+    "name": "Armoured",
+    "tl": 9,
+    "cost": 2500,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 111
+    },
+    "category": "armor",
+    "armor_stats": {
+      "protection": 0,
+      "rad": 0,
+      "traits": []
+    }
+  }
+]

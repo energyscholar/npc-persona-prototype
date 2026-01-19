@@ -1,0 +1,63 @@
+GRENADE WEAPONS                                                CHEMICAL
+                                                               This grenade creates a cloud of gas which, depending
+Thrown grenades use the Athletics (dexterity) skill.
+                                                               on composition, will either be incapacitating or deadly.
+Other weapons commonly called ‘grenades’, but
+                                                               Any living target within the cloud that does not have
+are fired from grenade launchers, are more like little
+                                                               a respirator or sealed suit will be attacked as if by a
+artillery shells and use the Heavy Weapons (portable)
+                                                               poison with a Very Difficult (12+) END check, Damage
+skill and Specialised Ammunition rules (see page 178)
+                                                               1D and Interval of 1 round. A non-lethal grenade will
+to achieve effects similar to those of thrown grenades.
+                                                               deal stun damage, while a lethal grenade cause injury
+                                                               and often death from lung and/or skin contact. Gas
+AEROSOL                                                        clouds dissipate after 1Dx3 rounds but heavy winds
+Aerosol grenades create a fine mist that diffuses any          and rain can drastically reduce this time.
+lasers fired into or through it but the mist does not block
+normal vision. Any laser attack tracing a line of sight
+into or through the mist has its damage reduced by
+                                                               ELECTROMAGNETIC PULSE
+                                                               This grenade, also called an EMP grenade, unleashes
+-10. Laser communications are completely blocked by
+                                                               a burst of electromagnetic radiation that does not harm
+the mist. Aerosol clouds dissipate after 1Dx3 rounds,
+                                                               living tissue but causes unshielded electronics to shut
+although heavy winds and rain can drastically reduce
+                                                               down for 1D minutes. Unshielded electronics of more
+this time. Multiple uses will not increase this effect, only
+                                                               than two Tech Levels lower than that of the grenade will
+reset the time interval for dissipation.
+                                                               be permanently fried, while all electronics of more than
+                                                               two Tech Levels higher will be completely immune.
+
+                        Aerosol
+                                                                                    Electromagnetic Pulse
+
+
+
+
+                                                       Chemical                                             Frag
+
+
+WEAPON                            TL     RANGE       DAMAGE       KG       COST            TRAITS
+Aerosol Grenade                   9      20          —            0.5      Cr15            Blast 9
+Chemical Grenade                  5      20          Special      0.5      Cr50            Blast 9
+Electromagnetic Pulse             9      20          —            0.5      Cr100           Blast 6
+                                                                                                                           Weaponry
+Grenade
+Frag Grenade                      6      20          5D           0.5      Cr30            Blast 9
+Incendiary Grenade                7      20          2D           0.5      Cr75            Blast 3, Fire
+Neurotoxin Grenade                9      20          Special      0.5      Cr250           Blast 9
+Plasma Grenade                    16     20          8D           0.5      Cr500           Blast 6
+Smoke Grenade                     6      20          —            0.5      Cr15            Blast 9
+Stun Grenade                      7      20          3D           0.5      Cr30            Blast 9, Stun
+Thermal Smoke Grenade             7      20          —            0.5      Cr30            Blast 9
+Tranq Gas Grenade                 8      20          Special      0.5      Cr75            Blast 9
+
+
+
+
+                                                                                                                          157
+

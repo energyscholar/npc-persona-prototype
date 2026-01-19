@@ -1,0 +1,68 @@
+                                                                        T      R       A       V       E       L      L       E       R
+
+
+
+                                                                            SURVIVABILITY
+                                                                            Battle dress is effective in conditions where a hostile
+         BATTLE DRESS                                                       environment vacc suit would be required, such as deep
+                                                                            underwater, worlds with toxic atmosphere, extremes
+         Representing the ultimate in personal protection, battle
+         dress is considered an advanced, powered version                   of radiation or temperature. Battle dress provides life
+         of combat armour but it is actually constructed very               support for 12 hours by default.
+         differently. Battle dress enhances the strength and senses
+         of individuals with variable feedback personal controls,
+         servo-powered limbs and assorted electronic assistance.
+
+         Basic suits do not come with any integrated weaponry
+         and troops are usually armed with the best small arms
+         and energy weapons available, carried in hand like regular
+         troops, although powerful weaponry can also be integrated
+         into the battle dress itself to ensure the operator is never
+         without defence. It is also common for battle dress to be
+         fitted with integral grav assist but this is not universal.
+
+         All battle dress comes equipped with an electronics
+         suite (see page 27) appropriate to its Tech Level
+         and with the following additional standard equipment
+         suitable to its Tech Level of manufacture:
+         Personal Heads-up Display (P-HUD): Combined
+         weapons/data HUD; each weapon requires separate
+         HUD modules.
+         Transceiver Encryption Module: Requires an
+         equipped module on the target transceiver to establish
+         secure communications links.
+         Security/2 software: This program runs separate from
+         the suit’s computer, protecting the suit from hacking.
+
+         Additionally, battle dress is supremely customisable,
+         either at point of manufacture or in the field, given
+         sufficient technical expertise. Because of this, each
+         suit of battle dress is listed as having a number of
+         equipment Slots which can be filled with modifications,
+         additions and weaponry. See page 44 for battle dress
+         specific modifications.
+
+         CHARACTERISTICS
+         Operators wearing battle dress are treated as
+         having enhanced characteristics (usually STR
+         and DEX) for carrying equipment and modifiers
+Armour
+
+
+
+
+         in combat but not for taking damage. These
+         enhancements are listed in the description.
+
+         In addition, while powered and active, the mass of
+         battle dress does not count against the encumbrance
+         of the operator and is effectively weightless. By default,
+         battle dress comes equipped with fuel cells sufficient for
+         12 hours of full combat operation.
+
+
+                battle dress
+
+
+   38
+

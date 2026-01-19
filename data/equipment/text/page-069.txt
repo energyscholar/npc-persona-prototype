@@ -1,0 +1,66 @@
+                                                                                     T       R       A       V        E       L       L       E        R
+
+
+
+                                                                                         DATA WAFER
+                                                                                         The standard information storage in many universes is
+                         PORTABLE COMPUTER OPTIONS                                       the data wafer, a rectangle of hardened plastic the size
+                                                                                         of a credit card. The interface is standardised but the
+                         Portable computers can include the following standard
+                         options and accessories:                                        internal workings vary. A TL10 data wafer is memory
+                                                                                         diamond, with information encoded in carbon atoms;
+                                                                                         advanced wafers use more exotic means of data
+                         CAMERA                                                          storage. At TL8 a data wafer can store and transfer
+                         Any computer of TL8 or above can have a built-in
+                                                                                         Bandwidth/0 computer programs; at TL10 it can hold
+                         still and video camera with both visual spectrum and
+                                                                                         Bandwidth/1 programs.
+                         infrared capabilities if specified at purchase. These
+                         cameras are often used as biometric authentication
+                         devices, to facilitate a video link over a communications       Item            TL Effect                        Kg Cost
+                         channel or for recording.                                       Data Wafer 8+ Stores data or Bandwidth —            Cr5
+                                                                                                       0 or 1 programs
+                         COMMS
+                         Any computer of TL8 or more can act as a comm unit              PHYSICAL USER INTERFACE
+                         or transceiver if specified at purchase. A five kilometre       A portable computer and its Interface software require a
+                         range comm is more than sufficient to access a                  physical user interface for data input and display. At TL7
+                         planetary data network and a high-speed short-range             this is accomplished via keyboard, video screen and a
+                         wireless link for software and data transceiver does            pointing device. By TL8, voice is available for both input
+                         not increase the cost of the computer. More powerful            and output, although older methods are still supported.
+                         transceivers of longer range and negligible mass (see           At TL9 early holographic interfaces are available but
+                         page 64) can be added to a portable computer.                   their bulk makes them external accessories of limited
+                                                                                         portability; instead, most portable computers of negligible
+                         DATA DISPLAY/RECORDER                                           mass rely on wireless connections to other devices,
+                         This headpiece provides a continuous heads-up                   such as entertainment centres, wall displays or even
+                         display, allowing the user to view data from any linked         implanted communicator augments. By TL12 a basic
+                         system. DD/R headsets are commonly used by starship             holographic display is standard.
+                         crews to access information without changing their
+                         primary console displays. They are able to display
+                         data from any system, not just computers – including
+                         vacc suit oxygen reserves, grav belt status and neural
+                         activity scanner results. The recorder function can                 INTERFACES AND INTELLECTS
+                         store up to a day of high-quality video feed internally            Choosing the right software package to use on
+                         and transmit the data to a higher capacity long term               your computer is important and depends on what
+                         recording device in real time.                                     you are trying to do:
+Computers and software
+
+
+
+
+                                                                                            • If using the computer for general tasks, a
+                         Option          TL   Effect                  Kg   Cost                 basic Interface package is needed.
+                                                                                            • If using the computer to access an Expert
+                         Data            13   Heads-up display        —    Cr500
+                                                                                                program, Intelligent Interface is necessary
+                         Display/             and recording of
+                                                                                                to gain DM+1 to a skill you have at skill
+                         Recorder             visual data
+                                                                                                level 0 or above.
+                                                                                            • If unskilled, Expert packages must be run
+                                                                                                with an Intellect program.
+
+
+
+
+            68
+

@@ -1,0 +1,69 @@
+                                                                      T      R         A      V       E       L         L      E      R
+
+
+                                                                          These linked weapons attack with single attack
+                                                                          rolls, adding +1 damage per damage dice for every
+         HIGH VELOCITY TARGETING ARRAY                                    additional weapon after the first. So, for example, if
+         This sensor array integrates directly into the battle            battle dress with three assault rifles fires all three,
+         dress’ own suite to adjust weapon systems, allowing              it will only make one attack roll but will deal 3D+6
+         them to accurately attack fast-moving objects.                   damage (two additional assault rifles each adding
+         The array is typically used when aerial attacks are              +1 per damage dice).
+         expected or when the battle dress is dedicated to
+         anti-aircraft duties. Battle dress with a high velocity          By doubling the number of slots required, an
+         targeting array ignores all negative DMs incurred for            integrated weapon mount may be equipped with
+         attacking a fast moving target (see the Traveller Core           autoloaders and up to 10 additional magazines or
+         Rulebook, page 74).                                              power packs. The cost of this is equal to twice the
+                                                                          cost of the 10 additional magazines.
+         Modification TL       Effect           Slots Cost
+         High Velocity 15      Negates         2        Cr750000          Modification       TL Effect            Slots Cost
+         Targeting             attack penalty                             Integrated   10         Integral pistol 1         Cr500
+         Array                 for fast moving                            Weapon Mount
+                               targets                                    (pistol)
+                                                                          Integrated     10       Integral melee 1          Cr1000
+         INTEGRATED TOOLKIT                                               Weapon Mount            weapons
+         This modification integrates any toolkit into battle             (close combat)
+         dress, drawing from the suit’s power supply. This is             Integrated   10         Integral long   2         Cr1000
+         specific to the toolkit installed but may be installed           Weapon Mount            arm
+         multiple times to support several toolkits. Toolkits             (rifle)
+         must be purchased separately.
+                                                                          Integrated   10         Integral heavy 10         Cr5000
+                                                                          Weapon Mount            weapon
+         Modification TL Effect                    Slots Cost             (heavy)                 (personal)
+         Integrated       13 Integrates and     1          Cr3000         Integrated   10         Integral heavy 15         Cr10000
+         Toolkit             powers one toolkit                           Weapon Mount            weapon up to
+                                                                          (vehicle)               250kg
+         INTEGRATED WEAPON MOUNT
+         For convenience, and to ensure an operator is never              ION SHIELD
+         without a weapon yet keeps both hands free, battle               As with any weapons system,
+         dress can be constructed with integrated weapons,                the stakes are ratcheted
+         usually on the back of the arms or shoulders. The                upward by new innovations.
+         cost of this modification is in addition to the cost of          Powered armour may be
+         the weapons fitted. Mounts range from pistol-sized to            equipped with an ion shield
+         heavy weaponry, which allows mounting of weapons                 that negates the effects of
+         ranging to those requiring Heavy Weapons (personal)              personal ion weapons.
+         and even weapons up to 0.25 tons which normally
+         require Heavy Weapons (vehicle) skill. Very heavy
+         weapon mounts are commonly used for tac launchers
+Armour
+
+
+
+
+         and light autocannons.
+
+         Up to four weapons of the same type fitted to the
+         suit may be fired simultaneously at a target, with the
+         operator able to use a free action to select how many
+         are being fired. This is often called twin-, tri- or quad-
+         linking, although each weapon requires its own mount.
+
+                                                                          Modification TL Effect                      Slots Cost
+                                                                          Ion Shield       14 Negates the         1          Cr5000
+                                                                                              effects of personal
+                                                                                              ion weapons
+
+
+
+
+   46
+

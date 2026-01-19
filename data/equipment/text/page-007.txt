@@ -1,0 +1,70 @@
+                                                                                     T       R       A        V       E        L       L       E       R
+
+
+                                                                                         Check: This result means the Traveller’s travel
+                                                                                         documents and identity is checked, either by a police
+                         CATEGORY 5: RESTRICTED MILITARY USE                             officer or electronically querying the Traveller’s
+                         Category 5 items are only legally available to                  comms. A successful Admin or Streetwise check can
+                         accredited mercenary units or personnel with a good             allay suspicion but if failed, the planetary authorities
+                         record of serving in such a unit while actively seeking         move on to Investigate.
+                         a suitable unit or employer. This does not prevent a
+                         merchant captain from shipping quantities of such               Investigate: This results in a detective or bureaucrat
+                         weapons from one place to another, provided they are            probing deeper into the Traveller’s background. If the
+                         properly crated and documented, but they cannot be              Traveller has a ship, it will be searched. The Traveller
+                         legally sold without proper permits.                            may be followed or have their communications tapped.
+                                                                                         They are also likely to be questioned closely.
+                         Price: x20
+                         Examples: Plasma and fusion weapons, missiles,                  Apprehend: The police show up ready for a fight.
+                         heavy military combat vehicles (including tanks and             Their response will generally be proportional to the
+                         fighter aircraft), battle dress and combat robots.              threat posed; if the Traveller is just trying to purchase a
+                                                                                         low category item on a street corner, then most police
+                         PROHIBITED ITEMS                                                forces will use batons, stunners, tranq gas and other
+                         These items are subject to a blanket prohibition across         non-lethal weapons. On the other hand, if the Traveller
+                         all civilised worlds. Special permits are required to           is in battle dress and trying to purchase a nuclear
+                         possess them (which are hardly ever granted to                  weapon, the police will show up with the best weapons
+                         individuals) and stiff penalties are in place for those         and armour available at the planet’s Tech Level (or
+                         who break these laws. In the Third Imperium, even               even a few levels higher), with the army not far behind.
+                         governments are subject to these laws and must account
+                         for all prohibited items. The Imperial Bureaucracy              Travellers arrested for attempting to make a purchase
+                         conducts random audits to ensure compliance.                    on the black market will face punishment, determined
+                                                                                         by rolling on the Sentencing table.
+                         Price: At least x20
+                         Examples: Nuclear weapons, antimatter power systems,            To the 1D roll, the Traveller must add the highest
+                         chemical and biological weapons, starship-grade meson           category (+1-5) of the items being purchased.
+                         guns and particle accelerators, and electromagnetic pulse       Prohibited items add +6 to the 1D roll and any
+                         weaponry capable of large-scale effect.                         additional dice modifiers.
+
+                                                                                         In addition, the Traveller must also add the difference
+                         LAW ENFORCEMENT                                                 between the planet’s Law Level and the banned
+                         If an Effect of -2 or worse is rolled during a
+                                                                                         goods in question.
+                         Streetwise check when determining Availability
+                         of an item on the black market, the system’s law
+                                                                                         For example, laser weapons are Category 3 items
+                         enforcement agencies will become involved. This is
+                                                                                         banned at Law Level 2, so a Traveller found with a
+Equipment Availability
+
+
+
+
+                         bad news for the Traveller concerned.
+                                                                                         laser weapon on a Law Level 6 world would have
+                                                                                         DM+7 on the Sentencing table.
+                         If this happens, roll 2D and deduct both the Effect
+                         (apply it as a negative) and the system’s Law Level,
+                                                                                         A Traveller with the Advocate skill may attempt
+                         then consult the Law Enforcement Response table.
+                                                                                         to reduce the severity of sentencing by making
+                                                                                         an Average (8+) check. If successful, reduce the
+                         Law Enforcement Response                                        Sentencing DM by the Effect of the check.
+                         2D - Effect - Law Level                    Response
+                         -6 or lower                                Apprehend
+                         -2 to -5                                   Investigate
+                         0 or higher                                Check
+
+
+
+
+               6
+

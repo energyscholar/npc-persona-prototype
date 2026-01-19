@@ -1,0 +1,68 @@
+CHEMICAL LIGHTSTICK                                           FIRE EXTINGUISHER
+A 10 centimetre rod of clear plastic containing               A simple handheld firefighting device. More advanced
+chemicals which, when mixed by twisting the stick, give       units can be tailored to specific fire types. If used to put
+off a soft glow. Lightsticks last for about 24 hours and      out a victim who has been subject to a flame attack, the
+are bright enough to read by or to navigate a cave.           extinguisher will reduce damage by half during the first
+                                                              combat round it is used before eliminating all damage
+Item           TL Effect                        Kg Cost       in subsequent rounds.
+Chemical 6         Single-use 24 hour light     —    Cr1
+Lightstick                                                    Item              TL Effect                     Kg Cost
+                                                              Fire         5        Single use handheld       2     Cr50
+DISTRESS FLARE                                                Extinguisher          fire extinguisher
+A free-standing incendiary flare giving off a bright light
+and large amounts of coloured smoke. The distress             FLARE
+flare is designed to float upright in water and triggered     Used in conjunction with a flare launcher, individual
+by a lanyard. It is very difficult to extinguish once         flares can be used for a variety of purposes. Illuminating
+lit, lasting for five minutes. It will continue to burn       flares cast harsh, bright light for one minute before
+underwater or in atmospheres without oxygen.                  falling to the ground in Standard or Dense atmospheres
+                                                              or half a minute in Thin atmospheres. Signalling flares
+Item        TL Effect                         Kg     Cost     are designed to be highly visible but otherwise cast little
+                                                              light. Whistling flares are similar but also emit a piercing
+Distress 6        5 minute emergency flare 0.25 Cr15
+                                                              whistle after it has been fired and is drifting back to the
+Flare
+                                                              ground. This sound is not terribly pleasant but it can be
+                                                              heard for 3D kilometres in every direction.
+DUCT TAPE
+A strong, fabric-based, multi-purpose adhesive tape. One      Item           TL     Effect                    Kg    Cost
+roll contains a 5 centimetre x 30 metre length of tape.
+Useful for hasty repair work as well as for restraining and   Illuminating 5        Launched flare casting —        Cr25
+gagging prisoners, among many other things.                   Flare                 bright light
+                                                              Signalling     5      Launched flare casting —        Cr5
+Item    TL Effect                              Kg    Cost     Flare                 signal light only
+
+Duct 6         Multi-purpose adhesive tape     0.5 Cr5        Whistling      5      Launched flare            —     Cr10
+Tape                                                          Flare                 emitting whistle
+
+
+FIELD KIT                                                     FLARE LAUNCHER
+A basic field operations and survival kit containing a        A simple pistol or tube type launcher for use with flares.
+bush hat, pants, shirt and a warm jerkin, a waterproof        Used as a weapon, a flare gun is highly inaccurate,
+poncho/blanket, water bottle, belt pack with fire-starting    with an effective range of 5 metres, imposing DM-2
+equipment, one day’s worth of (almost edible) iron            on all attack rolls and inflicting only 1D damage with
+rations and a machete (treat as a blade). Boots must be       illumination or signalling flares, although it may set
+                                                              flammable objects on fire. A whistling flare will inflict
+
+                                                                                                                              Survival gear
+purchased separately. Above TL6, the kit also includes
+half a dozen chemical lightsticks.                            only one point of damage to a target.
+
+
+Item        TL Effect                         Kg Cost         Item         TL     Effect                      Kg    Cost
+
+Field Kit 3+ Basic field kit and clothing 5         Cr100     Flare    5          Smoothbore pistol or        —     Cr75
+             with 1 day’s rations                             Launcher            tube launcher for flares
+
+
+
+                                           Flare Launcher
+
+
+
+       Flare                                                                                       Distress Flare
+
+
+
+
+                                                                                                                             105
+

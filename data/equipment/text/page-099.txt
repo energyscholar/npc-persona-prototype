@@ -1,0 +1,66 @@
+                                                                            T   R     A      V       E     L     L       E        R
+
+
+
+
+                SQUIRREL SUIT                                                       Grav Belt
+                A nylon suit that gives the wearer an artificial version
+                of patagia (flaps that allow gliding and limited ‘flight’),
+                the squirrel suit slows down falling descent by half and
+                can be used with Athletics (dexterity) to fly horizontally
+                while gliding to the ground. A squirrel suit should be
+                paired with a parachute or parawing for emergencies
+                and final descent, or the user will suffer half falling
+                damage on landing. Squirrel suits require at least a Thin
+                atmosphere to function safely. Glide ratios (the horizontal
+                distance covered while falling) vary from 4:1 for Dense                              Breather Mask
+                atmospheres, 3:1 for Standard, to 2:1 for Thin. Squirrel
+                suits are not available for Very Thin atmospheres
+
+                Item       TL Effect                          Kg Cost
+                Squirrel 7      Semi-controlled descent       1     Cr500
+                Suit            in Atmosphere 4+
+                                                                                            Filter Mask
+                ATMOSPHERIC PROTECTION
+                Even worlds with nitrogen-oxygen atmospheres may
+                not be suitable for Travellers to breathe unprotected.
+                Whether from various taints, poisons or differing                         NBC Suit
+                pressures, these items will enable a user to survive.
+
+                BREATHER MASK
+                A combination of both filter mask and respirator, which
+                allows breathing of Very Thin and/or Tainted (2, 3, 4, 7,
+                9) Atmospheres. The TL10 version is small enough to
+                fit into the nose or can even be a lung implant.
+
+                Breather Mask TL Effect                     Kg Cost
+                Basic                5    Combination filter —     Cr150
+                                          and respirator
+                Improved             10 Nose plug or        —      Cr2000
+                                        lung implant
+
+                ENVIRONMENT MASK
+Survival gear
+
+
+
+
+                An environment mask functions in the same way
+                as the breather mask but is also designed to fit
+                seamlessly with NBC or environment suiting,
+                creating a sealed environment for the user and
+                thus protecting against chemical and biological
+                threats. The environment mask is designed to allow
+                communications devices to be used and includes
+                drinking apparatus (a flexible straw). An environment
+                mask will not function in vacuum or underwater.
+
+                Item             TL Effect                    Kg Cost
+                Environment      5       Combination mask      —    Cr200
+                Mask                     designed for suit use                                                  Protective Suit
+
+
+
+
+       98
+

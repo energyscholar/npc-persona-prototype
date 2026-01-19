@@ -1,0 +1,55 @@
+GRAV ASSIST                                                    HANDS-FREE CUFF
+This modification adds an integral grav belt (see page         A hands-free cuff, also known as a tool cuff in civilian
+97) to a full environment suit or armour. Endurance is         markets and a weapons cuff in military parlance, is a
+based on both the mass and speed of the object lifted.         wrist-mounted rigid cuff which allows the installation
+Although capable of 200 kilometres per hour maximum            of weapons or tools for hands-free use. The cuff will
+velocity, a cruising velocity of 100 kilometres per hour is    hold up to two pistol or knife sized weapons or tools
+assumed. Exceeding cruising speed reduces effective            weighing up to one kilogram each, one under and one
+endurance by two to three and every minute over this           over the hand. The mass of the hands-free cuff does
+speed counts as 1.5 minutes endurance. Every full 100          not include the mass of the weapons. This is often used
+kilograms of suit mass will halve grav assist duration;        in concurrence with a laser sight or personal HUD (see
+for instance, wearing a 110 kilogram command battle            page 176), without which ranged weapons suffer DM-1
+dress suit will halve the duration from four to two hours;     to attack rolls. A wearer can have cuffs on both hands,
+wearing a 220 kilogram logistics battle dress suits would      potentially supporting up to four weapons but rules for
+halve it to one hour. A grav assist modification cannot lift   multiple weapons attacks apply.
+more than 500 kilograms total mass, including the mass
+of the user and any other items carried.                       Modification TL Effect                        Kg Cost
+                                                               Hands-Free      8       Holds up to two 1kg   1   Cr500
+Grav Assist TL Effect                     Kg Cost              Cuff                    items
+Basic           12 Grav belt (Medium 4          Cr110000
+                   speed), 4 hours
+Advanced        15 Grav belt (Medium 2          Cr120000
+                                                               HELMET LIGHTS
+                                                               While most protective suits include lights mounted on
+                   speed), 12 hours
+                                                               the sides of the helmet and/or above the visor, some do
+                                                               not. When added to a helmet, lights are activated by a
+GYRO-STABILISER RIG                                            manual switch. At TL8 and above, voice-activated lights
+This modification adds a localised motion-pivot at the         are available at double cost.
+waist which counters the effects of weapons recoil. It
+takes an Average (8+) Mechanics (1D minutes, EDU)              Modification        TL Effect                 Kg Cost
+check to attach the rig’s arm to a heavy weapon or             Helmet Lights       6     Flashlight          —   Cr10
+rifle but this negates all penalties for Bulky weapons.                                  illumination in
+The TL11 version removes all penalties for Very Bulky                                    front of a user
+weapons as well. A version of this can be worn with a
+                                                               Helmet Lights     8       +Voice control      —   Cr20
+sturdy belt instead of applying it to armour.
+                                                               (voice activated)
+
+Gyro-stabiliser
+Rig             TL Effect                     Kg Cost
+Basic               9    Removes penalty 2         Cr1000
+                         for Bulky weapons
+Improved            11 Removes penalty 2           Cr5000
+                       for Very Bulky
+                       weapons
+                                                                                                                          Armour
+
+
+                                                                                Helmet Lights
+
+
+
+
+                                                                                                                          23
+

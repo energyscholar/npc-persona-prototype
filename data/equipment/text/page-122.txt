@@ -1,0 +1,53 @@
+                     Iris Valve         THRUST PISTOL
+                     Opener             A handheld reaction jet using compressed gas, the
+                                        thrust pistol allows independent manoeuvre in zero-G
+                                        vacuum conditions. The pistol’s internal reserves allow
+                                        for an hour of moderate manoeuvring or three minutes
+                                        of continuous thrust at 0.1G acceleration for one
+                                        person with vacc suit and equipment.
+
+                                        Item     TL    Effect                     Kg       Cost
+                                        Thrust 7       Zero-grav manoeuvring      1        Cr1000
+                                        Pistol         system
+
+                                        VACC EMERGENCY KIT
+                                        A belt-carried pack, this emergency kit is designed
+                                        to allow a vacc suited user to save themselves or
+                                        someone else in the event of an accident and to
+                                        increase the chances of a search finding them. Yanking
+                                        a lanyard releases a tethered balloon reflector. This is
+                                        somewhat similar to a rescue bubble but filled at very
+Personal                                low pressure. It inflates into a three-metre-diameter
+Re-Entry Kit                            radar reflector which is tethered to the user’s belt. It
+                                        vastly increases the user’s radar cross-section and
+                                        makes a search more likely to find them. The kit
+                                        contains a radio beacon/repeater, a handheld strobe
+                                        beacon, tethering cord, suit patches, spray sealant
+                                        for multiple small holes, a 30-minute replacement air
+                                        bottle and two hand-held gas thruster units. The latter
+                                        are designed to allow the stranded Traveller a last-
+                                        ditch attempt to reach safety in zero-G conditions.
+                                        The kit also contains a metallic reflectorised blanket
+                                        which increases radar detection and reduces absorbed
+                                        radiation by 100 rads in the event the user is caught
+                                        outside in a solar flare.
+
+                                        Item              TL    Effect                Kg    Cost
+                                        Vacc          7         Vacuum survival       4     Cr500
+                                        Emergency Kit           and rescue aids
+
+
+                        Rescue Bubble
+
+                                                                                                     Survival gear
+
+
+
+               Thrust Pistol
+                                                      Vacc Emergency Kit
+
+
+
+
+                                                                                                    121
+

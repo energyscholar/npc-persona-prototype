@@ -1,0 +1,52 @@
+      WEAPON ACCESSORIES
+      The customisation of weapons is as old as the first           BAYONET
+      weaponsmith who started engraving runes onto the              A knife-like weapon similar to a dagger or blade, a
+      shaft of a spear in the belief the gods would aid their       bayonet may or may not have a cutting edge but
+      strength to whoever used it. Most custom weapons are          always has a stabbing point. When not attached to a
+      about as effective but the canny arms expert knows            rifle, a bayonet is treated as a dagger and will normally
+      certain additions can greatly enhance the capabilities of     be carried in a belt scabbard. When attached to the
+      a well-cared for weapon.                                      muzzle of a rifle or similar weapon, it transforms the
+                                                                    gun into a polearm. More advanced bayonets may
+      Unless otherwise stated or allowed by the Referee, a          incorporate tools such as wire cutters and bottle
+      weapon may only have one sight or scope.                      openers but the basic function is the same. A fixed
+                                                                    bayonet requires the Melee (blade) skill but, at the
+      AUXILIARY GRENADE LAUNCHER                                    Referee’s discretion, any military-trained character with
+      Rifles may mount an under-barrel grenade launcher.            the Gun Combat skill will have been taught to fight with
+      This weapon is similar to the grenade launcher or RAM         the bayonet and can use this skill instead if it is higher.
+      grenade launcher (see pages 160-163) but is single-
+      shot and takes three Minor Actions to reload.                 BIPOD
+                                                                    A weapon can be given a bipod support frame to
+      Item                  TL Effect              Kg      Cost     stabilise and support it, making it much easier to
+      Auxiliary Grenade     7    Single-shot       1.5 Cr200        handle. It takes two Minor Actions to set up a bipod.
+      Launcher                   grenade                            When a weapon is fired from a bipod, Bulky and Very
+                                 launcher                           Bulky traits are ignored.
+      Auxiliary RAM    8         Single shot       1.5 Cr400
+      Grenade Launcher           RAM grenade                        Item      TL    Effect                         Kg    Cost
+                                 launcher                           Biopod 4        Can negate Bulky and           1     Cr50
+                                                                                    Very Bulky traits
+      BANDOLIER
+      This is a set of cartridge loops mounted on a leather         CHAINDRIVE BAYONET
+      or fabric strap or sling. A bandolier can hold seven          It took a creative but insane mind to come up with
+      individual shotgun cartridges, 20 pistol rounds or 14         the idea of marrying a chainsaw to a bayonet but the
+      rifle rounds. A different bandolier must be purchased for     addition of a chaindrive bayonet to a rifle certainly
+      each ammunition type.                                         makes for an intimidating look. The battery-powered
+                                                                    chaindrive will operate for 30 minutes of combat or
+      Item         TL Effect                           Kg Cost      intimidation before requiring a recharge.
+      Bandolier    3   Holds cartridges:               —   Cr10
+                       7 shotgun, 20 pistol, or
+                       14 rifle                                         Bayonet
+
+
+
+
+                                                                                                      Chaindrive Bayonet
+
+      WEAPON                         TL        RANGE       DAMAGE      KG       COST             TRAITS
+      Bayonet                        2         Melee       2D          1        Cr20             —
+      Chaindrive Bayonet             9         Melee       4D          3        Cr1000           AP 4, Bulky
+
+
+
+
+174
+

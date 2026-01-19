@@ -1,0 +1,75 @@
+                                                                       T      R        A       V       E        L       L       E       R
+
+
+
+
+                                                                           Personal Energy Shield: There are times when
+                                                                           armour is needed but the appearance of having
+         Diplo Vest: Essentially a shirt-only version of the               armour is not. Nobles visiting hostile territory, military
+         protec suit, the diplo vest can be worn under a normal
+                                                                           officers inspecting undisciplined militia, diplomats
+         shirt. The advantage is that while a protec suit is
+                                                                           making first contact and others may require defensive
+         easily spotted, a diplo vest is completely concealed.
+                                                                           armour without looking as if they are geared up
+         It is ideal for sensitive occasions where armour is not
+                                                                           for combat. The personal energy shield creates an
+         appropriate, hence the term ‘diplo’ (diplomatic) vest.
+                                                                           invisible gravitic field around the wearer, which repels
+                                                                           ballistic and all energy attacks except lasers. The
+         Flak Jacket: A heavy sleeveless jacket of ballistic               shield is powered by a small, unobtrusive battery
+         cloth, often with ceramic or metal inserts to stop                that may be worn at the belt or beneath the clothing
+         powerful projectiles. Generally covering only the                 in order to conceal its presence. A standard battery
+         torso and groin, a flak jacket can be concealed                   provides six hours of protection.
+         under a bulky coat but will be spotted by all but the
+         most cursory of glances.                                          A skilled wearer can overload the battery to get more
+                                                                           Protection by making a Difficult (10+) Electronics
+                                                                           (computers) check to recalibrate the device. Success
+         Flak Shell: A heavy back-and-breastplate formed                   with Effect 0–3 provides Protection +18 but reduces
+         from metal or ceramic composites. A flak shell is                 the battery life by one half. Effect 4–5 provides
+         essentially a stronger and more advanced flak jacket              Protection +24 with one half the battery life. Effect 6+
+         but is extremely heavy and imposes DM-1 on all                    provides Protection +24 with no reduction in battery
+         checks that involve physical activity but there is no             life. The Traveller must reattempt the calibration with
+         penalty to close combat attacks.                                  each recharge of the battery.
+
+
+         Hunter Field Garb: In addition to providing light                 Poly Carapace: A bodysuit of fibrous material
+         protection, hunter field garb regulates the wearer’s              with attached plates of polymer plastics designed
+         body temperature, neutralising the effects of                     to shield major arteries and organs, the carapace
+         extreme heat or cold to +/- 50°C. It also provides                comes complete with an armoured facemask
+         superior camouflage, adding DM+2 to Stealth                       and half-helmet. It is good protection against all
+         checks and it has lots of pockets.                                forms of weapons but can be restrictive to limb
+                                                                           movement. Poly carapace armour imposes DM-1
+                                                                           on all checks that involve physical activity but there
+         Jack: A jacket or body suit of tough natural or                   is no penalty to close combat attacks. At TL11 and
+         synthetic material such as leather, pseudohide or                 above more advanced lightweight versions are
+         something similar covering the torso and arms. Jack               also available that are less bulky, do not restrict
+         may be armour or simply a tough piece of clothing.                movement and provide better protection.
+         It is somewhat better than ordinary clothing or bare
+         skin when defending against blades but fairly useless
+         against high velocity attacks. The leather or hide                Post-Apocalyptic: This is scavenged armour
+         armour of low-tech troops is usually equivalent to jack.          cobbled together from plate pieces, salvaged rubber
+                                                                           and other toughened materials that can be riveted,
+                                                                           welded or glued together. It covers the torso, upper
+Armour
+
+
+
+
+         Mesh: A jacket or body suit made of natural or synthetic          legs and maybe an arm.
+         leather reinforced with a lining of flexible metal mesh. It
+         is primarily useful against hand weapons.
+                                                                           Tactical Riot Armour: Developed for law
+                                                                           enforcement agencies, tactical riot armour protects
+         Protec Suit: A slim-fitting business suit woven from              the torso, arms and head of the wearer primarily
+         protective fibres, the protec suit is obviously armour            from improvised weapons used by rebellious
+         but also confers a degree of respectability without               civilians. The design of this armour emphasises
+         making the Traveller appear like a thug. It is capable            intimidation while rendering the wearer anonymous
+         of turning melee weapons while softening the blow                 among others so equipped. The wearer gains DM+2
+         of small arms fire.                                               to all Persuade checks made to intimidate.
+
+
+
+
+   14
+

@@ -1,0 +1,3879 @@
+[
+  {
+    "original": {
+      "name": "Neural Sheath",
+      "tl": 17,
+      "cost": 80000,
+      "mass": 2,
+      "source_page": 19,
+      "category": "armor",
+      "protection": 0,
+      "rad": 0
+    },
+    "normalized": {
+      "id": "neural-sheath-tl17",
+      "name": "Neural Sheath",
+      "tl": 17,
+      "cost": 80000,
+      "mass": 2,
+      "source": {
+        "book": "CSC",
+        "page": 19
+      },
+      "category": "armor",
+      "armor_stats": {
+        "protection": 0,
+        "rad": 0,
+        "traits": []
+      }
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Null Shield",
+      "category": "equipment",
+      "tl": 17,
+      "cost": 150000,
+      "mass": 0,
+      "source_page": 25,
+      "effect": "Complete immunity from psionic powers"
+    },
+    "normalized": {
+      "id": "null-shield-tl17",
+      "name": "Null Shield",
+      "tl": 17,
+      "cost": 150000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 25
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Electronics Suite",
+      "category": "equipment",
+      "tl": 16,
+      "cost": 0,
+      "mass": 0,
+      "source_page": 28,
+      "effect": "Includes Bioscanner, Computer/4, PRIS Binoculars, Radio Transceiver (5,000 km), Scope"
+    },
+    "normalized": {
+      "id": "electronics-suite-tl16",
+      "name": "Electronics Suite",
+      "tl": 16,
+      "cost": 0,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 28
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi-Enhanced Combat Armour",
+      "category": "armor",
+      "tl": 16,
+      "protection": 15,
+      "rad": 250,
+      "mass": 10,
+      "cost": 500000,
+      "source_page": 34
+    },
+    "normalized": {
+      "id": "psi-enhanced-combat-armour-tl16",
+      "name": "Psi-Enhanced Combat Armour",
+      "tl": 16,
+      "cost": 500000,
+      "mass": 10,
+      "source": {
+        "book": "CSC",
+        "page": 34
+      },
+      "category": "armor",
+      "armor_stats": {
+        "protection": 15,
+        "rad": 250,
+        "traits": []
+      }
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "category": "armor",
+      "name": "Psi-Commando Battle Dress, Advanced",
+      "tl": 16,
+      "protection": 29,
+      "rad": 0,
+      "mass": 110,
+      "cost": 2400000,
+      "source_page": 40,
+      "traits": [
+        "½ PSI bonus"
+      ]
+    },
+    "normalized": {
+      "id": "psi-commando-battle-dress-advanced-tl16",
+      "name": "Psi-Commando Battle Dress, Advanced",
+      "tl": 16,
+      "cost": 2400000,
+      "mass": 110,
+      "source": {
+        "book": "CSC",
+        "page": 40
+      },
+      "category": "armor",
+      "armor_stats": {
+        "protection": 29,
+        "rad": 0,
+        "traits": []
+      }
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "category": "equipment",
+      "name": "Invisitech",
+      "tl": 16,
+      "cost": 0,
+      "mass": 0,
+      "source_page": 50,
+      "effect": "Undetectable by electronic and psionic scanning"
+    },
+    "normalized": {
+      "id": "invisitech-tl16",
+      "name": "Invisitech",
+      "tl": 16,
+      "cost": 0,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 50
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Terminal Stabilisation System",
+      "category": "equipment",
+      "tl": 16,
+      "cost": 2500000,
+      "mass": 0,
+      "source_page": 55,
+      "effect": "Adds +1D END when Traveller is killed"
+    },
+    "normalized": {
+      "id": "terminal-stabilisation-system-tl16",
+      "name": "Terminal Stabilisation System",
+      "tl": 16,
+      "cost": 2500000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 55
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Cognitive Augmentation +3",
+      "category": "augment",
+      "tl": 16,
+      "effect": "+3 to INT",
+      "cost": 5000000,
+      "mass": 0,
+      "source_page": 59
+    },
+    "normalized": {
+      "id": "cognitive-augmentation-3-tl16",
+      "name": "Cognitive Augmentation +3",
+      "tl": 16,
+      "cost": 5000000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 59
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Null Skull",
+      "category": "equipment",
+      "tl": 16,
+      "cost": 1000000,
+      "mass": 0,
+      "source_page": 61,
+      "effect": "PSI 0 but DM-6 to psionic effects"
+    },
+    "normalized": {
+      "id": "null-skull-tl16",
+      "name": "Null Skull",
+      "tl": 16,
+      "cost": 1000000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 61
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi-taps",
+      "category": "equipment",
+      "tl": 16,
+      "cost": 750000,
+      "mass": 0,
+      "source_page": 61,
+      "effect": "PSI +2 to a maximum of 10"
+    },
+    "normalized": {
+      "id": "psi-taps-tl16",
+      "name": "Psi-taps",
+      "tl": 16,
+      "cost": 750000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 61
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "category": "software",
+      "name": "Decryptor/4",
+      "tl": 16,
+      "cost": 50000,
+      "bandwidth": 4,
+      "source_page": 70,
+      "effect": "Decrypt intercepted transmissions"
+    },
+    "normalized": {
+      "id": "decryptor-4-tl16",
+      "name": "Decryptor/4",
+      "tl": 16,
+      "cost": 50000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 70
+      },
+      "category": "software"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi-finder Binoculars",
+      "category": "equipment",
+      "tl": 16,
+      "effect": "PRIS + PSI detection",
+      "mass": 1,
+      "cost": 10000,
+      "source_page": 77
+    },
+    "normalized": {
+      "id": "psi-finder-binoculars-tl16",
+      "name": "Psi-finder Binoculars",
+      "tl": 16,
+      "cost": 10000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 77
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi-finder Visor",
+      "category": "equipment",
+      "tl": 17,
+      "effect": "Thin form or visor coating",
+      "mass": 0,
+      "cost": 15000,
+      "source_page": 77
+    },
+    "normalized": {
+      "id": "psi-finder-visor-tl17",
+      "name": "Psi-finder Visor",
+      "tl": 17,
+      "cost": 15000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 77
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Ring Laser",
+      "category": "equipment",
+      "tl": 16,
+      "effect": "Miniature tool laser",
+      "mass": 0,
+      "cost": 1000,
+      "source_page": 78
+    },
+    "normalized": {
+      "id": "ring-laser-tl16",
+      "name": "Ring Laser",
+      "tl": 16,
+      "cost": 1000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 78
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Autolaundry (Advanced)",
+      "category": "equipment",
+      "tl": 17,
+      "effect": "Disintegration of contaminants",
+      "mass": 5,
+      "cost": 1000,
+      "source_page": 82
+    },
+    "normalized": {
+      "id": "autolaundry-advanced-tl17",
+      "name": "Autolaundry (Advanced)",
+      "tl": 17,
+      "cost": 1000,
+      "mass": 5,
+      "source": {
+        "book": "CSC",
+        "page": 82
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Null Drug",
+      "tl": 16,
+      "cost": 5000,
+      "mass": 0,
+      "source_page": 95,
+      "category": "equipment",
+      "effect": "Completely shuts off psionics for 2D hours"
+    },
+    "normalized": {
+      "id": "null-drug-tl16",
+      "name": "Null Drug",
+      "tl": 16,
+      "cost": 5000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 95
+      },
+      "category": "medical"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Infinite Rope",
+      "tl": 16,
+      "cost": 1000,
+      "mass": 1,
+      "source_page": 108,
+      "category": "equipment",
+      "effect": "Gun with reusable (to 25m) rope, 750kg load"
+    },
+    "normalized": {
+      "id": "infinite-rope-tl16",
+      "name": "Infinite Rope",
+      "tl": 16,
+      "cost": 1000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 108
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi-Amplifier",
+      "category": "equipment",
+      "tl": 16,
+      "effect": "DM+2 to Psion checks, +6 if touching the hub",
+      "mass": 0,
+      "cost": 75000,
+      "source_page": 112
+    },
+    "normalized": {
+      "id": "psi-amplifier-tl16",
+      "name": "Psi-Amplifier",
+      "tl": 16,
+      "cost": 75000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 112
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Holosimulacrum",
+      "category": "equipment",
+      "tl": 17,
+      "effect": "Creates immersive holographic environment",
+      "mass": 0,
+      "cost": 5000000,
+      "source_page": 112
+    },
+    "normalized": {
+      "id": "holosimulacrum-tl17",
+      "name": "Holosimulacrum",
+      "tl": 17,
+      "cost": 5000000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 112
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Null-Shielding",
+      "category": "equipment",
+      "tl": 16,
+      "effect": "DM-2 to psion task checks in or out",
+      "mass": 0,
+      "cost": 18000,
+      "source_page": 112
+    },
+    "normalized": {
+      "id": "null-shielding-tl16",
+      "name": "Null-Shielding",
+      "tl": 16,
+      "cost": 18000,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 112
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi Blade",
+      "category": "weapon",
+      "tl": 16,
+      "range": "Melee",
+      "damage": "2D",
+      "mass": 1,
+      "cost": 30000,
+      "traits": [
+        "Special (PSI)"
+      ],
+      "source_page": 136
+    },
+    "normalized": {
+      "id": "psi-blade-tl16",
+      "name": "Psi Blade",
+      "tl": 16,
+      "cost": 30000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 136
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "2D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Special (PSI)"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi Dagger",
+      "category": "weapon",
+      "tl": 16,
+      "range": "Melee",
+      "damage": "1D+2",
+      "mass": 0.5,
+      "cost": 25000,
+      "traits": [
+        "Special (PSI)"
+      ],
+      "source_page": 136
+    },
+    "normalized": {
+      "id": "psi-dagger-tl16",
+      "name": "Psi Dagger",
+      "tl": 16,
+      "cost": 25000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 136
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1D+2",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Special (PSI)"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Gravitic Shield",
+      "category": "weapon",
+      "tl": 17,
+      "range": "Melee",
+      "damage": "1D",
+      "mass": 0,
+      "cost": 2500,
+      "traits": [],
+      "source_page": 141
+    },
+    "normalized": {
+      "id": "gravitic-shield-tl17",
+      "name": "Gravitic Shield",
+      "tl": 17,
+      "cost": 2500,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 141
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Whip",
+      "category": "weapon",
+      "tl": 1,
+      "cost": 15,
+      "mass": 1,
+      "damage": "D3",
+      "range": "Melee",
+      "magazine": 0,
+      "magazine_cost": 0,
+      "source_page": 142,
+      "traits": []
+    },
+    "normalized": {
+      "id": "whip-tl1",
+      "name": "Whip",
+      "tl": 1,
+      "cost": 15,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 142
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "D3",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: D3"
+    ]
+  },
+  {
+    "original": {
+      "name": "Maser Pistol",
+      "category": "weapon",
+      "tl": 17,
+      "range": 20,
+      "damage": "3D+3",
+      "mass": 2,
+      "cost": 25000,
+      "magazine": 12,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10",
+        "Zero-G"
+      ],
+      "source_page": 150
+    },
+    "normalized": {
+      "id": "maser-pistol-tl17",
+      "name": "Maser Pistol",
+      "tl": 17,
+      "cost": 25000,
+      "mass": 2,
+      "source": {
+        "book": "CSC",
+        "page": 150
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "3D+3",
+        "range": "Melee",
+        "magazine": 12,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 10",
+          "Zero-G"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Matter Disintegrator",
+      "category": "weapon",
+      "tl": 18,
+      "range": 5,
+      "damage": "1DD",
+      "mass": 1,
+      "cost": 2500000,
+      "magazine": 0,
+      "magazine_cost": 50000,
+      "traits": [
+        "Zero-G"
+      ],
+      "source_page": 150
+    },
+    "normalized": {
+      "id": "matter-disintegrator-tl18",
+      "name": "Matter Disintegrator",
+      "tl": 18,
+      "cost": 2500000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 150
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 50000,
+        "traits": [
+          "Zero-G"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15",
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Matter Disintegrator",
+      "category": "weapon",
+      "tl": 19,
+      "range": 10,
+      "damage": "2DD",
+      "mass": 1,
+      "cost": 4000000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Zero-G"
+      ],
+      "source_page": 150
+    },
+    "normalized": {
+      "id": "matter-disintegrator-tl19",
+      "name": "Matter Disintegrator",
+      "tl": 19,
+      "cost": 4000000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 150
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "2DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Zero-G"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15",
+      "Invalid damage format: 2DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Pepper Spray",
+      "category": "weapon",
+      "tl": 5,
+      "range": 3,
+      "damage": "Special",
+      "mass": 0,
+      "cost": 5,
+      "magazine": 5,
+      "magazine_cost": 5,
+      "traits": [
+        "Stun"
+      ],
+      "source_page": 150
+    },
+    "normalized": {
+      "id": "pepper-spray-tl5",
+      "name": "Pepper Spray",
+      "tl": 5,
+      "cost": 5,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 150
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 5,
+        "magazine_cost": 5,
+        "traits": [
+          "Stun"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Ion Rifle",
+      "category": "weapon",
+      "tl": 14,
+      "range": 600,
+      "damage": "Special",
+      "mass": 6,
+      "cost": 16000,
+      "magazine": 100,
+      "magazine_cost": 5000,
+      "traits": [
+        "Zero-G"
+      ],
+      "source_page": 154
+    },
+    "normalized": {
+      "id": "ion-rifle-tl14",
+      "name": "Ion Rifle",
+      "tl": 14,
+      "cost": 16000,
+      "mass": 6,
+      "source": {
+        "book": "CSC",
+        "page": 154
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Rifle",
+        "magazine": 100,
+        "magazine_cost": 5000,
+        "traits": [
+          "Zero-G"
+        ]
+      },
+      "subcategory": "rifle"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Ion Rifle",
+      "category": "weapon",
+      "tl": 15,
+      "range": 800,
+      "damage": "Special",
+      "mass": 5,
+      "cost": 24000,
+      "magazine": 100,
+      "magazine_cost": 8000,
+      "traits": [
+        "Zero-G"
+      ],
+      "source_page": 154
+    },
+    "normalized": {
+      "id": "ion-rifle-tl15",
+      "name": "Ion Rifle",
+      "tl": 15,
+      "cost": 24000,
+      "mass": 5,
+      "source": {
+        "book": "CSC",
+        "page": 154
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Distant",
+        "magazine": 100,
+        "magazine_cost": 8000,
+        "traits": [
+          "Zero-G"
+        ]
+      },
+      "subcategory": "rifle"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Maser Rifle",
+      "category": "weapon",
+      "tl": 16,
+      "range": 300,
+      "damage": "5D+3",
+      "mass": 8,
+      "cost": 30000,
+      "magazine": 20,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10",
+        "Zero-G"
+      ],
+      "source_page": 154
+    },
+    "normalized": {
+      "id": "maser-rifle-tl16",
+      "name": "Maser Rifle",
+      "tl": 16,
+      "cost": 30000,
+      "mass": 8,
+      "source": {
+        "book": "CSC",
+        "page": 154
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "5D+3",
+        "range": "Rifle",
+        "magazine": 20,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 10",
+          "Zero-G"
+        ]
+      },
+      "subcategory": "rifle"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Plasma Rifle",
+      "category": "weapon",
+      "tl": 16,
+      "range": 300,
+      "damage": "6D",
+      "mass": 4,
+      "cost": 100000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [],
+      "source_page": 154
+    },
+    "normalized": {
+      "id": "plasma-rifle-tl16",
+      "name": "Plasma Rifle",
+      "tl": 16,
+      "cost": 100000,
+      "mass": 4,
+      "source": {
+        "book": "CSC",
+        "page": 154
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "6D",
+        "range": "Rifle",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "rifle"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Solar Beam Rifle",
+      "category": "weapon",
+      "tl": 17,
+      "range": 500,
+      "damage": "1DD",
+      "mass": 4,
+      "cost": 200000,
+      "magazine": 20,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 20",
+        "Zero-G"
+      ],
+      "source_page": 154
+    },
+    "normalized": {
+      "id": "solar-beam-rifle-tl17",
+      "name": "Solar Beam Rifle",
+      "tl": 17,
+      "cost": 200000,
+      "mass": 4,
+      "source": {
+        "book": "CSC",
+        "page": 154
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Rifle",
+        "magazine": 20,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 20",
+          "Zero-G"
+        ]
+      },
+      "subcategory": "rifle"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15",
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Atlatl",
+      "tl": 0,
+      "category": "weapon",
+      "range": "+100%",
+      "damage": "—",
+      "cost": 20,
+      "mass": 1,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [],
+      "source_page": 155
+    },
+    "normalized": {
+      "id": "atlatl",
+      "name": "Atlatl",
+      "tl": 0,
+      "cost": 20,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 155
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Pistol",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "rifle"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Bolas",
+      "category": "weapon",
+      "tl": 0,
+      "range": 10,
+      "damage": "—",
+      "mass": 1,
+      "cost": 5,
+      "source_page": 157,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "Silent"
+      ]
+    },
+    "normalized": {
+      "id": "bolas",
+      "name": "Bolas",
+      "tl": 0,
+      "cost": 5,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 157
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "Silent"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Monofilament Net",
+      "category": "weapon",
+      "tl": 12,
+      "range": 5,
+      "damage": "Special",
+      "mass": 1,
+      "cost": 1000,
+      "source_page": 157,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10",
+        "Silent"
+      ]
+    },
+    "normalized": {
+      "id": "monofilament-net-tl12",
+      "name": "Monofilament Net",
+      "tl": 12,
+      "cost": 1000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 157
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 10",
+          "Silent"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Net",
+      "category": "weapon",
+      "tl": 1,
+      "range": 5,
+      "damage": "—",
+      "mass": 1,
+      "cost": 10,
+      "source_page": 157,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "Silent"
+      ]
+    },
+    "normalized": {
+      "id": "net-tl1",
+      "name": "Net",
+      "tl": 1,
+      "cost": 10,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 157
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "Silent"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Aerosol Grenade",
+      "category": "weapon",
+      "tl": 9,
+      "range": 20,
+      "damage": "—",
+      "mass": 0.5,
+      "cost": 15,
+      "source_page": 158,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "normalized": {
+      "id": "aerosol-grenade-tl9",
+      "name": "Aerosol Grenade",
+      "tl": 9,
+      "cost": 15,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 9"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Chemical Grenade",
+      "category": "weapon",
+      "tl": 5,
+      "range": 20,
+      "damage": "Special",
+      "mass": 0.5,
+      "cost": 50,
+      "source_page": 158,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "normalized": {
+      "id": "chemical-grenade-tl5",
+      "name": "Chemical Grenade",
+      "tl": 5,
+      "cost": 50,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 9"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Electromagnetic Pulse Grenade",
+      "category": "weapon",
+      "tl": 9,
+      "range": 20,
+      "damage": "—",
+      "mass": 0.5,
+      "cost": 100,
+      "source_page": 158,
+      "traits": [
+        "Blast 6"
+      ]
+    },
+    "normalized": {
+      "id": "electromagnetic-pulse-grenade-tl9",
+      "name": "Electromagnetic Pulse Grenade",
+      "tl": 9,
+      "cost": 100,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 6"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Neurotoxin Grenade",
+      "category": "weapon",
+      "tl": 9,
+      "range": 20,
+      "damage": "Special",
+      "mass": 0.5,
+      "cost": 250,
+      "source_page": 158,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "normalized": {
+      "id": "neurotoxin-grenade-tl9",
+      "name": "Neurotoxin Grenade",
+      "tl": 9,
+      "cost": 250,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 9"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Plasma Grenade",
+      "category": "weapon",
+      "tl": 16,
+      "range": 20,
+      "damage": "8D",
+      "mass": 0.5,
+      "cost": 500,
+      "source_page": 158,
+      "traits": [
+        "Blast 6"
+      ]
+    },
+    "normalized": {
+      "id": "plasma-grenade-tl16",
+      "name": "Plasma Grenade",
+      "tl": 16,
+      "cost": 500,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "8D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 6"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Smoke Grenade",
+      "category": "weapon",
+      "tl": 6,
+      "range": 20,
+      "damage": "—",
+      "mass": 0.5,
+      "cost": 15,
+      "source_page": 158,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "normalized": {
+      "id": "smoke-grenade-tl6",
+      "name": "Smoke Grenade",
+      "tl": 6,
+      "cost": 15,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 9"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Thermal Smoke Grenade",
+      "category": "weapon",
+      "tl": 7,
+      "range": 20,
+      "damage": "—",
+      "mass": 0.5,
+      "cost": 30,
+      "source_page": 158,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "normalized": {
+      "id": "thermal-smoke-grenade-tl7",
+      "name": "Thermal Smoke Grenade",
+      "tl": 7,
+      "cost": 30,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 9"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Tranq Gas Grenade",
+      "category": "weapon",
+      "tl": 8,
+      "range": 20,
+      "damage": "Special",
+      "mass": 0.5,
+      "cost": 75,
+      "source_page": 158,
+      "traits": [
+        "Blast 9"
+      ]
+    },
+    "normalized": {
+      "id": "tranq-gas-grenade-tl8",
+      "name": "Tranq Gas Grenade",
+      "tl": 8,
+      "cost": 75,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 158
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 9"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Fusion Block",
+      "category": "weapon",
+      "tl": 16,
+      "damage": "1DD",
+      "range": "—",
+      "mass": 1,
+      "cost": 10000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 50",
+        "Blast 12",
+        "Radiation"
+      ],
+      "source_page": 160
+    },
+    "normalized": {
+      "id": "fusion-block-tl16",
+      "name": "Fusion Block",
+      "tl": 16,
+      "cost": 10000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 160
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 50",
+          "Blast 12",
+          "Radiation"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15",
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Neutrino Detonator",
+      "category": "weapon",
+      "tl": 17,
+      "damage": "8D",
+      "range": "—",
+      "mass": 1,
+      "cost": 50000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP ∞",
+        "Blast 25"
+      ],
+      "source_page": 160
+    },
+    "normalized": {
+      "id": "neutrino-detonator-tl17",
+      "name": "Neutrino Detonator",
+      "tl": 17,
+      "cost": 50000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 160
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "8D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP ∞",
+          "Blast 25"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Pocket Nuke",
+      "category": "weapon",
+      "tl": 12,
+      "damage": "6DD",
+      "range": "—",
+      "mass": 4,
+      "cost": 250000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 1,000",
+        "Radiation"
+      ],
+      "source_page": 160
+    },
+    "normalized": {
+      "id": "pocket-nuke-tl12",
+      "name": "Pocket Nuke",
+      "tl": 12,
+      "cost": 250000,
+      "mass": 4,
+      "source": {
+        "book": "CSC",
+        "page": 160
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "6DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 1,000",
+          "Radiation"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 6DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Bombardment Gun",
+      "category": "weapon",
+      "tl": 5,
+      "range": "30 (10)",
+      "damage": "2DD",
+      "mass": 220,
+      "cost": 500000,
+      "magazine": 1,
+      "magazine_cost": 1500,
+      "traits": [
+        "Artillery",
+        "Blast 20"
+      ],
+      "source_page": 166
+    },
+    "normalized": {
+      "id": "bombardment-gun-tl5",
+      "name": "Bombardment Gun",
+      "tl": 5,
+      "cost": 500000,
+      "mass": 220,
+      "source": {
+        "book": "CSC",
+        "page": 166
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "2DD",
+        "range": "Shotgun",
+        "magazine": 1,
+        "magazine_cost": 1500,
+        "traits": [
+          "Artillery",
+          "Blast 20"
+        ]
+      },
+      "subcategory": "pistol"
+    },
+    "errors": [
+      "Invalid damage format: 2DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Demolition Gun",
+      "category": "weapon",
+      "tl": 6,
+      "range": 0.1,
+      "damage": "1DD",
+      "mass": 5,
+      "cost": 30000,
+      "magazine": 1,
+      "magazine_cost": 500,
+      "traits": [
+        "AP 10",
+        "Artillery",
+        "Blast 10"
+      ],
+      "source_page": 166
+    },
+    "normalized": {
+      "id": "demolition-gun-tl6",
+      "name": "Demolition Gun",
+      "tl": 6,
+      "cost": 30000,
+      "mass": 5,
+      "source": {
+        "book": "CSC",
+        "page": 166
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 500,
+        "traits": [
+          "AP 10",
+          "Artillery",
+          "Blast 10"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Heavy Bombardment Gun",
+      "category": "weapon",
+      "tl": 5,
+      "range": "40 (10)",
+      "damage": "3DD",
+      "mass": 500,
+      "cost": 750000,
+      "magazine": 1,
+      "magazine_cost": 2500,
+      "traits": [
+        "Artillery",
+        "Blast 20"
+      ],
+      "source_page": 166
+    },
+    "normalized": {
+      "id": "heavy-bombardment-gun-tl5",
+      "name": "Heavy Bombardment Gun",
+      "tl": 5,
+      "cost": 750000,
+      "mass": 500,
+      "source": {
+        "book": "CSC",
+        "page": 166
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "3DD",
+        "range": "Shotgun",
+        "magazine": 1,
+        "magazine_cost": 2500,
+        "traits": [
+          "Artillery",
+          "Blast 20"
+        ]
+      },
+      "subcategory": "pistol"
+    },
+    "errors": [
+      "Invalid damage format: 3DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Heavy Gun",
+      "category": "weapon",
+      "tl": 8,
+      "range": 12,
+      "damage": "1DD",
+      "mass": 12,
+      "cost": 120000,
+      "magazine": 1,
+      "magazine_cost": 400,
+      "traits": [
+        "AP 8",
+        "Artillery",
+        "Blast 10"
+      ],
+      "source_page": 166
+    },
+    "normalized": {
+      "id": "heavy-gun-tl8",
+      "name": "Heavy Gun",
+      "tl": 8,
+      "cost": 120000,
+      "mass": 12,
+      "source": {
+        "book": "CSC",
+        "page": 166
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 400,
+        "traits": [
+          "AP 8",
+          "Artillery",
+          "Blast 10"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Mass Driver",
+      "category": "weapon",
+      "tl": 12,
+      "range": 40,
+      "damage": "1DD",
+      "mass": 7,
+      "cost": 500000,
+      "magazine": 1,
+      "magazine_cost": 750,
+      "traits": [
+        "Artillery",
+        "Blast 10"
+      ],
+      "source_page": 166
+    },
+    "normalized": {
+      "id": "mass-driver-tl12",
+      "name": "Mass Driver",
+      "tl": 12,
+      "cost": 500000,
+      "mass": 7,
+      "source": {
+        "book": "CSC",
+        "page": 166
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Shotgun",
+        "magazine": 1,
+        "magazine_cost": 750,
+        "traits": [
+          "Artillery",
+          "Blast 10"
+        ]
+      },
+      "subcategory": "pistol"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Siege Gun",
+      "category": "weapon",
+      "tl": 7,
+      "range": "50 (10)",
+      "damage": "4DD",
+      "mass": 1200,
+      "cost": 19000000,
+      "magazine": 1,
+      "magazine_cost": 5000,
+      "traits": [
+        "AP 10",
+        "Artillery",
+        "Blast 50"
+      ],
+      "source_page": 166
+    },
+    "normalized": {
+      "id": "siege-gun-tl7",
+      "name": "Siege Gun",
+      "tl": 7,
+      "cost": 19000000,
+      "mass": 1200,
+      "source": {
+        "book": "CSC",
+        "page": 166
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "4DD",
+        "range": "Shotgun",
+        "magazine": 1,
+        "magazine_cost": 5000,
+        "traits": [
+          "AP 10",
+          "Artillery",
+          "Blast 50"
+        ]
+      },
+      "subcategory": "pistol"
+    },
+    "errors": [
+      "Invalid damage format: 4DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Heavy Autocannon",
+      "category": "weapon",
+      "tl": 6,
+      "range": 1,
+      "damage": "1DD",
+      "mass": 1,
+      "cost": 45000,
+      "magazine": 100,
+      "magazine_cost": 2000,
+      "traits": [
+        "Auto 3"
+      ],
+      "source_page": 168
+    },
+    "normalized": {
+      "id": "heavy-autocannon-tl6",
+      "name": "Heavy Autocannon",
+      "tl": 6,
+      "cost": 45000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 168
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 100,
+        "magazine_cost": 2000,
+        "traits": [
+          "Auto 3"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Medium Cannon",
+      "category": "weapon",
+      "tl": 6,
+      "range": 2,
+      "damage": "1DD",
+      "mass": 2.5,
+      "cost": 400000,
+      "magazine": 30,
+      "magazine_cost": 5000,
+      "traits": [
+        "Blast 10"
+      ],
+      "source_page": 168
+    },
+    "normalized": {
+      "id": "medium-cannon-tl6",
+      "name": "Medium Cannon",
+      "tl": 6,
+      "cost": 400000,
+      "mass": 2.5,
+      "source": {
+        "book": "CSC",
+        "page": 168
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 30,
+        "magazine_cost": 5000,
+        "traits": [
+          "Blast 10"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Heavy Cannon",
+      "category": "weapon",
+      "tl": 7,
+      "range": 3,
+      "damage": "2DD",
+      "mass": 4,
+      "cost": 600000,
+      "magazine": 10,
+      "magazine_cost": 5000,
+      "traits": [
+        "Blast 10"
+      ],
+      "source_page": 168
+    },
+    "normalized": {
+      "id": "heavy-cannon-tl7",
+      "name": "Heavy Cannon",
+      "tl": 7,
+      "cost": 600000,
+      "mass": 4,
+      "source": {
+        "book": "CSC",
+        "page": 168
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "2DD",
+        "range": "Melee",
+        "magazine": 10,
+        "magazine_cost": 5000,
+        "traits": [
+          "Blast 10"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 2DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Fusion Gun-X",
+      "category": "weapon",
+      "tl": 13,
+      "range": 3,
+      "damage": "3DD",
+      "mass": 4,
+      "cost": 2000000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10",
+        "Blast 15",
+        "Radiation"
+      ],
+      "source_page": 168
+    },
+    "normalized": {
+      "id": "fusion-gun-x-tl13",
+      "name": "Fusion Gun-X",
+      "tl": 13,
+      "cost": 2000000,
+      "mass": 4,
+      "source": {
+        "book": "CSC",
+        "page": 168
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "3DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 10",
+          "Blast 15",
+          "Radiation"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 3DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Fusion Gun-Y",
+      "category": "weapon",
+      "tl": 14,
+      "range": 5,
+      "damage": "3DD",
+      "mass": 4,
+      "cost": 3000000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 20",
+        "Blast 20",
+        "Radiation"
+      ],
+      "source_page": 168
+    },
+    "normalized": {
+      "id": "fusion-gun-y-tl14",
+      "name": "Fusion Gun-Y",
+      "tl": 14,
+      "cost": 3000000,
+      "mass": 4,
+      "source": {
+        "book": "CSC",
+        "page": 168
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "3DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 20",
+          "Blast 20",
+          "Radiation"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 3DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Fusion Gun-Z",
+      "category": "weapon",
+      "tl": 15,
+      "range": 10,
+      "damage": "3DD",
+      "mass": 4,
+      "cost": 8000000,
+      "magazine": 0,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 30",
+        "Blast 30",
+        "Radiation"
+      ],
+      "source_page": 168
+    },
+    "normalized": {
+      "id": "fusion-gun-z-tl15",
+      "name": "Fusion Gun-Z",
+      "tl": 15,
+      "cost": 8000000,
+      "mass": 4,
+      "source": {
+        "book": "CSC",
+        "page": 168
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "3DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 30",
+          "Blast 30",
+          "Radiation"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 3DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Light Bomb",
+      "category": "weapon",
+      "tl": 4,
+      "range": 0,
+      "damage": "1DD",
+      "mass": 0.1,
+      "cost": 1500,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 20",
+        "Blast 20",
+        "One Use"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "light-bomb-tl4",
+      "name": "Light Bomb",
+      "tl": 4,
+      "cost": 1500,
+      "mass": 0.1,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 20",
+          "Blast 20",
+          "One Use"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Medium Bomb",
+      "category": "weapon",
+      "tl": 4,
+      "range": 0,
+      "damage": "2DD",
+      "mass": 0.5,
+      "cost": 4000,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 25",
+        "Blast 25",
+        "One Use"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "medium-bomb-tl4",
+      "name": "Medium Bomb",
+      "tl": 4,
+      "cost": 4000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "2DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 25",
+          "Blast 25",
+          "One Use"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 2DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Heavy Bomb",
+      "category": "weapon",
+      "tl": 4,
+      "range": 0,
+      "damage": "3DD",
+      "mass": 1,
+      "cost": 8000,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 30",
+        "Blast 30",
+        "One Use"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "heavy-bomb-tl4",
+      "name": "Heavy Bomb",
+      "tl": 4,
+      "cost": 8000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "3DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 30",
+          "Blast 30",
+          "One Use"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 3DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Bombardment Missile",
+      "category": "weapon",
+      "tl": 9,
+      "range": 200,
+      "damage": "1DD",
+      "mass": 1,
+      "cost": 36000,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 20",
+        "Blast 20",
+        "One Use",
+        "Smart"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "bombardment-missile-tl9",
+      "name": "Bombardment Missile",
+      "tl": 9,
+      "cost": 36000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Assault Weapon",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 20",
+          "Blast 20",
+          "One Use",
+          "Smart"
+        ]
+      },
+      "subcategory": "rifle"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Earthquake Bomb",
+      "category": "weapon",
+      "tl": 4,
+      "range": 2,
+      "damage": "5DD",
+      "mass": 10,
+      "cost": 100000,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "Blast 250",
+        "One Use"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "earthquake-bomb-tl4",
+      "name": "Earthquake Bomb",
+      "tl": 4,
+      "cost": 100000,
+      "mass": 10,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "5DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 250",
+          "One Use"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 5DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Plasma Missile Rack",
+      "category": "weapon",
+      "tl": 12,
+      "range": 50,
+      "damage": "4DD",
+      "mass": 2,
+      "cost": 1000000,
+      "magazine": 12,
+      "magazine_cost": 400000,
+      "traits": [
+        "AP 20",
+        "Auto 3",
+        "Blast 15",
+        "One Use",
+        "Smart"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "plasma-missile-rack-tl12",
+      "name": "Plasma Missile Rack",
+      "tl": 12,
+      "cost": 1000000,
+      "mass": 2,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "4DD",
+        "range": "Shotgun",
+        "magazine": 12,
+        "magazine_cost": 400000,
+        "traits": [
+          "AP 20",
+          "Auto 3",
+          "Blast 15",
+          "One Use",
+          "Smart"
+        ]
+      },
+      "subcategory": "pistol"
+    },
+    "errors": [
+      "Invalid damage format: 4DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Torpedo",
+      "category": "weapon",
+      "tl": 4,
+      "range": 1,
+      "damage": "1DD",
+      "mass": 0.5,
+      "cost": 3000,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 10",
+        "One Use",
+        "Smart"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "torpedo-tl4",
+      "name": "Torpedo",
+      "tl": 4,
+      "cost": 3000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 10",
+          "One Use",
+          "Smart"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Torpedo",
+      "category": "weapon",
+      "tl": 5,
+      "range": 5,
+      "damage": "3DD",
+      "mass": 0.5,
+      "cost": 5000,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 30",
+        "One Use",
+        "Smart"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "torpedo-tl5",
+      "name": "Torpedo",
+      "tl": 5,
+      "cost": 5000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "3DD",
+        "range": "Melee",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 30",
+          "One Use",
+          "Smart"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 3DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Torpedo",
+      "category": "weapon",
+      "tl": 8,
+      "range": 50,
+      "damage": "5DD",
+      "mass": 0.5,
+      "cost": 12000,
+      "magazine": 1,
+      "magazine_cost": 0,
+      "traits": [
+        "AP 50",
+        "One Use",
+        "Smart"
+      ],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "torpedo-tl8",
+      "name": "Torpedo",
+      "tl": 8,
+      "cost": 12000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "5DD",
+        "range": "Shotgun",
+        "magazine": 1,
+        "magazine_cost": 0,
+        "traits": [
+          "AP 50",
+          "One Use",
+          "Smart"
+        ]
+      },
+      "subcategory": "pistol"
+    },
+    "errors": [
+      "Invalid damage format: 5DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Water Cannon",
+      "category": "weapon",
+      "tl": 5,
+      "range": 0.1,
+      "damage": "—",
+      "mass": 0.5,
+      "cost": 2000,
+      "magazine": 10,
+      "magazine_cost": 0,
+      "traits": [],
+      "source_page": 172
+    },
+    "normalized": {
+      "id": "water-cannon-tl5",
+      "name": "Water Cannon",
+      "tl": 5,
+      "cost": 2000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 172
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 10,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi-enhanced Targeting",
+      "tl": 16,
+      "cost": 3000,
+      "mass": 0.5,
+      "category": "equipment",
+      "effect": "Add PSI modifier to non-Auto attack rolls",
+      "source_page": 177
+    },
+    "normalized": {
+      "id": "psi-enhanced-targeting-tl16",
+      "name": "Psi-enhanced Targeting",
+      "tl": 16,
+      "cost": 3000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 177
+      },
+      "category": "tools"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Aerosol",
+      "category": "ammunition",
+      "tl": 7,
+      "range": "—",
+      "damage": "—",
+      "cost": 3,
+      "traits": [
+        "Blast 12"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "aerosol-tl7",
+      "name": "Aerosol",
+      "tl": 7,
+      "cost": 3,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 12"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "APDS",
+      "category": "ammunition",
+      "tl": 5,
+      "range": "+10%",
+      "damage": "-1 per dice",
+      "cost": 5,
+      "traits": [
+        "AP X"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "apds-tl5",
+      "name": "APDS",
+      "tl": 5,
+      "cost": 5,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "-1 per dice",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP X"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: -1 per dice"
+    ]
+  },
+  {
+    "original": {
+      "name": "Armour Piercing",
+      "category": "ammunition",
+      "tl": 4,
+      "range": "—",
+      "damage": "—",
+      "cost": 4,
+      "traits": [
+        "AP X"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "armour-piercing-tl4",
+      "name": "Armour Piercing",
+      "tl": 4,
+      "cost": 4,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP X"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Baton",
+      "category": "ammunition",
+      "tl": 5,
+      "range": "-25%",
+      "damage": "Stun/Regular",
+      "cost": 2,
+      "traits": [
+        "Stun (50%)"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "baton-tl5",
+      "name": "Baton",
+      "tl": 5,
+      "cost": 2,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Stun/Regular",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Stun (50%)"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Stun/Regular"
+    ]
+  },
+  {
+    "original": {
+      "name": "Chemical",
+      "category": "ammunition",
+      "tl": 5,
+      "range": "—",
+      "damage": "Special",
+      "cost": 5,
+      "traits": [
+        "Blast 12"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "chemical-tl5",
+      "name": "Chemical",
+      "tl": 5,
+      "cost": 5,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 12"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Directed Plasma",
+      "category": "ammunition",
+      "tl": 15,
+      "range": "—",
+      "damage": "+1D",
+      "cost": 10,
+      "traits": [
+        "AP x3",
+        "Blast 0"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "directed-plasma-tl15",
+      "name": "Directed Plasma",
+      "tl": 15,
+      "cost": 10,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "+1D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP x3",
+          "Blast 0"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: +1D"
+    ]
+  },
+  {
+    "original": {
+      "name": "Directed Plasma",
+      "category": "ammunition",
+      "tl": 16,
+      "range": "—",
+      "damage": "+1D",
+      "cost": 10,
+      "traits": [
+        "AP x3",
+        "Blast 0"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "directed-plasma-tl16",
+      "name": "Directed Plasma",
+      "tl": 16,
+      "cost": 10,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "+1D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP x3",
+          "Blast 0"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15",
+      "Invalid damage format: +1D"
+    ]
+  },
+  {
+    "original": {
+      "name": "Electromagnetic Pulse",
+      "category": "ammunition",
+      "tl": 9,
+      "range": "—",
+      "damage": "None",
+      "cost": 10,
+      "traits": [
+        "Blast 20"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "electromagnetic-pulse-tl9",
+      "name": "Electromagnetic Pulse",
+      "tl": 9,
+      "cost": 10,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "None",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 20"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: None"
+    ]
+  },
+  {
+    "original": {
+      "name": "Extended Range",
+      "category": "ammunition",
+      "tl": 7,
+      "range": "+25%",
+      "damage": "-1D",
+      "cost": 3,
+      "traits": [],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "extended-range-tl7",
+      "name": "Extended Range",
+      "tl": 7,
+      "cost": 3,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "-1D",
+        "range": "Shotgun",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "pistol"
+    },
+    "errors": [
+      "Invalid damage format: -1D"
+    ]
+  },
+  {
+    "original": {
+      "name": "Flare",
+      "category": "ammunition",
+      "tl": 4,
+      "range": "—",
+      "damage": "None",
+      "cost": 1,
+      "traits": [
+        "Blast 100"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "flare-tl4",
+      "name": "Flare",
+      "tl": 4,
+      "cost": 1,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "None",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 100"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: None"
+    ]
+  },
+  {
+    "original": {
+      "name": "Foam",
+      "category": "ammunition",
+      "tl": 9,
+      "range": "—",
+      "damage": "Special",
+      "cost": 5,
+      "traits": [],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "foam-tl9",
+      "name": "Foam",
+      "tl": 9,
+      "cost": 5,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Foam",
+      "category": "ammunition",
+      "tl": 11,
+      "range": "—",
+      "damage": "Special",
+      "cost": 5,
+      "traits": [],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "foam-tl11",
+      "name": "Foam",
+      "tl": 11,
+      "cost": 5,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": []
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Fuel-air",
+      "category": "ammunition",
+      "tl": 7,
+      "range": "—",
+      "damage": "1DD",
+      "cost": 8,
+      "traits": [
+        "Blast x3"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "fuel-air-tl7",
+      "name": "Fuel-air",
+      "tl": 7,
+      "cost": 8,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast x3"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 1DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Guided",
+      "category": "ammunition",
+      "tl": 7,
+      "range": "—",
+      "damage": "—",
+      "cost": 6,
+      "traits": [
+        "Smart"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "guided-tl7",
+      "name": "Guided",
+      "tl": 7,
+      "cost": 6,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Smart"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Guided",
+      "category": "ammunition",
+      "tl": 10,
+      "range": "—",
+      "damage": "—",
+      "cost": 6,
+      "traits": [
+        "Smart"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "guided-tl10",
+      "name": "Guided",
+      "tl": 10,
+      "cost": 6,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Smart"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "HEAP",
+      "category": "ammunition",
+      "tl": 5,
+      "range": "-25%",
+      "damage": "+1D",
+      "cost": 8,
+      "traits": [
+        "AP Special"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "heap-tl5",
+      "name": "HEAP",
+      "tl": 5,
+      "cost": 8,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "+1D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP Special"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: +1D"
+    ]
+  },
+  {
+    "original": {
+      "name": "Incendiary",
+      "category": "ammunition",
+      "tl": 8,
+      "range": "—",
+      "damage": "—",
+      "cost": 3,
+      "traits": [
+        "Blast X",
+        "Fire"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "incendiary-tl8",
+      "name": "Incendiary",
+      "tl": 8,
+      "cost": 3,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast X",
+          "Fire"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Net",
+      "category": "ammunition",
+      "tl": 8,
+      "range": "-50%",
+      "damage": "Special",
+      "cost": 3,
+      "traits": [
+        "Blast x0.5"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "net-tl8",
+      "name": "Net",
+      "tl": 8,
+      "cost": 3,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast x0.5"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Neurotoxin",
+      "category": "ammunition",
+      "tl": 5,
+      "range": "—",
+      "damage": "Special",
+      "cost": 10,
+      "traits": [
+        "Blast 12"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "neurotoxin-tl5",
+      "name": "Neurotoxin",
+      "tl": 5,
+      "cost": 10,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "Special",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 12"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: Special"
+    ]
+  },
+  {
+    "original": {
+      "name": "Nuclear",
+      "category": "ammunition",
+      "tl": 6,
+      "range": "—",
+      "damage": "6DD",
+      "cost": 20,
+      "traits": [
+        "Blast 500",
+        "Radiation"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "nuclear-tl6",
+      "name": "Nuclear",
+      "tl": 6,
+      "cost": 20,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "6DD",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 500",
+          "Radiation"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: 6DD"
+    ]
+  },
+  {
+    "original": {
+      "name": "Plasma",
+      "category": "ammunition",
+      "tl": 15,
+      "range": "—",
+      "damage": "+1D",
+      "cost": 10,
+      "traits": [
+        "AP x2",
+        "Blast x2"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "plasma-tl15",
+      "name": "Plasma",
+      "tl": 15,
+      "cost": 10,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "+1D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP x2",
+          "Blast x2"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: +1D"
+    ]
+  },
+  {
+    "original": {
+      "name": "Plasma",
+      "category": "ammunition",
+      "tl": 16,
+      "range": "—",
+      "damage": "+1D",
+      "cost": 10,
+      "traits": [
+        "AP x2",
+        "Blast x2"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "plasma-tl16",
+      "name": "Plasma",
+      "tl": 16,
+      "cost": 10,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "+1D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP x2",
+          "Blast x2"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15",
+      "Invalid damage format: +1D"
+    ]
+  },
+  {
+    "original": {
+      "name": "Smoke",
+      "category": "ammunition",
+      "tl": 4,
+      "range": "—",
+      "damage": "None",
+      "cost": 1,
+      "traits": [
+        "Blast 12"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "smoke-tl4",
+      "name": "Smoke",
+      "tl": 4,
+      "cost": 1,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "None",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 12"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: None"
+    ]
+  },
+  {
+    "original": {
+      "name": "Solid Shot",
+      "category": "ammunition",
+      "tl": 5,
+      "range": "-25%",
+      "damage": "—",
+      "cost": 2,
+      "traits": [
+        "AP X"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "solid-shot-tl5",
+      "name": "Solid Shot",
+      "tl": 5,
+      "cost": 2,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "AP X"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "name": "Thermal Smoke",
+      "category": "ammunition",
+      "tl": 7,
+      "range": "—",
+      "damage": "—",
+      "cost": 2,
+      "traits": [
+        "Blast 12"
+      ],
+      "source_page": 180
+    },
+    "normalized": {
+      "id": "thermal-smoke-tl7",
+      "name": "Thermal Smoke",
+      "tl": 7,
+      "cost": 2,
+      "mass": 0,
+      "source": {
+        "book": "CSC",
+        "page": 180
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "—",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Blast 12"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "Invalid damage format: —"
+    ]
+  },
+  {
+    "original": {
+      "category": "armor",
+      "name": "Neural Sheath",
+      "tl": 17,
+      "protection": 0,
+      "rad": 0,
+      "mass": 2,
+      "cost": 80000,
+      "source_page": 19,
+      "traits": [
+        "Additional +20 protection vs. psionics"
+      ]
+    },
+    "normalized": {
+      "id": "neural-sheath-tl17",
+      "name": "Neural Sheath",
+      "tl": 17,
+      "cost": 80000,
+      "mass": 2,
+      "source": {
+        "book": "CSC",
+        "page": 19
+      },
+      "category": "armor",
+      "armor_stats": {
+        "protection": 0,
+        "rad": 0,
+        "traits": []
+      }
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi-Enhanced Combat Armour",
+      "category": "armor",
+      "tl": 16,
+      "protection": 15,
+      "rad": 250,
+      "mass": 10,
+      "cost": 500000,
+      "source_page": 34,
+      "traits": [
+        "Adds half (round down) PSI to Protection score"
+      ]
+    },
+    "normalized": {
+      "id": "psi-enhanced-combat-armour-tl16",
+      "name": "Psi-Enhanced Combat Armour",
+      "tl": 16,
+      "cost": 500000,
+      "mass": 10,
+      "source": {
+        "book": "CSC",
+        "page": 34
+      },
+      "category": "armor",
+      "armor_stats": {
+        "protection": 15,
+        "rad": 250,
+        "traits": []
+      }
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "category": "armor",
+      "name": "Psi-Commando Battle Dress, Advanced",
+      "tl": 16,
+      "protection": 29,
+      "rad": 0,
+      "mass": 110,
+      "cost": 2400000,
+      "source_page": 40,
+      "traits": [
+        "+ ½ PSI"
+      ]
+    },
+    "normalized": {
+      "id": "psi-commando-battle-dress-advanced-tl16",
+      "name": "Psi-Commando Battle Dress, Advanced",
+      "tl": 16,
+      "cost": 2400000,
+      "mass": 110,
+      "source": {
+        "book": "CSC",
+        "page": 40
+      },
+      "category": "armor",
+      "armor_stats": {
+        "protection": 29,
+        "rad": 0,
+        "traits": []
+      }
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi Blade",
+      "category": "weapon",
+      "tl": 16,
+      "range": "Melee",
+      "damage": "2D",
+      "mass": 1,
+      "cost": 30000,
+      "source_page": 136,
+      "traits": [
+        "Special (PSI)"
+      ]
+    },
+    "normalized": {
+      "id": "psi-blade-tl16",
+      "name": "Psi Blade",
+      "tl": 16,
+      "cost": 30000,
+      "mass": 1,
+      "source": {
+        "book": "CSC",
+        "page": 136
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "2D",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Special (PSI)"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  },
+  {
+    "original": {
+      "name": "Psi Dagger",
+      "category": "weapon",
+      "tl": 16,
+      "range": "Melee",
+      "damage": "1D+2",
+      "mass": 0.5,
+      "cost": 25000,
+      "source_page": 136,
+      "traits": [
+        "Special (PSI)"
+      ]
+    },
+    "normalized": {
+      "id": "psi-dagger-tl16",
+      "name": "Psi Dagger",
+      "tl": 16,
+      "cost": 25000,
+      "mass": 0.5,
+      "source": {
+        "book": "CSC",
+        "page": 136
+      },
+      "category": "weapons",
+      "weapon_stats": {
+        "damage": "1D+2",
+        "range": "Melee",
+        "magazine": 0,
+        "magazine_cost": 0,
+        "traits": [
+          "Special (PSI)"
+        ]
+      },
+      "subcategory": "melee"
+    },
+    "errors": [
+      "TL must be a number between 0 and 15"
+    ]
+  }
+]

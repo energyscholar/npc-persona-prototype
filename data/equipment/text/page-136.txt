@@ -1,0 +1,53 @@
+LONG BLADE                                               MONOFILAMENT AXE
+This includes most long-bladed hilt weapons, from the    Originally designed as a rescue tool capable of cutting
+European ‘knightly’ long sword to the Japanese katana.   through crystaliron, the monofilament axe found a niche
+Most such swords are primarily used in one hand but      in cutting through combat amour, making it an effective
+can be wielded two-handed at need.                       close combat tool.
+
+MONOBLADE                                                PISTON SPEAR
+This is a light one-handed polymer blade that            The reinforced shaft of this spear contains a
+features a monofilament edge, a cutting edge just a      compressed air chamber that drives a pneumatic
+few nanometres thick created by spinning a single-       engine. When activated, the spear tip is driven forward
+molecule strand. A monoblade is as sharp as any          under great pressure to punch through the enemy. It
+physical object can be.                                  requires a Minor Action to reset the spear tip after each
+                                                         attack. If this is not done, the weapon is treated as a
+                                                         normal spear (see page 137).
+
+
+WEAPON                     TL        RANGE      DAMAGE      KG       COST            TRAITS
+Arc-Field Weapon           14        Melee      5D+2        4        Cr25000         AP 30
+Assault Pike               5         Melee      4D          8        Cr200           AP 4, Bulky, One Use
+                           8         Melee      4D          5        Cr400           AP 4, One Use
+Battle Axe                 1         Melee      3D          4        Cr225           AP 2, Bulky
+Blade                      1         Melee      2D          1        Cr100           —
+Broadsword                 1         Melee      4D          3        Cr500           Bulky
+Chaindrive Axe             10        Melee      4D          6        Cr600           AP 4, Bulky
+Chaindrive Sword           10        Melee      4D          4        Cr500           AP 2
+Cutlass                    2         Melee      3D          2        Cr200           —
+Dagger                     1         Melee      1D+2        0.5      Cr10            —
+Great Axe                  1         Melee      4D+2        8        Cr750           Smasher, Very Bulky
+Hatchet                    1         Melee      2D+2        2        Cr50            —
+Lance                      1         Melee      5D          4        Cr250           AP 4
+Long Blade                 1         Melee      3D          2        Cr200           —
+                           3         Melee      3D+2        2        Cr300           —
+Monoblade                  12        Melee      3D          1        Cr2500          AP 10
+Monofilament Axe           12        Melee      4D          4        Cr3000          AP 15, Bulky, Smasher
+Piston Spear               7         Melee      3D+2        3        Cr400           AP 2
+Psi Blade                  16        Melee      2D          1        Cr30000         Special (PSI)
+Psi Dagger                 16        Melee      1D+2        0.5      Cr25000         Special (PSI)
+Rapier                     2         Melee      2D          1        Cr200           —
+                                                                                                                      Weaponry
+Spear                      0         Melee      2D          2        Cr10            —
+Static Axe                 11        Melee      4D          5        Cr750           AP 6, Bulky, Smasher
+                           12        Melee      4D+2        4        Cr1000          AP 8, Smasher
+Static Blade               11        Melee      3D          3        Cr700           AP 5
+                           12        Melee      3D+2        2        Cr900           AP 6
+Stealth Dagger             8         Melee      1D+2        0.5      Cr175           —
+Stone Axe                  0         Melee      2D+1        2        Cr5             —
+War Pick                   1         Melee      2D+2        3        Cr275           AP 4
+
+
+
+
+                                                                                                                     135
+

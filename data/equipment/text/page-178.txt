@@ -1,0 +1,61 @@
+SECURE WEAPON                                                SUPPRESSOR
+A secure weapon requires authentication in some              A suppressor can be added to any non-automatic
+fashion (scanning the user’s DNA or iris patterns,           slug thrower, masking the sound produced by firing. A
+entering a password, transmission of an unlocking code       suppressor adds the Silent trait to a weapon.
+from a comm and so on.) before it can be fired. On many
+worlds this option is required for licensed firearm sales.   Item          TL Effect                    Kg Cost
+                                                             Suppressor 8      Adds Silent trait to non- —   Cr250
+Item       TL   Effect                      Kg    Cost                         automatic slug thrower
+Secure 10       Requires authentication     —     Cr250
+Weapon          before firing                                X-RAY OUTLINING AID
+                                                             By adding an outlining element to an existing scope,
+SHOULDER STOCK                                               the user can see exactly where their target lies
+A shoulder stock may be attached temporarily                 behind an obscuring object. So long as the object is
+to a pistol weapon, resulting in a crude carbine             not made of metal, shielded or more than a metre
+arrangement and greater accuracy at longer ranges.           thick, the target may not hide behind it (although it
+The overall length of the pistol is increased by the         will still gain its usual Protection bonus – see page
+length of the stock and the pistol cannot be holstered       78 of the Traveller Core Rulebook for details). The
+while it is attached. Attaching the stock (or detaching      TL11 version is more powerful and can function
+it) requires 1D rounds. A shoulder stock increases           through up to three metres of material.
+the effective and long range of a pistol by +25% but
+does not increase its extreme range. A TL9 version           Item              TL Effect                Kg Cost
+of this stock is a compact, storable, automatically
+                                                             X-Ray Outlining 9      Removes cover       —    Cr300
+telescoping stock which requires one Significant
+                                                             Aid (1m)               DM up to 1m
+Action to attach or detach.
+                                                                                    thick from target
+                                                             X-Ray Outlining 11     +Barrier up to 3m —      Cr500
+Item              TL Effect                 Kg    Cost
+                                                             Aid (3m)               thick
+Shoulder Stock 4         Increase effective 1     Cr75
+                         and long range
+                         by 25%
+Shoulder Stock 9         Increase effective 0.5 Cr500
+(telescoping)            and long range
+                         by 25%
+
+SMART TRACKER
+This is a display option that may be added to any
+intelligent weapon (see page 175), increasing the
+accuracy of a firearm. The smart tracker allows the
+
+
+
+                                                                                                                      Weapon Accessories
+user to ‘tag’ any target they have successfully hit with
+the weapon by spending a Minor Action in the same
+round the weapon has scored a hit. Any tagged target
+fired upon by the weapon in the following round will
+gain DM+2 to attack rolls. A target must be tagged each
+round for the bonus to continue.
+
+Item       TL   Effect                       Kg   Cost
+Smart      11   Allows DM+2 to attack        —    Cr500
+Tracker         rolls ‘tagged’ target
+
+
+
+
+                                                                                                                     177
+

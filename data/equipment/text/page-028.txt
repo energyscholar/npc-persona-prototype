@@ -1,0 +1,58 @@
+PROTECTIVE SUITS
+Some armour comes as a complete suit and is worn with
+a helmet and additional gear such as air tanks. Suits,
+if sealed, offer total protection from gas and airborne
+biological or chemical agents. These suits can be divided
+into four types: civilian suits designed to protect the wearer
+from vacuum or hazardous environments, unpowered
+combat armour designed for protection against weaponry,
+powered civilian or more often military armour designed for
+heavy loads or severe conditions and battle dress, normally
+only available to licensed military operatives.
+
+Protective suits cannot be combined with other
+armour, fitting tightly around the wearer and regulating
+temperature. On the inside, these suits often have
+connectors for medical sensors and waste disposal.
+Additionally, the outer surfaces are covered with sensors,
+equipment and radiative cooling coils. If Travellers desire
+greater protection, they should purchase a modified
+version or upgrade to a more protective suit.
+
+ELECTRONICS SUITE
+Unless otherwise stated, protective suits at TL8 and
+above come equipped with the following electronics
+suite appropriate to their Tech Level. All suites with a
+scope are assumed to have a helmet heads-up display
+(HUD) for all features of the suite. A protective suit built
+and purchased at a higher Tech Level than standard
+will contain an electronics suite suitable for its Tech
+Level of manufacture but only if it is the most advanced
+available version. For instance, a TL12 advanced vacc
+suit manufactured at TL13 will contain include a TL13
+suite and cost the standard Cr20000 but an improved
+vacc suit (normally TL10 at Cr10000) manufactured
+and purchased on a TL13 world would have at best a
+TL11 electronics suite and cost Cr10000.
+
+
+
+
+ TL    Electronics Suite
+ All   Eye Protection, Geiger Counter, Body Camera, Helmet Lights
+ 8     Radio Transceiver (50km)                                                                                           Armour
+ 9     Computer/0, Radio Transceiver (500km)
+ 10    Computer/1, Binoculars, IR Goggles, Radio Transceiver (500km), Scope
+ 11    Computer/1, Binoculars, IR Goggles, Radio Transceiver (500km), Scope
+ 12    Computer/2, Binoculars, IR Goggles, Light Intensifier Goggles, Radio Transceiver (500km), Scope
+ 13    Computer/2, PRIS Binoculars, Radio Transceiver (5,000km), Scope
+ 14    Computer/2, PRIS Binoculars, Radio Transceiver (5,000km), Scope
+ 15    Computer/3, PRIS Binoculars, Radio Transceiver (5,000km), Scope
+ 16+ Bioscanner, Computer/4, PRIS Binoculars, Radio Transceiver (5,000 km), Scope
+The scope feature of the Electronic Suite will apply as a Trait to any weapon held and fired by the wearer of the suit.
+
+
+
+
+                                                                                                                          27
+

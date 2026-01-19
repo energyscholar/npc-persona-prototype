@@ -1,0 +1,60 @@
+FUEL-AIR                                                         NUCLEAR
+A fuel-air round dispenses a cloud of highly flammable           Highly illegal on nearly every world, these warheads
+droplets which are ignited as they mix with air (this will       create a small nuclear explosion wherever they land,
+only function on worlds that have an oxygen component            laying waste to everything nearby. Nuclear rounds are
+to their atmosphere). The resulting airborne explosion has       only available for grenade launchers or other heavy
+been compared to a nuclear detonation. If the weapon             weapons of 40mm or larger calibre at TL13 and above.
+does not have a Blast trait, fuel-air rounds give it Blast 10.
+                                                                 PLASMA
+GUIDED                                                           Plasma warheads are an advanced form of high
+Some warheads can be either guided by the operator               explosive, designed to eliminate both soft and
+or fitted with a self-homing capability. Guided rounds           armoured targets, depending on what weapon they are
+become available for rifles and pistols at TL10. The guided      fired from. Plasma rounds for pistols and rifles become
+modification may be combined with other modifications            available at TL16. If a weapon does not have a Blast
+simply by adding their cost multipliers together.                trait, plasma rounds will give it Blast 3.
+
+HIGH EXPLOSIVE ARMOUR PIERCING (HEAP)                            SMOKE
+High explosive armour piercing rounds use shaped                 Smoke rounds create a thick cloud that disrupts vision.
+charge warheads or similar technologies to penetrate             This imposes DM-2 to all attack rolls on targets within the
+thick armour before detonating inside the target. HEAP           cloud. IR vision completely bypasses this cloud of smoke.
+ammunition provides a weapon with an AP trait equal              Smoke clouds dissipate after 1Dx3 rounds, although
+to double the number of damage dice it rolls, before the         heavy winds and rain can drastically reduce this time.
+bonus dice is added for HEAP ammunition. Destructive
+weapons multiply this by 10.                                     SOLID SHOT
+                                                                 A basic anti-armour round, solid shot is essentially a
+INCENDIARY                                                       pointed projectile of dense or hard material. Solid shot
+Incendiary warheads are designed to set fire to things,          provides a weapon with an AP trait equal to half the number
+causing flammable material nearby to catch fire.                 of damage dice it rolls, rounding up. If the weapon already
+The round’s Blast trait will be equal to the number of           has the AP trait, this is added to the final AP score.
+damage dice of the weapon.
+                                                                 THERMAL SMOKE
+NET                                                              This acts as a smoke round but throws out hot particles
+This round deploys a weighted net at a target but                that block IR vision as well. This imposes DM-2 to
+reduces the weapon’s Range by 50%. A target hit by a             all attacks on targets within the cloud. Smoke clouds
+net does not sustain any damage but is immobilised. The          dissipate after 1Dx3 rounds, although heavy winds and
+target can escape from the net by making a successful            rain can drastically reduce this time.
+Average (8+) DEX check (1D rounds). If multiple targets
+are caught in a net, each must make a separate check
+
+
+
+
+                                                                                                                                Specialised Ammunition
+to escape, with DM+1 for every other target who has
+already escaped. If assisted by someone not trapped,
+the target may add DM+2 to the escape attempt.
+
+NEUROTOXIN
+This round creates a cloud of gas that, if inhaled, will
+likely prove deadly. Any living target within the cloud
+that does not have a respirator or sealed suit will be
+attacked as if by a poison with a Very Difficult (12+)
+END check, Damage 1D INT, and Interval of one round.
+Gas clouds dissipate after 1Dx3 rounds, although
+heavy winds and rain can drastically reduce this time.
+
+
+
+
+                                                                                                                               181
+

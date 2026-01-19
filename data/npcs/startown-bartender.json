@@ -123,7 +123,12 @@
         "Serve drinks",
         "Keep atmosphere welcoming"
       ],
-      "blocks": ["Ignoring customers", "Closing early"]
+      "blocks": [
+        "Ignoring customers",
+        "Closing early"
+      ]
     }
-  ]
+  ],
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

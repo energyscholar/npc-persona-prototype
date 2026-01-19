@@ -1,0 +1,62 @@
+All tasks using prototech devices are subject to the            not be able to make dinner but a failed early prototype
+Skill DM penalty noted in the Prototech Features table.         grav belt or life support system will require immediate
+Early prototypes are especially tricky and require              attention. The complexity and time requirements, plus
+specific knowledge in the operation of the machinery.           any possible additional parts to repair the item, are at
+Individuals cannot avoid a DM-3 penalty for lack of skill       the discretion of the Referee.
+by relying on that benefit from cascade skill effects.
+For instance, a telegraph operator on a TL3 world               All prototypes have at least one quirk. These can be rolled
+with Electronics (comms) skill or Electronics-0 who             on Prototech Quirks table or assigned by the Referee.
+attempts to operate a city block-sized early prototype
+Computer/0 mainframe suffers both the DM-2 and the              RETROTECH
+DM-3 for unskilled task attempts. A sensor operator             Advancing technology can render some items less
+from a more advanced world with Electronics (sensors)           expensive or sizeable. Additional capabilities are
+skill or Electronics-0 would suffer the same cumulative         reflected in more advanced versions through gradation
+DM-5. However, any individual with actual Electronics           or replacement but some items maintain abilities in
+(computers) skill of 1 or more would only be subject to         smaller and/or cheaper versions.
+the early prototype DM-2 penalty.
+                                                                Retrotech applies only to computers and electronic
+Prototech comes from two sources: reverse                       devices. Other items, even without additional features,
+engineering and experimentation. A reverse engineered           are addressed through gradations and/or superseding
+item has the advantage of known intended functionality          higher tech items. At each Tech Level above the listed
+and at least some recovered parts or diagrams. An               optimal Tech Level, computers and electronic devices
+experimental model is the result of someone venturing           are available at half the cost and mass of the basic
+into uncharted waters and, as a result, experimental            model. This reduction is unlimited for computers but
+devices are subject to one additional Quirk.                    limited to three Tech Levels for electronic equipment.
+                                                                Reductions are even more drastic for some portable
+Early prototypes are inherently unreliable. For every           computers – see page 67. Items below 0.25 kilograms
+skill check or after every 24 hours of operation, a             are considered to have negligible mass. Note the
+straight 2D check with a result of 2 or less indicates          retrotech item is considered to have been produced at
+the item has failed and requires repair. This can have          its actual Tech Level; a TL15 Computer/1 will be cheap
+varying effect, a failed early prototype autochef might         and tiny but will require TL15 parts for repair.
+
+
+Prototech Features
+Item                         TL         Mass           Cost          Skill DM      Disadvantages
+Early Prototype              -2         x2 (x100)*     x10 (x100)* -2              Unreliable, 2+ Quirks
+ Prototype                -1        x1 (x10)*     x5 (x10)*    -1           1+ Quirk
+*Computers and electronics are especially sensitive to Tech Level development. Early prototype computers and
+electronics have mass and cost multiplied by 100 and prototypes have mass and cost multiplied by 10.
+
+
+
+
+                                                                                                                              Equipment Availability
+Prototech Quirks
+1D Quirk
+1      Unreliable after prolonged use: After any skill check resulting in 2, or a result of 2 or less on 2D after every
+       24 hours of use, the item becomes unreliable until ‘cooled down’ or repaired. If already unreliable, apply
+       DM-1 to task checks and halve any time interval between periodic failure checks.
+2      Especially massive: Double the item’s mass.
+3      Especially expensive: Double the item’s cost.
+4      Especially difficult to operate or repair: Skill checks suffer an additional DM-1.
+5      Item is ‘noisy’: The item is either very noticeable with DM+2 on Recon or sensor checks to detect, or its
+       operation causes discomfort to the operator and others nearby because of noise, smell or visual effects,
+       causing DM-2 to task checks from all nearby personnel without appropriate sensory protection.
+6      Item is not durable: After one year, the item becomes permanently unreliable. If already unreliable, subtract
+       a further DM-1 to task checks and halve any time interval between failures.
+
+
+
+
+                                                                                                                              11
+

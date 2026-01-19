@@ -1,0 +1,76 @@
+                                                                       T        R      A         V     E       L        L      E       R
+
+
+
+                                                                           JAVELIN
+                                                                           A short spear designed for throwing, a javelin can be
+           ARCHAIC WEAPONS                                                 pressed into service as a footman’s spear but is not
+                                                                           ideal outside of its intended role. A user may substitute
+           All weapons described in this section require the Gun
+                                                                           Athletics (dexterity) skill for Gun Combat (archaic)
+           Combat (archaic) skill to use effectively.
+                                                                           when throwing a javelin and may increase its range and
+                                                                           possibly its damage by using an atlatl.
+           ATLATL
+           An atlatl is not a weapon in itself but a tool that uses
+           leverage to achieve greater velocity and range when
+                                                                           LONG BOW
+                                                                           A long symmetrical or asymmetric bow; this is a
+           throwing a dart or javelin. The atlatl doubles the range
+                                                                           powerful low-tech weapon but requires significant
+           of a dart or javelin and allows the wielder to add both
+                                                                           strength to pull.
+           STR and DEX bonuses to any damage result.
+
+           COMPOUND CAM BOW                                                REPEATING CROSSBOW
+                                                                           This is a weak but quick-firing crossbow, cocked by a
+           This is a short bow made with advanced materials
+                                                                           lever and fed from a magazine of six bolts.
+           and incorporating a pulley device. The compound
+           cam bow is as powerful as a traditional long bow but
+           is much easier to handle.                                       SHORT BOW
+                                                                           A light bow with a weaker pull, the short bow is
+                                                                           primarily a hunting weapon but sees use in combat
+           CROSSBOW                                                        from time-to-time. Short bows are sometimes used
+           A heavy weapon, cocked with a stirrup or windlass
+                                                                           from the back of animals.
+           device, the crossbow is powerful and simple to use. It is
+           slow-firing, however, taking 2D3 Minor Actions to reload.
+
+
+           DART
+           A short, thrown weapon distinguished by its weighted
+           head and fletching, darts are smaller than javelins but                                           Dart
+           heavier than arrows. A user may substitute Athletics
+           (dexterity) skill for Gun Combat (archaic) when throwing
+           a dart and may increase its range and possibly its
+           damage by using an atlatl.
+
+                                                                                                            Atlatl
+                     Javelin
+
+
+
+
+           WEAPON               TL RANGE DAMAGE KG COST MAGAZINE MAGAZINE COST TRAITS
+Weaponry
+
+
+
+
+           Atlatl               0    +100%     —            1    Cr20       —              —                   —
+           Compound Cam         5    100       3D-3         1    Cr250      1              Cr5                 AP 2, Silent
+           Bow
+           Crossbow             1    100       3D-3         3    Cr200      1              Cr1                 AP 2, Silent
+           Dart                 0    50        2D-2         0.5 Cr10        —              —                   One Shot, Silent
+           Javelin              0    25        2D           1    Cr10       —              —                   One Shot, Silent
+           Long Bow             1    100       3D-3         1.5 Cr150       1              Cr1                 AP 2, Bulky, Silent
+           Repeating            2    75        2D           4    Cr400      6              Cr6                 Silent
+           Crossbow
+           Short Bow            0    75        2D-3         1    Cr50       1              Cr1                 Silent
+
+
+
+
+   154
+

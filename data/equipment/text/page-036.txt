@@ -1,0 +1,55 @@
+POWERED SUITS
+There is a class of armoured suit falling between
+unpowered combat armour and the extremely                                                        Ceramic
+advanced battle dress rigs; these are collectively                                               Powered Plate
+called powered suits. Aided by servos, pneumatics and
+counterweight mechanisms, powered suits enhance
+the wearer’s strength at the cost of limited use between
+refuelling or charging. Powered suits, if sealed, offer
+total protection from gas and airborne biological agents
+as well as ample radiation shielding.
+
+While powered and active, the mass of a powered
+suit does not count against the encumbrance of the
+wearer and is effectively weightless. When a powered
+suit is not charged or fuelled, the mass of the suit
+does impair the wearer. Additionally, any STR bonus
+the armour provides is lost and any DEX penalty the
+armour imposes is doubled.
+
+Unless otherwise stated, powered suits come equipped
+with the electronics suite appropriate to their Tech
+Level, as shown on page 27. Most are considered
+Category 4 items; the only exceptions being the simple
+exoskeleton and expensive, difficult to operate extreme
+environment exploration suit.
+
+
+Ceramic Powered Plate: An advanced version of
+powered plate, made of advanced ceramic-metal hybrid
+alloys, this armoured suit has a higher rate of protection
+against lasers, flamethrowers and other heat or fire-
+based attacks. Also, while the suit is running on its 85
+hour power cell (Cr250 to replace), it adds STR+2 to the
+Traveller but inflicts a DEX-2 penalty.
+
+
+
+
+ARMOUR TYPE                            PROTECTION                    TL RAD KG COST             REQUIRED SKILL
+Ceramic Powered Plate                   +16 (+20 vs. fire, lasers,   13   175   35   Cr300000   Vacc Suit 1      Armour
+                                        and energy)
+Exoskeleton, Basic                      +0                           9    —     16   Cr10000    Vacc Suit 0
+Exoskeleton, Improved                   +0                           12   —     10   Cr20000    None
+E3 Suit                                 +16                          14   250   30   Cr500000   Vacc Suit 3
+Grav-Enhanced Powered Plate             +20                          15   220   32   Cr180000   Vacc Suit 0
+Mechanical Carapace, Basic              +8                           9    30    30   Cr25000    Vacc Suit 2
+Mechanical Carapace, Improved           +10                          12   60    25   Cr50000    Vacc Suit 1
+Powered Plate, Basic                    +14                          10   120   40   Cr80000    Vacc Suit 1
+Powered Plate, Improved                 +18                          14   200   30   Cr120000   Vacc Suit 0
+
+
+
+
+                                                                                                                 35
+

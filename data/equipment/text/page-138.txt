@@ -1,0 +1,60 @@
+PSI BLADE                                                  PSI DAGGER
+Used by melee-oriented psions, the psi blade               The psi dagger uses filaments conducting psionic
+incorporates a tightly knit web of complex filaments       energy to channel the raw power of a psion into their
+that conduct psionic energy into the semi-crystalline      attacks. The psi dagger adds the wielder’s PSI DM
+blade. The psi blade adds the wielder’s PSI DM to          to the damage it inflicts, as well as their STR DM.
+the damage it inflicts, as well as their STR DM. It will   Additional PSI points may be spent upon a successful
+also have an AP score equal to five times the PSI DM.      attack to increase the damage further. Each point of
+Additional PSI points may be spent upon a successful       PSI expended in this way increases the damage by +1.
+attack to increase the damage and AP further. Each
+point of PSI expended in this way increases the            RAPIER
+damage by +1 and AP by +5.                                 A duelling foil, often seen as the sword of a noble.
+                                                           Rapiers grant DM+1 when parrying.
+
+                                                           SPEAR
+                                                           A polearm with a pointed tip, usually of metal, a spear
+                                                           can be made from something as basic as a sharpened
+                                                           stick with a fire-hardened end. More advanced versions
+                                                           are based on the same in principle but may have a
+                                                           more durable head, crosspieces to prevent an impaled
+                                                           animal advancing up the shaft and so forth.
+
+                                                           STATIC AXE
+                                                           This is an axe-bladed weapon enhanced by a powerful
+                                                           generator that emits a localised static energy field,
+                                                           weakening molecular bonds as it cleaves into a target.
+                        Psi-Dagger            Stealth      The battery-powered generator will operate for 30
+    Dagger
+                                                           minutes of combat or cutting.
+                                              Dagger
+
+                                                           STATIC BLADE
+         Monoblade                                         This blade is enhanced by a powerful generator that emits
+                                                           a localised static energy field, weakening the molecular
+                                       Static Blade        bonds of the target. The battery-powered generator will
+                                                           operate for 30 minutes of combat or cutting.
+
+                                                           STEALTH DAGGER
+                                                           Also called the invisiknife, this weapon is made from
+                                                           low-density plastic and very hard to detect using
+                                                           standard weapons scanners. Electronics (sensors)
+                                                           checks made to detect this weapon suffer DM-4.
+                                                           This check is subject to TL differential rules but more
+                                                           advanced versions of the stealth dagger are available
+                                                           up to TL12. Stealth daggers are usually banned at Law        Weaponry
+                                                           Level 1 and above.
+
+                                                           STONE AXE
+                                                           A simple weapon constructed by attaching a weight
+                                                           (usually a sharpened rock) to a branch or bone handle.
+
+                                                           WAR PICK
+ Arc-Field                                                 War picks are specifically designed to punch through
+ Weapon                           Psi-Blade                armour and remain reasonably effective against even
+                                                           modern protection.
+
+
+
+
+                                                                                                                       137
+

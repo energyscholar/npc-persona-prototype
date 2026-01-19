@@ -1,0 +1,44 @@
+                                 Club
+
+
+
+
+                                                                                  Mace
+
+
+
+
+            Anti-Armour Flail                      Gravity Hammer
+
+
+
+
+        Stunstick
+
+
+
+                                                                                       Static Maul
+
+
+
+
+            Sap                           Sledgehammer              Staff
+
+
+
+WEAPON                      TL    RANGE   DAMAGE   KG    COST          TRAITS                         Weaponry
+Anti-Armour Flail           8     Melee   4D       3     Cr250         AP 5, One Use
+Club                        0     Melee   2D       2     Cr-           —
+Gravity Hammer              13    Melee   5D       5     Cr10000       AP 50, Bulky, Smasher
+Mace                        1     Melee   2D+2     3     Cr20          Bulky, Smasher
+Sap                         1     Melee   1D       1     Cr30          Stun
+Sledgehammer                1     Melee   4D       8     Cr30          Smasher, Very Bulky
+Staff                       1     Melee   2D       2     Cr5           —
+Static Maul                 11    Melee   3D       3     Cr650         AP 4, Bulky, Smasher
+Stunstick                   8     Melee   2D       0.5   Cr300         Stun
+
+
+
+
+                                                                                                     133
+

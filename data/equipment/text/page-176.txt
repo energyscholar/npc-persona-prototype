@@ -1,0 +1,68 @@
+FOF SAFETY                                                      HIGH-CAPACITY MAGAZINE
+This is an integrated Friend-or-Foe scanner which can           The ability for a weapon to hold more ammunition
+be added to any firearm. The scanner is built directly          before requiring a change in magazine is always
+into the firing mechanism of any trigger-activated              beneficial, especially on high rate-of-fire automatic
+weapon. A transmitting tag is then worn by other                weapons. High-capacity magazines, while bulky in
+personnel, emitting a signal to any FOF safeties it is          use, are designed to solve this problem. Multiply the
+coded for, up to 50 metres away. If the scanner tries           mass and cost of a weapon’s standard magazine to
+to target an object within one metre of a transmitting          purchase a high-capacity version. This will double
+tag, the gun will not fire. To better eliminate friendly fire   the magazine’s capacity of the weapon. The Referee
+incidents and other disloyal behaviour, many corporate          may rule that some weapons (certain shotguns)
+or mercenary militaries use these devices as standard.          cannot use high-capacity magazines.
+Two transmitter tags are included in the purchase of
+the FOF safety and additional transmitter tags can              Item              TL   Effect                 Kg    Cost
+be purchased for Cr25 each. The safety can also be
+                                                                High-capacity 4        Doubles magazine       x2    x3
+integrated with a user’s visual-based Friend or Foe
+                                                                Magazine               capacity
+HUD (see page 176) if present.
+
+ Item          TL Effect                        Kg Cost         HOLOGRAPHIC SIGHTS
+                                                                Holographic sights project an aim point for the user
+ FOF Safety 9        ID and protect tagged    —      Cr250      and automatically compensate for wind, gravity and
+                     friends to 50 m + 2 tags                   other adverse conditions. They grant the Scope trait
+ FOF Tag       9     Additional tag             —    Cr25       plus DM+1 to all attack rolls made against targets 50
+                                                                metres or more away.
+GYROSTABILISER
+Stabilisers can be added to a Bulky weapon, reducing            Item           TL Effect                   Kg Cost
+its recoil and removing the Bulky trait. It will reduce         Holographic 10 Scope + DM+1 to             0.5 Cr2000
+a Very Bulky trait to Bulky. Gyrostabilisers cannot be          Sights         attack rolls beyond
+added to Destructive weapons.                                                  50m
+
+ Item              TL Effect                    Kg Cost         INTELLIGENT WEAPON
+ Gyrostabiliser 9      Negates Bulky trait; 1         Cr500     This adds Computer/0 capability to a weapon, scaling
+                       non-Destructive only                     higher to match the Tech Level of the accessory. This
+                                                                is a prerequisite for the smart tracker which runs on a
+HEAVY TRIPOD                                                    Bandwidth 0 program.
+This is a collapsible mount, allowing individuals to
+use weapons usually intended for vehicles, although             Intelligent
+mobility will be restricted when carrying such weapons          Weapon      TL     Effect                 Kg       Cost
+on foot. Weapons commonly used in this fashion                  Basic        11    Adds Computer/0 to     —        Cr1000
+
+
+
+
+                                                                                                                             Weapon Accessories
+include tac launchers and light autocannons. Any                                   any weapon
+weapon of up to 0.25 tons may be mounted upon a
+                                                                Improved     12    Adds Computer/1 to     —        Cr1000
+tripod. It takes 1D minutes to set up a tripod and make
+                                                                                   any weapon
+the weapon ready for firing.
+                                                                Enhanced     13    Adds Computer/2 to     —        Cr1200
+                                                                                   any weapon
+ Item     TL Effect                             Kg Cost
+                                                                Advanced     15    Adds Computer/3 to     —        Cr2000
+ Heavy 4       Field use of vehicle             5     Cr100
+                                                                                   any weapon
+ Tripod        weapons up to 0.25 tons
+
+
+
+
+            Heavy Tripod                                                                        Holographic Sights
+
+
+
+                                                                                                                            175
+

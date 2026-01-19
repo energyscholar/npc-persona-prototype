@@ -1,0 +1,64 @@
+                                                                            T       R       A       V        E      L       L       E        R
+
+
+                                                                                or greater range do not decrease in size past TL12
+                                                                                because they are limited by the requirements of power
+                 TRANSCEIVER                                                    supplies and antennae.
+                 A transceiver is a stand-alone communications device,
+                 in other words a two-way radio. Unlike a mobile comm,          Laser transceivers require line-of-sight to operate and
+                 which mostly relies on the presence of an established          are often restricted by the curvature of a planet or by
+                 communications network, a transceiver can send and             atmospheric effects. The range listed is required for
+                 receive often over much greater distances directly             reliable surface-to-orbit communications but range in
+                 under its own power. Most transceivers are radio or            open space is only limited by diffraction effects which
+                 laser-based. Meson communicators also exist but are            may allow for communications across interplanetary
+                 generally not easily portable or available publicly.           distances if precise location and tracking information for
+                                                                                both the transmitter and the receiver are well known.
+                 To reach orbital ranges reliably, a transceiver
+                 requires a range of 500 kilometres. With increasing            Laser transceivers decrease in mass and cost like other
+                 Tech Levels, transceivers tend to become both                  electronic devices but the higher Tech Level versions
+                 more powerful and more portable. Any transceiver               noted below have improvements in wavelength and
+                 with negligible mass can be added to another                   data rates. A TL11 transceiver can reach interplanetary
+                 electronic device. At TL8 and above a five kilometre           distances with video-quality data links and a TL13
+                 range transceiver is often included at no                      transceiver can reach further and with more data,
+                 additional cost in most electronic devices.                    limited mostly by accuracy at pointing to a target far
+                 All transceivers at TL10–12 have integral                      beyond a system’s outer planets.
+                 Computer/0 functionality, and all at TL13+
+                 have Computer/1 functionality.                                 Laser
+                                                                                Transceiver (TL)       Range               Kg   Cost
+                 While retrotech price reductions occur for                     TL9                    Regional (500km)    1.5 Cr2500
+                 up to three Tech Levels for all transceivers,
+                 powerful transceivers capable of planetary                     TL11                   Regional (500km)    0.5 Cr1500
+                                                                                TL13                   Regional (500km)    —    Cr500
+
+                 Radio Transceiver (TL)               Range                                        Kg            Cost
+                 TL5                                  Distant (5km)                                20            Cr225
+                 TL5                                  Very Distant (50km)                          70            Cr750
+                 TL5                                  Regional (500km)                             150           Cr1500
+                 TL5                                  Continental (5,000km)                        300           Cr15000
+                 TL5                                  Planetary (50,000km)                         1,000         Cr500000
+                 TL7                                  Distant (5km)                                1             Cr100
+                 TL7                                  Very Distant (50km)                          5             Cr250
+                 TL7                                  Regional (500km)                             10            Cr500
+                 TL7                                  Continental (5,000km)                        20            Cr5000
+Communications
+
+
+
+
+                 TL7                                  Planetary (50,000km)                         200           Cr50000
+                 TL7                                  Interplanetary (500,000km)                   2,000         Cr500000
+                 TL8                                  Distant (5km)                                —             Cr75
+                 TL8                                  Very Distant (50km)                          —             Cr500
+                 TL9                                  Regional (500km)                             —             Cr500
+                 TL9                                  Continental (5,000km)                        —             Cr5000
+                 TL9                                  Planetary (50,000km)                         10            Cr15000
+                 TL9                                  Interplanetary (500,000km)                   20            Cr30000
+                 TL12                                 Continental (5,000km)                        —             Cr500
+                 TL12                                 Planetary (50,000km)                         2             Cr2000
+                 TL12                                 Interplanetary (500,000km)                   5             Cr5000
+
+
+
+
+       64
+

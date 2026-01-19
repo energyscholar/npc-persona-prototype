@@ -156,6 +156,101 @@ test('isDialogueAction detects speech', () => {
   assert.strictEqual(isDialogueAction('I examine the door'), false, '"examine" should not be dialogue');
 });
 
+// TEST O.9: computeGoalUrgency uses npcGoals priority/10 as base
+test('computeGoalUrgency uses npcGoals priority as base', () => {
+  const { createAgmState, computeGoalUrgency } = require('../src/agm-state');
+  const session = { adventureId: 'high-and-dry' };
+  const state = createAgmState(session);
+
+  // Goal with priority 8 should give base urgency of 0.8
+  const goals = [{ status: 'active', priority: 8 }];
+  const urgency = computeGoalUrgency(state, 'test-npc', goals, {});
+
+  assert.ok(urgency >= 0.8, 'Urgency should be at least 0.8 for priority 8 goal');
+  assert.ok(urgency <= 1.0, 'Urgency should not exceed 1.0');
+});
+
+// TEST O.10: determineActiveSpeaker returns single NPC for dialogue action
+test('determineActiveSpeaker returns single NPC when only one present', () => {
+  const { createAgmState, updateSceneContext } = require('../src/agm-state');
+  const { determineActiveSpeaker } = require('../src/agm-npc-bridge');
+
+  const session = { adventureId: 'high-and-dry' };
+  const state = createAgmState(session);
+
+  const scene = {
+    id: 'test-scene',
+    npcs_present: ['minister-greener']  // Only one NPC
+  };
+  updateSceneContext(state, scene, {});
+
+  // Dialogue action with single NPC should return that NPC
+  const result = determineActiveSpeaker(state, 'I say hello', scene);
+  assert.strictEqual(result.speaker, 'npc', 'Should return NPC speaker');
+  assert.strictEqual(result.npcId, 'minister-greener', 'Should return the single NPC');
+});
+
+// TEST O.11: getSceneRole reads scene_role property
+test('getSceneRole reads scene_role property', () => {
+  const { createAgmState, updateSceneContext } = require('../src/agm-state');
+  const session = { adventureId: 'high-and-dry' };
+  const state = createAgmState(session);
+
+  const scene = {
+    id: 'test-scene',
+    npcs_present: ['test-npc'],
+    npc_injection_rules: {
+      'test-npc': { scene_role: 'informant' }
+    }
+  };
+  updateSceneContext(state, scene, {});
+
+  assert.strictEqual(state.npcs['test-npc'].sceneRole, 'informant', 'Should read scene_role property');
+});
+
+// TEST O.12: getNpcPriorities handles informant role
+test('getNpcPriorities handles informant role', () => {
+  const { createAgmState, updateSceneContext } = require('../src/agm-state');
+  const { getNpcPriorities } = require('../src/agm-npc-bridge');
+
+  const session = { adventureId: 'high-and-dry' };
+  const state = createAgmState(session);
+
+  const scene = {
+    id: 'test-scene',
+    npcs_present: ['test-npc'],
+    npc_injection_rules: {
+      'test-npc': { scene_role: 'informant' }
+    }
+  };
+  updateSceneContext(state, scene, {});
+
+  const npc = { id: 'test-npc', goals: [] };
+  const priorities = getNpcPriorities(state, npc, {});
+
+  assert.ok(priorities.some(p => p.includes('Share relevant information')), 'Should include informant directive');
+});
+
+// TEST O.13: createAgmState prefers session.adventureId
+test('createAgmState prefers session.adventureId over adventure.id', () => {
+  const { createAgmState } = require('../src/agm-state');
+
+  // Session with both adventureId and adventure.id
+  const session = {
+    adventureId: 'direct-id',
+    adventure: { id: 'nested-id' }
+  };
+  const state = createAgmState(session);
+
+  assert.strictEqual(state.adventureId, 'direct-id', 'Should prefer session.adventureId');
+
+  // Session with only adventure.id (fallback)
+  const session2 = { adventure: { id: 'nested-id' } };
+  const state2 = createAgmState(session2);
+
+  assert.strictEqual(state2.adventureId, 'nested-id', 'Should fall back to adventure.id');
+});
+
 // Run tests
 async function runTests() {
   console.log('Running AGM orchestration tests...\n');

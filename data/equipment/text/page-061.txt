@@ -1,0 +1,70 @@
+                                                                        T       R         A         V        E      L       L          E      R
+
+
+
+                                                                            NULL SKULL
+                                                                            A dangerous and expensive process to undergo, the
+           NEURAL LINK                                                      Traveller has the majority of the skull’s bone tissue
+           A neural link is a more complex form of neural comm.             replaced with psionic dampening metals. This reduces
+           In addition to providing all the capabilities of a neural        PSI to 0 but inflicts DM-6 upon any psionic skills used
+           comm available at its Tech Level, it allows the computer         directly against them.
+           system access to the Traveller’s nervous system,
+           allowing a connected wafer jack (see page 61) or
+                                                                             Augment          TL Effect                         Cost
+           computer system to grant physical skills in addition to
+           those based on INT or EDU. A Traveller must connect               Null Skull       16 PSI 0 but DM-6 to              MCr1
+           the neural link to a computer system or wafer jack                                    psionic effects
+           containing appropriate Expert software to use the skill.
+                                                                            PERIPHERAL VISION ENHANCEMENT
+           Augment        TL        Effect                 Cost             This augment enhances the depth and acuity of
+           Neural Link    13+ Neural Comm +         Cr30000                 standard, far and mid-peripheral vision. It confers
+                              nervous system access                         DM+1 bonus to Initiative rolls and Recon checks made
+                                                                            to spot unusual or hidden objects.
+
+           NEURAL JACK                                                       Augment                TL    Effect                Cost
+           A combination of wafer jack (see page 61) and neural
+           link (see above), a neural jack can be used with                  Peripheral Vision 10         DM+1 to Initiative Cr50000
+           Expert programs involving both physical and mental                Enhancement                  and Recon checks
+           characteristics. A neural jack matches the capabilities
+           of a neural link and wafer jack of its Tech Level.               PSI-TAPS
+                                                                            These advanced cybernetic augments look like small
+           Augment        TL        Effect                Cost              crystalline windows mounted on either side of the
+           Neural Jack 13+ Neural Link + Wafer            Cr50000           Traveller’s face, just above the temple. A portion of the
+                           Jack/8                                           skull is replaced with extremely durable psi-active crystals,
+                                                                            stimulating the psionic portions of the brain. This augment
+                                                                            adds +2 to the Traveller’s PSI characteristic, to a maximum
+           NERVE-PLUG RESPONSE RIG                                          of 10. A Traveller may have multiple pairs of psi-taps,
+           Similar to the connection used in a neural link, this            creating a circle of crystal augments around their skull.
+           cybernetic suite consists of six ports implanted along
+           the spine. These ports attach to specially-designed
+                                                                             Augment      TL     Effect                       Cost
+           slave-pins added to any suit of powered armour or battle
+           dress. Adding the slave-pin rigs to the suit adds +50%            Psi-taps     16     PSI +2 to a maximum          Cr750000
+           to the cost of the suit. When plugged into the Traveller’s                            of 10
+           ports (when they don the armour), it becomes attuned
+           to their natural nervous reactions and movements.                SHRIEKERBOX
+           Essentially, the Traveller becomes their armour. This            A replacement to the Traveller’s own vocal chords, the
+           grants DM+2 to all DEX-based checks in addition to any           shriekerbox is an electronic magnifier and modulator. The
+           DEX increases provided by the powered armour.                    basic shriekerbox can project the Traveller’s own voice, to
+                                                                            the volume of an electronic megaphone. Also, the Traveller
+Augments
+
+
+
+
+           Augment             TL     Effect             Cost               can create discordant static to unsettle those around them.
+           Nerve-plug          13     DM+2 to all DEX-   Cr225000*          Not usable while the Traveller is speaking, this static feature
+           Response Rig               based checks in                       inflicts DM-1 on all skill checks made by anyone within 15
+                                      the suit                              metres who lacks ear protection. At TL12, an improved
+                                                                            TL12 shriekerbox is also capable of mimicking any voice.
+
+                                                                             Shriekerbox TL         Effect                      Cost
+                                                                             Basic             10   Amplify voice and           Cr8000
+                                                                                                    create static
+                                                                             Improved          12   +Mimic any voice            Cr16000
+
+
+
+
+    60
+

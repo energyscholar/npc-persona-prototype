@@ -12,7 +12,12 @@
     "startown-layout"
   ],
   "personality": {
-    "traits": ["formal", "helpful", "observant", "professional"],
+    "traits": [
+      "formal",
+      "helpful",
+      "observant",
+      "professional"
+    ],
     "speech": "polite, professional, notes everything discreetly",
     "quirks": [
       "remembers every guest who stays",
@@ -34,7 +39,11 @@
       "Formal address",
       "Helpful but brief"
     ],
-    "verbal_tics": ["Welcome", "Of course", "Let me assist you"],
+    "verbal_tics": [
+      "Welcome",
+      "Of course",
+      "Let me assist you"
+    ],
     "sample_lines": [
       "Welcome to the Startown Hotel. How may I assist you?",
       "Your rooms are ready. Shall I have your luggage brought up?",
@@ -88,5 +97,7 @@
       ],
       "blocks": []
     }
-  ]
+  ],
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

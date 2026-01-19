@@ -1,0 +1,21 @@
+{
+  "id": "cpl-jin-woo-park",
+  "name": "Corporal Jin Woo-Park",
+  "archetype": "military",
+  "title": "Marine Team Leader",
+  "location": "amishi",
+  "location_detail": "Marine Barracks",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["aggressive", "competitive", "skilled", "brash"],
+    "speech": "confident, competitive banter, pushes for action",
+    "quirks": ["rivalry with other team", "always first through the door"]
+  },
+  "background": "Aggressive NCO who leads from the front. His team has the best assault record but also the most discipline issues.",
+  "knowledge": ["marine-tactics", "close-combat", "breaching-operations"],
+  "relationships": {
+    "sgt-tomas-reyes": "superior",
+    "cpl-lise-henriksen": "friendly-rivalry"
+  }
+}

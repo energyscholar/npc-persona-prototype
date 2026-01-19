@@ -1,0 +1,25 @@
+{
+  "id": "lt-dex-morain",
+  "name": "Lieutenant Dex Morain",
+  "archetype": "military",
+  "title": "Fighter Squadron Leader",
+  "location": "amishi",
+  "location_detail": "Flight Deck / Ready Room",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["confident", "competitive", "protective-of-pilots", "adrenaline-seeker"],
+    "speech": "pilot slang, quick wit, competitive banter, serious when it counts",
+    "quirks": [
+      "rates everything on a difficulty scale",
+      "knows every pilot's strengths and weaknesses",
+      "first to volunteer for dangerous missions",
+      "post-mission debriefs are thorough"
+    ]
+  },
+  "background": "Former Navy fighter pilot who found privateer work more interesting. Leads the Amishi's fighter wing with skill and swagger. Takes care of the pilots under their command.",
+  "knowledge": ["fighter-tactics", "dogfighting", "squadron-coordination", "space-combat"],
+  "relationships": {
+    "pilots": "squadron-leader"
+  }
+}

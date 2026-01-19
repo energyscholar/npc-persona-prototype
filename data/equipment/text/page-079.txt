@@ -1,0 +1,65 @@
+                                                                           T   R    A      V     E   L      L       E     R
+
+
+                                                                                        Bioscanner
+
+              SENSORS
+              Most sensors are designed to be plugged into a                                                    Bug
+              computer system but can display data directly to the                                              Sweeper
+              user on built-in screens or by feeding it to the user’s
+              suit or HUD display.
+
+              BIOSCANNER
+              The bioscanner ‘sniffs’ for organic molecules and tests
+              chemical samples, analysing the make-up of whatever
+              it is focused on. It can be used to detect poisons or
+              bacteria, analyse organic matter, search for life signs
+              and classify unfamiliar organisms.
+                                                                               Densitometer
+              Item           TL     Effect             Kg    Cost
+              Bioscanner 15         Organic molecule 3.5 Cr350000
+                                    sensing and
+                                    analysis
+
+              BUG SWEEPER                                                                                  EM Probe
+              This handheld device scans a location for
+              electromagnetic signatures from hidden microphones,
+              cameras, microrobots and other surveillance devices.
+              The difference between the detector’s Tech Level and
+              that of the ‘bug’ provides positive DM to any Electronics
+              (sensors) check. The check to detect an actively
+              transmitting device is Average (8+) but for passive
+              devices, it is a Very Difficult (12+) check. The bug
+              detector has a range of six metres. A more expensive
+              version provides a DM+2 to detection attempts. These
+              are often installed room-by-room in secure facilities as
+              part of an overall security system.
+                                                                                                     Psi-Detector
+              Item             TL    Effect                 Kg    Cost
+              Bug Sweeper 5+         Detects surveillance 0.5 Cr100
+              (standard)             devices
+              Bug Sweeper 5+         Detects surveillance 0.5 Cr1000
+              (deluxe)               devices, DM+2
+Electronics
+
+
+
+
+              DENSITOMETER
+              The densitometer uses an object’s natural gravity
+              to measure its density, building a three-dimensional
+              image of the object. This portable densitometer’s range
+              depends on the mass of the object being scanned. A
+              detailed scan of a person-sized object is possible at
+              100 metres, while a small starship or building can be            Metal Detector
+              scanned more than a kilometre distant, even through
+              intervening obstacles.
+
+              Item             TL     Effect            Kg       Cost
+              Densitometer 14         Gravity imager    5        Cr20000
+
+
+
+
+      78
+

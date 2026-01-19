@@ -1,0 +1,1073 @@
+[
+  {
+    "category": "armor",
+    "name": "Ballistic Vest",
+    "tl": 8,
+    "protection": 4,
+    "rad": 0,
+    "mass": 1,
+    "cost": 500,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Ceramic Carapace",
+    "tl": 12,
+    "protection": 10,
+    "rad": 0,
+    "mass": 4,
+    "cost": 12000,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Cloth",
+    "tl": 7,
+    "protection": 5,
+    "rad": 0,
+    "mass": 7,
+    "cost": 250,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Cloth",
+    "tl": 10,
+    "protection": 8,
+    "rad": 0,
+    "mass": 3,
+    "cost": 500,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Cloth Jacket",
+    "tl": 10,
+    "protection": 5,
+    "rad": 0,
+    "mass": 2,
+    "cost": 500,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Cloth Trench Coat",
+    "tl": 10,
+    "protection": 6,
+    "rad": 0,
+    "mass": 4,
+    "cost": 500,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Diplo Vest",
+    "tl": 10,
+    "protection": 3,
+    "rad": 0,
+    "mass": 0,
+    "cost": 250,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Flak Jacket",
+    "tl": 7,
+    "protection": 3,
+    "rad": 0,
+    "mass": 8,
+    "cost": 100,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Flak Jacket",
+    "tl": 8,
+    "protection": 5,
+    "rad": 0,
+    "mass": 6,
+    "cost": 300,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Flak Shell",
+    "tl": 9,
+    "protection": 8,
+    "rad": 0,
+    "mass": 8,
+    "cost": 1000,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Hunter Field Garb",
+    "tl": 12,
+    "protection": 4,
+    "rad": 0,
+    "mass": 3,
+    "cost": 10000,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Jack",
+    "tl": 1,
+    "protection": 1,
+    "rad": 0,
+    "mass": 2,
+    "cost": 50,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Mesh",
+    "tl": 6,
+    "protection": 2,
+    "rad": 0,
+    "mass": 3,
+    "cost": 150,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Personal Energy Shield",
+    "tl": 15,
+    "protection": 12,
+    "rad": 0,
+    "mass": 1,
+    "cost": 320000,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Poly Carapace",
+    "tl": 10,
+    "protection": 10,
+    "rad": 0,
+    "mass": 4,
+    "cost": 10000,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Lightweight Poly Carapace",
+    "tl": 11,
+    "protection": 12,
+    "rad": 0,
+    "mass": 2,
+    "cost": 15000,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Advanced Poly Carapace",
+    "tl": 13,
+    "protection": 16,
+    "rad": 0,
+    "mass": 2,
+    "cost": 35000,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Post-Apocalyptic",
+    "tl": 6,
+    "protection": 4,
+    "rad": 0,
+    "mass": 3,
+    "cost": 150,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Protec Suit",
+    "tl": 9,
+    "protection": 4,
+    "rad": 0,
+    "mass": 1,
+    "cost": 500,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Tactical Riot Armour",
+    "tl": 7,
+    "protection": 4,
+    "rad": 0,
+    "mass": 6,
+    "cost": 600,
+    "source_page": 14
+  },
+  {
+    "category": "armor",
+    "name": "Breastplate",
+    "tl": 1,
+    "protection": 3,
+    "rad": 0,
+    "mass": 5,
+    "cost": 200,
+    "source_page": 18
+  },
+  {
+    "category": "armor",
+    "name": "Full Plate",
+    "tl": 2,
+    "protection": 6,
+    "rad": 0,
+    "mass": 20,
+    "cost": 1000,
+    "source_page": 18
+  },
+  {
+    "category": "armor",
+    "name": "Half-Plate",
+    "tl": 2,
+    "protection": 5,
+    "rad": 0,
+    "mass": 12,
+    "cost": 800,
+    "source_page": 18
+  },
+  {
+    "category": "armor",
+    "name": "Mail Hauberk",
+    "tl": 1,
+    "protection": 4,
+    "rad": 0,
+    "mass": 8,
+    "cost": 500,
+    "source_page": 18
+  },
+  {
+    "name": "Ablat",
+    "tl": 9,
+    "cost": 75,
+    "mass": 2,
+    "source_page": 19,
+    "category": "armor",
+    "protection": 1,
+    "rad": 0
+  },
+  {
+    "name": "Conduit-Bleed",
+    "tl": 14,
+    "cost": 3500,
+    "mass": 8,
+    "source_page": 19,
+    "category": "armor",
+    "protection": 4,
+    "rad": 0
+  },
+  {
+    "name": "Dispersion",
+    "tl": 12,
+    "cost": 2000,
+    "mass": 3,
+    "source_page": 19,
+    "category": "armor",
+    "protection": 2,
+    "rad": 50
+  },
+  {
+    "name": "Fireproof Suit",
+    "tl": 7,
+    "cost": 50,
+    "mass": 1,
+    "source_page": 19,
+    "category": "armor",
+    "protection": 0,
+    "rad": 0
+  },
+  {
+    "name": "Neural Sheath",
+    "tl": 17,
+    "cost": 80000,
+    "mass": 2,
+    "source_page": 19,
+    "category": "armor",
+    "protection": 0,
+    "rad": 0
+  },
+  {
+    "name": "Reflec",
+    "tl": 10,
+    "cost": 1500,
+    "mass": 1,
+    "source_page": 19,
+    "category": "armor",
+    "protection": 0,
+    "rad": 0
+  },
+  {
+    "name": "Emergency Hostile Environment Suit",
+    "category": "armor",
+    "tl": 10,
+    "protection": 4,
+    "rad": 0,
+    "mass": 20,
+    "cost": 9000,
+    "source_page": 29,
+    "effect": "Disposable suit for hazardous environments, good for 6-8 hours with degrading reliability"
+  },
+  {
+    "name": "Emergency Softsuit",
+    "category": "armor",
+    "tl": 10,
+    "protection": 0,
+    "rad": 0,
+    "mass": 10,
+    "cost": 2000,
+    "source_page": 29
+  },
+  {
+    "name": "Environment Suit, Basic",
+    "category": "armor",
+    "tl": 8,
+    "protection": 0,
+    "rad": 0,
+    "mass": 1,
+    "cost": 500,
+    "source_page": 29
+  },
+  {
+    "name": "Environment Suit, Improved",
+    "category": "armor",
+    "tl": 10,
+    "protection": 2,
+    "rad": 20,
+    "mass": 2,
+    "cost": 500,
+    "source_page": 29
+  },
+  {
+    "name": "Explosive Ordnance Disposal Suit",
+    "category": "armor",
+    "tl": 8,
+    "protection": 12,
+    "rad": 0,
+    "mass": 35,
+    "cost": 8000,
+    "source_page": 29
+  },
+  {
+    "name": "HEV Suit, Basic",
+    "category": "armor",
+    "tl": 9,
+    "protection": 8,
+    "rad": 75,
+    "mass": 40,
+    "cost": 24000,
+    "source_page": 29
+  },
+  {
+    "name": "HEV Suit, Improved",
+    "category": "armor",
+    "tl": 10,
+    "protection": 9,
+    "rad": 90,
+    "mass": 30,
+    "cost": 20000,
+    "source_page": 29
+  },
+  {
+    "name": "HEV Suit, Enhanced",
+    "category": "armor",
+    "tl": 11,
+    "protection": 12,
+    "rad": 140,
+    "mass": 30,
+    "cost": 22000,
+    "source_page": 29
+  },
+  {
+    "name": "HEV Suit, Advanced",
+    "category": "armor",
+    "tl": 13,
+    "protection": 14,
+    "rad": 170,
+    "mass": 20,
+    "cost": 40000,
+    "source_page": 29
+  },
+  {
+    "name": "HEV Suit, Superior",
+    "category": "armor",
+    "tl": 14,
+    "protection": 15,
+    "rad": 185,
+    "mass": 10,
+    "cost": 60000,
+    "source_page": 29
+  },
+  {
+    "name": "Pressure Sleeve",
+    "category": "armor",
+    "tl": 10,
+    "protection": 0,
+    "rad": 0,
+    "mass": 0,
+    "cost": 600,
+    "source_page": 29
+  },
+  {
+    "name": "Rescue Suit",
+    "category": "armor",
+    "tl": 12,
+    "protection": 12,
+    "rad": 120,
+    "mass": 22,
+    "cost": 25000,
+    "source_page": 29
+  },
+  {
+    "name": "Shipsuit, Standard",
+    "category": "armor",
+    "tl": 14,
+    "protection": 4,
+    "rad": 60,
+    "mass": 2,
+    "cost": 30000,
+    "source_page": 29
+  },
+  {
+    "name": "Shipsuit, Deluxe",
+    "category": "armor",
+    "tl": 14,
+    "protection": 6,
+    "rad": 75,
+    "mass": 4,
+    "cost": 60000,
+    "source_page": 29
+  },
+  {
+    "name": "Skinsuit",
+    "category": "armor",
+    "tl": 14,
+    "protection": 4,
+    "rad": 20,
+    "mass": 1,
+    "cost": 100000,
+    "source_page": 29
+  },
+  {
+    "name": "Vacc Suit, Basic",
+    "category": "armor",
+    "tl": 8,
+    "protection": 4,
+    "rad": 15,
+    "mass": 28,
+    "cost": 12000,
+    "source_page": 29
+  },
+  {
+    "name": "Vacc Suit, Improved",
+    "category": "armor",
+    "tl": 10,
+    "protection": 8,
+    "rad": 60,
+    "mass": 12,
+    "cost": 10000,
+    "source_page": 29
+  },
+  {
+    "name": "Vacc Suit, Advanced",
+    "category": "armor",
+    "tl": 12,
+    "protection": 10,
+    "rad": 90,
+    "mass": 8,
+    "cost": 20000,
+    "source_page": 29
+  },
+  {
+    "name": "Explosive Ordnance Disposal Suit",
+    "category": "armor",
+    "tl": 9,
+    "cost": 5000,
+    "mass": 25,
+    "source_page": 30,
+    "protection": 4,
+    "rad": 0,
+    "effect": "Halves movement speed, DM-2 to physical actions except manual dexterity"
+  },
+  {
+    "name": "Boarding Vacc Suit, Basic",
+    "category": "armor",
+    "tl": 11,
+    "protection": 11,
+    "rad": 50,
+    "mass": 25,
+    "cost": 18000,
+    "source_page": 34
+  },
+  {
+    "name": "Boarding Vacc Suit, Improved",
+    "category": "armor",
+    "tl": 12,
+    "protection": 13,
+    "rad": 75,
+    "mass": 12,
+    "cost": 24000,
+    "source_page": 34
+  },
+  {
+    "name": "Boarding Vacc Suit, Advanced",
+    "category": "armor",
+    "tl": 13,
+    "protection": 16,
+    "rad": 90,
+    "mass": 12,
+    "cost": 48000,
+    "source_page": 34
+  },
+  {
+    "name": "Ceramic Combat Armour",
+    "category": "armor",
+    "tl": 13,
+    "protection": 12,
+    "rad": 150,
+    "mass": 15,
+    "cost": 90000,
+    "source_page": 34
+  },
+  {
+    "name": "Combat Armour, Basic",
+    "category": "armor",
+    "tl": 10,
+    "protection": 13,
+    "rad": 85,
+    "mass": 20,
+    "cost": 96000,
+    "source_page": 34
+  },
+  {
+    "name": "Combat Armour, Improved",
+    "category": "armor",
+    "tl": 12,
+    "protection": 17,
+    "rad": 145,
+    "mass": 16,
+    "cost": 88000,
+    "source_page": 34
+  },
+  {
+    "name": "Combat Armour, Advanced",
+    "category": "armor",
+    "tl": 14,
+    "protection": 19,
+    "rad": 180,
+    "mass": 12,
+    "cost": 160000,
+    "source_page": 34
+  },
+  {
+    "name": "Combat Environment Suit",
+    "category": "armor",
+    "tl": 10,
+    "protection": 8,
+    "rad": 20,
+    "mass": 4,
+    "cost": 1000,
+    "source_page": 34
+  },
+  {
+    "name": "Psi-Enhanced Combat Armour",
+    "category": "armor",
+    "tl": 16,
+    "protection": 15,
+    "rad": 250,
+    "mass": 10,
+    "cost": 500000,
+    "source_page": 34
+  },
+  {
+    "name": "Ceramic Powered Plate",
+    "category": "armor",
+    "tl": 13,
+    "protection": 16,
+    "rad": 175,
+    "mass": 35,
+    "cost": 300000,
+    "source_page": 36,
+    "effect": "+20 vs. fire, lasers, and energy"
+  },
+  {
+    "name": "Exoskeleton, Basic",
+    "category": "armor",
+    "tl": 9,
+    "protection": 0,
+    "rad": 0,
+    "mass": 16,
+    "cost": 10000,
+    "source_page": 36
+  },
+  {
+    "name": "Exoskeleton, Improved",
+    "category": "armor",
+    "tl": 12,
+    "protection": 0,
+    "rad": 0,
+    "mass": 10,
+    "cost": 20000,
+    "source_page": 36
+  },
+  {
+    "name": "E3 Suit",
+    "category": "armor",
+    "tl": 14,
+    "protection": 16,
+    "rad": 250,
+    "mass": 30,
+    "cost": 500000,
+    "source_page": 36
+  },
+  {
+    "name": "Grav-Enhanced Powered Plate",
+    "category": "armor",
+    "tl": 15,
+    "protection": 20,
+    "rad": 220,
+    "mass": 32,
+    "cost": 180000,
+    "source_page": 36
+  },
+  {
+    "name": "Mechanical Carapace, Basic",
+    "category": "armor",
+    "tl": 9,
+    "protection": 8,
+    "rad": 30,
+    "mass": 30,
+    "cost": 25000,
+    "source_page": 36
+  },
+  {
+    "name": "Mechanical Carapace, Improved",
+    "category": "armor",
+    "tl": 12,
+    "protection": 10,
+    "rad": 60,
+    "mass": 25,
+    "cost": 50000,
+    "source_page": 36
+  },
+  {
+    "name": "Powered Plate, Basic",
+    "category": "armor",
+    "tl": 10,
+    "protection": 14,
+    "rad": 120,
+    "mass": 40,
+    "cost": 80000,
+    "source_page": 36
+  },
+  {
+    "name": "Powered Plate, Improved",
+    "category": "armor",
+    "tl": 14,
+    "protection": 18,
+    "rad": 200,
+    "mass": 30,
+    "cost": 120000,
+    "source_page": 36
+  },
+  {
+    "name": "Grav-Enhanced Powered Plate",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 75,
+    "category": "armor",
+    "protection": 3,
+    "rad": 0,
+    "effect": "Adds STR+3, increases speed by 50%",
+    "source_page": 37
+  },
+  {
+    "name": "Mechanical Carapace",
+    "tl": 10,
+    "cost": 5000,
+    "mass": 50,
+    "category": "armor",
+    "protection": 2,
+    "rad": 0,
+    "effect": "Adds STR+1, DEX-1, 10 hours fuel",
+    "source_page": 37
+  },
+  {
+    "name": "Powered Plate",
+    "tl": 12,
+    "cost": 10000,
+    "mass": 75,
+    "category": "armor",
+    "protection": 3,
+    "rad": 0,
+    "effect": "Adds STR+2, DEX-2, 100-hour power cell",
+    "source_page": 37
+  },
+  {
+    "name": "Powered Plate",
+    "tl": 14,
+    "cost": 25000,
+    "mass": 75,
+    "category": "armor",
+    "protection": 3,
+    "rad": 0,
+    "effect": "Adds STR+3, DEX-1, 200-hour power cell",
+    "source_page": 37
+  },
+  {
+    "category": "armor",
+    "name": "Artillery Battle Dress, Basic",
+    "tl": 13,
+    "protection": 26,
+    "rad": 0,
+    "mass": 180,
+    "cost": 275000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Artillery Battle Dress, Improved",
+    "tl": 14,
+    "protection": 29,
+    "rad": 0,
+    "mass": 180,
+    "cost": 320000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Artillery Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 32,
+    "rad": 0,
+    "mass": 180,
+    "cost": 640000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Assault Battle Dress, Basic",
+    "tl": 13,
+    "protection": 25,
+    "rad": 0,
+    "mass": 140,
+    "cost": 300000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Assault Battle Dress, Improved",
+    "tl": 14,
+    "protection": 28,
+    "rad": 0,
+    "mass": 140,
+    "cost": 330000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Assault Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 31,
+    "rad": 0,
+    "mass": 140,
+    "cost": 660000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Battle Dress, Basic",
+    "tl": 13,
+    "protection": 22,
+    "rad": 0,
+    "mass": 100,
+    "cost": 200000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Battle Dress, Improved",
+    "tl": 14,
+    "protection": 25,
+    "rad": 0,
+    "mass": 100,
+    "cost": 220000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 28,
+    "rad": 0,
+    "mass": 100,
+    "cost": 440000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Ceramic Battle Dress, Basic",
+    "tl": 13,
+    "protection": 22,
+    "rad": 0,
+    "mass": 100,
+    "cost": 400000,
+    "source_page": 40,
+    "traits": [
+      "32 vs fire, lasers, and energy"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Ceramic Battle Dress, Improved",
+    "tl": 14,
+    "protection": 25,
+    "rad": 0,
+    "mass": 100,
+    "cost": 440000,
+    "source_page": 40,
+    "traits": [
+      "35 vs fire, lasers, and energy"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Ceramic Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 28,
+    "rad": 0,
+    "mass": 100,
+    "cost": 880000,
+    "source_page": 40,
+    "traits": [
+      "38 vs fire, lasers, and energy"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Combat Pioneer Battle Dress, Basic",
+    "tl": 13,
+    "protection": 23,
+    "rad": 0,
+    "mass": 120,
+    "cost": 270000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Combat Pioneer Battle Dress, Improved",
+    "tl": 14,
+    "protection": 26,
+    "rad": 0,
+    "mass": 120,
+    "cost": 300000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Combat Pioneer Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 29,
+    "rad": 0,
+    "mass": 120,
+    "cost": 600000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Command Battle Dress, Basic",
+    "tl": 13,
+    "protection": 24,
+    "rad": 0,
+    "mass": 110,
+    "cost": 325000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Command Battle Dress, Improved",
+    "tl": 14,
+    "protection": 27,
+    "rad": 0,
+    "mass": 110,
+    "cost": 350000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Command Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 30,
+    "rad": 0,
+    "mass": 110,
+    "cost": 700000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Logistics Battle Dress, Basic",
+    "tl": 13,
+    "protection": 22,
+    "rad": 0,
+    "mass": 220,
+    "cost": 290000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Logistics Battle Dress, Improved",
+    "tl": 14,
+    "protection": 25,
+    "rad": 0,
+    "mass": 220,
+    "cost": 320000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Logistics Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 28,
+    "rad": 0,
+    "mass": 220,
+    "cost": 640000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Psi-Commando Battle Dress, Basic",
+    "tl": 15,
+    "protection": 26,
+    "rad": 0,
+    "mass": 110,
+    "cost": 1200000,
+    "source_page": 40,
+    "traits": [
+      "½ PSI bonus"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Psi-Commando Battle Dress, Advanced",
+    "tl": 16,
+    "protection": 29,
+    "rad": 0,
+    "mass": 110,
+    "cost": 2400000,
+    "source_page": 40,
+    "traits": [
+      "½ PSI bonus"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Psi-Enhanced Battle Dress, Basic",
+    "tl": 13,
+    "protection": 22,
+    "rad": 0,
+    "mass": 100,
+    "cost": 800000,
+    "source_page": 40,
+    "traits": [
+      "½ PSI bonus"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Psi-Enhanced Battle Dress, Improved",
+    "tl": 14,
+    "protection": 25,
+    "rad": 0,
+    "mass": 100,
+    "cost": 880000,
+    "source_page": 40,
+    "traits": [
+      "½ PSI bonus"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Psi-Enhanced Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 28,
+    "rad": 0,
+    "mass": 100,
+    "cost": 1760000,
+    "source_page": 40,
+    "traits": [
+      "½ PSI bonus"
+    ]
+  },
+  {
+    "category": "armor",
+    "name": "Scout Battle Dress, Basic",
+    "tl": 13,
+    "protection": 20,
+    "rad": 0,
+    "mass": 90,
+    "cost": 270000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Scout Battle Dress, Improved",
+    "tl": 14,
+    "protection": 23,
+    "rad": 0,
+    "mass": 90,
+    "cost": 300000,
+    "source_page": 40
+  },
+  {
+    "category": "armor",
+    "name": "Scout Battle Dress, Advanced",
+    "tl": 15,
+    "protection": 26,
+    "rad": 0,
+    "mass": 90,
+    "cost": 600000,
+    "source_page": 40
+  },
+  {
+    "name": "Subdermal Armour +1",
+    "category": "armor",
+    "tl": 10,
+    "cost": 50000,
+    "mass": 0,
+    "source_page": 55,
+    "protection": 1,
+    "rad": 0
+  },
+  {
+    "name": "Subdermal Armour +3",
+    "category": "armor",
+    "tl": 11,
+    "cost": 100000,
+    "mass": 0,
+    "source_page": 55,
+    "protection": 3,
+    "rad": 0
+  },
+  {
+    "name": "Subdermal Armour +4",
+    "category": "armor",
+    "tl": 12,
+    "cost": 250000,
+    "mass": 0,
+    "source_page": 55,
+    "protection": 4,
+    "rad": 0
+  },
+  {
+    "name": "Subdermal Armour +5",
+    "category": "armor",
+    "tl": 14,
+    "cost": 500000,
+    "mass": 0,
+    "source_page": 55,
+    "protection": 5,
+    "rad": 0
+  }
+]

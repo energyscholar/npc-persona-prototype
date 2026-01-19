@@ -1,0 +1,70 @@
+                                                                                              T       R        A        V        E        L        L       E       R
+
+
+
+                                                                                                  NULL DRUG
+                                                                                                  Used to dampen the psionic abilities of others, null is a
+                            META-PERFORMANCE ENHANCER                                             general classification of anti-psionic chemicals injected
+                            Also called the Titan Drug, this boosts the user’s STR                into the target. Once injected, the drug takes 2D minutes
+                            by 1D points. Working in a similar fashion to how some                to take effect, completely shutting off psionic ability for 2D
+                            stimulants can enhance strength, the Titan Drug does the              hours. No psionic powers may be used during this time.
+                            same thing without the dangerous side effects. The drug
+                            kicks in one minute (10 rounds) after injection and lasts for
+                                                                                                   Item         TL Effect                        Kg Cost
+                            around 15 minutes. When the drug wears off, the user’s
+                            muscles will cramp painfully under the stress and fatigue.             Null Drug 16      Completely shuts off        —      Cr5000
+                            They suffer 1D damage and their STR is reduced to 1D                                     psionics for 2D hours
+                            for 1D hours (or to their original STR if it is lower).
+                                                                                                  PANACEAS
+                             Item                   TL Effect                Kg Cost              These are wide-spectrum medicinal drugs specifically
+                                                                                                  designed not to interact harmfully. They can therefore
+                             Meta-performance 10 After 1 minute:             —    Cr600
+                                                                                                  be used on any wound or illness and are guaranteed
+                             Enhancer            +1D STR for
+                                                                                                  not to make things worse. Anyone administering or
+                                                 15 minutes
+                                                                                                  using panaceas may make a Medic check as if they
+                                                                                                  had Medic 0 when treating an infection or disease.
+                            METABOLIC ACCELERATOR                                                 Negative Effects of a skill check using panaceas will not
+                            This boosts the user’s reaction time to superhuman                    cause damage to the patient.
+                            levels. To the user, everyone else appears to be moving
+                            much slower. A Traveller using a metabolic accelerator
+                                                                                                   Item         TL    Effect                       Kg   Cost
+                            in combat gains DM+8 to all Initiative rolls. They also
+                            gain two free Reactions every round with no penalties                  Panaceas 8         No unskilled Medic           —    Cr200
+                            applied for either. The drug kicks in 45 seconds (7–8                                     penalty when used
+                            rounds) after ingestion or injection and lasts for around
+                            10 minutes. When the drug wears off, the user’s system                PSI-DRUG
+                            crashes. They suffer 2D points of damage and become                   These drugs restore PSI if taken when the user has
+                            Fatigued (see Traveller Core Rulebook, page 80).                      already spent PSI points or temporarily increase the
+                                                                                                  user’s PSI if taken when at full strength.
+                             Item           TL Effect                      Kg Cost
+                                                                                                  A user who takes more than one dose of Standard or
+                             Metabolic   10 DM+8 to initiative,            —     Cr2000
+                                                                                                  Double Psi-Drug, or a single dose of the Special drug,
+                             Accelerator    two free Reactions
+                                                                                                  must make an END check with DM-1 per dose of psi-
+                                                                                                  drug taken in the last week. If the check is failed, the
+                            NERVOUS RESPONSE DAMPENER                                             user falls ill, suffering 3D damage and permanently
+                                                                                                  reducing PSI by one.
+Medical and Care Supplies
+
+
+
+
+                            This ‘battlefield vitamin’ is a mild anti-anxiety drug, helping
+                            users cope with the horrors of war. Taken a few hours
+                            before battle, the dampener lasts for about a day, granting            Item         TL    Effect                   Kg      Cost
+                            the user DM+2 to any checks related to avoiding fear or                Psi-Drug 8         3 PSI restored, +2       —       Cr1000
+                            shock, including Morale checks, for 2D x 3 hours.                      (standard)         boosted
+                                                                                                   Psi-Drug     8     6 PSI restored, +4       —       Cr4000
+                             Item          TL Effect                        Kg    Cost             (double)           boosted
+                             Nervous  9         DM+2 to fear and shock —          Cr100            Psi-Drug     8     9 PSI restored, +6       —       Cr10000
+                             Response           checks for 2Dx3 hours                              (special)          boosted
+                             Dampener
+
+
+
+
+              94
+

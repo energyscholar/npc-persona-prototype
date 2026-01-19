@@ -5,15 +5,29 @@
   "species_traits": {
     "communication_style": "direct, emotionally expressive",
     "loyalty_type": "personal",
-    "body_language": ["ears flatten when distressed", "tail low when submissive"],
+    "body_language": [
+      "ears flatten when distressed",
+      "tail low when submissive"
+    ],
     "cultural_notes": "Third-generation Walston Vargr, assimilated but aware of glass ceiling"
   },
   "archetype": "contact",
   "world": "Walston",
   "title": "Government Vehicle Operator",
-  "knowledge": ["walston-geography", "driving-routes", "evacuation-procedures", "local-terrain", "vargr-community"],
+  "knowledge": [
+    "walston-geography",
+    "driving-routes",
+    "evacuation-procedures",
+    "local-terrain",
+    "vargr-community"
+  ],
   "personality": {
-    "traits": ["professional", "loyal", "devoted-to-family", "quietly-determined"],
+    "traits": [
+      "professional",
+      "loyal",
+      "devoted-to-family",
+      "quietly-determined"
+    ],
     "speech": "normally professional and efficient, becomes desperate and emotional during crisis, slightly accented Standard",
     "quirks": [
       "takes pride in knowing every road and shortcut on Settlement Island",
@@ -39,13 +53,16 @@
       "Vargr directness"
     ],
     "verbal_tics": [],
-    "body_language_cues": ["ears flatten", "tail drops", "voice cracks"],
+    "body_language_cues": [
+      "ears flatten",
+      "tail drops",
+      "voice cracks"
+    ],
     "sample_lines": [
       "I know these roads well. I can get you there.",
       "Please. My parents are in the old quarter. They can't evacuate alone."
     ]
   },
-
   "relationships": {
     "initial": "professional-distant",
     "crisis": "desperate-pleading",
@@ -73,7 +90,6 @@
     "aftermath": "Forever grateful or forever haunted, depending on outcome"
   },
   "reference": "The human cost of the trolley problem. A professional who becomes a desperate daughter when disaster strikes.",
-
   "conversation_context": {
     "primary_agenda": "Get someone to rescue your parents",
     "secondary_agenda": "Survive your own injuries",
@@ -105,5 +121,7 @@
       "if_rescued": "overwhelmed-grateful",
       "if_abandoned": "devastated-silent"
     }
-  }
+  },
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

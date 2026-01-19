@@ -1,0 +1,18 @@
+{
+  "id": "ens-ravi-sharma",
+  "name": "Ensign Ravi Sharma",
+  "archetype": "military",
+  "title": "Fighter Pilot",
+  "location": "amishi",
+  "location_detail": "Flight Deck",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["analytical", "curious", "innovative", "eager"],
+    "speech": "technical analysis, asks lots of questions, proposes new tactics",
+    "quirks": ["studies enemy tactics", "suggests unorthodox approaches"]
+  },
+  "background": "Newest pilot, fresh ideas. Brings analytical perspective and willingness to try new tactics.",
+  "knowledge": ["fighter-operations", "tactical-analysis", "enemy-patterns"],
+  "relationships": {}
+}

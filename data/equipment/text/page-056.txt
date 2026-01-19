@@ -1,0 +1,68 @@
+ Weapon        TL Range Damage Cost                   Traits     At TL11, the combat arm is
+                                                                 constructed from metal and
+ Aslan      9       Melee     1D+1        Cr10000 —              polymer plastics around a
+ Cyber-claw                                                      more efficient mechanical
+                                                                 core. Still larger than a
+                                                                 human arm, this augment is
+                                                                 fully attached to the nervous
+                                                                 and skeletal structure of the
+                                                                 user and is fuelled by the user’s
+                                                                 own biomass energy supply. This
+                                                                 arm is considered to have STR
+                                                                 15, grants Protection +4 to the
+                                                                 arm if directly attacked or used as
+                                                                 a shield. It can be fitted with any
+                                                                 melee or pistol weapon at +10%
+                                                                 more than the weapon’s standard
+                                                                 cost. Any pistol integrated into
+                                                                 the arm will have an
+                                                                 external port for
+                                                                 magazines or
+                                                                 power packs.
+
+                                                                 At TL13, a
+                                                                 slimmer arm is
+                                                                 made almost
+                                                                 completely from
+                                                                 non-ferrous alloys, advanced plastics and super-
+AUTONOMOUS LOCOMOTION RIG (ALR)                                  conductive circuits. This arm is considered to have STR
+A strange but useful augment, the ALR is a series of
+                                                                 18, grants Protection +6 to the arm if directly attacked
+hardwired connections from the spine to the legs tied
+                                                                 or used as a shield and can be fitted with weapons in
+to rudimentary sensors and a dedicated computer. The
+                                                                 the same manner as the TL11 arm.
+Traveller can ‘program’ their legs to carry them to a specific
+location, regardless of their state of consciousness. Tired,
+                                                                 Combat arms can absorb 10 points of damage before
+wounded, drunk or even asleep, the ALR will force the
+Traveller’s legs to walk to the specified location. The ALR
+automatically stops to avoid collisions with dangerous           being destroyed. They require repairs if damaged at 10%
+objects (moving traffic or sheer cliffs).                        of the arm’s initial cost per point of damage. These arms
+                                                                 are standard cybernetic models. Custom cybernetic
+                                                                 arms (and legs and sensory organs) can be designed
+ Augment            TL    Effect                   Cost          using Cyborg rules from the Robot Handbook. These
+ Autonomous     9         Auto-walk to          Cr15000          custom implants may be available from some suppliers
+ Locomotion Rig           specified destination                  but are often special-order items priced at a premium, if
+ (ALR)                                                           available at all.
+
+COMBAT ARM                                                       Combat
+                                                                                                                               Augments
+One of the first combat implants developed, the basic            Arm          TL Effect                              Cost
+cybernetic combat arm is an armoured metallic limb               Basic        8    STR 12, Protection +2             Cr25000
+designed for combat. Noticeably oversized compared to                              shield, melee weapon fitting
+a human arm, this augment grafts to the existing bone
+                                                                 Improved     11   STR 15, Protection +4             Cr50000
+structure of the Traveller and is powered by small power
+                                                                                   shield, melee or pistol fitting
+cells, keeping the arm active for 300 standard hours
+before needing to recharge. The arm has STR 12, grants           Advanced 13 STR 18, Protection +6           Cr75000
+Protection +2 to the arm if it is directly attacked or if used               shield, melee or pistol fitting
+as a shield. It can be fitted with any melee weapon at
++10% more than the weapon’s standard cost.
+
+
+
+
+                                                                                                                               55
+

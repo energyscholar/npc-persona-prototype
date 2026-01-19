@@ -1,0 +1,65 @@
+Law Level worlds, however they will need to take            localities place additional restrictions on felons. While
+care to avoid discovery or feel the full weight of the      these items are not technically illegal, a Traveller in an
+system’s law – both for possession of illegal items and     unusual position may be forced to use less than legal
+purchasing them in an illegal fashion.                      methods to obtain them and the black market is only
+                                                            too happy to oblige.
+The black market of any world can be accessed using
+the Availability rules covered previously but with four     Price: x2
+additional complications:                                   Examples: All melee weapons (cutlasses, daggers,
+• Only Streetwise checks may be used for availability       batons, shock batons and so forth), non-lethal firearms
+    on the black market, never Broker.                      (stunners) and bows and other archaic weapons.
+• Additional modifiers are imposed on the check,
+    dependent on Law Level and item sought.                 CATEGORY 2: CIVILIAN USE
+• The item purchased will be much more expensive            These items are usually legal but require residents
+    than if purchased legally.                              to demonstrate the ‘capability of safe use’, either by
+• A negative Effect of -2 or worse on the Streetwise        owning a permit or by undertaking accreditation and
+    check will result in attention from law enforcement.    safety training. No actual skill or reason for purchase
+                                                            is required but visitors from other worlds may find the
+The modifiers used on Availability checks using the         bureaucratic requirements for legal ownership time-
+black market are listed on the Black Market table.          consuming or necessitating local knowledge, forcing
+                                                            them to the black market.
+Black Market
+Circumstance                           DM                   Price: x3
+Law Level 0                            +2                   Examples: Revolvers and most other pistols,
+                                                            semi-automatic rifles, shotguns and similar non-
+Law Level 1–3                          +1                   military weapons.
+Law Level 4–6                          +0
+Law Level 7–9                          -1                   CATEGORY 3: PARAMILITARY USE
+Law Level 10+                          -2                   To legally own this sort of item (if the world’s Law
+Category 1 Item                        +4                   Level permits it), Travellers must show they can use it
+                                                            responsibly and safely (possessing skill levels relevant
+Category 2 Item                        +2                   to its use is usually sufficient) and must demonstrate
+Category 3 Item                        +0                   ‘suitable need’. The latter is usually covered by
+Category 4 Item                        -2                   occupations such as shipboard security operative, skip
+Category 5 Item                        -4                   tracer, bodyguard and so on.
+
+Prohibited Item                        -6                   Price: x5
+                                                            Examples: Light automatic weapons (autorifles,
+As seen on the Black Market table, there are                assault rifles, submachine guns and so on), specialised
+
+
+
+
+                                                                                                                         Equipment Availability
+five categories of items (and one classification of         ammunition, laser weapons, cloth armour and flak jackets.
+‘prohibited’) that dictate how easy or hard they are to
+find. They also dictate the price a Traveller using the
+black market is going to pay.                               CATEGORY 4: MILITARY USE
+                                                            These items are similar to those in category 3 but
+Examples are given for each category but, ultimately,       restrictions are tighter, usually requiring service as an
+it is up to Referees to decide how an item is viewed by     accredited mercenary or similar.
+any given world in their universe. The descriptions for
+each category are also useful for determining if the item   Price: x10
+is available by legal means.                                Examples: Gauss weapons, advanced combat rifles,
+                                                            support weapons (such as grenade launchers and
+                                                            machineguns), military-grade electronics (such as
+CATEGORY 1: UNRESTRICTED                                    sensors), electronic warfare equipment, combat armour
+So long as the item is legal in a star system, even         and light military combat vehicles (including armoured
+someone convicted of weapons-related crime can              cars and personnel carriers).
+usually own it without interference, although some
+
+
+
+
+                                                                                                                         5
+

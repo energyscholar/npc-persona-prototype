@@ -1,0 +1,70 @@
+                                                                    T      R        A       V       E       L       L       E      R
+
+
+
+                                                                        BLUDGEONING WEAPONS
+                                                                        All weapons described in this section require the Melee
+                                                                        (bludgeon) skill to use effectively.
+
+            IMPROVISED WEAPONS                                          ANTI-ARMOUR FLAIL
+           Improvised weapons attack as whatever weapon                 This weapon has a short shaft on which is mounted
+           they are most similar to (such as a dagger, club             a chain with an attached explosive warhead. When
+           or garrotte) except the user suffers DM-1 to attack          swung, the warhead detaches, adheres to the target
+           rolls and -1 to each damage dice. At any Tech                with instant glue, then detonates after a pre-set delay
+           Level, an improvised weapon becomes unusable                 (between 1 and 12 rounds).
+           after any attack roll with Effect -3 or less.
+                                                                        CLUB
+                                                                        The first weapon emerging sophonts usually discover.
+                                                                        Clubs can range from a length of heavy wood to
+                                                                        extending riot batons of advanced polymers but they
+                                                                        remain a popular and practical weapon regardless.
+
+            FINELY MADE WEAPONS                                         GRAVITY HAMMER
+           A Traveller may not be satisfied with the                    The basic concept of the gravity hammer’s use
+           quality of mass-produced weapons. Superior                   (smash stuff) hides a truly sophisticated weapon that
+           workmanship can produce enhanced designs                     has become known as the epitome of bludgeoning
+           but these products are hard to come by and                   weaponry. Inside the super-dense head of the hammer
+           are only available at a considerable premium.                is a small gravitic generator that twists and multiplies
+           These weapons could be either limited run and/               the effective kinetic force the weapon creates when
+           or premium commercial models, or custom                      swung. The slight gyroscopic pull of the gravity hammer
+           versions built by a highly skilled weaponsmith.              does make it difficult to control mid-swing, creating an
+                                                                        additional amount of weight to compensate for. When
+           A Referee may choose to allow the purchase                   using the gravity hammer against any target smaller
+           of finely made weapons and set an Availability               than a vehicle, attack rolls suffer DM-6.
+           DM. A finely made weapon can have one of the
+           following advantages:
+           • Accurate: This weapon provides DM+1 to
+                                                                        MACE
+                                                                        A mace is a one-handed weapon sometimes carried
+                attack rolls.
+                                                                        as a sidearm by low-technology troops. It consists of a
+           • Deadly: When determining damage from
+                                                                        heavy crushing head on a short haft.
+                this weapon all dice which roll a 1 or 2 are
+                treated as a 3.
+           • Long Range: The Range of this weapon is                    SAP
+                increased by 50%.                                       Consisting of a fabric bag containing a heavy weight,
+                                                                        such as lead shot, the sap is intended to knock an
+                                                                        opponent unconscious rather than kill. However, it
+           Each of these advantages increases the cost of the           requires a degree of stealth as the sap loses the Stun
+           weapon by 2D3 times standard costs. The Referee
+Weaponry
+
+
+
+
+                                                                        trait if the target is aware of the attacker.
+           may allow weapons with more than one advantage
+           but the cost for each additional feature is multiplied
+           by the others. For example, the Referee may allow            SLEDGEHAMMER
+           a Traveller to search for and purchase a three-              In primitive cultures, this weapon may be called a
+           premium-feature ‘unicorn gun’ but on average this            heavy mace but it effectively remains a heavy lump of
+           weapon will cost 64 times standard price and will            metal atop a long shaft that can utterly destroy almost
+           almost certainly be a custom model with limited              anything it is swung against.
+           availability of spare parts.
+
+
+
+
+   132
+

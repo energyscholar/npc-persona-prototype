@@ -1,0 +1,77 @@
+SPECIALISED COMPUTER                                     AGENT
+                                                         Agent software packages provide computers with a
+A computer can be designed for a specific purpose
+                                                         degree of intelligence and the ability to autonomously
+with a hardware-implemented Intelligent Interface or
+                                                         carry out tasks assigned to them which require the
+Intellect program optimised for an Expert skill. These
+                                                         use of Electronics (computers). For example, an
+specialised computers are available at TL8 and above.
+                                                         Agent package might be told to hack into an enemy
+Specialised computers allow all computer bandwidth
+                                                         computer system and steal a particular data file. Agent
+to be available for the Expert skill package, which is
+                                                         is effectively a specialised combination of Expert
+purchased separately. Specialised computers cannot
+                                                         Electronics (computers) and a single-purpose Intellect
+be reprogrammed to accept a new Expert skill package.
+                                                         software package. An Agent package requires no other
+                                                         interface packages and can use the full bandwidth
+Specialised computers with Intelligent Interface allow
+                                                         of a computer to complete its tasks. As with Expert
+a skilled individual to gain DM+1 on relevant tasks
+                                                         packages, Agent software provides DM+1 when used
+and costs five times the standard cost of a general
+                                                         in conjunction with a Traveller’s Electronics (computers)
+computer of equal bandwidth.
+                                                         skill rather than autonomously.
+The specialised computer with Intellect allows
+unskilled individuals to instruct the computer to        Software            Bandwidth         TL    Cost
+accomplish a task and report results. It is initially    Agent/0             0                 11    Cr500
+available at TL9 and costs 10 times the standard cost    Agent/1             1                 12    Cr2000
+of a general computer of equal bandwidth.
+                                                         Agent/2             2                 13    Cr100000
+Specialised Computer             TL   Cost               Agent/3             3                 14    Cr250000
+Intelligent Interface            8    x5
+Intellect                        9    x10
+                                                         DATABASE
+                                                         A database is stored information on a topic that can be
+                                                         searched with an Electronics (computers) check or using
+
+SOFTWARE PACKAGES                                        an Agent. Bandwidth is not necessary to store the data
+                                                         but an interface package is required to access it. The
+The most sophisticated computer in the galaxy is         database can be stored on the computer or a data wafer.
+little more than a power-consuming collection of
+circuits without a software package to make use of
+                                                         Software            Bandwidth          TL    cost
+its processing power. The huge variety of software
+available allows computers to become the most flexible   Database            —                  7     Cr10–10000
+device a Traveller can own.
+                                                         DECRYPTOR
+                                                         Decryptor software packages allow a comms operator to
+                                                         analyse intercepted transmissions and decrypt them in
+
+
+
+
+                                                                                                                       Computers and software
+                                                         real-time. This requires a Very Difficult (12+) Electronics
+                                                         (comms) check but DM+1 is granted for every Tech Level
+                                                         the transmitting computer or comms device is below
+                                                         the intercepting computer’s software. A further DM+2 is
+                                                         granted if 1D hours is spent analysing the transmission.
+                                                         Furthermore, Decryptor packages are only available
+                                                         at the Tech Level specified and are unable to decrypt
+                                                         transmissions from devices of a higher Tech Level.
+
+                                                         Software            Bandwidth          TL    Cost
+                                                         Decryptor/1         1                  10    Cr5000
+                                                         Decryptor/2         2                  12    Cr10000
+                                                         Decryptor/3         3                  14    Cr20000
+                                                         Decryptor/4         4                  16    Cr50000
+
+
+
+
+                                                                                                                       69
+

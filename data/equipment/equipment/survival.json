@@ -1,0 +1,360 @@
+[
+  {
+    "id": "environment-reader-tl8",
+    "name": "Environment Reader",
+    "tl": 8,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 23
+    },
+    "category": "survival"
+  },
+  {
+    "id": "environment-suit-tl8",
+    "name": "Environment Suit",
+    "tl": 8,
+    "cost": 1000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 30
+    },
+    "category": "survival"
+  },
+  {
+    "id": "extreme-environment-exploration-e3-suit-tl12",
+    "name": "Extreme Environment Exploration (E3) Suit",
+    "tl": 12,
+    "cost": 50000,
+    "mass": 100,
+    "source": {
+      "book": "CSC",
+      "page": 37
+    },
+    "category": "survival"
+  },
+  {
+    "id": "environment-protection-corrosive-tl13",
+    "name": "Environment Protection (Corrosive)",
+    "tl": 13,
+    "cost": 40000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 46
+    },
+    "category": "survival"
+  },
+  {
+    "id": "environment-protection-insidious-tl13",
+    "name": "Environment Protection (Insidious)",
+    "tl": 13,
+    "cost": 150000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 46
+    },
+    "category": "survival"
+  },
+  {
+    "id": "environment-replicator-tl8",
+    "name": "Environment Replicator",
+    "tl": 8,
+    "cost": 2000,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 83
+    },
+    "category": "survival"
+  },
+  {
+    "id": "breather-mask-basic-tl5",
+    "name": "Breather Mask Basic",
+    "tl": 5,
+    "cost": 150,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 99
+    },
+    "category": "survival"
+  },
+  {
+    "id": "breather-mask-improved-tl10",
+    "name": "Breather Mask Improved",
+    "tl": 10,
+    "cost": 2000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 99
+    },
+    "category": "survival"
+  },
+  {
+    "id": "environment-mask-tl5",
+    "name": "Environment Mask",
+    "tl": 5,
+    "cost": 200,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 99
+    },
+    "category": "survival"
+  },
+  {
+    "id": "face-mask-tl4",
+    "name": "Face Mask",
+    "tl": 4,
+    "cost": 20,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "survival"
+  },
+  {
+    "id": "filter-mask-basic-tl3",
+    "name": "Filter Mask Basic",
+    "tl": 3,
+    "cost": 10,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "survival"
+  },
+  {
+    "id": "filter-mask-improved-tl10",
+    "name": "Filter Mask Improved",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "survival"
+  },
+  {
+    "id": "life-support-mask-tl7",
+    "name": "Life Support Mask",
+    "tl": 7,
+    "cost": 1000,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "survival"
+  },
+  {
+    "id": "oxygen-air-tanks-tl5",
+    "name": "Oxygen/Air Tanks",
+    "tl": 5,
+    "cost": 500,
+    "mass": 12,
+    "source": {
+      "book": "CSC",
+      "page": 100
+    },
+    "category": "survival"
+  },
+  {
+    "id": "respirator-basic-tl5",
+    "name": "Respirator Basic",
+    "tl": 5,
+    "cost": 100,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 101
+    },
+    "category": "survival"
+  },
+  {
+    "id": "respirator-improved-tl10",
+    "name": "Respirator Improved",
+    "tl": 10,
+    "cost": 1000,
+    "mass": 0,
+    "source": {
+      "book": "CSC",
+      "page": 101
+    },
+    "category": "survival"
+  },
+  {
+    "id": "canteen-tl3",
+    "name": "Canteen",
+    "tl": 3,
+    "cost": 10,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 105
+    },
+    "category": "survival"
+  },
+  {
+    "id": "survival-kit-tl5",
+    "name": "Survival Kit",
+    "tl": 5,
+    "cost": 50,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "survival",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "survival-kit-tl10",
+    "name": "Survival Kit",
+    "tl": 10,
+    "cost": 100,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "survival",
+    "has_variants": true,
+    "variant_count": 2
+  },
+  {
+    "id": "survival-meal-tl1",
+    "name": "Survival Meal",
+    "tl": 1,
+    "cost": 1,
+    "mass": 1,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "survival",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "survival-meal-tl5",
+    "name": "Survival Meal",
+    "tl": 5,
+    "cost": 5,
+    "mass": 0.5,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "survival",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "survival-meal-tl10",
+    "name": "Survival Meal",
+    "tl": 10,
+    "cost": 10,
+    "mass": 0.25,
+    "source": {
+      "book": "CSC",
+      "page": 110
+    },
+    "category": "survival",
+    "has_variants": true,
+    "variant_count": 3
+  },
+  {
+    "id": "survival-still-basic-tl9",
+    "name": "Survival Still Basic",
+    "tl": 9,
+    "cost": 1000,
+    "mass": 3,
+    "source": {
+      "book": "CSC",
+      "page": 111
+    },
+    "category": "survival"
+  },
+  {
+    "id": "survival-still-improved-tl11",
+    "name": "Survival Still Improved",
+    "tl": 11,
+    "cost": 2500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 111
+    },
+    "category": "survival"
+  },
+  {
+    "id": "survival-still-advanced-tl13",
+    "name": "Survival Still Advanced",
+    "tl": 13,
+    "cost": 4500,
+    "mass": 2,
+    "source": {
+      "book": "CSC",
+      "page": 111
+    },
+    "category": "survival"
+  },
+  {
+    "id": "tent-basic-tl3",
+    "name": "Tent Basic",
+    "tl": 3,
+    "cost": 200,
+    "mass": 6,
+    "source": {
+      "book": "CSC",
+      "page": 125
+    },
+    "category": "survival"
+  },
+  {
+    "id": "tent-improved-tl7",
+    "name": "Tent Improved",
+    "tl": 7,
+    "cost": 2000,
+    "mass": 5,
+    "source": {
+      "book": "CSC",
+      "page": 125
+    },
+    "category": "survival"
+  },
+  {
+    "id": "tent-barracks-basic-tl6",
+    "name": "Tent Barracks Basic",
+    "tl": 6,
+    "cost": 500,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 125
+    },
+    "category": "survival"
+  },
+  {
+    "id": "tent-barracks-improved-tl8",
+    "name": "Tent Barracks Improved",
+    "tl": 8,
+    "cost": 5000,
+    "mass": 10,
+    "source": {
+      "book": "CSC",
+      "page": 125
+    },
+    "category": "survival"
+  }
+]

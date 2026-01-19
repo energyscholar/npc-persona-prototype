@@ -1,0 +1,68 @@
+                                                                      T   R     A        V      E       L    L    E   R
+
+
+
+
+                                                                                                Boarding Shield
+           SHIELDS
+           A Traveller using a standard shield increases their
+           effective Melee skill by +1 when parrying. A Traveller
+           with no Melee skill counts as having Melee 0 when
+           using a shield to parry. If used as a weapon instead,
+           they require the Melee (bludgeon) skill.
+
+           BOARDING SHIELD
+           Used by shipboard security personnel and law
+           enforcement special-response teams, the boarding
+           shield is a large movable obstacle. It cannot be used
+           to parry but instead provides the wielder with cover
+           (Protection +8, see page 77 of the Traveller Core
+           Rulebook for the effects of cover). Most boarding
+           shields have a vision slit or firing port in the front
+           surface. A boarding shield completely protects anyone
+           hiding behind it and is large enough for two people
+           to benefit from it simultaneously or to move it forward                       Buckler
+           while remaining covered.
+
+           BUCKLER
+           A small wood and metal shield held in the hand and
+                                                                                             Expandable Shield
+           used to parry incoming blows. A buckler requires skill
+           to use effectively. It acts as a shield but does not
+           grant an effective Melee 0 if the wielder has no skill
+           in Melee to begin with.
+
+           EXPANDABLE SHIELD
+           An expandable shield deploys from a bracer on the
+           wearer’s forearm. Using morphable materials, it
+           expands on voice or electronic command to become
+           any size from a buckler to a boarding shield, providing
+           Protection +8 as cover but it is lightweight enough to
+           not be considered bulky in that role.
+
+           GRAVITIC SHIELD
+           Worn as an armband or bracer, when activated the
+           gravitic shield projects a flat, shimmering energy field                 Gravitic Shield
+           that deflects incoming attacks and functions in the
+Weaponry
+
+
+
+
+           same way as a normal shield.
+
+
+           WEAPON                          TL      RANGE       DAMAGE     KG    COST            TRAITS
+           Boarding Shield                 9       Melee       1D         5     Cr1500          Bulky
+           Buckler                         1       Melee       1D         1     Cr10            —
+           Expandable Shield               12      Melee       1D         1     Cr2500          —
+           Gravitic Shield                 17      Melee       1D         —     Cr2500          —
+           Large Shield                    1       Melee       —          5     Cr200           —
+           Riot Shield                     6       Melee       1D         1.5   Cr175           —
+           Shield                          0       Melee       1D         2     Cr150           —
+
+
+
+
+   140
+

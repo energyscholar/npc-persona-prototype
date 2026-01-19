@@ -13,7 +13,7 @@ const fs = require('fs');
  */
 function createAgmState(session) {
   return {
-    adventureId: session.adventure?.id || 'unknown',
+    adventureId: session.adventureId || session.adventure?.id || 'unknown',
     scene: {
       id: null,
       objectives: [],
@@ -69,7 +69,7 @@ function updateSceneContext(agmState, scene, storyState) {
  */
 function getSceneRole(scene, npcId) {
   if (scene.npc_injection_rules && scene.npc_injection_rules[npcId]) {
-    return scene.npc_injection_rules[npcId].demeanor || 'present';
+    return scene.npc_injection_rules[npcId].scene_role || 'present';
   }
   return 'present';
 }
@@ -78,16 +78,22 @@ function getSceneRole(scene, npcId) {
  * Compute goal urgency for an NPC
  * @param {Object} agmState - AGM state
  * @param {string} npcId - NPC ID
- * @param {string[]} npcGoals - NPC's goals
+ * @param {Object[]} npcGoals - NPC's goals array
  * @param {Object} storyState - Story state
  * @returns {number} Urgency value 0.0-1.0
  */
 function computeGoalUrgency(agmState, npcId, npcGoals, storyState) {
-  let baseUrgency = 0.5;
+  // Find active goal with highest priority
+  const activeGoal = (npcGoals || [])
+    .filter(g => g.status === 'active')
+    .sort((a, b) => (b.priority || 0) - (a.priority || 0))[0];
+
+  // Base urgency from goal priority (priority/10, default 0.5)
+  let baseUrgency = activeGoal ? (activeGoal.priority || 5) / 10 : 0.5;
 
   // Increase urgency for crisis situations
   if (storyState?.flags?.volcano_active) {
-    baseUrgency += 0.3;
+    baseUrgency += 0.2;
   }
 
   // NPC-specific urgency modifiers

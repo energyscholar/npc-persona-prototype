@@ -1,0 +1,66 @@
+                                                                             T   R    A      V    E       L        L   E   R
+
+
+
+                                                                                                      Respirator
+                RADIATION SUIT
+                An NBC suit will protect the Traveller against
+                contamination from irradiated particles such as
+                dust but offers little or no protection against direct
+                radiation such as solar flares or a reactor breach. A
+                vacc suit will offer some protection but for areas of
+                hard radiation a dedicated radiation suit is required,
+                reducing exposure by 100 rads. Radiation suits
+                become more protective at higher Tech Levels, adding
+                10 rads of protection for each TL above 6.
+
+                Radiation suits do not protect against vacuum or
+                underwater environments but include the capabilities of an
+                environment suit (see page 29) and can accommodate life
+                support masks, oxygen tanks and rebreathers.
+
+                Item         TL Effect                       Kg Cost
+                Radiation 6       Protects against 100 rads 10     Cr5000
+                Suit              (+10 per TL above 6)
+
+                REBREATHER
+                The rebreather is a bulky backpack containing
+                breathable atmospheric tanks and face mask that
+                collect exhaled gases and ‘scrub’ them into breathable
+                air. A rebreather provides six hours of breathable               Radiation Suit
+                atmosphere and can be used in any environment that
+                is not otherwise harmful, such as being underwater.
+                At each TL above 6, the rebreather can sustain life for
+                another hour. If a user remains motionless or practices
+                minimal exertion, the rebreather may be able to sustain
+                life up to twice its rated duration.
+
+                Item          TL Effect                       Kg Cost
+                Rebreather 6       Mask/backpack              10   Cr250
+                                   providing 6 (or TL)
+                                   hours air
+
+                RESPIRATOR
+Survival gear
+
+
+
+
+                This mask concentrates inhaled oxygen, allowing a user
+                to breathe in worlds with Very Thin (3) Atmospheres.
+                Respirators take the form of a face mask or mouthpiece
+                initially. More advanced respirators are small enough to
+                fit into the nose or can even be a lung implant.
+
+                Respirator TL Effect                         Kg Cost
+                Basic         5    Protection against        —     Cr100
+                                   Very Thin (3)
+                                   atmospheres                                                           Rebreather
+                Improved      10 Nose plug or lung           —     Cr1000
+                                 implant
+
+
+
+
+     100
+

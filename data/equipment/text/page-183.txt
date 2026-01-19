@@ -1,0 +1,61 @@
+      INDEX
+      Accelerator Rifle		 145
+      Adhesive Bandages		        88
+                                       Bayonet			174
+                                       Bed				81
+                                                                       Climbing Kit			
+                                                                       Clothing Consultant		
+                                                                                                   115
+                                                                                                   81
+      Advanced Base			           122   Big Game Rifle			         146   Club				132
+      Advanced Combat Rifle		    145   Binoculars			 73                Coach Pistol			             142
+      Advanced Desert Suit		     102   Bio-fusion Power Port		   51    Cockpit Sensory Suite		     58
+      Advanced Life Support		    44    Bioreaction Chamber		     88    Cold Light Lantern		 74
+      Aerosol				157                   Bioscanner			 78                Combat Arm			               55
+      Aerospace Defence Laser    168   Bipod				174                    Combat Drug			              93
+      Air Rifle				146                 Black Powder Cannon		     168   Combat Engineering Tool Set 125
+      Alien Cosplay Kit		 80           Black Powder Mortar		     164   Commdot			 62
+      Anagathics			 92                 Blade				134                    Complex Chemical Charge     159
+      Anti-Air Missile			        172   Boarding Shield			        140   Compound Cam Bow		          154
+      Anti-Armour Flail		 132          Body Camera			            20    Computer Terminal/Interface 67
+      Anti-Materiel Rifle		 160        Body Pistol			 142              Computer Weave		 21
+      Antimatter Battery		 116         Bolas				155                    Coolant Rig			              21
+      Anti-Missile System		      44    Bolt Thrower			           172   Crossbow			 154
+      Antique Pistol			          142   Bomb				172                     Cryo Rifle			 151
+      Antique Rifle			           146   Bombardment Gun		 164           Cryoberth			 89
+      Anti-rad				92                   Bombardment Missile		     172   Cryojet				160
+      Anti-Tank Missile		 172          Bombardment Rocket Rack   172   Cutlass				134
+      Arc-field Weapon		 134           Boomerang			              155   Cutting Torch			            126
+      Artificial Gill			         112   Brass Knuckles			         138   Dagger				134
+      Artillery Weapons		 164          Breaching Charge		 159          Dart				154
+      Aslan Cyber-claw		 54            Breather Mask			          98    Data Display/Recorder		     68
+      Assault Pike			            134   Broadsword			             134   Data Wafer			 68
+      Assault Pistol			          142   Buckler				140                  Database			 69
+      Assault Rifle			           146   Bug Sweeper			            78    Deep-Diving Suit		 112
+      Assault Rocket Launcher    160   Bug				62                       Demolition Gun			           164
+      Assault Shotgun		146             Bulkhead Patches		 120          Densitometer			             78
+      Atlatl				154                    Cannon 			168                   Desert Kit			 102
+      Atmospheric Diving Suit    112   Canteen			 104                  Digital Friend			           70
+      Auto Helmet			             20    Cardiotrigger Detonator		 51    Directed Plasma		 180
+      Auto Protect Kit 		20            Carpentry Tool Set		 125        Disguise Kit			             81
+      Autobar				80                    Cartridge Laser Carbine		 151   Disguise Net			             82
+      Autocannon			              168   Cartridge Laser Rifle		   151   Disposable Plasma Launcher 160
+      Autochef			 80                   Cartridge Pistol			       142   Distress Flare			           105
+      Autodoc			88                     CPPG				160                     Dive Suit			 112
+      Autolaundry			             80    Chaindrive Axe			         134   Duck’s Foot Pistol		 142
+      Automedikit			             20    Chaindrive Bayonet		      174   Duct Tape			 105
+      Autopistol			 142                Chaindrive Sword		 134          Early Machinegun		 160
+      Autorifle			146                  ChainSaw			 125                 Earthquake Bomb		 172
+      Auxiliary Grenade Launcher 174   Chameleon, Full Motion		  21    Electric Welding Kit		 126
+      Backpack			 104                  Chameleon, IR			          21    Electronic Binoculars		     74
+      Ballistic Tracking Lenses  58    Chameleon, Vislight		     21    Electronic Tool Set		 126
+      Bandolier			 174                 Chemical Lightstick		 105       Electronics Suite		 27
+      Baton				180                     Chemi-view Goggles		      74    EM Probe			 79
+      Battle Axe			 134                Claw Glove			             138   Environment Mask		 98
+      Battle Dress 			           38    Climbing Hoist			         115   Environment Reader		        22
+
+
+
+
+182
+

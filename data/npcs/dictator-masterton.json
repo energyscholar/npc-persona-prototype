@@ -4,9 +4,22 @@
   "archetype": "official",
   "world": "Walston",
   "title": "Planetary Ruler, Walston",
-  "knowledge": ["walston-government", "crisis-response", "local-resources", "population-centers", "walston-history", "vargr-policy"],
+  "knowledge": [
+    "walston-government",
+    "crisis-response",
+    "local-resources",
+    "population-centers",
+    "walston-history",
+    "vargr-policy"
+  ],
   "personality": {
-    "traits": ["decisive", "practical", "authoritative", "cares-for-his-people", "burden-of-command"],
+    "traits": [
+      "decisive",
+      "practical",
+      "authoritative",
+      "cares-for-his-people",
+      "burden-of-command"
+    ],
     "speech": "clipped military-style, gives orders not suggestions, occasionally shows strain under pressure, becomes warmer when expressing gratitude",
     "quirks": [
       "doesn't meet with offworlders under normal circumstances",
@@ -40,7 +53,6 @@
     "I make no excuses. We did what we could. Sometimes that's not enough."
   ],
   "reference": "Benevolent dictator who takes his responsibilities seriously. Think a military commander who genuinely cares about his troops.",
-
   "conversation_context": {
     "primary_agenda": "Save as many citizens as possible",
     "secondary_agenda": "Get accurate information about the volcano",
@@ -73,5 +85,7 @@
       "after_success": "grateful-respectful",
       "after_failure": "disappointed-formal"
     }
-  }
+  },
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

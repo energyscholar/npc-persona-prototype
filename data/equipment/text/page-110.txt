@@ -1,0 +1,61 @@
+ROPE                                                         SURVIVAL MEAL
+This is a 10-metre-long strong but light rope or cable       A pre-packaged storable meal that comes in a variety
+made from natural or artificial fibres, able to hold 150     of flavours. An adult human requires two a day for long-
+kilograms before breaking. At TL9, rope is completely        term survival but high levels of activity such as all-day
+synthetic and chemically adjusted to bear much heavier       hiking, swimming or cold conditions may increase the
+loads, holding up to 250 kilograms before breaking. At       requirement to four or more. These are designed for
+TL13, the rope is based on rapidly-restructuring protein     long-term storage and lack water, requiring hydration
+coats of viruses, a bio-engineered colony of proteins that   to be palatable. The improved version is a variety of
+is incredibly strong, holding up to 500 kilograms before     ready-to-eat meals in paper or plastic packaging. The
+breaking. Longer ropes are available at a linear increase    advanced version of this meal is a dense synthetic
+in cost and mass but ropes longer than 50 metres often       blend of nutrients available as an energy bar or as a
+include a spool which adds 10% to the mass.                  tube of pudding power.
+
+Rope         TL Effect                        Kg Cost        Survival Meal TL       Effect                Kg     Cost
+Basic        5       10 metre rope, 150kg     5     Cr20     Basic             1    Pre-packed            1      Cr1
+                     load                                                           storable meal, 2+
+Improved     9       10 metre rope, 250kg     3     Cr50                            per day required
+                     load                                    Improved          5    Pre-packed            0.5    Cr5
+Advanced 13 10 metre rope, 500kg              2     Cr100                           storable meal, 2+
+            load                                                                    per day required
+                                                             Advanced          10   Pre-packed            0.25 Cr10
+SLEEPING BAG                                                                        storable meal, 2+
+A warm, lightweight and somewhat waterproof personal                                per day required
+sleeping bag. Two or more can be fastened together to
+make a larger enclosure.                                     SURVIVAL STILL
+                                                             A survival still, oftentimes referred to as a ‘Glop Maker’,
+Item        TL       Effect                    Kg    Cost    is a compact wilderness nutrition processor designed to
+                                                             turn compatible organic matter into a just-about-edible
+Sleeping 5           Sleeping bag, moderate    1     Cr25
+                                                             nutrient product informally known as ‘glop’. The exact
+Bag                  weather protection
+                                                             composition depends upon what is put into the still and
+                                                             in some cases vital nutrients will be missing.
+SURVIVAL KIT
+A small backpack or belt pack containing personal            The still’s readout advises the Traveller as to how
+survival equipment. Contents include: small knife,           nutritional the glop will be but even the highest
+fire-starting equipment, blanket/poncho, four days           technology cannot make it taste any better. Most
+of preserved rations, water bottle, compass, light           consumers carry syrupy flavours to add to the substance
+cord/string, mirror, water purification tablets, survival    but these will eventually run out. Glop output can be
+manual. Higher-tech versions include more advanced           customised as dry jaw-busting bars for portability or
+equipment but basic functionality is the same.               as a damp and fairly disgusting porridge for immediate
+                                                             consumption. The still can also be set to produce pure
+
+                                                                                                                            Survival gear
+Survival Kit TL Effect                        Kg Cost        water, with or without a high mineral content.
+Basic            5     See above for contents 5     Cr50
+                                                             A survival still unfolds from its compact storage
+Improved         10 Lighter materials and     3     Cr100    configuration to include a hopper intake for fluids or
+                    rations                                  organic matter, a press for crushing or granulising
+                                                             organic material and a container with a set of durable
+   Survival Kit                                              filters and catalysts which are the ‘guts’ of the still.
+                                                             Output is stored in expandable bags with taps available
+                                                             for water or porridge extraction. The still can be hand
+                                                             crank-operated to press the organic materials into the
+                                                             still or can run from a portable power source.
+
+
+
+
+                                                                                                                           109
+

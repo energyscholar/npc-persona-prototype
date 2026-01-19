@@ -1,0 +1,18 @@
+{
+  "id": "ens-petra-valis",
+  "name": "Ensign Petra Valis",
+  "archetype": "military",
+  "title": "Fighter Pilot",
+  "location": "amishi",
+  "location_detail": "Flight Deck",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["aggressive", "confident", "hot-headed", "loyal"],
+    "speech": "direct, competitive, quick to argue, quicker to defend friends",
+    "quirks": ["pushes her fighter to limits", "never backs down from a challenge"]
+  },
+  "background": "Natural pilot with more aggression than caution. Gets results but gives her flight lead gray hairs.",
+  "knowledge": ["fighter-operations", "aggressive-tactics", "close-quarters-combat"],
+  "relationships": {}
+}

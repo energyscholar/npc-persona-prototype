@@ -1,0 +1,67 @@
+                                                                      T   R       A      V      E       L       L      E   R
+
+
+
+
+        CUTTING TORCH
+        A basic cutting tool using incandescent gas fed by a                                                Chainsaw
+        heavy canister. Cutting torches are effective against
+        most metals and alloys but will not work on starship hulls
+        or armoured vehicles constructed at TL10 or higher. The
+        improved cutting torch will cut through materials below
+        TL14; those constructed of bonded superdense at TL14
+        and above require laser cutters or drills.
+
+        Cutting Torch TL Effect                      Kg Cost                                      Cutting Torch
+        Basic               5    Cuts through       3      Cr500
+                                 metals constructed
+                                 at < TL10
+        Improved            10 Cuts through       2        Cr5000
+                               metals constructed
+                               at < TL14
+
+        ELECTRIC WELDING KIT
+        A basic arc welding kit useful for many light applications.
+        It is self-powered from batteries but requires an external
+        power source for big jobs. Arc welding gear is really
+        only useful on devices built prior to TL10. The advanced
+        welding kit is necessary for work on materials of TL10 or
+        higher, otherwise weld points become a serious area of
+        weakness and in some cases will not ‘take’ at all.                               Electric Welding Kit
+
+        Electric
+        Welding Kit TL Effect                        Kg Cost
+                                                                          Electronic Tool set
+        Basic           5       Welding metal parts 6     Cr1500
+                                constructed at < TL9
+        Improved        10 Welding metal parts   3        Cr5000
+                           constructed at > TL10
+
+        ELECTRONIC TOOL SET
+        Necessary tools for basic electronic assembly and repair
+        including instruments, meters, soldering gear and so on.
+
+        Item         TL     Effect                  Kg    Cost
+        Electronic 7        Tools for electronic    2     Cr2000
+Tools
+
+
+
+
+        Tool Set            assembly and repair
+
+        EXCAVATION TOOL SET
+        A set of basic digging tools; shovels, picks and                      Excavation Tool set
+        sledgehammers to equip two to three people. Working
+        with improvised tools instead of these will increase the
+        time taken for any excavation task by at least four times.
+
+        Item           TL Effect                        Kg Cost
+        Excavation 3         Digging and tunnel       12     Cr30
+        Tool Set             equipment for 2–3 people
+
+
+
+
+  126
+

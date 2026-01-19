@@ -1,0 +1,65 @@
+HOLOGRAPHIC DISPLAY                                       HOLOGRAPHIC PROJECTOR
+A Holographic display is a smaller version of a           A holographic projector is a briefcase-sized box that,
+holographic projector. The display will create a three-   when activated, creates a three-dimensional image in
+dimensional image in the space above it, to a range       the space around it, to a range of three metres. When
+of about 30 centimetres. These displays are often         first introduced, the projected images are obviously not
+integrated into other devices, especially by TL12 when    real and most often used for communication purposes.
+their mass becomes negligible. The properties of the      A holographic projector can be connected to any
+holograms produced by the display are detailed in the     computer, comm unit or transceiver of TL9 or more. The
+holographic projector description.                        improved version produces images realistic enough to
+                                                          fool anyone who fails an INT check, enhanced versions
+Holographic                                               create true-to-life images, although they lack actual
+Display         TL Effect                 Kg Cost         substance or smell. Advanced projectors are small
+                                                          enough to be installed as just another integral port on a
+Basic           9    Translucent          2    Cr800
+                                                          hand-held electronic device.
+                     moving holograph
+Improved        11   Realistic moving     1    Cr1000
+                                                          Holographic
+                     holograph
+                                                          Projector   TL Effect                        Kg Cost
+Enhanced        12   True-to-life moving —     Cr1000
+                                                          Basic           9        Translucent      6           Cr1000
+                     holograph
+                                                                                   moving holograph
+                                                          Improved        11       Realistic moving    3        Cr2000
+                                                                                   holograph
+                                                          Enhanced        12       True-to-life     1           Cr10000
+                                                                                   moving holograph
+                                                          Advanced        14       Small form-factor   —        Cr25000
+
+                                                          MOBILE COMM
+                                                          A mobile comm unit is a portable telecommunications
+                                                          device/computer/camera, ranging in size from a bulky
+                                                          handset to a slim watch or pen-like cylinder – in today’s
+                                                          world we call them mobile phones or cell phones.
+                                                          Larger comms have physical controls and screens,
+                                                          while smaller units either project data and control
+                                                          displays onto nearby surfaces, have fold-out plastic
+                                                          screens or connect to cybernetics. Comms have only
+                                                          short-range transmission and reception capabilities
+                                                          – typically five kilometres – but most technologically
+                                                          advanced worlds have planetwide comm networks,
+  Holographic Display                                     allowing the user to send messages and access data
+                                                          anywhere. At higher Tech Levels, mobile comms
+
+
+                                                                                                                          Communications
+                                                          merge entirely with portable computers (see page
+                                                          67); a mobile comm of TL10 or greater will have the
+                                                          equivalent computing power of a portable computer
+                                                          available two Tech Levels earlier.
+
+                                                          Mobile Comm         TL Effect                    Kg    Cost
+                                                          Basic               6      Audio-only            —     Cr50
+                                                          Improved            8      Audio and visual, —         Cr150
+                                                                                     Computer/0
+                                                          Advanced            10     Multiple forms of —         Cr500
+                                                                                     data, Computer/1
+   Mobile Comm
+
+
+
+
+                                                                                                                          63
+

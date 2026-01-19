@@ -1,0 +1,64 @@
+GOGGLES/SHADES                                                  Item               TL Effect                 Kg Cost
+Sunglasses or full goggles designed to protect the eyes         Hydro-collector 11 Collects drinking         8     Cr1000
+from bright light. At TL7, reactive lenses are available                           water from the
+allowing the wearer to keep their shades on while                                  atmosphere
+moving from dark to light conditions. At TL9, they include
+automatic protection against very bright light such as
+lasers, flares or nuclear detonations. The shades remain        HYDRO-RECLAMATION SUIT
+dark for a full minute after protecting the wearer in this      This complete coverage bodysuit is designed to recycle
+way and must be removed to regain sight.                        all of a body’s fluids and wastes back into usable
+                                                                materials in order to survive much longer in a desert or
+                                                                other arid environment. Like its predecessors, the suit
+Goggles/
+                                                                is reflectorised to reduce the heating effect of the sun,
+Shades         TL Effect                       Kg Cost
+                                                                acting as a TL11 or greater advanced desert suit. It
+Basic          5    Protection from glare      —     Cr20       covers the entire body, enclosing all orifices and inserting
+                    and bright light                            several ‘replenishment’ tubes. Wearing an empty suit can
+Improved       7    +Reactive lenses           —     Cr20       effectively allow the Traveller to go up to 30 days without
+ Advanced      9    +Protection from lasers, —       Cr200      needing water and 15 days without food before needing to
+                    flares, nuclear flashes                     have its internal scrubbers and injectors cleaned.
+
+                                                                Item                 TL Effect             Kg Cost
+HEATPROOF SUIT                                                  Hydro-           11       Advanced       6       Cr10000
+A reflective and insulating suit and helmet, the heatproof      Reclamation Suit          desert suit +
+suit protects the wearer from all but the most extreme                                    reclaims water
+temperature conditions. The suit is rather clumsy and all                                 (30 days) and
+DEX-based checks suffer DM-2. It may be treated as a                                      waste for food
+fireproof suit (see page 18) against flame weapons and                                    (15 days)
+as ablat armour (see page 19 ) against lasers. The suit
+will fully protect a wearer from very hot desert conditions
+and limit damage from temperatures up to 200°C to 1D                               Advanced Desert Suit
+per hour and up to 500°C to 1D per minute (see page 82
+of the Traveller Core Rulebook).
+                                                                                                     Heatproof Suit
+Item         TL Effect                         Kg Cost
+Heatproof 8        Acts as fireproof suit and 6      Cr100
+Suit               ablat armour, protection
+                   from extreme heat (1
+                   per hour to 200°C, 1 per
+                   minute to 500°C
+
+HYDRO-COLLECTOR
+
+                                                                                                                                Survival gear
+An oval-shaped bowl sitting atop a wide-footed tripod
+nearly a metre tall when extended, the hydro-collector
+uses tiny electromagnetic pulses to draw moisture out of
+the air and collect it as drinkable water. One eight-hour
+collection session will provide an amount of drinking water
+depending on the average local atmospheric humidity. In
+arid areas this will produce three litres or enough water for
+one person-day. In temperate areas, nine litres. In moist
+or humid areas, 15 litres. The device is solar powered and
+recharges while it is collecting, in most cases.
+
+
+
+
+                                                                             Hydro-Reclamation Suit
+
+
+
+                                                                                                                               103
+

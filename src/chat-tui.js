@@ -61,6 +61,7 @@ const {
 const {
   displayMainMenu,
   displayPickerMenu,
+  displayCampaignMenu,
   displayFlagMenu,
   displayContactHistory,
   displayTestModeStatus,
@@ -90,31 +91,6 @@ const {
   createSessionFromState
 } = require('./contact-history');
 
-// Training session infrastructure for NPC persona validation
-const {
-  SCENARIOS,
-  listScenarios,
-  getScenario,
-  parseTrainingCommand,
-  applyScenarioToState
-} = require('./training-scenarios');
-const {
-  saveResult: saveTrainingResult,
-  getHistory: getTrainingHistory,
-  getNpcSummary: getTrainingSummary
-} = require('./training-log');
-
-// Red team validation for NPC fact-checking
-const {
-  runRedTeamValidation: executeRedTeamValidation,
-  initializeRedTeam,
-  getCoverageSummary,
-  queryEngine: { TIER, executeCriticalQueriesForNpc, getCriticalQueriesForNpc },
-  validator: { formatValidationReport, quickValidate, getValidationSummary, clearValidationCache },
-  learner: { runLearningForReport, applyPendingPatch, listBackups, restoreFromBackup },
-  learningLog: { loadPendingLearning, getRecentLearning, getLearningStats, formatLearningLog, formatStats }
-} = require('./red-team');
-
 const fs = require('fs');
 const path = require('path');
 
@@ -139,6 +115,17 @@ const TUI_CONFIG = {
 
 // Paths
 const CONVERSATIONS_DIR = path.join(__dirname, '../data/conversations');
+const CAMPAIGNS_PATH = path.join(__dirname, '../data/campaigns/campaigns.json');
+
+/**
+ * Load campaigns from campaigns.json
+ * @returns {Object[]} Array of campaign objects with id and name
+ */
+function loadCampaigns() {
+  if (!fs.existsSync(CAMPAIGNS_PATH)) return [];
+  const data = JSON.parse(fs.readFileSync(CAMPAIGNS_PATH, 'utf8'));
+  return Object.values(data);
+}
 
 // Parse arguments
 const args = process.argv.slice(2);
@@ -772,19 +759,36 @@ function promptSelection(rl, prompt, options) {
  * @param {Object} client - API client
  */
 async function runNpcTestMode(rl, client) {
-  const selectedWorld = 'Walston'; // Default to High and Dry world
+  // Step 0: Select Campaign
+  const campaigns = loadCampaigns();
+  if (campaigns.length === 0) {
+    console.log('  No campaigns configured.');
+    return 'back';
+  }
 
-  // Step 1: Select NPC
-  const npcOptions = getNpcOptions(selectedWorld);
-  console.log('\n' + displayPickerMenu('SELECT NPC TO TEST', npcOptions, 'Back to Main Menu'));
+  console.log('\n' + displayCampaignMenu(campaigns));
+  const campaignAnswer = await promptInput(rl, '\nSelect campaign: ');
+
+  if (campaignAnswer.toLowerCase() === 'b') return 'back';
+
+  const campaignNum = parseInt(campaignAnswer);
+  if (isNaN(campaignNum) || campaignNum < 1 || campaignNum > campaigns.length) {
+    console.log('  Invalid selection.');
+    return 'back';
+  }
+  const selectedCampaign = campaigns[campaignNum - 1];
+
+  // Step 1: Select NPC (filtered by campaign)
+  const npcOptions = getNpcOptions(null, selectedCampaign.id);
+  console.log('\n' + displayPickerMenu(`SELECT NPC TO TEST\n  Campaign: ${selectedCampaign.name}`, npcOptions, 'Back to Campaign Selection'));
   const npcAnswer = await promptInput(rl, '\nSelect NPC: ');
 
-  if (npcAnswer.toLowerCase() === 'b') return 'back';
+  if (npcAnswer.toLowerCase() === 'b') return runNpcTestMode(rl, client);
 
   const npcNum = parseInt(npcAnswer);
   if (isNaN(npcNum) || npcNum < 1 || npcNum > npcOptions.length) {
     console.log('  Invalid selection.');
-    return 'back';
+    return runNpcTestMode(rl, client);
   }
   const selectedNpc = npcOptions[npcNum - 1];
   const npc = loadPersona(selectedNpc.id);
@@ -803,8 +807,8 @@ async function runNpcTestMode(rl, client) {
   }
   const selectedChannel = channelOptions[channelNum - 1].id;
 
-  // Step 3: Select Context
-  const contextOptions = getContextOptions();
+  // Step 3: Select Context (location-aware for Tuesday campaign)
+  const contextOptions = getContextOptions(selectedNpc.id, selectedCampaign.id);
   console.log('\n' + displayPickerMenu(`SCENE CONTEXT\n  NPC: ${npc.name}\n  Channel: ${CHANNELS[selectedChannel].label}`, contextOptions, 'Back to Channel Selection'));
   const contextAnswer = await promptInput(rl, '\nSelect context: ');
 
@@ -815,8 +819,16 @@ async function runNpcTestMode(rl, client) {
     console.log('  Invalid selection.');
     return runNpcTestMode(rl, client);
   }
-  const selectedContext = contextOptions[contextNum - 1].id;
-  const contextPreset = CONTEXT_PRESETS[selectedContext];
+  const selectedContextOption = contextOptions[contextNum - 1];
+  const selectedContext = selectedContextOption.id;
+
+  // Get context preset - may be from CONTEXT_PRESETS (solo) or location contexts (tuesday)
+  const contextPreset = CONTEXT_PRESETS[selectedContext] || {
+    label: selectedContextOption.label,
+    flags: {},
+    disposition: 0,
+    promptModifier: selectedContextOption.promptModifier
+  };
 
   // Step 4: Show flag menu for custom context
   let flags = { ...contextPreset.flags };
@@ -932,654 +944,6 @@ async function runNpcTestMode(rl, client) {
 }
 
 /**
- * Run Training Session mode
- * - Shows scenario picker (S1-S6)
- * - Shows NPC picker
- * - Auto-configures state from selected scenario
- * - Shows checklist after 5 exchanges
- * - Handles /retry /edit /next /pass /fail commands
- */
-async function runTrainingSession(rl, client) {
-  const { npc: npcColor, system: sysColor, prompt: promptColor, reset } = TUI_CONFIG.colors;
-
-  // Step 1: Show scenario picker
-  const scenarios = listScenarios();
-  const scenarioOptions = scenarios.map((s, i) => ({
-    key: String(i + 1),
-    label: `${s.name} - ${s.description}`,
-    action: s.id
-  }));
-
-  console.log('\n' + displayScenarioMenu(scenarios, {}));
-  const scenarioAnswer = await promptInput(rl, '\nSelect scenario (or B to go back): ');
-
-  if (scenarioAnswer.toLowerCase() === 'b') {
-    return main();
-  }
-
-  const scenarioNum = parseInt(scenarioAnswer);
-  if (isNaN(scenarioNum) || scenarioNum < 1 || scenarioNum > scenarios.length) {
-    console.log('\n  Invalid selection.\n');
-    return runTrainingSession(rl, client);
-  }
-
-  const selectedScenario = scenarios[scenarioNum - 1];
-  const scenario = getScenario(selectedScenario.id);
-
-  // Step 2: Show NPC picker
-  const npcs = listPersonas('Walston').filter(id => {
-    const npc = loadPersona(id);
-    return npc && npc.archetype !== 'narrator' && !id.startsWith('alex-');
-  });
-
-  const npcOptions = npcs.map((id, i) => {
-    const npc = loadPersona(id);
-    return {
-      key: String(i + 1),
-      label: npc ? `${npc.name} (${npc.title || npc.archetype})` : id
-    };
-  });
-
-  console.log('\n' + displayPickerMenu('SELECT NPC TO TRAIN', npcOptions, 'Back'));
-  const npcAnswer = await promptInput(rl, '\nSelect NPC: ');
-
-  if (npcAnswer.toLowerCase() === 'b') {
-    return runTrainingSession(rl, client);
-  }
-
-  const npcNum = parseInt(npcAnswer);
-  if (isNaN(npcNum) || npcNum < 1 || npcNum > npcs.length) {
-    console.log('\n  Invalid selection.\n');
-    return runTrainingSession(rl, client);
-  }
-
-  const selectedNpcId = npcs[npcNum - 1];
-  const npc = loadPersona(selectedNpcId);
-  const pc = loadPC('alex-ryder');
-
-  // Step 3: Auto-configure state from scenario
-  let testState = createTestState(npc, pc);
-  testState = applyScenarioToState(testState, scenario.id);
-  testState.turnCount = 0;
-  testState.checklistShown = false;
-
-  // Show scenario info
-  console.log(`\n${sysColor}═══════════════════════════════════════════════════════${reset}`);
-  console.log(`${sysColor}TRAINING: ${scenario.name}${reset}`);
-  console.log(`${sysColor}NPC: ${npc.name}${reset}`);
-  console.log(`${sysColor}Context: ${scenario.context} | Disposition: ${scenario.disposition}${reset}`);
-  console.log(`${sysColor}Checklist: ${scenario.checklist.join(', ')}${reset}`);
-  console.log(`${sysColor}═══════════════════════════════════════════════════════${reset}`);
-  console.log(`\n${sysColor}Suggested prompts:${reset}`);
-  for (const prompt of scenario.prompts || []) {
-    console.log(`  • ${prompt}`);
-  }
-  console.log(`\n${sysColor}Commands: /retry, /next, /pass, /fail, /checklist, /back${reset}\n`);
-
-  // Training conversation loop
-  const trainingPrompt = () => {
-    // Show checklist after 5 exchanges
-    if (testState.turnCount >= 5 && !testState.checklistShown) {
-      testState.checklistShown = true;
-      console.log('\n' + displayChecklist(scenario.checklist, testState.checklist || {}));
-    }
-
-    rl.question(`${promptColor}>${reset} `, async (input) => {
-      const trimmed = input.trim();
-
-      // Parse training commands
-      const cmdResult = parseTrainingCommand(trimmed);
-      if (cmdResult.handled) {
-        switch (cmdResult.command) {
-          case 'retry':
-            // Restart same scenario with same NPC
-            console.log('\n  Restarting scenario...\n');
-            testState = createTestState(npc, pc);
-            testState = applyScenarioToState(testState, scenario.id);
-            testState.turnCount = 0;
-            testState.checklistShown = false;
-            trainingPrompt();
-            return;
-
-          case 'next':
-            // Save result and go to next scenario
-            saveTrainingResult({
-              npcId: selectedNpcId,
-              scenarioId: scenario.id,
-              checklist: testState.checklist || {},
-              passed: Object.values(testState.checklist || {}).every(v => v === 'pass' || v === null),
-              notes: `Completed ${testState.turnCount} exchanges`
-            });
-            console.log('\n  Session saved. Returning to scenario picker...\n');
-            return runTrainingSession(rl, client);
-
-          case 'pass':
-            // Mark all checklist items as pass
-            testState.checklist = testState.checklist || {};
-            for (const item of scenario.checklist) {
-              testState.checklist[item] = 'pass';
-            }
-            console.log('\n  All items marked PASS.');
-            console.log('\n' + displayChecklist(scenario.checklist, testState.checklist));
-            trainingPrompt();
-            return;
-
-          case 'fail':
-            // Mark all checklist items as fail
-            testState.checklist = testState.checklist || {};
-            for (const item of scenario.checklist) {
-              testState.checklist[item] = 'fail';
-            }
-            console.log('\n  All items marked FAIL.');
-            console.log('\n' + displayChecklist(scenario.checklist, testState.checklist));
-            trainingPrompt();
-            return;
-
-          case 'checklist':
-            console.log('\n' + displayChecklist(scenario.checklist, testState.checklist || {}));
-            trainingPrompt();
-            return;
-
-          case 'back':
-            // Save and return to main menu
-            if (testState.turnCount > 0) {
-              saveTrainingResult({
-                npcId: selectedNpcId,
-                scenarioId: scenario.id,
-                checklist: testState.checklist || {},
-                passed: false,
-                notes: `Exited after ${testState.turnCount} exchanges`
-              });
-            }
-            return main();
-
-          case 'help':
-            console.log('\n  Training Commands:');
-            console.log('    /retry     - Restart this scenario');
-            console.log('    /next      - Save and go to next scenario');
-            console.log('    /pass      - Mark all checklist items passed');
-            console.log('    /fail      - Mark all checklist items failed');
-            console.log('    /checklist - Show evaluation checklist');
-            console.log('    /back      - Return to main menu\n');
-            trainingPrompt();
-            return;
-
-          default:
-            trainingPrompt();
-            return;
-        }
-      }
-
-      // Regular conversation
-      testState.turnCount++;
-      addMessage(testState.memory, 'user', trimmed);
-
-      // Build prompt with test context
-      const contextSection = buildTestModePrompt(testState);
-      const assembled = assembleFullPrompt(npc, testState.memory, trimmed, pc, null);
-      assembled.system = assembled.system + '\n' + contextSection;
-
-      try {
-        console.log(`\n${npcColor}${npc.name}:${reset} ${sysColor}(thinking...)${reset}`);
-        const response = await chat(client, assembled.system, assembled.messages);
-
-        process.stdout.write('\x1b[1A\x1b[2K');
-        console.log(`${npcColor}${npc.name}:${reset} ${response.content}\n`);
-
-        addMessage(testState.memory, 'assistant', response.content);
-      } catch (e) {
-        console.log(`\n  Error: ${e.message}\n`);
-      }
-
-      trainingPrompt();
-    });
-  };
-
-  // Initial NPC greeting (skip if greets_first is false)
-  if (npc.greets_first !== false) {
-    const greetingContext = buildTestModePrompt(testState);
-    const greetingAssembled = assembleFullPrompt(npc, testState.memory, 'Greet the player appropriately for this context.', pc, null);
-    greetingAssembled.system = greetingAssembled.system + '\n' + greetingContext;
-
-    try {
-      console.log(`${npcColor}${npc.name}:${reset} ${sysColor}(thinking...)${reset}`);
-      const greetingResponse = await chat(client, greetingAssembled.system, [{ role: 'user', content: 'Greet me.' }]);
-      process.stdout.write('\x1b[1A\x1b[2K');
-      console.log(`${npcColor}${npc.name}:${reset} ${greetingResponse.content}\n`);
-      addMessage(testState.memory, 'assistant', greetingResponse.content);
-    } catch (e) {
-      console.log(`  Error getting greeting: ${e.message}\n`);
-    }
-  } else {
-    console.log(`  [NPC waits for you to speak first]\n`);
-  }
-
-  trainingPrompt();
-}
-
-/**
- * Run Red Team Validation mode
- * - Shows NPC picker or "All NPCs" option
- * - Runs fact validation queries
- * - Shows results with pass/fail/warn
- * - Optionally applies patches
- */
-async function runRedTeamMode(rl, client) {
-  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
-
-  console.log(`\n${sysColor}═══════════════════════════════════════════════════════${reset}`);
-  console.log(`${sysColor}  RED TEAM NPC VALIDATION${reset}`);
-  console.log(`${sysColor}═══════════════════════════════════════════════════════${reset}`);
-
-  // Initialize red team system if needed
-  try {
-    initializeRedTeam();
-  } catch (e) {
-    // Already initialized
-  }
-
-  // Show coverage summary
-  const coverage = getCoverageSummary();
-  console.log(`\n  Facts: ${coverage.totalFacts} | Queries: ${coverage.totalQueries}`);
-  console.log(`  NPCs covered: ${Object.keys(coverage.npcCoverage).length}\n`);
-
-  // Build NPC options
-  const npcsWithQueries = Object.keys(coverage.npcCoverage).filter(id =>
-    coverage.npcCoverage[id].queries > 0
-  );
-
-  const npcOptions = npcsWithQueries.map((id, i) => {
-    const cov = coverage.npcCoverage[id];
-    return {
-      key: String(i + 1),
-      label: `${id} (${cov.queries} queries)`
-    };
-  });
-
-  console.log('  Select NPC to validate:\n');
-  for (const opt of npcOptions) {
-    console.log(`    ${opt.key}. ${opt.label}`);
-  }
-  console.log(`\n    A. All NPCs`);
-  console.log(`    B. Back to main menu\n`);
-
-  const answer = await promptInput(rl, '  Select: ');
-
-  if (answer.toLowerCase() === 'b') {
-    return main();
-  }
-
-  let targetNpcs = [];
-
-  if (answer.toLowerCase() === 'a') {
-    targetNpcs = npcsWithQueries;
-  } else {
-    const num = parseInt(answer);
-    if (!isNaN(num) && num >= 1 && num <= npcOptions.length) {
-      targetNpcs = [npcsWithQueries[num - 1]];
-    } else {
-      console.log('\n  Invalid selection.\n');
-      return runRedTeamMode(rl, client);
-    }
-  }
-
-  console.log(`\n${sysColor}Running validation for: ${targetNpcs.join(', ')}${reset}\n`);
-
-  // Run validation for each NPC
-  for (const npcId of targetNpcs) {
-    const npc = loadPersona(npcId);
-    if (!npc) {
-      console.log(`  Skipping ${npcId} - NPC not found`);
-      continue;
-    }
-
-    console.log(`\n${npcColor}Validating: ${npc.name}${reset}`);
-
-    try {
-      const report = await executeRedTeamValidation(npcId, npc, {
-        client,
-        autoPatch: false,
-        dryRun: true
-      });
-
-      console.log(formatValidationReport(report));
-
-      // If there are failures, offer to show suggested patches
-      if (report.summary.fail > 0 && report.patches && report.patches.length > 0) {
-        console.log(`  ${report.patches.length} patch(es) suggested.`);
-        console.log(`  Review at: ${report.reportPath}\n`);
-      }
-    } catch (e) {
-      console.log(`  Error validating ${npcId}: ${e.message}\n`);
-    }
-  }
-
-  console.log(`${sysColor}═══════════════════════════════════════════════════════${reset}`);
-
-  // Show learning menu after validation
-  return runRedTeamLearningMenu(rl, client, targetNpcs);
-}
-
-/**
- * Red Team Learning Menu - Options after validation
- */
-async function runRedTeamLearningMenu(rl, client, recentNpcs = []) {
-  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
-
-  console.log(`\n${sysColor}  LEARNING OPTIONS${reset}`);
-  console.log('');
-  console.log('    1. Run auto-learn on failures');
-  console.log('    2. Review pending patches');
-  console.log('    3. View learning log');
-  console.log('    4. View learning stats');
-  console.log('    5. Manage backups');
-  console.log('');
-  console.log('    Q. Quick validate (Tier 1 only)');
-  console.log('    R. Re-run full validation');
-  console.log('    B. Back to main menu');
-  console.log('');
-
-  const answer = await promptInput(rl, '  Select: ');
-
-  switch (answer.toLowerCase()) {
-    case '1':
-      // Auto-learn on failures
-      await runAutoLearn(rl, client, recentNpcs);
-      return runRedTeamLearningMenu(rl, client, recentNpcs);
-
-    case '2':
-      // Review pending patches
-      await reviewPendingPatches(rl, client);
-      return runRedTeamLearningMenu(rl, client, recentNpcs);
-
-    case '3':
-      // View learning log
-      await viewLearningLog(rl);
-      return runRedTeamLearningMenu(rl, client, recentNpcs);
-
-    case '4':
-      // View stats
-      console.log(`\n${sysColor}${formatStats()}${reset}\n`);
-      return runRedTeamLearningMenu(rl, client, recentNpcs);
-
-    case '5':
-      // Manage backups
-      await manageBackups(rl, recentNpcs);
-      return runRedTeamLearningMenu(rl, client, recentNpcs);
-
-    case 'q':
-      // Quick validate - Tier 1 only
-      await runQuickValidation(rl, client, recentNpcs);
-      return runRedTeamLearningMenu(rl, client, recentNpcs);
-
-    case 'r':
-      // Re-run full validation
-      return runRedTeamMode(rl, client);
-
-    case 'b':
-      return main();
-
-    default:
-      console.log('\n  Invalid selection.\n');
-      return runRedTeamLearningMenu(rl, client, recentNpcs);
-  }
-}
-
-/**
- * Run auto-learn for failed validations
- */
-async function runAutoLearn(rl, client, npcIds) {
-  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
-
-  if (npcIds.length === 0) {
-    console.log('\n  No NPCs selected. Run validation first.\n');
-    return;
-  }
-
-  console.log(`\n${sysColor}Running auto-learn for ${npcIds.length} NPC(s)...${reset}\n`);
-
-  for (const npcId of npcIds) {
-    const npc = loadPersona(npcId);
-    if (!npc) continue;
-
-    console.log(`${npcColor}Processing: ${npc.name}${reset}`);
-
-    // First run validation to get report
-    const report = await executeRedTeamValidation(npcId, npc, {
-      client,
-      autoPatch: false,
-      dryRun: true
-    });
-
-    if (report.summary.fail === 0) {
-      console.log('  No failures to learn from.\n');
-      continue;
-    }
-
-    console.log(`  Found ${report.summary.fail} failure(s). Generating knowledge...`);
-
-    try {
-      const learning = await runLearningForReport(report, {
-        autoApply: true,
-        humanReview: false,
-        client
-      });
-
-      console.log(`  Results: ${learning.summary.learned} learned, ${learning.summary.failed} failed verification, ${learning.summary.escalated} escalated\n`);
-    } catch (e) {
-      console.log(`  Error: ${e.message}\n`);
-    }
-  }
-
-  console.log(`${sysColor}Auto-learn complete.${reset}\n`);
-}
-
-/**
- * Quick validation - runs only Tier 1 (CRITICAL) queries
- * Uses caching to skip recently-passed NPCs
- */
-async function runQuickValidation(rl, client, npcIds = []) {
-  const { system: sysColor, npc: npcColor, error: errColor, reset } = TUI_CONFIG.colors;
-
-  // Get NPCs to validate
-  let targetNpcs = npcIds;
-  if (targetNpcs.length === 0) {
-    const coverage = getCoverageSummary();
-    targetNpcs = Object.keys(coverage.npcCoverage).filter(id =>
-      coverage.npcCoverage[id].queries > 0
-    );
-  }
-
-  if (targetNpcs.length === 0) {
-    console.log('\n  No NPCs with queries found.\n');
-    return;
-  }
-
-  console.log(`\n${sysColor}Quick Validation (Tier 1 - CRITICAL only)${reset}`);
-  console.log(`  Checking ${targetNpcs.length} NPC(s)...\n`);
-
-  let passCount = 0;
-  let failCount = 0;
-  let skipCount = 0;
-
-  for (const npcId of targetNpcs) {
-    const npc = loadPersona(npcId);
-    if (!npc) {
-      console.log(`  ${errColor}✗${reset} ${npcId} - NPC not found`);
-      continue;
-    }
-
-    // Get critical queries for this NPC
-    const criticalQueries = getCriticalQueriesForNpc(npcId);
-    if (criticalQueries.length === 0) {
-      console.log(`  ${sysColor}○${reset} ${npc.name} - No Tier 1 queries`);
-      continue;
-    }
-
-    // Execute critical queries
-    const queryResults = await executeCriticalQueriesForNpc(npcId, npc, client);
-
-    // Run quick validation with caching
-    const result = quickValidate(npcId, queryResults, {
-      forceRevalidate: false,
-      autoLearn: false
-    });
-
-    if (result.skipped) {
-      console.log(`  ${sysColor}○${reset} ${npc.name} - Cached (${result.reason})`);
-      skipCount++;
-    } else if (result.report.summary.fail === 0) {
-      console.log(`  \x1b[32m✓${reset} ${npc.name} - ${result.report.summary.pass}/${criticalQueries.length} passed`);
-      passCount++;
-    } else {
-      console.log(`  ${errColor}✗${reset} ${npc.name} - ${result.report.summary.fail} failed:`);
-      for (const failed of result.failedQueries) {
-        console.log(`      - ${failed.query_text}`);
-      }
-      failCount++;
-    }
-  }
-
-  console.log(`\n${sysColor}Summary: ${passCount} passed, ${failCount} failed, ${skipCount} cached${reset}\n`);
-
-  if (failCount > 0) {
-    const answer = await promptInput(rl, '  Run auto-learn on failures? (y/n): ');
-    if (answer.toLowerCase() === 'y') {
-      const failedNpcs = targetNpcs.filter(id => {
-        const summary = getValidationSummary(id);
-        return summary && summary.failed > 0;
-      });
-      await runAutoLearn(rl, client, failedNpcs);
-    }
-  }
-}
-
-/**
- * Review and apply pending patches
- */
-async function reviewPendingPatches(rl, client) {
-  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
-
-  const pending = loadPendingLearning();
-
-  if (pending.length === 0) {
-    console.log('\n  No pending patches.\n');
-    return;
-  }
-
-  console.log(`\n${sysColor}${pending.length} pending patch(es) for review:${reset}\n`);
-
-  for (let i = 0; i < pending.length; i++) {
-    const cycle = pending[i];
-    console.log(`  ${i + 1}. ${cycle.npc_id}`);
-    console.log(`     Query: "${cycle.original_query?.slice(0, 50)}..."`);
-    console.log(`     Generated: ${cycle.generated_entry?.topic} - "${cycle.generated_entry?.content?.slice(0, 40)}..."`);
-    console.log('');
-
-    const answer = await promptInput(rl, `     Apply? (y/n/s=skip all): `);
-
-    if (answer.toLowerCase() === 'y') {
-      try {
-        const result = await applyPendingPatch(i, client);
-        if (result.success) {
-          console.log(`     ${npcColor}✓ Applied and verified${reset}\n`);
-        } else {
-          console.log(`     ✗ Verification failed, rolled back\n`);
-        }
-        // Note: index shifts after removal, but we continue with updated list
-        return reviewPendingPatches(rl, client);
-      } catch (e) {
-        console.log(`     Error: ${e.message}\n`);
-      }
-    } else if (answer.toLowerCase() === 's') {
-      break;
-    }
-  }
-}
-
-/**
- * View learning log
- */
-async function viewLearningLog(rl) {
-  const { system: sysColor, reset } = TUI_CONFIG.colors;
-
-  const recent = getRecentLearning(10);
-
-  console.log(`\n${sysColor}=== Recent Learning (last 10) ===${reset}\n`);
-  console.log(formatLearningLog(recent));
-
-  await promptInput(rl, '  Press Enter to continue...');
-}
-
-/**
- * Manage backups for NPCs
- */
-async function manageBackups(rl, recentNpcs) {
-  const { system: sysColor, npc: npcColor, reset } = TUI_CONFIG.colors;
-
-  if (recentNpcs.length === 0) {
-    console.log('\n  No NPCs to manage. Run validation first.\n');
-    return;
-  }
-
-  console.log(`\n${sysColor}Select NPC to manage backups:${reset}\n`);
-
-  for (let i = 0; i < recentNpcs.length; i++) {
-    console.log(`    ${i + 1}. ${recentNpcs[i]}`);
-  }
-  console.log('    B. Back');
-  console.log('');
-
-  const answer = await promptInput(rl, '  Select: ');
-
-  if (answer.toLowerCase() === 'b') {
-    return;
-  }
-
-  const num = parseInt(answer);
-  if (isNaN(num) || num < 1 || num > recentNpcs.length) {
-    console.log('\n  Invalid selection.\n');
-    return;
-  }
-
-  const npcId = recentNpcs[num - 1];
-  const backups = listBackups(npcId);
-
-  if (backups.length === 0) {
-    console.log(`\n  No backups found for ${npcId}.\n`);
-    return;
-  }
-
-  console.log(`\n${sysColor}Backups for ${npcId}:${reset}\n`);
-
-  for (let i = 0; i < Math.min(5, backups.length); i++) {
-    const b = backups[i];
-    const date = new Date(b.timestamp).toLocaleString();
-    console.log(`    ${i + 1}. ${date}`);
-  }
-  console.log('    B. Back');
-  console.log('');
-
-  const restoreAnswer = await promptInput(rl, '  Select backup to restore (or B): ');
-
-  if (restoreAnswer.toLowerCase() === 'b') {
-    return;
-  }
-
-  const restoreNum = parseInt(restoreAnswer);
-  if (!isNaN(restoreNum) && restoreNum >= 1 && restoreNum <= Math.min(5, backups.length)) {
-    const backup = backups[restoreNum - 1];
-    const result = restoreFromBackup(npcId, backup.path);
-
-    if (result.success) {
-      console.log(`\n  ${npcColor}✓ Restored ${npcId} from backup${reset}\n`);
-    } else {
-      console.log(`\n  Error: ${result.message}\n`);
-    }
-  }
-}
-
-/**
  * Main chat loop
  */
 async function main() {
@@ -1663,20 +1027,6 @@ async function main() {
         // NPC test mode
         await runNpcTestMode(rl, client);
         return;
-
-      case 'training':
-        // Training session mode
-        await runTrainingSession(rl, client);
-        return;
-
-      case 'red-team':
-        // Red team validation mode
-        await runRedTeamMode(rl, client);
-        return;
-
-      case 'quick-chat':
-        // Fall through to legacy mode
-        break;
 
       case 'exit':
         console.log('\n  Goodbye!\n');

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Assisted Ambulation Basic",
+    "category": "augment",
+    "tl": 13,
+    "effect": "Only 4 hours sleep required at 3x caloric intake",
+    "cost": 100000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Assisted Ambulation Improved",
+    "category": "augment",
+    "tl": 14,
+    "effect": "Only 2 hours sleep required at 2x caloric intake",
+    "cost": 300000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Assisted Ambulation Advanced",
+    "category": "augment",
+    "tl": 15,
+    "effect": "Only 1 hour sleep required at 1.5x caloric intake",
+    "cost": 500000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Ballistic Tracking Lenses",
+    "category": "augment",
+    "tl": 11,
+    "effect": "DM+1 on unassisted ranged attacks",
+    "cost": 8000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Cockpit Sensory Suite",
+    "category": "augment",
+    "tl": 10,
+    "effect": "DM+1 on high-speed checks",
+    "cost": 500000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Cognitive Augmentation +1",
+    "category": "augment",
+    "tl": 12,
+    "effect": "+1 to INT",
+    "cost": 500000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Cognitive Augmentation +2",
+    "category": "augment",
+    "tl": 14,
+    "effect": "+2 to INT",
+    "cost": 1000000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Cognitive Augmentation +3",
+    "category": "augment",
+    "tl": 16,
+    "effect": "+3 to INT",
+    "cost": 5000000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Complex Cranial Processing Unit",
+    "category": "augment",
+    "tl": 14,
+    "effect": "DM+1 to complex Science checks",
+    "cost": 350000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Enhanced Vision Basic",
+    "category": "augment",
+    "tl": 13,
+    "effect": "Binocular zoom, IR/Light Intensifier",
+    "cost": 25000,
+    "mass": 0,
+    "source_page": 59
+  },
+  {
+    "name": "Enhanced Vision Improved",
+    "category": "augment",
+    "tl": 14,
+    "effect": "PRIS binocular functionality",
+    "cost": 50000,
+    "mass": 0,
+    "source_page": 59
+  }
+]

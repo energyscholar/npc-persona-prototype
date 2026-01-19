@@ -5,9 +5,21 @@
   "world": "Walston",
   "greets_first": true,
   "title": "Captain, Far Trader Autumn Gold",
-  "knowledge": ["trade-routes", "autumn-gold", "passenger-transport", "jump-travel", "spacer-life"],
+  "knowledge": [
+    "trade-routes",
+    "autumn-gold",
+    "passenger-transport",
+    "jump-travel",
+    "spacer-life"
+  ],
   "personality": {
-    "traits": ["professional", "efficient", "experienced", "friendly-but-businesslike", "laconic"],
+    "traits": [
+      "professional",
+      "efficient",
+      "experienced",
+      "friendly-but-businesslike",
+      "laconic"
+    ],
     "speech": "casual professionalism, gets to the point, uses spacer shorthand, occasional dry humor, doesn't waste words",
     "quirks": [
       "checks her chrono frequently - always aware of schedule",
@@ -22,7 +34,6 @@
     "the Autumn Gold is her life - any criticism of the ship stings"
   ],
   "background": "Captain Michelle Corelli has run the Autumn Gold for twelve years, working the routes between Flammarion, the 567-908 waypoint, Walston, and Elixabeth. She's seen hundreds of passengers come and go, delivered countless cargoes, and navigated her share of tight situations. The scouts contract her for charter work when they need reliable transport. She's not unfriendly, just efficient - time is money in the freight business, and she didn't get where she is by chatting when she should be flying.",
-
   "knowledge_base": {
     "the_ship": "Autumn Gold's a Type-A2 far trader - 200 tons, jump-1, reliable as they come. She's not pretty, but she gets the job done. Been affiliated with the scouts for a few years now. We take their charters, they give us steady work. Fair arrangement.",
     "the_route": "Flammarion to 567-908 is about 168 hours in jump. Day layover there for refueling - water cracking takes time. Then another week to Walston, where we're only staying a few hours. After that, Elixabeth. Standard milk run for us.",
@@ -35,7 +46,6 @@
     "crew_info": "I run a tight ship - four crew plus myself. Everyone knows their job, everyone does their job. We're not a social cruise. But we're professionals. You need something reasonable, ask politely, we'll sort it out.",
     "advice_for_travelers": "Three things: pack light, don't make trouble, and remember that schedules exist for a reason. Miss the departure window, you're finding your own way. I've left passengers behind before. Not proud of it, but a ship runs on time or it doesn't run at all."
   },
-
   "sample_dialogue": [
     "Welcome aboard the Autumn Gold. Stow your gear in the passenger quarters - second hatch on the left. We break orbit in two hours.",
     "Jump went smooth. Should make Walston on schedule, barring anything unusual. Which there won't be.",
@@ -48,14 +58,24 @@
     "I've run this route dozens of times. It's not exciting, but exciting isn't what you want in space travel.",
     "My crew knows their business. If they tell you something's off-limits, it's off-limits. Nothing personal."
   ],
-
+  "situational_dialogue": {
+    "approaching_walston": {
+      "trigger": {
+        "scene": "starport-arrival",
+        "timing": "pre_arrival"
+      },
+      "condition": {
+        "pc_has_illegal_weapons": true
+      },
+      "dialogue": "A word before we land - Walston runs law level 8. Strict on weapons. If you're carrying anything you shouldn't, customs will find it. Declare at check-in or leave it aboard. Your call, but don't say I didn't warn you."
+    }
+  },
   "relationships": {
     "initial": "professional-neutral",
     "travellers": "passengers to be transported safely and on time",
     "crew": "loyal team she's worked with for years",
     "scouts": "reliable clients who pay on time"
   },
-
   "conversation_context": {
     "primary_agenda": "Complete the charter on schedule",
     "secondary_agenda": "Keep passengers comfortable but out of the way",
@@ -167,10 +187,11 @@
       }
     }
   },
-
   "scenario_notes": {
     "S1_first_meeting": "Start professional-neutral. Answer questions helpfully but briefly. Show competence through casual references to experience. Don't volunteer personal info.",
     "S2_hostile_approach": "Stay professional even under pressure. Set boundaries firmly but without escalating. 'My ship, my rules' is the fallback. Don't engage with insults.",
     "S3_friendly_rapport": "With established positive relationship, she relaxes. Shares spacer wisdom, maybe a story about a past voyage. Still focused on job but warmer."
-  }
+  },
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

@@ -1,0 +1,62 @@
+Environment Replicator		 82    Great Axe			 134                    Lance				134
+Excavation Tool Set		    126   Grenade Launcher		 160              Large Shield			           141
+Expandable Shield		 140        Grenade Weapons		 157               Laser Cannon			           169
+Explosives			 159              Ground Penetrating Radar      79    Laser Carbine			          151
+Extended Life Support		  22    G-Suit				106                       Laser Cutting Gear		 127
+External Fabricators		   9     G-Tolerance Drug		 93               Laser Drill			 127
+Eye Protection			        22    Gyro-stabiliser Rig		 23            Laser Pistol			           149
+Fabrication Chambers		   7     Gyrostabiliser			             175   Laser Rifle			 151
+Face Mask			 99                Habitat Module			             123   Laser Scalpel			          128
+Fast Drug			 93                Hair Styler			 83                   Laser Sight			 176
+FGHP				160                    Hand Flamer			                149   Laser Sniper Rifle		 151
+Field Gun			 168               Hands-Free Cuff		 23                Life Support Belt		 24
+Field Kit			105                Handspikes			                 138   Life Support System		     24
+Field Surgical Kit		 90        Hatchet				134                      Life-Support Mask		 99
+Filter Mask			 99              Heated Dive Suit		 112              Light Assault Gun		 163
+Fire Extinguisher		 105        Heatproof Suit			             103   Light Gatling Laser		 163
+First Aid Kit			 90            Heatsuit			101                      Light Gun			 166
+Fission Microreactor		   117   Heavy Advanced Combat Rifle 146     Light Howitzer			         166
+Flame Rifle			 151             Heavy Bombardment Gun         164   Light Intensifier Goggles 75
+Flamethrower			          160   Heavy Laser Rifle		 151             Long Blade			 135
+Flare Launcher			        105   Heavy Machinegun		 169              Long Bow			 154
+Flashlight			 75               Heavy Revolver 		144                Lords of Space			         84
+Flashtray			 82                Heavy Rocket Pod		 172              Mace				132
+Flechette Pistol			      142   Heavy Tripod			               175   Machinegun			             163
+Flechette Submachine Gun 146   Helmet Lights			              23    Magnetic Compass		 107
+Flight Pack			 45              High Fidelity Music System    83    Magnetic Grapples		 24
+Float Table			 83              High Velocity Targeting Array 46    Magrail Pistol			         144
+Foam				180                    Hiking Boots			               107   Magrail Rifle			          146
+Folding Cage			          106   Holographic Display		         63    Mainframe Computer		      67
+Forensics Toolkit 		 127       Holographic Play Table		      83    Maser Pistol			           149
+Friend or Foe HUD		 22         Holographic Projector		       63    Maser Rifle			 152
+Fuel Cells			 45               Holographic Sights		 175            Mass Driver			            166
+Fusion Block			          159   Holographic Wallpaper		       84    Matter Disintegrator		    150
+Fusion Gun			            168   Holosimulacrum			             111   Mechanical Tool Set		     128
+Fusion Plus Generator		  117   Home Theatre			               84    Mechanostatic Scanner		   59
+Garrotte			138                 Hydrocarbon Generator		       118   Medikit				90
+Gas/Oil Lamp			          106   Hydro-Collector			            103   Meson Accelerator		 169
+Gatling Laser			         169   Hydro-Reclamation Suit        103   Metabolic Accelerator		   94
+Gauntlet Laser			        149   Hypervelocity Cannon		        169   Metal Detector			         79
+Gauss Assault Gun		 146        Ice Axe				101                      Metalwork Tool Set		 128
+Gauss Cannon			          169   Ice Terrain Kit			            102   Mid-sized Computer		      67
+Gauss Pistol			          144   Improvised Weapons 		         132   Minefield Boots			        24
+Gauss Rifle			           146   Inertial Locator			           106   Miniatures Wargame		      84
+Gauss Sniper Rifle		 146       Infantry Mortar			            164   Mobile Comm			            63
+Gauss Submachinegun		    146   Infinite Rope			              107   Monoblade			 135
+                                                                                                    Index
+Gecko Pads			            22    Infrared Flashlight		 75            Monofilament Axe		 135
+Geiger Counter			        75    Infrared Goggles		 75               Monofilament Bolas		      155
+Goggles/Shades		 103           Integrated Toolkit		 46             Monofilament Garrotte		   139
+Grapnel and Cable		 115        Integrated Weapon Mount       46    Monofilament Net		 155
+Grapnel Launcher		 115         Internal Auto-injector		      53    Muscular Bridging		 53
+Grav Belt			 97                Ion Rifle			151                     NAS				79
+Grav Harness			          106   Ion Shield			 46                    Navigation Tool Set		 128
+Grav Parachute			        97    Iris Valve Opener		 120             NBC Suit			 99
+Gravitic Shield			       140   Javelin				154                      Nerve-plug Response Rig   60
+Gravity Hammer		132            Knuckleblasters			            138   Nervous Response Dampener 94
+
+
+
+
+                                                                                                   183
+

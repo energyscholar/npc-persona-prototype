@@ -1,0 +1,47 @@
+                                                    Assault Pistol
+
+
+
+
+                 Antique Pistol
+
+                                                                            Autopistol
+
+
+
+
+           Body Pistol                   Cartridge Pistol                   Coach Pistol
+
+
+
+
+                                              Flechette Pistol
+        Duck's Foot Pistol
+                                                                            Gauss Pistol
+
+
+WEAPON                TL RANGE DAMAGE KG COST MAGAZINE MAGAZINE COST TRAITS
+Antique Pistol        2   5       2D-3         0.5 Cr100    1        Cr5           —
+Assault Pistol        6   10      3D-3         1    Cr250   15       Cr10          Auto 2
+Autopistol            5   10      3D-3         1    Cr200   15       Cr10          —
+Body Pistol           8   5       2D           —    Cr500   6        Cr10          —
+Cartridge Pistol      7   10      4D           1.5 Cr300    6        Cr10          Bulky
+Coach Pistol          3   5       4D-3         2    Cr200   2        Cr10          Dangerous
+Duck’s Foot Pistol 3      5       3D-3         2    Cr300   4–8      Cr25          Auto 4, Dangerous
+Flechette Pistol      9   10      3D-2         1    Cr275   2        Cr10          Silent
+                                                                                                        Weaponry
+Gauss Pistol          13 20       3D           1    Cr500   40       Cr20          AP 3, Auto 2
+Heavy Revolver        5   10      4D-3         1.5 Cr400    6        Cr15          Bulky
+Magrail Pistol        14 15       3D+3         1    Cr750   20       Cr60          Auto 4
+Revolver              4   10      3D-3         0.5 Cr150    6        Cr5           —
+Shot Pistol           5   2       3D           0.5 Cr60     1        Cr5           —
+Snub Pistol           8   5       3D-3         —    Cr150   6        Cr10          Zero-G
+Universal             8   10      3D-3         1    Cr300   10       Cr10          —
+Autopistol
+Zip Gun               3   5       2D-3         —    Cr50    1        Cr5           Dangerous
+
+
+
+
+                                                                                                       143
+

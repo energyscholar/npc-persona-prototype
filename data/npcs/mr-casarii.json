@@ -139,5 +139,7 @@
         "Skipping paperwork"
       ]
     }
-  ]
+  ],
+  "campaign": "solo-high-and-dry",
+  "campaign_exclusive": true
 }

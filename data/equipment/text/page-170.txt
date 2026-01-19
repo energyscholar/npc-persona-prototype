@@ -1,0 +1,61 @@
+GATLING LASER
+A relatively low-powered, vehicle-mounted laser weapon,
+the gatling laser uses several cryogenically cooled
+barrels fired in succession to deliver a hail of fire. The
+gatling laser is often used as an air-defence weapon.
+
+                                                                                 Gatling Laser
+GAUSS CANNON
+This weapon uses advanced electromagnetic (‘gauss’)
+propulsion to accelerate a metal dart to tremendous
+speed. The projectile is a lump of dense metal which
+damages the target using kinetic energy and the gauss
+cannon is capable of firing them rapidly. The gauss
+cannon may use the variant ammunition types found in
+the Specialised Ammunition chapter.
+
+HEAVY MACHINEGUN                                             Gauss Cannon
+Designed to be mounted upon a vehicle or tripod, the
+heavy machinegun has proven effective against light
+vehicles and aircraft but is primarily intended to mow
+down advancing infantry. The heavy machinegun may
+use the rifle variant ammunition types found in the
+Specialised Ammunition chapter.
+                                                                            Heavy Machinegun
+HYPERVELOCITY CANNON
+The hypervelocity cannon uses electromagnetic
+propulsion, similar to a gauss weapon and is typically
+mounted in emplacements or very large vehicles.
+Despite its range, it can be used against targets in low
+orbit if it can be elevated far enough. This extended
+range (100 kilometres) is only useful in direct fire at
+airborne or orbital targets as this weapon cannot ‘lob’
+its projectiles like a howitzer. The hypervelocity cannon
+may use the variant ammunition types found in the
+Specialised Ammunition chapter.                                Hypervelocity Cannon
+
+LASER CANNON
+A single barrel laser main gun for a vehicle, the laser
+cannon is the first truly effective vehicle energy weapon.
+
+MESON ACCELERATOR
+A battlefield-grade meson accelerator requires a
+huge power supply and can only be mounted in
+                                                                                                         Weaponry
+emplacements or the very largest of vehicles. It is
+similar in operation to starship-grade meson guns                                        Laser Cannon
+in that the particles it accelerates do not interact
+with matter until they decay, allowing the weapon to
+effectively shoot through any obstruction so long as the
+target’s location is known. Meson accelerators ignore
+all Armour and radiation shielding.
+
+
+
+                                                                            Meson Accelerator
+
+
+
+
+                                                                                                        169
+

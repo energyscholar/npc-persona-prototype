@@ -1,0 +1,61 @@
+                                                                 T       R       A       V       E        L      L       E        R
+
+
+
+                                                                     TOOL LASER
+                                                                     A handheld laser welder/cutting-torch powered by a
+        STARSHIP ENGINEER TOOL SET                                   small internal powerpack (providing power for up to
+        A full tool kit for shipboard engineering personnel,         20 minutes of continual use). The tool laser’s energy
+        including PRIS goggles, iris valve opener, electronic        output is variable and thus can be used from anything
+        and gravitic test and repair equipment, wrenches,            from gentle electronic welding to small-scale metalwork
+        sockets and a large hammer.                                  or cutting through several centimetres of steel; anything
+                                                                     beyond that requires a welding kit or a larger laser.
+        Item                 TL Effect            Kg Cost            At TL12 the tool laser is about the size of a large
+        Starship Engineer 12 Tools to repair 12         Cr4000       flashlight; at TL13 or above it can be as small as a
+        Tool Set             starship                                pen. If used as a weapon, it inflicts DM-2 to attack rolls
+                             equipment                               and has an effective range of five metres, dealing 1D
+                                                                     damage to a target at full output. Each shot drains one
+                                                                     minute of battery power.
+        SURVEYING TOOLKIT
+        A set of tools used by a surveyor to map a location,
+                                                                     Tool Laser TL Effect                         Kg Cost
+        determine boundaries and perform Navigation tasks.
+        A basic toolkit includes mechanical instruments,             Basic         12 Handheld laser tool         0.5 Cr500
+        optics, compasses and computational aids. At TL7,            Improved      13 Pen-sized handheld          —    Cr500
+        the surveying kit adds lasers and electronic devices.                         laser tool
+        The TL9 surveyor toolkit includes satellite navigation
+        locators where available and inertial locators where         WEAPON ENGINEERING TOOL SET
+        not and has software to produce instant maps in the          Tools for the repair and maintenance of weapons. Slug
+        field. All versions provide DM+2 to Navigation checks,       throwers and energy weapons require separate tool
+        although setup of the basic and improved versions            sets. The kit costs Cr100 times its Tech Level. Unusual
+        double the duration required for the check. DMs from         weapons, such as flame throwers and cryojets, usually
+        Navigation and Surveying toolkits do not stack; the          require their own brand of special toolkit.
+        highest DM applies.
+
+                                                                     Weapon
+        Surveying                                                    Engineering
+        Tool Set  TL Effect                        Kg Cost           Tool Set            TL Effect                Kg Cost
+        Basic         3    Survey, map, DM+2       20   Cr1000       Slug Throwers       2+ Maintain, repair,     12   Cr100
+                           to Navigation checks                                             modify slug                x TL
+        Improved      7    +Lasers and             12   Cr1000                              throwers
+                           calculators                               Energy Weapons 8+ Maintain, repair,          12   Cr100
+        Advanced      9    +Locators and           8    Cr3000                         modify energy                   x TL
+                           mapping software                                            weapons
+
+
+
+
+                                                            Tool Laser
+Tools
+
+
+
+
+                                                                       Weapon engineering
+                                                                                 Tool Set
+            Starship Engineer
+            Tool Set
+
+
+  130
+

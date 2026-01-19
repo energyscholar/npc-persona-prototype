@@ -1,0 +1,55 @@
+     MEDICAL AND CARE SUPPLIES
+     Deprived of their tools, even the most highly trained        A TL14 improved autodoc is capable of reanimation,
+     doctors can struggle to treat the patients they are trying   provided no more than 2D minutes have passed since
+     to cure. However, with the right equipment, just a little    the patient’s death. This period can be doubled by
+     medical training can make all the difference when            extremely cold conditions or extended up to 1D days if
+     Travellers find themselves in the deep wilderness.           the patient’s corpse has been placed in a low berth or
+                                                                  cryoberth, although revival survival checks still apply.
+     Others might find more… recreational uses for some of        The improved autodoc includes an integral low berth and
+     the medical supplies listed in this section but the canny    a bioreactor capable of regrowing limbs or organs. It has
+     retailer does not judge his customers.                       the equivalent of Medic 3 and Science (biology) 3 skills.
+
+                                                                  The advanced or ‘deluxe’ TL15 autodoc includes a
+     MEDICAL EQUIPMENT                                            fabrication chamber capable of both regenerating
+                                                                  tissue and crafting simple augments. Its advanced
+     Many items in this section, such as medical kits, may
+     require occasional replenishment of consumables.             sensors (bioscanner and NAS) and science toolkit allow
+     If the Referee desires to track such things, these           it to perform investigative work to analyse unknown
+     kits carry supplies for approximately 10 uses and            illnesses or other medical conditions. Its skills include
+     consumables account for a quarter of the cost of the         Investigate, Medic, Science (biology) and (chemistry),
+     kit (clearly, this does not apply to expensive items         all at skill level 4.
+     such as autodocs but it might apply to the medikit-like
+     consumables carried within).                                 Most autodocs match the form of standard ship
+                                                                  low berths, allowing a replacement or ‘upgrade’ of
+                                                                  a low berth to an autodoc in a medical bay or low
+     ADHESIVE BANDAGES                                            passenger bank mounting.
+     Originally used in small tubes to seal up bullet holes
+     in flesh in a hurry, this chemical glue is very strong,
+     instantly turning the moisture within muscles into           Autodoc      TL    Features              Kg    Cost
+     plastic. The applicators change as technology gets           Basic        13    Diagnosis, drug       500 Cr100000
+     better but the substance remains essentially the                                delivery, surgery,
+     same. The use of adhesive bandages during First                                 Medic 3
+     Aid subtracts DM-1 from any dice rolled to determine         Improved     14    +Reanimation, low 500 MCr1
+     how long a task takes.                                                          berth, bioreactor,
+                                                                                     Medic 3
+     Item         TL    Effect                    Kg    Cost      Advanced 15        +Advanced             500 MCr3
+     Adhesive 6         DM-1 per dice for First   —     Cr50                         sensors, science
+     Bandages           Aid duration checks                                          toolkit, Medic 4
+
+     AUTODOC                                                      BIOREACTION CHAMBER
+     An autodoc is a small self-contained diagnostic,             A bioreaction chamber, sometimes called a ‘bioreactor’
+     pharmaceutical and surgical system about the size of         or a ‘vat’, is a device which supports a biologically
+     a low berth chamber or large coffin. Often found on          active environment. It can be used to grow cultures
+     spacecraft, the autodoc is a stationary robot capable of     and organisms or to support a growing biological
+     diagnosing and treating disease, infection, injuries and     being, including a human foetus or developing
+     other medical conditions as efficiently as a qualified       clone. Bioreaction chambers are available in varying
+     doctor. The basic autodoc has the equivalent of Medic        sizes based on their capacity in cubic litres (cl);
+     3 and Science (biology) 2 skills.                            this corresponds roughly to an organism’s mass in
+                                                                  kilograms. A 12cl unit will support a human foetus to full
+                                                                  term and an 80cl unit will support a full human clone to
+
+
+
+
+88
+

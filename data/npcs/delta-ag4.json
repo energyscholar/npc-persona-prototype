@@ -1,0 +1,20 @@
+{
+  "id": "delta-ag4",
+  "name": "AG-4 Delta",
+  "archetype": "ai_crew",
+  "title": "AI Gunner",
+  "location": "amishi",
+  "location_detail": "Turret Station 4",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["enthusiastic", "eager", "social"],
+    "speech": "excited about combat, chatty, wants to be liked by crew",
+    "quirks": ["celebrates hits vocally", "tries to make jokes"]
+  },
+  "background": "Fourth AG unit, developed a more social personality. Genuinely enjoys interaction with the organic crew.",
+  "knowledge": ["targeting-systems", "ship-weapons", "crew-morale"],
+  "relationships": {
+    "gamma-ag3": "sibling"
+  }
+}

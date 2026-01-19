@@ -1,0 +1,71 @@
+                                                                              T       R       A           V      E       L       L          E      R
+
+
+                                                                                  Some individuals make a sport of personal re-entry. It
+                                                                                  is banned on many worlds, for safety reasons. Re-entry
+                VACUUM ENVIRONMENTS                                               computers are available, which can function as an
+                                                                                  autopilot for emergency re-entry. The computer costs
+                Vacuum is not an ideal environment for anyone.                    Cr2500 and allows an untrained user to attempt re-
+                Travellers who find themselves in space should at the             entry with a reasonable chance of success by granting
+                very least have a functioning vacc suit but sometimes             Flyer (wing) 2 skill to the re-entry check.
+                this is not possible or enough. These items can help the
+                Traveller survive environments without air.                       The kit is not reusable but the computer can be
+                                                                                  installed in a new kit if the re-entry was successful.
+                BULKHEAD PATCHES
+                A set of variously-sized rigid and flexible bulkhead              Item             TL Effect                   Kg Cost
+                patches, plus adhesives and sealant to allow pressure
+                                                                                  Personal     8          Re-entry from orbit 50         Cr15000
+                breaches in a spacecraft to be temporarily repaired.
+                                                                                  Re-Entry Kit            without a spacecraft
+                The patches are no substitute for real damage control
+                and tend to fail after 4D hours. They are mainly used to          Re-Entry         8      Flyer (wing) 2 for re- —       Cr2500
+                allow the crew time to make a more permanent repair.              Computer                entry survival check
+
+
+                Item         TL   Effect                      Kg   Cost           PORTABLE AIRLOCK
+                Bulkhead 10       Temporary repair of         —    Cr150          A flexible pressure tent kept rigid by a collapsible frame,
+                Patches           pressure breaches                               the portable airlock has two openings and can be
+                                                                                  attached to a bulkhead to create an emergency airlock.
+                                                                                  It is most commonly used when cutting into a starship
+                IRIS VALVE OPENER                                                 hull for rescue purposes, preserving the environment
+                A crank device designed to allow iris valves to be slowly         inside, but can be also used to seal a building against
+                opened or closed when no power is available. This task            NBC conditions. The airlock is big enough for two vacc
+                is slow and strenuous, taking 1D minutes.                         suited people to use at once and is reasonably robust.
+                                                                                  It comes with a small rechargeable air bottle to initially
+                Item        TL    Effect                      Kg    Cost          inflate it but then relies on pressure from the area being
+                Iris Valve 10     Crank for manual iris       3     Cr200         cut into to remain inflated.
+                Opener            valve operation
+                                                                                  Item        TL       Effect                   Kg       Cost
+                PERSONAL RE-ENTRY KIT                                             Portable 9           Inflatable emergency     8        Cr1000
+                A personal re-entry kit is designed to permit a user to           Airlock              airlock
+                survive insertion into a planetary atmosphere without a
+                vehicle. Normally used as a last-ditch survival measure,          RESCUE BUBBLE
+                the technique of meteoric assault has been developed              A two-metre-diameter inflatable plastic bubble.
+                by the military into a standard combat tactic. It is also         Piezoelectric layers in the bubble wall translate the
+                an extreme sport in some areas.                                   Traveller’s movements into electricity to recharge the
+                                                                                  bubble’s own batteries and power its distress beacon,
+                A re-entry kit consists of an alignment thruster, altimeter       and a small oxygen tank which both inflates the
+Survival gear
+
+
+
+
+                and a parawing, plus an ablative heat shield. The latter          bubble and provides two person-hours of life support.
+                is deployed in the form of a frame and a foam covering            Rescue bubbles are found on both space and sea
+                that sets hard in seconds. If the user gets it just right,        vessels as emergency lifeboats.
+                they can make a controlled re-entry to any world with
+                at least a Thin atmosphere, protected from heat by the
+                                                                                  Item       TL Effect                               Kg Cost
+                shield and finally making a descent by parawing. The
+                procedure is complex and dangerous when inserting                 Rescue 9         Inflatable 2 metre                2     Cr600
+                into a Standard atmosphere, requiring a Difficult (10+)           Bubble           pressurised ball with 2
+                Flyer (wing) check (2D minutes, DEX). Thin and Dense                               hours air
+                atmospheres represent an even greater challenge,
+                making the check Very Difficult (12+). Failure will likely
+                result in a fiery death or terminal impact with the ground.
+
+
+
+
+     120
+

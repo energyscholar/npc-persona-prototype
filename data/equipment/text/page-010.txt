@@ -1,0 +1,38 @@
+be available in smaller markets – see the Equipment          Note that any government’s currency is normally
+Availability rules (page 4). All standard fabricators sold   produced at the highest available Tech Level even if
+on worlds of Law Level 2+ contain built-in prohibitions      this requires importation from a nearby system, so prior
+for creating weapons, currency, copywritten materials        to TL17, where economic systems are likely to undergo
+or controlled substances in accordance with local laws.      profound changes, counterfeiting currency with even an
+Unrestricted fabricators are considered Category 5 items     unrestricted fabricator is not likely to be successful on
+on such worlds. Even when legal on Law Level 1 or            most technological worlds.
+lower worlds, unrestricted fabricators carry a 200–400%
+premium (multiple costs by D3+1).                            EXTERNAL FABRICATORS
+                                                             A fabricator’s complexity limitation assumes an
+Production of trademarked or patented goods is               enclosed fabrication chamber; external fabricators
+restricted with standard fabricators. Many manufactures      cannot be as precise. Prior to TL17, external fabricators
+may offer a limited or commercial license to replicate       can only create items three or more Tech Levels less
+their trademarked goods but a limited or personal use        advanced than the device. An external fabricator
+license will restrict the number of copies available –       requires twice the amount of time to complete an item
+usually by making the item cost as much as a retail          but its mass, volume and cost is only 75% as much as
+version but not necessarily including the raw materials      a similarly scaled enclosed fabrication chamber. By
+as part of the deal. A commercial license can cost 100       moving either the fabricator or a construction platform,
+or more times the cost of an item, depending on the          an external fabricator can create arbitrarily large
+expected volume of sales and competitive factors – a         items, given enough time and raw materials. External
+corporation is normally not willing to be underbid by a      fabricators are available in standard sizes 10 times
+copycat producer but may grant a license in markets it       larger than standard enclosed fabricators.
+has little desire to serve.
+
+External Fabricator Multipliers
+Item                               Max TL (prior to TL17)          Time        Mass        Volume        Cost
+External Fabricator                TL-3                            x2          x0.75       x0.75         x0.75
+
+
+
+
+                                                                                                                         Equipment Availability
+
+
+
+
+                                                                                                                         9
+

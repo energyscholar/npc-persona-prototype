@@ -1,0 +1,58 @@
+                                                                              T      R       A       V       E        L     L      E      R
+
+
+
+                                                                                  DEEP-DIVING SUIT
+                                                                                  An armoured suit designed to allow the wearer to
+                MARINE ENVIRONMENTS                                               operate in extremely deep water. The deep-diving
+                                                                                  suit includes an advanced gel-breathing system
+                Many worlds have surfaces partially or completely
+                covered in water. To operate beneath the surface of               which is tremendously unpleasant to use but allows
+                this environment, Travellers that are neither aquatic nor         six hours of operation. The gel is tiring to breathe
+                amphibious will need equipment to survive. Diving depths          and is uncomfortable in both donning and removing
+                listed in this section assume Standard atmospheric                the suit, as the wearer must ‘drown’ in the gel and
+                pressure and gravity; deviation from these values will            then get it out of their lungs afterwards. The deep
+                affect diving depth inversely in a linear fashion.                diving suit will allow a wearer to descend to 600
+                                                                                  metres below sea level, increasing by 100 metres for
+                                                                                  each TL above 8. Extreme suits are also available,
+                ARTIFICIAL GILL                                                   with each extra 100 metres diving depth adding
+                An artificial gill extracts oxygen from water to allow
+                                                                                  Cr5000 to cost and four kilograms to mass. It
+                the user to breathe for an unlimited time while
+                                                                                  provides Protection +4 to the operator.
+                submerged. It functions only on worlds with Thin,
+                Standard or Dense atmospheres. As it extracts
+                oxygen dissolved in water, an artificial gill will not            Item           TL Effect                 Kg Cost
+                work in anoxic water conditions. Artificial gills require         Deep-Diving 8      Descend to 600+       22   Cr20000
+                the use of a life-support mask or similar.                        Suit               metres depth,
+                                                                                                     breathing gel, 6
+                Item           TL    Effect                  Kg    Cost                              hours ‘air’ supply,
+                                                                                                     Protection +4
+                Artificial Gill 8    Unlimited breathing 4         Cr4000
+                                     in oxygenated water
+
+                ATMOSPHERIC DIVING SUIT
+                This is a rigid suit capable of allowing a diver to operate
+                safely to depths of around 800 metres. The atmospheric
+                diving suit is large and clumsy but allows underwater
+                expeditions of up to three hours without requiring pre-
+                breathing or breathing a gel. It provides Protection +4.
+
+                Item            TL Effect                  Kg Cost
+                Atmospheric 7        Descend to 800        30     Cr24000
+                Diving Suit          metres without
+                                     pre-breathing,
+                                     3 hours air supply,
+                                     Protection +4
+Survival gear
+
+
+
+
+                                                                Deep-Diving Suit
+
+
+
+
+     112
+

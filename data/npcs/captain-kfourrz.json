@@ -1,0 +1,25 @@
+{
+  "id": "captain-kfourrz",
+  "name": "Captain Kfourrz",
+  "archetype": "adversary",
+  "title": "Vargr Corsair Captain / Enemy Negotiator",
+  "location": "external",
+  "location_detail": "Varies - Neutral Territory",
+  "campaign": "tuesday-spinward-marches",
+  "campaign_exclusive": true,
+  "personality": {
+    "traits": ["cunning", "charismatic", "pragmatic", "honorable-in-his-way"],
+    "speech": "accented Imperial, speaks of profit and honor, surprisingly reasonable",
+    "quirks": [
+      "respects worthy opponents",
+      "follows corsair codes",
+      "negotiates rather than fights when possible",
+      "keeps his word once given"
+    ]
+  },
+  "background": "Vargr corsair captain who has clashed with the Amishi. Sometimes enemy, sometimes negotiating partner. Operates by a code, even if it's not the Imperial one.",
+  "knowledge": ["corsair-operations", "vargr-culture", "regional-politics", "pirate-codes"],
+  "relationships": {
+    "amishi-crew": "adversary-sometimes-negotiator"
+  }
+}

@@ -1,0 +1,69 @@
+                                                                                        T      R        A       V       E        L       L         E    R
+
+
+
+                                                                                            ANTI-RAD
+                                                                                            Anti-rad drugs must be administered before or
+                            DRUGS AND PHARMACEUTICALS                                       immediately (within 10 minutes) after radiation exposure.
+                                                                                            They absorb up to 100 rads per dose. A user may only
+                            Unless otherwise stated, cost is for each dose of drug.
+                            Drugs may aid the Traveller in many ways, however               use anti-rad drugs once per day – taking any more causes
+                            even strictly medical drugs are often restricted and            permanent END damage of 1D per dose, although these
+                            some drugs have significant side-effects, including             subsequent doses do absorb additional radiation.
+                            addiction and withdrawals.
+                                                                                            Item       TL Effect                        Kg Cost
+                            ADRENALISER                                                     Anti-rad 8      Absorbs up to 100 rads      —    Cr1000
+                            An injected cocktail of alien adrenalines, this drug is
+                            used to keep the user awake and active for many hours
+                            at a time. Although it is known to have a detrimental
+                            ‘crash’ when it wears off, soldiers on patrol duty will
+                            sometimes use adrenaliser to stay alert and it tends to             ANAGATHICS WITHDRAWAL
+                            be very popular among medical students. One dose                   Anagathics are always expensive, often illegal
+                            of the drug is the equivalent of 10 hours of sleep and             and are based on a variety of methods. These
+                            enables a user to function for the next 36 hours without           include synthetic molecules, exotic biology and
+                            penalty, after which they will have 2D x five minutes to           nanomachinery. All of these pause the aging
+                            find someplace to lay down – because the amount of lost            process but once a Traveller begins an anagathics
+                            sleep will hit them without fail at the end of that time.          regimen they must remain on the same treatment.
+                                                                                               Failure to continue the treatment can have side-
+                            Initial recovery requires 10 or more hours of rest.                effects beyond the resumption of aging.
+                            Taking additional adrenaliser drugs during this period
+                            will keep the user awake but effective DEX and INT                 If more than 30 days passes between doses, aging
+                            will decrease by one per hour until the user begins a              will resume on a one-to-one daily basis but the body
+                            sleep period; recovery of lost characteristics points              will also begin to suffer from the absence of the
+                            (at one per hour) does not begin until after the user              age-negating substance. After 53 + 2D days has
+                            has slept for 10 hours.                                            passed since the last dose, the Traveller suffers a
+                                                                                               withdrawal effect and must make a Difficult (10+)
+                                                                                               END check. Failure results in the Traveller aging a
+                            Item          TL    Effect                  Kg Cost                number of years equal to the negative Effect and
+                            Adrenaliser 10      Allows 36 hours of      —     Cr150            temporarily losing END equal to the Effect. The
+                                                alertness                                      Traveller recovers END at one per day as the body
+                                                                                               adjusts to an anagathics-free state.
+                            ANAGATHICS
+                            These drugs slow the Traveller’s aging process.                    If the check is successful, the Traveller still
+Medical and Care Supplies
+
+
+
+
+                            Synthetic anagathics become possible at TL15 but there             continues to age but must make a subsequent
+                            are some natural spices and other rare compounds                   check after as many months as the positive
+                            that have comparable effects, although all are illegal or          Effect. A second successful check indicates the
+                            heavily controlled on many worlds. One dose must be                Traveller has successfully avoided withdrawal
+                            taken each month to maintain the anti-aging effect.                symptoms. A failure of this second check
+                                                                                               results in milder symptoms: the Traveller still
+                                                                                               experiences the temporary END loss but only
+                            Item          TL Effect                   Kg Cost                  ages the number of months equal to the Effect.
+                            Anagathics 15 Pauses aging process —            Cr20000
+                                          for one month                                        As long as the Traveller resumes anagathics
+                                                                                               treatment before suffering a withdrawal effect,
+                                                                                               the only detriment to intermittent or stretched-out
+                                                                                               use of anagathics is the resumption of aging after
+                                                                                               30 days. If the Traveller switches to a different
+                                                                                               method of anagathics treatment, then withdrawal
+                                                                                               effects from the previous method still occur.
+
+
+
+
+              92
+

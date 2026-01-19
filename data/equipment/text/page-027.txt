@@ -1,0 +1,61 @@
+                                                                     T      R        A       V       E       L       L       E      R
+
+
+                                                                         A belt that can be worn with or without the torso piece.
+                                                                         Its pockets contain over-gloves and safety tethers, a
+         TACTICAL VIDEO SUITE                                            battery-powered lamp with a one-hour power supply,
+         More than just a remote camera monitor, the tactical            plus two emergency disposable gas thruster units that
+         video suite uses several small video cameras and                allow a stranded spacefarer to return to their ship. The
+         microphones to monitor and record everything for                suit can be fed with power and air from an external
+         real-time or later viewing. More advanced versions              source – a feed is normally found at all starship crew
+         are reduced in size and increase the amount of data             duty stations – or run off the belt’s batteries and air
+         stored. When attached to a transceiver, these transmit          supply. For extended operations, the manufacturer
+         to a central intelligence hub, allowing for real-time           recommends the use of the torso unit, which contains
+         monitoring of the wearer and granting DM+1 to all               an extended air supply.
+         Tactics (military) checks made by viewers.
+                                                                         Vacc Suit
+         Tactical                                                        Accessory
+         Video Suite TL Effect                         Kg Cost           Pack      TL Effect                        Kg Cost
+         Basic            7     10 hours storage       2    Cr100        Basic           9   +10 Rads, life support 10   Cr6000
+         Improved         8     24 hours storage       1    Cr200                            1hr (belt), +4hr (torso)
+         Advanced         10 72 hours storage          —    Cr500        Improved        12 +20 Rads, life support 4     Cr6000
+                                                                                            1hr (belt), +6hr (torso)
+         THRUSTER PACK                                                   Advanced        14 +25 Rads, life support 2     Cr8000
+         A basic thruster pack gives the Traveller the ability to                           1hr (belt), +8hr (torso)
+         manoeuvre in zero-gravity over short distances at an
+         Idle speed. An Athletics (dexterity) check is required
+         to use a thruster pack accurately. Basic thruster
+         packs can only be used in microgravity environments.
+         Improved thruster packs allow 0.1G acceleration for up
+         to 48 hours, using standard starship fuel. The advanced
+         pack uses grav-thruster plates but has the same
+         performance profile as the improved version.
+
+         Thruster
+         Pack         TL Effect                    Kg Cost
+         Basic        7       Microgravity Idle    6       Cr2000
+                              speed movement
+         Improved     12 48 hours 0.1G             6       Cr14000
+                         acceleration –
+                         reaction drive
+         Advanced 14 48 hours 0.1G                 2       Cr20000
+                     acceleration – grav-
+                     thruster plates
+Armour
+
+
+
+
+         VACC SUIT ACCESSORY PACK
+         Available for tailored and light-duty vacc suits, the
+         accessory pack contains a solid helmet and semi-
+         rigid torso piece which provides additional armour
+         protection (Protection +6 to suits with less inherent
+         armour), although this is intended to protect against
+         micrometeorites and some radiation.                                                             Thruster Pack
+
+
+
+
+   26
+
