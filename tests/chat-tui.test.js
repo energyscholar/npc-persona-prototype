@@ -85,7 +85,7 @@ test('listPersonas returns all NPCs when no world specified', () => {
 
 test('listPersonas filters by world "Walston"', () => {
   const walston = listPersonas('Walston');
-  assert(walston.length === 10, `Expected 10 Walston NPCs, got ${walston.length}`);
+  assert(walston.length === 12, `Expected 12 Walston NPCs, got ${walston.length}`);
   assert(walston.includes('minister-greener'), 'Should include minister-greener');
   assert(walston.includes('narrator-high-and-dry'), 'Should include narrator');
   assert(walston.includes('alex-ryder'), 'Should include alex-ryder');
