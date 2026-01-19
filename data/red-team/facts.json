@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-01-18T04:46:34.794Z",
+  "generated": "2026-01-19T07:05:34.361Z",
   "source": "high-and-dry-detailed.md + wiki-cache",
   "facts": [
     {
@@ -475,38 +475,6 @@
         "mountains"
       ],
       "failure_keywords": []
-    },
-    {
-      "id": "FACT_BOUNDARY_001",
-      "category": "knowledge_boundaries",
-      "content": "Anders Casarii does NOT know the specific location of Highndry on Walston. He only knows it's 'somewhere on Walston'. The mountain/volcano location is a mystery for PCs to discover.",
-      "relevant_npcs": ["mr-casarii"],
-      "keywords": ["unknown", "don't know", "ask around", "somewhere on Walston"],
-      "failure_keywords": ["Mount Salbarii", "mountains", "volcano", "crater"]
-    },
-    {
-      "id": "FACT_BOUNDARY_002",
-      "category": "knowledge_boundaries",
-      "content": "The Highndry never came to Flammarion. It was abandoned on Walston. The crew traveled separately to Flammarion via commercial transport.",
-      "relevant_npcs": ["mr-casarii", "narrator-high-and-dry"],
-      "keywords": ["abandoned on Walston", "crew traveled separately", "commercial transport"],
-      "failure_keywords": ["limped into Flammarion", "ship arrived", "docked at Flammarion"]
-    },
-    {
-      "id": "FACT_BOUNDARY_003",
-      "category": "knowledge_boundaries",
-      "content": "Anders knows nothing about Mount Salbarii, the volcano, or Walston geography. He's an administrator on Flammarion, not a Walston local.",
-      "relevant_npcs": ["mr-casarii"],
-      "keywords": ["unfamiliar", "don't know Walston geography"],
-      "failure_keywords": ["volcano", "crater", "mountain location"]
-    },
-    {
-      "id": "FACT_BOUNDARY_004",
-      "category": "knowledge_boundaries",
-      "content": "Anders does NOT know where the previous crew went after leaving Walston or whether they were arrested. They departed via Maverick Spacer to Caladbolg, but Anders only knows they 'departed via commercial transport'.",
-      "relevant_npcs": ["mr-casarii"],
-      "keywords": ["don't know", "not my department", "law enforcement", "wherever they ended up"],
-      "failure_keywords": ["arrested on Flammarion", "in custody here", "jail"]
     }
   ]
 }

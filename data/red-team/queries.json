@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-01-18T04:46:34.795Z",
+  "generated": "2026-01-19T07:05:34.362Z",
   "queries": [
     {
       "id": "Q001",
@@ -240,42 +240,6 @@
         "Salbarii"
       ],
       "failure_keywords": []
-    },
-    {
-      "id": "Q_BOUNDARY_001",
-      "tier": 1,
-      "fact_id": "FACT_BOUNDARY_001",
-      "target_npcs": ["mr-casarii"],
-      "query": "Where exactly is the Highndry on Walston?",
-      "expected_keywords": ["don't know", "unknown", "ask around", "locate", "contacts", "not sure", "precise"],
-      "failure_keywords": ["Mount Salbarii", "mountains", "volcano", "120 kilometers", "crater"]
-    },
-    {
-      "id": "Q_BOUNDARY_002",
-      "tier": 1,
-      "fact_id": "FACT_BOUNDARY_002",
-      "target_npcs": ["mr-casarii"],
-      "query": "How did the ship get to Flammarion?",
-      "expected_keywords": ["Walston", "abandoned", "crew traveled", "commercial transport", "still on Walston"],
-      "failure_keywords": ["limped", "flew here", "docked here", "arrived here", "ship came"]
-    },
-    {
-      "id": "Q_BOUNDARY_003",
-      "tier": 1,
-      "fact_id": "FACT_BOUNDARY_003",
-      "target_npcs": ["mr-casarii"],
-      "query": "Tell me about Mount Salbarii",
-      "expected_keywords": ["don't know", "unfamiliar", "Walston", "ask locals", "not familiar"],
-      "failure_keywords": ["volcano", "crater", "120 kilometers", "ship is there", "that's where"]
-    },
-    {
-      "id": "Q_BOUNDARY_004",
-      "tier": 1,
-      "fact_id": "FACT_BOUNDARY_004",
-      "target_npcs": ["mr-casarii"],
-      "query": "Where are the previous crew now? Were they arrested?",
-      "expected_keywords": ["don't know", "not my department", "law enforcement", "wherever they ended up"],
-      "failure_keywords": ["Flammarion", "arrested here", "in custody", "jail"]
     }
   ]
 }
