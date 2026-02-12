@@ -1,33 +1,32 @@
 # Plan: Tuesday Campaign NPC Contexts
 
-**Status:** READY FOR GENERATOR
+**Status:** ✅ COMPLETE
 **Date:** 2026-01-18
+**Verified:** 2026-01-19
 
 ---
 
-## CRITICAL: Role Verification
+## Completion Summary
 
-**Before ANY action, use AskUserQuestion tool to confirm role:**
+**All 44 tests pass.** Implementation verified by Auditor.
 
-```javascript
-AskUserQuestion({
-  questions: [{
-    question: "What is my role for this task?",
-    header: "Role",
-    options: [
-      { label: "Auditor", description: "Write tests, verify plan, provide Generator handoff prompt" },
-      { label: "Generator", description: "Read plan, implement code, run tests until pass" }
-    ],
-    multiSelect: false
-  }]
-})
-```
+| Requirement | Status |
+|-------------|--------|
+| campaign-contexts.js module | ✅ 5/5 tests |
+| Shipboard contexts (5 types) | ✅ 6/6 tests |
+| External contexts (4 types) | ✅ 4/4 tests |
+| Vera updated (psionic trainer) | ✅ 5/5 tests |
+| Location fields on NPCs | ✅ 11/11 tests |
+| getContextsForNpc function | ✅ 3/3 tests |
+| NPC count ≥25 | ✅ 33 NPCs exist |
+| Key NPCs exist | ✅ 9/9 tests |
 
-**Then:**
-- If Auditor → Review plan, refine tests, issue handoff prompt
-- If Generator → Read plan, implement deliverables, run tests
+**Test file:** `tests/tuesday-npc-contexts.test.js`
+**Run:** `npx jest tests/tuesday-npc-contexts.test.js`
 
-**Never self-assign. Never assume. Always ask via UQ.**
+---
+
+## Original Plan (for reference)
 
 ---
 
