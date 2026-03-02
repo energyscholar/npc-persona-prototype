@@ -1,3 +1,38 @@
 {
-  "relationships": {}
+  "relationships": {
+    "minister-greener:alex-ryder": {
+      "level": 1,
+      "history": [
+        {
+          "date": "015-1105",
+          "change": 1,
+          "reason": "Polite introduction",
+          "from": 0,
+          "to": 1
+        }
+      ],
+      "impressions": [],
+      "label": "favorable"
+    }
+  }
 }
+  }
+}  "reason": "Bought rounds for the bar",
+          "from": 1,
+          "to": 3
+        }
+      ],
+      "impressions": [],
+      "label": "allied"
+    }
+  }
+},
+          "from": 0,
+          "to": 2
+        }
+      ],
+      "impressions": [],
+      "label": "friendly"
+    }
+  }
+}"test-npc:alex-r
